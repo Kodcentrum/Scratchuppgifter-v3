@@ -1,6 +1,6 @@
 # Kodstugans övningar
 
-_Här finns uppgifter för [Scratch](https://scratch.mit.edu) som används i Kodcentrums verksamhet och på Kodboken.se._
+_Här finns uppgifter som är omarbetade för [Scratch 3.0] som än så länge finns som BETA men som lanseras i januari 2019 (https://beta.scratch.mit.edu) och som då kommer att användas i Kodcentrums verksamhet och på Kodboken.se._
 
 Tanken är att alla ska kunna hjälpas åt att förbättra övningarna. Om du vill hjälpa till så läs igenom [riktlinjerna](CONTRIBUTING.md).
 
