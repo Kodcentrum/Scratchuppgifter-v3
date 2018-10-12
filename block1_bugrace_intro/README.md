@@ -7,7 +7,7 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Hur kommer spelet Bug Race se ut? <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Ett exempel på det färdiga spelet kan du finna på www.scratch.mit.edu</a>.
 
-![image alt text](example.png)
+![image alt text](BugRace_Intro_exempelspel.png)
 
 Då börjar vi!
 
