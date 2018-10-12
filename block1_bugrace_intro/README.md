@@ -52,7 +52,7 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
   Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare! 
 
-  ![image alt text](BugRace Intro_ritad_bana_bakgrund_exempel.png)
+  ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
 
 ## 3: Ditt första skript
@@ -73,7 +73,7 @@ Gör såhär:
 
 7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma ytan till höger) och släpp den någonstans där. 
 
-  ![image alt text](  ![image alt text](image_11.png))
+  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
 
 Välj sedan den blå rubriken **RÖRELSE** och välj blocket **"gå 10 steg"**. Lägg detta block  under det första blocket med den gröna flaggan på scriptytan och koppla ihop de två som om de vore pusselbitar.
 
@@ -88,13 +88,13 @@ Välj sedan den blå rubriken **RÖRELSE** och välj blocket **"gå 10 steg"**. 
 8. Under rubriken **KONTROLL** finns scriptblocket **"för alltid"**. Det här är en LOOP, en **repetition** av något som sker om och om igen, som kommer göra att skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
 Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
 
-  ![image alt text](Koda_Exempelscript-KONTROLL-För Alltid-loop.png)
+  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
   _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
 
 > Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
 
-  ![image alt text](Koda_Exempelscript_RÖRELSE-Ändra i variabel_sänk hastigheten Sprajts rörelse.png)
+  ![image alt text](Koda_Exempelscript_RÖRELSE-Ändra_i_variabel-sänk_hastigheten_Sprajts_rörelse.png)
 
 
 ## 4: Sätt en Startposition
@@ -105,7 +105,7 @@ Innan du gör ditt skript, flytta skalbaggen till den startposition på banan so
 
 9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
-  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå till X_Y_Startposition.png)
+  ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
 Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
 
@@ -118,19 +118,19 @@ Gör såhär:
 
 10. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
 
-  ![image alt text](Koda_HÄNDELSER-När Mellanslag Trycks Ned_tangentbord-styrfunktion.png)
+  ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
 
 Bredvid ordet **mellanslag** i dessa två block finns en liten svart triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
 
-  ![image alt text](Exempelbild_Händelser_Byt tangentbordsknapp-funktion.png)
+  ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
 
 11. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil trycks ned"** och **"när högerpil trycks ned"**.
 
-  ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra Sprajten med piltangent-funktion.png)
+  ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
 
 > Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet i rörelse-blocket!
 
-  ![image alt text](Koda_RÖRELSE-Ändra i variabel_sänk hastigheten Sprajts rörelse.png)
+  ![image alt text](Koda_RÖRELSE_Ändra_i_variabel-sänk_hastigheten_Sprajts_rörelse.png)
 
 
 ## 6: Ändra startriktning
@@ -139,7 +139,7 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 
 12. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
-  ![image alt text](Koda_Exempelscript_RÖRELSE-Peka i 90 graders riktning.png)
+  ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
 
 > Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
 
@@ -158,15 +158,15 @@ Gör såhär:
   
 14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
 
-  ![image alt text](Koda_KÄNNA AV-Rör vid färgen-block.png)
+  ![image alt text](Koda_KÄNNA AV-Rör_vid_färgen-block.png)
 
 Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. Tryck sedan på den lilla fyrkanten med färg i (till höger om texten **"rör färgen"**) så du får fram en liten hand som symbol. Flytta handen till spelets bakgrundsyta med annan färg än banan och klicka en gång - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelets bakgrund. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
 
-  ![image alt text](Koda_Exempelscript_KÄNNA AV-Rör vid färgen-block i OM__DÅ-block.png)
+  ![image alt text](Koda_Exempelscript_KÄNNA AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
 
 15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
-  ![image alt text](Koda_UTSEENDE-Säg__i 2 sekunder.png)
+  ![image alt text]( 	Koda_UTSEENDE-Säg__i_2_sekunder.png)
 
 > Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
 
@@ -179,11 +179,11 @@ Gör såhär:
 
 16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
-  ![image alt text](Koda_exempelbild_BugRace Intro_lägg OM-DÅ in i För Alltid-loop.png)
+  ![image alt text](Koda_exempelbild_BugRace Intro_lägg OM-DÅ_in_i_För_Alltid-loop.png)
 
 17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till scriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"**.
 
-  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa alla-block_byt till Stoppa detta script.png)
+  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa alla-block_byt_till_Stoppa_detta_script.png)
 
 Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
 
@@ -193,7 +193,7 @@ Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sä
 ## Färdig!
 Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
 
- ![image alt text](Koda_exempelbild_färdigt script Bug Race Intro.png)
+ ![image alt text](Koda_exempelbild_färdigt_script_BugRaceIntro.png)
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
@@ -216,6 +216,6 @@ Tips på hur du kan bygga vidare på Bug Race får du i nästa uppgift som heter
 
 * Varför kan det vara bra att använda en loop?
 
-* Vad är ett INIT- eller Start-Skript?
+* Vad är ett INIT-Script eller Start-Script?
 
 * Vad händer i spelet Bug Race om sprajten har samma färg som bakgrunden?
