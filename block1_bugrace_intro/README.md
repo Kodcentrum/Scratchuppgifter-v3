@@ -168,15 +168,15 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
 > **Testa ditt projekt**  
-Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst för att andra ska kunna hitta spelet på Scratch. 
+Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det.
 
-> Tänk på att om du delar ditt projekt kan alla som vill se och prova det. Det är viktigt att du inte sparar och delar något där du lagt in information eller bilder du inte vill sprida till andra.
+> **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
 
 
 ## Utmaning
 Saknas något? Hur skulle du vilja utveckla spelet?
 
-Tips på hur du kan bygga vidare på Bug Race får du i nästa uppgift som heter Bug Race Tillägg, där du får bland annat tips om  hur du skapar Bug race för två spelare samtidigt, med mera.
+Tips på hur du kan bygga vidare på Bug Race får du i nästa uppgift som heter Bug Race Tillägg. Där kan du bland annat skapa Bug Race för två spelare samtidigt och göra en mjukare styrning av sprajtarna.
 
 ## Frågeställningar
 
@@ -188,4 +188,4 @@ Tips på hur du kan bygga vidare på Bug Race får du i nästa uppgift som heter
 
 * Vad är ett INIT- eller Start-Skript?
 
-* Vad händer i spelet om sprajten har samma färg som bakgrunden?
+* Vad händer i spelet Bug Race om sprajten har samma färg som bakgrunden?
