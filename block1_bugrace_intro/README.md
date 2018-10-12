@@ -140,8 +140,6 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
   ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
 
 > Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
-
-  ![image alt text](Ändra_Riktning_Sprajt-funktion.png)
   
   ![image alt text](Koda_exempelbild_RÖRELSE-Ändra_peka_i_riktning_gradantal.png)
 
@@ -157,12 +155,11 @@ Gör såhär:
   ![image alt text](Koda_KONTROLL-Om-Då-block.png)
   
 14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-
-  ![image alt text](Koda_KÄNNA_AV-Rör_vid_färgen-block.png)
-
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. Tryck sedan på den lilla fyrkanten med färg i (till höger om texten **"rör färgen"**) så du får fram en liten hand som symbol. Flytta handen till spelets bakgrundsyta med annan färg än banan och klicka en gång - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelets bakgrund. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
+Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. 
 
   ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
+
+Tryck sedan på den lilla fyrkanten med färg i (till höger om texten **"rör färgen"**) så du får fram en liten hand som symbol. Flytta handen till spelets bakgrundsyta med annan färg än banan och klicka en gång - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelets bakgrund. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
 
 15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
