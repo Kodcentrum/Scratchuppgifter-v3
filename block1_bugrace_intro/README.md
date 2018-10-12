@@ -44,11 +44,11 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
 5. Tryck på symbolen som ser ut som en målarburk: **FYLL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan ovanför och fyll bakgrunden med den genom att ställa in färgen du vill ha (dra i de olika reglagen tills du är nöjd med din färg) och sedan på den stora vita bakgrunden under. Vi har valt en grön färg på bakgrunden i vårt exempelspel.
 
-  ![image alt text](RITA-Fyll_Med_Färg-knapp.png)
+  ![image alt text](RITA-Fyll_Med_Färg-knapp.png)  ![image alt text](RITA_Välj_Färg-funktion.png)
 
 6. Tryck på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. Rita nu en bana som en oval (utdragen cirkel) - gör den så stor som du kan, utan att den hamnar utanför spelets ruta! Här har vi valt en grå färg på banan.
 
-  ![image alt text](RITA_Pensel-Storlek-knapp.png)
+ ![image alt text](RITA_Pensel-knapp.png)  ![image alt text](RITA_Pensel-Storlek-knapp.png)
 
   Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare! 
 
