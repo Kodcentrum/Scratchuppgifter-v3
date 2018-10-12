@@ -155,7 +155,7 @@ Gör såhär:
 
 16. Lägg skriptet som känner av färgen omkring banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
-17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa detta skript"**. Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar.
+17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Lägg in detta block längst ned inuti skriptet med **"om <> då"**. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"** På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
 
 > Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
 
