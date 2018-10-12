@@ -17,7 +17,7 @@ En **sprajt** är alla de figurer eller andra saker du väljer att lägga in i d
 
 I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
 
-1. Tryck på **saxen** (högt uppe i mitten ovanför katten) och klicka sedan på katten så försvinner den - du har nu klippt bort den ur projektet.
+1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den - du har nu tagit bort den ur projektet.
 
     ![image alt text](Ta bort Sprajt.png)
 
