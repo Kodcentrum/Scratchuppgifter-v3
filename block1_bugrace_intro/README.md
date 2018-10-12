@@ -19,7 +19,7 @@ I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska
 
 1. Tryck på **saxen** (högt uppe i mitten ovanför katten) och klicka sedan på katten så försvinner den - du har nu klippt bort den ur projektet.
 
-    ![image alt text](image_2.png)
+    ![image alt text](Ta bort Sprajt.png)
 
 2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
 
