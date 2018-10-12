@@ -40,15 +40,15 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
 4. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
-    ![image alt text](Aktivera_Scen_Bakgrund.png)	![image alt text](Aktivera_Bakgrunder-flik.png)
+    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 5. Tryck på symbolen som ser ut som en målarburk: **FYLL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan ovanför och fyll bakgrunden med den genom att ställa in färgen du vill ha (dra i de olika reglagen tills du är nöjd med din färg) och sedan på den stora vita bakgrunden under. Vi har valt en grön färg på bakgrunden i vårt exempelspel.
 
-  ![image alt text](RITA-Fyll_Med_Färg-knapp.png)  ![image alt text](RITA_Välj_Färg-funktion.png)
+  ![image alt text](RITA-Fyll_Med_Färg-knapp.png)      ![image alt text](RITA_Välj_Färg-funktion.png)
 
 6. Tryck på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. Rita nu en bana som en oval (utdragen cirkel) - gör den så stor som du kan, utan att den hamnar utanför spelets ruta! Här har vi valt en grå färg på banan.
 
- ![image alt text](RITA_Pensel-knapp.png)  ![image alt text](RITA_Pensel-Storlek-knapp.png)
+ ![image alt text](RITA_Pensel-knapp.png)      ![image alt text](RITA_Pensel-Storlek-knapp.png)
 
   Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare! 
 
@@ -120,17 +120,15 @@ Gör såhär:
 
   ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
 
-Bredvid ordet **mellanslag** i dessa två block finns en liten svart triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
+Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
 
   ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
 
-11. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil trycks ned"** och **"när högerpil trycks ned"**.
+11. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
 
   ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
 
-> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet i rörelse-blocket!
-
-  ![image alt text](Koda_RÖRELSE_Ändra_i_variabel-sänk_hastigheten_Sprajts_rörelse.png)
+> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet genom att ändra variabelsiffran i rörelse-blocket!
 
 
 ## 6: Ändra startriktning
@@ -144,6 +142,8 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 > Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
 
   ![image alt text](Ändra_Riktning_Sprajt-funktion.png)
+  
+  ![image alt text](Koda_exempelbild_RÖRELSE-Ändra_peka_i_riktning_gradantal.png)
 
 
 ## 7: Känna av när skalbaggen åker av banan
@@ -158,15 +158,15 @@ Gör såhär:
   
 14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
 
-  ![image alt text](Koda_KÄNNA AV-Rör_vid_färgen-block.png)
+  ![image alt text](Koda_KÄNNA_AV-Rör_vid_färgen-block.png)
 
 Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. Tryck sedan på den lilla fyrkanten med färg i (till höger om texten **"rör färgen"**) så du får fram en liten hand som symbol. Flytta handen till spelets bakgrundsyta med annan färg än banan och klicka en gång - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelets bakgrund. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
 
-  ![image alt text](Koda_Exempelscript_KÄNNA AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
+  ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
 
 15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
-  ![image alt text]( 	Koda_UTSEENDE-Säg__i_2_sekunder.png)
+  ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
 
 > Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
 
@@ -179,11 +179,11 @@ Gör såhär:
 
 16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
-  ![image alt text](Koda_exempelbild_BugRace Intro_lägg OM-DÅ_in_i_För_Alltid-loop.png)
+  ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
 
 17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till scriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"**.
 
-  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa alla-block_byt_till_Stoppa_detta_script.png)
+  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
 
 Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
 
