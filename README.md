@@ -1,4 +1,4 @@
-# Kodstugans övningar
+# Kodstugan/Kodboken Scratch-övningar 3.0
 
 _Här finns uppgifter som är omarbetade för [Scratch 3.0] som än så länge finns som BETA men  lanseras i januari 2019 (https://beta.scratch.mit.edu) : Scratch 3.0 kommer då att användas i Kodcentrums verksamhet och på Kodboken.se._
 
