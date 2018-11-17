@@ -1,49 +1,49 @@
 # Fotbollsspel
 
-Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
+Det här är ett enkelt spel för dig som har börjat lära dig litegrann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 
 Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/72797634/" target="_blank">https://scratch.mit.edu/projects/72797634/<a/>
 
 ![image alt text](image_0.png)
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  Öppna även verktyget Scratch på sajten scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
-  Då börjar vi koda!
+Då börjar vi koda!
 
 ## 1: Välj sprajtar för fotbollsspelare och boll
 
 Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.
 
-1. Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
+1. Ta bort katt-sprajten.
 
-  ![image alt text](image_1.png)
+  ![Ta bort sprajt](ta-bort-sprajt.png)
 
-2. Nu vill du lägga till de nya sprajtarna. Tryck på knappen för NY SPRAJT:
+2. Nu vill du lägga till de nya sprajtarna. Tryck på knappen "Välj en sprajt":
 
-  ![image alt text](image_2.png)
+  ![Välj en sprajt](ny-sprajt-knapp.png)
 
-  Välj vilken sprajt du vill använda som spelare. I det här exemplet har vi valt en pingvin: **Djur/Penguin2 Talk** men du kan välja någon annan figur också. Tryck sedan på NY SPRAJT igen och lägg till en fotboll: **Saker/Soccer Ball** från biblioteket.
+  Välj vilken sprajt du vill använda som spelare. I det här exemplet har vi valt en pingvin: **Djur > Penguin 2** men du kan välja någon annan figur också. Lägg sedan till en ny sprajt i form av en fotboll: **Sport > Soccer Ball**.
 
-3. Du behöver minska storleken på sprajtarna, så att de får en större yta att spela på. Se till så att spelaren blir något mindre än bollen. Tryck på förminskningsknappen och sedan på sprajten tills den är lagom stor.
+3. Du behöver minska storleken på sprajtarna, så att de får en större yta att spela på. Se till så att spelaren blir något mindre än bollen. Välj fotbollen och ändra storleken till 175 samt ändra storleken på spelaren till 75.
 
-  ![image alt text](image_3.png)
+  ![Ändra storleken](andra-storlek-sprajt.png)
 
-4. Sprajtarnas *rotationsstil* är också viktigt för spelet. De flesta sprajtar är förinställda på "full rotation" och det göra att din spelare hamnar upp och ned när den rör sig. Ställ in så att spelaren bara ska kunna rotera åt "vänster-höger". För bollen fungerar "full rotation".
+4. Ändra klädsel på spelaren (om det är pingvinen) så att den tittar åt höger.
 
-  ![image alt text](image_4.jpg)   ![image alt text](image_5.jpg)
-
+  ![Byt klädsel](penguin2-kladsel-b.png)
 
 ## 2: Fotbollsplan som bakgrund
 
 Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enkelt!
 
-5. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
+5. För att ändra bakgrunden trycker du först på Scen och sedan på fliken Bakgrunder högst upp.
 
-  ![image alt text](image_6.png)	![image alt text](image_7.png)
+  ![Välj scen](aktivera-scen-bakgrund.png)	![Välj bakgrunder](aktivera-bakgrunder-flik.png)
 
+6. Tryck på Rektangel-verktyget och välj en grön färg. Rita ut en stor rektangel på bakgrunden och dra ut sidorna så rektangeln fyller hela bakgrunden.
 
-6. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
+![Välj Rektangel](rita-rektangel-knapp.png)	![Välj färg](rita-valj-farg-funktion.png)  ![Dra ut rektangel](fyll-bakgrund.png)
 
 7. Rita ett mål i höger kant med REKTANGEL-verktyget. Målet ska vara vitt. Välj sedan PENSEL eller OVAL och gör en halvcirkel utanför målet, med en färg som ser vit ut men har en annan nyans än målet. Det är viktigt att du använder **två olika vita nyanser**, du kommer att förstå varför senare!
 
