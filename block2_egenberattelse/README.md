@@ -30,45 +30,42 @@ Samtidigt som du ritar upp berättelsen steg för steg, behöver du fundera på 
 
 Börja med att ta bort katten och välja en ny sprajt till din berättelse. Du behöver en huvudkaraktär, men kanske också några fler karaktärer som ska vara med?
 
-2. Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
+2. Ta bort katten genom att trycka på krysset på katt-sprajten.
 
-  ![image alt text](image_0.png)
+  ![Ta bort sprajt](ta-bort-sprajt.png)
 
-3. Gå till biblioteket för att välja en ny sprajt, tryck på knappen för "Välj sprajt från bibliotek". Om du hellre vill rita en egen huvudkaraktär, välj "Rita ny sprajt" (penseln).
+3. Tryck på "Välj en sprajt"-knappen för att gå till biblioteket och välja en ny sprajt.
 
-  ![image alt text](image_1.png)
+  ![Ny sprajt](ny-sprajt-knapp.png)
 
-4. Om du behöver ändra storlek på sprajten, tryck på knappen med pilar inåt eller utåt och sedan på sprajten tills den är lagom stor.
+4. Om du behöver ändra storlek på sprajten kan du ändra i textboxen för storlek. 
 
-  ![image alt text](image_2.png)
+  ![Ändra storlek](andra-storlek-sprajt.png)
 
 
 ## 3: VAR – välja bakgrund
 
 Nu ska du välja bakgrund för din berättelse, en eller flera olika ifall du vill kunna byta scen i berättelsen. Du kan använda färdiga bakgrunder från biblioteket, eller rita själv.  
 
-5. För att ändra bakgrund trycker du först på SCEN längst till vänster.  Nedanför kan du trycka på "Välj bakgrund från bibliotek". Vill du rita själv går du in på fliken BAKGRUNDER högst upp i mitten.
+5. Tryck på "Välj en bakgrund"-knappen för att välja en ny bakgrund.
 
-  ![image alt text](image_3.png)	![image alt text](image_4.png)
-
-**Tips:** Ska du rita flera bakgrunder trycker du på "Rita ny bakgrund" för att skapa en ny rityta. Du kan även kopiera din första bakgrund om du vill använda samma miljö men t ex rita till ett hus som sprajten ska komma fram till.
-
+  ![Ny bakgrund](ny-bakgrund-knapp.png)
 
 ## 4: Animera berättelsen med skript
 
-Nu när du har sprajt och bakgrund färdig kan du börja skapa ditt första skript. Det är skripten som ska ANIMERA din berättelse, få saker att hända i den.
+Nu när du har en sprajt och bakgrund färdig kan du börja skapa ditt första skript. Det är skripten som ska **animera** din berättelse, få saker att hända i den.
 
 Eftersom det är din berättelse behöver du själv prova dig fram och hitta de skript du behöver. Titta gärna på dina tidigare projekt och hur du gjorde skripten då. Här får du några tips på användbara skript för att skapa en berättelse.
 
-> Gör **ett skript i taget och testa** ofta, tryck på START-knappen och se om skriptet gör det som du hade tänkt. Kom ihåg att **spara** ofta!
+> Gör **ett skript i taget** och **testa ofta**. Tryck på START-knappen och se om skriptet gör det som du hade tänkt. Kom ihåg att **spara ofta**!
 
 * **Vad ska hända när berättelsen startar?**
 
-Använd blocket **"när START (flaggan) klickas på"** från **HÄNDELSER**.
+Använd blocket **"när flaggan klickas på"** från **Händelser**.
 
-  ![image alt text](image_5.png)
+  ![När flagga klickas på](koda-handelser-nar-start-klickas-pa.png)
 
-Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:"** från **RÖRELSE**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
+Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:"** från **Rörelse**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
 
   ![image alt text](image_6.png)
 
@@ -78,7 +75,7 @@ Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du 
 
 * **Hur ska sprajten röra sig?**
 
-  Använd block från **RÖRELSE**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg. **Om sprajten ska röra sig under hela berättelsen**, eller **upprepa ett mönster av olika rörelse**r, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
+  Använd block från **Rörelse**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg. **Om sprajten ska röra sig under hela berättelsen**, eller **upprepa ett mönster av olika rörelse**r, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
 
   ![image alt text](image_10.png)
 
