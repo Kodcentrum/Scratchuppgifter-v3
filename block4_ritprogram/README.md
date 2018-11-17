@@ -4,7 +4,7 @@ Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk
 
 Du kan se ett exempel på ritprogrammet här: <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">https://scratch.mit.edu/projects/82515788</a>
 
-![Exempel på ritprogrammet](image_0.jpg)
+![Exempel på ritprogrammet](image_0.png)
 
 
 ## 1: En penna som kan rita
