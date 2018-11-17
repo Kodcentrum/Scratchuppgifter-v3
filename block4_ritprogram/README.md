@@ -162,7 +162,7 @@ Verkar det krångligt? Här är några tips!
 
 > Testa ditt projekt! Klicka på START och rita något. Syns pennan? Vad händer med pennan när du lämnar ritytan? Kan du fortfarande rita inom ritytan? Kan du rita utanför ritytan?
 
-![Exempel på koordinatkollar](image_13.jpg)
+![Exempel på koordinatkollar](image_13.png)
 *Så här ser vårt exempel ut, tänk på att du behöver skriva in koordinaterna för din rityta!*
 
 
