@@ -201,11 +201,11 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 5. Precis som molnet Cloud är spindeln **"ladybug2"** en helt vanlig inssikt men kan få flera utseende genom att man kopierar och gör fler klädslar. Kopiera **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
 
-![image alt text](imse26kladselspindel.png)
+![image alt text](imse26kladselspindel.png) . ![image alt text](imse26bkladsel2spindel.png) 
 
-![image alt text](imse28kladsel2spindel.png) 
+6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”ändra klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
-6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
+![image alt text](imse27bandrakladsel.png)
 
 5.	Använd sedan ett block **RÖRSELSE**: **”glid 1 sek till x: y:”**. Låt y-värdet stå kvar men **ändra x-värdet** till **-100**
 
