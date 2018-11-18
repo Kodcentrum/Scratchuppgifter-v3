@@ -23,7 +23,7 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
   ![image alt text](imse3laggtillsprajt.png)
 
-  I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug1”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug1”**)
+  I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug2”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug2”**)
 
 3.	Placera spindel på botten och mitten av bakgrunden.
 
@@ -199,13 +199,13 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 4.	Dra ett block **UTSEENDE**: **”ändra klädsel till…”** och placera den direkt under **”säg..”**-blocket.
 
-5. Precis som molnet Cloud är spindeln **"ladybug1"** en helt vanlig inssikt men kan få flera utseende genom att man kopierar och gör fler klädslar. Kopiera **"ladybug1"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
+5. Precis som molnet Cloud är spindeln **"ladybug2"** en helt vanlig inssikt men kan få flera utseende genom att man kopierar och gör fler klädslar. Kopiera **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
 
 ![image alt text](imse26kladselspindel.png)
 
 ![image alt text](imse27ritaspindel.png) ![image alt text](imse28kladsel2spindel.png) 
 
-6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug2”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
+6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
 5.	Använd sedan ett block **RÖRSELSE**: **”glid 1 sek till x: y:”**. Låt y-värdet stå kvar men **ändra x-värdet** till **-100**
 
