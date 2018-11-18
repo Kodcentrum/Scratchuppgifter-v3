@@ -130,7 +130,6 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 
   ![image alt text](imse17regn.png)
   
-    ![image alt text](imse18regn.png)
   _Så här kan de två klädslarna för molnet se ut_.
 
 
@@ -174,33 +173,33 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 ## 6: Skicka meddelanden
 
-När du klickar på molnet ska även spindeln spindeln spolas bort och glida bort ifrån tråden. Men hur ska spindeln få reda på att du klickat på molnet? Svaret är MEDDELANDEN! När molnet har klickats på skickar den ut ett meddelande som spindeln kan lyssna på. Fiffigt va?
+När du klickar på molnet ska även spindeln spolas bort och glida bort ifrån tråden. Men hur ska spindeln få reda på att du klickat på molnet? Svaret är MEDDELANDEN! När molnet har klickats på skickar den ut ett meddelande som spindeln kan lyssna på. Fiffigt va?
 
 Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 
 1.	Dra ett block för **HÄNDELSER**: **”skicka meddelande1”** och placera den direkt under koden för animationen du gjorde tidigare.
 
-  ![image alt text](image_21.png)
+  ![image alt text](imse22meddelande.png)
 
 2.	Klicka på den lilla **nedåtpilen** på kodblocket och klicka på **”nytt meddelande”**.
 
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
-  ![image alt text](image_22.png)
-
+  ![image alt text](imse23nyttmeddelande.png) .  ![image alt text](imse24skapamedd.png)
+  
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
 1. Klicka på spindeln sprajten så att den är markerad och du ser koden du gjorde tidigare
 
-2.	Dra ett block **HÄNDELSER**: **”när jag tar emot...”** till skriptytan och välj **"molndans"** i listan över meddelanden.  
+2.	Dra ett block **HÄNDELSER**: **”när jag tar emot...”** till kodytan och välj **"molndans"** i listan över meddelanden.  
 
-   ![image alt text](image_23.png)
+   ![image alt text](imse25skickamoln.png)
 
 3.	Dra ett block **UTSEENDE**: **”säg ... i 2 sek”** och placera direkt under. Skriv in **”Usch…”** i stället för ”Hello”
 
-4.	Dra ett block **UTSEENDE**: **”byt klädsel till…”** och placera den direkt under **”säg..”**-blocket.
+4.	Dra ett block **UTSEENDE**: **”ändra klädsel till…”** och placera den direkt under **”säg..”**-blocket.
 
-  ![image alt text](image_24.png)
+  ![image alt text](imse26kladselspindel.png)
 
 4.	Spindel sprajten har två klädslar som du kan se om du klickar på fliken KLÄDSLAR. De två klädslarna skiljer sig åt på hur munnen ser ut. Klädseln **”ladybug2-a”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
