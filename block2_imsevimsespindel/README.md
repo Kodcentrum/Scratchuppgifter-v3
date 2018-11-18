@@ -15,9 +15,9 @@ Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit
 
 I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
 
-1.	Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
+1.	Markera katten, sprajt1 (långt ner till höger) och tryck sedan på krysset i den blå cirkeln så försvinner den.
 
-  ![image alt text](image_2.png)
+  ![image alt text](imse2tabortsprajt.png)
 
 2.	Nu vill du lägga till en insekt i stället. Tryck på knappen för NY SPRAJT:
 
