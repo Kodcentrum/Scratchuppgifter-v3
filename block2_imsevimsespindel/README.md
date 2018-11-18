@@ -33,17 +33,14 @@ Nu har du gjort spindel och det är dags att skapa en rolig bakgrund!
 
 Du ska nu få infoga en bakgrundsbild från biblioteket och därefter rita lite spindelnät.
 
-1.	För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
+1.	Markera knappen för bakgrund (längst nere till höger). Tryck på förstoringsglaset för VÄLJ EN BAKGRUND.
 
-  ![image alt text](image_4.png)
+  ![image alt text](imse4skapabakgrund.png)
 
-2.	Tryck sedan på knappen för NY BAKGRUND:
-
-  ![image alt text](image_5.png)
-
-I menyn till vänster finns en kategori som heter **”Utomhus”**, tryck på den. I listan hittar du flera utomhusmiljöer. Välj den som heter **”brick wall2”**. Tryck på den bilden så att den blir markerad och sedan på OK nere till höger.
+I menyn längst upp finns en kategori som heter **”Utomhus”**, tryck på den. I listan hittar du flera utomhusmiljöer. Välj den som heter **”wall2”**. Tryck på den bilden. 
 
 > **Tips:** Om du vill så får du använda en annan bakgrund, det är bara att markera en annan bild.
+
 
 Nu får du se till att rita lite spindelnät:
 
