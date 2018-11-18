@@ -203,7 +203,7 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 ![image alt text](imse26kladselspindel.png)
 
-![image alt text](imse27ritaspindel.png) ![image alt text](imse28kladsel2spindel.png) 
+![image alt text](imse28kladsel2spindel.png) 
 
 6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
