@@ -109,9 +109,9 @@ Nu kommer spindeln automatiskt att flyttas till sin startposition varje gång du
 
 Nästa sak som händer i ramsan är att det börjar regna. Därför behöver du ett moln i ditt program. Det ska du få koda nu!
 
-  ![image alt text](image_14.png)
+  ![image alt text](imse13moln.png)
 
-1.	Tryck på knappen för **NY SPRAJT** och välj sprajten **”cloud”**.
+1.	Tryck på knappen för **VÄLJ EN SPRAJT** och välj sprajten **”cloud”**.
 
 2.	Placera den uppe i vänstra hörnet.
 
@@ -119,44 +119,46 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 
 1. Gå till fliken KLÄDSLAR
 
-2. Högerklicka på klädseln. Du ska då få fram en meny där du kan klicka på KOPIERA. Nu ska du ha två likadana klädslar.
+2. Högerklicka på molnet i klädslar och klicka på KOPIERA. Nu ska du ha två likadana klädslar.
 
-  ![image alt text](image_15.png)
-  ![image alt text](image_15b.png)
+  ![image alt text](imse14kopierakladsel.png)
+  ![image alt text](imse15kladsel.png)
 
 3. Använd linjeverktyget och en blå färg och rita  till lite regndroppar.
 
-  ![image alt text](image_16.png)
+  ![image alt text](imse16farg.png)
 
-  ![image alt text](image_17.png)
+  ![image alt text](imse17regn.png)
+  
+    ![image alt text](imse18regn.png)
   _Så här kan de två klädslarna för molnet se ut_.
 
 
 Nu är det dags att animera molnet!
 
-1. Nu ser du att du har fått en helt tomt skriptyta. Här kan du lägga in kod som styr molnet.
+1. Nu ser du att du har fått en helt tomt kodyta. Här kan du lägga in kod som styr molnet.
 
-2.	**Skapa ett skript** för **molnet** som säger:
+2.	**Skapa kod** för **molnet** som säger:
 
   * När **START** klickas på
 
   * **Gå till** x: y:
 
-  Det här är precis samma skript som du gjorde för spindeln förut, men den här gången har molnet andra KOORDINATER som startposition.
+  Det här är precis samma kod som du gjorde för spindeln förut, men den här gången har molnet andra KOORDINATER som startposition.
 
-  ![image alt text](image_18.png)
+  ![image alt text](imse19molnspindel.png)
 
-  _Skillnaderna på de två start-skripten du gjort. Det enda som skiljer sig är x- och y-värdet._
+  _Skillnaderna på de två start-kodningarna du gjort. Det enda som skiljer sig är x- och y-värdet._
 
-3. För att se till att det är det vanliga molnet som syns när programmet startar så dra ett block **UTSEENDE**: **"byt klädsel till ..."** och lägg det under blocket **"gå till...""**  
+3. För att se till att det är det vanliga molnet som syns när programmet startar så dra ett block **UTSEENDE**: **"ändra klädsel till ..."** och lägg det under blocket **"gå till...""**  
 
 4. Klicka på den lilla pilen intill namnet på klädseln och välj **"cloud"**.
 
-  ![image alt text](image_19.png)
+  ![image alt text](imse20bytmoln.png)
 
 Nu ska du få animera molnet. Målet är att få den att glida åt höger när du klickar på den samtidigt som den byter utseende. Den ska hamna precis ovanför spindeln.
 
-1. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
+1. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till kodytan.
 
 2. Under **RÖRELSE** finns det ett block som heter **”glid 1 sek till x: y:”**. Placera den direkt under blocket i punkt 1.
 
@@ -164,9 +166,9 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 4. Ändra också **1 sek** till **2 sek**
 
-5. Dra sedan ett block **UTSEENDE**: **byt klädsel...** till skriptet. Se till att klädseln **"cloud2"** väljs i listan över klädslar.
+5. Dra sedan ett block **UTSEENDE**: **ändra klädsel...** till skriptet. Se till att klädseln **"cloud2"** väljs i listan över klädslar.
 
-  ![image alt text](image_20.png)
+  ![image alt text](imse21moln2.png)
 
 > Testa spelet! Glider molnet till den lodrätta tråden och blir till ett regnmoln?
 
