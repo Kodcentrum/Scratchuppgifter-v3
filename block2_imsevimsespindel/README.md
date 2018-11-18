@@ -46,7 +46,7 @@ Nu får du se till att rita lite spindelnät:
 
 1.	Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
 
-  ![image alt text](imse5rita.png)
+  ![image alt text](imse5rita.png) . ![image alt text](imse5britalinje.png)
 
 2.	Tryck på LINJE och välj en vit färg. Rita en rak tråd i mitten av bakgrunden, från spindelnätet till gräset där spindeln är placerad. Det är den här tråden spindeln ska klättra upp på lite senare.
 
