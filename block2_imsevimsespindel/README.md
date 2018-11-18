@@ -217,17 +217,17 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 Du ska få göra det lite roligare genom att lägga till ett ljud till animationen.
 
-1.	Klicka på fliken LJUD och därefter på knappen för **NYTT LJUD**: ![image alt text](image_26.png)
+1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster)för **VÄLJ ETT LJUD**: ![image alt text](imse30nyttljud.png)
 
-2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerad och sedan på knappen OK.
+2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerat. 
 
 Nu har du lagt till ett ljud till sprajten som kan spelas upp. Block för olika ljudeffekter hittar du under kategorin LJUD.
 
-3.	Dra ett block **LJUD**: **”spela ljudet…”** och placera på skriptytan under den kod du gjorde ovan.
+3.	Dra ett block **LJUD**: **”spela ljudet…”** och placera på kodytan under den kod du gjorde ovan.
 
 4.	Välj **”screech”** från menyn genom att klicka på den lilla **nedåtpilen**.
 
-  ![image alt text](image_27.png)
+  ![image alt text](imse31screech.png)
 
 ## 8: Upp stiger solen...
 
@@ -237,7 +237,7 @@ Härnäst i ramsan om spindeln kommer solen som gör spindeln glad. Nu är det d
 
 2.	Placera den i övre, högra hörnet.
 
-3.	**Skapa ett skript** för solen som säger:
+3.	**Skapa kod** för solen som säger:
 
   * När **START** klickas på
 
@@ -245,7 +245,7 @@ Härnäst i ramsan om spindeln kommer solen som gör spindeln glad. Nu är det d
 
 Nu är det dags att animera solen!
 
-1. **Skapa ett skript** för **solen** som säger:
+1. **Skapa kod** för **solen** som säger:
 
   * När denna sprajt **klickas på**
 
@@ -253,7 +253,7 @@ Nu är det dags att animera solen!
 
   * **Skicka** meddelandet **"soldans"**
 
-  ![image alt text](image_28.png)
+  ![image alt text](imse32soldans.png)
 
 > Klicka på solen! Glider den och hamnar ovanför molnet?
 
@@ -261,25 +261,25 @@ Nu är det dags att animera solen!
 
 Nu är regnmolnet kvar även om du klickar på solen vilket är konstigt. Det sista du ska fixa är att se till att molnet åker bort och blir till ett vitt och fluffigt moln. Du ska också se till att spindeln åker tillbaka till tråden.
 
-1.	**Skapa ett skript** för **molnet** som säger:
+1.	**Skapa kod** för **molnet** som säger:
 
   * När jag **tar emot ”soldans”**
 
-  * **Byt klädsel** till **”cloud”**
+  * **Ändra klädsel** till **”cloud”**
 
   * **Glid 1 sekunder** till x: -150 y: 110
 
-  ![image alt text](image_29.png)
+  ![image alt text](imse33taemotsoldans.png)
 
-2. **Skapa ett skript** for **spindeln** som säger:
+2. **Skapa kod** for **spindeln** som säger:
 
    * När jag **tar emot ”soldans”**
 
-   *  **Byt klädsel** till **”ladybug2-a”**
+   *  **Ändra klädsel** till **”ladybug2”**
 
    * **Glid 1 sekund x: y:**. Ange samma koordinater som spindeln startar på i början av programmet.
 
-  > **Tips**. Du behöver använda samma block som i skriptet för molnet.
+  > **Tips**. Du behöver använda samma block som i koden för molnet.
 
 ## Färdig!
 Grattis, nu har du skapat ett nytt program!
@@ -287,7 +287,7 @@ Grattis, nu har du skapat ett nytt program!
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon annan testa det!
 
 
 ## Utmaningar
@@ -333,9 +333,9 @@ Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/
 
 ## Frågeställningar
 
-* Vad är ett start-skript?
+* Vad är en start-kod?
 
-* Varför är det bra att koda ett sådant skript?
+* Varför är det bra att koda en sådan?
 
 * Vad är en loop?
 
