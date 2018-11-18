@@ -90,18 +90,18 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
 ## 4: Sätt en Startposition
 
-För att slippa dra tillbaka spindeln varje gång du vill testa din animation ska du nu skapa koda som säger åt datorn att placera spindeln på en särskild plats. Detta kallas för att INITIERA programmet och berättar för datorn vad som ska hända när programmet startar.
+För att slippa dra tillbaka spindeln varje gång du vill testa din animation ska du nu skapa kod som säger åt datorn att placera spindeln på en särskild plats. Detta kallas för att INITIERA programmet och berättar för datorn vad som ska hända när programmet startar.
 
 
 > För att starta och stoppa ett program, finns det i Scratch två särskilda knappar.  ![image alt text](image_31.png) Har du lagt märke till dem än? Nu ska du se till att spindeln hamnar i början av tråden när du klickar på START-knappen.
 
-1.	Dra ett block för **HÄNDELSER**: **”när START (flaggan) klickas på”** till skriptytan.
+1.	Dra ett block för **HÄNDELSER**: **”när START (flaggan) klickas på”** till kodytan.
 
 2.	Dra spindeln till botten av den lodrätta tråden.
 
 3.	Välj **RÖRELSE**: **”gå till x: y:”** och koppla fast direkt under flaggan. De värden som står för X och Y är KOORDINATER för den startposition som du har ställt spindeln på.
 
-  ![image alt text](image_13.png)
+  ![image alt text](imse12gaxy.png)
 
 Nu kommer spindeln automatiskt att flyttas till sin startposition varje gång du trycker på flaggan, utan att du behöver dra den dit själv!
 
