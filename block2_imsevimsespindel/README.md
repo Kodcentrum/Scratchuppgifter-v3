@@ -19,9 +19,9 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
   ![image alt text](imse2tabortsprajt.png)
 
-2.	Nu vill du lägga till en insekt i stället. Tryck på knappen för NY SPRAJT:
+2.	Nu vill du lägga till en insekt i stället. Markera knappen för sprajter (nere till höger). Tryck på förstoringsglaset för VÄLJ EN SPRAJT:
 
-  ![image alt text](image_3.png)
+  ![image alt text](imse3laggtillsprajt.png)
 
   I menyn till vänster finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug2”**. Tryck på insekten så att den blir markerad och sedan på OK nere till höger. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug2”**)
 
