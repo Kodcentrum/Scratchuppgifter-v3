@@ -54,28 +54,28 @@ Ungefär så här ska programmet se ut nu. Exakt hur spindelnätet ser ut spelar
 
   ![image alt text](imse6spindelnat.png)
 
-## 3: Ditt första skript
+## 3: Din första kod
 
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
+Nu när bakgrunden är färdig kan du börja skapa din första kod. Glöm inte att **spara** ofta!
 
-Börja med att klicka på sprajten så att den är markerad och tryck därefter på SKRIPT-fliken.
+Börja med att klicka på sprajten så att den är markerad och tryck därefter på KOD-fliken.
 
- ![image alt text](image_8.png)
+ ![image alt text](imse7markerad.png)
  _Så här ser det ut när sprajten är markerad_
 
 Animationen du ska koda nu är för att få spindeln att klättra på den lodräta tråden i mitten av scenen.  Detta ska ske när du klickar på spindeln.
 
-1.	Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan. Under den kopplar du fast blocket för **RÖRELSE**: **”ändra y med 10”**
+1.	Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till kodytan. Under den kopplar du fast blocket för **RÖRELSE**: **”ändra y med 10”**
 
-  ![image alt text](image_9.png)
+  ![image alt text](imse8handelser.png)
 
-  ![image alt text](image_10.png)
+  ![image alt text](imse9andray.png)
 
 > Testa nu vad som händer när du trycker på spindeln. Den flyttar sig uppåt! Det är bra, men du vill ju att spindeln ska fortsätta uppåt på tråden. Hur gör du det?
 
-2.	Det kan du ordna med skriptet **”repetera 10”** som finns under rubriken **KONTROLL**. Det här är en LOOP som gör att du kan upprepa en viss kod ett antal gånger.
+2.	Det kan du ordna med blocket **”repetera 10”** som finns under rubriken **KONTROLL**. Det här är en LOOP som gör att du kan upprepa en viss kod ett antal gånger.
 
-  ![image alt text](image_11.png)
+  ![image alt text](imse10repetera.png)
 
 3. Markera **10:an** och skrv in **7** istället, så att loopen körs _7_ gånger. Då kan du sjunga med i ramsan när spindeln åker upp!
 
@@ -83,7 +83,7 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
 3.	Du kan förbättra animationen genom att lägg in en fördröjning efter varje gång spindeln flyttas. Dra ett block KONTROLL: ”vänta 1 sekunder” och placera den direkt efter blocket ”ändra y med 7.
 
-  ![image alt block](image_12.png)
+  ![image alt block](imse11vanta.png)
 
 > Tryck på spindeln igen! Hur ser animationen ut nu? Åker den för fort eller för långsamt? Åker den för långt eller för kort på tråden? Du kan ändra både hur mycket du ska flytta spindeln och hur många gånger tills du är nöjd.
 
