@@ -46,13 +46,13 @@ Nu får du se till att rita lite spindelnät:
 
 1.	Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
 
-  ![image alt text](image_6.png)
+  ![image alt text](imse5rita.png)
 
 2.	Tryck på LINJE och välj en vit färg. Rita en rak tråd i mitten av bakgrunden, från spindelnätet till gräset där spindeln är placerad. Det är den här tråden spindeln ska klättra upp på lite senare.
 
 Ungefär så här ska programmet se ut nu. Exakt hur spindelnätet ser ut spelar ingen roll.
 
-  ![image alt text](image_7.png)
+  ![image alt text](imse6spindelnat.png)
 
 ## 3: Ditt första skript
 
