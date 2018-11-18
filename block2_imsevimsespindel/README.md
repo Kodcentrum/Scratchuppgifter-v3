@@ -23,7 +23,7 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
   ![image alt text](imse3laggtillsprajt.png)
 
-  I menyn till vänster finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug2”**. Tryck på insekten så att den blir markerad och sedan på OK nere till höger. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug2”**)
+  I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug1”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug1”**)
 
 3.	Placera spindel på botten och mitten av bakgrunden.
 
