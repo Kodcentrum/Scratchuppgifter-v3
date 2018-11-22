@@ -7,7 +7,7 @@ Nu ska du få skapa ett program som är en interaktiv berättelse, en berättels
 
 Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
 
-  ![image alt text](test1.png)
+  ![image alt text](imse1.png)
   
   Då börjar vi koda!
 
@@ -23,7 +23,7 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
   ![image alt text](imse3laggtillsprajt.png)
 
-  I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug2”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug2”**)
+  I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug1”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug1”**)
 
 3.	Placera spindel på botten och mitten av bakgrunden.
 
@@ -77,7 +77,7 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
   ![image alt text](imse10repetera.png)
 
-3. Markera **10:an** och skrv in **7** istället, så att loopen körs _7_ gånger. Då kan du sjunga med i ramsan när spindeln åker upp!
+3. Markera **10:an** och skriv in **7** istället, så att loopen körs _7_ gånger. Då kan du sjunga med i ramsan när spindeln åker upp!
 
   > Testa att trycka spindeln nu. Nu åker spindeln uppåt!
 
@@ -185,7 +185,7 @@ Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
-  ![image alt text](imse23nyttmeddelande.png) .  ![image alt text](imse24skapamedd.png)
+  ![image alt text](imse23nyttmedd.png) .  ![image alt text](imse24skapamedd.png)
   
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
@@ -199,11 +199,11 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 4.	Dra ett block **UTSEENDE**: **”ändra klädsel till…”** och placera den direkt under **”säg..”**-blocket.
 
-5. Precis som molnet Cloud är spindeln **"ladybug2"** en helt vanlig inssikt men kan få flera utseende genom att man kopierar och gör fler klädslar. Kopiera **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
+5. Precis som molnet Cloud är spindeln **"ladybug1"** en helt vanlig insekt men kan få flera utseende genom att man kopierar och gör fler klädslar, klädseln heter **"ladybug2"**. Kopiera klädseln **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
 
 ![image alt text](imse26kladselspindel.png) . ![image alt text](imse26bkladsel2spindel.png) 
 
-6. Spindel sprajten har nu två klädslar. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”ändra klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
+6. Spindel sprajten har nu två klädslar, som heter ladybug2 och ladybug3. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”ändra klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
 ![image alt text](imse27bandrakladsel.png)
 
@@ -217,7 +217,7 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 Du ska få göra det lite roligare genom att lägga till ett ljud till animationen.
 
-1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster)för **VÄLJ ETT LJUD**: ![image alt text](imse30nyttljud.png)
+1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster) för **VÄLJ ETT LJUD**: ![image alt text](imse30nyttljud.png)
 
 2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerat. 
 
