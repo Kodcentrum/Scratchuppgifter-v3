@@ -68,18 +68,20 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 Du ska få börja med att ladda en bakgrundsbild för spelet.
 
-1. Klicka på fliken **Bakgrunder**
+1. Markera scenen
+
+2. Klicka på fliken **Bakgrunder**
 
     ![image alt text](image_10.png)
 
-2. Klicka på **Färgburken** och färglägg bakgrunden med en rolig färg. Här i exemplet har jag använt grönt.
+3. Klicka på **Färgburken** och färglägg bakgrunden med en rolig färg. Här i exemplet har jag använt grönt.
 
     ![image alt text](image_11.png)
 
 **Nu ska vi placera ut några frukter på scenen:**
 
 
-1. Klicka på "Välj sprajt från biblioteket"
+1. Klicka på "Välj en sprajt" långt ner till vänster.
 
     ![image alt text](image_12.png)
 
@@ -89,7 +91,7 @@ Du ska få börja med att ladda en bakgrundsbild för spelet.
 
 3. Placera **Äpplet** i övre vänstra hörnet på scenen.
 
-4. Lägg själv till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Bananer**, **Apelsin** och **Vattenmelon**.
+4. Lägg själv till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Jordgubbe**, **Apelsin** och **Vattenmelon**.
 
 Det kan se ut så här:
 
@@ -133,7 +135,7 @@ Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitte
 
     2. Gå till x:0 y:0
 
-    3. Lägg överst
+    3. Gå till översta lagret
 
     ![image alt text](image_19.png)
 
