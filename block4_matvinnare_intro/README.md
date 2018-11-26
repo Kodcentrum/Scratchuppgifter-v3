@@ -42,7 +42,7 @@ När du har remixat programmet så ser du att projektets namn har
 förändrats. Om du tittar under namnet ska du också se ditt eget
 användarnamn. Du kan döpa om projekt om du vill!
 
-    ![image alt text](image_3.png)
+![image alt text](image_3.png)
 
 I projektet har du nu två SPRAJTAR som redan finns med på SCENEN:
 
@@ -64,7 +64,7 @@ välja en figur som kan äta maten också.
 
     ![image alt text](image_5.png)
 
-2.  Om du vill ha tre av samma sorts mat, kopiera sprajten med **stämpel-verktyget** högst upp i mitten. Vill du istället ha tre olika matsorter, som tillsammans blir din skolmåltid, välj flera sprajtar ur biblioteket.  
+2.  Om du vill ha tre av samma sorts mat, kopiera sprajten med genom att **högerklicka** på sprajten och välj **kopiera**. Vill du istället ha tre olika matsorter, som tillsammans blir din skolmåltid, välj flera sprajtar ur biblioteket.  
 
     ![image alt text](image_6.png)
 
@@ -78,11 +78,11 @@ Nästa steg är att välja en BAKGRUND till din scen. Rita själv eller välj
 ur biblioteket. Hur ser din skolmatsal ut? Eller hur skulle du vilja att
 en skolmatsal kunde se ut?
 
-1.  För att ändra bakgrunden trycker du först på SCEN längst till vänster.
+1.  För att ändra bakgrunden trycker du först på SCEN längst ner till höger.
 
     ![image alt text](image_8.png)
 
-2.  Tryck sedan på knappen för VÄLJ BAKGRUND FRÅN BIBLIOTEKET. Välj vilken bakgrund du vill och tryck på OK.
+2.  Tryck sedan på knappen för VÄLJ EN BAKGRUND. Välj vilken bakgrund du vill och tryck på OK.
 
 ## 4: Mät matsvinnet med variabler
 
