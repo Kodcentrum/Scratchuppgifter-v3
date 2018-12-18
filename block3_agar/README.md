@@ -2,7 +2,7 @@
 
 Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">https://scratch.mit.edu/projects/102124910/</a>
 
-  ![image alt exempel](image_1.png)
+  ![image alt exempel](image_0.png)
 
 ## 1: Bakgrund och sprajtar
 
@@ -13,11 +13,13 @@ Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och 
 2. Rita en ny **bakgrund** som ser ut som ett rutnät. Det gör du lättast med **linjeverktyget**.
 
     Så här kan det se ut:
-    ![image alt exempel](image-rutnat.png)
+    ![image alt exempel](image_1.png)
 
 3. Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och **fylld cirkel**. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.
 
-4. Kalla denna sprajt **"Cell"**. Klicka på ![image alt i](image_2.png) bredvid sprajten och skriv in **"Cell"** istället för **"Sprajt1"**.
+4. Kalla denna sprajt **"Cell"**. Skriv in "Cell" istället för "Sprajt1" i fältet långt ner till höger.
+
+    ![image alt i](image_2.png)
 
 5. Nu behöver du mat och det gör du genom att rita en ny sprajt. Men rita bara en! De andra kommer du skapa med kod. Rita en liten cirkel som du fyller med valfri färg.
 
@@ -81,7 +83,7 @@ Nästa steg är att se till att du har något att äta. Vi har redan skapat en s
 
   * **Visa**
 
-  * **Byt klädsel till** mellan 1 och 5
+  * **Ändra klädsel till** slumptal mellan 1 och 5
 
   * **Gå till** en slumpmässig plats på spelplanen
 
@@ -95,7 +97,7 @@ Nästa steg är att se till att du har något att äta. Vi har redan skapat en s
 
   * **När jag startar som klon**
 
-  * **Vänta** mellan 3 och 15 **sekunder**
+  * **Vänta** 5 sekunder
 
   * **Radera klonen**
 
@@ -123,7 +125,7 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 
   * För alltid:
 
-    * **Vänta** (100 - **"Vikt**)*0.1 sekunder. Detta kommer gör att vi väntar 8 sekunder i början och 7 sekunder när du har ätit 10 kulor.
+    * **Vänta** 8 sekunder.
 
     * **Ändra "Vikt"** med -1\*(**"Vikt"**0.1) och avrunda. **-1** gör att vi minskar storleken/vikten och den kommer minska med 2 i början och 3 när du har ätit 10 kulor. Vi avrundar så att vi alltid minskar med ett heltal (t. ex. 2 istället för 2.2).
 
@@ -151,7 +153,7 @@ Det är nu dags att vi skapar en motståndare. I stället för att den styrs av 
 
   * För alltid:
 
-    * OM **"Vikt"** är större än 50 OCH ett **slumptal** mellan 1 och 100 är **större än** 60.
+    * OM **"Vikt"** är större än 50.
 
       * **Skicka** meddelandet **"skapa"**
 
@@ -163,7 +165,7 @@ Det är nu dags att vi skapar en motståndare. I stället för att den styrs av 
 
     * **Vänta** 10 sekunder.
 
-  Detta skript kommer göra att **Fiende** dyker upp först när **"Vikt"** är större än 50. **Fiende** kommer också bara dyka upp med 40% säkerhet, det för att inte göra det allt för svårt. Om du vill kan du ta bort detta villkor. När **Fiende** har dykt upp kommer den stanna på spelplanen mellan en halv och 2 minuter (30 till 120 sekunder).
+  Detta skript kommer göra att **Fiende** dyker upp först när **"Vikt"** är större än 50. När **Fiende** har dykt upp kommer den stanna på spelplanen mellan en halv och 2 minuter (30 till 120 sekunder).
 
   ![image alt kod](image_11.png)
 
@@ -185,7 +187,7 @@ Det är nu dags att vi skapar en motståndare. I stället för att den styrs av 
 
     * **Studsa, vid kanten**
 
-    * **Ändra "Vikt"** med -5 och **vänta** 2 sekunder OM **Rör Cell**
+    * OM **Rör Cell**: **Ändra "Vikt"** med -5 och **vänta** 2 sekunder
 
   Det här skriptet kontrollerar hur **Fiende** skall bete sig. Nu dyker den upp på ett slumpmässigt ställe på spelplanen och går i en slumpmässig riktning. Detta fortgår tills **storlek** är mindre än 100, vilket är ett sätt att stoppa skriptet när den försvinner (blir gömd) av skriptet i punkt 3. Det är därför vi använder oss av en **"repetera tills"**-block istället för ett **"för alltid"**-block.
 
