@@ -12,13 +12,15 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 
 1. Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.
 
-2. Klicka på **"Rita ny bakgrund"**.
+2. Klicka på **"Måla ny bakgrund"**.
 
 3. Färglägg hela bakgrunden svart och rita en mållinje på vänster och höger sida, använd **rektangelverktyget** för att få dem helt raka och ganska breda. Mållinjerna ska ha olika färg, i vårt exempel använder vi röd och blå.
 
   ![image alt text](image_1.png)
 
-4. Klicka på **"Rita ny sprajt"** för att skapa en ny sprajt. Gör en vit avlång platta med **rektangelverktyget**.
+4. Klicka på **"Mål ny sprajt"** för att skapa en ny sprajt. Gör en vit avlång platta med **rektangelverktyget**.
+
+    ![image alt text](mala_sprajt.png)
 
 5. Skapa en kopia av sprajten och lägg båda sprajtar framför varsin mållinje, lika nära mållinjerna.
 
@@ -40,28 +42,32 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
 
       * Ändra **y med 10**
 
-      * Studsa vid kanten
+      * Om vid kantent, studsa
 
     * OM **M är nedtryckt**
 
       * Ändra **y med -10**
 
-      * Studsa vid kanten
+      * Om vid kantent, studsa
 
   ![image alt text](image_3.png)
 
 7. Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.
 
+8. Ändra **rotationsstil** på de två plattorna så de bara roterar i höger-vänster riktning. Det gör du genom att klicka på siffran där det står **Riktning**
+
+     ![image alt text](rotationsstil.png)
+
 > Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?
 
-**Tips:** Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra **rotationsstil**. Se till att båda plattorna bara kan rotera **vänster-höger**.
+
 
 
 ## 3: En studsande boll
 
 Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!
 
-8. Skapa en ny sprajt genom att klicka på **"Välj en sprajt från biblioteket"**. Välj en som liknar en boll! I exemplet används **Saker/Baseball**.
+8. Skapa en ny sprajt genom att klicka på **"Välj en sprajt"**. Välj en som liknar en boll! I exemplet används **Saker/Baseball**.
 
 9. Gör bollen till den storlek som du tycker passar, du kan alltid ändra storleken sen om det blir för enkelt eller svårt att spela.
 
