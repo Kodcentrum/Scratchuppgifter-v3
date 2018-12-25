@@ -71,7 +71,7 @@ Det första du ska göra är att se till att skalbaggen rör sig när du trycker
 
 Gör såhär:
 
-7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma ytan till höger) och släpp den någonstans där. 
+7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten som är blocket för: <span class="code">when flag clicked</span>. Ta tag i och dra detta block till skriptytan (den stora tomma ytan till höger) och släpp den någonstans där. 
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
 
