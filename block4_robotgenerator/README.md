@@ -18,7 +18,7 @@ Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. D
 
 4. Gör nu två till *klädslar* som du väljer helt själv. Hur vill du att en **robots kropp** ska se ut?
 
-  **Tips:** Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer *sprajten* att hoppa hit och dit på Scenen! Du kan fixa det genom att **sätta *_klädselns_* centrum** till mitten av klädseln.
+  **Tips:** Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer *sprajten* att hoppa hit och dit på Scenen!
 
   ![image alt text](image_1.png)
 
@@ -44,20 +44,20 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
 8. Skapa ett skript för *sprajten* **"ögon"** som säger:
 
   * Starta när START klickas på
-  * **Lägg överst **av alla lager
+  * Gå till **översta lagret**
   * **Repetera slumptal** 1 till 10:
     * **Vänta **0.5** sekunder**
     * Byt till **nästa klädsel**
 
 9. Kopiera *skriptet* till *sprajten* **"mun"**. Både mun och ögon kan ligga i översta lagret.
 
-  ![image alt text](image_3.jpg)
+  ![image alt text](image_3.png)
 
   > Testa ditt projekt! Klicka på START. Ändras robotens mun och ögon och stannar på en slumpmässigt vald klädsel?
 
-10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. **Byt ut** blocket **lägg överst** till **gå tillbaka** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
+10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. **Byt ut** blocket **lägg överst** till **gå ned** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
 
-  ![image alt text](image_4.jpg)
+  ![image alt text](image_4.png)
 
 > Testa ditt projekt! Klicka på START. Ändras alla robotens delar? Stannar de efter en halv sekund på en slumpmässigt vald klädsel? Sitter alla delar där du vill att de ska vara? Är de i rätt lager?
 
@@ -95,25 +95,24 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
   * Först **ta bort alla i** listan **"Strängar"**
   * Sedan **lägg till** *"Hej, jag heter Robin!"* **i "Strängar"**
 
-  ![image alt text](image_6.jpg)
+  ![image alt text](image_6.png)
 
 15. Välj själv vad roboten ska säga och lägg till flera meningar i **"Strängar"** under varandra i samma *skript*.
 
   > Testa ditt projekt! Klicka på START. Kan du se dina *strängar* i en *lista* på scenen? Ser du att de är numrerade? *Listan* kan du sedan klicka ur och gömma, men just nu är det bra att du ser den.
 
-  ![image alt text](image_7.jpg)
+  ![image alt text](image_7.png)
 
   Nu ska du programmera roboten att slumpmässigt **välja ett objekt ur listan med strängar** och säga den meningen. För det behöver du skapa en *variabel* som innehåller det slumpmässiga valet.
 
 16. Skapa en *variabel* och kalla den för **"Val"**. I det *skript* som du redan har skapat för *scenen*, lägg till en blockrad som säger:
 
   * **Sätt "Val" till**
-    * Det **objekt i "strängar"**
+    * Det **post i "strängar"**
     * Som är ett **slumptal** mellan 1 och **längden av listan "Strängar"**
 
-  ![image alt text](image_8.jpg)
+  ![image alt text](image_8.png)
 
-  *Så här borde skriptet för scenen se ut, fast med dina strängar.*
 
 17. Nästa steg är att få roboten att säga den valda *strängen*, och samtidigt göra ett robotljud! Gå till *sprajten* **"huvud"** och fliken LJUD. Klicka på **Nytt ljud från bibliotek** och välj ett passande ljud, till exempel **"computer beeps1"**.
 
@@ -124,9 +123,8 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
 **Tips:** Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det räcker alltså inte att skriva ordet "Val" i **Säg**-blocket.
 
-![image alt text](image_9.jpg)
+![image alt text](image_9.png)
 
-*Så här borde skriptet för robotens huvud se ut.*
 
 >Testa ditt projekt! Klicka på START. Säger roboten något? Säger den olika saker varje gång du klickar på START? Låter roboten?
 
