@@ -14,9 +14,9 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
 
 3. Använd **rektangelverktyget** och skapa en röd, **fylld**, rektangel på botten av scenen. Den ska inte vara för tjock men den ska täcka hela botten.
 
-4. Lägg till sprajten **Fantasy/Spaceship** från biblioteket. Den är stor, så du behöver förminska den med **förminskningsverktyget** cirka **16** gånger. Placera sprajten precis ovanför den röda linjen.
+4. Lägg till sprajten **Rocketship** från biblioteket. Den är stor, så du ändra **storleken till ca 50**. Placera sprajten precis ovanför den röda linjen.
 
-5. Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten **Fantasy/Robot1** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
+5. Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten **Robot** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
 
   ![image alt text](image_1.png)
 
@@ -25,6 +25,8 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
 Meningen med spelet är att styra rymdraketen åt vänster och höger för att skjuta ner de attackerande robotarna. Först behöver du skapa ett skript för att styra raketen.
 
 6. Ändra raketens **rotationsstil** så att den bara kan röra sig åt **vänster-höger**.
+
+![image alt text](rotationsstil.png)
 
 7. Skapa ett skript som säger:
 
@@ -44,13 +46,19 @@ Meningen med spelet är att styra rymdraketen åt vänster och höger för att s
 
 Nu ska du göra så att raketen kan skjuta. För att göra det måste du först ändra raketens **mittpunkt** till dess topp.
 
-8. Klicka på raketen och sedan på fliken **Klädslar**. Högst upp till höger hittar du **Sätt klädselns centrum**. Sätt centrum till raketens spets, zooma in så kan du trycka på den enklare!
+8. Klicka på raketen och sedan på fliken **Klädslar**.
+
+9. Markera hela klädseln genom att dra en rektangel runt sprajten.
+
+10. Dra sedan klädseln neråt så att toppen på rymdskeppet är i mitten på ritytan.
+
+11. Till sist dra upp sprajten på scenen så att den är placerad ovanför den röda linjen som förut.
 
   ![image alt text](image_3.png)
 
   Nu behöver du själva skottet som raketen kommer att skjuta. För att göra det måste du **skapa en ny sprajt**.
 
-10. **Rita en ny sprajt** genom att zooma in så mycket så att du ser alla rutor (**pixlar**). Gör en gul ifylld rektangel som täcker mittpunkten. Den ska vara **6 rutor lång** och **2 rutor bred**.
+10. **Rita en ny sprajt** genom att zooma in så mycket så att du ser alla rutor (**pixlar**). Gör en gul ifylld rektangel som täcker mittpunkten på ritytan. Den ska vara ungefär **6 rutor lång** och **2 rutor bred**.
 
   ![image alt text](image_4.png)
 
@@ -90,9 +98,9 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * Starta när sprajten startas som en **klon**
 
-  * Gå till x- och y-position för **Spaceship**
+  * Gå till **Rocketship**
 
-  * **Visa** dig
+  * **Visa**
 
   * REPTERA: **ändra y med 10 **tills** rör kanten**
 
@@ -117,15 +125,15 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
 16. Nu finns det väldigt många VARIABLER som visas på scenen! Dra och lägg dem på rad längst upp på scenen, så att de inte täcker hela vänstra sidan.
 
-17. Du behöver ett skript för sprajten **Robot1** som skapar en klon av sig själv varje sekund tills timern har blivit 0, då spelet avslutas. Skapa ett nytt skript som säger:
+17. Du behöver ett skript för sprajten **Robot** som skapar en klon av sig själv varje sekund tills timern har blivit 0, då spelet avslutas. Skapa ett nytt skript som säger:
 
   * Starta när START klickas på
 
-  * Göm dig
+  * **Göm**
 
   * Sätt **poäng** till 0
 
-  * Sätt **timer** till 16
+  * Sätt **timer** till 60
 
   * För alltid:
 
@@ -139,6 +147,8 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
     * **Annars** ska den **stoppa alla** skript
 
+![image alt text](image_6a.png)
+
 1. Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:
 
   * Starta när den **startar som klon**
@@ -149,13 +159,13 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
   * För alltid:
 
-    * Kolla om den **rör Sprajt1** (skottet)
+    * Kolla om den **rör Sprite1** (skottet)
       * **Då** ska den **ändra poäng med 1** och **radera klonen**
-    * Kolla om den **rör färgen röd eller Spaceship** (raketen)
+    * Kolla om den **rör färgen röd eller Rocketship** (raketen)
       * **Då** ska den **stoppa alla** skript
     * Efter den har kollat dessa VILLKOR så ska den ändra **y med -4**
 
-  ![image alt text](image_6.png)
+  ![image alt text](image_6b.png)
 
 > **Testa ditt projekt!** Klicka på START. Rör sig robotarna nedåt från toppen av scenen mot botten? Förvinner de när de blir träffade av ett skott? Stoppas alla skript när en av robotarna nuddar botten eller raketen?
 
@@ -163,7 +173,7 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 ## 4: Game Over
 Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många poäng du fått. Det ska vi ändra på! Du ska låta roboten skicka ett **meddelande** när spelet avslutas, så att den kan tala om hur många poäng du fått.
 
-19. När **Robot1** (någon av klonerna) **rör färgen röd** eller **Spaceship** så ska den skicka ut ett **meddelande** innan den stoppar alla skript. Meddelandet kan du kalla för **"Game over"**.
+19. När **Robot** (någon av klonerna) **rör färgen röd** eller **Rocketship** så ska den skicka ut ett **meddelande** innan den stoppar alla skript. Meddelandet kan du kalla för **"Game over"**.
 
 20. Nu skapar du ett skript för sprajten **Spaceship** som säger:
 
@@ -193,7 +203,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
     * Vänta 2 sekunder
 
   ![image alt text](image_8a.png)
-  _Den röda rektangeln markerar den nya koden_
+  _Den rosa rektangeln markerar den nya koden_
 
 23. I samma skript lägger du till två block som:
 
@@ -211,7 +221,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   Nu gör du ett skript som **tar emot _meddelandet_** för att byta nivå och försvåra spelet.
 
-2. Gå till raketens SKRIPT-flik och skapa ett nytt skript som säger:
+2. Gå till robotens SKRIPT-flik och skapa ett nytt skript som säger:
 
   * Starta när den **tar emot meddelande "Nästa nivå"**
 
@@ -227,7 +237,6 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
     * Säg **Nästa nivå!** i 2 sekunder
 
-    * **Vänta** 2 sekunder
 
   * Ändra sedan _färg_ **effekten** med 50
 
@@ -237,7 +246,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   Om du förstår skriptet så ser du att den gör ändringarna för **varje nivå**, så att det kan bli svårare och svårare. Nu ändrar den hastigheten och färgeffekten medan den lägger till mer tid.
 
-26. Skapa sedan ett nytt skript som säger:
+26. Skapa sedan ett nytt skript för Rymdskeppet som säger:
 
   * Starta när den **tar emot meddelandet vinst**
   * Säg **"Du vann! Du fick  poäng!"**
