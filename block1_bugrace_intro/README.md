@@ -2,7 +2,7 @@
 
 Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Ramlar figuren utanför banan blir du Game Over!
 
-> Använder du Scratch 2.0 offline-version? Här hittar du instruktionen anpassad för nedladdningsbara Scratch 2.0 offline.
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar själva spelet utifrån instruktionerna nedan. 
@@ -11,7 +11,7 @@ Hur kommer spelet Bug Race se ut? <a href="https://scratch.mit.edu/projects/2769
 
 ![image alt text](BugRace_Intro_exempelspel.png)
 
-Då börjar vi!
+Då börjar vi! Klicka på steg 1 i gröna cirkeln nedan för att gå vidare.
 
 ## 1: Välj en skalbagge som sprajt
 
