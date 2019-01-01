@@ -8,7 +8,7 @@ Nu ska du få skapa ett program som är en interaktiv berättelse, en berättels
 Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
 
   ![image alt text](imse1.png)
-  
+
   Då börjar vi koda!
 
 ## 1: Välja en insekt som sprajt
@@ -37,7 +37,7 @@ Du ska nu få infoga en bakgrundsbild från biblioteket och därefter rita lite 
 
   ![image alt text](imse4skapabakgrund.png)
 
-I menyn längst upp finns en kategori som heter **”Utomhus”**, tryck på den. I listan hittar du flera utomhusmiljöer. Välj den som heter **”wall2”**. Tryck på den bilden. 
+I menyn längst upp finns en kategori som heter **”Utomhus”**, tryck på den. I listan hittar du flera utomhusmiljöer. Välj den som heter **”wall2”**. Tryck på den bilden.
 
 > **Tips:** Om du vill så får du använda en annan bakgrund, det är bara att markera en annan bild.
 
@@ -46,7 +46,7 @@ Nu får du se till att rita lite spindelnät:
 
 1.	Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
 
-  ![image alt text](imse5rita.png) .   ![image alt text](imse5britalinje.png) . 
+  ![image alt text](imse5rita.png) .   ![image alt text](imse5britalinje.png) .
 
 2.	Tryck på LINJE och välj en vit färg. Rita en rak tråd i mitten av bakgrunden, från spindelnätet till gräset där spindeln är placerad. Det är den här tråden spindeln ska klättra upp på lite senare.
 
@@ -129,7 +129,7 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
   ![image alt text](imse16farg.png)
 
   ![image alt text](imse17regn.png)
-  
+
   _Så här kan de två klädslarna för molnet se ut_.
 
 
@@ -186,7 +186,7 @@ Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
   ![image alt text](imse23nyttmedd.png) .  ![image alt text](imse24skapamedd.png)
-  
+
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
 1. Klicka på spindeln sprajten så att den är markerad och du ser koden du gjorde tidigare
@@ -199,9 +199,9 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 4.	Dra ett block **UTSEENDE**: **”ändra klädsel till…”** och placera den direkt under **”säg..”**-blocket.
 
-5. Precis som molnet Cloud är spindeln **"ladybug1"** en helt vanlig insekt men kan få flera utseende genom att man kopierar och gör fler klädslar, klädseln heter **"ladybug2"**. Kopiera klädseln **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen. 
+5. Precis som molnet Cloud är spindeln **"ladybug1"** en helt vanlig insekt men kan få flera utseende genom att man kopierar och gör fler klädslar, klädseln heter **"ladybug2"**. Kopiera klädseln **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen.
 
-![image alt text](imse26kladselspindel.png) . ![image alt text](imse26bkladsel2spindel.png) 
+![image alt text](imse26kladselspindel.png) . ![image alt text](imse26bkladselspindel.png)
 
 6. Spindel sprajten har nu två klädslar, som heter ladybug2 och ladybug3. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”ändra klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
@@ -219,7 +219,7 @@ Du ska få göra det lite roligare genom att lägga till ett ljud till animation
 
 1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster) för **VÄLJ ETT LJUD**: ![image alt text](imse30nyttljud.png)
 
-2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerat. 
+2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerat.
 
 Nu har du lagt till ett ljud till sprajten som kan spelas upp. Block för olika ljudeffekter hittar du under kategorin LJUD.
 
