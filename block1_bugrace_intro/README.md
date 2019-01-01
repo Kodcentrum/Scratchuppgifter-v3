@@ -5,7 +5,7 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 > Använder du Scratch 2.0 offline-version? Här hittar du instruktionen anpassad för nedladdningsbara Scratch 2.0 offline.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. 
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar själva spelet utifrån instruktionerna nedan. 
 
 Hur kommer spelet Bug Race se ut? <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Ett exempel på det färdiga spelet kan du finna på www.scratch.mit.edu</a>.
 
