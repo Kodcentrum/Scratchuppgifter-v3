@@ -15,17 +15,17 @@ Ett exempel på projektet hittar du här:  <a href="https://scratch.mit.edu/proj
 ## 1: Välj bakgrund och sprajt
 Först behöver du lägga in en bakgrund.
 
-1.	För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
+1.	För att ändra bakgrunden trycker du först på SCEN längst ner till höger.
 
-2.	Tryck sedan på knappen för **välj bakgrund från biblioteket**.
+2.	Tryck sedan på knappen för **Välj en bakgrund**.
 
   ![image alt text](image_1.png)
 
-3.	Välj en bakgrund, i det här exemplet väljer vi den som heter **School2**. Klicka OK.
+3.	Välj en bakgrund, i det här exemplet väljer vi den som heter **School**. Klicka OK.
 
   ![image alt text](image_2.png)
 
-4.	Tryck på **saxen** (högt uppe i mitten) och sedan på katt-sprajten så försvinner den.
+4.	Markera katt-sprajten och **klicka på krysset* så försvinner den.
 
   ![image alt text](image_3.png)
 
@@ -43,7 +43,7 @@ Nu ska vi lägga in skript så att Giga ändrar humör när man klickar på två
 
   ![image alt text](image_5.png)
 
-7.	Vi behöver två sprajter, den ena ska vara glad och den andra ska vara arg. Kopiera sprajten "Heart Face” genom att först klicka på **stämpeln** för att kopiera, längst upp i den grå bannern, och sedan **klicka på sprajten**. Då kommer du få en till likadan sprajt.
+7.	Vi behöver två sprajter, den ena ska vara glad och den andra ska vara arg. Kopiera sprajten "Heart Face” genom att **högerklicka** och sedan välja **kopiera**. Då kommer du få en till likadan sprajt.
 
   ![image alt text](image_6.png)
 
@@ -51,7 +51,7 @@ Nu ska vi lägga in skript så att Giga ändrar humör när man klickar på två
 
   ![image alt text](image_7.png)
 
-9.	Nu ska vi ändra humör på den andra sprajten, den knappen som gör att Gigi ändrar humör till arg. Klicka på sprajten **HeartFace2**. Klicka på fliken KLÄDSLAR.
+9.	Nu ska vi ändra humör på den andra sprajten, den knappen som gör att Gigi ändrar humör till arg. Klicka på sprajten **HeartFace2**. Klicka på fliken KLÄDSLAR till vänster på skärmen.
 
   ![image alt text](image_8.png)
 
@@ -79,7 +79,6 @@ Hur ska Giga veta om att den ska bli glad eller arg? Genom att få ett meddeland
 15.	Dra in skript för HÄNDELSER: **skicka meddelande1**. Klicka på lilla triangeln och ge meddelandet ett namn. Döp meddelandet till *känsla*. Klicka OK.
 
   ![image alt text](image_14.png)
-  ![image alt text](image_15.png)
 
 12.	Nu ska vi göra samma sak för andra knappen som ser arg ut! Klicka på **HeartFace2**, sprajten som ser arg ut, och gå in på SKRIPT. Lägg in samma skript för sprajten förutom att du sätter **variabeln** *glad* till **0**.
 
@@ -100,7 +99,7 @@ Nu ska Gigas humör ändras beroende på vilken knapp du trycker på. Giga ska t
 
 16.	Dra in block för OPERATORER, välj den med lika med-tecken **=**. I det skriptet, lägg in skript för DATA: variabeln glad. Skriv in nummer 1.
 
-17.	Giga ska byta klädsel för att bli glad eller arg beroende på om variabeln är **0** eller **1**. Lägg in ett block för UTSEENDE: **byt klädsel till giga-b** om variabeln är **1**. **Annars** blocket UTSEENDE: **byt klädsel till giga-d**. Giga-b är klädsel för när Giga ser glad ut, Giga-d är klädsel som göra att Giga ser arg ut!
+17.	Giga ska byta klädsel för att bli glad eller arg beroende på om variabeln är **0** eller **1**. Lägg in ett block för UTSEENDE: **ändra klädsel till giga-b** om variabeln är **1**. **Annars** blocket UTSEENDE: **ändra klädsel till giga-d**. Giga-b är klädsel för när Giga ser glad ut, Giga-d är klädsel som göra att Giga ser arg ut!
 
   ![image alt text](image_17.png)
 
@@ -115,7 +114,7 @@ Nu ska Giga få ett par musikspelande glasögon som känner av om Giga är glad 
 
   ![image alt text](image_19.png)
 
-19.	Flytta på glasögonen så att de sitter på Gigas huvud. Ser glasögonen för små ut? Klicka på **förstora**-ikonen längst upp i den grå bannern. Klicka sedan på glasögon-sprajten flera gånger för att få lagom storlek.  
+19.	Flytta på glasögonen så att de sitter på Gigas huvud. Ändra storlekn på sprajten om de är för stora eller för små.
 
   ![image alt text](image_20.png)
 
@@ -156,17 +155,11 @@ Nu ska Giga få ett par musikspelande glasögon som känner av om Giga är glad 
 ## 5: Styr musiken med glasögonen
 I denna uppgift lägger vi in skript så att du kan spela och stoppa musiken genom att klicka på dem. Glasögonen ska ändra färg beroende på om spela eller stopp är klickad på, så att du kan se om musikspelaren är igång!
 
-32.	Klicka på fliken KLÄDSEL. Kopiera glasögonens klädsel genom att klicka på **stämpel** i den grå bannern och sedan på glasögonen.
+32.	Klicka på fliken KLÄDSEL. Där ser du att det finns fler olika klädslar för sprajten. Vi kan till exempel använda **glasses-a** för att markera att musiken har stoppats, och **glasses-c** för om musiken spelas.
+
+33. Ta bort de klädslarna du inte vill använda.
 
   ![image alt text](image_27.png)
-
-33.	Klicka på den första klädseln som heter **glasses**. Klicka på **fyll i** (färgburken) i högermenyn. Välj den **röda** färgen i paletten och sedan den **tonade** färgen längst ner till vänster. Klicka sedan i glaset i glasögonen för att fylla i färgen. Gör likadant på båda sidor!
-
-  ![image alt text](image_28.png)
-
-34.	Klicka nu på den andra klädseln **glasses2**. Gör samma sak som ovan fast med grön färg.
-
-  ![image alt text](image_29.png)
 
 Nu ska vi göra ett skript för att glasögonen ska spela eller stoppa musik och byta färg, när du trycker med muspekaren på glasögonen!
 
@@ -174,7 +167,7 @@ För att kunna göra det måste glasögonen kolla vilken klädsel den har, om gl
 
 35.	Gå tillbaka till SKRIPT-fliken. Lägg in block för HÄNDELSER: **när denna sprajt klickas på**.
 
-36.	Lägg in block för **Om __ då ...** och efter **om** lägger du till block OPERATOR: **=** och UTSEENDE: **klädselnummer** till vänster om likamedtecknet. Skriv in **1** för den första klädseln, glasögonen med röda glas.
+36.	Lägg in block för **Om __ då ...** och efter **om** lägger du till block OPERATOR: **=** och UTSEENDE: **klädselnummer** till vänster om likamedtecknet. Skriv in **1** för den första klädseln, glasögonen utan färg.
 
   ![image alt text](image_30.png)
 
@@ -182,30 +175,25 @@ För att kunna göra det måste glasögonen kolla vilken klädsel den har, om gl
 
   ![image alt text](image_31.png)
 
-38.	Glasögonen ska byta klädsel också! Lägg in UTSEENDE: **byt klädsel till glasses** och UTSEENDE: **byt klädsel till glasses 2**.
+38.	Glasögonen ska byta klädsel också! Lägg in UTSEENDE: **ändra klädsel till glasses-c** och UTSEENDE: **ändra klädsel till glasses-a**.
 
   ![image alt text](image_32.png)
-
-**Tips:** Tänk på att glasögonen ska bli gröna när volymen är på 100% och röda när volymen är på 0%. Du vill kunna starta musiken när glasögonen är röda, och stoppa musiken när glasögonen är gröna!
 
 
 Nu vill vi att glasögonen ska vara avstängda när programmet startar. Detta kallas för att initiera programmet, du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.
 
-39.	Lägg till HÄNDELSER: **när grön flagga klickas på**. Under det fäster du LJUD: **stoppa alla ljud** och LJUD:**sätt volym till 0%** och UTSEENDE: **byt klädsel till glasses**.
+39.	Lägg till HÄNDELSER: **när grön flagga klickas på**. Under det fäster du LJUD: **stoppa alla ljud** och LJUD:**sätt volym till 0%** och UTSEENDE: **ändra klädsel till glasses-a**.
 
   ![image alt text](image_33.png)
 
-Såhär ska alla skript för glasögonen se ut:
 
-  ![image alt text](image_34.png)
-
-> Testa ditt projekt! Klicka på START. Kan du starta och stoppa musiken genom att trycka på glasögonen? Ändrar de färg så att de är gröna när musiken är på och röda när musiken är av?
+> Testa ditt projekt! Klicka på START. Kan du starta och stoppa musiken genom att trycka på glasögonen?
 
 
 ## 6: Giga förklarar hur du gör
 I det sista uppgiften lägger vi in skript för att Giga ska hälsa när du trycker på START-flaggan och förklara hur glasögonen funderar. Giga ska också ha ett INIT-SKRIPT som säger att hon varken ska skratta eller se arg ut när programmet börjar.
 
-40.	Lägg in skript: HÄNDELSER: **när flagga klickas på**. Här lägger du till UTSEENDE: **byt klädsel till giga-a**.
+40.	Lägg in skript: HÄNDELSER: **när flagga klickas på**. Här lägger du till UTSEENDE: **ändra klädsel till giga-a**.
 
 41.	Lägg in skript för UTSEENDE: **säg ... i 5 sekunder**. Skriv genom att klicka i det vita fältet, till exempel: *”Hej! Klicka på mina glasögon för att spela musik! Ändra mitt känsloläge med hjärtknapparna.”*
 
