@@ -44,15 +44,17 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-5. Tryck på symbolen som ser ut som en målarburk: **FYLL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan ovanför och fyll bakgrunden med den genom att ställa in färgen du vill ha (dra i de olika reglagen tills du är nöjd med din färg) och sedan på den stora vita bakgrunden under. Vi har valt en grön färg på bakgrunden i vårt exempelspel.
+5. Tryck på symbolen som ser ut som en målarburk: **FYLL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan ovanför och fyll bakgrunden med den genom att ställa in färgen du vill ha (dra i de olika reglagen tills du är nöjd med din färg) och sedan på den stora vita bakgrunden under. Välj en färg du gillar. Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt).
 
   ![image alt text](RITA-Fyll_Med_Färg-knapp.png)      ![image alt text](RITA_Välj_Färg-funktion.png)
 
-6. Tryck på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. Rita nu en bana som en oval (utdragen cirkel) - gör den så stor som du kan, utan att den hamnar utanför spelets ruta! Här har vi valt en grå färg på banan.
+6. Tryck på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. 
 
  ![image alt text](RITA_Pensel-knapp.png)      ![image alt text](RITA_Pensel-Storlek-knapp.png)
+ 
+ Rita nu en bana som en oval (utdragen cirkel) - gör den så stor som du kan, utan att den hamnar utanför spelets ruta! Välj en färg du gillar. Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt).
 
-  Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare! 
+ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
@@ -61,33 +63,35 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
-Börja med att dra och sätta ned skalbagge-sprajten på den målade banan, där du tycker den ska stå när spelet börjar. Tryck även på SKRIPT-fliken högst upp i mitten, om den inte redan är vald.
+Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
 
-Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
+Tryck på KOD-fliken högst upp till vänster. Nu kommer du bort från målarverktyget och tillbaka till vita ytan där du kan bygga din kod för spelet.
+
+Har du lagt märke till START- och STOPP-knappen än? **Den gröna flaggan** betyder är en start-knapp och **den röda knappen** är en stopp-knapp.
 
   ![image alt text](START_STOPP-funktion.png)
 
-Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START - som alltså är **den gröna flaggan** som finns högt upp. För att göra det måste du tala om för skalbaggen vad den ska göra. Du ska alltså koda och lägga till ditt första skript som säger:
+Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för skalbaggen vad den ska göra, annars händer ingenting. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
 
-"När jag trycker på START, ska skalbaggen röra sig."
+"När jag trycker på START-flaggan, ska skalbaggen röra sig."
 
 Gör såhär:
 
-7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma ytan till höger) och släpp den någonstans där. 
+7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
 
-Välj sedan den blå rubriken **RÖRELSE** och välj blocket **"gå 10 steg"**. Lägg detta block  under det första blocket med den gröna flaggan på scriptytan och koppla ihop de två som om de vore pusselbitar.
+Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj blocket **"gå 10 steg"**. Lägg detta block direkt under det första blocket med den gröna flaggan på scriptytan och koppla ihop dem som pusselbitar.
 
   ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
 
-> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa blocket så kopplar blocken automatiskt ihop sig.
+> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa så kopplar blocken automatiskt ihop sig som pusselbitar.
 
   ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
 
-> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats. Hur gör du det?
+> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
 
-8. Under rubriken **KONTROLL** finns scriptblocket **"för alltid"**. Det här är en LOOP, en **repetition** av något som sker om och om igen, som kommer göra att skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
+8. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
 Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
