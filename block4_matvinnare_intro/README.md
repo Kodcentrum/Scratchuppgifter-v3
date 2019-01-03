@@ -29,14 +29,11 @@ och en soptunna. Så kan du komma igång och koda snabbare!
 
 Öppna din webbläsare och gå till startprojektet: <a href="https://scratch.mit.edu/projects/188522752/" target="_blank">https://scratch.mit.edu/projects/188522752/</a>
 
-1.  Klicka på knappen **“Se inuti”** så att du kan se koden.
+1.  Klicka på knappen **“Remix”** så att du får din egen version av projektet.
 
     ![image alt text](image_1.png)
 
-1.  Klicka sedan på knappen **“Remix”** så att du får din egen version
-    av projektet.
-
-    ![image alt text](image_2.png)
+Programmet kommer öppnas i Scratch studion.
 
 När du har remixat programmet så ser du att projektets namn har
 förändrats. Om du tittar under namnet ska du också se ditt eget
