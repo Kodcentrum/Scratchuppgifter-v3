@@ -3,7 +3,7 @@
 Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig i programmeringsverktyget Scratch.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner.
 
 De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer man för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig.
 
@@ -33,11 +33,11 @@ När man ska koda i Scratch kan man antingen starta ett eget program själv, ell
 
 5. Klicka på remix-knappen för att spara en egen kopia av programmet med robotsprajten.
 
-![Alt Text](Remixknapp.png)
+![Alt Text](Image_4.png)
 
-Vi kan nu koda som vi vill i det remixade projektet - det har blivit till ditt eget. I just detta projekt finns ingen kod än, bara en robotsprajt. 
+Vi kan nu koda som vi vill i det remixade projektet - det har blivit till ditt eget. I just detta projekt finns ingen kod än, bara en robotsprajt.
 
-Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig. All kod som ska läggas in kallas för **script**. I Scratch är alla script förberedda små kod-pusselbitar att skapa med. 
+Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig. All kod som ska läggas in kallas för **script**. I Scratch är alla script förberedda små kod-pusselbitar att skapa med.
 
 ## 2: Gå-skriptet
 
@@ -61,11 +61,11 @@ Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att du
 
 ![Alt Text](Robot_3.gif)
 
-## 3: Vänd-skriptet
+## 3: Rotera-skriptet
 
-Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på sig. För att göra det har vi två olika skript som finns under rubriken **RÖRELSE**, nämligen **"vänd** högerpil **15 grader"** och **"vänd** vänsterpil **15 grader"**.
+Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på sig. För att göra det har vi två olika skript som finns under rubriken **RÖRELSE**, nämligen **"rotera** högerpil **15 grader"** och **"rotera** vänsterpil **15 grader"**.
 
-![Alt Text](Image_4.png)
+![Alt Text](Image_5.png)
 
 1. Dra ut båda två till skriptytan och dubbelklicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
 
@@ -73,7 +73,7 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 3. Testa byta till något ännu större än 360 och till något negativt med minustecken framför. Vad händer då?
 
-Nu när vi har Vänd-skripten kan vi få roboten att vända sig om.
+Nu när vi har Rotera-skripten kan vi få roboten att vända sig om.
 
 ![Alt Text](Robot_4.gif)
 
@@ -91,7 +91,7 @@ Scratch-skripten funkar lite som lego eller pusselbitar, man kan sätta ihop dem
 
 ![Alt Text](Robot_5.gif)
 
-3. Roboten gör allt vi sa åt henne att göra med vårt skript, men det går så snabbt att vi inte hinner se alla steg. Klicka på rubriken **KONTROLL** och lägg till skriptet **"vänta 1 sekunder"** mellan varje Gå-skript och Vänd-skript. Nu utför roboten instruktionerna i lugnare tempo och kan vi följa varje steg hon gör.
+3. Roboten gör allt vi sa åt henne att göra med vårt skript, men det går så snabbt att vi inte hinner se alla steg. Klicka på rubriken **KONTROLL** och lägg till skriptet **"vänta 1 sekunder"** mellan varje Gå-skript och Rotera-skript. Nu utför roboten instruktionerna i lugnare tempo och kan vi följa varje steg hon gör.
 
 ![Alt Text](Skript_4.gif)
 
@@ -103,7 +103,7 @@ Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka di
 
 ![Alt Text](Skript_5.gif)
 
-Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-script har en rund topp, det betyder att de alltid ligger överst och man kan koppla andra scriptblock under.
+Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-skript har en rund topp, det betyder att de alltid ligger överst och man kan koppla andra scriptblock under.
 
 Alla skript i programmet måste vara kopplade till ett händelse-skript, annars kommer inte programmet veta när den ska köra skripten.
 
