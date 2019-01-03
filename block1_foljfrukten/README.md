@@ -12,19 +12,15 @@ Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att de
 
 1. Öppna din webbläsare och gå till
 
-    <a href="https://scratch.mit.edu/projects/172763192/" target="_blank">https://scratch.mit.edu/projects/172763192/</a>
+    <a href="https://scratch.mit.edu/projects/188767375/" target="_blank">https://scratch.mit.edu/projects/188767375/</a>
 
-2. Klicka på knappen **"Se inuti"** så att du kan se koden.
+2. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
 
     ![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+Nu kommer du komma in i Scratch studion där du kan koda din egen version.
 
-    ![image alt text](image_2.png)
-
-    När du har remixat programmet så ser du att projektets namn har förändrats.
-
-4. Döp om projekt till något som passar bättre.
+3. Döp om projekt till något som passar bättre.
 
     ![image alt text](image_3.png)
 
@@ -50,13 +46,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 **Nu ska vi kolla så att placeringen av koordinatsystemet fungerar:**
 
-1. Flytta musen så att den är vid siffran **50** på **x-axeln** och **-100** på **y-axeln**.
-
-    ![image alt text](image_8.png)
-
-    > Om du tittar i högra hörnet under scenen så visar Scratch koordinaterna för musen. Stämmer den siffran överens med siffran på det utridade koordinatsystemet?
-
-2. Klicka nu på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i skriptytan. Vilka koordinater har sprajten?
+1. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i skriptytan. Vilka koordinater har sprajten?
 
     ![image alt text](image_9.png)
 
