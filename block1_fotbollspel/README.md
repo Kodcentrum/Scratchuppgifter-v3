@@ -4,7 +4,7 @@ Det här är ett enkelt spel för dig som har börjat lära dig litegrann om Scr
 
 Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/72797634/" target="_blank">https://scratch.mit.edu/projects/72797634/<a/>
 
-![image alt text](image_0.png)
+![Fotbollspel](fotbollspel.png)
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
@@ -43,47 +43,56 @@ Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enke
 
 6. Tryck på Rektangel-verktyget och välj en grön färg. Rita ut en stor rektangel på bakgrunden och dra ut sidorna så rektangeln fyller hela bakgrunden.
 
-![Välj Rektangel](rita-rektangel-knapp.png)	![Välj färg](rita-valj-farg-funktion.png)  ![Dra ut rektangel](fyll-bakgrund.png)
+  ![Välj Rektangel](rita-rektangel-knapp.png)	![Välj färg](rita-valj-farg-funktion.png) ![Dra ut rektangel](fyll-bakgrund.png)
 
-7. Rita ett mål i höger kant med REKTANGEL-verktyget. Målet ska vara vitt. Välj sedan PENSEL eller OVAL och gör en halvcirkel utanför målet, med en färg som ser vit ut men har en annan nyans än målet. Det är viktigt att du använder **två olika vita nyanser**, du kommer att förstå varför senare!
+7. Rita ett mål i höger kant med REKTANGEL-verktyget. Målet ska vara vitt. Välj ljusstyrka 100.
 
-  ![image alt text](image_8.png)
+  ![Välj vit färg](rita-valj-farg-fyll-vit-100.png)
+
+8. Välj sedan Cirkel och gör en halvcirkel utanför målet, med en färg som ser vit ut men har en annan nyans än målet. Fyll-färgen ska vara transparent och Kontur ska ha en vit färg med ljusstyrka 95. 
+
+> Det är viktigt att du använder **två olika vita nyanser**, du kommer att förstå varför senare.
+
+  ![Transparent](rita-valj-farg-fyll-transparent.png) ![Vit kontur 95](rita-valj-farg-kontur-vit-95.png) ![Ljusstyrka](fotbollspel-farger.png)
 
 ## 3: Få spelaren att röra på sig
 
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
+Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara ofta**!
 
-Dra din fotbollsspelare till den målade banan om den inte redan står där. Tryck på SKRIPT-fliken. Du ska nu göra ett skript som låter dig styra spelaren med _piltangenterna_.
+Dra din fotbollsspelare till den målade banan om den inte redan står där. Välj Penguin 2-sprajten och tryck på Kod-fliken. Du ska nu göra ett skript som låter dig styra spelaren (pingvinen) med _piltangenterna_.
 
-1. Dra ut ett block för **HÄNDELSER**: **"när \_____ trycks ned"** till skriptytan.
+1. Dra ut ett block för **HÄNDELSER**: **"när [mellanslag] tangenten trycks ned"** till kodytan.
 
-2. Välj **"vänsterpil"** i rullistan.
+2. Välj sedan **"vänsterpil"** i rullistan på det blocket.
 
 3. Under blocket kopplar du fast blocket **"gå 10 steg"** från **RÖRELSE**.
 
 4. Högerklicka på skriptet och kopiera, tills du har fyra stycken likadana skript som du lägger bredvid varandra.
 
-5. Ändra i rullistan så att du har ett skript för **"högerpil"**, ett för **"uppåtpil"** och ett för **"nedåtpil"**.
+5. Ändra i rullistan på de kopierade blocken så att du har ett skript för **"högerpil"**, ett för **"uppåtpil"** och ett för **"nedåtpil"**.
 
-  ![image alt text](image_9.jpg)
-
-  _Kopiera det här skriptet tre gånger!_
+  ![Kod rörelse piltangenter](kod-rorelse-piltangenter.png)
 
 > Testa ditt projekt! Klicka på START. Se vad som händer när du styr med vänster och höger piltangent. Spelaren går i samma riktning vilken piltangent du än trycker på! Hur kan du ändra det?
 
-9. Du behöver tala om för sprajten åt vilket håll den ska peka innan den börjar röra på sig, så att den står i rätt riktning! Välj blocket **"peka i () riktning"** från **RÖRELSE** och lägg ovanför **"gå 10 steg"** i alla fyra skript.
+9. Du behöver tala om för sprajten åt vilket håll den ska peka innan den börjar röra på sig, så att den står i rätt riktning! Välj blocket **"peka i riktning (90)"** från **RÖRELSE** och lägg ovanför **"gå 10 steg"** i alla fyra skript.
 
-10. Nu gäller det att välja rätt riktning för varje skript: du ser i rullistan vilket gradantal som det ska vara för **vänster**, **höger**, **upp** och **ned**.
+10. Nu gäller det att välja rätt riktning för varje skript.
 
 > Testa ditt projekt! Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?
 
-  **Tips:** Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
+  **Tips:** Om spelaren försvinner ut från scenen behöver du säga åt den att **om vid kanten, studsa** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
 
-  ![image alt text](image_10.jpg)
+  ![Kod rörelse piltangenter 2](kod-rorelse-piltangenter-2.png)
 
   _Så här borde dina skript för fotbollsspelaren se ut nu._
 
+> Om din spelare hamnar upp-och-ner när du går åt vänster är det nog för att sprajten har "fel" rotationsstil. Använd "Sätt rotationsstil [vänster-höger]" från **RÖRELSE** ihop med "när 'flagga' klickas på" från **HÄNDELSER** och tryck på START igen för att se om det ser bättre ut nu.
+> 
+> ![Sätt rotationsstil vänster-höger](satt-rotationsstil-vanster-hoger.png)
 
+
+//TODO:
 ## 4: Få spelaren att sparka på bollen
 
 Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! Du ska göra så att bollens sprajt **känner av** spelarens sprajt, och **då** få bollen att röra sig i samma riktning som spelaren men med en högre hastighet, så att det ser ut som att bollen skjuts iväg.  
