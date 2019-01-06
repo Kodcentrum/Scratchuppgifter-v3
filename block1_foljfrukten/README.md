@@ -46,7 +46,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 **Nu ska vi kolla så att placeringen av koordinatsystemet fungerar:**
 
-1. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i skriptytan. Vilka koordinater har sprajten?
+1. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas nedanför scenen. Vilka koordinater har sprajten?
 
     ![image alt text](image_9.png)
 
