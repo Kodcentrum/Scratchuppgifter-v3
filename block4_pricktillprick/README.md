@@ -15,15 +15,11 @@ Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enkla
 
     <a href="https://scratch.mit.edu/projects/172763429/" target="_blank">https://scratch.mit.edu/projects/172763429/</a>
 
-2. Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
+2. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
 
     ![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
-
-    ![image alt text](image_2.png)
-
-    När du har remixat programmet så ser du att projektets namn har förändrats.
+Ditt remixade program kommer öppnas i Scratch-studion.
 
 3. Döp om projektet till något som passar bättre.
 
@@ -37,7 +33,7 @@ Du har också fått en bakgrund som består av 10 prickar, samt ett streck mella
 
 Vi ska börja med att lägga till en penna i projektet.
 
-1. Klicka på **"Välj sprajt från biblioteket"**
+1. Klicka på **"Välj en sprajt"**
 
     ![image alt text](image_4.png)
 
@@ -61,11 +57,11 @@ Det kommer den inte göra! Anledningen är att centrum för pennan är satt till
 
 1. Klicka på fliken **Klädslar**
 
-2. Använd **förstoringsglaset** för att zooma in så att du ser pennspetsen lite tydligare
+2. Markera hela klädseln genom att dra en rektangel runt den.
 
-3. Klicka på **krysset i övre-högra hörnet** av ritytan. Nu visas centrum för pennan i ritytan.
+3. Använd **förstoringsglaset** för att zooma in så att du ser mitten på ritytan ordentligt. Den är markerad med ett kryss.
 
-4. Klicka på **pennspetsen** så att centrum för pennan hamnar där.   
+4. Flytta pennan så att spetsen är på mitten av ritytan.
 
     ![image alt text](image_7.png)
 
@@ -75,17 +71,27 @@ Det kommer den inte göra! Anledningen är att centrum för pennan är satt till
 
 ## 3: Rita
 
+För att kunna rita på scenen med pennan behöver vi lägga till ett så kallat **Tillägg** till de redan visade blocken.
+
+1. Klicka på "Lägg till ett tillägg" längst ner till vänster på skärmen.
+
+    ![image alt text](image_30.png)
+
+2. I menyn som dyker upp väljer du tillägget **Penna**
+
+    ![image alt text](image_31.png)
+
+Nu har det tillkommit flera block.
+
 Vi ska börja med att fortsätta på *start-skriptet* som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till..."**-blocket.
 
-1. Radera
+1. Radera allt
 
 2. Sätt pennans färg till **"svart"**
 
 3. Sätt pennans storlek till **3**
 
-    Alla dessa kodblock hittar du under kategorin **Penna**.
-
-    ![image alt text](image_8.png)
+![image alt text](image_8.png)
 
 1. Skapa en variabel som ska hålla svaret till en fråga vi ska ställa till den som ska spela.
 
