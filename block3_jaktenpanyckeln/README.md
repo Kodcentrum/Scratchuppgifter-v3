@@ -13,19 +13,15 @@ Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
 1. Öppna din webbläsare och gå till
 
-    <a href="https://scratch.mit.edu/projects/172763192/" target="_blank">https://scratch.mit.edu/projects/172763192/</a>
+    <a href="https://scratch.mit.edu/projects/188767375/" target="_blank">https://scratch.mit.edu/projects/188767375/</a>
 
-2. Klicka på knappen **"Se inuti"** så att du kan se koden.
+2. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
 
-    ![image alt text](image_1.png)
+![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+Nu kommer du komma in i Scratch studion där du kan koda din egen version.
 
-    ![image alt text](image_2.png)
-
-    När du har remixat programmet så ser du att projektets namn har förändrats.
-
-4. Döp om projekt till något som passar bättre.
+3. Döp om projekt till något som passar bättre.
 
 
 ![image alt text](image_3.png)
@@ -57,25 +53,17 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 **Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!**
 
-1. Flytta musen vid **–50** på **x-axeln** och så visas koordinaterna i nedre-högra hörnet
-
-    ![image alt text](image_8.png)
-
-> Stämmer den siffran överrens med siffran på den utritade x-axeln?
-
-2. Flytta musen till **50** på **y-axeln** och kolla koordinaten i nedre hörnet.
-
-3. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i området med kod. Vilka koordinater har sprajten?
+1. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas nedanför scenen. Vilka koordinater har sprajten?
 
     ![image alt text](image_9.png)
 
-4. Flytta omkring **Robot-sprajten** på spelplanen och se hur koordinaterna ändrar sig
+3. Flytta omkring **Robot-sprajten** på scenen och se hur koordinaterna ändrar sig
 
-5. Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på spelplanen.
+4. Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på scenen.
 
 ## 2 - Sätta bakgrund
 
-Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad du vill, men i detta exempel har vi valt en spöklik skog.
+Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad du vill, men i detta exempel har vi valt en spöklik djungel.
 
 
 1. Klicka på **Välj bakgrund** från bibliotek
@@ -157,7 +145,7 @@ Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
 2. Markera Nyckeln och klicka på **Ok**
 
-3. Klicka på knappen **Förminska** och sedan några gånger på **Nyckeln** så att den blir mindre.
+3. Ändra storleken **Nyckeln** så att den blir mindre. Storleken för sprajten hittar du precis nedanför scenen.
 
     ![image alt text](image_17b.png)
 
@@ -191,7 +179,7 @@ Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
     4. Under detta kodblock lägger du in följande kod
 
-        1. Lägg överst
+        1. Gå till **översta lagret**
 
         2. Visa
 
@@ -249,7 +237,7 @@ Så här kan det se ut nu:
 
 ![image alt text](image_25.png)
 
-> **Tips:** Om du märker att Roboten hamnar bakom stenarna, så kan du lägga in kodblocket **"Lägg överst"** precis i början av Robotens startskript.
+> **Tips:** Om du märker att Roboten hamnar bakom stenarna, så kan du lägga in kodblocket **Gå till "översta" lagret** precis i början av Robotens startskript.
 
 ## 6: Ledtrådar  - roboten
 
@@ -313,7 +301,7 @@ Denna uppgift är valfritt men gör att spelat blir roligare för dig som har ko
 
     ![](image_75.png)
 
-5. Högerklicka på koden under **"när start klickas på"** och radera koden
+5. Högerklicka på koden under **"när start klickas på"** och "Ta bort block"
 
     ![](image_76.png)
 
@@ -393,7 +381,6 @@ Du kan också rita saker på bakgrunden i en särskild färg som du kan känna a
 
 Nu kan spelaren gissa hur många gånger som helst. Du kan göra det lite svårare genom att koda ett maximalt antal gissningar.
 
-    ![image alt text](image_30.png)
 
 1. Börja med att skapa en variabel som heter **"antal gissningar"**
 
