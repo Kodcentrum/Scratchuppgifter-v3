@@ -11,7 +11,7 @@ Ett exempel på den färdiga berättelsen kan du se här: <a href="https://scrat
 
   ![image alt text](imse1.png)
 
-  Då börjar vi koda!
+  Då börjar vi koda! Bläddra fram till avsnitt 1 nedan.
 
 ## 1: Välja en insekt som sprajt
 
