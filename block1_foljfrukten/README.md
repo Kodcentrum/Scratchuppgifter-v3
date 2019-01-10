@@ -2,6 +2,11 @@
 
 I denna uppgift ska du få leka med koordinater i Scratch. Koordinater behövs för att ange någon eller någots position. Du ska få animera en robot så att den rör sig runt på scenen och äter frukt.
 
+> Använder du Scratch 2.0 offline-version? <https://www.kodboken.se/start/kodaiskolan/aventyrxy/uppgifter-i-scratch/folj-frukten-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även påbörjade Scratch-projektet av Följ frukten genom att klicka på länken bredvid katt-figuren ovan</a>. Här kodar och skapar du vidare själva spelet utifrån instruktionerna nedan. 
+  
 Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172523787/" target="_blank">https://scratch.mit.edu/projects/172523787/</a>
 
 ![image alt text](image_0.png)
