@@ -7,11 +7,11 @@ Nu ska du få skapa ett program som är en interaktiv berättelse, en berättels
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva berättelsen utifrån instruktionerna nedan. 
 
-Ett exempel på den färdiga berättelsen kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/ ![image alt text](imse1.png)</a>
+Ett exempel på den färdiga berättelsen kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
 
   ![image alt text](imse1.png)
 
-  Då börjar vi koda! Bläddra fram till avsnitt 1 nedan.
+  Då börjar vi koda! Klicka fram till avsnitt 1 här under.
 
 ## 1: Välja en insekt som sprajt
 
