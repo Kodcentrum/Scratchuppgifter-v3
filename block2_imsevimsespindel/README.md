@@ -11,7 +11,7 @@ Ett exempel på den färdiga berättelsen kan du se här: <a href="https://scrat
 
   ![image alt text](imse1.png)
 
-![<img src="imse1.png">](https://scratch.mit.edu/projects/118774105/)
+  ![image alt text](imse1.png)(https://scratch.mit.edu/projects/118774105/)
 
   Då börjar vi koda! Bläddra fram till avsnitt 1 nedan.
 
