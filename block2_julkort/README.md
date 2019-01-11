@@ -1,9 +1,9 @@
 # Julkort
 
 Här får du göra ett digitalt julkort som du kan skicka till någon du vill hälsa God Jul till. Det är interaktivt så att mottagaren av kortet  kan skriva in sitt namn och bli personligt julfirad med fest, musik och julklappar! Kortets tema går att ändra om du vill göra födelsedagskort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
-Här kan du se ett exempelprojekt på ett julkort: <a href="https://scratch.mit.edu/projects/266913274/" target="_blank"></a>
+Här kan du se ett exempelprojekt på ett julkort: <a href="https://scratch.mit.edu/projects/266913274/" target="_blank">
 
-![image alt text](image_0.png)
+![image alt text](image_0.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
