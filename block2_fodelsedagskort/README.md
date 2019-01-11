@@ -1,6 +1,6 @@
 # Födelsedagskort
 
-Här får du göra ett digitalt födelsedagskort som du kan skicka till någon som fyller år. Det är interaktivt så att födelsedagsbarnet kan skriva in sitt namn och bli personligt firad med fest, musik och tårta! Kortets tema går att ändra om du vill göra ett <a href="https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/julkort?chpt=0" julkort eller annat kul. Instruktion för det finns här</a>. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Här får du göra ett digitalt födelsedagskort som du kan skicka till någon som fyller år. Det är interaktivt så att födelsedagsbarnet kan skriva in sitt namn och bli personligt firad med fest, musik och tårta! Kortets tema går att ändra om du vill göra ett <a href="https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/julkort?chpt=0"> julkort eller annat kul. Instruktion för det finns här</a>. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
 
 ![image alt text](image_0.png)
 
