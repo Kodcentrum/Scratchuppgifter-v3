@@ -2,6 +2,11 @@
 
 Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk! Programmet låter dig rita med olika färgpennor, sudda med suddgummi och måla med stämplar som du själv väljer.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-program/uppgifter-i-scratch/ritprogram-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du ritprogrammet utifrån instruktionerna nedan. 
+  
 Du kan se ett exempel på ritprogrammet här: <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">https://scratch.mit.edu/projects/82515788</a>
 
 ![Exempel på ritprogrammet](image_0.png)
