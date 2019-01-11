@@ -7,10 +7,10 @@ Makey Makey är ett kretskort som kan användas för att styra program på din d
 Du kan titta på en film som visar hur du använder Makey Makey här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
 
-Här är ett exempelprojekt för hur du gör "Fantasisynth med Makey Makey" i Scratch: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">https://scratch.mit.edu/projects/130726473/</a>
+Klicka på bilden här under för att se ett exempelprojekt för "Fantasisynth med Makey Makey" i Scratch. Den baseras på föregående uppgift på Kodboken, där du kodar grunden till en <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>, som du nu kan lägga till Makey Makey för.: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
 
 
-![image alt text](image_6.png)
+![image alt text](image_6.png)</a>
 
 
 ## 1: Koppla in Makey Makey
@@ -83,7 +83,7 @@ Om du vill komponera egen musik med din fantasisynth har du här en tabell över
 
 
 
-<a href="https://wiki.scratch.mit.edu/wiki/MIDI_Notes Scratch Wikipedia" target="_blank">Tabellen hittar du även här på Scratch Wikipedia.  </a>
+<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
 
 
 ## Färdig!

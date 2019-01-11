@@ -2,6 +2,11 @@
 
 I denna uppgift ska du få leka med koordinater i Scratch. Koordinater behövs för att ange någon eller någots position. Du ska få animera en robot så att den rör sig runt på scenen och äter frukt.
 
+> Använder du Scratch 2.0 offline-version? <https://www.kodboken.se/start/kodaiskolan/aventyrxy/uppgifter-i-scratch/folj-frukten-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även påbörjade Scratch-projektet av Följ frukten genom att klicka på länken bredvid katt-figuren ovan</a>. Här kodar och skapar du vidare själva spelet utifrån instruktionerna nedan. 
+  
 Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172523787/" target="_blank">https://scratch.mit.edu/projects/172523787/</a>
 
 ![image alt text](image_0.png)
@@ -12,19 +17,15 @@ Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att de
 
 1. Öppna din webbläsare och gå till
 
-    <a href="https://scratch.mit.edu/projects/172763192/" target="_blank">https://scratch.mit.edu/projects/172763192/</a>
+    <a href="https://scratch.mit.edu/projects/188767375/" target="_blank">https://scratch.mit.edu/projects/188767375/</a>
 
-2. Klicka på knappen **"Se inuti"** så att du kan se koden.
+2. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
 
     ![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+Nu kommer du komma in i Scratch studion där du kan koda din egen version.
 
-    ![image alt text](image_2.png)
-
-    När du har remixat programmet så ser du att projektets namn har förändrats.
-
-4. Döp om projekt till något som passar bättre.
+3. Döp om projekt till något som passar bättre.
 
     ![image alt text](image_3.png)
 
@@ -50,13 +51,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 **Nu ska vi kolla så att placeringen av koordinatsystemet fungerar:**
 
-1. Flytta musen så att den är vid siffran **50** på **x-axeln** och **-100** på **y-axeln**.
-
-    ![image alt text](image_8.png)
-
-    > Om du tittar i högra hörnet under scenen så visar Scratch koordinaterna för musen. Stämmer den siffran överens med siffran på det utridade koordinatsystemet?
-
-2. Klicka nu på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i skriptytan. Vilka koordinater har sprajten?
+1. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas nedanför scenen. Vilka koordinater har sprajten?
 
     ![image alt text](image_9.png)
 
@@ -68,18 +63,20 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 Du ska få börja med att ladda en bakgrundsbild för spelet.
 
-1. Klicka på fliken **Bakgrunder**
+1. Markera scenen
+
+2. Klicka på fliken **Bakgrunder**
 
     ![image alt text](image_10.png)
 
-2. Klicka på **Färgburken** och färglägg bakgrunden med en rolig färg. Här i exemplet har jag använt grönt.
+3. Klicka på **Färgburken** och färglägg bakgrunden med en rolig färg. Här i exemplet har jag använt grönt.
 
     ![image alt text](image_11.png)
 
 **Nu ska vi placera ut några frukter på scenen:**
 
 
-1. Klicka på "Välj sprajt från biblioteket"
+1. Klicka på "Välj en sprajt" långt ner till vänster.
 
     ![image alt text](image_12.png)
 
@@ -89,7 +86,7 @@ Du ska få börja med att ladda en bakgrundsbild för spelet.
 
 3. Placera **Äpplet** i övre vänstra hörnet på scenen.
 
-4. Lägg själv till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Bananer**, **Apelsin** och **Vattenmelon**.
+4. Lägg själv till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Jordgubbe**, **Apelsin** och **Vattenmelon**.
 
 Det kan se ut så här:
 
@@ -133,7 +130,7 @@ Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitte
 
     2. Gå till x:0 y:0
 
-    3. Lägg överst
+    3. Gå till översta lagret
 
     ![image alt text](image_19.png)
 

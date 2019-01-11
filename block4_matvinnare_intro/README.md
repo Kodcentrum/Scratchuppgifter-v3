@@ -10,6 +10,11 @@ alla kan hjälpas åt med. Vad skulle få dig att slänga mindre mat själv,
 hemma eller i skolan? Här ska du få skapa en soptunna som talar om hur
 mycket mat du slänger!
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kodaiskolan/matvinnaren/uppgifter-i-scratch/matvinnaren-scratch-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även vårt påbörjade Scratch-projekt för Matvinnaren genom att klicka på länken bredvid katt-figuren ovan.</a>. Här kodar och skapar du vidare ditt projekt utifrån instruktionerna nedan. 
+
 Ett exempel på hur det kan se ut hittar du här:
 <a href="https://scratch.mit.edu/projects/188545076/" target="_blank">https://scratch.mit.edu/projects/188545076/</a>
 
@@ -29,20 +34,17 @@ och en soptunna. Så kan du komma igång och koda snabbare!
 
 Öppna din webbläsare och gå till startprojektet: <a href="https://scratch.mit.edu/projects/188522752/" target="_blank">https://scratch.mit.edu/projects/188522752/</a>
 
-1.  Klicka på knappen **“Se inuti”** så att du kan se koden.
+1.  Klicka på knappen **“Remix”** så att du får din egen version av projektet.
 
     ![image alt text](image_1.png)
 
-1.  Klicka sedan på knappen **“Remix”** så att du får din egen version
-    av projektet.
-
-    ![image alt text](image_2.png)
+Programmet kommer öppnas i Scratch studion.
 
 När du har remixat programmet så ser du att projektets namn har
 förändrats. Om du tittar under namnet ska du också se ditt eget
 användarnamn. Du kan döpa om projekt om du vill!
 
-    ![image alt text](image_3.png)
+![image alt text](image_3.png)
 
 I projektet har du nu två SPRAJTAR som redan finns med på SCENEN:
 
@@ -64,7 +66,7 @@ välja en figur som kan äta maten också.
 
     ![image alt text](image_5.png)
 
-2.  Om du vill ha tre av samma sorts mat, kopiera sprajten med **stämpel-verktyget** högst upp i mitten. Vill du istället ha tre olika matsorter, som tillsammans blir din skolmåltid, välj flera sprajtar ur biblioteket.  
+2.  Om du vill ha tre av samma sorts mat, kopiera sprajten med genom att **högerklicka** på sprajten och välj **kopiera**. Vill du istället ha tre olika matsorter, som tillsammans blir din skolmåltid, välj flera sprajtar ur biblioteket.  
 
     ![image alt text](image_6.png)
 
@@ -78,11 +80,11 @@ Nästa steg är att välja en BAKGRUND till din scen. Rita själv eller välj
 ur biblioteket. Hur ser din skolmatsal ut? Eller hur skulle du vilja att
 en skolmatsal kunde se ut?
 
-1.  För att ändra bakgrunden trycker du först på SCEN längst till vänster.
+1.  För att ändra bakgrunden trycker du först på SCEN längst ner till höger.
 
     ![image alt text](image_8.png)
 
-2.  Tryck sedan på knappen för VÄLJ BAKGRUND FRÅN BIBLIOTEKET. Välj vilken bakgrund du vill och tryck på OK.
+2.  Tryck sedan på knappen för VÄLJ EN BAKGRUND. Välj vilken bakgrund du vill och tryck på OK.
 
 ## 4: Mät matsvinnet med variabler
 

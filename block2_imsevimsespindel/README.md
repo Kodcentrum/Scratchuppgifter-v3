@@ -2,14 +2,16 @@
 
 Nu ska du få skapa ett program som är en interaktiv berättelse, en berättelse där användaren styr vad som ska hända. Programmet är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att illustrera barnvisan ”Imse Vimse Spindel” med hjälp av enkla animationer.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/imse-vimse-spindel-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva berättelsen utifrån instruktionerna nedan. 
 
-Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
+Klicka på bilden här under och se ett exempel på den färdiga berättelsen på Scratch sajt: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">
 
-  ![image alt text](imse1.png)
+  ![image alt text](imse1.png)</a>
 
-  Då börjar vi koda!
+  Då börjar vi koda! Klicka fram till avsnitt 1 här under.
 
 ## 1: Välja en insekt som sprajt
 
