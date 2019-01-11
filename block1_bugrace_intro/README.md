@@ -7,11 +7,11 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Hur kommer spelet Bug Race se ut? <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Ett exempel på det färdiga spelet kan du finna på www.scratch.mit.edu.
+Hur kan spelet Bug Race komma att se ut? <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Klicka på bilden här under och testa ett exempel på det färdiga spelet på Scratch sajt. (Starta spelet där genom att klicka på den gröna flaggan på projektet som kommer fram.)
 
 ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
-Då börjar vi! Klicka på steg 1 i gröna cirkeln nedan för att gå vidare.
+Är du redo att koda? Då börjar vi! Klicka på steg 1 i gröna cirkeln nedan för att gå vidare i instruktionen.
 
 ## 1: Välj en skalbagge som sprajt
 
