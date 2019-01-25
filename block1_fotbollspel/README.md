@@ -10,9 +10,6 @@ Det här är ett enkelt spel för dig som har börjat lära dig litegrann om Scr
 Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/277142988/" target="_blank">https://scratch.mit.edu/projects/277142988/<a/>
 
 ![Fotbollspel](fotbollspel.png)
-
-> Bläddra dig fram genom denna guide, steg för steg. 
-<a href="https://scratch.mit.edu" target="_blank">Öppna även verktyget Scratch på sajten scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
 Då börjar vi koda!
 
