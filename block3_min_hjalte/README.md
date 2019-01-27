@@ -4,7 +4,7 @@ Här kan du skapa en animerad berättelse om en hjälte i Scratch! Vem är din h
 
 Den här berättelsen bygger på den röda tråden: Vem, Var, Vad, Hur, Mål. Det handlar alltså om en hjälte som ska nå ett mål men som möter en motståndare eller ett hinder på vägen som behöver övervinnas för att komma till målet.
 
-Ett exempel på hur en berättelse om en hjälte kan se ut hittar du <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">här</a>. Den handlar om en hjälte som är ute i naturen. Motståndaren är ett monster som hjälten trollar bort med supersnällhet. När monstret är borta vågar fjärilar sig fram och dyker upp i träden!
+Ett exempel på hur en berättelse om en hjälte kan se ut <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">hittar du här</a>. Den handlar om en hjälte som är ute i naturen. Motståndaren är ett monster som hjälten trollar bort med supersnällhet. När monstret är borta vågar fjärilar sig fram och dyker upp i träden!
 
 ![Scratch-bild Hjälte möter dinosaurie-motståndare](Bild_1.png)
 
