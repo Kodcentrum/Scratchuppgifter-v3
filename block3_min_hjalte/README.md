@@ -160,7 +160,8 @@ Här kommer några tips på idéer:
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-**Testa! Visa gärna någon det som du har gjort och låt dem testa.** Tryck på **DELA-knappen** för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan testa berättelsen!
+**Testa! Visa gärna någon det som du har gjort och låt dem testa.** 
+Tryck på **DELA-knappen** för att andra ska kunna hitta berättelsen på Scratch.
 
 Om du har tid över kan du nu fortsätta bygga vidare på din berättelse och göra om din hjälte och din motståndare som du vill.
 
