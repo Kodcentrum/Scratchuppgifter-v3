@@ -37,7 +37,7 @@ Om en stund kommer du kunna rita själv och ändra sprajterna så att de ser ut 
 
 ![Bild hjälte motståndare rekvisita](Bild_7.png)
 
-## 3 – Få det att röra på sig!
+## 3 – Få bakgrunden att röra på sig!
 
 Nu är det dags att börja koda! Det första du ska göra är att animera (skapa rörelse) med dina sprajtar så att det **ser ut som** att hjälten rör sig utan att egentligen förflytta sig över scenen på riktigt. Låter det konstigt? Knepetär att koda så att bakgrunden kommer närmare istället! Gör såhär:
 
@@ -54,9 +54,11 @@ Nu är det dags att börja koda! Det första du ska göra är att animera (skapa
 
 **Testa din kod! Tryck på START-flaggan och se vad som händer!** Ser det ut som att bakgrunden rör sig? Känns det som att din hjälte rör sig framåt fastän den står still mitt på scenen?
 
+## 4 – Få Hjälten att röra på benen!
+
 ![Bild Hjälte och rekvisita rör sig](Bild_9.png)
 
-Om du har en hjälte som flyger kan det här räcka för att den ska se ut att röra sig. Men om du har en hjälte som ska gå eller springa - och som har flera olika klädslar för det - behöver du animera sprajten. Det gör du så här:
+Om du har en hjälte som flyger kan det du redan kodat räcka för att den ska se ut att röra sig. Men om du har en hjälte som ska gå eller springa - och som har flera olika klädslar för det - behöver du animera sprajten. Det gör du så här:
 
 1. Markera din hjälte-sprajt och gå in på **KOD-fliken**. Välj från HÄNDELSER: **när START-flaggan klickas på**.
 2. Även här behöver du en loop, välj från KONTROLL: **för alltid** och fäst den under startblocket.
@@ -70,7 +72,7 @@ Om du har en hjälte som flyger kan det här räcka för att den ska se ut att r
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
 
-## 4 – "HUR" – Vad händer när hjälten möter motståndaren?
+## 5 – "HUR" – Vad händer när hjälten möter motståndaren?
 
 Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjälten och vad gör motståndaren? HUR kan hjälten övervinna motståndaren? Det ska du koda med hjälp av VILLKOR, det vill säga att OM hjälten möter motståndaren, DÅ händer något. Alltså att något som händer, får något annat att sättas igång.
 
@@ -120,7 +122,7 @@ Här kommer några tips:
 > Testa din kod! Tryck på START-flaggan och se vad som händer!
 
 
-## 5 – "MÅL" – Hjälten övervinner motståndaren!
+## 6 – "MÅL" – Hjälten övervinner motståndaren!
 
 Till sist behöver du koda slutet på berättelsen, när hjälten har övervunnit motståndaren. Vad ska hända då? Vad är målet med berättelsen? Här behöver du koda det som behövs för just din berättelse – du hittar tips för olika skript-idéer längst ned i denna del.
 
