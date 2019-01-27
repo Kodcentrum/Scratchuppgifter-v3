@@ -1,129 +1,142 @@
 # Min hjälte
 
+Här kan du skapa en animerad berättelse om en hjälte i Scratch! Vem är din hjälte? Låt fantasin flöda.
+
 Den här berättelsen bygger på den röda tråden: Vem, Var, Vad, Hur, Mål. Det handlar alltså om en hjälte som ska nå ett mål men som möter en motståndare eller ett hinder på vägen som behöver övervinnas för att komma till målet.
 
-Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">här</a>.
-
-![Scratch-bild Hjälte möter dinosaurie-motståndare](Bild_1.png)
+Ett exempel på hur en berättelse om en hjälte kan se ut hittar du <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">här</a>. Den handlar om en hjälte som är ute i naturen. Motståndaren är ett monster som hjälten trollar bort med supersnällhet. När monstret är borta vågar fjärilar sig fram och dyker upp i träden!
+<a href="https://scratch.mit.edu/projects/149517033/" target="_blank">
+![Scratch-bild Hjälte möter dinosaurie-motståndare](Bild_1.png)</a>
 
 ## 1 – "VAR" - Byt bakgrund på scenen
 
-Först ska du få välja VAR din berättelse utspelar sig. Välj bakgrund till scenen genom att klicka på den lilla rutan för Scen längst till vänster under stora scenen. Här väljer du att ta bakgrund från Scratch bibliotek eller om du vill rita en egen bakgrund.
+Först ska du få välja**VAR** din berättelse utspelar sig. Välj bakgrund i din berättelse genom att klicka på den blå lilla symbolen längst ner till höger, som finns under rubriken **Scen** under den stora scen-ytan. Här väljer du en bakgrund från Scratch bibliotek eller så kan du rita en egen bakgrund.
+BILD 2
+BILD3
 
-1. Gå in i välj bakgrund från bibliotek eller Rita ny bakgrund för att rita själv.
-2. Eftersom vi ska få det att se ut som att bakgrunden rör sig, behöver du en bakgrund som inte avslöjar att den egentligen står stilla! I biblioteket kan du till exempel välja mellan de olika ”Blue sky” eller ”Brick wall”. Om du ritar själv kan du till exempel göra enfärgad bakgrund med en rektangel längst ned som platt mark.
+1. Gå in i **Välj en bakgrund** och ta en bild från Scratch bild-biblioteket eller välj **Måla** och rita din egen bakgrund istället.
+2. Eftersom du vill att det att se ut som att bakgrunden rör sig, behöver du en bakgrund som inte avslöjar att den egentligen står stilla! Därmedkrävs en enkel bakgrund utan träd eller grejjer på marken och mycket "himmel" eller luft överst. I biblioteket kan du till exempel välja mellan bakgrunden ”Blue sky” eller ”Wall 1”. Om du ritar själv kan du till exempel göra enfärgad bakgrund med en låg rektangel längst i annan färg underst som platt mark.
 
 ## 2 – "VEM" och "VAD" - Välj sprajtar
 
-Nu ska du välja de karaktärer som ska vara med i berättelsen: hjälten (VEM) och motståndare/hinder (VAD). Under den stora scenen hittar du dina sprajtar. Här får du välja sprajtar i Scratch bibliotek som du tycker passar. Välj även en sprajt som fungerar som rekvisita, alltså som en del av bakgrunden.
+Nu ska du välja de karaktärer (sprajtar) som ska vara med i berättelsen: hjälten (VEM) och motståndare/hinder (VAD). Under den stora scenen hittar du dina sprajtar. Här får du välja sprajtar i Scratch bibliotek som du tycker passar. Välj även en sprajt som fungerar som rekvisita, alltså som en del av bakgrunden.
 
 Om en stund kommer du kunna rita själv och ändra sprajterna så att de ser ut precis som du vill ha dem, men först vill vi komma igång och koda!
 
-1. Ta bort Katten genom att först klicka på saxen uppe i den grå bannern och sedan på sprajten.
-2. Välj en sprajt som Hjälte från Scratch bibliotek och dra den till Scenen. Om du vill att din hjälte ska gå eller springa, välj en sprajt i kategorin Gående (de går att animera så att benen rör på sig) och ska den flyga väljer du en från Flygande.
-2. Välj en sprajt som Motståndare/Hinder från Scratch bibliotek.
-3. Välj också en sprajt som rekvisita, alltså något som kan vara en del av bakgrunden. Till exempel en måne om det är natt eller ett träd om hjälten går i naturen.
+1. Ta bort sprajt-Katten genom att **klicka på krysset** på den lilla bilden av katt-sprajten som finns längst ned under stora scenen.
+
+BILD 6
+
+2. Välj en **sprajt som din hjälte** från Scratch bibliotek. Om du vill att din hjälte ska se ut att kunna röra på benen för att gå eller springa, så välj en sprajt som rör på sig i biblioteket när du pekar på den med muspekaren.
+2. Välj en till **sprajt som Motståndare/Hinder** från Scratch bibliotek.
+3. Välj också en **sprajt som rekvisita**, alltså något som kan vara en del av bakgrunden. Till exempel en måne om det är natt eller ett träd om hjälten går i naturen.
+
+BILD 7
 
 ## 3 – Få det att röra på sig!
 
-Nu är det dags att börja koda! Det första du ska göra är att animera dina sprajtar så att det ser ut som att hjälten rör sig utan att egentligen förflytta sig över scenen. Låter det konstigt? Vi ska koda så att bakgrunden kommer närmare istället!
+Nu är det dags att börja koda! Det första du ska göra är att animera (skapa rörelse) med dina sprajtar så att det **ser ut som** att hjälten rör sig utan att egentligen förflytta sig över scenen på riktigt. Låter det konstigt? Knepetär att koda så att bakgrunden kommer närmare istället! Gör såhär:
 
-1. Sätt hjälte-sprajten mitt på, eller aningen till vänster, på scenen.
-2. Sätt rekvisita-sprajten längst till höger på scenen.
-3. Gå in på SKRIPT-fliken för din rekvisita-sprajt. Välj från HÄNDELSER: när START-flaggan klickas på. Nu ska du koda vad som händer när berättelsen startar!
-4. Välj från KONTROLL: för alltid och fäst under startblocket. Det här är en loop som upprepar din kod om och om igen. I den bestämmer du vad sprajten ska göra för att få bakgrunden att röra på sig.
-5. I loopen sätter du att sprajten ska börja på en speciell plats längst ut till höger. Välj från RÖRELSER: sätt x till 0. Ändra så att det står 250.
-6. Välj en till loop från KONTROLL: Repetera 0. Ändra så att det står 250. I den här loopen sätter du in från RÖRELSE: ändra X med 0. Här får du testa dig fram hur snabbt du vill att sprajten ska röra sig, i exemplet använder vi -2.
+1. Sätt **hjälte-sprajten** mitt på, eller aningen till vänster, på scenen.
+2. Sätt **rekvisita-sprajten** längst till höger på scenen.
+3. Gå in på **KOD-fliken** för din rekvisita-sprajt. Välj från HÄNDELSER: **när START-flaggan klickas på**. Nu ska du koda vad som händer när berättelsen startar!
+4. Välj från KONTROLL: **för alltid** och fäst under startblocket med flaggan. Det här blocket är en loop som upprepar din kod om och om igen. I den bestämmer du vad sprajten ska göra för att få bakgrunden att röra på sig.
+5. I loopen sätter du att sprajten ska börja på en speciell plats längst ut till höger. Välj från RÖRELSER: **sätt x till 0**. Ändra nollan så att det står **250** istället.
+6. Välj en till loop från KONTROLL: **Repetera 0**. Ändra nollan så att det står **250**. Inom den här loopen sätter du in från RÖRELSE: **ändra X med 0**. Här får du testa dig fram vad du vill byta ut nollan mot, beroende på hur snabbt du vill att sprajten ska röra sig. I exemplet har vi skrivit in siffran -2.
 
 
-Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att bakgrunden rör sig? Känns det som att din hjälte rör sig framåt fastän den står still mitt på scenen?
+**Testa din kod! Tryck på START-flaggan och se vad som händer!** Ser det ut som att bakgrunden rör sig? Känns det som att din hjälte rör sig framåt fastän den står still mitt på scenen?
+
+BILD 9
 
 Om du har en hjälte som flyger kan det här räcka för att den ska se ut att röra sig. Men om du har en hjälte som ska gå eller springa - och som har flera olika klädslar för det - behöver du animera sprajten. Det gör du så här:
 
-1. Markera din hjältesprajt och gå in på SKRIPT-fliken. Välj från HÄNDELSER: när START-flaggan klickas på.
-2. Även här behöver du en loop, välj från KONTROLL: för alltid och fäst under startblocket.
-3. I loopen ska du välja att sprajten byter klädsel. Det gör du med UTSEENDE: nästa klädsel.
-4. Nu byter sprajten klädsel jättesnabbt! Sätt en liten paus mellan bytena med KONTROLL: vänta 1 sekund. Ändra till 0,5 eller det du tycker ser bra ut. Prova dig fram.
-5. Omdu inte vill att hjälten ska förvinna bakom rekvisitan (alltså trädet med mera), kan du lägga till en UTSEENDE: lägg överst innan loopen. Nu är alltid hjälten längst fram i bilden och döljs inte av deandra sprajtarna i rekvisitan.
+1. Markera din hjälte-sprajt och gå in på **KOD-fliken**. Välj från HÄNDELSER: **när START-flaggan klickas på**.
+2. Även här behöver du en loop, välj från KONTROLL: **för alltid** och fäst den under startblocket.
+3. I loopen ska du välja att sprajten byter "klädsel". Det gör du med UTSEENDE: **nästa klädsel**.
+4. Nu byter sprajten klädsel jättesnabbt! Sätt en liten paus mellan bytena med KONTROLL: **vänta 1 sekunder**. Ändra till 0,5 sekunder eller det du tycker ser bra ut. Prova dig fram.
+5. Om du inte vill att hjälten ska förvinna bakom rekvisitan (alltså trädet med mera), kan du lägga till en UTSEENDE: **gå till översta lagret** och lägga in den före loopen. Då är hjälten alltid placerad längst fram i bilden och döljs inte av de andra sprajtarna i rekvisitan.
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![image alt text](Bild_10a)
+![image alt text](Bild_10b)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
 
 ## 4 – "HUR" – Vad händer när hjälten möter motståndaren?
 
-Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjälten och vad gör motståndaren? HUR kan hjälten övervinna motståndaren? Det ska du koda med hjälp av VILLKOR, det vill säga att OM hjälten möter motståndaren, DÅ händer något.
+Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjälten och vad gör motståndaren? HUR kan hjälten övervinna motståndaren? Det ska du koda med hjälp av VILLKOR, det vill säga att OM hjälten möter motståndaren, DÅ händer något. Alltså att något som händer, får något annat att sättas igång.
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Hjälte och moståndare möts](Bild_11.png)
 
 1. Markera din motståndare-sprajt. Sätt den längst till höger på scenen.
-2. Gå in på skriptfliken. Välj från HÄNDELSER: när START-flaggan klickas på.
-3. Välj för alltid-loopen från KONTROLL och fäst under startblocket.
-4. I loopen ska du styra så att motståndaren går mot hjälten. Det gör du med RÖRELSE: gå 10 steg. Ändra antalet steg till hur fort du vill att den ska gå – och i vilken riktning. I exemplet har vi använt -5 för att inte motståndaren ska springa åt fel håll!
-5. Om du inte vill att motståndaren ska försvinna bakom rekvisitan, kan du lägga till en UTSEENDE: lägg överst innan loopen. Nu är alltid motståndaren längst fram i bilden, precis som hjälten.
-6. För att motståndaren ska starta på samma ställe varje gång du trycker på START-flaggan, behöver du sätta en startposition. Det gör du genom att sätta sprajten där du vill att den startar till höger på scenen. Välj blocket för RÖRELSE: gå till x: y: och lägg det innan loopen i ditt skript. Det står automatiskt rätt värden för x och y-koordinater i blocket!
+2. Gå in på KOD-fliken. Välj från HÄNDELSER: **när START-flaggan klickas på**.
+3. Välj KONTROLL: **för alltid** och fäst loopen under startblocket.
+4. I loopen ska du styra så att motståndaren går framåt mot hjälten. Det gör du med RÖRELSE: **gå 10 steg**. Ändra antalet steg till hur fort du vill att den ska gå – och i vilken riktning. I exemplet har vi använt -5 för att inte motståndaren ska springa åt fel håll!
+5. Om du inte vill att motståndaren ska försvinna bakom rekvisitan (trädet med mera), kan du lägga till en UTSEENDE: **gå till översta lagret** innan loopen. Nu är alltid motståndaren längst fram i bilden, precis som hjälten.
+6. För att motståndaren ska starta på samma ställe varje gång du trycker på START-flaggan (alltså startar din animation), behöver du ge den en startposition. Det gör du genom att sätta motståndar-sprajten där du vill att den ska starta till höger på scenen. Välj blocket för RÖRELSE: **gå till x: y:** och lägg det innan för-alltid-loopen i ditt skript. Om du ställt din motståndare där du vill att den ska starta, så står automatiskt rätt värden för x och y-koordinater i blocket! Du kan även ändra dem och skriva andra siffror om sprajten står lite fel.
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Skript motståndarens rörelse](Bild_11.png)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Startar motståndaren på rätt plats? Går motståndaren mot hjälten? Går den lagom fort? Du kan ändra hastighet genom att byta ut värdet i gå-blocket!
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Motståndaren försvinner ut ur scen](Bild_13.png)
 
-Nu fortsätter motståndaren bara att gå förbi hjälten och ut ur scenen! Det ska vi ändra på. När hjälten möter motståndaren ska något hända – här i exemplet kommer motståndaren att försvinna. Dags att använda villkoret OM hjälten möter motståndaren DÅ händer något!
+Nu fortsätter motståndaren bara att gå förbi hjälten och ut ur scenen! Det ska vi ändra på. När hjälten möter motståndaren ska något hända – här i exemplet kommer motståndaren att försvinna när den möter hjälten. Dags att använda villkoret igen - OM hjälten möter motståndaren DÅ händer något!
 
-1. Markera din hjälte-sprajt och gå in på SKRIPT-fliken. Inuti för alltid-loopen ska du nu få lägga in ett block från KONTROLL:om _ då.
-2. Mellan om och då finns en ruta där du kan välja vad sprajten ska känna av. Där lägger du ett block från KÄNNA AV: rör _ ?. Välj från rullistan så att det står om rör (motståndar-sprajten) då.
-3. Vad vill du ska hända när hjälten nuddar motståndaren? Här i exemplet börjar vi med att hjälten får säga vad den gör för att övervinna motståndaren. Från UTSEENDE tar vi blocket säg _ i _ sekunder och skriver in att hjälten säger ”Min supersnällhet trollar bort alla monster!” i 2 sekunder.
+1. Markera din hjälte-sprajt och gå in på KOD-fliken. Inuti för alltid-loopen ska du nu lägga in ett block från KONTROLL: **om _ då**.
+2. Mellan **om** och **då** finns en ruta där du kan välja vad sprajten ska känna av. Där lägger du ett block från KÄNNA AV: **rör vid _ ?**. Välj från rullistan så att det står **om rör vid (motståndar-sprajten) då**.
+3. Vad vill du ska hända när hjälten nuddar motståndaren? Här i exemplet börjar vi med att hjälten får säga vad den gör för att övervinna motståndaren. Från UTSEENDE tar vi blocket **säg _ i _ sekunder** och skriver in att hjälten säger ”Min supersnällhet trollar bort alla monster!” i 2 sekunder. (Eller vad du vill att den ska säga för att vinna över motståndaren.)
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Skript Hjälten supertrollar](Bild_14.png)
 
-4. Sedan vill vi att något ska hända med motståndar-sprajten! Markera motståndarsprajten och gå in på SKRIPT. Gör ett likadant skript som för hjälten: om rör (hjälte-sprajten) då.
-5. Vad vill du ska hända med motståndaren? I vårt exempel säger motståndar-sprajten ”Hjälp! Supersnällkraften!” i 1 sekund och sedan trollas motståndaren bort. Det gör vi med blocken säg_ i _sekunder och göm som finns i UTSEENDE.
-6. För att motståndar-sprajten ska synas i början av berättelsen, behöver du nu lägga till blocket visa innan för alltid-loopen. I vårt exempel har vi valt att sprajten först är gömd, väntar 2 sekunder, och sedan visar sig för att dyka upp i berättelsen!
+4. Sedan vill vi att något ska hända med motståndar-sprajten! Markera motståndarsprajten och gå in på KOD-fliken. Gör ett likadant skript som för hjälten: **om rör (hjälte-sprajten) då**.
+5. Vad vill du ska hända med motståndaren? I vårt exempel säger motståndar-sprajten ”Hjälp! Supersnällkraften!” i 1 sekund och sedan trollas motståndaren bort. Det gör vi med blocken UTSEENDE: **säg_ i _sekunder** och UTSEENDE: **göm**.
+6. För att motståndar-sprajten ska synas i början av berättelsen, behöver du nu lägga till blocket UTSEENDE: **visa** innan för alltid-loopen. I vårt exempel har vi valt att sprajten först är gömd, väntar 2 sekunder, och sedan visar sig för att dyka upp i berättelsen!
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Skript Motståndaren trollas bort](Bild_15.png)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Vad händer nu när hjälten och motståndaren möts? Övervinner hjälten motståndaren?
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Bild Hjälte och Motståndare möts](Bild_11.png)
 
-Om du vill att något annat ska hända kan du självklart använda andra skriptblock!
+Om du vill att något annat ska hända kan du självklart använda andra skriptblock och sprajtar!
+
 Här kommer några tips:
 
-1. Du kan animera motståndar-sprajtens klädslar för att den till exempel ska ändra ansiktsuttryck, falla ned till marken eller vad du vill att den ska göra.
-2. Du kan animera hjälte-sprajtens klädslar om du vill att den till exempel ska krama motståndaren, använda ett trollspö eller hur den nu ska övervinna motståndaren. Rita dit om hjälten ska hålla i något som den använder!
-3. Motståndar-sprajten kan ändra storlek eller färgeffekt för att till exempel krympa eller bli sjuk eller förtrollad.
-4. Hjälten kan hoppa på motståndaren för att övervinna den, eller hoppa upp och ned av glädje efteråt. Använd RÖRELSE-blocken för det, till exempel ändra x eller ändra y.
+1. Du kan **animera motståndar-sprajtens klädslar** för att den till exempel ska ändra ansiktsuttryck, falla ned till marken eller vad du vill att den ska göra.
+2. Du kan **animera hjälte-sprajtens klädslar** om du vill att den till exempel ska krama motståndaren, använda ett trollspö eller hur den nu ska övervinna motståndaren. Rita dit saker på din sprajt om hjälten ska hålla i något som den använder!
+3. Motståndar-sprajten kan **ändra storlek eller färgeffekt** för att till exempel krympa eller bli förtrollad.
+4. Hjälten kan **hoppa på motståndaren för att övervinna den**, eller **hoppa upp och ned** av glädje efteråt. Använd RÖRELSE-blocken för det, till exempel **ändra x** eller **ändra y**.
 5. Låt hjälten och motståndaren säga fler saker om det behövs för att förklara berättelsens handling!
 
-Testa din kod! Tryck på START-flaggan och se vad som händer!
+>>Testa din kod! Tryck på START-flaggan och se vad som händer!
 
 
 ## 5 – "MÅL" – Hjälten övervinner motståndaren!
 
-Till sist behöver du koda slutet på berättelsen, när hjälten har övervunnit motståndaren. Vad händer då? Vad är målet med berättelsen? Här behöver du koda det som behövs för just din berättelse – du hittar tips för olika skript längst ned i detta steg.
+Till sist behöver du koda slutet på berättelsen, när hjälten har övervunnit motståndaren. Vad ska hända då? Vad är målet med berättelsen? Här behöver du koda det som behövs för just din berättelse – du hittar tips för olika skript-idéer längst ned i denna del.
 
-I vårt exempel byter rekvisita-sprajten klädsel och fjärilar dyker upp i trädet! Här behöver sprajtarna ”prata” med varandra för att rekvisita-sprajten ska veta när hjälten har övervunnit motståndaren och den ska byta klädsel. Det gör vi med MEDDELANDEN: hjälte-sprajten skickar ett meddelande till rekvisita-sprajten.
+I vårt exempel byter rekvisita-sprajten (trädet) klädsel och fjärilar dyker upp i trädet! Här behöver sprajtarna ”prata” med varandra för att rekvisita-sprajten ska veta när hjälten har övervunnit motståndaren och den ska byta klädsel. Det gör vi med MEDDELANDEN, så att **hjälte-sprajten skickar ett meddelande till rekvisita-sprajten**. Vill du koda detta så gör du såhär:
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![image alt text](BILD.png)
 
-1. Markera din hjälte-sprajt och gå in på SKRIPT. Under HÄNDELSER hittar du blocket skicka _. Välj ”nytt meddelande” i rullistan och hitta på ett namn till meddelandet, till exempel ”Mål”.
-2. Lägg blocket skicka Mål sist inuti skriptet om rör (motståndar-sprajten) då.
+1. Markera din hjälte-sprajt och gå in på KOD-fliken. Dra in blocket HÄNDELSER: **skicka _**. Välj ”nytt meddelande” i rullistan och hitta på ett namn till meddelandet, till exempel ”Mål”.
+2. Lägg blocket **skicka Mål** sist inuti skriptet **om rör (motståndar-sprajten) då**.
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Skript Hjälten skickar meddelande](Bild_17.png)
 
-3. Markera nu din rekvisita-sprajt och gå in på SKRIPT. Välj blocket när jag tar emot Mål från HÄNDELSER och lägg det fritt på skriptytan.
-4. Välj vad som ska hända när rekvisita-sprajten får meddelandet om att hjälten övervunnit motståndaren! I vårt exempel har vi skapat en ny klädsel till sprajten, där trädet har fullt med fjärilar i lövkronan. Sedan har vi använt blocket byt klädsel till (klädsel 2) från UTSEENDE och lagt det till skriptet när jag tar emot Mål.
+3. Markera nu din rekvisita-sprajt och gå in på KOD-fliken. Välj blocket **när jag tar emot Mål** från HÄNDELSER och lägg det fritt på skriptytan.
+4. Välj vad som ska hända när rekvisita-sprajten får meddelandet om att hjälten vunnit över motståndaren! I vårt exempel har vi skapat en ny klädsel till vår rekvisita-sprajt, där trädet får fullt med fjärilar omkring sig. Sedan har vi använt blocket **byt klädsel till (klädsel 2)** från UTSEENDE och lagt det till skriptet **när jag tar emot Mål**.
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Skript Rekvisita-sprajt får meddelande](Bild_18.png)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Efter att hjälten har övervunnit motståndaren, byter rekvisita-sprajten sin klädsel?
 
-![image alt text](BugRace_Intro_exempelspel.png)
+![Bild Rekvisita-sprajten byter klädsel](Bild_18.png)
 
-Om du vill att något annat ska hända kan du självklart använda andra skriptblock!
+Om du vill att något annat ska hända kan du självklart använda andra skriptblock eller finurliga idéer
 
-Här kommer några tips:
+Här kommer några tips på idéer:
 
 1. Du kan byta bakgrund på scenen om du vill ändra miljön, till exempel att natt förvandlas till dag eller att regnväder förvandlas till solsken.
 2. Du kan animera hjälte-sprajtens klädslar eller ändra storlek eller färgeffekt på sprajten om du vill att hjälten ska ändra utseende i slutet av berättelsen.
@@ -131,34 +144,29 @@ Här kommer några tips:
 4. Du kan lägga till fler sprajtar som är med i berättelsen hela tiden och som byter klädsel i slutet på berättelsen.
 5. Låt hjälten eller andra sprajtar säga fler saker om det behövs för att förklara hur berättelsen slutar!
 
-Testa din kod! Tryck på START-flaggan och se vad som händer!
-
 
 ## GRATTIS – Du har en färdig berättelse!
 
-Om du har tid över kan du nu göra om din hjälte och din motståndare, och fortsätta med berättelsen som du önskar! 
-Här kommer några tips:
+> Testa! Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan testa berättelsen!
 
-1. Nu kan du ändra din Hjälte så som du vill att den ska se ut! Gå in på sprajtens klädslar och använd ritverktygen för att göra om din hjälte. Använd till exempel penseln för att rita eller färgburken för att ändra färg på exempelvis kläder eller hår.
-2. Om du inte redan har animerat din hjälte-sprajt kan du nu kopiera klädseln så att hjälten har flera utseenden. Ändra något i den ena klädseln så kan du animera mellan de båda! Vissa sprajtar har redan flera klädslar att animera mellan, till exempel så att hjälten rör på benen eller ändrar ansiktsuttryck.
-3. Du kan ändra motståndar-sprajten om du vill att den ska se annorlunda ut eller ha klädslar att animera mellan. Kanske ska motståndaren ändra ansiktsuttryck när hjälten möter den?
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+Om du har tid över kan du nu fortsätta bygga vidare på din berättelse och göra om din hjälte och din motståndare som du vill.
+
+Här kommer några idéer om du behöver inspiration:
+
+1. Ändra din Hjälte eller annan sprajt så som du vill att den ska se ut! Klicka på den sprajt du vill ändra på och markera fliken för **KLÄDSLAR**. Använd ritverktygen för att måla om din sprajt. Använd till exempel penseln för att rita eller färgburken för att ändra färg på exempelvis kläder eller hår. 
+2. Du kan även lägga till och skapa nya klädslar som du sedan kan växla mellan i koden, genom att kopiera en sprajts klädsel, så det skapas flera. (Tänk på att radera eventuell kod som följer med från den klädsel du kopierat.) Ändra sedan något i den ena klädseln så kan du animera mellan de olika! Vissa sprajtar har redan flera klädslar att animera mellan, till exempel så att hjälten rör på benen, ändrar ansiktsuttryck eller skickar ut blixtar.
 4. Om du vill att fler saker ska hända i berättelsen, så kan du nu lägga till fler sprajtar och koda dem. Testa dig fram och se vad som händer!
 5. Du kan ha fler bakgrunder till scenen och animera dem om du vill att berättelsen ska byta miljö.
 6. Du kan lägga till en bakgrund som inleder berättelsen och i ritverktyget skriva en text som förklarar berättelsen, till exempel börja med ”Det var en gång…”. 
 7. Du kan också lägga till en bakgrund som avslutar berättelsen och skriva en text som förklarar vad som händer sedan, till exempel ”Så levde de lyckliga i alla sina dagar. Snipp snapp slut så var sagan slut!”. 
 
-Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket vänta till det.
+>>Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+## Frågeställningar
 
-> Testa! Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan testa berättelsen!
-
-## Utmaningar
-???
-
-## Frågeställningar (korrigeras?)
-
+* Vad ären sprajt?
 * Vad är en variabel?
-* Vad kan du använda ett slumptal till?
-* Vad är en klon?
-* Varför kan det vara bra att skapa kloner i stället för att bara kopiera en sprajt flera gånger?
+* Vad är ett villkor?
+
