@@ -8,8 +8,6 @@ Ett exempel på hur en berättelse om en hjälte kan se ut <a href="https://scra
 
 ![Scratch-bild Hjälte möter dinosaurie-motståndare](Bild_1.png)
 
-<br>
-</br>
 ## 1 – "VAR" - Byt bakgrund på scenen
 
 Först ska du få välja**VAR** din berättelse utspelar sig. Välj bakgrund i din berättelse genom att klicka på den blå lilla symbolen längst ner till höger, som finns under rubriken **Scen** under den stora scen-ytan. Här väljer du en bakgrund från Scratch bibliotek eller så kan du rita en egen bakgrund.
