@@ -89,6 +89,8 @@ Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjä
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Startar motståndaren på rätt plats? Går motståndaren mot hjälten? Går den lagom fort? Du kan ändra hastighet genom att byta ut värdet i gå-blocket!
 
+## 6 - Motståndaren trollas bort med superkraft
+
 ![Motståndaren försvinner ut ur scen](Bild_13.png)
 
 Nu fortsätter motståndaren bara att gå förbi hjälten och ut ur scenen! Det ska vi ändra på. När hjälten möter motståndaren ska något hända – här i exemplet kommer motståndaren att försvinna när den möter hjälten. Dags att använda villkoret igen - OM hjälten möter motståndaren DÅ händer något!
@@ -107,8 +109,6 @@ Nu fortsätter motståndaren bara att gå förbi hjälten och ut ur scenen! Det 
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Vad händer nu när hjälten och motståndaren möts? Övervinner hjälten motståndaren?
 
-![Bild Hjälte och Motståndare möts](Bild_11.png)
-
 Om du vill att något annat ska hända kan du självklart använda andra skriptblock och sprajtar!
 
 Här kommer några tips:
@@ -122,7 +122,7 @@ Här kommer några tips:
 > Testa din kod! Tryck på START-flaggan och se vad som händer!
 
 
-## 6 – "MÅL" – Hjälten övervinner motståndaren!
+## 7 – "MÅL" – Hjälten övervinner motståndaren!
 
 Till sist behöver du koda slutet på berättelsen, när hjälten har övervunnit motståndaren. Vad ska hända då? Vad är målet med berättelsen? Här behöver du koda det som behövs för just din berättelse – du hittar tips för olika skript-idéer längst ned i denna del.
 
