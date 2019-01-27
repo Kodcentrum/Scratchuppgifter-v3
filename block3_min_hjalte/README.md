@@ -166,7 +166,7 @@ Här kommer några idéer om du behöver inspiration:
 
 ## Frågeställningar
 
-* Vad ären sprajt?
+* Vad är en sprajt?
 * Vad är en variabel?
 * Vad är ett villkor?
 
