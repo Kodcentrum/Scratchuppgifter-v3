@@ -15,27 +15,33 @@ Först ska du få välja**VAR** din berättelse utspelar sig. Välj bakgrund i d
 ![Scratch Måla ny bakgrund](Bild_3.png)
 
 1. Gå in i **Välj en bakgrund** och ta en bild från Scratch bild-biblioteket eller välj **Måla** och rita din egen bakgrund istället.
-2. Eftersom du vill att det att se ut som att bakgrunden rör sig, behöver du en bakgrund som inte avslöjar att den egentligen står stilla! Därmedkrävs en enkel bakgrund utan träd eller grejjer på marken och mycket "himmel" eller luft överst. I biblioteket kan du till exempel välja mellan bakgrunden ”Blue sky” eller ”Wall 1”. Om du ritar själv kan du till exempel göra enfärgad bakgrund med en låg rektangel längst i annan färg underst som platt mark.
+2. Eftersom du vill att det att se ut som att bakgrunden rör sig, behöver du en bakgrund som inte avslöjar att den egentligen står stilla! Därmed krävs en enkel bakgrund utan träd eller saker på marken och med mycket "himmel" eller tomrum överst. I biblioteket kan du till exempel välja mellan bakgrunden ”Blue sky” eller ”Wall 1”. Om du ritar själv kan du till exempel göra en färgad bakgrund med en låg rektangel längst ned i annan färg som platt mark.
+
+![Bild exempel ny bakgrund](Bild_4.png)
 
 ## 2 – "VEM" och "VAD" - Välj sprajtar
 
 Nu ska du välja de karaktärer (sprajtar) som ska vara med i berättelsen: hjälten (VEM) och motståndare/hinder (VAD). Under den stora scenen hittar du dina sprajtar. Här får du välja sprajtar i Scratch bibliotek som du tycker passar. Välj även en sprajt som fungerar som rekvisita, alltså som en del av bakgrunden.
 
+![Bild Välj en ny sprajt](Bild_5.png)
+
 Om en stund kommer du kunna rita själv och ändra sprajterna så att de ser ut precis som du vill ha dem, men först vill vi komma igång och koda!
 
 1. Ta bort sprajt-Katten genom att **klicka på krysset** på den lilla bilden av katt-sprajten som finns längst ned under stora scenen.
 
-BILD 6
+![Bild Ta bort katt-sprajten](Bild_6.png)
 
 2. Välj en **sprajt som din hjälte** från Scratch bibliotek. Om du vill att din hjälte ska se ut att kunna röra på benen för att gå eller springa, så välj en sprajt som rör på sig i biblioteket när du pekar på den med muspekaren.
 2. Välj en till **sprajt som Motståndare/Hinder** från Scratch bibliotek.
 3. Välj också en **sprajt som rekvisita**, alltså något som kan vara en del av bakgrunden. Till exempel en måne om det är natt eller ett träd om hjälten går i naturen.
 
-BILD 7
+![Bild hjälte motståndare rekvisita](Bild_7.png)
 
 ## 3 – Få det att röra på sig!
 
 Nu är det dags att börja koda! Det första du ska göra är att animera (skapa rörelse) med dina sprajtar så att det **ser ut som** att hjälten rör sig utan att egentligen förflytta sig över scenen på riktigt. Låter det konstigt? Knepetär att koda så att bakgrunden kommer närmare istället! Gör såhär:
+
+![Bild Välj rekvisita-sprajten](Bild_8a.png)
 
 1. Sätt **hjälte-sprajten** mitt på, eller aningen till vänster, på scenen.
 2. Sätt **rekvisita-sprajten** längst till höger på scenen.
@@ -44,10 +50,11 @@ Nu är det dags att börja koda! Det första du ska göra är att animera (skapa
 5. I loopen sätter du att sprajten ska börja på en speciell plats längst ut till höger. Välj från RÖRELSER: **sätt x till 0**. Ändra nollan så att det står **250** istället.
 6. Välj en till loop från KONTROLL: **Repetera 0**. Ändra nollan så att det står **250**. Inom den här loopen sätter du in från RÖRELSE: **ändra X med 0**. Här får du testa dig fram vad du vill byta ut nollan mot, beroende på hur snabbt du vill att sprajten ska röra sig. I exemplet har vi skrivit in siffran -2.
 
+![Skript animera rekvisita-sprajten](Bild_8b.png)
 
 **Testa din kod! Tryck på START-flaggan och se vad som händer!** Ser det ut som att bakgrunden rör sig? Känns det som att din hjälte rör sig framåt fastän den står still mitt på scenen?
 
-BILD 9
+![Bild Hjälte och rekvisita rör sig](Bild_9.png)
 
 Om du har en hjälte som flyger kan det här räcka för att den ska se ut att röra sig. Men om du har en hjälte som ska gå eller springa - och som har flera olika klädslar för det - behöver du animera sprajten. Det gör du så här:
 
@@ -57,8 +64,8 @@ Om du har en hjälte som flyger kan det här räcka för att den ska se ut att r
 4. Nu byter sprajten klädsel jättesnabbt! Sätt en liten paus mellan bytena med KONTROLL: **vänta 1 sekunder**. Ändra till 0,5 sekunder eller det du tycker ser bra ut. Prova dig fram.
 5. Om du inte vill att hjälten ska förvinna bakom rekvisitan (alltså trädet med mera), kan du lägga till en UTSEENDE: **gå till översta lagret** och lägga in den före loopen. Då är hjälten alltid placerad längst fram i bilden och döljs inte av de andra sprajtarna i rekvisitan.
 
-![image alt text](Bild_10a)
-![image alt text](Bild_10b)
+![Bild Välj hjälte-sprajten](Bild_10a)
+![Skript Hjälte-sprajten byter klädslar](Bild_10b)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
 
@@ -75,7 +82,7 @@ Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjä
 5. Om du inte vill att motståndaren ska försvinna bakom rekvisitan (trädet med mera), kan du lägga till en UTSEENDE: **gå till översta lagret** innan loopen. Nu är alltid motståndaren längst fram i bilden, precis som hjälten.
 6. För att motståndaren ska starta på samma ställe varje gång du trycker på START-flaggan (alltså startar din animation), behöver du ge den en startposition. Det gör du genom att sätta motståndar-sprajten där du vill att den ska starta till höger på scenen. Välj blocket för RÖRELSE: **gå till x: y:** och lägg det innan för-alltid-loopen i ditt skript. Om du ställt din motståndare där du vill att den ska starta, så står automatiskt rätt värden för x och y-koordinater i blocket! Du kan även ändra dem och skriva andra siffror om sprajten står lite fel.
 
-![Skript motståndarens rörelse](Bild_11.png)
+![Skript Motståndar-sprajten startposition o rörelse](Bild_12.png)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Startar motståndaren på rätt plats? Går motståndaren mot hjälten? Går den lagom fort? Du kan ändra hastighet genom att byta ut värdet i gå-blocket!
 
@@ -118,7 +125,7 @@ Till sist behöver du koda slutet på berättelsen, när hjälten har övervunni
 
 I vårt exempel byter rekvisita-sprajten (trädet) klädsel och fjärilar dyker upp i trädet! Här behöver sprajtarna ”prata” med varandra för att rekvisita-sprajten ska veta när hjälten har övervunnit motståndaren och den ska byta klädsel. Det gör vi med MEDDELANDEN, så att **hjälte-sprajten skickar ett meddelande till rekvisita-sprajten**. Vill du koda detta så gör du såhär:
 
-![image alt text](BILD.png)
+![Scratch Välj Hjälte-sprajten](Bild_10a.png)
 
 1. Markera din hjälte-sprajt och gå in på KOD-fliken. Dra in blocket HÄNDELSER: **skicka _**. Välj ”nytt meddelande” i rullistan och hitta på ett namn till meddelandet, till exempel ”Mål”.
 2. Lägg blocket **skicka Mål** sist inuti skriptet **om rör (motståndar-sprajten) då**.
@@ -132,7 +139,7 @@ I vårt exempel byter rekvisita-sprajten (trädet) klädsel och fjärilar dyker 
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Efter att hjälten har övervunnit motståndaren, byter rekvisita-sprajten sin klädsel?
 
-![Bild Rekvisita-sprajten byter klädsel](Bild_18.png)
+![Bild Rekvisita-sprajten får fjärilar](Bild_19.png)
 
 Om du vill att något annat ska hända kan du självklart använda andra skriptblock eller finurliga idéer
 
@@ -163,6 +170,9 @@ Här kommer några idéer om du behöver inspiration:
 7. Du kan också lägga till en bakgrund som avslutar berättelsen och skriva en text som förklarar vad som händer sedan, till exempel ”Så levde de lyckliga i alla sina dagar. Snipp snapp slut så var sagan slut!”. 
 
 >>Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
+
+<a Här kan du se ett annat projekt där vi använder fler sprajtar och bakgrunder. href="https://scratch.mit.edu/projects/148451864/" target="_blank">
+![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
 
 ## Frågeställningar
 
