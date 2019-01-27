@@ -174,7 +174,7 @@ Här kommer några fler idéer om du behöver inspiration:
 6. Du kan lägga till en bakgrund som inleder berättelsen och i ritverktyget skriva en text som förklarar berättelsen, till exempel börja med ”Det var en gång…”. 
 7. Du kan också lägga till en bakgrund som avslutar berättelsen och skriva en text som förklarar vad som händer sedan, till exempel ”Så levde de lyckliga i alla sina dagar. Snipp snapp slut så var sagan slut!”. 
 
-> Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
+> Tips: Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
 
 
 ## Frågeställningar
