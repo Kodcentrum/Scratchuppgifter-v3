@@ -64,8 +64,9 @@ Om du har en hjälte som flyger kan det här räcka för att den ska se ut att r
 4. Nu byter sprajten klädsel jättesnabbt! Sätt en liten paus mellan bytena med KONTROLL: **vänta 1 sekunder**. Ändra till 0,5 sekunder eller det du tycker ser bra ut. Prova dig fram.
 5. Om du inte vill att hjälten ska förvinna bakom rekvisitan (alltså trädet med mera), kan du lägga till en UTSEENDE: **gå till översta lagret** och lägga in den före loopen. Då är hjälten alltid placerad längst fram i bilden och döljs inte av de andra sprajtarna i rekvisitan.
 
-![Bild Välj hjälte-sprajten](Bild_10a)
-![Skript Hjälte-sprajten byter klädslar](Bild_10b)
+![Bild Välj hjälte sprajt](Bild_10a)
+
+![Skript Hjälte sprajten byter klädslar](Bild_10b)
 
 Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
 
