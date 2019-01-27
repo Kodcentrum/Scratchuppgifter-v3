@@ -210,7 +210,8 @@ Det färdiga spelet är bara en prototyp. Det finns många sätt du kan utveckla
 
 ### Hinder
 
-På bakgrunden var vi ritat ut blåa fält som ska föreställa vatten och bruna fält som ska föreställa hus. Nu kan roboten gå över dem. Gör så att något händer när roboten går på till exempel ett blått fält. Du kan använd dig av ett kodblock **"rör färgen … ?"** ![image alt text](image_19.png)
+På bakgrunden var vi ritat ut blåa fält som ska föreställa vatten och bruna fält som ska föreställa hus. Nu kan roboten gå över dem. Gör så att något händer när roboten går på till exempel ett blått fält. Du kan använd dig av ett kodblock **"rör färgen … ?"** 
+![image alt text](image_19.png)
 
 ### Flera nycklar
 
