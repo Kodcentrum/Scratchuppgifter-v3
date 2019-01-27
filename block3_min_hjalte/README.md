@@ -4,7 +4,7 @@ Den här berättelsen bygger på den röda tråden: Vem, Var, Vad, Hur, Mål. De
 
 Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">här</a>.
 
-![Scratch-bild Hjälte möter dinosaurie-motståndare](BugRace_Intro_exempelspel.png)
+![Scratch-bild Hjälte möter dinosaurie-motståndare](Bild_1.png)
 
 ## 1 – "VAR" - Byt bakgrund på scenen
 
