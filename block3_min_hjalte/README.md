@@ -70,7 +70,7 @@ Om du har en hjälte som flyger kan det du redan kodat räcka för att den ska s
 
 ![Skript Hjälte sprajten byter klädslar](Bild_10b.png)
 
-Testa din kod! Tryck på START-flaggan och se vad som händer! Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
+**Testa din kod! Tryck på START-flaggan och se vad som händer!** Ser det ut som att hjälten rör sig nu? Byter den klädsel lagom fort?
 
 ## 5 – "HUR" – Vad händer när hjälten möter motståndaren?
 
@@ -87,7 +87,7 @@ Nu ska du koda vad som händer när hjälten möter motståndaren. Vad gör hjä
 
 ![Skript Motståndar-sprajten startposition o rörelse](Bild_12.png)
 
-Testa din kod! Tryck på START-flaggan och se vad som händer! Startar motståndaren på rätt plats? Går motståndaren mot hjälten? Går den lagom fort? Du kan ändra hastighet genom att byta ut värdet i gå-blocket!
+**Testa din kod! Tryck på START-flaggan och se vad som händer!** Startar motståndaren på rätt plats? Går motståndaren mot hjälten? Går den lagom fort? Du kan ändra hastighet genom att byta ut värdet i gå-blocket!
 
 ## 6 - Motståndaren trollas bort med superkraft
 
@@ -107,7 +107,7 @@ Nu fortsätter motståndaren bara att gå förbi hjälten och ut ur scenen! Det 
 
 ![Skript Motståndaren trollas bort](Bild_15.png)
 
-Testa din kod! Tryck på START-flaggan och se vad som händer! Vad händer nu när hjälten och motståndaren möts? Övervinner hjälten motståndaren?
+**Testa din kod! Tryck på START-flaggan och se vad som händer!** Vad händer nu när hjälten och motståndaren möts? Övervinner hjälten motståndaren?
 
 Om du vill att något annat ska hända kan du självklart använda andra skriptblock och sprajtar!
 
@@ -119,7 +119,7 @@ Här kommer några tips:
 4. Hjälten kan **hoppa på motståndaren för att övervinna den**, eller **hoppa upp och ned** av glädje efteråt. Använd RÖRELSE-blocken för det, till exempel **ändra x** eller **ändra y**.
 5. Låt hjälten och motståndaren säga fler saker om det behövs för att förklara berättelsens handling!
 
-> Testa din kod! Tryck på START-flaggan och se vad som händer!
+**Testa din kod! Tryck på START-flaggan och se vad som händer!**
 
 
 ## 7 – "MÅL" – Hjälten övervinner motståndaren!
@@ -140,7 +140,7 @@ I vårt exempel byter rekvisita-sprajten (trädet) klädsel och fjärilar dyker 
 
 ![Skript Rekvisita-sprajt får meddelande](Bild_18.png)
 
-Testa din kod! Tryck på START-flaggan och se vad som händer! Efter att hjälten har övervunnit motståndaren, byter rekvisita-sprajten sin klädsel?
+**Testa din kod! Tryck på START-flaggan och se vad som händer!** Efter att hjälten har övervunnit motståndaren, byter rekvisita-sprajten sin klädsel?
 
 ![Bild Rekvisita-sprajten får fjärilar](Bild_19.png)
 
@@ -154,16 +154,18 @@ Här kommer några tips på idéer:
 4. Du kan lägga till fler sprajtar som är med i berättelsen hela tiden och som byter klädsel i slutet på berättelsen.
 5. Låt hjälten eller andra sprajtar säga fler saker om det behövs för att förklara hur berättelsen slutar!
 
-
 ## GRATTIS – Du har en färdig berättelse!
-
-> Testa! Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan testa berättelsen!
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
+**Testa! Visa gärna någon det som du har gjort och låt dem testa.** Tryck på **DELA-knappen** för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan testa berättelsen!
+
 Om du har tid över kan du nu fortsätta bygga vidare på din berättelse och göra om din hjälte och din motståndare som du vill.
 
-Här kommer några idéer om du behöver inspiration:
+<a href="https://scratch.mit.edu/projects/148451864/" target="_blank">Här kan du se ett annat hjälte-projekt där vi använder fler sprajtar och bakgrunder.
+![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
+
+Här kommer några fler idéer om du behöver inspiration:
 
 1. Ändra din Hjälte eller annan sprajt så som du vill att den ska se ut! Klicka på den sprajt du vill ändra på och markera fliken för **KLÄDSLAR**. Använd ritverktygen för att måla om din sprajt. Använd till exempel penseln för att rita eller färgburken för att ändra färg på exempelvis kläder eller hår. 
 2. Du kan även lägga till och skapa nya klädslar som du sedan kan växla mellan i koden, genom att kopiera en sprajts klädsel, så det skapas flera. (Tänk på att radera eventuell kod som följer med från den klädsel du kopierat.) Ändra sedan något i den ena klädseln så kan du animera mellan de olika! Vissa sprajtar har redan flera klädslar att animera mellan, till exempel så att hjälten rör på benen, ändrar ansiktsuttryck eller skickar ut blixtar.
@@ -174,8 +176,6 @@ Här kommer några idéer om du behöver inspiration:
 
 > Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
 
-<a href="https://scratch.mit.edu/projects/148451864/" target="_blank">Här kan du se ett annat hjälte-projekt där vi använder fler sprajtar och bakgrunder.
-![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
 
 ## Frågeställningar
 
