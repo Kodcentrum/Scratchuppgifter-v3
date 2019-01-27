@@ -20,11 +20,11 @@ Vi börjar med att remixa ett befintligt projekt.
 
 3. Klicka sedan på knappen **"Remix"**.
 
-    ![image alt text](image_2.png)
+    ![image alt text](remixa-knapp.png)
 
 4. Döp om projekt till något som passar bättre.
 
-    ![image alt text](image_3.png)
+    ![image alt text](namnge-projekt-dela-knapp.png)
 
 I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta som spelet utspelar sig på. Hur dessa fungerar ska vi titta på strax. Du har också en sprajt som är en robot och som kan röra sig över scenen.
 
@@ -82,13 +82,15 @@ Resten av koden är till för att förflytta bakgrunden. Först ändras variabel
 
 Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du få  skapa målet för spelet: nycklar som roboten ska hitta.
 
-1. Klicka på **"Välj sprajt från biblioteket"**
+1. Klicka på **"Välj en sprajt"**
 
-    ![image alt text](image_10.png)
+    ![image alt text](ny-sprajt-knapp.png)
 
 2. Markera Nyckeln och klicka på **Ok**
 
-3. Klicka på knappen **Förminska** och sedan några gånger på **Nyckeln** så att den blir mindre.
+3. Klicka på fältet där det står **Storlek** och skriv in en mindre siffra så **Nyckeln** blir mindre.
+    
+    ![image alt text] (andra-storlek-sprajt.png)
 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
@@ -96,7 +98,7 @@ Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tu
 
 1. Markera **Nyckel** sprajten och klicka på fliken **Klädslar**.
 
-2. Klicka på **Rita ny klädsel** ![image alt text](image_12.png)
+2. Klicka på **Rita ny klädsel**
 
 3. Rita en **rund cirkel** i en **ljus färg** med hjälp av **Cirkelverktyget**
 
