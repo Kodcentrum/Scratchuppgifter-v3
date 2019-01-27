@@ -116,7 +116,7 @@ Här kommer några tips:
 4. Hjälten kan **hoppa på motståndaren för att övervinna den**, eller **hoppa upp och ned** av glädje efteråt. Använd RÖRELSE-blocken för det, till exempel **ändra x** eller **ändra y**.
 5. Låt hjälten och motståndaren säga fler saker om det behövs för att förklara berättelsens handling!
 
->>Testa din kod! Tryck på START-flaggan och se vad som händer!
+> Testa din kod! Tryck på START-flaggan och se vad som händer!
 
 
 ## 5 – "MÅL" – Hjälten övervinner motståndaren!
@@ -169,9 +169,9 @@ Här kommer några idéer om du behöver inspiration:
 6. Du kan lägga till en bakgrund som inleder berättelsen och i ritverktyget skriva en text som förklarar berättelsen, till exempel börja med ”Det var en gång…”. 
 7. Du kan också lägga till en bakgrund som avslutar berättelsen och skriva en text som förklarar vad som händer sedan, till exempel ”Så levde de lyckliga i alla sina dagar. Snipp snapp slut så var sagan slut!”. 
 
->>Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
+> Om du vill lägga till inledning och avslutning, kom ihåg att pausa sprajtarna i början och slutet på berättelsen, så att berättelsetexten hinner visas. Använd blocket **vänta tills_** eller **vänta 1 sekunder** som finns under KONTROLL.
 
-<a Här kan du se ett annat projekt där vi använder fler sprajtar och bakgrunder. href="https://scratch.mit.edu/projects/148451864/" target="_blank">
+<a href="https://scratch.mit.edu/projects/148451864/" target="_blank">Här kan du se ett annat hjälte-projekt där vi använder fler sprajtar och bakgrunder.
 ![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
 
 ## Frågeställningar
