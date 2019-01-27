@@ -11,8 +11,8 @@ Ett exempel på hur en berättelse om en hjälte kan se ut hittar du <a href="ht
 ## 1 – "VAR" - Byt bakgrund på scenen
 
 Först ska du få välja**VAR** din berättelse utspelar sig. Välj bakgrund i din berättelse genom att klicka på den blå lilla symbolen längst ner till höger, som finns under rubriken **Scen** under den stora scen-ytan. Här väljer du en bakgrund från Scratch bibliotek eller så kan du rita en egen bakgrund.
-BILD 2
-BILD3
+![Scratch Välj ny sprajt](Bild_2.png)
+![Scratch Måla ny bakgrund](Bild_3.png)
 
 1. Gå in i **Välj en bakgrund** och ta en bild från Scratch bild-biblioteket eller välj **Måla** och rita din egen bakgrund istället.
 2. Eftersom du vill att det att se ut som att bakgrunden rör sig, behöver du en bakgrund som inte avslöjar att den egentligen står stilla! Därmedkrävs en enkel bakgrund utan träd eller grejjer på marken och mycket "himmel" eller luft överst. I biblioteket kan du till exempel välja mellan bakgrunden ”Blue sky” eller ”Wall 1”. Om du ritar själv kan du till exempel göra enfärgad bakgrund med en låg rektangel längst i annan färg underst som platt mark.
