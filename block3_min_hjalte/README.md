@@ -2,6 +2,11 @@
 
 Här kan du skapa en animerad berättelse om en hjälte i Scratch! Vem är din hjälte? Låt fantasin flöda.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/min-hjalte-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+
 Den här berättelsen bygger på den röda tråden: Vem, Var, Vad, Hur, Mål. Det handlar alltså om en hjälte som ska nå ett mål men som möter en motståndare eller ett hinder på vägen som behöver övervinnas för att komma till målet. För att planera din berättelse och vad den ska handla om passar övningen <a href="https://www.kodboken.se/start/skapa-berattelser/lekar-och-ovningar/en-rod-trad" target="_blank">**En Röd Tråd**</a>. Där bestämmer du vad de olika delarna ska vara för **Vem, Var, Vad, Hur, Mål.** Sen kan du koda med det du planerat som grund.
 
 Ett exempel på hur en berättelse om en hjälte kan se ut <a href="https://scratch.mit.edu/projects/149517033/" target="_blank">hittar du här</a>. Den handlar om en hjälte som är ute i naturen. Motståndaren är ett monster som hjälten trollar bort med supersnällhet. När monstret är borta vågar fjärilar sig fram och dyker upp i träden!
