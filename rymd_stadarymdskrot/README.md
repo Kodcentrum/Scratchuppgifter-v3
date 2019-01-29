@@ -164,7 +164,7 @@ Varje gång vi trycker på den gröna flaggan så dyker varje rymdskrot upp på 
 ![](./9_2.gif)
 
 
-## TODO Möjliga extrauppgifter
+## Möjliga extrauppgifter
 
 - Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
 - Lägg till variabler till rymdskrotet med en ”vikt” och låt farkosten ha en variabel ”plats”.
