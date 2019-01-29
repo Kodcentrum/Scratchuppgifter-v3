@@ -28,6 +28,8 @@ Rymden är en märklig plats för det är svårt att stå helt stilla. Oftast s�
 
 ![](./2_1.gif)
 
+> 10 steg framåt går lite för fort. Testa att ändra till 1 steg framåt så att vår rymdfarkost åker lite långsammare.
+
 ## 3 – Svänga
 
 ![Nu fortsätter vi att gå framåt. För alltid.](./3_1.png)
@@ -142,11 +144,11 @@ Nu kan vi använda blocket **ändra vikt med 5**. Vi vill ändra variabeln **vik
 ![](./10_3.png)
 
 
-## 12 – Lägg till mer rymdskrot
+## 11 – Lägg till mer rymdskrot
 
-![Nu räknar vi hur mycket rymdskrot vi plockar upp](./12_1.png)
+![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
 
-Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi fångar den. Och vi håller räkningen på hur många vi har plockat upp. 
+Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan. Och vi håller räkningen på hur mycket den väger. 
 
 Rymdskrot kan ha olika former och olika storlekar.
 
@@ -158,18 +160,20 @@ På samma sätt som vi ritade och programmerade vår kvadrat – skapa nu tre ny
 
 > Tips! Det verkar inte finnas ingen färdig form för att rita en triangel. Vi måste nog rita den själva.
 
-Varje gång vi trycker på den gröna flaggan så dyker varje rymdskrot upp på en slumpmässig plats.
+Glöm inte att också lägga in all kod från vår första sprajt.
 
-![](./9_2.gif)
+Efter det här steget så ska det vara en massa rymdskrot som dyker upp på slumpmässiga platser varje gång vi trycker på den gröna flaggan.
+
+![](./11_2.gif)
 
 ## 13 – Rymdskrotet väger olika mycket
 
-Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket ”vikt” vi lägger på vår variabel när vi nuddar de olika rymdskroten.
+Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket ”vikt” vi ändrar vår variabel med när vi rör de olika rymdskroten.
 
-- Kvadrat väger 5 ton
-- Cirkel väger 10 ton
-- Triangel väger 15 ton
-- Rektangel väger 20 ton
+- Kvadrat väger **5** ton
+- Cirkel väger **10** ton
+- Triangel väger **15** ton
+- Rektangel väger **20** ton
 
 Skriv in den nya vikten i blocket **ändra vikt med 5** för varje sprajt som är ett rymdskrot.
 
@@ -243,7 +247,7 @@ Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett
 
 ![](./17_6.png)
 
-## TODO: Möjliga extrauppgifter
+## 18 – Koda vidare
 
 - Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
 - Lägg till variabler till rymdskrotet med en ”vikt” och låt farkosten ha en variabel ”plats”.
