@@ -6,6 +6,8 @@ Ett exempel på hur spelet kan se ut hittar du här: <a href="https://scratch.mi
 
 ![image alt text](image_0.png)
 
+Då börjar vi koda!
+
 ## 1 - Remixa ett projekt
 
 Vi börjar med att remixa ett befintligt projekt.
@@ -18,7 +20,7 @@ Vi börjar med att remixa ett befintligt projekt.
 
     ![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"**.
+3. Klicka sedan på knappen **"Remix"**. (Du behöver vara inloggad på ditt Scratch-konto för att komma åt Remix-funktionen.)
 
     ![image alt text](remixa-knapp.png)
 
