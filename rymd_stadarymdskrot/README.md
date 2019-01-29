@@ -163,6 +163,9 @@ Varje gång vi trycker på den gröna flaggan så dyker varje rymdskrot upp på 
 
 ![](./9_2.gif)
 
+## Utmaning
+mmkgmlkds
+
 
 ## Möjliga extrauppgifter
 
