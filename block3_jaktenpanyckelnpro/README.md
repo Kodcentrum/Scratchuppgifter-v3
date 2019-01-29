@@ -2,6 +2,11 @@
 
 I denna uppgift ska du få koda en mer avancerad version av spelet "Jakten på nyckeln". Den kommer att vara lite närmare hur ett riktigt platsbaserat spel fungerar. Dock så krävs det mer avancerad kod för att få det att fungera, och därför är denna uppgift bara lämplig om du är en mer van kodare. Du behöver till exempel kunna använda variabler och kloner.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+
 Ett exempel på hur spelet kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172533037" target="_blank">https://scratch.mit.edu/projects/172533037</a>
 
 ![image alt text](image_0.png)
