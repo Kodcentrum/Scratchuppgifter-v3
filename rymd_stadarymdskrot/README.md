@@ -247,9 +247,7 @@ Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett
 
 ![](./17_6.png)
 
-
-## Möjliga extrauppgifter
-
+## 18 – Koda vidare
 
 - Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
 - Lägg till variabler till rymdskrotet med en ”vikt” och låt farkosten ha en variabel ”plats”.
