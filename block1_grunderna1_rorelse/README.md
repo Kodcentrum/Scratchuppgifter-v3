@@ -11,6 +11,8 @@ Nu ska vi prova att koda en av Kodcentrums robotar att röra sig så här:
 
 ![Kodcentrums robot flyttar sig åt höger](Robot_1.gif)
 
+Redo att börja koda? Klicka på nästa steg nummer 1 här under för att gå vidare.
+
 ## 1: Remixa projekt
 
 När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program så vi kan skapa vidare på det:
