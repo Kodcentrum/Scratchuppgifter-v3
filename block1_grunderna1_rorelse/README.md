@@ -36,7 +36,7 @@ När man ska koda i Scratch kan man antingen starta ett eget projekt eller progr
 
 Vi kan nu koda som vi vill i det remixade projektet - det har blivit till ditt eget. I just detta projekt finns ingen kod än, bara en robotsprajt.
 
-Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig. All kod som ska läggas in kallas för **script**. I Scratch är alla script förberedda små kod-pusselbitar att skapa med.
+Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig. All kod som ska läggas in kallas för **skript**. I Scratch är alla skript förberedda små kod-pusselbitar att skapa med.
 
 ## 2: Gå-skriptet
 
@@ -102,8 +102,8 @@ Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka di
 
 ![Alt Text](Skript_5.gif)
 
-Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-skript har en rund topp, det betyder att de alltid ligger överst och man kan koppla andra scriptblock under.
+Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-skript har en rundad topp, det betyder att de alltid ligger överst och man kan bara koppla andra scriptblock under.
 
-Alla skript i programmet måste vara kopplade till ett händelse-skript, annars kommer inte programmet veta när den ska köra skripten.
+Alla skript i programmet måste vara kopplade till ett händelse-skript medrundad topp, annars kommer inte programmet veta när den ska köra skripten och inget händer.
 
 Bra jobbat! Nu har du lärt dig grunderna i hur man får figurer att röra sig i Scratch. Nu är du redo att testa på lite mer avancerade saker.
