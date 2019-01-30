@@ -14,23 +14,25 @@ Redo att börja koda? Klicka på nästa steg nummer 1 här under för att gå vi
 
 När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program så vi kan skapa vidare på det:
 
-1. <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Klicka här</a> för att komma till det förberedda programmet på Scratch med en robot som rör sig.
+1. Klicka på länken här under för att komma till det förberedda programmet på Scratch.
 
-<!--_-->
+ <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
 
-2. Om Scratch visas på fel språk, kan du byta till Svenska (eller valfritt språk) högst upp till vänster med vita symbol av en rund jordglob.
+2. Om Scratch visas på annat språk än Svenska kan du byta språk ängst ned på Scratch sajt omdu vill med den här knappen:
+
+![Bild av knapp för byte av språk på sajt](Image_1.png)
 
 3. Se till att du är inloggad på ditt Scratch-konto. (Om du inte har ett konto, klicka på "Gå med Scratch" och skapa ett, det är gratis.)
 
-![Alt Text](Image_2.png)
+![Bild av Scratch inloggningsfunktion](Image_2.png)
 
 4. Klicka på Se inuti.
 
-![Alt Text](Image_3.png)
+![Bild av knapp för Scratch funktion Se inuti](Image_3.png)
 
 5. Klicka på remix-knappen för att spara en egen kopia av programmet med robotsprajten.
 
-![Alt Text](Image_4.png)
+![Bild av Scratch funktion Remix](Image_4.png)
 
 Vi kan nu koda som vi vill i det remixade projektet - det har blivit till ditt eget. I just detta projekt finns ingen kod än, bara en robotsprajt.
 
