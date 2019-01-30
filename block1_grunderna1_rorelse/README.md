@@ -5,19 +5,19 @@ Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner.
 
-De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer man för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig.
+De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig i sina spel.
 
 Nu ska vi prova att koda en av Kodcentrums robotar att röra sig så här:
 
-![Alt Text](Robot_1.gif)
+![Kodcentrums robot flyttar sig åt höger](Robot_1.gif)
 
 ## 1: Remixa projekt
 
-När man ska koda i Scratch kan man antingen starta ett eget program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program.
+När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program så vi kan skapa vidare på det:
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet på Scratch.
 
-<a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Projektlänk</a> <!--_-->
+<a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
 
 2. Om texten på Scratch hemsida är på Engelska så kan du ändra språk till Svenska längst ner på sidan.
 
