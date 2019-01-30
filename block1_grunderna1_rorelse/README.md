@@ -18,8 +18,7 @@ När man ska koda i Scratch kan man antingen starta ett eget projekt eller progr
 
  <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
  
-
-2. Om Scratch visas på annat språk än Svenska kan du byta språk ängst ned på Scratch sajt omdu vill med den här knappen:
+2. Om Scratch visas på annat språk än Svenska kan du om du vill byta språk längst ned på Scratch sajt med den här knappen:
 
 ![Bild av knapp för byte av språk på sajt](Image_1.png)
 
