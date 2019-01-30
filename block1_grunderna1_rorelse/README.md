@@ -18,11 +18,11 @@ När man ska koda i Scratch kan man antingen starta ett eget projekt eller progr
 
 <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
 
-2. Om texten på Scratch hemsida är på Engelska så kan du ändra språk till Svenska längst ner på sidan.
+2. Om Scratch visas på fel språk, kan du byta till Svenska (eller valfritt språk) högst upp till vänster med ett klick på denna symbol:
 
-![Alt Text](Image_1.png)
+![Ikon för att byta språk](Image_1.png)
 
-3. Se till att du är inloggad på ditt Scratch-konto. (Om du inte har ett konto, klicka på "Gå med Scratch" och skapa ett.)
+3. Se till att du är inloggad på ditt Scratch-konto. (Om du inte har ett konto, klicka på "Gå med Scratch" och skapa ett, det är gratis.)
 
 ![Alt Text](Image_2.png)
 
