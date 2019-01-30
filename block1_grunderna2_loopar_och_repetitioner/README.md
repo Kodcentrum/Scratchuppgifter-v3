@@ -6,7 +6,7 @@ Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bar
 
 ## 1: Remixa
 
-Precis som i den förra uppgiften ska vi börja med att remixa ett program.
+Precis som i den förra uppgiften **Kom Igång: Rörelse** ska vi även nu börja med att remixa ett färdigt program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet:
 
