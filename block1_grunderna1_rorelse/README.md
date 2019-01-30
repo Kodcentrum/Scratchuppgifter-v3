@@ -14,9 +14,10 @@ Redo att börja koda? Klicka på nästa steg nummer 1 här under för att gå vi
 
 När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program så vi kan skapa vidare på det:
 
-1. Klicka på länken här under för att komma till det förberedda programmet på Scratch.
+1. Klicka på länken här under för att komma till det förberedda programmet på Scratch:
 
  <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
+ 
 
 2. Om Scratch visas på annat språk än Svenska kan du byta språk ängst ned på Scratch sajt omdu vill med den här knappen:
 
