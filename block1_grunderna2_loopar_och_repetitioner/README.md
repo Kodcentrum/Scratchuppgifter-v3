@@ -8,15 +8,15 @@ Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bar
 
 Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
-1. Klicka på länken nedanför för att komma till det förberedda programmet.
+1. Klicka på länken nedanför för att komma till det förberedda programmet:
 
-<a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Projektlänk</a> <!--_-->
+<a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Scratch-projekt: Robot rör sig för alltid</a> <!--_-->
 
-2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
+2. Om texten på Scratch sajt är på annat språk än Svenska, kan du om du vill byta språk längst ner på sidan.
 
 ![Alt Text](Image_1.png)
 
-3. Se till att du är inloggad på ditt konto.
+3. Se till att du är inloggad på ditt konto. Om du saknar konto kan du skapa ett under Gå med Scratch, det är gratis.
 
 ![Alt Text](Image_2.png)
 
