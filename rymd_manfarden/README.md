@@ -133,3 +133,5 @@ Om vi vill att vår måne ska hamna på den övre delen av vår scen – **vilke
 Lägg till ett fält för slumptal även på y-koordinaten. Skriv in den lägsta i det vänstra fältet och den högsta i det högra fältet.
 
 Hamnar vår måne på olika positioner även i höjdled varje gång du trycker på den gröna flaggan?
+
+## 
