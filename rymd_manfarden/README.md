@@ -72,7 +72,7 @@ Ser din kod för raketen ut ungefär så här?
 
 ![](./5_1.png)
 
-Nu ska vi använda blocket **`4` sek till x: ` ` y: ` `**. 
+Nu ska vi använda blocket **glid `4` sek till x: ` ` y: ` `**. 
 
 ![](./5_2.png)
 
