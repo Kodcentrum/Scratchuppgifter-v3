@@ -50,13 +50,21 @@ Vad vi kan göra är att spara svaret i en egen variabel. Som vi själva kan hå
 
 Skapa en ny variabel som heter ”ny x”. 
 
+![](./4_2.png)
+
 Använd blocket **sätt ”ny x” till `svar`** i stället för att använda blocket ”sätt x till `svar`”. Då sparar vi svaret på frågan i vår variabel ”ny x”.
+
+![](./4_3.png)
 
 Gör samma sak med y. Skapa en ny variabel som heter ”ny y” och sätt den till ”svar”.
 
-![](./4_2.gif)
+![](./4_4.png)
+
+![](./4_5.gif)
 
 Nu kommer vår raket inte att flytta på sig längre för vi har tagit bort blocken som flyttar den. Men kan du se att värdena för variablerna ändras när du skriver in svar på frågan?
+
+> Du kan se variablerna längst upp till vänster på din scen. De borde få samma siffra som du skrev in i textrutan.
 
 ## 5 – Glid till variabler
 
