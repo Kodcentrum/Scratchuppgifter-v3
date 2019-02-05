@@ -134,6 +134,6 @@ Lägg till ett fält för slumptal även på y-koordinaten. Skriv in den lägsta
 
 Hamnar vår måne på olika positioner även i höjdled varje gång du trycker på den gröna flaggan?
 
-## 9 – 
+## 
 
 
