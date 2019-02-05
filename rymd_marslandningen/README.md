@@ -140,3 +140,5 @@ För att byta klockslag så lägger vi till blocket **ändra "klockslag" till "1
 ## 12 – Fler justeringar
 
 Tycker du att simulationen går långsamt? Det går att snabba upp den genom att gå fler steg framåt. Testa att skriva in en högre siffra i blocket **gå 3 steg framåt**.
+
+## 
