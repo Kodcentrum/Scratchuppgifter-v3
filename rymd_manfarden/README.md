@@ -1,18 +1,18 @@
 # Månfärden
 
-Nu är det dags för uppskjutning till månen! Tur att vi har förberett oss genom att sätta ut saker i rymden i vårt koordinatsystem. Det kommer vi få användning av här.
+Nu är det dags för uppskjutning till månen! Har du förberett dig genom att sätta ut saker i ett koordinatsystem på papper? Det kommer vi få användning av.
 
-Vi ska bygga en avfyrning där vi skriver in vilka koordinater vi vill åka till och sedan så åker vi dit.
+Vi ska bygga en avfyrning där vi försöker åka till månen genom att skriva in de koordinater vi vill åka till och sedan åka dit.
 
 ![](./0_1.gif)
 
 ##  1 – Lägg ut planeter, asteroider och satelliter
 
-Vi ska börja med att lägga ut alla våra sprajtar så att de får rätt koordinater.
+Vi börjar med att lägga ut alla våra sprajtar så att de får rätt koordinater.
 
 Tryck på en sprajt i biblioteket för att välja den. Vi kan se att den är vald för att den får en blå ram runt sig.
 
-Vi ska sätta ut våra sprajtar så exakt vi bara kan. För att göra det så kan vi programmera dem genom att använda blocken **När grön flagga klickas på** och **gå till x: ` ` y: ` `**.
+Vi sätter ut våra sprajtar så exakt vi bara kan. För att göra det så kan vi programmera dem genom att använda blocken **När grön flagga klickas på** och **gå till x: ` ` y: ` `**.
 
 ![](./1_1.png)
 
@@ -22,7 +22,7 @@ Skriv in de exakta koordinaterna från ditt koordinatsystem på papper. Hamnar a
 
 Välj sprajten ”Raket”.
 
-Vi kan berätta för vår raket vart den ska åka genom att använda blocket **fråga `     ` och vänta**. Då öppnas en textruta där vi kan skriva in exempelvis en x-koordinat. Det vi svarar hamnar sedan i variabeln **svar**.
+Vi kan berätta för vår raket vart den ska åka genom att använda blocket **fråga `     ` och vänta**. Då öppnas en textruta där vi kan skriva in en x-koordinat. Vårt svar hamnar sedan i variabeln **svar**.
 
 Koda raketen så att den frågar vilken x-koordinat den ska gå till och att den sedan sätter x till svaret.
 
@@ -30,7 +30,7 @@ Koda raketen så att den frågar vilken x-koordinat den ska gå till och att den
 
 ## 3 – Fråga efter y-koordinat
 
-Fortsätt koda på sprajten ”raket”. 
+Fortsätt koda på sprajten ”Raket”. 
 
 För att kunna åka till månen behöver vi veta både en x-koordinat och en y-koordinat.
 
