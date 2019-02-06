@@ -20,7 +20,7 @@ Kan vi koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycke
 
 ![](./1_1.gif)
 
-## 2 – Åka framåt
+## 2 – Loopa
 
 ![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./1_1.png)
 
