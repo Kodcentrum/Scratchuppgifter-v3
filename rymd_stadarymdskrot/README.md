@@ -22,9 +22,13 @@ Kan vi koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycke
 
 ## 2 – Loopa
 
+Så här ska din kod se ut nu:
+
 ![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./1_1.png)
 
-Rymden är en märklig plats för det är svårt att stå helt stilla. Oftast så fortsätter vi att sväva framåt. Det finns ett block som heter ”för alltid”. Kan vi koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt när vi trycker på den gröna flaggan?
+Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt.
+
+Det finns ett block som heter ”för alltid”. Kan vi koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt när vi trycker på den gröna flaggan?
 
 ![](./2_1.gif)
 
@@ -32,9 +36,13 @@ Rymden är en märklig plats för det är svårt att stå helt stilla. Oftast s�
 
 ## 3 – Svänga
 
+Så här ska din kod se ut nu:
+
 ![Nu fortsätter vi att gå framåt. För alltid.](./3_1.png)
 
-Nu när vi åker framåt i rymden så behöver vi också kunna svänga. Det finns ett block som heter ”när mellanslag-tangenten trycks ned” och två block som svänger. Ett block svänger vänster och ett block svänger höger.
+Nästa steg är att lägga till styrning.
+
+Det finns ett block som heter ”när mellanslag-tangenten trycks ned” och två block som svänger. Ett block svänger vänster och ett block svänger höger.
 
 ![](./3_2.png)
 
@@ -44,9 +52,13 @@ Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangent
 
 ## 4
 
+Så här ska din kod se ut nu:
+
 ![Nu kan vi styra vår farkost i rymden](./4_1.png)
 
-Nu när vi kan styra vår farkost så är det dags att ge vårt projekt ett namn. Ge ditt projekt namnet ”Städa rymdskrot”.
+Nästa steg är att spara projektet.
+
+// TODO: Lägg till information om att spara när man är inloggad vs att man inte har konto.
 
 ## 5 – Skapa rymdskrot
 
@@ -56,7 +68,7 @@ Tryck på knappen för att måla en ny sprajt.
 
 ![Tryck på knappen för att måla en ny sprajt](./5_1.png)
 
-Rita en kvadrat genom att välja kvadratverktyget och rita en kvdrat på den rutiga ytan. Vi kan välja vilken färg vi vill.
+Rita en kvadrat genom att välja kvadratverktyget och rita en kvadrat på den rutiga ytan. Vi kan välja vilken färg vi vill.
 
 ![](./5_2.png)
 
@@ -64,15 +76,15 @@ Döp din sprajt till ”kvadrat”.
 
 ![](./5_3.png)
 
-## 6 – Koda rymdskrot
+## 6 – Koda kvadrat
 
-Nu ska vi lägga till kod för vårt rymdskrot så att rymdskrotet försvinner när vår farkost rör vid det. Klicka på fliken ”kod” för att komma till koden för kvadraten.
+Tryck på ”kvadrat” i ditt bibliotek så att den är vald. Vi kan se att den är vald genom att den har en blå ram runt sig. Nu ska vi koda vad kvadraten ska göra.
+
+Nu ska vi lägga till kod för vår kvadrat så att den försvinner när vår farkost rör vid det. Klicka på fliken ”kod” för att komma till koden för kvadraten.
 
 ![](./6_1.png)
 
 > Ser det tomt ut? Din kod för din farkost har inte försvunnit. All kod som vi lägger ut är kopplade till en sprajt. Eftersom vi skapade en ny sprajt för vårt rymdskrot så har inte den fått någon kod ännu. Om vi väljer vår farkost i biblioteket så kommer vi se vår kod igen.
-
-Tryck på ”kvadrat” i ditt bibliotek så att den är vald. Vi kan se att den är vald genom att den har en blå ram runt sig. Nu ska vi koda vad kvadraten ska göra.
 
 ![](./5_3.png)
 
@@ -82,13 +94,15 @@ Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så ska
 
 ![](./6_3.gif)
 
-## 7 – Visa rymdskrotet igen
+## 7 – Visa kvadraten igen
+
+Så här ska din kod se ut nu:
 
 ![Ser din kod ut såhär?](./7_1.png)
 
-Märker du att vårt rymdskrot aldrig visas igen? Även om vi trycker på den gröna flaggan?
+Nästa steg är att visa kvadraten igen när vi trycker på den gröna flaggan.
 
-Det är för att vi inte har lagt till det i vår kod. Kvadraten gör bara precis som den har blivit tillsagd.
+Kvadraten gör bara precis som den har blivit tillsagd och vi har inte sagt till den att visa sig igen när vi trycker på den gröna flaggan.
 
 Det finns ett block som heter ”visa”. Vi skulle kunna lägga det så att det händer precis efter vi har klickat på den gröna flaggan och precis innan vårt block ”vänta tills …”.
 
@@ -99,11 +113,13 @@ Vi vill att vår kvadrat ska visas så fort vi trycker på den gröna flaggan.
 ![](./7_3.gif)
 
 
-## 8 – Förflytta rymdskrotet
+## 8 – Förflytta kvadraten
+
+Så här ska din kod se ut nu:
 
 ![](./8_1.png)
 
-Nu visas vårt rymdskrot igen när vi trycker på den gröna flaggan. Men det visas alltid på samma ställe och det är lite tråkigt. Vi skulle vilja att det dyker upp på ett *slumpmässigt* ställe.
+Nu visas vår kvadrat igen när vi trycker på den gröna flaggan. Nästa steg är att ge den en *slumpmässig* position.
 
 > Slumpmässigt betyder att det kan dyka upp vart som helst och på en ny plats varje gång.
 
@@ -117,11 +133,15 @@ När det ligger rätt så lägger sig rymdskrotet på en ny plats varje gång vi
 
 ## 9 – Rör på rymdskrotet
 
+Så här ska din kod se ut nu:
+
 ![](./9_1.png)
 
 Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan. Men rymdskrotet står ju helt still! Och det är ju helt fel. Det ska ju flyga runt.
 
-Vi kan få det att flyga runt på samma sätt som vår farkost. Vi lägger till ett nytt block **När grön flagga klickas på** och **för alltid** så ska vi **gå 1 steg framåt**.
+Nästa steg är att få kvadraten att röra på sig.
+
+Vi lägger till ett nytt block **När grön flagga klickas på** och **för alltid** så ska vi **gå 1 steg framåt**.
 
 Men om vi testar nu så fastnar vårt rymdskrot i kanterna för vi kan inte styra rymdskrotet. Det finns ett block som kan hjälpa oss. Det heter **om vid kanten, studsa**. 
 
@@ -129,9 +149,13 @@ Men om vi testar nu så fastnar vårt rymdskrot i kanterna för vi kan inte styr
 
 Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 steg framåt**. Vart tror du att det här blocket ska ligga? 
 
-## 10 – Håll räkningen på rymdskrotet
+## 10 – Håll räkningen på poäng
+
+Så här ska din kod se ut nu:
 
 ![](./10_1.png)
+
+Nästa steg är att räkna poäng.
 
 Vi skulle vilja hålla reda på hur mycket rymdskrotet väger som vi har plockat upp. Det skulle vi kunna använda en *variabel* till. Variabler är väldigt användbara när vi vill räkna saker.
 
@@ -146,11 +170,13 @@ Nu kan vi använda blocket **ändra vikt med 5**. Vi vill ändra variabeln **vik
 
 ## 11 – Lägg till mer rymdskrot
 
+Så här ska din kod se ut nu:
+
 ![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
 
 Nu har vi skapat ett rymdskrot i form av en kvadrat som dyker upp på en ny plats varje gång vi trycker på den gröna flaggan. Och vi håller räkningen på hur mycket den väger. 
 
-Rymdskrot kan ha olika former och olika storlekar.
+Nästa steg är att lägga till fler former av rymdskrot.
 
 På samma sätt som vi ritade och programmerade vår kvadrat – skapa nu tre nya figurer:
 
