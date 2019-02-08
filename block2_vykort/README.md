@@ -26,7 +26,7 @@ Först behöver du en **bakgrund** och några fina **sprajtar** som figurer!
 
 5. Lägg in två till sprajtar som kan röra på sig på var sin sida om pingvinen. Till exempel **Djur > Rabbit** och **Människor > Kai.** Lägg alla tre sprajtar bredvid varandra på **scenen** med utrymme för att röra på sig.
 
-6. Om figurerna är för stora kan du ändra storlek genom att skriva in exempelvis 80 istället för 100 - då visas sprajten med 80% storlek istället för full storlek på 100%.
+6. Om figurerna är för stora kan du ändra storlek genom att skriva in exempelvis 80 istället för 100 - då visas sprajten med 80% storlek istället för full storlek på 100%. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt tal mellan 1-100. Prova dig fram.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
