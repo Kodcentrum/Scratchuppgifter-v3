@@ -1,7 +1,7 @@
 # Vykort
 
 Här får du göra ett digitalt vykort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
-Här kan du se ett exempelprojekt på ett julkort: <a href="https://scratch.mit.edu/projects/266913274/" target="_blank">
+Här kan du se ett exempelprojekt på ett julkort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
