@@ -51,7 +51,7 @@ Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) a
 
   * Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vad heter du?"*.
 
-  ![image alt text](image_0.png)
+  ![image alt text](image_fråga.png)
 
 *När du har skrivit in ett namn i svarsrutan, tryck på Enter.
 Du kommer att förstå senare vad namnet ska användas till!*
