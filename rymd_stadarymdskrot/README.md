@@ -249,35 +249,5 @@ Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är v�
 
 Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
 
-### Kod för Rymdfarkost:
-
-![](./17_1.png)
-
-### Kod för Kvadrat:
-
-![](./17_2.png)
-
-### Kod för Rektangel:
-
-![](./17_3.png)
-
-### Kod för Cirkel:
-
-![](./17_4.png)
-
-### Kod för Triangel:
-
-![](./17_5.png)
-
-### Kod för Mats:
-
-![](./17_6.png)
-
-## Koda vidare
-
-- Rymdskrotet kan skicka meddelande som farkosten tar emot och säger ”Bra städat!”
-- Lägg till variabler till rymdskrotet med en ”vikt” och låt farkosten ha en variabel ”plats”.
-- Rymdskrotet ska röra på sig och studsa vid kanterna.
-
 ##
 
