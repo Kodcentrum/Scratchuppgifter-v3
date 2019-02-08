@@ -63,12 +63,17 @@ Du kommer att förstå senare vad namnet ska användas till!*
 
 Nu vill du ge pingvinen några rörelser till musik. 
 
-1. Gå till fliken LJUD i övre vänstra hörnet och klicka sen på VÄLJ NYTT LJUD-symbolen i nedre vänstra hörnet. Välj nytt ljud, till exempel  **Loop > Dance Around** från biblioteket - klicka på det du vill ha. Tips: Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika!
+1. Gå till fliken LJUD i övre vänstra hörnet.
+
   ![image alt text](image_40.png)
-  
+
+2. Klicka sen på VÄLJ NYTT LJUD-symbolen i nedre vänstra hörnet. 
+
   ![image alt text](image_41.png)
 
-  > **Tips:** Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
+Välj nytt ljud från ljudbiblioteket, till exempel **Loop > Dance Around**, - klicka på det ljud du vill välja. 
+  
+  > **Tips!** Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
 
 8. Gå till fliken KOD och ändra skriptet som du skapade i uppgift 2. Det ska nu:
 
