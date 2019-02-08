@@ -71,11 +71,11 @@ Nu vill du ge pingvinen några rörelser till musik.
 
   ![image alt text](image_41.png)
 
-10. Välj nytt ljud från ljudbiblioteket, till exempel **Loop > Dance Around**, - klicka på det ljud du vill välja. 
+10. Välj nytt ljud från ljudbiblioteket och klicka på det ljud du vill välja. Vi har valt **Loop > Dance Around** i exempelprojektet. 
   
   > **Tips!** Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
 
-11. . Gå till fliken KOD och ändra skriptet som du skapade i uppgift 2. Det ska nu:
+11. Gå till fliken KOD i vänstra övre hörnet och ändra lite i skriptet som du skapade i steg 2. Det ska nu:
 
   * Starta när START-flaggan klickas på
 
@@ -89,6 +89,7 @@ Nu vill du ge pingvinen några rörelser till musik.
 
   _Meddelandet "Dansa" kommer att bli viktigt
 om en stund. Kan du lista ut varför?_
+
 
 12. Skapa nu ett nytt skript till pingvinen som ska:
 
@@ -106,7 +107,7 @@ om en stund. Kan du lista ut varför?_
 
 ## 4: Festens slut
 
-För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis "*Ha det så bra!"* och sluta dansa.
+För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Ha det så bra "* och sluta dansa.
 
 13. Gör så att skriptet du gjorde i steg 1 skickar ut **meddelande** _"DANSEN SLUT"_ efter att ljudet _Danse Around_ har spelats klart.
 
@@ -122,9 +123,9 @@ För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att
 
   ![image alt text](image_9.png)
 
-> Testa ditt projekt! Slutar Pingvinen att röra sig när melodin är slut? Säger pingvinen _"GHa det så bra …"_ och det namn som du skrev in när kortet frågade _"Vad heter du?"_ i början?
+> Testa ditt projekt! Slutar Pingvinen att röra sig när melodin är slut? Säger pingvinen _"Ha det så bra …"_ och det namn som du skrev in när kortet frågade _"Vad heter du?"_ i början?
 
-**Tips:** Om den sätter ihop Ha det så bra med namnet, så lägg till ett mellanslag efter _"Ha det så bra"_ i skriptet!
+  > **Tips:** Om den sätter ihop Ha det så bra med namnet, så lägg till ett mellanslag efter _"Ha det så bra "_ i skriptet!
 
 
 ## 5: Alla ska dansa!
@@ -137,30 +138,34 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 
   ![image alt text](image_10.png)
 
-  **Tips:** Titta på hur du gjorde skripten för pingvinen om du inte kommer ihåg!
+  > **Tips:** Titta på hur du gjorde skripten för pingvinen om du inte kommer ihåg!
 
 > Testa ditt projekt! Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
 
 ## 6: Pynta vykortet
 
-Du har dansare och musik, men det finns alltid plats för lite mer bling och punt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöglinga eller stjärna eller figur? Du kan också göra fint med byte av bakgrund genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
+Du har dansare och musik, men det finns alltid plats för lite mer bling och punt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller ej annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
 
-17. Börja med en sprajt som dyket upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
+17. Börja med en sprajt som ska dykea upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
 
-18. Skapa ett skript för hjärtat som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska **visa** sig när den **tar emot meddelandet** "DANSEN SLUT".
+18. Skapa ett skript för hjärtat som säger att den ska vara **gömd** när START klickas på (så man inte ser den i början), och ett skript som säger att den ska **gömma** sig när den **tar emot meddelandet** "DANSEN SLUT" ( så den försvinenr igen när dansen är slut).
 
   ![image alt text](image_11.png)
+  
+19. Sen lägger vi in att hjärtat ska **visa** sig och dansa och **byta klädsel** precis som pingvinen, när musiken går igång. Och försvinna igen när musiken tar slut.
 
-19. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
+  ![image alt text](image_42.png)
 
-20. Skriptet för "DANSA" ska använda en LOOP som gör att scenen **för alltid** ska:
+20. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
+
+21. Skriptet för "DANSA" ska använda en LOOP som gör att scenen **för alltid** ska:
 
   * **Ändra** _färg_ **effekten med** _25_
 
   * **Vänta** _2_ **sekunder**
 
-21. Skriptet för "DANSEN SLUT" ska:
+22. Skriptet för "DANSEN SLUT" ska:
 
   * **Stoppa** _andra skript i sprajten_
 
