@@ -45,7 +45,7 @@ Nu har du sprajtar som kan röra sig och en bakgrund. Nästa steg är att få vy
 
 Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) att fråga vad kortets mottagare heter.
 
-7. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under senen så den blir markerad) och skapa ett skript till den som säger:
+7. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under scenen så den blir markerad) och skapa ett skript till den som säger:
 
   * Startar när START-flaggan klickas på.
 
