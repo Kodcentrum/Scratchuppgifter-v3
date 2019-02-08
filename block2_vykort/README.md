@@ -20,7 +20,7 @@ Först behöver du en vintrig **bakgrund** och några fina **sprajtar** som figu
 
 3. Klipp bort sprajten katten genom att klicka krysset på den lilla kattbilden under scenen, så förvinner den.
 
-  ![image alt text](Ta-bort-Sprajt.png)
+  ![image alt text](Ta_bort_Sprajt.png)
 
 4. Välj en ny sprajt som huvudkaraktär i ditt vykort. Vi har valt **Djur > Penguin 2**, men du kan välja vilken du vill såklart.
 
@@ -28,7 +28,7 @@ Först behöver du en vintrig **bakgrund** och några fina **sprajtar** som figu
 
 6. Om figurerna är för stora kan du ändra storlek genom att skriva in exempelvis 80 istället för 100 - då visas sprajten med 80% storlek istället för full storlek på 100%.
 
-  ![image alt text](Ändra-Storlek-Sprajt.png)
+  ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu har du sprajtar som kan röra sig och en bakgrund. Nästa steg är att få vykortet att:
 
