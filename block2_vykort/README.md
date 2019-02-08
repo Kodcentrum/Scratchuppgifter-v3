@@ -45,7 +45,7 @@ Nu har du sprajtar som kan röra sig och en bakgrund. Nästa steg är att få vy
 
 Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) att fråga vad kortets mottagare heter.
 
-4. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under senen så den blir markerad) och skapa ett skript till den som säger:
+7. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under senen så den blir markerad) och skapa ett skript till den som säger:
 
   * Startar när START-flaggan klickas på.
 
@@ -63,19 +63,19 @@ Du kommer att förstå senare vad namnet ska användas till!*
 
 Nu vill du ge pingvinen några rörelser till musik. 
 
-1. Gå till fliken LJUD i övre vänstra hörnet.
+8. Gå till fliken LJUD i övre vänstra hörnet.
 
   ![image alt text](image_40.png)
 
-2. Klicka sen på VÄLJ NYTT LJUD-symbolen i nedre vänstra hörnet. 
+9. Klicka sen på VÄLJ NYTT LJUD-symbolen i nedre vänstra hörnet. 
 
   ![image alt text](image_41.png)
 
-Välj nytt ljud från ljudbiblioteket, till exempel **Loop > Dance Around**, - klicka på det ljud du vill välja. 
+10. Välj nytt ljud från ljudbiblioteket, till exempel **Loop > Dance Around**, - klicka på det ljud du vill välja. 
   
   > **Tips!** Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
 
-8. Gå till fliken KOD och ändra skriptet som du skapade i uppgift 2. Det ska nu:
+11. . Gå till fliken KOD och ändra skriptet som du skapade i uppgift 2. Det ska nu:
 
   * Starta när START-flaggan klickas på
 
@@ -90,7 +90,7 @@ Välj nytt ljud från ljudbiblioteket, till exempel **Loop > Dance Around**, - k
   _Meddelandet "Dansa" kommer att bli viktigt
 om en stund. Kan du lista ut varför?_
 
-9. Skapa nu ett nytt skript till pingvinen som ska:
+12. Skapa nu ett nytt skript till pingvinen som ska:
 
   * Starta när det **tar emot meddelandet** _"Dansa"_
 
@@ -108,10 +108,10 @@ om en stund. Kan du lista ut varför?_
 
 För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis "*Ha det så bra!"* och sluta dansa.
 
-1. Gör så att skriptet du gjorde i steg 1 skickar ut **meddelande** _"DANSEN SLUT"_ efter att ljudet _Danse Around_ har spelats klart.
+13. Gör så att skriptet du gjorde i steg 1 skickar ut **meddelande** _"DANSEN SLUT"_ efter att ljudet _Danse Around_ har spelats klart.
   ![image alt text](image_skicka_Dansen_slut.png)
 
-2. Skapa ett nytt skript för pingvinen som ska:
+14. Skapa ett nytt skript för pingvinen som ska:
 
   * Starta när det **tar emot meddelande** _"DANSEN SLUT"_
 
@@ -130,9 +130,9 @@ För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när musiken börjar och när musiken slutar. Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
 
-11. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan - och alltså kan röra sig. Annars kommer de stå stilla. 
+15. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan - och alltså kan röra sig. Annars kommer de stå stilla. 
 
-12. Nu ska du skapa två skript för vardera sprajt. Du kan göra skripten för en sprajt och sedan kopiera dem till den andra. Bestäm själv vad som händer när sprajtarna **tar emot** meddelande "DANSA" och "DANSEN SLUT".
+16. Nu ska du skapa två skript för vardera sprajt. Du kan göra skripten för en sprajt och sedan kopiera dem till den andra. Bestäm själv vad som händer när sprajtarna **tar emot** meddelande "DANSA" och "DANSEN SLUT".
 
   ![image alt text](image_10.png)
 
@@ -145,21 +145,21 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 
 Du har dansare och musik, men det finns alltid plats för lite mer bling och punt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöglinga eller stjärna eller figur? Du kan också göra fint med byte av bakgrund genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
 
-13. Börja med en sprajt som dyket upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
+17. Börja med en sprajt som dyket upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
 
-14. Skapa ett skript för hjärtat som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska **visa** sig när den **tar emot meddelandet** "DANSEN SLUT".
+18. Skapa ett skript för hjärtat som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska **visa** sig när den **tar emot meddelandet** "DANSEN SLUT".
 
   ![image alt text](image_11.png)
 
-15. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
+19. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
 
-16. Skriptet för "DANSA" ska använda en LOOP som gör att scenen **för alltid** ska:
+20. Skriptet för "DANSA" ska använda en LOOP som gör att scenen **för alltid** ska:
 
   * **Ändra** _färg_ **effekten med** _25_
 
   * **Vänta** _2_ **sekunder**
 
-17. Skriptet för "DANSEN SLUT" ska:
+21. Skriptet för "DANSEN SLUT" ska:
 
   * **Stoppa** _andra skript i sprajten_
 
