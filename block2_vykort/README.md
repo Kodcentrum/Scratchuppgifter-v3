@@ -12,7 +12,7 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
 
 ## 1: Välja sprajtar och bakgrund
 
-Först behöver du en vintrig **bakgrund** och några fina **sprajtar** som figurer!
+Först behöver du en **bakgrund** och några fina **sprajtar** som figurer!
 
 1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt.
 
