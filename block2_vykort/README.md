@@ -144,7 +144,7 @@ Du har dansare och musik, men det finns alltid plats för lite mer bling och pun
 
 14. Skapa ett skript för hjärtat som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska **visa** sig när den **tar emot meddelandet** "DANSEN SLUT".
 
-  ![image alt text](image_11.jpg)
+  ![image alt text](image_11.png)
 
 15. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
 
