@@ -109,6 +109,7 @@ om en stund. Kan du lista ut varför?_
 För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis "*Ha det så bra!"* och sluta dansa.
 
 13. Gör så att skriptet du gjorde i steg 1 skickar ut **meddelande** _"DANSEN SLUT"_ efter att ljudet _Danse Around_ har spelats klart.
+
   ![image alt text](image_skicka_Dansen_slut.png)
 
 14. Skapa ett nytt skript för pingvinen som ska:
