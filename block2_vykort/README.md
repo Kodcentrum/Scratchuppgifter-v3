@@ -53,7 +53,7 @@ Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) a
 
   ![image alt text](image_fråga.png)
 
-*När du har skrivit in ett namn i svarsrutan, tryck på Enter.
+*När du har skrivit in ett namn i svarsrutan, tryck på Enter-knappen på datorns tangentbord.
 Du kommer att förstå senare vad namnet ska användas till!*
 
 > Testa ditt projekt! Klicka på START. Frågar pingvinen "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
