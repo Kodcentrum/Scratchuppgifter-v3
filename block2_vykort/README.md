@@ -151,7 +151,7 @@ Du har dansare och musik, men det finns alltid plats för lite mer bling och pun
 
 18. Skapa ett skript för hjärtat som säger att den ska vara **gömd** när START klickas på (så man inte ser den i början), och ett skript som säger att den ska **gömma** sig när den **tar emot meddelandet** "DANSEN SLUT" ( så den försvinenr igen när dansen är slut).
 
-  ![image alt text](image_11.png)
+  ![image alt text](image_43.png)
   
 19. Sen lägger vi in att hjärtat ska **visa** sig och dansa och **byta klädsel** precis som pingvinen, när musiken går igång. Och försvinna igen när musiken tar slut.
 
