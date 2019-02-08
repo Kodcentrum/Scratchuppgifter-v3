@@ -104,6 +104,9 @@ Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka di
 
 Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-skript har en rundad topp, det betyder att de alltid ligger överst och man kan bara koppla andra scriptblock under.
 
-Alla skript i programmet måste vara kopplade till ett händelse-skript medrundad topp, annars kommer inte programmet veta när den ska köra skripten och inget händer.
+Alla skript i programmet måste vara kopplade till ett händelse-skript med rundad topp, annars kommer inte programmet veta när den ska köra skripten och inget händer.
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
 
 Bra jobbat! Nu har du lärt dig grunderna i hur man får figurer att röra sig i Scratch. Nu är du redo att testa på lite mer avancerade saker.
