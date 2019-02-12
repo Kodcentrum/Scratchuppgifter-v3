@@ -4,6 +4,10 @@ Nu ska du få lära dig hur man kan få skript att köra flera gånger genom att
 
 Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka.
 
+Kolla hur roboten rör sig fram och tillbaka hela tiden:
+
+![Alt Text](Robot_repetition.gif)
+
 ## 1: Remixa
 
 Precis som i den förra uppgiften **Kom Igång: Rörelse** ska vi även nu börja med att remixa ett färdigt program.
