@@ -60,4 +60,4 @@ Nu ska vi lära oss hur vi får roboten att gå fram och tillbaka för alltid, �
 
 3. Klicka på gröna flaggan.
 
-Superbra! Nu rör sig roboten fram och tillbaka utan att stanna. För att stänga av programmet kan du klicka på den röda knappen bredvid den gröna flaggan.
+Superbra! Nu rör sig roboten fram och tillbaka utan att stanna. För att stoppa programmet kan du klicka på den röda knappen bredvid den gröna flaggan.
