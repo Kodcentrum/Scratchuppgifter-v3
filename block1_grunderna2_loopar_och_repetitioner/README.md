@@ -1,14 +1,14 @@
 # Startövning 2: Repetition (Loopar)
 
-Nu ska du få lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
+Att koda varje steg som roboten tar kan bli ett stort arbete, då den tar ett steg framåt, ett steg framåt, ett steg framåt - om och om igen på samma sätt. Men det går att koda det enklare, genom att loopa koden och använda repetition. I den här övningen får du lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
 
-Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka.
+Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg i taget. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka utan att stoppa.
 
-Kolla hur roboten rör sig fram och tillbaka hela tiden:
+Kolla hur roboten rör sig fram och tillbaka hela tiden, om och om igen:
 
 ![Bild robot rör sig fram och tillbaka Scratch](Robot_repetition.gif)
 
-Redo att börja koda? Klicka dig framåt med gröna knappen 1 här under, så börjar vi!
+Redo att testa själv? Klicka dig framåt med gröna knappen 1 här under, så börjar vi koda!
 
 ## 1: Remixa
 
