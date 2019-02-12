@@ -6,7 +6,9 @@ Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bar
 
 Kolla hur roboten rör sig fram och tillbaka hela tiden:
 
-![Alt Text](Robot_repetition.gif)
+![Bild robot rör sig fram och tillbaka Scratch](Robot_repetition.gif)
+
+Redo att börja koda? Klicka dig framåt med gröna knappen 1 här under, så börjar vi!
 
 ## 1: Remixa
 
