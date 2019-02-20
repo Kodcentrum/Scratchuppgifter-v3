@@ -7,7 +7,7 @@ Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad 
 
 Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende var du klickar, till exempel spel som startar olika banor när du klickar på dem.
 
-![Alt Text](Kom_Igang_Villkor_projektbild.png)
+![Alt Text](Robot.gif)
 
 Är du redo att börja koda? Klicka dig framåt till nästa del på nummer 1 här under.
 
@@ -41,11 +41,11 @@ Vi kan nu koda som vi vill i det remixade projektet. I detta program finns redan
 
 Roboten kan just nu bara säga hej. För att få roboten att ställa en fråga använder du blocket **"fråga _Vad heter du?_ och vänta"** ifrån rubriken **Känna av**.
 
-1. Dra in ett fråga-och-vänta-skript. Ändra texten till "Vad heter du?".
+1. Dra in ett fråga-och-vänta-skript. Ändra texten till _"Vad heter du?"_.
 
 ![Alt Text](Skript_1.gif)
 
-2. Dra sedan in två stycken **"säg _Hej!_ i 2 sekunder"**-skript ifrån rubriken **Utseende** och lägg efter varandra under frågan. Ändra texten i det första skriptet till _Hej_.
+2. Dra sedan in två stycken **"säg _Hej!_ i 2 sekunder"**-skript ifrån rubriken **Utseende** och lägg efter varandra under frågan.
 
 3. Ta sedan **"svar"**-skriptet ifrån rubriken **Känna av** och sätt istället för texten i det andra skriptet.
 
@@ -97,7 +97,7 @@ Nästa steg är nu att få roboten att säga helt olika saker baserat på vad du
 
 Precis som förra gången vill vi se vad svaret är lika med.
 
-4. Dra in ett **"svar"**-skript på vänster sida och ändra högersidan från _50_ till _Jättekul_.
+4. Dra in ett **"svar"**-skript på vänster sida och ändra högersidan från 50 till _Jättekul_.
 
 ![Alt Text](Skript_6.gif)
 
