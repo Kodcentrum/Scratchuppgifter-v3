@@ -9,6 +9,8 @@ Vi ska göra en robot som ställer frågor och säger olika saker beroende på v
 
 ![Alt Text](Kom_Igang_Villkor_projektbild.png)
 
+Är du redo att börja koda? Klicka dig framåt till nästa del på nummer 1 här under.
+
 ## 1: Remixa
 
 Precis som i den förra uppgiften ska vi börja med att remixa ett program.
