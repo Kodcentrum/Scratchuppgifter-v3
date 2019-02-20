@@ -7,7 +7,7 @@ Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad 
 
 Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende var du klickar, till exempel spel som startar olika banor när du klickar på dem.
 
-![Alt Text](Image_1.png)
+![Alt Text](Kom_Igang_Villkor_projektbild.png)
 
 ## 1: Remixa
 
