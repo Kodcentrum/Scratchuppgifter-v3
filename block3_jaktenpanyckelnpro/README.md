@@ -2,9 +2,16 @@
 
 I denna uppgift ska du få koda en mer avancerad version av spelet "Jakten på nyckeln". Den kommer att vara lite närmare hur ett riktigt platsbaserat spel fungerar. Dock så krävs det mer avancerad kod för att få det att fungera, och därför är denna uppgift bara lämplig om du är en mer van kodare. Du behöver till exempel kunna använda variabler och kloner.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/jakten-pa-nyckeln-pro-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+
 Ett exempel på hur spelet kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172533037" target="_blank">https://scratch.mit.edu/projects/172533037</a>
 
 ![image alt text](image_0.png)
+
+Då börjar vi koda!
 
 ## 1 - Remixa ett projekt
 
@@ -18,7 +25,7 @@ Vi börjar med att remixa ett befintligt projekt.
 
     ![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"**.
+3. Klicka sedan på knappen **"Remix"**. (Du behöver vara inloggad på ditt Scratch-konto för att komma åt Remix-funktionen.)
 
     ![image alt text](remixa-knapp.png)
 
@@ -210,7 +217,8 @@ Det färdiga spelet är bara en prototyp. Det finns många sätt du kan utveckla
 
 ### Hinder
 
-På bakgrunden var vi ritat ut blåa fält som ska föreställa vatten och bruna fält som ska föreställa hus. Nu kan roboten gå över dem. Gör så att något händer när roboten går på till exempel ett blått fält. Du kan använd dig av ett kodblock **"rör färgen … ?"** ![image alt text](image_19.png)
+På bakgrunden var vi ritat ut blåa fält som ska föreställa vatten och bruna fält som ska föreställa hus. Nu kan roboten gå över dem. Gör så att något händer när roboten går på till exempel ett blått fält. Du kan använd dig av ett kodblock **"rör färgen … ?"** 
+![image alt text](image_19.png)
 
 ### Flera nycklar
 

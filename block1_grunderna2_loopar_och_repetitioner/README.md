@@ -1,25 +1,28 @@
 # Startövning 2: Repetition (Loopar)
 
-Nu ska du få lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
+Att koda varje steg som roboten tar kan bli ett stort arbete, då den tar ett steg framåt, ett steg framåt, ett steg framåt - om och om igen på samma sätt. Men det går att koda det enklare, genom att loopa koden och använda repetition. I den här övningen får du lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg i taget. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka utan att stoppa.
 
-Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka.
+Kolla hur roboten rör sig fram och tillbaka hela tiden, om och om igen:
+
+![Bild robot rör sig fram och tillbaka Scratch](Robot_repetition.gif)
+
+Redo att testa själv? Klicka dig framåt med gröna knappen 1 här under, så börjar vi koda!
 
 ## 1: Remixa
 
-Precis som i den förra uppgiften ska vi börja med att remixa ett program.
+Precis som i den förra uppgiften **Kom Igång: Rörelse** ska vi även nu börja med att remixa ett färdigt program.
 
-1. Klicka på länken nedanför för att komma till det förberedda programmet.
+1. Klicka på länken nedanför för att komma till det förberedda programmet:
 
-<a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Projektlänk</a> <!--_-->
+<a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Scratch-projekt: Robot rör sig för alltid</a> <!--_-->
 
-2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
+2. Om texten på Scratch sajt är på annat språk än Svenska, kan du om du vill byta språk längst ner på sidan.
 
 ![Alt Text](Image_1.png)
 
-3. Se till att du är inloggad på ditt konto.
+3. Se till att du är inloggad på ditt konto. Om du saknar konto kan du skapa ett under Gå med Scratch, det är gratis.
 
 ![Alt Text](Image_2.png)
 
@@ -29,7 +32,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 5. Klicka på remixknappen för att spara en egen kopia av programmet
 
-![Alt Text](Remixknapp.png)
+![Alt Text](Image_4.png)
 
 Vi kan nu koda som vi vill i det remixade projektet. I detta program finns redan några rörelse-skript utplacerade. Vi ska nu lära oss hur vi kan få roboten att repetera saker flera gånger.
 
@@ -57,4 +60,4 @@ Nu ska vi lära oss hur vi får roboten att gå fram och tillbaka för alltid, �
 
 3. Klicka på gröna flaggan.
 
-Superbra! Nu rör sig roboten fram och tillbaka utan att stanna. För att stänga av programmet kan du klicka på den röda knappen bredvid den gröna flaggan.
+Superbra! Nu rör sig roboten fram och tillbaka utan att stanna. För att stoppa programmet kan du klicka på den röda knappen bredvid den gröna flaggan.

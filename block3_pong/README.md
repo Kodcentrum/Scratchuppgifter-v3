@@ -5,8 +5,8 @@ Pong är ett klassiskt spel för två spelare, men som också går att spela sj�
 > Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/pong-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
-  
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
+
 Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a>
 
 ![image alt text](image_0.png)
@@ -23,7 +23,9 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 
   ![image alt text](image_1.png)
 
-4. Klicka på **"Mål ny sprajt"** för att skapa en ny sprajt. Gör en vit avlång platta med **rektangelverktyget**.
+4. Klicka på **"Mål ny sprajt"** för att skapa en ny sprajt. Gör en avlång platta med **rektangelverktyget** i en rolig färg. Här har vi använt lila.
+
+    **Tips!** Vita rektanglar kan skapa problem.
 
     ![image alt text](mala_sprajt.png)
 
@@ -96,9 +98,9 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   Inuti **för alltid** blocket i bollens skript behöver du lägga till:
 
-  * Kolla **om bollen rör färgen vit**, det vill säga plattornas färg, innan bollen rör sig
+  * Kolla **om bollen rör färgen lila**, det vill säga plattornas färg, innan bollen rör sig
 
-  * OM bollen rör färgen vit, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
+  * OM bollen rör färgen lila, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
 
   ![image alt text](image_5.png)
 
@@ -119,7 +121,7 @@ Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bol
 
 14. Gå till skriptet för bollen och lägga till:
 
-  * Två **om** -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en vit färg)
+  * Två **om** -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en lila färg)
 
   * Två block ovanför **för alltid**-blocket som sätter variablerna till 0 när spelet startar
 
@@ -240,9 +242,9 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
    Dessa ändringar frikopplar koden som känner av om bollen rör plattan från koden som rör bollen.
 
-7. Lägg till ett skript efter du har känt av _"vit"_ färg och ändrat riktning på bollen:
+7. Lägg till ett skript efter du har känt av _"lila"_ färg och ändrat riktning på bollen:
 
-  * REPETERA tills **_inte_ rör vit färg** :
+  * REPETERA tills **_inte_ rör lila färg** :
 
     * **Vänta** 0.05 sekunder.
 
