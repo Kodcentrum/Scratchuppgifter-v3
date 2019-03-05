@@ -44,7 +44,7 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-5. Tryck på symbolen som ser ut som en målarburk: **FYLL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan ovanför och fyll bakgrunden med den genom att ställa in färgen du vill ha (dra i de olika reglagen tills du är nöjd med din färg) och sedan på den stora vita bakgrunden under. Välj en färg du gillar. Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt).
+5. Tryck på symbolen längst ned till vänster som ser ut som en rektangel: **REKTANGEL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan högre upp ovanför och ställ in färgen du vill ha (dra eller klicka på de olika reglagen tills du är nöjd med din färg). Fyll sen bakgrunden med din färg genom att rita upp en stor ruta på den vita ytan närmast, där du ser din sprajt står. Viktigt att färgen du valt  inte är samma som färger som din sprajt har har. Annars kan det bli problem i ditt projekt längre fram.
 
   ![image alt text](RITA-Fyll_Med_Färg-knapp.png)      ![image alt text](RITA_Välj_Färg-funktion.png)
 
