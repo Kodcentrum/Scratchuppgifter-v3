@@ -44,13 +44,19 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-5. Tryck på symbolen längst ned till vänster som ser ut som en rektangel: **REKTANGEL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan högre upp ovanför och ställ in färgen du vill ha (dra eller klicka på de olika reglagen tills du är nöjd med din färg). Fyll sen bakgrunden med din färg genom att rita upp en stor ruta på den vita ytan närmast, där du ser din sprajt står. Viktigt att färgen du valt  inte är samma som färger som din sprajt har har. Annars kan det bli problem i ditt projekt längre fram.
+5. Tryck på symbolen längst ned till vänster som ser ut som en rektangel: **REKTANGEL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan högre upp ovanför och ställ in färgen du vill ha (dra eller klicka på de olika reglagen tills du är nöjd med din färg). Fyll sen bakgrunden med din färg genom att rita upp en stor ruta på den vita ytan närmast, där du ser din sprajt står. 
 
-  ![image alt text](RITA-Fyll_Med_Färg-knapp.png)      ![image alt text](RITA_Välj_Färg-funktion.png)
+  ![image alt text](RITA_rektangel_fyll_färg_bakgrund.png)           ![image alt text](RITA_Välj_Färg-funktion.png)
+  
+> Tips: Viktigt att färgen du valt inte är samma som någon färg  din sprajt har har på sig. Annars kan det bli problem i ditt projekt längre fram.
 
-6. Tryck på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. 
+Se till att din färgade bakgrundsruta fyller **hela** bakgrundsytan. Det gör du genom att ställa muspekaren över den blå kanten med liten prick, klicka där och dra ut färgytan så den fyller hela ytan. Såhär kan det se ut:
 
- ![image alt text](RITA_Pensel-knapp.png)      ![image alt text](RITA_Pensel-Storlek-knapp.png)
+
+
+6. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. 
+
+ ![image alt text](RITA_Pensel-knapp.png)         ![image alt text](RITA_Pensel-Storlek-knapp.png)
  
  Rita nu en bana som en oval (utdragen cirkel) - gör den så stor som du kan, utan att den hamnar utanför spelets ruta! Välj en färg du gillar. Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt).
 
