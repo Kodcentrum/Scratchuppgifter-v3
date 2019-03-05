@@ -52,7 +52,7 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
 Se till att din färgade bakgrundsruta fyller **hela** bakgrundsytan. Det gör du genom att ställa muspekaren över den blå kanten med liten prick, klicka där och dra ut färgytan så den fyller hela ytan. Såhär kan det se ut:
 
-
+![image alt text](RITA_rektangel_bakgrund_justera_storlek.png)
 
 6. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel. Gör även penseln bredare genom att klicka på pilen uppåt länge (se bild nedan). Strecket ska bli tjockt. 
 
