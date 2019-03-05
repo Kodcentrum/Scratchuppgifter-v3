@@ -44,7 +44,7 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-5. Tryck på symbolen längst ned till vänster som ser ut som en ruta: **REKTANGEL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan högre upp ovanför och ställ in färgen du vill ha (dra eller klicka på de olika reglagen tills du är nöjd med din färg). Fyll sen bakgrunden med din färg genom att rita upp en stor ruta på den vita ytan närmast, där du ser din sprajt står. 
+5. Tryck på symbolen längst ned till vänster som ser ut som en ruta: **REKTANGEL**. Välj sen ut en färg du gillar genom att klicka på färgade rutan högre upp ovanför och ställ in färgen du vill ha (dra eller klicka på de olika reglagen tills du är nöjd med din färg). Fyll sen bakgrunden med din färg genom att rita upp en stor ruta på den vita ytan närmast. 
 
   ![image alt text](RITA_rektangel_fyll_färg_bakgrund.png)           ![image alt text](RITA_Välj_Färg-funktion.png)
   
