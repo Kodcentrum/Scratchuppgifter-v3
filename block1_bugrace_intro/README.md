@@ -29,7 +29,7 @@ I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska
 
   En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du skalbaggen. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
 
-3. Skalbaggen är ganska stor, för att spelet ska bli enklare att spela måste vi minska storleken. Tryck på förminsknings-knappen (den med pilar som pekar inåt) och sedan flera gånger på skalbaggen tills den är lagom stor (som din tummnagel ungefär).
+3. Skalbaggen är ganska stor, för att spelet ska bli enklare att spela måste vi minska storleken på sprajten. Under projektet med sprajten hittar du **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50 för hälften så stor. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
