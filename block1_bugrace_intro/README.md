@@ -27,7 +27,7 @@ I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-  En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du skalbaggen. Tryck på den och sedan på **OK** nere till höger. Nu har du lagt till en ny sprajt.
+  En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du skalbaggen. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
 
 3. Skalbaggen är ganska stor, för att spelet ska bli enklare att spela måste vi minska storleken. Tryck på förminsknings-knappen (den med pilar som pekar inåt) och sedan flera gånger på skalbaggen tills den är lagom stor (som din tummnagel ungefär).
 
