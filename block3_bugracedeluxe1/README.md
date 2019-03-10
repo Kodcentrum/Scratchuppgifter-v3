@@ -43,7 +43,10 @@ Du ska koda så att skalbaggen inte dör om den nuddar gräset. I stället ska s
 
 5. Flytta blocken som ligger under "**När** start **klickas på**" till under "**När** jag tar emot **starta"**
 
-    ![image alt text](image_4.png)
+    ![image alt text](image_4a.png)
+
+    ![image alt text](image_4b.png)
+
 
 6. Lägg ett block **"skicka start**" under “När **start** klickas på”
 
@@ -137,9 +140,9 @@ Det är tråkigt att bara förlora liv och till sist kommer skalbaggen dö. Där
 
     * När **start** klickas på
 
-    * Dölj
+    * Göm
 
-    * Gå tillbaka 1 lager
+    * Gå ned 1 lager
 
     * För alltid:
 
