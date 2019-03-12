@@ -38,19 +38,17 @@ Vi vill att farten ska ändras när skalbaggen äter mat så att det blir svåra
 
 Nu ska du göra det ännu svårare för Skalbaggen genom att koda hinder som dyker upp på banan. Mycket att koden kommer vara samma som för sprajten som är **mat** – därför kommer du börja med att kopiera denna sprajt.
 
-1. Kopiera sprajten som är **mat**, t.ex. äpplet
+1. Kopiera sprajten som är **mat**, t.ex. äpplet, genom att högerklicka på sprajten
 
     ![image alt text](image_5.png)
 
-2. Markera den nya sprajten och klicka på i:et i övre-vänstra hörnet ![image alt text](image_6.png)
-
-3. Döp om sprajten till **Hinder**
+2. Döp om sprajten till **Hinder**
 
     ![image alt text](image_7.png)
 
-4. Kryssa i rutan **Visa** så du tillfälligt visar sprajten på spelplanen
+3. Kryssa i rutan **Visa** så du tillfälligt visar sprajten på spelplanen
 
-5. Gå till fliken **Klädsel**
+4. Gå till fliken **Klädsel**
 
     1. Lägg till en ny klädsel från bibliotek
 
@@ -60,7 +58,7 @@ Nu ska du göra det ännu svårare för Skalbaggen genom att koda hinder som dyk
 
     ![image alt text](image_9.png)
 
-6. Förminska sprajten om den är för stor  
+5. Förminska sprajten om den är för stor  
 
 Nu behöver du ändra koden så att den nya sprajten beter sig mer som ett hinder än mat.
 
