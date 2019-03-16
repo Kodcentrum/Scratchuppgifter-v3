@@ -1,4 +1,4 @@
-# Bug race deluxe – del 1
+# Bug Race deluxe – del 1
 
 I denna uppgift får du chansen att jobba vidare med spelet **Bug Race**. Du kommer få lägga till funktioner som omstart, flera liv och mat. Och du kommer få jobba med meddelanden, variabler och kloner.
 
@@ -7,7 +7,7 @@ I denna uppgift får du chansen att jobba vidare med spelet **Bug Race**. Du kom
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Ett exempel på hur Bug race Delux kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a>
+Ett exempel på hur Bug Race delux kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a>
 
 ![image alt text](image_0.png)
 
@@ -15,9 +15,9 @@ Redo att börja koda? Klicka dig vidare!
 
 ## 1 – Förberedelser
 
-För att kunna jobba med denna uppgift måste du ha skapat ett färdigt spel **Bug race** som har några olika funktioner.
+För att kunna jobba med denna uppgift måste du ha skapat ett färdigt spel **Bug Race** som har några olika funktioner.
 
-**Har du kodat Bug race?**
+**Har du kodat Bug Race?**
 
 Om du *inte* är klar med Bug race får du börja med att göra klart det. Du hittar uppgiften [här](https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bug-race-intro) eller i menyn till höger.
 
