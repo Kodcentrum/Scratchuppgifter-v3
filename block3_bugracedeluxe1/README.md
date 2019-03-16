@@ -2,9 +2,16 @@
 
 I denna uppgift får du chansen att jobba vidare med spelet **Bug Race**. Du kommer få lägga till funktioner som omstart, flera liv och mat. Och du kommer få jobba med meddelanden, variabler och kloner.
 
-Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a>
+> Använder du nedladdade appen Scratch 2.0 - för att koda utan internetuppkoppling? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-deluxe-1-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån Scratch 2.0 offline-version</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+
+Ett exempel på hur Bug race Delux kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a>
 
 ![image alt text](image_0.png)
+
+Redo att börja koda? Klicka dig vidare!
 
 ## 1 – Förberedelser
 
