@@ -24,7 +24,7 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 2. Tryck på SCEN och byt till fliken BAKGRUNDER. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)
-![image alt text](Aktivera_Bakgrunder_flik.png)
+![image alt text](Aktivera_Bakgrunder-flik.png)
 
 Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar.
 
