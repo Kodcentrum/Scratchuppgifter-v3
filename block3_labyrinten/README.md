@@ -45,7 +45,7 @@ Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut s
 
 5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**.
 
-  ![image alt text](image_2b.png)
+  ![image alt text](image_2_b.png)
 
 ## 2 – Gör din karaktär
 
