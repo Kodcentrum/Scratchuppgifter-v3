@@ -21,14 +21,23 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 
 ![image alt text](Ta_bort_Sprajt.png)
 
-2. Tryck på SCEN och byt till fliken BAKGRUNDER. 
+2. Tryck på SCEN långtned till höger och byt till fliken BAKGRUNDER som du finner långt upp till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)
+
 ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar.
+Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på knappen som det står **Gör till bitmap** på.
 
-3. Rita sedan din labyrint. Kom ihåg att ha ganska stora **mellanrum mellan** **väggarna** och se till att väggarna har **en och samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
+![image alt text](Bakgrunder_Gör_till_bitmapp.png)
+
+Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut som en liten hink för att fylla bakgrunden genom att klicka på den stora vita rutan bredvid.
+
+![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
+
+3. Rita sedan din labyrint i en annan färg än bakgrunden. Kom ihåg att ha ganska stort **mellanrum mellan** **väggarna** så att en sprajt kan gå mellan utan att stöta i och se till att alla väggarna har **samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
+
+![image alt text](Bakgrunder_linje-verktyg.png)
 
 4. Rita en **startpunkt**, den får **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra cirklar med CIRKEL-verktyget.
 
