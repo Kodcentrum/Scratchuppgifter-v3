@@ -65,9 +65,9 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
 7. Gör ett skript för din sprajt som säger:
 
-  * Starta när **pil upp**-tangenten trycks ned
+  * Starta när **uppåtpil**-tangenten trycks ned
 
-  * Då ska sprajten först **peka uppåt**
+  * Då ska sprajten först **peka uppåt** (Peka i riktning 0 grader)
 
   * Sedan **röra sig** ett par steg
 
@@ -84,9 +84,9 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
 ## 3 – Vinna eller förlora
 
-Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt nuddar väggen, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten vinner du.
+Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt rör väggen i labyrinten, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten så vinner du.
 
-9. Ta först reda på var din startpunkt är. Sätt din sprajt mitt på **startpunkten** på SCEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
+9. Ta först reda på var din startpunkt är. Dra din sprajt till mitt på **startpunkten** på SCENEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
 
   ![image alt text](image_5.png)
 
