@@ -21,7 +21,12 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 
 ![image alt text](Ta_bort_Sprajt.png)
 
-2. Tryck på SCEN och byt till fliken BAKGRUNDER. Börja med att välja **bakgrundsfärg**, genom att fylla bakgrunden med en färg.
+2. Tryck på SCEN och byt till fliken BAKGRUNDER. 
+
+![image alt text](Aktivera_Scen_Bakgrund.png)
+![image alt text](Aktivera_Bakgrunder-flik.png)
+
+Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar.
 
 3. Rita sedan din labyrint. Kom ihåg att ha ganska stora **mellanrum mellan** **väggarna** och se till att väggarna har **en och samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
 
