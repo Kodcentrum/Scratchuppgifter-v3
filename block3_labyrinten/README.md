@@ -156,7 +156,9 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 14. Klicka på SCEN i nedre högra hörnet. Kopiera din bakgrund med labyrintbanan, genom att högerklicka på den lilla bilden som visar din bagrund och välj kopiera, så får du två likadana bakgrunder. Klicka på den nya andra bakgrunden så den blir aktiverad och sudda sen bort allt **förutom startpunkten** med verktyget som ser ut som ett suddgummi.
 
-  ![image alt text](image_9.png)
+  ![image alt text](Välj_Scen.png)
+  
+  ![image alt text](Bakgrund_kopiera.png)
 
 15. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
