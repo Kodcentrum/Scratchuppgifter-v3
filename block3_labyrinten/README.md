@@ -43,15 +43,15 @@ Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut s
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
 
-5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**.
+5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**. (Bilden nedan är bara ett exempel för att förklara, hur din labyrint ska se ut och vad du ritar och vilka färger du vill ha väljer du helt själv.)
 
   ![image alt text](image_2_b.png)
 
 ## 2 – Gör din karaktär
 
-Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för karaktär vill du spela som?
+Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan att röra väggarna. Välj en färdig sprajt i Scratch som du lägger till, eller rita din egen. Vad för karaktär vill du spela som? Om du vill rita din egen sprajt, så gör du såhär:
 
-6. Radera **Sprajt1** (Katten) och välj **Rita ny sprajt**. Rita vad du vill, men **gör den tillräcklig liten** för att den ska få plats att ta sig igenom labyrinten. Tänk på att du kan använda förminskningsknappen efter det att du har ritat sprajten.
+6. Välj **Rita ny sprajt**. Rita vad du vill, men **gör den tillräcklig liten** för att den ska få plats att ta sig igenom labyrinten. Tänk på att förminska storleken **efter** att du har ritat klart sprajten.
 
   ![image alt text](image_3.png)
 
