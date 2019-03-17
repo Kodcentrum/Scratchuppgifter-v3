@@ -162,7 +162,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 15. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
-16. Nu behöver du se till att den nya banan kommer upp när du har vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
+16. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
 
   ![image alt text](image_9.png)
 
