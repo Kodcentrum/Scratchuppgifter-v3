@@ -106,7 +106,7 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 
 > Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
 
-  ![image alt text](Koda_Exempelscript_RÖRELSE-Ändra_i_variabel-sänk_hastigheten_Sprajts_rörelse.png)
+  ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 
 
 ## 4: Sätt en Startposition
