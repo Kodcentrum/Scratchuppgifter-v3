@@ -17,7 +17,9 @@ Två exempel på hur olika spelet kan se ut ser du här:
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
 
-1. Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.
+1. Skapa ett nytt projekt. Ta bort katt-sprajten genom att trycka på krysset på den.
+
+![image alt text](Ta_bort_Sprajt.png)
 
 2. Tryck på SCEN och byt till fliken BAKGRUNDER. Börja med att välja **bakgrundsfärg**, genom att fylla bakgrunden med en färg.
 
