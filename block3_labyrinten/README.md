@@ -2,6 +2,11 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
+> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+
 Två exempel på hur olika spelet kan se ut ser du här:
 
 * <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
