@@ -51,15 +51,15 @@ Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut s
 
 Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan att röra väggarna. Välj en färdig sprajt i Scratch som du lägger till, eller rita din egen. Vad för karaktär vill du spela som? Om du vill rita din egen sprajt, så gör du såhär:
 
-6. Välj **Rita ny sprajt**. Rita vad du vill, men **gör den tillräcklig liten** för att den ska få plats att ta sig igenom labyrinten. Tänk på att förminska storleken **efter** att du har ritat klart sprajten.
+6. Välj **Ny Sprajt** och klicka på **Måla** som ser ut som en liten pensel. Rita din egen sprajt-figur hur du vill, men tänk på att den ska kunna styras genom labyrinten och enkelt svänga i banans hörn och kanter. Var noga med att sprajten ritas med **andra färger** än din  bagrund och labyrintens väggar. **Efter** att du ritat färdigt din sprajt kan du förminska den så att **den blir tillräcklig liten** för att få plats att ta sig igenom labyrinten ordentligt.
 
-  ![image alt text](image_3.png)
+  ![image alt text](image_3.png) 
 
   _Exempel på en sprajt._
 
   Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
 
-7. Gör ett skript för din sprajt som säger2:
+7. Gör ett skript för din sprajt som säger:
 
   * Starta när **pil upp**-tangenten trycks ned
 
