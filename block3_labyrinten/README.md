@@ -7,7 +7,7 @@ Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Två exempel på hur olika spelet kan se ut ser du här:
+Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spelet kan se ut, beroende på vilken form labyrintens väggar har:
 
 * <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 
