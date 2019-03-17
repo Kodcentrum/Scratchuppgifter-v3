@@ -86,7 +86,7 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
 Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt rör väggen i labyrinten, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten så vinner du.
 
-9. Ta först reda på var din startpunkt är. Dra din sprajt till mitt på **startpunkten** på SCENEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
+9. Ta först reda på var din startpunkt är. Dra din sprajt till mitten på **startpunkten** på SCENEN. Titta på vad din sprajt har för KOORDINATER (alltså vilken position på scen-ytan med X och y). Kom ihåg eller skriv upp dem!
 
   ![image alt text](image_5.png)
 
@@ -94,13 +94,13 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 1. Börja med skriptet för **uppåt** och ändra så att det säger:
 
-  * Starta när **pil upp**-knappen trycks ned
+  * Starta när **uppåtpil**-knappen på datorns tangentbord trycks ned
 
-  * **Känn av om** sprajten har nuddat en vägg
+  * **Känn av om** sprajten har nuddat en vägg (alltså den färg som din vägg har)
 
-    * **Då** ska sprajten **säga "Du dog"** och **gå till** startpunkten
+    * **Då** ska sprajten **säga "Du dog"** och **gå tillbaka till** startpunkten
 
-  * **Känn av om** sprajten har nuddat målpunkten
+  * **Känn av om** sprajten har nuddat målpunkten (alltså dess färg)
 
     * **Då** ska sprajten **säga "Du vann"**
 
@@ -112,12 +112,12 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
 
-> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten?
+> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
 
 
 ## 4: En timer
 
-Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du!
+Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare.
 
 1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen.
 
@@ -141,7 +141,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 
   Nu har du en timer, det vill säga en tidräknare! Men för att göra det ännu svårare ska du nu säga åt sprajten att den förlorar extra mycket tid om den nuddar väggen.
 
-3. Lägg till ett block som **ändrar Tid med -10** på alla dina skript som kollar om sprajten har nuddat väggen. Kommer du ihåg vilka skript det är?
+3. Lägg till ett block som **ändrar Tid med -10** på alla dina skript som kollar om sprajten har nuddat väggen (alltså den färg din vägg har). Kommer du ihåg vilka skript det är?
 
   ![image alt text](image_8.png)
 
