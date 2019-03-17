@@ -35,15 +35,17 @@ Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut s
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-3. Rita sedan din labyrint i en annan färg än bakgrunden. Kom ihåg att ha ganska stort **mellanrum mellan** **väggarna** så att en sprajt kan gå mellan utan att stöta i och se till att alla väggarna har **samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
+3. Rita sedan din labyrint i en annan färg än bakgrunden. Kom ihåg att ha ganska stort **mellanrum mellan** **"väggarna"** så att en sprajt kan gå mellan utan att stöta i och se till att alla väggarna har **samma färg**. Om du vill ha raka streck kan du använd LINJE-verktyget.
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
 4. Rita en **startpunkt**, den får **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra cirklar med CIRKEL-verktyget.
 
+  ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
+
 5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**.
 
-  ![image alt text](image_2.png)
+  ![image alt text](image_2b.png)
 
 ## 2 – Gör din karaktär
 
