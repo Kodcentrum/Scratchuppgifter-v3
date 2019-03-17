@@ -154,7 +154,9 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
-14. Gå till SCEN och tryck på fliken för KLÄDSLAR. Kopiera din klädsel så du har två likadana. Välj den andra och sudda bort allt **förutom startpunkten**.
+14. Klicka på SCEN i nedre högra hörnet. Kopiera din bakgrund med labyrintbanan, genom att högerklicka på den lilla bilden som visar din bagrund och välj kopiera, så får du två likadana bakgrunder. Klicka på den nya andra bakgrunden så den blir aktiverad och sudda sen bort allt **förutom startpunkten** med verktyget som ser ut som ett suddgummi.
+
+  ![image alt text](image_9.png)
 
 15. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
