@@ -56,6 +56,10 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
   ![image alt text](image_3.png) 
 
   _Exempel på en sprajt._
+  
+Ändra stoleken på din sprajt så den passar in i labyrinten, från 100% full storlek till lägre procenttal. Prova dig fram tills det passar.
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
 
   Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
 
