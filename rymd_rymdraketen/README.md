@@ -1,4 +1,4 @@
-# Bygga raket
+# Rymdraketen
 
 Vi börjar vårt rymdäventyr från början. Med att bygga en raket. När vi gör de här koduppgifterna så ska vi använda ett verktyg som heter [Scratch](http://scratch.mit.edu). Som vi kommer att se så kan vi göra väldigt mycket roligt i Scratch men i den här första uppgiften så ska vi börja enkelt. Vi ska rita vår raket.
 
@@ -6,7 +6,7 @@ Och vi ska göra det med hjälp av geometriska figurer.
 
 ![](./0_0.png)
 
-## Skapa ett nytt projekt i Scratch
+## 1 – Skapa ett nytt projekt i Scratch
 
 Börja med att öppna Scratch genom att trycka på den här länken: https://scratch.mit.edu/
 
@@ -18,7 +18,7 @@ Det gör vi genom att trycka på krysset på katten i biblioteket.
 
 ![](./1_0.png)
 
-## Måla en ny sprajt
+## 2 – Måla en ny sprajt
 
 Har ni byggt en modell av en raket i papper? Vad skönt – då kan vi försöka måla av den.
 
@@ -30,7 +30,7 @@ Skapa en ny sprajt genom att trycka på knappen ”Måla ny sprajt”. Döp din 
 
 Nu är det dags att börja. 
 
-## Toppen av raketen
+## 3 – Toppen av raketen
 
 Vi vill att toppen av raketen ska vara en liksidig triangel. En liksidig triangel betyder att alla sidor är lika långa. Det finns inget verktyg i Scratch för att rita en triangel. Vi ritar den med hjälp av verktyget för att rita linjer.
 
@@ -40,13 +40,19 @@ Vi vill att toppen av raketen ska vara en liksidig triangel. En liksidig triange
 
 > Om du vill ta bort din senaste linje så kan du trycka på knappen ”ångra”.
 
+![](./3_0.jpeg)
+
 Nu när vi har ritat konturerna av vår triangel så kan vi färglägga den. Välj verktyget ”fyll” som ser ut som en målarburk. Välj sedan en färg som du vill färglägga din triangel med. Tryck i din triangel. Får triangeln den färgen som du har valt?
 
 > Fungerar det inte? Fyllverktyget fungerar bara om det inte finns några hålrum i triangeln. Fortsätt rita linjer så att du blir av med alla hålrum. Sedan kan du fylla den med färg.
 
-## Raketens kropp
+![](./3_1.png)
+
+## 4 – Raketens kropp
 
 Raketens kropp består av en rektangel. Vi kan rita rektangel med hjälp av linjeverktyget om vi vill. Eller så använder vi rektangelverktyget.
+
+![](./4_0.png)
 
 1. Välj rektangelverktyget
 2. Välj en fyllningsfärg
@@ -54,7 +60,7 @@ Raketens kropp består av en rektangel. Vi kan rita rektangel med hjälp av linj
 
 > Om du vill flytta din rektangel eller ändra storlek på den så beöver du inte göra om den. Du kan välja verktyget ”välj” som ser ut som en muspekare och sedan trycka på rektangeln för att flytta den eller ändra storlek på den.
 
-## Vingar
+## 5 – Vingar
 
 En raket behöver små vingar längst ned för att kunna åka rakt i luften. Vi kommer behöva två vingar. En på varje sida om raketen. 
 
@@ -62,7 +68,9 @@ En vinge består av en **rätvinklig** triangel. Fråga din lärare om du är os
 
 Flytta vingarna till botten av rektangeln. Nu börjar det likna en raket!
 
-## Använd textverktyget
+![](./5_1.png)
+
+## 6 – Använd textverktyget
 
 För att andra rymdfarkoster ska se att vår raket kommer från Sverige så ska vi märka vår raket med textverktyget. 
 
@@ -70,9 +78,16 @@ För att andra rymdfarkoster ska se att vår raket kommer från Sverige så ska 
 2. Tryck inuti rektangeln för att välja vart du ska börja skriva
 3. Skriv texten ”SNSA”. SNSA betyder Swedish National Spage Agency och det är var rymdstyrelsen heter på engelska.
 
-Skriv SNSA (Swedish National Space Agency) på sidan av raketen. Det är vad ”Rymdstyrelsen” heter på engelska.
+Skriv SNSA (Swedish National Space Agency) på sidan av raketen. Det är vad ”Rymdstyrelsen” heter på engelska. 
 
-## Gör raketen till din egen raket
+> Om du inte är nöjd med vart texten är placerad så kan du flytta den genom att välja flyttverktyget.
+
+![](./6_0.png)
+
+
+
+
+## 7 – Gör raketen till din egen raket
 
 Nu är grunderna till raketen klar. Nu har du möjlighet att göra den till din egen genom att dekorera den som du vill. 
 
@@ -91,6 +106,9 @@ Du kan till exempel:
 - Rita en stjärna på raketen genom att rita ut två stycken trianglar.
 
 … eller något helt annat. Du får välja helt fritt.
+
+![](./7_0.png)
+
 
 
 
