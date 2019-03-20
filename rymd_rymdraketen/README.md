@@ -149,10 +149,18 @@ Om du ändrar på Y så flyttas raketen uppåt och nedåt. Ett större tal flytt
 
 Tryck på blocket. Rör sig raketen uppåt?
 
-Andra saker att testa:
+### Andra saker att testa:
 
 - Hur långt vill du åka? Ändra värdet i blocket och testa vad som händer när du använder ett stort tal eller ett litet tal.
 - Det finns ett block som heter **för alltid**. Testa att lägg in ditt block ändra **y** inuti det blocket.
+
+## 10 – Klart!
+
+Nu har du gjort en rymdraket. Snyggt jobbat!
+
+Den här rymdraketen kan du plocka med dig till de andra rymduppgifterna som finns här på kodboken.
+
+![](./10_0.png)
 
 ## 
 
