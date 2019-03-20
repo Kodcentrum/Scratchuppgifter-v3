@@ -18,10 +18,6 @@ Det gör vi genom att trycka på krysset på katten i biblioteket.
 
 ## 2 – Måla en ny sprajt
 
-Har ni byggt en modell av en raket i papper? Vad skönt – då kan vi försöka måla av den.
-
-Om ni inte har byggt en modell så gör det ingenting. Vi kan göra en raket ändå. Det är bara vår fantasi som sätter gränserna.
-
 Skapa en ny sprajt genom att trycka på knappen ”Måla ny sprajt”. Döp din sprajt till ”Raket”.
 
 ![](./2_0.png)
