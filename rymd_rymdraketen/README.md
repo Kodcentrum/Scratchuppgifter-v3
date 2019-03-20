@@ -113,6 +113,46 @@ Välj sedan en av alla rymdbakgrunder som finns i biblioteket.
 
 ![](./8_1.png)
 
+## 9 – Programmera raketen att röra sig
 
+Nu ska vi programmera vår första algoritm. Vi ska få vår raket att fara rakt upp i rymden.
 
+En algoritm, eller skript som det kallas för här, måste vara exakt, i rätt ordning och fullständig för att datorn ska kunna förstå instruktionen. Du kan prova att svara på frågorna: *När?* *Vad?* *Hur?* när du skapar ditt skript.
+
+### När?
+
+Välj när raketen ska fara iväg. När startflaggan klickas på? När du klickar på raketen? När du trycker på en tangent på tangentbordet?
+
+![](./9_0.png)
+
+Utforska kategorin *Händelser* för att hitta ett block som säger *när* något ska hända.
+
+### Vad?
+
+Raketen ska åka uppåt, ut i rymden. Den ska alltså röra på sig – titta i kategorin *Rörelse*. Vilket skriptblock vill du använda här?
+
+> Tips: Du kan inte använda ”gå” för det blir åt fel håll... vad vill du använda? Glid? Ändra?
+
+### Hur?
+
+Hur vill du att raketen ska röra på sig? Vilken riktning ska den åka i? 
+
+Vi vill att den ska åka uppåt! Då behöver vi använda koordinater. Raketen har en koordinat för att hålla reda på vilken plats den har. En koordinat består av en siffra för X och en siffra för Y. Du kanske redan har lagt märke till att din raket har en koordinat?
+
+![](./9_1.png)
+
+Om du ändrar på X så flyttas raketen till höger eller vänster. Ett större tal flyttar den till höger och ett mindre tal flyttar den till vänster.
+
+Om du ändrar på Y så flyttas raketen uppåt och nedåt. Ett större tal flyttar den till uppåt och ett mindre tal flyttar den till nedåt.
+
+**Vi vill att raketen ska åka uppåt.** Hittar du ett block för att **ändra y**?
+
+Tryck på blocket. Rör sig raketen uppåt?
+
+Andra saker att testa:
+
+- Hur långt vill du åka? Ändra värdet i blocket och testa vad som händer när du använder ett stort tal eller ett litet tal.
+- Det finns ett block som heter **för alltid**. Testa att lägg in ditt block ändra **y** inuti det blocket.
+
+## 
 
