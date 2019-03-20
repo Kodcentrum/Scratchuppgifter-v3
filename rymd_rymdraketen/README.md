@@ -103,7 +103,15 @@ Du kan till exempel:
 
 ![](./7_0.png)
 
-## 
+## 8 – Välj en rymdbakgrund från biblioteket
+
+Tryck på knappen ”Välj bakgrund” längst ned i högra hörnet.
+
+![](./8_0.png)
+
+Välj sedan en av alla rymdbakgrunder som finns i biblioteket.
+
+![](./8_1.png)
 
 
 
