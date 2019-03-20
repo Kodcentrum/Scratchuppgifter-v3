@@ -1,8 +1,6 @@
 # Rymdraketen
 
-Vi börjar vårt rymdäventyr från början. Med att bygga en raket. När vi gör de här koduppgifterna så ska vi använda ett verktyg som heter [Scratch](http://scratch.mit.edu). Som vi kommer att se så kan vi göra väldigt mycket roligt i Scratch men i den här första uppgiften så ska vi börja enkelt. Vi ska rita vår raket.
-
-Och vi ska göra det med hjälp av geometriska figurer.
+Vi börjar vårt rymdäventyr med att bygga en raket i [Scratch](http://scratch.mit.edu). Vi ska rita vår raket med olika geometriska figurer och sedan programmera den att fara ut i rymden!
 
 ![](./0_0.png)
 
