@@ -26,11 +26,11 @@ Nu är det dags att börja.
 
 ## 3 – Toppen av raketen
 
-Vi vill att toppen av raketen ska vara en liksidig triangel. En liksidig triangel betyder att alla sidor är lika långa. Det finns inget verktyg i Scratch för att rita en triangel. Vi ritar den med hjälp av verktyget för att rita linjer.
+Vi vill att toppen av raketen ska vara en liksidig triangel. En liksidig triangel betyder att alla sidor är lika långa. Det finns inget verktyg i Scratch för att rita trianglar så vi ritar den med hjälp av verktyget för att rita linjer.
 
 1. Välj linjeverktyget.
 2. Tryck och dra för att rita en linje.
-3. Rita tre lika långa linjer i formen av en triangel.
+3. Rita en triangel med tre lika långa linjer. Det finns ingen linjal i Scratch men om du har en linjal i närheten så kan du hålla upp den mot skärmen för att se om dina linjer är lika långa.
 
 > Om du vill ta bort din senaste linje så kan du trycka på knappen ”ångra”.
 
