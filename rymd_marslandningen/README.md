@@ -135,10 +135,17 @@ För att byta klockslag så lägger vi till blocket **ändra "klockslag" till "1
 > Om du vill se vilket klockslag simulationen är inställd på så kan du bocka för den lilla rutan som ligger framför variabeln.
 > ![](./11_2.png)
 
+## Färdig!
 
+Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-## 12 – Fler justeringar
+> **Testa ditt projekt**
+> Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+
+### Snabba upp simulationen
 
 Tycker du att simulationen går långsamt? Det går att snabba upp den genom att gå fler steg framåt. Testa att skriva in en högre siffra i blocket **gå 3 steg framåt**.
 
-## 
+## Frågeställningar
