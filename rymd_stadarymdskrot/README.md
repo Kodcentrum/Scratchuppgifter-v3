@@ -260,3 +260,7 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
+## Utmaningar
+
+## Frågeställningar
+
