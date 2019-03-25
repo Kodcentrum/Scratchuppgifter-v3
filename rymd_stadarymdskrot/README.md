@@ -8,9 +8,14 @@ Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda Mats från
 
 Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
 
-1. Öppna den här sidan: https://scratch.mit.edu/projects/282942221/
-2. Klicka på knappen ”Se inuti” så att du kan se koden.
-3. Klicka sedan på knappen ”Remix”. Då får du en egen kopia av projekter som du kan använda.
+1. Öppna din webbläsare och gå till
+		
+	<a href="https://scratch.mit.edu/projects/282942221/" target="_blank">https://scratch.mit.edu/projects/282942221/</a>
+	
+2. Klicka på knappen **Se inuti** så att du kan se koden.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
+
+Nu har du ett projekt som innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund.
 
 ##  1 – Hoppa framåt
 
