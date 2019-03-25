@@ -257,6 +257,7 @@ Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett
 Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**
+> 
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Utmaningar
