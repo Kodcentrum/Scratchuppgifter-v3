@@ -134,4 +134,13 @@ Lägg till ett fält för slumptal även på y-koordinaten. Skriv in den lägsta
 
 Hamnar vår måne på olika positioner även i höjdled varje gång du trycker på den gröna flaggan?
 
-## 
+## Färdig!
+
+Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**
+> Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+
+## Frågeställningar
