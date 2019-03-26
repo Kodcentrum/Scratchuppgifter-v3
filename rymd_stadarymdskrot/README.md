@@ -21,9 +21,13 @@ Nu har du ett projekt som innehåller en rymdfarkost, satelliten Mats och en rym
 
 Vi ska börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
 
-Kan vi koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
+![](./1_1.png)
 
-![](./1_1.gif)
+![](./1_2.png)
+
+Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
+
+![](./1_3.gif)
 
 ## 2 – Loopa
 
