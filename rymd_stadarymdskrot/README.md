@@ -220,7 +220,8 @@ Glöm inte att också lägga in all kod från vår första sprajt.
 
 Efter det här steget så ska det vara en massa rymdskrot som dyker upp på slumpmässiga platser varje gång vi trycker på den gröna flaggan.
 
-![](./11_2.gif)
+<video src="./11_2.mp4" autoplay loop muted />
+
 
 ## 13 – Rymdskrotet väger olika mycket
 
