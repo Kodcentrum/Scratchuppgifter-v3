@@ -2,7 +2,7 @@
 
 Det är farligt att åka till Mars. Rätt var det är så kan det dyka upp ett asteroidfält. 
 
-För att ta reda på när det är säkrast att åka så kan vi bygga en *simulation*. En simulation är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi skall kunna se vilken tid som är bäst.
+För att ta reda på när det är säkrast att åka så kan vi bygga en *simulation*. En simulation är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi ska kunna se vilken tid som är bäst.
 
 ![](./0_1.gif)
 
@@ -25,17 +25,17 @@ Vi kommer behöva:
 	- En som räknar lyckade landningsförsök
 	- En som räknar misslyckade landningsförsök
 - Ett skript som avfyrar raketen mot mars
-	- Om raketen nuddar asteroidfältet så skall variabeln "misslyckade landningsförsök" ändras med 1
-	- Om raketen nuddar Mars så skall "lyckade landningsförsök" ändras med 1
+	- Om raketen nuddar asteroidfältet så ska variabeln "misslyckade landningsförsök" ändras med 1
+	- Om raketen nuddar Mars så ska "lyckade landningsförsök" ändras med 1
 - Ett skript som sätter variablerna till 0 och sedan avfyrar raketen 100 gånger
 
 Låt oss bygga det tillsammans.
 
 ## 3 – Avfyra raketen
 
-Vi vill att raketen skall avfyras när vi startar vår simulation. Alltså när vi trycker på den gröna flaggan.
+Vi vill att raketen ska avfyras när vi startar vår simulation. Alltså när vi trycker på den gröna flaggan.
 
-När vi trycker på den gröna flaggan så skall raketen **för alltid** röra sig framåt med **gå 5 steg**.
+När vi trycker på den gröna flaggan så ska raketen **för alltid** röra sig framåt med **gå 5 steg**.
 
 ![](./1_1.gif)
 
@@ -107,7 +107,7 @@ Nu åker vi till Mars varje gång vi trycker på den gröna flaggan men vi åker
 
 Vi behöver **skapa en ny variabel** som heter ”misslyckade landningar”.
 
-Efter varje steg framåt så skall vi på samma sätt som vi räknade antalet "lyckade landningar" räkna "misslyckade landningar". **Om vi rör vid Asteroider** så skall vi **ändra "misslyckade landningar" med 1**.
+Efter varje steg framåt så ska vi på samma sätt som vi räknade antalet "lyckade landningar" räkna "misslyckade landningar". **Om vi rör vid Asteroider** så ska vi **ändra "misslyckade landningar" med 1**.
 
 Och precis som när vi rör vid Mars så vill vi också **stoppa detta script** efter att vi har ändrat vår variabel.
 
