@@ -240,7 +240,7 @@ Nu väger de olika bitarna olika mycket.
 
 Men vår variabel bara fortsätter att räkna. Den börjar aldrig om.
 
-För att kunna hålla räkningen ordentligt så skulle vi vilja *nollställa* vår variabel. Det betyder att vi sätter den till 0. Vi vill nollställa den varje gång vi startar trycker på den gröna flaggan.
+För att kunna hålla räkningen ordentligt så skulle vi vilja *nollställa* vår variabel. Det betyder att vi sätter den till 0. Vi vill nollställa den varje gång vi trycker på den gröna flaggan.
 
 Välj sprajten ”rymdfarkost”. Precis efter blocket ”När grön flagga klickas på” – lägg till ett block **sätt vikt till 0**. 
 
