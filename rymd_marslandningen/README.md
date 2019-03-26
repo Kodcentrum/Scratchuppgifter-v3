@@ -41,15 +41,20 @@ Låt oss bygga det tillsammans.
 
 Vi vill att raketen ska avfyras när vi startar vår simulation. Alltså när vi trycker på den gröna flaggan.
 
-När vi trycker på den gröna flaggan så ska raketen **för alltid** röra sig framåt med **gå 5 steg**.
+När vi trycker på den gröna flaggan så ska raketen:
 
-![](./1_1.gif)
+- **gå till** koordinaten där den ska starta
+- **för alltid** röra sig framåt med **gå 5 steg**.
 
-## 4
+<video src="./1_1.mp4" loop autoplay muted />
+
+## 4 – Känn av om vi nuddar Mars
+
+Ser din kod ut ungefär såhär?
 
 ![Nu åker raketen framåt](./2_1.png)
 
-Men om vi bara åker framåt utan att någonsin stanna så kommer vi bara att fortsätta att åka och åka. Och då kommer vi åka förbi Mars.
+Men om vi bara åker framåt utan att stanna så kommer raketen bara att fortsätta att åka och åka. Och då kommer vi åka förbi Mars.
 
 Efter varje steg framåt så måste vi kolla **om** vi **rör vid Mars**. Och om vi gör det så vill vi **stoppa detta skript** eftersom vi då har kommit fram till Mars. 
 
