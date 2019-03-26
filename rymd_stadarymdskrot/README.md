@@ -27,7 +27,7 @@ Vi ska börja med att röra oss framåt i rymden. Vi behöver två block från b
 
 Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
 
-![](./1_3.gif)
+<video src="./1_3.mp4" autoplay loop muted />
 
 ## 2 – Loopa
 
