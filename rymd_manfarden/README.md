@@ -6,6 +6,17 @@ Vi ska bygga en avfyrning där vi försöker åka till månen genom att skriva i
 
 ![](./0_1.gif)
 
+Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
+
+1. Öppna din webbläsare och gå till
+		
+	<a href="https://scratch.mit.edu/projects/297343290/" target="_blank">https://scratch.mit.edu/projects/297343290/</a>
+	
+2. Klicka på knappen **Se inuti** så att du kan se koden.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
+
+Nu har du ett projekt som innehåller ett koordinatsystem, en rymdbakgrund, en jordsprajt och en månsprajt.
+
 ##  1 – Lägg ut planeter, asteroider och satelliter
 
 Vi börjar med att lägga ut alla våra sprajtar så att de får rätt koordinater.
