@@ -223,7 +223,7 @@ Efter det här steget så ska det vara en massa rymdskrot som dyker upp på slum
 <video src="./11_2.mp4" autoplay loop muted />
 
 
-## 13 – Rymdskrotet väger olika mycket
+## 12 – Rymdskrotet väger olika mycket
 
 Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket ”vikt” vi ändrar vår variabel med när vi rör de olika rymdskroten.
 
@@ -234,7 +234,7 @@ Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därf�
 
 Skriv in den nya vikten i blocket **ändra vikt med 5** för varje sprajt som är ett rymdskrot.
 
-## 14 – Nollställ variabel
+## 13 – Nollställ variabel
 
 Nu väger de olika bitarna olika mycket.
 
@@ -246,7 +246,7 @@ Välj sprajten ”rymdfarkost”. Precis efter blocket ”När grön flagga klic
 
 Nu borde variabelns värde sättas till 0 varje gång vi trycker på den gröna flaggan. Testa genom att fånga lite rymdskrot och sedan trycka den gröna flaggan. Sätts variabeln till 0?
 
-## 15 – Avsluta när vi har städat färdigt
+## 14 – Avsluta när vi har städat färdigt
 
 Nu nollställs vår variabel varje gång vi startar om. 
 
@@ -256,9 +256,9 @@ I sprajten ”rymdfarkost” så ska vi lägga till ett par block inuti vårt �
 
 > Vi kan räkna ut summan genom att plussa ihop alla vikterna från de olika rymdskroten. Använd papper och penna och skriv ned vikterna från sprajtarna och plussa sedan ihop dem.
 
-![](./15_2.png)
+![](./14_2.png)
 
-## 16 – Game over när vi nuddar Mats
+## 15 – Game over när vi nuddar Mats
 
 Nu när vi har städat bort allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om rymdskrotet nuddar Mats. 
 
@@ -270,11 +270,11 @@ Efter det vill vi säga ”Ajajajaj!” i 2 sekunder. Och sedan vill vi använda
 
 > Visste du att det går att lägga ett ”eller”-block i ett annat ”eller”-block?
 
-![](./16_2.gif)
+![](./15_2.gif)
 
 Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Vi kan ändra storleken på Mats om vi vill göra det lite lättare för oss:
 
-![](./16_3.png)
+![](./15_3.png)
 
 ## Färdig!
 
