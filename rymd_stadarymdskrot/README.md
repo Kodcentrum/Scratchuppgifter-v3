@@ -33,13 +33,18 @@ Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycke
 
 Så här ska din kod se ut nu:
 
-![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./1_1.png)
+![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./2_1.png)
 
 Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt.
 
-Det finns ett block som heter ”för alltid”. Kan vi koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt när vi trycker på den gröna flaggan?
+Det finns ett block som heter ”för alltid”. 
 
-![](./2_1.gif)
+![För alltid](./2_2.png)
+
+Kan du koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt utan att stanna när vi trycker på den gröna flaggan?
+
+
+<video src="./2_3.mp4" autoplay loop muted />
 
 > 10 steg framåt går lite för fort. Testa att ändra till 1 steg framåt så att vår rymdfarkost åker lite långsammare.
 
