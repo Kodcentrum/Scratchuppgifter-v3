@@ -48,6 +48,8 @@ När vi trycker på den gröna flaggan så ska raketen:
 
 <video src="./1_1.mp4" loop autoplay muted />
 
+Testa: Tryck på den gröna flaggan. Åker raketen iväg? Tryck på den gröna flaggan igen. Startar den från jorden igen? 
+
 ## 4 – Känn av om vi nuddar Mars
 
 Ser din kod ut ungefär såhär?
@@ -59,6 +61,8 @@ Men om vi bara åker framåt utan att stanna så kommer raketen bara att fortsä
 Efter varje steg framåt så måste vi kolla **om** vi **rör vid Mars**. Och om vi gör det så vill vi **stoppa detta skript** eftersom vi då har kommit fram till Mars. 
 
 <video src="./2_2.mp4" loop autoplay muted />
+
+Testa: Tryck på den gröna flaggan. Stannar din raket när den nuddar Mars?
 
 ## 5 – Skapa en variabel
 
