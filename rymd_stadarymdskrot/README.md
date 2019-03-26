@@ -72,7 +72,15 @@ Så här ska din kod se ut nu:
 
 Nästa steg är att spara projektet.
 
-// TODO: Lägg till information om att spara när man är inloggad vs att man inte har konto.
+### Är du inloggad?
+
+Om du är inloggad så sparas ditt projektet automatiskt men om du vill vara säker så kan du trycka på **Arkiv** och sedan **Spara nu**.
+
+### Har du inget konto?
+
+Om du inte har ett konto eller inte vill logga in så kan du spara ned ditt projekt som en fil till datorn.
+
+Tryck på **Arkiv** och sedan **Spara till din dator**.
 
 ## 5 – Skapa rymdskrot
 
