@@ -136,6 +136,7 @@ Och precis som när vi rör vid Mars så vill vi också **stoppa detta skript** 
 
 <video src="./9_2.mp4" loop autoplay muted />
 
+Testa: Räknar din variabel "misslyckade landningar" upp när raketen rör vid asteroiderna?
 
 ## 10 – Sätt variabler till 0 vid start
 
