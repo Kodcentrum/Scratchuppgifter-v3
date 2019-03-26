@@ -58,7 +58,7 @@ Men om vi bara åker framåt utan att stanna så kommer raketen bara att fortsä
 
 Efter varje steg framåt så måste vi kolla **om** vi **rör vid Mars**. Och om vi gör det så vill vi **stoppa detta skript** eftersom vi då har kommit fram till Mars. 
 
-![](./2_2.gif)
+<video src="./2_2.mp4" loop autoplay muted />
 
 ## 5 – Skapa en variabel
 
