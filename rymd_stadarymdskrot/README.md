@@ -108,15 +108,19 @@ Nu ska vi lägga till kod för vår kvadrat så att den försvinner när vår fa
 
 ![](./6_1.png)
 
-> Ser det tomt ut? Din kod för din farkost har inte försvunnit. All kod som vi lägger ut är kopplade till en sprajt. Eftersom vi skapade en ny sprajt för vårt rymdskrot så har inte den fått någon kod ännu. Om vi väljer vår farkost i biblioteket så kommer vi se vår kod igen.
+> **Ser du inte din kod?** Din kod för din farkost har inte försvunnit. All kod som vi lägger ut är kopplade till en sprajt. Eftersom vi skapade en ny sprajt för vårt rymdskrot så har inte den fått någon kod ännu. Om vi väljer vår farkost i biblioteket så kommer vi se vår kod igen.
 
 ![](./5_3.png)
 
-Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så ska den vänta på att den rör vid vår farkost. Och sedan ska den gömma sig själv. För det så kommer vi behöva dessa block:
+Nu vill vi koda kvadraten så att när vi trycker på den gröna flaggan så ska den vänta på att den rör vid vår farkost. Och sedan ska den gömma sig själv. 
+
+För det så kommer vi behöva dessa block:
 
 ![Kan vi sätta ihop dem i rätt ordning?](./6_2.png)
 
-![](./6_3.gif)
+Kan du sätta ihop dem i rätt ordning så att kvadraten försvinner när vi rör vid den med vår rymdfarkost?
+
+<video src="./6_3.mp4" autoplay loop muted />
 
 ## 7 – Visa kvadraten igen
 
