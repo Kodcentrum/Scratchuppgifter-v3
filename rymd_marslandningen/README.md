@@ -86,6 +86,8 @@ Då kommer vår variabel att plussas med 1 varje gång vi rör vid Mars. Så om 
 
 <video src="./6_2.mp4" loop autoplay muted />
 
+Testa: Räknad din variabel "lyckae landningsförsök" upp varje gång som vår raket nuddar Mars?
+
 ## 7 – Åk till Mars med ett meddelande
 
 När vi kör vår simulation så körs den bara en gång. Så om vi vill köra 100 simulationer så måste vi trycka på den gröna flaggan 100 gånger. Det är det väl ingen som orkar!? Tur att det finns ett bättre sätt!
