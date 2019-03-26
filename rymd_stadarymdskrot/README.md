@@ -143,7 +143,7 @@ Testa! Visas vår kvadrat när du trycker på den gröna flaggan?
 <video src="./7_3.mp4" autoplay loop muted />
 
 
-## 8 – Förflytta kvadraten
+## 8 – Slumpa kvadratens position
 
 Så här ska din kod se ut nu:
 
