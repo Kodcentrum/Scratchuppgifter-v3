@@ -256,7 +256,7 @@ Nu nollställs vår variabel varje gång vi startar om.
 
 Som nästa steg så vill vi att vår rymdfarkost ska ropa ”Äntligen klart! när vi har plockat upp allt rymdskrot. Om vi har plockat upp all rymdskrot så betyder det att vi har plussat ihop allas vikter i vår variabel.
 
-I sprajten ”rymdfarkost” så ska vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill kolla om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Och om den är det – då säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
+Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill kolla om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Och om den är det – då säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
 
 > Vi kan räkna ut summan genom att plussa ihop alla vikterna från de olika rymdskroten. Använd papper och penna och skriv ned vikterna från sprajtarna och plussa sedan ihop dem.
 
