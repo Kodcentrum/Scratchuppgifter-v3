@@ -159,7 +159,7 @@ Det finns ett block ”gå till slumpmässig position”. Lägg det mellan block
 
 När det ligger rätt så lägger sig rymdskrotet på en ny plats varje gång vi trycker på den gröna flaggan.
 
-![](./8_3.gif)
+<video src="./8_3.mp4" autoplay loop muted />
 
 ## 9 – Rör på rymdskrotet
 
