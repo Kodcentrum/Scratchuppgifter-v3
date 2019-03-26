@@ -120,6 +120,8 @@ Nu kommer raketen att skjutas upp 100 gånger. Utan att vi behöver avfyra den s
 
 Testa: Skjuts din raket upp 100 gånger när du trycker på den gröna flaggan?
 
+> Har du lagt märke till att det dyker upp asteroider mellan jorden och Mars? De ska vi göra något åt i nästa steg.
+
 ## 9 – Räkna misslyckade landningar
 
 ![Vi åker till Mars 100 gånger](./9_1.png)
