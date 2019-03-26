@@ -12,10 +12,16 @@ Vi har hittat ett projekt för simulationen men det ser ut att vara ofärdigt. V
 
 Låt oss remixa det.
 
-1. Öppna den här sidan: [https://scratch.mit.edu/projects/280405708/](https://scratch.mit.edu/projects/280405708/)
-2. Klicka på knappen ”Se inuti” så att du kan se koden.
-3. Om du är inloggad: Klicka på knappen ”Remix”. Då får du en egen kopia av projektet som du kan använda.
-4. Om du inte är inloggad: Ändra i projektet som om det vore ditt. Spara som vanligt genom att trycka på Arkiv och sedan trycka på ”Spara till din dator”
+1. Öppna din webbläsare och gå till
+		
+	<a href="https://scratch.mit.edu/projects/280405708/" target="_blank">https://scratch.mit.edu/projects/280405708/</a>
+	
+2. Klicka på knappen **Se inuti** så att du kan se koden.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
+
+Nu har du ett projekt som innehåller en raketsprajt, en jordsprajt, en marssprajt, en asteroidsprajt och en rymdbakgrund.
+
+// TODO: Instruktioner för hur man använder sin egen raket om man vill göra det.
 
 ## 2 – Beskrivning
 
