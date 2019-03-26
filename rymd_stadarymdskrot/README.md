@@ -122,6 +122,8 @@ Kan du sätta ihop dem i rätt ordning så att kvadraten försvinner när vi rö
 
 <video src="./6_3.mp4" autoplay loop muted />
 
+> Oroa dig inte för att kvadraten har försvunnit. Vi programmerar så att den visas igen i nästa steg.
+
 ## 7 – Visa kvadraten igen
 
 Så här ska din kod se ut nu:
@@ -136,9 +138,9 @@ Det finns ett block som heter ”visa”. Vi skulle kunna lägga det så att det
 
 ![](./7_2.png)
 
-Vi vill att vår kvadrat ska visas så fort vi trycker på den gröna flaggan.
+Testa! Visas vår kvadrat när du trycker på den gröna flaggan?
 
-![](./7_3.gif)
+<video src="./7_3.mp4" autoplay loop muted />
 
 
 ## 8 – Förflytta kvadraten
