@@ -84,7 +84,7 @@ I vårt skript så vill vi nu **ändra "lyckade landningsförsök" med 1** när 
 
 Då kommer vår variabel att plussas med 1 varje gång vi rör vid Mars. Så om vi trycker på den gröna flaggan flera gånger så kommer vår variabel att hålla räkningen för hur många gånger vi har rört vid Mars.
 
-![](./6_2.gif)
+<video src="./6_2.mp4" loop autoplay muted />
 
 ## 7 – Åk till Mars med ett meddelande
 
