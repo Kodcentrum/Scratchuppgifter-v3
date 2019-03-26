@@ -106,6 +106,8 @@ Om vi testar programmet nu så fungerar det precis som tidigare. Raketen flyger 
 
 ## 8 – Skjut upp 100 gånger
 
+Ser din kod ut ungefär så här?
+
 ![Skicka meddelande ”uppskjutning”](./8_1.png)
 
 Vi skjuter fortfarande bara upp raketen 1 gång. Men vi vill testa att skjuta upp raketen 100 gånger.
@@ -114,7 +116,9 @@ Lägg till blocket **repetera 100 gånger** runt vårt block **skicka "uppskjutn
 
 Nu kommer raketen att skjutas upp 100 gånger. Utan att vi behöver avfyra den själva. Den bara åker och åker.
 
-![](./8_2.gif)
+<video src="./8_2.mp4" loop autoplay muted />
+
+Testa: Skjuts din raket upp 100 gånger när du trycker på den gröna flaggan?
 
 ## 9 – Räkna misslyckade landningar
 
