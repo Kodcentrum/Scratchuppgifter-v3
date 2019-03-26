@@ -132,9 +132,9 @@ Vi behöver **skapa en ny variabel** som heter ”misslyckade landningar”.
 
 Efter varje steg framåt så ska vi på samma sätt som vi räknade antalet "lyckade landningar" räkna "misslyckade landningar". **Om vi rör vid Asteroider** så ska vi **ändra "misslyckade landningar" med 1**.
 
-Och precis som när vi rör vid Mars så vill vi också **stoppa detta script** efter att vi har ändrat vår variabel.
+Och precis som när vi rör vid Mars så vill vi också **stoppa detta skript** efter att vi har ändrat vår variabel.
 
-![](./9_2.gif)
+<video src="./9_2.mp4" loop autoplay muted />
 
 
 ## 10 – Sätt variabler till 0 vid start
