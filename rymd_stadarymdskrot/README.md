@@ -62,7 +62,7 @@ Det finns ett block som heter ”när mellanslag-tangenten trycks ned” och tv�
 
 Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangenten trycks ned så ska farkosten svänga vänster? Och när ”högerpil” tangenten trycks ned så ska farkosten svänga höger?
 
-![](./3_1.gif)
+<video src="./3_3.mp4" autoplay loop muted />
 
 ## 4 – Spara
 
