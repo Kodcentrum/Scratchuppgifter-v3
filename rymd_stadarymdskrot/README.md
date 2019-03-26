@@ -242,9 +242,13 @@ Men vår variabel bara fortsätter att räkna. Den börjar aldrig om.
 
 För att kunna hålla räkningen ordentligt så skulle vi vilja *nollställa* vår variabel. Det betyder att vi sätter den till 0. Vi vill nollställa den varje gång vi trycker på den gröna flaggan.
 
+![](./13_1.png)
+
 Välj sprajten ”rymdfarkost”. Precis efter blocket ”När grön flagga klickas på” – lägg till ett block **sätt vikt till 0**. 
 
 Nu borde variabelns värde sättas till 0 varje gång vi trycker på den gröna flaggan. Testa genom att fånga lite rymdskrot och sedan trycka den gröna flaggan. Sätts variabeln till 0?
+
+<video src="./13_2.mp4" autoplay loop muted />
 
 ## 14 – Avsluta när vi har städat färdigt
 
