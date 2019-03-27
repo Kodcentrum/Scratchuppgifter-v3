@@ -23,20 +23,36 @@ Nu har du ett projekt som innehåller en raketsprajt, en jordsprajt, en marsspra
 
 ### Vill du använda din egna raket?
 
-Detta steg är valfritt men roligt. Har du byggt din egna raket i Scratch? Det går att lägga till den i det här projektet.
+> Detta steg är valfritt men roligt.
+
+Har du byggt din egna raket i Scratch? Det går att lägga till den i det här projektet.
 
 1. Gå till "mina grejer" i Scratch och öppna ditt raketprojekt
-2. Tryck och håll ett par sekunder på raketen i biblioteket
+2. Tryck och håll ett par sekunder på raketen i biblioteket och tryck på "exportera".
 
   ![](./1_1.png)
 
-3. Tryck på "exportera"
-4. Gå tillbaka till "mina grejer" och öppna Marslandningsprojektet
-5. Tryck på knappen "Ladda upp sprajt"
+3. Gå tillbaka till "mina grejer" och öppna Marslandningsprojektet
+4. Tryck på knappen "Ladda upp sprajt"
 
   ![](./1_2.png)
 
-6. 
+5. För att raketen ska åka åt rätt håll så behöver vi rotera klädseln för raketen så att den pekar åt höger.
+
+  <video src="./1_3.mp4" loop autoplay muted />
+
+6. Placera din raket på samma koordinater som den raketen som kom med projektet
+
+  ![](./1_4.png)
+
+7. Rotera din sprajt så att den får samma vinkel som den raketen som kom med projektet
+
+  ![](./1_5.png)
+        
+8. Ta bort kod från din raket så att det är helt tomt.
+9. Färdigt! Nu kan vi gå vidare till nästa steg.
+
+
 
 ## 2 – Beskrivning
 
