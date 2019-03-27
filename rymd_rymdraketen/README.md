@@ -139,7 +139,7 @@ Hur vill du att raketen ska röra på sig? Vilken riktning ska den åka i?
 
 Vi vill att den ska åka uppåt! Då behöver vi använda koordinater. Raketen har en koordinat för att hålla reda på vilken plats den har. En koordinat består av en siffra för X och en siffra för Y. Du kanske redan har lagt märke till att din raket har en koordinat?
 
-![](./9_1.png)
+![](./9_2.png)
 
 Om du ändrar på X så flyttas raketen till höger eller vänster. Ett större tal flyttar den till höger och ett mindre tal flyttar den till vänster.
 
