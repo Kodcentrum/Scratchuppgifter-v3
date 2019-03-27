@@ -106,7 +106,7 @@ Det gör vi med blocket **om `    ` då**:
 
 ![](./6_1.png)
 
-Tillsammans med blocket **rör Månen?**:
+Tillsammans med blocket **rör vid Månen?**:
 
 ![](./6_2.png)
 
