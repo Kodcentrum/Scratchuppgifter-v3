@@ -250,7 +250,7 @@ Nu borde variabelns värde sättas till 0 varje gång vi trycker på den gröna 
 
 <video src="./13_2.mp4" autoplay loop muted />
 
-## 14 – Avsluta när vi har städat färdigt
+## 14 – Du vinner när vi har städat färdigt
 
 Nu nollställs vår variabel varje gång vi startar om. 
 
