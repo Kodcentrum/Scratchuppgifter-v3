@@ -96,7 +96,7 @@ Nu ska vi använda blocket **glid `4` sek till x: ` ` y: ` `**.
 
 När du har satt ihop de här blocken med de andra så kommer vår raket glida till koordinaten vi skriver in.
 
-![](./5_3.gif)
+<video src="./5_3.mp4" loop autoplay muted />
 
 ## 6 – Berätta hur det har gått
 
