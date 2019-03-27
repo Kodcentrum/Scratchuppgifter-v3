@@ -21,7 +21,22 @@ Låt oss remixa det.
 
 Nu har du ett projekt som innehåller en raketsprajt, en jordsprajt, en marssprajt, en asteroidsprajt och en rymdbakgrund.
 
-// TODO: Instruktioner för hur man använder sin egen raket om man vill göra det.
+### Vill du använda din egna raket?
+
+Detta steg är valfritt men roligt. Har du byggt din egna raket i Scratch? Det går att lägga till den i det här projektet.
+
+1. Gå till "mina grejer" i Scratch och öppna ditt raketprojekt
+2. Tryck och håll ett par sekunder på raketen i biblioteket
+
+  ![](./1_1.png)
+
+3. Tryck på "exportera"
+4. Gå tillbaka till "mina grejer" och öppna Marslandningsprojektet
+5. Tryck på knappen "Ladda upp sprajt"
+
+  ![](./1_2.png)
+
+6. 
 
 ## 2 – Beskrivning
 
