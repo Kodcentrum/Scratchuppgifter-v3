@@ -88,7 +88,7 @@ Men vart är allt rymdskrot? Rymden ser ju helt ren ut? Låt oss lägga till lit
 
 Tryck på knappen för att måla en ny sprajt.
 
-![Tryck på knappen för att måla en ny sprajt](./5_1.png)
+<img src="./5_1.png" width="493" alt="Tryck på knappen för att måla en ny sprajt" />
 
 Rita en kvadrat genom att välja kvadratverktyget från palletten till vänster och sedan rita en kvadrat på den rutiga ytan. Välj vilken färg du vill.
 
