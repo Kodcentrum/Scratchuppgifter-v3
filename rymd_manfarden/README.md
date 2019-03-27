@@ -115,7 +115,7 @@ Nu ska vi ändra så att månen får en *slumpmässig* position i den högra och
 
 ![](./7_2.png)
 
-Anledningen är att vi vill att månen skall byta plats varje gång vi spelar så att vi inte bara kan komma ihåg vilken koordinat den har. 
+Anledningen är att vi vill att månen ska byta plats varje gång vi spelar så att vi inte bara kan komma ihåg vilken koordinat den har. 
 
 Blocket **slumptal** fungerar lite som en tärning. Precis som att vi får olika svar när vi slår en tärning så får vi olika tal varje gång vi trycker på den gröna flaggan.
 
