@@ -46,7 +46,7 @@ När vi trycker på den gröna flaggan så ska raketen:
 - **gå till** koordinaten där den ska starta
 - **för alltid** röra sig framåt med **gå 5 steg**.
 
-<video src="./1_1.mp4" loop autoplay muted />
+<video src="./3_1.mp4" loop autoplay muted />
 
 Testa: Tryck på den gröna flaggan. Åker raketen iväg? Tryck på den gröna flaggan igen. Startar den från jorden igen? 
 
