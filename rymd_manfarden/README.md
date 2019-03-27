@@ -104,6 +104,10 @@ Efter att vår raket har glidit så vill vi att den säger ”Jippie! En perfekt
 
 Det gör vi med blocket **om `    ` då**:
 
+![](./6_1.png)
+
+Tillsammans med blocket **rör Månen?**:
+
 ![](./6_2.png)
 
 Om vi rör vid månen då ska vi säga ”Jippie! En perfekt uppskjutning!”:
@@ -114,7 +118,7 @@ Annars så ska vi säga ”Ajdå. Inte så bra som vi hoppades.”.
 
 ![](./6_4.png)
 
-![](./6_5.gif)
+<video src="./6_5.mp4" loop autoplay muted />
 
 ## 7 – Slumpmässig position
 
