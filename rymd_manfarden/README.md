@@ -50,7 +50,7 @@ Testa: Frågar raketen vilken x-koordinat du ska åka till? Om du skriver in en 
 
 Fortsätt koda på sprajten ”Raket”. 
 
-För att kunna åka till månen behöver vi veta både en x-koordinat och en y-koordinat.
+För att kunna åka till månen behöver vi veta både en **x-koordinat** och en **y-koordinat**.
 
 Så vi behöver en fråga till. Men denna gång frågar vi ”Vilken y-koordinat ska vi gå till?”. Lägg frågan under vårt block där vi går till x.
 
@@ -78,9 +78,9 @@ Gör samma sak med y. Skapa en ny variabel som heter ”ny y” och sätt den ti
 
 ![](./4_4.png)
 
-![](./4_5.gif)
+<video src="./4_5.mp4" loop autoplay muted />
 
-Nu kommer vår raket inte att flytta på sig längre för vi har tagit bort blocken som flyttar den. Men kan du se att värdena för variablerna ändras när du skriver in svar på frågan?
+Testa: Svara på frågorna. Ändras siffrorna i variablerna när du skriver in svaren?
 
 > Du kan se variablerna längst upp till vänster på din scen. De borde få samma siffra som du skrev in i textrutan.
 
