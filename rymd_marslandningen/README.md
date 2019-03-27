@@ -161,6 +161,10 @@ För att byta klockslag så lägger vi till blocket **ändra "klockslag" till "1
 
 ## Färdig!
 
+Nu är simulationen färdig och det är dags att analysera slutresultatet. 
+
+// TODO: Referera till matteuppgiften
+
 Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**
