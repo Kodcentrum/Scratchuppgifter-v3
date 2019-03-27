@@ -92,7 +92,7 @@ Tryck på knappen för att måla en ny sprajt.
 
 Rita en kvadrat genom att välja kvadratverktyget från palletten till vänster och sedan rita en kvadrat på den rutiga ytan. Välj vilken färg du vill.
 
-> Tips! För att rita en *perfekt* kvadrat så håll ned tangenten **shift** när du ritar ut din kvadrat.
+> Tips! För att rita en *liksidig* kvadrat så håll ned tangenten **shift** när du ritar ut din kvadrat.
 
 ![](./5_2.png)
 
