@@ -4,7 +4,7 @@ Det är farligt att åka till Mars. Rätt var det är så kan det dyka upp ett a
 
 För att ta reda på när det är säkrast att åka så kan vi bygga en *simulation*. En simulation är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi ska kunna se vilken tid som är bäst.
 
-![](./0_1.gif)
+<video src="./0_1.mp4" loop autoplay muted />
 
 ## 1 – Remixa simulationen
 
