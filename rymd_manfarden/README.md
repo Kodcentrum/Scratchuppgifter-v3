@@ -17,7 +17,7 @@ Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
 
 Nu har du ett projekt som innehåller ett koordinatsystem, en rymdbakgrund, en jordsprajt och en månsprajt.
 
-##  1 – Lägg ut planeter, asteroider och satelliter
+##  1 – Placera ut sprajtar
 
 Vi börjar med att lägga ut alla våra sprajtar så att de får rätt koordinater.
 
@@ -27,7 +27,10 @@ Vi sätter ut våra sprajtar så exakt vi bara kan. För att göra det så kan v
 
 ![](./1_1.png)
 
-Skriv in de exakta koordinaterna från ditt koordinatsystem på papper. Hamnar alla sprajtar där du trodde att de skulle hamna? Är det någon som inte stämmer?
+Lägg till de här blocken på alla sprajtar och skriv in de exakta koordinaterna från ditt koordinatsystem på papper.
+
+Testa: Tryck på den gröna flaggan. Hamnar alla sprajtar där du trodde att de skulle hamna? Är det någon som inte stämmer?
+
 
 ## 2 – Använda frågor och svar
 
@@ -35,9 +38,13 @@ Välj sprajten ”Raket”.
 
 Vi kan berätta för vår raket vart den ska åka genom att använda blocket **fråga `     ` och vänta**. Då öppnas en textruta där vi kan skriva in en x-koordinat. Vårt svar hamnar sedan i variabeln **svar**.
 
+![](./2_1.png)
+
 Koda raketen så att den frågar vilken x-koordinat den ska gå till och att den sedan sätter x till svaret.
 
-![](./2_1.png)
+<video src="./2_2.mp4" loop autoplay muted />
+
+Testa: Frågar raketen vilken x-koordinat du ska åka till? Om du skriver in en siffra – flyttas då raketen åt vänster eller höger?
 
 ## 3 – Fråga efter y-koordinat
 
@@ -49,7 +56,7 @@ Så vi behöver en fråga till. Men denna gång frågar vi ”Vilken y-koordinat
 
 ![](./3_1.png) 
 
-Frågar vår raket nu först vilken x-koordinat den ska gå till? Och sedan vilken y-koordinat den ska gå till?
+Testa: Frågar raketen nu först vilken x-koordinat den ska gå till? Och sedan vilken y-koordinat den ska gå till?
 
 ## 4 – Spara x och y i variabler
 
