@@ -132,6 +132,7 @@ Utforska kategorin *Händelser* för att hitta ett block som säger *när* någo
 Raketen ska åka uppåt, ut i rymden. Den ska alltså röra på sig – titta i kategorin *Rörelse*. Vilket skriptblock vill du använda här?
 
 > Tips: Du kan inte använda ”gå” för det blir åt fel håll... vad vill du använda? Glid? Ändra?
+> ![](./9_1.png)
 
 ### Hur?
 
