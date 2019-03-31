@@ -1,6 +1,6 @@
 # Rymdskrot
 
-Rädda satelliten Mats från rymdskrot!
+**Rädda satelliten Mats från rymdskrot!**
 
 <video src="./0_1.mp4" autoplay loop muted />
 
@@ -219,7 +219,7 @@ Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är v�
 
 ![](./15_3.png)
 
-## Färdig!
+## 15 - Färdig!
 
 Snyggt jobbat! Nu kan vi städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
 
