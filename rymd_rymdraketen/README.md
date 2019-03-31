@@ -70,16 +70,13 @@ För att andra rymdfarkoster ska se att vår raket kommer från Sverige så ska 
 
 1. Välj textverktyget
 2. Tryck inuti rektangeln för att välja vart du ska börja skriva
-3. Skriv texten ”SNSA”. SNSA betyder Swedish National Spage Agency och det är var rymdstyrelsen heter på engelska.
+3. Skriv texten ”SNSA”.
 
-Skriv SNSA (Swedish National Space Agency) på sidan av raketen. Det är vad ”Rymdstyrelsen” heter på engelska. 
+> SNSA betyder Swedish National Space Agency och det är vad ”Rymdstyrelsen” heter på engelska. 
 
 > Om du inte är nöjd med vart texten är placerad så kan du flytta den genom att välja flyttverktyget.
 
 ![](./6_0.png)
-
-
-
 
 ## 7 – Gör raketen till din egen raket
 
