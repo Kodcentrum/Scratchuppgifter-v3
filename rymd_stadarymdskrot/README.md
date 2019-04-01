@@ -134,7 +134,7 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 
 ![](./10_1.png)
 
-## Färdig! Nu har du skapat ett spel
+### Färdig! Nu har du skapat ett spel
 
 Snyggt jobbat! Nu kan du städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
 
