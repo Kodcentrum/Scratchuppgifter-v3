@@ -135,7 +135,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 
   * **Sätt Tid** till 60 sekunder (eller välj själv antal sekunder)
 
-  * **För alltid om Tid > 0**
+  * **För alltid om Tid > 60**
 
     * **Då** ska sprajten **vänta** 1 sekund
 
