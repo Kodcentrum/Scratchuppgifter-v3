@@ -134,8 +134,6 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 
 ![](./10_1.png)
 
-### Färdig! Nu har du skapat ett spel
-
 
 > **Grattis! Nu har du skapat ett spel**
 >
