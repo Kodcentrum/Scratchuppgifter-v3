@@ -2,13 +2,13 @@
 
 Det är farligt att åka till Mars. Rätt var det är så kan det dyka upp ett asteroidfält. 
 
-För att ta reda på när det är säkrast att åka så kan vi bygga en *simulation*. En simulation är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi ska kunna se vilken tid som är bäst.
+För att ta reda på när det är säkrast att åka så kan vi bygga en *simulator*. En simulator är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi ska kunna se vilken tid som är bäst.
 
 <video src="./0_1.mp4" loop autoplay muted />
 
-## 1 – Remixa simulationen
+## 1 – Remixa simulatorn
 
-Vi har hittat ett projekt för simulationen men det ser ut att vara ofärdigt. Vi skulle behöva göra klart det.
+Vi har hittat ett projekt för simulatorn men det ser ut att vara ofärdigt. Vi skulle behöva göra klart det.
 
 Låt oss remixa det.
 
@@ -70,7 +70,7 @@ Låt oss bygga det tillsammans.
 
 ## 3 – Avfyra raketen
 
-Vi vill att raketen ska avfyras när vi startar vår simulation. Alltså när vi trycker på den gröna flaggan.
+Vi vill att raketen ska avfyras när vi startar en simulation. Alltså när vi trycker på den gröna flaggan.
 
 När vi trycker på den gröna flaggan så ska raketen:
 
@@ -192,9 +192,7 @@ För att byta klockslag så lägger vi till blocket **ändra "klockslag" till "1
 
 ## Färdig!
 
-Nu är simulationen färdig och det är dags att analysera slutresultatet. 
-
-// TODO: Referera till matteuppgiften
+Nu är simulatorn färdig och det är dags för er att analysera slutresultatet.
 
 Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
