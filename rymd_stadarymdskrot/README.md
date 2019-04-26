@@ -10,7 +10,7 @@ Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
 
 1. Öppna din webbläsare och gå till
 		
-	<a href="https://scratch.mit.edu/projects/282942221/" target="_blank">https://scratch.mit.edu/projects/282942221/</a>
+	<a href="https://scratch.mit.edu/projects/298331110/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden.
 3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.

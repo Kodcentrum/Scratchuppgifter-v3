@@ -14,7 +14,7 @@ Låt oss remixa det.
 
 1. Öppna din webbläsare och gå till
 		
-	<a href="https://scratch.mit.edu/projects/280405708/" target="_blank">https://scratch.mit.edu/projects/280405708/</a>
+	<a href="https://scratch.mit.edu/projects/304677675/" target="_blank">https://scratch.mit.edu/projects/304677675/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden.
 3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
