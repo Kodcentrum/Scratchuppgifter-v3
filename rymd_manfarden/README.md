@@ -97,7 +97,7 @@ Nu ska vi använda blocket **glid `4` sek till x: ` ` y: ` `**.
 
 ![](./5_2.png)
 
-När du har satt ihop de här blocken med de andra så kommer vår raket glida till koordinaten vi skriver in.
+Testa: Starta spelet, svara på frågorna. *Glider* raketen till de koordinater som du har skrivit in?
 
 <video src="./5_3.mp4" loop autoplay muted />
 
