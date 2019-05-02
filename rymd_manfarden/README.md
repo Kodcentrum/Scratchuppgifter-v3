@@ -17,6 +17,9 @@ Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
 
 Nu har du ett projekt som innehåller ett koordinatsystem, en rymdbakgrund, en jordsprajt och en månsprajt.
 
+> Det finns flera varianter av koordinatsystem att välja mellan. Klicka på fliken **Klädslar** uppe till vänster. Klicka på fliken **Skript** för att se sprajtens skript. Det är viktigt att du behåller det här skripter för sprajten. Den placerar koordinatsystemet i mitten av scenen.
+
+
 ##  1 – Placera ut sprajtar
 
 Vi börjar med att lägga ut alla våra sprajtar så att de får rätt koordinater.
@@ -100,9 +103,13 @@ När du har satt ihop de här blocken med de andra så kommer vår raket glida t
 
 ## 6 – Berätta hur det har gått
 
+Ser din kod för raketen ut ungefär så här?
+
+![](./6_0.png)
+
 Efter att vår raket har glidit så vill vi att den säger ”Jippie! En perfekt uppskjutning” om den rör vid månen. Och annars så vill vi att den säger ”Ajdå. Inte så bra som vi hoppades”.
 
-Det gör vi med blocket **om `    ` då**:
+Det gör vi med blocket **om då annars**:
 
 ![](./6_1.png)
 
@@ -118,17 +125,19 @@ Annars så ska vi säga ”Ajdå. Inte så bra som vi hoppades.”.
 
 ![](./6_4.png)
 
+Testa: Starta spelet, svara på frågorna. Säger raketen rätt sak när den har glidit klart?
+
 <video src="./6_5.mp4" loop autoplay muted />
 
 ## 7 – Slumpmässig position
 
-Nu ska vi ändra så att månen får en *slumpmässig* position i den högra och övre delen av scenen. Det ska vi göra med blocket **slumptal**. 
+Tryck på månen. Nu ska vi ändra så att den får en *slumpmässig* position i den högra och övre delen av scenen. Det ska vi göra med blocket **slumptal**. 
 
 ![](./7_2.png)
 
-Anledningen är att vi vill att månen ska byta plats varje gång vi spelar så att vi inte bara kan komma ihåg vilken koordinat den har. 
+Vi vill att månen ska byta plats varje gång vi spelar så att vi inte bara kan memorera vilken koordinat den har. 
 
-Blocket **slumptal** fungerar lite som en tärning. Precis som att vi får olika svar när vi slår en tärning så får vi olika tal varje gång vi trycker på den gröna flaggan.
+Blocket **slumptal** fungerar lite som en tärning. Precis som att vi får olika svar när vi slår en tärning så får vi olika tal varje gång vi använder blocket.
 
 Till skillnad från en vanlig tärning (där det minsta talet vi kan slå är 1 och det högsta är 6) så kan vi i scratch välja vad det minsta- och högsta talet ska vara.
 
@@ -142,9 +151,17 @@ Om vi vill att vår måne ska hamna på högersidan av vår scen – **vilken ä
 
 Skriv in den lägsta i det vänstra fältet och den högsta i det högra fältet.
 
-Hamnar månen på olika positioner nu varje gång du trycker på den gröna flaggan?
+![](./7_5.png)
+
+Testa: Tryck på den gröna flaggan. Hamnar månen på olika positioner varje gång du trycker? Hamnar den i det övre högra hörnet varje gång du trycker?
+
+<video src="./7_6.mp4" loop autoplay muted />
 
 ## 8 – Slumpmässig y-koordinat
+
+Ser din kod för månen ut så här?
+
+![](./8_1.png)
 
 På samma vis som vi slumpade fram en x-koordinat så ska vi nu slumpa fram en y-koordinat. Det är för att månen också ska kunna röra sig upp och ned.
 
@@ -154,7 +171,11 @@ Om vi vill att vår måne ska hamna på den övre delen av vår scen – **vilke
 
 Lägg till ett fält för slumptal även på y-koordinaten. Skriv in den lägsta i det vänstra fältet och den högsta i det högra fältet.
 
-Hamnar vår måne på olika positioner även i höjdled varje gång du trycker på den gröna flaggan?
+<video src="./8_2.mp4" loop autoplay muted />
+
+Testa: Tryck på den gröna flaggan. Hamnar månen på olika positioner även i höjdled varje gång du trycker på den gröna flaggan?
+
+<video src="./8_3.mp4" loop autoplay muted />
 
 ## Färdig!
 
