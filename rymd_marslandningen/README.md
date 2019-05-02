@@ -2,7 +2,7 @@
 
 Det är farligt att åka till Mars. Rätt var det är så kan det dyka upp ett asteroidfält. 
 
-För att ta reda på när det är säkrast att åka så kan vi bygga en *simulator*. En simulator är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen. För att vi ska kunna se vilken tid som är bäst.
+För att ta reda på när det är säkrast att åka så kan vi bygga en *simulator*. En simulator är ett datorprogram som kan testa saker. Vi kan till exempel testa att landa vid olika tidpunkter på dagen för att kunna se vilken tid som är bäst.
 
 <video src="./0_1.mp4" loop autoplay muted />
 
@@ -70,7 +70,7 @@ Låt oss bygga det tillsammans.
 
 ## 3 – Avfyra raketen
 
-Vi vill att raketen ska avfyras när vi startar en simulation. Alltså när vi trycker på den gröna flaggan.
+Vi vill att raketen ska avfyras när vi startar simulatorn. Alltså när vi trycker på den gröna flaggan.
 
 När vi trycker på den gröna flaggan så ska raketen:
 
@@ -121,7 +121,7 @@ Testa: Räknar din variabel "lyckade landningsförsök" upp varje gång som vår
 
 ## 7 – Åk till Mars med ett meddelande
 
-När vi kör vår simulation så körs den bara en gång. Så om vi vill köra 100 simulationer så måste vi trycka på den gröna flaggan 100 gånger. Det är det väl ingen som orkar!? Tur att det finns ett bättre sätt!
+När vi kör vår simulator så körs den bara en gång. Så om vi vill köra 100 simulationer så måste vi trycka på den gröna flaggan 100 gånger. Det är det väl ingen som orkar!? Tur att det finns ett bättre sätt!
 
 Vi kan använda *meddelanden* för att avfyra vår raket flera gånger. Så i stället för att avfyra vår raket 1 gång genom att trycka på den gröna flaggan så kan vi avfyra vår raket 100 gånger genom att skicka ett meddelande 100 gånger.
 
@@ -129,7 +129,7 @@ Lägg ut blocket **När jag tar emot ”uppskjutning”**.
 
 Flytta sedan alla block från **När grön flagga klickas på** till **När jag tar emot ”uppskjutning"** genom att dra dem.
 
-Om vi skulle testa att starta simulationen så skulle ingenting hända för vi skickar aldrig meddelandet ”uppskjutning".
+Om vi skulle testa att starta simulatorn så skulle ingenting hända för vi skickar aldrig meddelandet ”uppskjutning".
 
 Lägg till ett block **skicka "uppskjutning" och vänta** och lägg det under **När grön flagga klickas på**.
 
@@ -183,7 +183,7 @@ Lägg de här blocken **mellan** blocket ”när grön flagga klickas på” och
 
 Åh! Det finns en variabel som har legat gömd hela tiden. Har du sett den? Den heter ”klockslag”. Den måste ha funnits med sedan vi remixade den.
 
-Det verkar som att vi kan köra simulationen vid olika klockslag. För att se om det är någon skillnad att till exempel åka på morgonen eller på eftermiddagen. 
+Det verkar som att vi kan köra simulatorn vid olika klockslag. För att se om det är någon skillnad att till exempel åka på morgonen eller på eftermiddagen. 
 
 För att byta klockslag så lägger vi till blocket **sätt "klockslag" till "15"** precis i början av vårt skript. Efter att den gröna flaggan har klickats på. Då kommer vi testa att landa 100 gånger när klockan är 15:00. Alltså tre på eftermiddagen.
 
@@ -193,7 +193,7 @@ Det finns tre olika klockslag att testa:
 - 15
 - 18 
 
-> Om du vill se vilket klockslag simulationen är inställd på så kan du bocka för den lilla rutan som ligger framför variabeln.
+> Om du vill se vilket klockslag simulatorn är inställd på så kan du bocka för den lilla rutan som ligger framför variabeln.
 > ![](./11_2.png)
 
 ## Färdig!
@@ -207,8 +207,7 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 
 ## Utmaningar
 
-### Snabba upp simulationen
+### Snabba upp simulatorn
 
-Tycker du att simulationen går långsamt? Det går att snabba upp den genom att gå fler steg framåt. Testa att skriva in en högre siffra i blocket **gå 3 steg framåt**.
+Tycker du att simulatorn går långsamt? Det går att snabba upp den genom att gå fler steg framåt. Testa att skriva in en högre siffra i blocket **gå 3 steg framåt**.
 
-## Frågeställningar
