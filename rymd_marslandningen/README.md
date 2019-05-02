@@ -185,7 +185,13 @@ Lägg de här blocken **mellan** blocket ”när grön flagga klickas på” och
 
 Det verkar som att vi kan köra simulationen vid olika klockslag. För att se om det är någon skillnad att till exempel åka på morgonen eller på eftermiddagen. 
 
-För att byta klockslag så lägger vi till blocket **ändra "klockslag" till "17"** precis i början av vårt skript. Efter att den gröna flaggan har klickats på. Då kommer vi testa att landa 100 gånger när klockan är 17:00. Alltså fem på eftermiddagen.
+För att byta klockslag så lägger vi till blocket **sätt "klockslag" till "15"** precis i början av vårt skript. Efter att den gröna flaggan har klickats på. Då kommer vi testa att landa 100 gånger när klockan är 15:00. Alltså tre på eftermiddagen.
+
+Det finns tre olika klockslag att testa:
+
+- 12
+- 15
+- 18 
 
 > Om du vill se vilket klockslag simulationen är inställd på så kan du bocka för den lilla rutan som ligger framför variabeln.
 > ![](./11_2.png)
