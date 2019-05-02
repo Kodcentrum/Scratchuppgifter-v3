@@ -85,13 +85,13 @@ Testa: Tryck på den gröna flaggan. Åker raketen iväg? Tryck på den gröna f
 
 Ser din kod ut ungefär såhär?
 
-![Nu åker raketen framåt](./2_1.png)
+![Nu åker raketen framåt](./4_1.png)
 
 Men om vi bara åker framåt utan att stanna så kommer raketen bara att fortsätta att åka och åka. Och då kommer vi åka förbi Mars.
 
 Efter varje steg framåt så måste vi kolla **om** vi **rör vid Mars**. Och om vi gör det så vill vi **stoppa detta skript** eftersom vi då har kommit fram till Mars. 
 
-<video src="./2_2.mp4" loop autoplay muted />
+<video src="./4_2.mp4" loop autoplay muted />
 
 Testa: Tryck på den gröna flaggan. Stannar din raket när den nuddar Mars?
 
