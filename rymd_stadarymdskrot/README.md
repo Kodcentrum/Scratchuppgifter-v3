@@ -262,23 +262,6 @@ Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vår
 
 ![](./14_2.png)
 
-## 15 – Game over när vi nuddar Mats
-
-Nu när vi har städat bort allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om rymdskrotet nuddar Mats. 
-
-Markera sprajten Mats. Det är där vi ska lägga till vår kod.
-
-Efter att grön flagga klickas på så ska vi vänta tills vi rör vid kvadrat **eller** rör vid rektangel **eller** rör vid cirkel **eller** rör vid triangel. 
-
-Efter det vill vi säga ”Ajajajaj!” i 2 sekunder. Och sedan vill vi använda blocket ”stoppa alla” för att avsluta vårt skript.
-
-> Visste du att det går att lägga ett ”eller”-block i ett annat ”eller”-block?
-
-![](./15_2.gif)
-
-Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Vi kan ändra storleken på Mats om vi vill göra det lite lättare för oss:
-
-![](./15_3.png)
 
 ## Färdig!
 
@@ -292,5 +275,19 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 
 ## Utmaningar
 
-## Frågeställningar
+### Game over när vi nuddar Mats
+
+Markera sprajten Mats. Det är där vi ska lägga till vår kod. Nu när vi har städat bort allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om rymdskrotet nuddar Mats. 
+
+Efter att grön flagga klickas på så ska vi vänta tills vi rör vid kvadrat **eller** rör vid rektangel **eller** rör vid cirkel **eller** rör vid triangel. 
+
+Efter det vill vi säga ”Ajajajaj!” i 2 sekunder. Och sedan vill vi använda blocket ”stoppa alla” för att avsluta vårt skript.
+
+> Visste du att det går att lägga ett ”eller”-block i ett annat ”eller”-block?
+
+![](./15_2.gif)
+
+Det kan bli väldigt svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Vi kan ändra storleken på Mats om vi vill göra det lite lättare för oss:
+
+![](./15_3.png)
 
