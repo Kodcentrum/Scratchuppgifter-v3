@@ -226,9 +226,7 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 Du ska få göra det lite roligare genom att lägga till ett ljud till animationen.
 
-1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster) för **VÄLJ ETT LJUD**. testing.
-testing
-testing
+1.	Klicka på fliken LJUD och därefter på knappen (längst ner till vänster) för **VÄLJ ETT LJUD**.
 
 
   ![image alt text](imse30nyttljud.png)
