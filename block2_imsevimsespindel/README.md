@@ -211,7 +211,11 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 ![image alt text](imse27bandrakladsel.png)
 
-5.	Använd sedan ett block **RÖRSELSE**: **”glid 1 sek till x: y:”**. Låt y-värdet stå kvar men **ändra x-värdet** till **-100**
+5.	För att spindeln alltid ska ha en glad mun i början av berättelsen, är det viktigt att lägga in att den glada spindeln **"ladybug2"** alltid visas först. Lägg därför till blocket "ändra klädsel till **"ladybug2"** i skriptet som ha en flagga, såhär:
+
+  ![image alt text](imse_kodsnippet.PNG)
+
+6. Använd sedan ett block **RÖRSELSE**: **”glid 1 sek till x: y:”**. Låt y-värdet stå kvar men **ändra x-värdet** till **-100**
 
   ![image alt text](imse29glid.png)
 
