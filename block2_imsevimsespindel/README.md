@@ -171,7 +171,7 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 5. Dra sedan ett block **UTSEENDE**: **ändra klädsel...** till skriptet. Se till att klädseln **"cloud2"** väljs i listan över klädslar.
 
-  ![image alt text](imse21moln2.png)
+  ![image alt text](imseglid_ny.PNG)
 
 > Testa spelet! Glider molnet till den lodrätta tråden och blir till ett regnmoln?
 
@@ -239,7 +239,7 @@ Nu har du lagt till ett ljud till sprajten som kan spelas upp. Block för olika 
 
 ## 8: Upp stiger solen...
 
-Härnäst i ramsan om spindeln kommer solen som gör spindeln glad. Nu är det dags att lägga till en sol till ditt program. Solen ska fungera på nästan samma sak som molnet du just har kodat. När du klickar på solen ska du animera den och solen ska skicka ett meddelande. När spindeln tar emot det meddelandet ska den åka tillbaka till tråden och bli glad.
+Härnäst i ramsan om spindeln kommer solen som gör spindeln glad. Nu är det dags att lägga till en sol till ditt program. Solen ska fungera på nästan samma sätt som molnet du just har kodat. När du klickar på solen ska du animera den och solen ska skicka ett meddelande. När spindeln tar emot det meddelandet ska den åka tillbaka till tråden och bli glad.
 
 1.	Tryck på knappen för **NY SPRAJT** och välj sprajten **”Sun”**.
 
@@ -259,7 +259,7 @@ Nu är det dags att animera solen!
 
   * **Glid 2 sekunder till x: y:**. Ange koordinaterna så att solen hamnar precis ovanpå molnet, i mitten på skärmen.
 
-  * **Skicka** meddelandet **"soldans"**
+  * Skapa nytt meddelande **"soldans"** och **Skicka** meddelandet **"soldans"**.
 
   ![image alt text](imse32soldans.png)
 
