@@ -29,9 +29,10 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
 3.	Placera spindel på botten i mitten av bakgrunden. 
 
-4. Vänd på den så den ser ut att gå neråt. För att vrida spindels skriver du in siffran "180" i lilla fönstret bredvid RIKTNING. Då vrider spindelsn sig.
+4. Vänd på spindeln så den ser ut att gå neråt. För att vrida den skriver du in siffran "180" i lilla fönstret bredvid RIKTNING.
+  ![image alt text](imse_bild_ändra_riktning.PNG)
 
-Nu har du gjort spindel och det är dags att skapa en rolig bakgrund!
+Nu har du gjort en spindel och det är dags att skapa en rolig bakgrund!
 
 ## 2: Skapa en bakgrund
 
