@@ -171,7 +171,7 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 5. Dra sedan ett block **UTSEENDE**: **ändra klädsel...** till skriptet. Se till att klädseln **"cloud2"** väljs i listan över klädslar.
 
-  ![image alt text](imse21moln2.png)
+  ![image alt text](imseglid_ny.PNG)
 
 > Testa spelet! Glider molnet till den lodrätta tråden och blir till ett regnmoln?
 
