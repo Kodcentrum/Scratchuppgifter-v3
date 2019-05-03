@@ -27,7 +27,9 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
   I menyn längst upp finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug1”**. Tryck på insekten så att den blir markerad. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug1”**)
 
-3.	Placera spindel på botten och mitten av bakgrunden.
+3.	Placera spindel på botten i mitten av bakgrunden. 
+
+4. Vänd på den så den ser ut att gå neråt. För att vrida spindels skriver du in siffran "180" i lilla fönstret bredvid RIKTNING. Då vrider spindelsn sig.
 
 Nu har du gjort spindel och det är dags att skapa en rolig bakgrund!
 
@@ -46,9 +48,9 @@ I menyn längst upp finns en kategori som heter **”Utomhus”**, tryck på den
 
 Nu får du se till att rita lite spindelnät:
 
-1.	Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
+1.	Klicka på fliken BAKGRUNDER i övre vänsta hörnet, så kommer du till ritverktyget. Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
 
-  ![image alt text](imse5rita.png) .   ![image alt text](imse5britalinje.png) .
+   ![image alt text](imse5britalinje.png) .  ![image alt text](imse5rita.png) .   
 
 2.	Tryck på LINJE och välj en vit färg. Rita en rak tråd i mitten av bakgrunden, från spindelnätet till gräset där spindeln är placerad. Det är den här tråden spindeln ska klättra upp på lite senare.
 
@@ -83,7 +85,7 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
   > Testa att trycka spindeln nu. Nu åker spindeln uppåt!
 
-3.	Du kan förbättra animationen genom att lägg in en fördröjning efter varje gång spindeln flyttas. Dra ett block KONTROLL: ”vänta 1 sekunder” och placera den direkt efter blocket ”ändra y med 7.
+3.	Du kan förbättra animationen genom att lägga in en fördröjning efter varje gång spindeln flyttas. Dra ett block KONTROLL: ”vänta 1 sekunder” och placera den direkt efter blocket ”ändra y med 7”.
 
   ![image alt block](imse11vanta.png)
 
@@ -121,12 +123,12 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 
 1. Gå till fliken KLÄDSLAR
 
-2. Högerklicka på molnet i klädslar och klicka på KOPIERA. Nu ska du ha två likadana klädslar.
+2. Högerklicka på molnet i klädslar och klicka på KOPIERA. Nu ska du ha två likadana klädslar, alltså två likadana bilder på två moln.
 
   ![image alt text](imse14kopierakladsel.png)
   ![image alt text](imse15kladsel.png)
 
-3. Använd linjeverktyget och en blå färg och rita  till lite regndroppar.
+3. Använd penselverktyget och en blå färg och rita  till lite regndroppar.
 
   ![image alt text](imse16farg.png)
 
@@ -137,7 +139,7 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 
 Nu är det dags att animera molnet!
 
-1. Nu ser du att du har fått en helt tomt kodyta. Här kan du lägga in kod som styr molnet.
+1. Nu ser du att du har fått en helt tom kodyta. Här kan du lägga in kod som styr molnet.
 
 2.	**Skapa kod** för **molnet** som säger:
 
