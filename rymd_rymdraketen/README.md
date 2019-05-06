@@ -162,11 +162,9 @@ Den här rymdraketen kan du plocka med dig till de andra rymduppgifterna som fin
 
 ![](./10_0.png)
 
+### Spara
+
 Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-## Utmaningar
-
-## Frågeställningar
