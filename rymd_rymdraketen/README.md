@@ -2,7 +2,7 @@
 
 Vi börjar vårt rymdäventyr med att bygga en raket i [Scratch](http://scratch.mit.edu). Vi ska rita vår raket med olika geometriska figurer och sedan programmera den att fara ut i rymden!
 
-Så här kan det se ut: https://scratch.mit.edu/projects/306982711/
+Så här kan det se ut: <a href="https://scratch.mit.edu/projects/306982711/" target="_blank">https://scratch.mit.edu/projects/306982711/</a>
 
 ![](./0_0.png)
 
