@@ -2,6 +2,8 @@
 
 Vi börjar vårt rymdäventyr med att bygga en raket i [Scratch](http://scratch.mit.edu). Vi ska rita vår raket med olika geometriska figurer och sedan programmera den att fara ut i rymden!
 
+Så här kan det se ut: https://scratch.mit.edu/projects/306982711/
+
 ![](./0_0.png)
 
 ## 1 – Skapa ett nytt projekt i Scratch
