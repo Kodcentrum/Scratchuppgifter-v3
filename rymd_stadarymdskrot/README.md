@@ -4,6 +4,8 @@ Satelliten Mats är i fara! Det flyger runt en massa rymdskrot ute i rymden och 
 
 Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda Mats från rymdskrotet. Vi lyckas rädda Mats om vi samlar ihop 50 poäng och vi får poäng varje gång vi plockar upp rymdskrot. Om rymdskrotet rör vid Mats så får vi ”Game Over” och behöver börja om.
 
+Så här kan det se ut: https://scratch.mit.edu/projects/306338376/
+
 <video src="./0_1.mp4" autoplay loop muted />
 
 Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
