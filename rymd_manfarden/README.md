@@ -4,7 +4,7 @@ Nu är det dags för uppskjutning till månen! Har du förberett dig genom att s
 
 Vi ska bygga en avfyrning där vi försöker åka till månen genom att skriva in de koordinater vi vill åka till och sedan åka dit.
 
-Så här kan det se ut: <a href="https://scratch.mit.edu/projects/297687993/" target="_blank">https://scratch.mit.edu/projects/297687993/</a>
+Så här kan det se ut: <a href="https://scratch.mit.edu/projects/311875006/" target="_blank">https://scratch.mit.edu/projects/311875006//</a>
 
 <video src="./0_1.mp4" loop autoplay muted />
 
