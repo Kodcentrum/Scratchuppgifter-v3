@@ -19,9 +19,9 @@ Låt oss remixa det.
 	<a href="https://scratch.mit.edu/projects/304677675/" target="_blank">https://scratch.mit.edu/projects/304677675/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden.
-3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad för att kunna remixa. 
 
-> **Tips!** Du måste vara inloggad för att kunna remixa. Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
+> **Tips!** Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
 
 Nu har du ett projekt som innehåller en raketsprajt, en jordsprajt, en marssprajt, en asteroidsprajt och en rymdbakgrund.
 
