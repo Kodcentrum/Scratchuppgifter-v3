@@ -15,7 +15,9 @@ Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
 	<a href="https://scratch.mit.edu/projects/304677361/" target="_blank">https://scratch.mit.edu/projects/304677361/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden.
-3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad för att kunna remixa. 
+
+> **Tips!** Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
 
 Nu har du ett projekt som innehåller ett koordinatsystem, en rymdbakgrund, en jordsprajt och en månsprajt.
 
