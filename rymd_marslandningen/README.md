@@ -21,6 +21,8 @@ Låt oss remixa det.
 2. Klicka på knappen **Se inuti** så att du kan se koden.
 3. Klicka på knappen **"Remix"** så att du får din egen version av projektet.
 
+> **Tips!** Du måste vara inloggad för att kunna remixa. Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
+
 Nu har du ett projekt som innehåller en raketsprajt, en jordsprajt, en marssprajt, en asteroidsprajt och en rymdbakgrund.
 
 ### Vill du använda din egna raket?
