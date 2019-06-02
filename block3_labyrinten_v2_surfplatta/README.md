@@ -1,13 +1,11 @@
-# Labyrinten
+# Labyrinten (anpassad för surfplatta)
 
-Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
-
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/labyrinten-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
+Det här är ett spel där du ska försöka ta dig igenom en labyrint utan att röra väggarna och hinder - för då blir du Game Over! Du kan även utmana dig och skapa nya banor fär att komma till nästa nivå i spelet. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spelet kan se ut, beroende på vilken form labyrintens väggar har:
+En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi två exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har:
 
 * <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 
@@ -17,57 +15,88 @@ Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spe
 
 ![image alt text](image_1.png)
 
-Dax att börja koda! 
+Hur vill du att din labyrint ska se ut? Dax att börja koda! Klicka nedan på nästa kapitel för att gå vidare.
 
 ## 1 – Rita en labyrint
 
-Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
+Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg, som inte får vara samma färg som väggar eller bakgrund har. 
 
-1. Skapa ett nytt projekt. Ta bort katt-sprajten genom att trycka på krysset på den.
+Då börjar vi skapa!
+
+1. Skapa först ett nytt projekt i Scratch. Ta bort katt-sprajten genom att trycka på krysset på den.
 
 ![image alt text](Ta_bort_Sprajt.png)
 
-2. Tryck på SCEN långtned till höger och byt till fliken BAKGRUNDER som du finner långt upp till vänster. 
+2. Tryck på SCEN nere till höger och tryck sen på fliken för BAKGRUNDER uppe till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)
 
 ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på knappen som det står **Gör till bitmap** på.
+3. Börja med att fixa en **bakgrundsfärg** till labyrinten, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på blå knappen som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut som en liten hink för att fylla bakgrunden genom att klicka på den stora vita rutan bredvid.
+Sen väljer väljer du en färg du gillar och klickar sen på verktyget som ser ut som en liten hink. Klicka sen på den stora vita rutan bredvid, så fylls den med färgen.  
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-3. Rita sedan din labyrint i en annan färg än bakgrunden. Kom ihåg att ha ganska stort **mellanrum mellan** **"väggarna"** så att en sprajt kan gå mellan utan att stöta i och se till att alla väggarna har **samma färg**. Om du vill ha raka streck kan du använd LINJE-verktyget.
+4. Rita nu din labyrint med **annan färg än bakgrunden**. Det är viktigt att alla labyrintens väggar har **en och samma färg** hela vägen. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i något. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller verktygen för andra former. 
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
-4. Rita en **startpunkt**, den får **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra cirklar med CIRKEL-verktyget.
+5. Rita en **startpunkt** för spelet. Den kan se ut hur som helst, men den kan **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra en cirkel med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
 
-5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**. (Bilden nedan är bara ett exempel för att förklara, hur din labyrint ska se ut och vad du ritar och vilka färger du vill ha väljer du helt själv.)
+6. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt annan färg**. Det kan till exempel se ut som bilden nedan, om du vill.
 
   ![image alt text](image_2_b.png)
 
-## 2 – Gör din karaktär
+## 2 – Lägg till sprajt som spelfigur
 
-Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan att röra väggarna. Välj en färdig sprajt i Scratch som du lägger till, eller rita din egen. Vad för karaktär vill du spela som? Om du vill rita din egen sprajt, så gör du såhär:
+Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Det kan vara din spelhjälte. Gör såhär:
 
-6. Välj **Ny Sprajt** och klicka på **Måla** som ser ut som en liten pensel. Rita din egen sprajt-figur hur du vill, men tänk på att den ska kunna styras genom labyrinten och enkelt svänga i banans hörn och kanter. Var noga med att sprajten ritas med **andra färger** än din  bagrund och labyrintens väggar. **Efter** att du ritat färdigt din sprajt kan du förminska den så att **den blir tillräcklig liten** för att få plats att ta sig igenom labyrinten ordentligt.
+7. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en figur du gillar bland alla som finns i Scratchbiblioteket och klicka på den för att lägga till den i ditt projekt. Det är bra om du inte väljer en figur som är speciellt bred eller lång, den kan vara svår att svänga i labyrintens hörn.
+  
+8. Dra sen sprajten du gjort till din labyrints startpunkt på scenen.
+  
+9. **Ändra storleken** på din sprajt så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under din scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor. 
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
+
+>>Tips! Om du vill rita din egen sprajt istället, så gör du såhär: Välj **Ny Sprajt** och klicka sen på **Måla** som ser ut som en liten pensel. Rita din egen sprajt-figur hur du vill, men tänk på att den ska kunna styras genom labyrinten och enkelt svänga i banans hörn och kanter, så den får inte vara för bred eller lång. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar. **Efter** att du ritat färdigt din sprajt kan du förminska den så att **den blir tillräcklig liten** för att få plats att ta sig enkelt genom labyrinten.
 
   ![image alt text](image_3.png) 
 
   _Exempel på en sprajt._
-  
-Ändra stoleken på din sprajt så den passar in i labyrinten, från 100% full storlek till lägre procenttal. Prova dig fram tills det passar.
 
-  ![image alt text](Ändra_Storlek_Sprajt.png) 
+## 3 - Koda sprajtens rörelse
 
-  Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. Dax att koda sprajtens rörelser - gör såhär:
+
+10. Under temat HÄNDELSER finns pusselbiten som heter **Starta när mellanslag-tangenten trycks ned**. Dra ut denna bit och lägg någonstans på sprajtens tomma manusyta. 
+
+11. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**  Dra ut denna bit och sätt ihop den med den första gula pusselbitan på manusytan, så den sitter fast in under.
+
+12. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under de andra två pusselbitarna. 
+
+BILD KODEN
+
+Nu har du skapat grunden för ditt första skript med kod för att styra sprajten med piltangenterna. Nu behöver du ändra lite i skriptet så att det blir rätt tangent och riktning. 
+
+13. Klicka på den lilla vita pilen bredvid ordet **mellanslag** på den översta pusselbiten. Då får du upp fler val. Välj **uppåtpil**. Nu står det **Starta när uppåtpil-tangenten trycks ned** istället. 
+
+14. Ändra riktning så att sprajten tittar uppåt, genom att klicka på siffran med variablen **90**, och skriva **0** istället. Då står det **Peka i riktning 0** på pusselbiten, och sprajten tittar uppåt.
+
+15. Nu testar vi koden. Klicka på gröna flaggan över scenen och testa piltangenten. Rör sig sprajten för fort? Ändra hastigheten genom att klicka på på siffran i kodblocket **Gå 10 steg** och skriv en lägre siffra. Testa hastigheten tills du är nöjd. 
+
+16. Gör nu tre till likadana skript, fast ändra i dem så att de styr **vänster**, **höger** och **nedåt**. Då kan sprajten gå i alla olika riktningar i labyrinten.
+
+> Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter från tangentbordet.
+
+GAMMALT  
+
 
 7. Gör ett skript för din sprajt som säger:
 
