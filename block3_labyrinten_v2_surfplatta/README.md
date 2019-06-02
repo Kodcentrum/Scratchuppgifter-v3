@@ -37,9 +37,11 @@ Då börjar vi skapa!
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Välj en ny **färg**. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
+Välj en ny **färg** du gillar. Klicka på färgverktyget och dra i färgväljarens inställningar tills du är nöjd med din färg.
 
 ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
+
+Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
