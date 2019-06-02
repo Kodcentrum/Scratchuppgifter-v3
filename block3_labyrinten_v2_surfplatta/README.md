@@ -36,7 +36,7 @@ Då börjar vi skapa!
 
 3. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
 
-  En enkel labyrint kan se ut såhär, men du ritar din som du vill ska se ut. Tips är att skapa en enkel bana först.
+  En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
 
   ![image alt text](image_2_b.png)
 
