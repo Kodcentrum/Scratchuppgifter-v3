@@ -32,7 +32,7 @@ Då börjar vi skapa!
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-
+<br>
 
 3. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen ska fungera. 
 
