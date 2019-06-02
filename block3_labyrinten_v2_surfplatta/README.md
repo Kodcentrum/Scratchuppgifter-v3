@@ -199,7 +199,7 @@ Tänk på att:
 
 * Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibalnd kan man behöva flytta på det tills det funkar.
 
-* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen, och blir Game over.
+* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen, och blir Game over. 
 
 
 ## Färdig!
