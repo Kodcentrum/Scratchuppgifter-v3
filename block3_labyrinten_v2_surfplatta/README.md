@@ -138,17 +138,29 @@ Nu ska vi koda så sprajten kan känna av olika färger - och vinna eller förlo
 
 Dags att koda det här till ett spel! Här ska du programmera in **villkor** i koden som skapar olika händelser - om en sak händer, då ska något annat hända. Till exempel: OM sprajten rör vid en vägg i labyrinten, DÅ blir spelet Game Over och sprajten hamnar tillbaka på startpunkten. OM sprajten nuddar vid målpunkten - DÅ vinner du.
 
-Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller start- eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. Dax att koda!
+Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. Dax att koda!
 
+18. Först lägger vi till en pusselbit som kontrollerar om sprajten rör vid en speciell färg. Under tema KONTROLL finns en stor pusselbit med ett kantigt hål på som heter **Oå < > Då... Annars**. Dra in biten och lägg den fritt på skriptytan. Såhär ser pusselbiten ut:
 
+BILD PÅ PUSSELBIT OM DÅ ANNARS
 
-9. Ta först reda på din startpunkts X- och Y-position i spelet: Se till att din sprajt står i mitten på **startpunkten** på SCENEN. Titta på vad din sprajt har för KOORDINATER (alltså vilken position på scen-ytan med X och Y). Kom ihåg eller skriv upp dem!
+Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg.
 
-  ![image alt text](image_5.png)
+19. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
 
-  Nu behöver du uppdatera alla skript för **rörelser** så att sprajten hela tiden **känner av** ifall den är i mål eller nuddar en vägg.
+BILD PÅ PUSSELBIT OM DÅ ANNARS MED KÄNNA AV BIT I
 
-1. Börja med skriptet för **uppåt** och ändra så att det säger:
+20. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen ...**. Välj lilla pimplett-verktyget i menyn längst ned, och klicka på labyringens mål-färg. Nu ändras färgen i pusselbiten **Rör vid färgen ...** till din målplattas färg.
+
+BILD PÅ RÖR VID FÄRGEN - VÄLJ FÄRG PINMPETTVERKTYG...
+
+21. Nu ska sprajten säga något när den gått i mål. Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
+
+BILD OM-DÅ-ANNARS-llop med UTSEENDE SÖG HEJ 2 SEKUNDER INUTI
+
+BLÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+1. 
 
   * Starta när **uppåtpil**-knappen på datorns tangentbord trycks ned
 
