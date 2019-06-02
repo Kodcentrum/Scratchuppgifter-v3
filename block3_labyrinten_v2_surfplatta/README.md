@@ -39,7 +39,9 @@ Då börjar vi skapa!
 
 Välj en ny **färg**. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
 
-![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)   ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
+![image alt text](RITA_Välj_Färg-funktion_bitmapp.png) Välj en färg du gillar.
+
+![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png) Välj hinkverktyget för att fylla med färg.
 
 4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Det är viktigt att alla väggarna har **samma färg** i hela labyrinten. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i. 
 
