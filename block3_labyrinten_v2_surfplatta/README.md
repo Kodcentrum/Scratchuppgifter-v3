@@ -103,7 +103,7 @@ Testa koden genom att trycka några gånger på den gröna flaggan över ditt sp
 Testa koden igen! Se, nu springer sprajten hela tiden. 
 Stoppa koden med den röda STOPP-knappen över SCENEN med spelet och dra tillbaka sprajten till spelets startpunkt. 
 
-## 4 Koda styrning och position
+## 4 - Koda styrning och position
 
 Sprajten ska styras genom labyrinten genom att du drar ditt finger genom labyrinten och sprajten följer efter ditt finger. Fingret på en surfplatta motsvarar muspekaren på en dator. Gör såhär för att koda denna styrning av sprajten:
 
@@ -157,30 +157,30 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
   ![image alt text](exempel_byt_färg_pimpettverktyg.png) 
 
-21. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Koda nu så att sprajten kan säga "Jag vann!" när den går i mål: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
+20. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Koda nu så att sprajten kan säga "Jag vann!" när den går i mål: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
 
   ![image alt text](block_kod_sägHEJi2sekunder.png) 
 
-22. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
+21. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
 
-23. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
+232. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
 
-24. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
+23. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
 
-25. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Lägg därför ett rörelseblock med **Gå 10 steg** in under där det står **annars** i sin gula villkor-loop. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
+24. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Lägg därför ett rörelseblock med **Gå 10 steg** in under där det står **annars** i sin gula villkor-loop. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
 
   ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
-26. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!" om den nuddar målets färg.
+25. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!" om den nuddar målets färg.
 
-27. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte går den annars vidare framåt. Ditt skript ska se ut såhär när du är klar.
+26. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte går den annars vidare framåt. Ditt skript ska se ut såhär när du är klar.
 
   ![image alt text](block_kod_helt_färdigt_slutskript.png) 
 
 >> Testa ditt projekt! Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? Tips: Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
 
 
-## 5 Lägg till ett hinder 
+## 6 - Lägg till ett hinder 
 Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
 
 Kanske hindren är att ta sig förbi stenar, och om man rör dem blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
@@ -259,13 +259,13 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
   
   ![image alt text](Bakgrund_kopiera.png)
 
-15. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
+1. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
-16. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
+2. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
 
   ![image alt text](image_9.png)
 
-17. Lägg sedan till ett nytt skript för scenen som säger:
+3. Lägg sedan till ett nytt skript för scenen som säger:
 
   * När sprajten **tar emot meddelandet NästaNivå**
 
