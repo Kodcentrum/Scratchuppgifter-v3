@@ -39,19 +39,19 @@ Då börjar vi skapa!
 
 Välj en ny **färg**. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
 
-![image alt text](RITA_Välj_Färg-funktion_bitmapp.png) Välj en färg du gillar.
+![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
 
-![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png) Välj HINK-verktyget för att fylla med färg.
+![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
 4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Det är viktigt att alla väggarna har **samma färg** i hela labyrinten. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i. 
 
 Välj ett vertyg att måla med och en färg du vill ha. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller andra verktyg för olika former. 
 
-![image alt text](Bakgrunder_linje-verktyg.png) Detta är LINJE-verktyget som ger raka streck.
+![image alt text](Bakgrunder_linje-verktyg.png)
 
 5. Rita nu en **startpunkt** för spelet och en **målpunkt i slutet av din labyrint**. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - elelr varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra cirkelar med CIRKEL-verktyget.
 
-  ![image alt text](Bakgrunder_rita_cirkel-verktyg.png) Detta är CIRKEL-verktyget.
+  ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
   
   Exempelvis kan det se ut såhär, men du ritar som du vill att din labyrint ska se ut.
 
