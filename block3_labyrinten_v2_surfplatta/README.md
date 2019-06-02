@@ -88,7 +88,7 @@ Dax att koda sprajtens rörelser - vi börjar med att få sprajten att gå:
 
 8. Under temat HÄNDELSER finns pusselbiten som heter **När "GRÖN FLAGGA" klickas på** (den som har en grön flagga på sig). Dra ut denna bit och lägg på sprajtens tomma manusyta i mitten. Denna pusselbit är kopplad till den gröna START-flaggan som finns över ditt spel på SCENEN - alltså en **startknapp för ditt spel**.
 
-  ![image alt text](block_När grön flagga klickas på.png) 
+  ![image alt text](block_När_grön_flagga_klickas_på.png) 
 
 9. Under tema RÖRELSE finns pusselbiten **Gå 10 steg**. Dra in denna bit och sätt den under det första kodblocket med den gröna flaggan. 
 
