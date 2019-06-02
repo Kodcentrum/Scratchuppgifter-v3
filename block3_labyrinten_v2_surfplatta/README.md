@@ -67,6 +67,8 @@ Välj ett verktyg att måla med och en färg du vill ha. Om du vill ha raka stre
 Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Det kan vara din spelhjälte. Gör såhär:
 
 6. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en sprajt  du gillar och tryck på den för att lägga till den i ditt projekt. Välj en sprajt som inte är för bred eller lång, den kan vara svår att svänga runt i labyrinten.
+
+  ![image alt text](Ny_Sprajt-knapp.png) 
   
 7. Dra sprajten till din labyrints startpunkt på scenen och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
 
