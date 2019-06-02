@@ -62,72 +62,76 @@ Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vit
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
   
-Nu är labyrinten klar. Tryck på fliken KOD längst upp i vänstra hörnet,m så kommer du ur ritläget.
+Nu är labyrinten klar. Tryck på fliken KOD längst upp i vänstra hörnet, så kommer du ut ur ritläget.
 
 Dax att lägga till en spelfigur - spelets hjälte.
 
-## 2 – Lägg till sprajt som spelfigur
+## 2 – Lägg till en spelfigur
 
-Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Det kan vara din spelhjälte. Gör såhär:
+Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten utan att röra väggarna. Det blir din spelhjälte. Gör såhär:
 
-6. Tryck på den lilla blå ikonen med en vit katt på längst ned till höger, så blir den grön - tryck på den gröna. Nu kommer du till Scratch  sprajtbibliotek, där du kan välja **en ny sprajt**. Tryck på en sprajt du gillar för att lägga till den i ditt projekt. 
+6. Tryck på den lilla blå ikonen med en vit katt på längst ned till höger, så blir den grön - tryck nu på den gröna. Då kommer du till ett sprajtbibliotek, där du kan välja **en ny sprajt**. Tryck på en sprajt du gillar för att lägga till den i ditt projekt. 
 
   ![image alt text](Ny_Sprajt-knapp.png) 
   
->>Välj en sprajt som inte är för bred eller lång, den kan vara svår att svänga runt i labyrinten.
+>>**Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
   
-7. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan **Storlek** under SCENEN. Prova dig fram tills sprajten är lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
+7. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan som heter **Storlek** som finns under SCENEN. Prova dig fram tills sprajten känns lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
 
   ![image alt text](Ändra_Storlek_Sprajt.png) 
 
->>Tips! Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
+>>**Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
 ## 3 - Koda sprajtens rörelse
 
-Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. Dax att koda sprajtens rörelser - vi börjar med att få sprajten att gå:
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. 
 
-8. Under temat HÄNDELSER finns pusselbiten som heter **När GRÖN FLAGGA klickas på** (den som har en grön flagga på sig). Dra ut denna bit och lägg på sprajtens tomma manusyta i mitten. Denna pusselbit är kopplad till den gröna START-flaggan som finns över ditt spel på SCENEN - alltså en startknapp för ditt spel.
+Dax att koda sprajtens rörelser - vi börjar med att få sprajten att gå:
 
-BILD PÅ KODEN
+8. Under temat HÄNDELSER finns pusselbiten som heter **När "GRÖN FLAGGA" klickas på** (den som har en grön flagga på sig). Dra ut denna bit och lägg på sprajtens tomma manusyta i mitten. Denna pusselbit är kopplad till den gröna START-flaggan som finns över ditt spel på SCENEN - alltså en **startknapp för ditt spel**.
 
-9. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under den första pusselbitarna med gröna flaggan. 
+BILD PÅ pusselbuten När grön flagga klickas på.
+
+9. Under tema RÖRELSE finns pusselbiten **Gå 10 steg**. Dra in denna bit och sätt den under den första pusselbiten med den gröna flaggan. 
 
 BILD PÅ KODEN
 
 Testa koden genom att trycka några gånger på den gröna flaggan över ditt spel. Sprajten rör sig framåt en bit varje gång du trycker på startflaggan. Men vi vill ju att den ska röra sig hela tiden efter att vi tryckt på start. Vi behöver kontrollera koden med en LOOP.
 
-10. Under tema KONTROLL finns pusselbiten **För alltid**. Dra in den och lägg den runt om den blå pusselbiten **Gå 10 steg**, så den blå hamnar inui den gula. Det ska se ut såhär.
+10. Under tema KONTROLL finns pusselbiten **För alltid**. Dra in den och lägg den runt om den blå pusselbiten **Gå 10 steg**, så den blå hamnar inuti den gula. Det ser det ut såhär.
 
 BILD SCRIPT
 
 Testa koden igen! Se, nu springer sprajten hela tiden. 
-Stoppa koden med den röda STOPP-knappen över spelet och dra tillbaka sprajten till spelets startcirkel. 
+Stoppa koden med den röda STOPP-knappen över SCENEN med spelet och dra tillbaka sprajten till spelets startpunkt. 
 
 ## 4 Koda styrning och position
 
-Sprajten ska styras genom labyrinten med ditt finger, som du drar en bit framför sprajten så den leds igenom banan. Fingret på en surfplatta är samma sak som muspekaren på en dator. Gör såhär för att koda styrningen:
+Sprajten ska styras genom labyrinten genom att du drar ditt finger genom labyrinten och sprajten följer efter ditt finger. Fingret på en surfplatta motsvarar muspekaren på en dator. Gör såhär för att koda denna styrning av sprajten:
 
-11. Under tema RÖRELSE finns pusselbiten **Peka mot muspekare**. Dra in biten och lägg den direkt ovanför biten med **Gå 10 steg** inuti din gula loop **För alltid**. Då ser det ut såhär:
+11. Under tema RÖRELSE finns pusselbiten **Peka mot muspekare**. Dra in biten och lägg den direkt ovanför kodblocket med **Gå 10 steg**. Då ser det ut såhär:
 
 BILD SCRIPT
 
-Testa koden! Nu följer sprajten ditt finger på skärmen. Men det går lite snabbt. Vi sänker hastigheten och fördröjer starten.
+Testa koden! Nu ska sprajten följa ditt finger i labyrinten. Men det går lite snabbt. Bra om vi sänker hastigheten och fördröjer starten lite - gör såhär:
 
-12. Klicka på siffran 10 i pusselbiten **Gå 10 steg**. Detta är en variabel som kan ändras till lägre och högre siffra, för att sprajten ska gå långsammare eller snabbare. Ändra förslagsvis till 3, det blir lagom. 
+12. Klicka på siffran 10 i pusselbiten **Gå 10 steg**. Detta är en variabel som kan ändras till lägre och högre siffra, för att sprajten ska gå långsammare eller snabbare. Ändra förslagsvis till 1. 
 
 13. Under tema KONTROLL finns pusselbiten **Vänta 1 sekunder**. Dra in biten och lägg den direkt under pusselbiten **När GRÖN FLAGGA klickas på**. Då väntar sprajten 1 sekund innan den börjar springa iväg. 
 
-För att slippa dra tillbaka sprajten till startplattan varje gång ska du koda in sprajtens startposition och även startriktning så den tittar åt rätt håll från början. Vi börjar med riktningen.
+BILD Vänta 1 sekund
 
-14. Dra sprajten till labyrintens startplatta. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**. Dra in biten och lägg det direkt under pusselbiten **När GRÖN FLAGGA klickas på**. 
+För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägga till sprajtens startposition och även startriktning. Då går den åt rätt håll från början. Vi börjar med riktningen.
 
-15. Om sprajten inte tittar åt rätt håll nu, så tryck på siffran 90 i pusselbiten, och ändra riktningen genom att dra i blå pilen tills du är nöjd med sprajtens riktning. 
+14. Dra sprajten till labyrintens startplatta. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**. Dra in biten och lägg det direkt under kodblocket **När GRÖN FLAGGA klickas på**. 
 
-BILD
+15. Om sprajten inte tittar åt rätt håll nu, så tryck på siffran 90 i kodblocket och ändra riktningen åt det håll som passar din labyrint bäst genom att dra i blå pilen tills du är nöjd med sprajtens riktning. 
 
-16. Nu lägger du till sprajtens startposition. Se till att sprajten står där du vill att den ska starta när spelet börjar.
+BILD ÄNDRA RIKTNING VERKTYG
 
-17. under tema RÖRELSE finns pusselbiten **Gå till X:__ och Y:__**. (det står siffror vid X och Y). Dra in biten och lägg in den direkt under pusselbiten **När GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet.
+16. Nu lägger du till sprajtens startposition. Se först till att sprajten står på start-markeringen, där du vill att den ska starta när spelet börja. Under tema RÖRELSE finns pusselbiten **Gå till X:__ och Y:__**. (det står siffror med koordinater för X och Y). Dra in denna pusselbit och lägg in den direkt under kodblocket **När GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet.
+
+BILD FÄRDIGT FÖRSTA SKRIPT
 
 >>Testa koden! Går sprajten i lagom hastighet? Startar den på rätt ställe? Ändra i variablerna om du inte är nöjd.
 
@@ -138,39 +142,40 @@ Nu ska vi koda så sprajten kan känna av olika färger - och vinna eller förlo
 
 Dags att koda det här till ett spel! Här ska du programmera in **villkor** i koden som skapar olika händelser - om en sak händer, då ska något annat hända. Till exempel: OM sprajten rör vid en vägg i labyrinten, DÅ blir spelet Game Over och sprajten hamnar tillbaka på startpunkten. OM sprajten nuddar vid målpunkten - DÅ vinner du.
 
-Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. Dax att koda!
+Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. 
+Dax att koda!
 
-18. Först lägger vi till en pusselbit som kontrollerar om sprajten rör vid en speciell färg. Under tema KONTROLL finns en stor pusselbit med ett kantigt hål på som heter **Oå < > Då... Annars**. Dra in biten och lägg den fritt på skriptytan. Såhär ser pusselbiten ut:
+17. Först lägger vi till en pusselbit som kontrollerar om sprajten rör vid en speciell färg. Under tema KONTROLL finns en stor pusselbit med ett kantigt hål på som heter **Oå < > Då... Annars**. Dra in biten och lägg den fritt på skriptytan. Såhär ser pusselbiten ut:
 
 BILD PÅ PUSSELBIT OM DÅ ANNARS
 
 Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg. Vi börjar med Mål!
 
-19. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
+18. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
 
 BILD PÅ PUSSELBIT OM DÅ ANNARS MED KÄNNA AV BIT I
 
-20. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen ...**. Välj lilla pimpett-verktyget i menyn längst ned, och tryck sen på labyrintens mål-markering på SCENEN, så blir färgen för målet vald. Färgen ändras då i pusselbiten **Rör vid färgen ...**.
+19. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen ...**. Välj lilla pimpett-verktyget i menyn längst ned, och tryck sen på labyrintens mål-markering på SCENEN, så blir färgen för målet vald. Färgen ändras då i pusselbiten **Rör vid färgen ...**.
 
 BILD PÅ RÖR VID FÄRGEN - VÄLJ FÄRG PINMPETTVERKTYG...
 
-21. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen. Spelet ska då stoppa. Koda nu så att sprajten kan säga Jag vann så här: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
+21. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Koda nu så att sprajten kan säga "Jag vann!" när den går i mål: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
 
 BILD OM-DÅ-ANNARS-LOOP med UTSEENDE SÄG HEJ 2 SEKUNDER INUTI
 
-22. Tryck på texten Hej! i pusselbiten och skriv istället Game Over!
+22. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
 
-23. Om spelet blir Game over, ska sprajten flyttas tillbaka till start-positionen igen. Dra din sprajt till start-plattan. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under **Säg Game Over i 2 sekunder**. 
+23. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
 
 24. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
 
 25. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Lägg därför ett rörelseblock med **Gå 10 steg** in under där det står **annars** i sin gula villkor-loop. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
 
-BILD FÄRDIG OM/DÅ/ANNARS-loop med gå 3 steg.
+BILD FÄRDIG OM/DÅ/ANNARS-loop med gå 1 steg.
 
-26. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!! i två sekunder istället för Jag vann!.
+26. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!" om den nuddar målets färg.
 
-27. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid - gång på gång under hela spelet** känner av om sprajten rör vid vägg eller mål-färgerna - annars går den vidare framåt. Då ska ditt skript se ut såhär när du är klar.
+27. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte går den annars vidare framåt. Ditt skript ska se ut såhär när du är klar.
 
 BILD PÅ FÄRDIGt SKRIPt MED ALLA LOOPAR:
 
@@ -180,15 +185,15 @@ BILD PÅ FÄRDIGt SKRIPt MED ALLA LOOPAR:
 ## 5 Lägg till ett hinder 
 Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
 
-* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder.
+* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder, exempelvis en sten.
 
 * Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
 
-* Välj om du vill att hindret ska röra sig eller om det ska stå stilla.
+* Välj om du vill att hindret ska röra sig eller om det ska stå stilla. 
 
-* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret.
+* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibalnd kan man behöva flytta på det tills det funkar.
 
-* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen.
+* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen, och blir Game over.
 
 
 ## Färdig!
