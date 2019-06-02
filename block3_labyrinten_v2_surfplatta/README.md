@@ -36,6 +36,10 @@ Då börjar vi skapa!
 
 3. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen ska fungera. 
 
+  Exempelvis kan det se ut såhär, men du ritar som du vill att din labyrint ska se ut.
+
+  ![image alt text](image_2_b.png)
+
 Börja med att fylla med en ny **bakgrundsfärg** till labyrinten. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
@@ -54,13 +58,9 @@ Välj ett vertyg att måla med och en färg du vill ha. Om du vill ha raka strec
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
-5. Rita nu en **startpunkt** för spelet och en **målpunkt i slutet av din labyrint**. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - elelr varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra cirkelar med CIRKEL-verktyget.
+5. Rita nu en **startpunkt** för spelet och en **målpunkt i slutet av din labyrint**. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra cirkelar med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
-  
-  Exempelvis kan det se ut såhär, men du ritar som du vill att din labyrint ska se ut.
-
-  ![image alt text](image_2_b.png)
 
 ## 2 – Lägg till sprajt som spelfigur
 
