@@ -133,7 +133,7 @@ För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägg
   
 >>Testa koden! Går sprajten i lagom hastighet? Startar den på rätt ställe? Ändra i variablerna om du inte är nöjd.
 
-Nu ska vi koda så sprajten kan känna av olika färger - och vinna eller förlora.
+Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger - och kan vinna eller förlora i spelet.
 
 
 ## 5 – Vinna eller förlora
