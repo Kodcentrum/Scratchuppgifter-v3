@@ -144,46 +144,66 @@ Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känne
 
 BILD PÅ PUSSELBIT OM DÅ ANNARS
 
-Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg.
+Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg. Vi börjar med Mål!
 
 19. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
 
 BILD PÅ PUSSELBIT OM DÅ ANNARS MED KÄNNA AV BIT I
 
-20. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen ...**. Välj lilla pimplett-verktyget i menyn längst ned, och klicka på labyringens mål-färg. Nu ändras färgen i pusselbiten **Rör vid färgen ...** till din målplattas färg.
+20. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen ...**. Välj lilla pimpett-verktyget i menyn längst ned, och tryck sen på labyrintens mål-markering på SCENEN, så blir färgen för målet vald. Färgen ändras då i pusselbiten **Rör vid färgen ...**.
 
 BILD PÅ RÖR VID FÄRGEN - VÄLJ FÄRG PINMPETTVERKTYG...
 
-21. Nu ska sprajten säga något när den gått i mål. Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
+21. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen. Spelet ska då stoppa. Koda nu så att sprajten kan säga Jag vann så här: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
 
-BILD OM-DÅ-ANNARS-llop med UTSEENDE SÖG HEJ 2 SEKUNDER INUTI
+BILD OM-DÅ-ANNARS-LOOP med UTSEENDE SÄG HEJ 2 SEKUNDER INUTI
 
-BLÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+22. Tryck på texten Hej! i pusselbiten och skriv istället Game Over!
 
-1. 
+23. Om spelet blir Game over, ska sprajten flyttas tillbaka till start-positionen igen. Dra din sprajt till start-plattan. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under **Säg Game Over i 2 sekunder**. 
 
-  * Starta när **uppåtpil**-knappen på datorns tangentbord trycks ned
+24. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
 
-  * **Känn av om** sprajten har nuddat en vägg (alltså den färg som din vägg har)
+25. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Lägg därför ett rörelseblock med **Gå 10 steg** in under där det står **annars** i sin gula villkor-loop. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
 
-    * **Då** ska sprajten **säga "Du dog"** och **gå tillbaka till** startpunkten
+BILD FÄRDIG OM/DÅ/ANNARS-loop med gå 3 steg.
 
-  * **Känn av om** sprajten har nuddat målpunkten (alltså dess färg)
+26. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!! i två sekunder istället för Jag vann!.
 
-    * **Då** ska sprajten **säga "Du vann"**
+27. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid - gång på gång under hela spelet** känner av om sprajten rör vid vägg eller mål-färgerna - annars går den vidare framåt. Då ska ditt skript se ut såhär när du är klar.
 
-  * **Annars** ska sprajten **röra sig** som förut (peka uppåt och gå ett par steg framåt)
+BILD PÅ FÄRDIGt SKRIPt MED ALLA LOOPAR:
 
-  ![image alt text](image_6.png)
-
-  **Tips:** Förstår du hur sprajten ska kunna **känna av** väggen, startpunkten och målpunkten? Kom ihåg att de har olika **färg**! Förstår du hur sprajten ska kunna **veta var startpunkten är**, när den ska gå tillbaka dit? Tänk på att du har tagit fram dess KOORDINATER tidigare. Minns du?
-
-11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
-
-> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
+>> Testa ditt projekt! Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? Tips: Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
 
 
-## 4: En timer
+## 5 Lägg till ett hinder 
+Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
+
+* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder.
+
+* Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
+
+* Välj om du vill att hindret ska röra sig eller om det ska stå stilla.
+
+* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret.
+
+* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen.
+
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+
+## Utmaningar
+Har du tid över och bygga mer på spelet. Då kan du lägga till en timer som räknar ned speltiden opch fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
+
+## En timer
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare.
 
@@ -218,7 +238,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
 
-## 5 – Flera banor
+## Fler banor
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
@@ -241,18 +261,6 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
   * Byt till **nästa klädsel**
 
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
-
-
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
-
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-
-## Utmaningar
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 
 ### Fler nivåer
@@ -266,18 +274,6 @@ Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som föl
 
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
 
-### Lägg till hinder
-Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till startpunkten. Du kan hitta på egna monster eller andra slags hinder som du måste ta dig förbi på väg till mål.
-
-* Tänk på vilken färg hindren har, så att de inte har samma färg som vägg eller målpunkt
-
-* Välj själv om du vill att hindren rör sig eller om de ska stå stilla
-
-* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindren
-
-* Ändra skriptet för sprajten så att den känner av hindren på samma sätt som väggen
-
-* Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
 
 ## Frågeställningar
 
