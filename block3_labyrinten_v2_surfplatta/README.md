@@ -33,11 +33,11 @@ Då börjar vi skapa!
 ![image alt text](Aktivera_Scen_Bakgrund.png)    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 
-3. Börja med att fixa en **bakgrundsfärg** till labyrinten, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
+3. Börja med att fylla med en ny **bakgrundsfärg** till labyrinten. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Välj först en ny färg och välj sen verktyget som ser ut som en liten hink. Tryck sen på den stora vita målarytan bredvid, så fylls den med din färg.  
+Välj en ny färg. Välj sen verktyget som ser ut som en liten hink och tryck på den stora vita målarytan bredvid, så fylls den med din nya färg.  
 
 LÄGG IN BILD PÅ VÄLJA FÄRG
 
