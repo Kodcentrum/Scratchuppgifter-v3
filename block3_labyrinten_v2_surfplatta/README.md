@@ -52,9 +52,9 @@ Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vit
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Det är viktigt att alla väggarna har **samma färg** i hela labyrinten. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i. 
+4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Det är viktigt att alla väggarna har **samma färg** i hela labyrinten. Låt det vara ganska stort mellanrum mellan väggarna så att spelfiguren sen kan ta sig fram utan att stöta i. 
 
-Välj ett vertyg att måla med och en färg du vill ha. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller andra verktyg för olika former. 
+Välj ett verktyg att måla med och en färg du vill ha. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller andra verktyg för olika former. 
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
