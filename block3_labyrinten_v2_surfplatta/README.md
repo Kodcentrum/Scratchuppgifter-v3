@@ -18,7 +18,7 @@ En labyrint kan se ut på många olika sätt och du kan rita din som du vill. H�
 Hur vill du att din labyrint ska se ut? Dax att börja koda! 
 Klicka nedan på nästa kapitel för att gå vidare.
 
-## 1 – Rita en labyrint
+## 1 – Rita din labyrint
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg, som inte får vara samma färg som väggar eller bakgrund har. 
 
@@ -33,7 +33,10 @@ Då börjar vi skapa!
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 
-3. Börja med att fylla med en ny **bakgrundsfärg** till labyrinten. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
+
+3. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen ska fungera. 
+
+Börja med att fylla med en ny **bakgrundsfärg** till labyrinten. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
