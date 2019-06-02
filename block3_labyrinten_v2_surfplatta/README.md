@@ -15,7 +15,8 @@ En labyrint kan se ut på många olika sätt och du kan rita din som du vill. H�
 
 ![image alt text](image_1.png)
 
-Hur vill du att din labyrint ska se ut? Dax att börja koda! Klicka nedan på nästa kapitel för att gå vidare.
+Hur vill du att din labyrint ska se ut? Dax att börja koda! 
+Klicka nedan på nästa kapitel för att gå vidare.
 
 ## 1 – Rita en labyrint
 
@@ -33,23 +34,28 @@ Då börjar vi skapa!
 
 ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-3. Börja med att fixa en **bakgrundsfärg** till labyrinten, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på blå knappen som det står **Gör till bitmap** på. 
+
+3. Börja med att fixa en **bakgrundsfärg** till labyrinten, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Sen väljer väljer du en färg du gillar och klickar sen på verktyget som ser ut som en liten hink. Klicka sen på den stora vita rutan bredvid, så fylls den med färgen.  
+Välj först en ny färg och välj sen verktyget som ser ut som en liten hink. Tryck sen på den stora vita målarytan bredvid, så fylls den med din färg.  
+
+LÄGG IN BILD PÅ VÄLJA FÄRG
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-4. Rita nu din labyrint med **annan färg än bakgrunden**. Det är viktigt att alla labyrintens väggar har **en och samma färg** hela vägen. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i något. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller verktygen för andra former. 
+4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Det är viktigt att alla väggarna har **samma färg** i hela labyrinten. Låt det vara ganska stort mellanrum mellan väggarna så att spelkaraktären kan ta sig fram utan att stöta i. 
+
+Välj ett vertyg att måla med och en färg du vill ha. Om du vill ha raka streck kan du använd LINJE-verktyget, men du kan även använda PENSEL eller andra verktyg för olika former. 
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
-5. Rita en **startpunkt** för spelet. Den kan se ut hur som helst, men den kan **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra en cirkel med CIRKEL-verktyget.
+5. Rita nu en **startpunkt** för spelet och en **målpunkt i slutet av din labyrint**. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - elelr varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra cirkelar med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
-
-6. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt annan färg**. Det kan till exempel se ut som bilden nedan, om du vill.
+  
+  Exempelvis kan det se ut såhär, men du ritar som du vill att din labyrint ska se ut.
 
   ![image alt text](image_2_b.png)
 
@@ -57,11 +63,11 @@ Sen väljer väljer du en färg du gillar och klickar sen på verktyget som ser 
 
 Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Det kan vara din spelhjälte. Gör såhär:
 
-7. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en figur du gillar bland alla som finns i Scratchbiblioteket och klicka på den för att lägga till den i ditt projekt. Det är bra om du inte väljer en figur som är speciellt bred eller lång, den kan vara svår att svänga i labyrintens hörn.
+6. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en figur du gillar bland alla som finns i Scratchbiblioteket och klicka på den för att lägga till den i ditt projekt. Det är bra om du inte väljer en figur som är speciellt bred eller lång, den kan vara svår att svänga i labyrintens hörn.
   
-8. Dra sen sprajten du gjort till din labyrints startpunkt på scenen.
+7. Dra sen sprajten du gjort till din labyrints startpunkt på scenen.
   
-9. **Ändra storleken** på din sprajt så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under din scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor. 
+8. **Ändra storleken** på din sprajt så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under din scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor. 
 
   ![image alt text](Ändra_Storlek_Sprajt.png) 
 
@@ -75,27 +81,27 @@ Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinte
 
 Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. Dax att koda sprajtens rörelser - gör såhär:
 
-10. Under temat HÄNDELSER finns pusselbiten som heter **Starta när mellanslag-tangenten trycks ned**. Dra ut denna bit och lägg någonstans på sprajtens tomma manusyta. 
+9. Under temat HÄNDELSER finns pusselbiten som heter **Starta när mellanslag-tangenten trycks ned**. Dra ut denna bit och lägg någonstans på sprajtens tomma manusyta. 
 
-11. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**  Dra ut denna bit och sätt ihop den med den första gula pusselbitan på manusytan, så den sitter fast in under.
+10. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**  Dra ut denna bit och sätt ihop den med den första gula pusselbitan på manusytan, så den sitter fast in under.
 
-12. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under de andra två pusselbitarna. 
+11. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under de andra två pusselbitarna. 
 
-BILD KODEN
+BILD PÅ KODEN
 
 Nu har du skapat grunden för ditt första skript med kod för att styra sprajten med piltangenterna. Nu behöver du ändra lite i skriptet så att det blir rätt tangent och riktning. 
 
-13. Klicka på den lilla vita pilen bredvid ordet **mellanslag** på den översta pusselbiten. Då får du upp fler val. Välj **uppåtpil**. Nu står det **Starta när uppåtpil-tangenten trycks ned** istället. 
+12. Klicka på den lilla vita pilen bredvid ordet **mellanslag** på den översta pusselbiten. Då får du upp fler val. Välj **uppåtpil**. Nu står det **Starta när uppåtpil-tangenten trycks ned** istället. 
 
-14. Ändra riktning så att sprajten tittar uppåt, genom att klicka på siffran med variablen **90**, och skriva **0** istället. Då står det **Peka i riktning 0** på pusselbiten, och sprajten tittar uppåt.
+13. Ändra riktning så att sprajten tittar uppåt, genom att klicka på siffran med variablen **90**, och skriva **0** istället. Då står det **Peka i riktning 0** på pusselbiten, och sprajten tittar uppåt.
 
-15. Nu testar vi koden. Klicka på gröna flaggan över scenen och testa piltangenten. Rör sig sprajten för fort? Ändra hastigheten genom att klicka på på siffran i kodblocket **Gå 10 steg** och skriv en lägre siffra. Testa hastigheten tills du är nöjd. 
+14. Nu testar vi koden. Klicka på gröna flaggan över scenen och testa piltangenten. Rör sig sprajten för fort? Ändra hastigheten genom att klicka på på siffran i kodblocket **Gå 10 steg** och skriv en lägre siffra. Testa hastigheten tills du är nöjd. 
 
-16. Gör nu tre till likadana skript, fast ändra i dem så att de styr **vänster**, **höger** och **nedåt**. Då kan sprajten gå i alla olika riktningar i labyrinten.
+15. Gör nu tre till likadana skript, fast ändra i dem så att de styr **vänster**, **höger** och **nedåt**. Då kan sprajten gå i alla olika riktningar i labyrinten.
 
 > Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter från tangentbordet.
 
-GAMMALT  
+GAMMALT  .....
 
 
 7. Gör ett skript för din sprajt som säger:
