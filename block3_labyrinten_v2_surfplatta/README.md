@@ -66,41 +66,35 @@ Välj ett verktyg att måla med och en färg du vill ha. Om du vill ha raka stre
 
 Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Det kan vara din spelhjälte. Gör såhär:
 
-6. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en figur du gillar bland alla som finns i Scratchbiblioteket och klicka på den för att lägga till den i ditt projekt. Det är bra om du inte väljer en figur som är speciellt bred eller lång, den kan vara svår att svänga i labyrintens hörn.
+6. Klicka på lilla blå ikonen med en vit katt på längst ned till höger, så kan du välja att **lägga till en ny sprajt**. Välj ut en sprajt  du gillar och tryck på den för att lägga till den i ditt projekt. Välj en sprajt som inte är för bred eller lång, den kan vara svår att svänga runt i labyrinten.
   
-7. Dra sen sprajten du gjort till din labyrints startpunkt på scenen.
-  
-8. **Ändra storleken** på din sprajt så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under din scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor. 
+7. Dra sprajten till din labyrints startpunkt på scenen och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan där det står **Storlek** under scen med labyrinten och sprajten. Prova dig fram tills sprajten är lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
 
   ![image alt text](Ändra_Storlek_Sprajt.png) 
 
->>Tips! Om du vill rita din egen sprajt istället, så gör du såhär: Välj **Ny Sprajt** och klicka sen på **Måla** som ser ut som en liten pensel. Rita din egen sprajt-figur hur du vill, men tänk på att den ska kunna styras genom labyrinten och enkelt svänga i banans hörn och kanter, så den får inte vara för bred eller lång. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar. **Efter** att du ritat färdigt din sprajt kan du förminska den så att **den blir tillräcklig liten** för att få plats att ta sig enkelt genom labyrinten.
-
-  ![image alt text](image_3.png) 
-
-  _Exempel på en sprajt._
+>>Tips! Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
 ## 3 - Koda sprajtens rörelse
 
 Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. Dax att koda sprajtens rörelser - gör såhär:
 
-9. Under temat HÄNDELSER finns pusselbiten som heter **Starta när mellanslag-tangenten trycks ned**. Dra ut denna bit och lägg någonstans på sprajtens tomma manusyta. 
+8. Under temat HÄNDELSER finns pusselbiten som heter **Starta när mellanslag-tangenten trycks ned**. Dra ut denna bit och lägg någonstans på sprajtens tomma manusyta. 
 
-10. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**  Dra ut denna bit och sätt ihop den med den första gula pusselbitan på manusytan, så den sitter fast in under.
+9. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**  Dra ut denna bit och sätt ihop den med den första gula pusselbitan på manusytan, så den sitter fast in under.
 
-11. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under de andra två pusselbitarna. 
+10. Under tema RÖRELSE finns **Gå 10 steg**. Dra in denna bit och sätt den under de andra två pusselbitarna. 
 
 BILD PÅ KODEN
 
 Nu har du skapat grunden för ditt första skript med kod för att styra sprajten med piltangenterna. Nu behöver du ändra lite i skriptet så att det blir rätt tangent och riktning. 
 
-12. Klicka på den lilla vita pilen bredvid ordet **mellanslag** på den översta pusselbiten. Då får du upp fler val. Välj **uppåtpil**. Nu står det **Starta när uppåtpil-tangenten trycks ned** istället. 
+11. Klicka på den lilla vita pilen bredvid ordet **mellanslag** på den översta pusselbiten. Då får du upp fler val. Välj **uppåtpil**. Nu står det **Starta när uppåtpil-tangenten trycks ned** istället. 
 
-13. Ändra riktning så att sprajten tittar uppåt, genom att klicka på siffran med variablen **90**, och skriva **0** istället. Då står det **Peka i riktning 0** på pusselbiten, och sprajten tittar uppåt.
+12. Ändra riktning så att sprajten tittar uppåt, genom att klicka på siffran med variablen **90**, och skriva **0** istället. Då står det **Peka i riktning 0** på pusselbiten, och sprajten tittar uppåt.
 
-14. Nu testar vi koden. Klicka på gröna flaggan över scenen och testa piltangenten. Rör sig sprajten för fort? Ändra hastigheten genom att klicka på på siffran i kodblocket **Gå 10 steg** och skriv en lägre siffra. Testa hastigheten tills du är nöjd. 
+13. Nu testar vi koden. Klicka på gröna flaggan över scenen och testa piltangenten. Rör sig sprajten för fort? Ändra hastigheten genom att klicka på på siffran i kodblocket **Gå 10 steg** och skriv en lägre siffra. Testa hastigheten tills du är nöjd. 
 
-15. Gör nu tre till likadana skript, fast ändra i dem så att de styr **vänster**, **höger** och **nedåt**. Då kan sprajten gå i alla olika riktningar i labyrinten.
+14. Gör nu tre till likadana skript, fast ändra i dem så att de styr **vänster**, **höger** och **nedåt**. Då kan sprajten gå i alla olika riktningar i labyrinten.
 
 > Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter från tangentbordet.
 
