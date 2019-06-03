@@ -241,7 +241,6 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
   ![image alt text](block_kod_timer.png)
 
   Nu har du en timer, det vill säga en tidräknare! 
-  Du kan ha olika tid på olika banor och nivåer för att göra spelet svårare och svårare.
 
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
@@ -258,7 +257,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 > Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
 
-3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Klicka på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
+3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Tryck på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
 
   ![image alt text](block_kod_skicka_meddelande.png)
 
