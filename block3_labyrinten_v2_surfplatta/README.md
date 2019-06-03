@@ -258,7 +258,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 >> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
 
-3. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Klicka på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
+3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Klicka på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
 
   ![image alt text](block_kod_skicka_meddelande.png)
 
@@ -268,7 +268,11 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
   * När sprajten **tar emot meddelandet NästaNivå**
 
-  * Byt till **nästa klädsel** (alltså nästa bakgrundsbild).
+  * Byt till **nästa bakgrund** 
+  
+    ![image alt text](block_kod_nästa_bakgrund.png)
+
+5. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund och labyrintbana i början. Under tema UTSEENDE finns pusselbiten **Växla till bakgrund 1**. Lägg in denna kod till sprajten direkt in under översta koden **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
 
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
