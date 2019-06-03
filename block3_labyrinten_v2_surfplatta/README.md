@@ -216,35 +216,32 @@ Har du tid över och bygga mer på spelet. Då kan du lägga till en timer som r
 
 ## En timer
 
-Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare.
+Dags att göra spelet lite svårare med ett till hinder! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare. 
 
-1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen.
+För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
-2. Gör ett nytt skript för sprajten som säger:
+1. Under tema VARIABLER finns överst **Skapa en variabel**. Tryck på den och skriv in **Tid** idär det efterfrågas nytt variabelnamn, oh tryck på OK. Nu har det skapats en ny pusselbit som heter **Tid**. Du kan också se en tidräknare i ditt labyrintspel på SCENEN. Men vi behöver koda hur spelet ska använda den. Gör såhär:
 
-  * Starta när START klickas på
+2. Gör ett helt nytt skript för sprajten som säger:
 
-  * **Gå till** startpunkten
+  * Starta när **START-flaggan** klickas på
 
-  * **Sätt Tid** till 60 sekunder (eller välj själv antal sekunder)
+  * **Gå till** startmarkeringen i spelet (sätt X och Y-position)
 
-  * **För alltid om Tid > 60**
+  * **Sätt Tid** till 60 sekunder (eller välj själv hur många sekunder ditt spel ska ha)
+
+  * **För alltid om Tid < 61**
 
     * **Då** ska sprajten **vänta** 1 sekund
 
     * **Ändra Tid** med -1
 
-    * Annars **säg "Game over"** och **stoppa** alla skript
+    * Annars **säg "Game over"** och **stoppa alla** skript
 
-  ![image alt text](image_7.png)
+  ![image alt text](block_kod_timer.png)
 
-  Nu har du en timer, det vill säga en tidräknare! Men för att göra det ännu svårare ska du nu säga åt sprajten att den förlorar extra mycket tid om den nuddar väggen.
-
-3. Lägg till ett block som **ändrar Tid med -10** på alla dina skript som kollar om sprajten har nuddat väggen (alltså den färg din vägg har). Kommer du ihåg vilka skript det är?
-
-  ![image alt text](image_8.png)
-
-  _Så här ska alla skript se ut som kollar om sprajten nuddar väggen_
+  Nu har du en timer, det vill säga en tidräknare! 
+  Du kan ha olika tid på olika banor och nivåer för att göra spelet svårare och svårare.
 
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
@@ -253,23 +250,25 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
-14. Klicka på SCEN i nedre högra hörnet. Kopiera din bakgrund med labyrintbanan, genom att högerklicka på den lilla bilden som visar din bagrund och välj kopiera, så får du två likadana bakgrunder. Klicka på den nya andra bakgrunden så den blir aktiverad och sudda sen bort allt **förutom startpunkten** med verktyget som ser ut som ett suddgummi.
-
-  ![image alt text](Välj_Scen.png)
+1. Gå till fliken BAKGRUNDER i övre vänstra hörnet. På vänster sida finns en liten bild av din nuvarande bakgrund. Tryck på lilla bakgrundsbilden en lite längre stund och släpp, så får du upp valet **kopiera**. Tryck på kopiera, så får du en ny kopia av din bakgrund. Se till att du har din kopia av bakgrunden vald. Välj nu verktyget som ser ut som ett litet suddgummi och sudda sen bort allt i din labyrint **förutom startpunkten** 
   
   ![image alt text](Bakgrund_kopiera.png)
 
-1. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
+2. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**. 
 
-2. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
+>> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
+
+3. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Klicka på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
+
+  ![image alt text](block_kod_skicka_meddelande.png)
 
   ![image alt text](image_9.png)
 
-3. Lägg sedan till ett nytt skript för scenen som säger:
+4. Lägg sedan till ett nytt skript för SCENEN (med den första bakgrundsbilden) som säger:
 
   * När sprajten **tar emot meddelandet NästaNivå**
 
-  * Byt till **nästa klädsel**
+  * Byt till **nästa klädsel** (alltså nästa bakgrundsbild).
 
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
@@ -284,6 +283,8 @@ Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som föl
   * Samma färg på målpunkten
 
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
+  
+>> Tips! Du kan även göra niverna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
 
 
 ## Frågeställningar
