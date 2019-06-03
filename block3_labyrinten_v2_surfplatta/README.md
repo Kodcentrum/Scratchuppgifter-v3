@@ -278,7 +278,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 
-### Fler nivåer
+## Fler nivåer
 Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som följer reglerna:
 
   * Samma position på startpunkten
