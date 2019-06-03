@@ -289,7 +289,7 @@ Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som föl
 
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
   
-> Tips! Du kan även göra niverna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
+> Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
 
 
 ## Frågeställningar
