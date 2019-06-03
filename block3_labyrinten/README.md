@@ -127,23 +127,25 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare.
 
-1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen.
+För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
-2. Gör ett nytt skript för sprajten som säger:
+1. Under tema VARIABLER finns överst **Skapa en variabel**. Klicka på den och skriv in **Tid** och tryck på OK. Nu har det skapats ett nytt kodblock under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
 
-  * Starta när START klickas på
+2. Gör ett helt nytt skript för sprajten som säger (och se exempelbilden nedan):
 
-  * **Gå till** startpunkten
+  * Starta när **START-flaggan** klickas på
 
-  * **Sätt Tid** till 60 sekunder (eller välj själv antal sekunder)
+  * **Gå till** startmarkeringen i spelet (sätt X och Y-position)
 
-  * **För alltid om Tid > 60**
+  * **Sätt Tid** till 60 sekunder (eller välj själv hur många sekunder ditt spel ska ha)
+
+  * **För alltid om Tid < 61**
 
     * **Då** ska sprajten **vänta** 1 sekund
 
     * **Ändra Tid** med -1
 
-    * Annars **säg "Game over"** och **stoppa** alla skript
+    * Annars **säg "Game over"** och **stoppa alla** skript
 
   ![image alt text](image_7.png)
 
