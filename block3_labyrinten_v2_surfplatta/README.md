@@ -72,13 +72,13 @@ Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinte
 
   ![image alt text](Ny_Sprajt-knapp.png) 
   
->>**Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
+> **Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
   
 7. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan som heter **Storlek** som finns under SCENEN. Prova dig fram tills sprajten känns lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
 
   ![image alt text](Ändra_Storlek_Sprajt.png) 
 
->>**Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
+> **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
 ## 3 - Koda sprajtens rörelse
 
@@ -131,7 +131,7 @@ För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägg
 
   ![image alt text](block_kod_färdigt_första-skript.png) 
   
->>Testa koden! Går sprajten i lagom hastighet? Startar den på rätt ställe? Ändra i variablerna om du inte är nöjd.
+> Testa koden! Går sprajten i lagom hastighet? Startar den på rätt ställe? Ändra i variablerna om du inte är nöjd.
 
 Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger - och kan vinna eller förlora i spelet.
 
@@ -177,7 +177,7 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
   ![image alt text](block_kod_helt_färdigt_slutskript.png) 
 
->> Testa ditt projekt! Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? Tips: Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
+> Testa ditt projekt! Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? Tips: Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
 
 
 ## 6 - Lägg till ett hinder 
@@ -187,7 +187,7 @@ Kanske hindren är att ta sig förbi stenar, och om man rör dem blir man Game o
 
   ![image alt text](exempelbild_med_hinder.png) 
 
->> Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
+> Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
 
 Tänk på att:
 
@@ -220,9 +220,9 @@ Dags att göra spelet lite svårare med ett till hinder! Du ska se till att spel
 
 För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
-1. Under tema VARIABLER finns överst **Skapa en variabel**. Tryck på den och skriv in **Tid** idär det efterfrågas nytt variabelnamn, oh tryck på OK. Nu har det skapats en ny pusselbit som heter **Tid**. Du kan också se en tidräknare i ditt labyrintspel på SCENEN. Men vi behöver koda hur spelet ska använda den. Gör såhär:
+1. Under tema VARIABLER finns överst **Skapa en variabel**. Tryck på den och skriv in **Tid** där det efterfrågas nytt variabelnamn, och tryck på OK. Nu har det skapats en ny pusselbit under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
 
-2. Gör ett helt nytt skript för sprajten som säger:
+2. Gör ett helt nytt skript för sprajten som säger (och se exempelbilden nedan):
 
   * Starta när **START-flaggan** klickas på
 
@@ -256,7 +256,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 2. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**. 
 
->> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
+> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
 
 3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Klicka på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
 
@@ -288,7 +288,7 @@ Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som föl
 
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
   
->> Tips! Du kan även göra niverna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
+> Tips! Du kan även göra niverna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
 
 
 ## Frågeställningar
