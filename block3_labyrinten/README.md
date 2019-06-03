@@ -19,7 +19,7 @@ Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spe
 
 ![image alt text](image_1.png)
 
-Dax att börja koda! 
+Dax att börja koda!
 
 ## 1 – Rita en labyrint
 
