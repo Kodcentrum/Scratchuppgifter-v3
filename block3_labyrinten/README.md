@@ -164,23 +164,29 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
-14. Klicka på SCEN i nedre högra hörnet. Kopiera din bakgrund med labyrintbanan, genom att högerklicka på den lilla bilden som visar din bagrund och välj kopiera, så får du två likadana bakgrunder. Klicka på den nya andra bakgrunden så den blir aktiverad och sudda sen bort allt **förutom startpunkten** med verktyget som ser ut som ett suddgummi.
-
-  ![image alt text](Välj_Scen.png)
+1. Gå till fliken BAKGRUNDER i övre vänstra hörnet. På vänster sida finns en liten bild av din nuvarande bakgrund. Högerklicka på lilla bakgrundsbilden så får du upp valet **kopiera**. Nu kan du få en kopia av din bakgrund. Se till att du har din nya kopia av bakgrunden vald och välj verktyget som ser ut som ett litet suddgummi och sudda sen bort allt i din labyrint **förutom startpunkten**.
   
-  ![image alt text](Bakgrund_kopiera.png)
+  ![image alt text](Scen_kopiera_bakgrund.png)
 
-15. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
+2. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
-16. Nu behöver du se till att den nya banan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Kalla meddelandet för **NästaNivå**.
+> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
+
+3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd kodblocket  **skicka meddelande1**. Klicka på texten **meddelande 1** så kan du välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
+
+  ![image alt text](block_kod_skicka_meddelande.png)
 
   ![image alt text](image_9.png)
 
-17. Lägg sedan till ett nytt skript för scenen som säger:
+4. Lägg sedan till ett nytt skript för SCENEN (med den första bakgrundsbilden) som säger:
 
   * När sprajten **tar emot meddelandet NästaNivå**
 
-  * Byt till **nästa klädsel**
+  * Byt till **nästa bakgrund** 
+  
+    ![image alt text](block_kod_nästa_bakgrund.png)
+    
+5. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund och labyrintbana i början. Under tema UTSEENDE finns kodblocket **Växla till bakgrund 1**. Lägg in denna kod till sprajten direkt in under översta koden **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
 
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
 
