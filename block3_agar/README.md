@@ -42,7 +42,7 @@ Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och 
 
 Du skall styra sprajten **Cell** med musen och när du äter de små kulorna skall storleken på sprajten öka. Därför behöver vi en variabel **"Vikt"** som håller reda på storleken eller vikten.
 
-1. Skapa en **variabel** som heter **"Vikt"**, den ska vara **synlig** på scenen. Du hittar variabler under kategorin **Data**.
+1. Skapa en **variabel** som heter **"Vikt"**, den ska vara **synlig** på scenen. Du hittar variabler under kategorin **Variabler**.
 
 2. Skapa ett skript till **Cell** som säger:
 
