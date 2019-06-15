@@ -7,8 +7,9 @@ I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi 
 ![alt text](bilder/bild_piano_startbild.png)</a>
 
 I projektet finns en bakgrund av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet och sen på fliken **Bakgrunder** som du finner i övre vänstra hörnet. 
+![alt text](bilder/bild_scen.png)    ![alt text](bilder/bild_piano_startbild.png)
 
-Här ser du att det finns 9 bakgrunder för ditt piano.Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
+Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
 
 C-skalan i ditt piano består av 8 noter och är: **C D E F G A B C**.
 
@@ -69,13 +70,13 @@ Toppen! Då kan du koda färdig ditt piano. Klicka dig vidare för att se hur.
 
 ## 3 - Resten av noterna
 
-Nu ska vi programmera resten av noterna i skalan. Du finner kodbitar att jobba med under de olika teman i vänstra kanten. Tips: håll koll på vilka färger du använt på kodblocken, det är en ledtrpd för vart du hittar fler sådana block.
+Nu ska du programmera resten av noterna i skalan. Du finner kodbitar att jobba med under de olika teman i vänstra kanten. Tips: håll koll på vilka färger du använt på dina kodblockn, det är en ledtrpd för vart du hittar fler sådana block.
 
 För varje ny not du vill skapa, gör du dessa tre steg:
 
-1. På blocket ``` När mellanslag tangenten trycks ned ``` väljer du en bokstav istället, som du vill spela med på ditt tangentbord.
-2. På blocket ``` Byt bakgrund till ``` väljer du istället **Not-**.
-3. På blocket ``` Spela not 60 i 0.25 takter ``` så klicka du på siffran 60. Då kommer du få upp ett litet piano där du kan välj en ny not.
+01. På blocket ``` När mellanslag tangenten trycks ned ``` väljer du en bokstav istället, som du vill spela med på ditt tangentbord.
+02.  På blocket ``` Byt bakgrund till ``` väljer du istället **Not-**.
+04. På blocket ``` Spela not 60 i 0.25 takter ``` så klicka du på siffran 60. Då kommer du få upp ett litet piano där du kan välj en ny not.
 
 Bokstavstangenterna du ska använda på din dator är **s, f, g, h, j, k** och noterna du ska lägga in är **D(62) E(64) F(65) G(67) A(69) B(71) C(72)**.	
 
