@@ -1,9 +1,11 @@
-## Uppgift för Side by Side
+## Koda ditt piano
 
-I denna uppgift kommer du få skapa en spel som kommer att spela en melodi som du ska följa och spela samma som. Du kommer även att få lära dig lite grundläggande om noter.
+I denna uppgift kommer du få koda ett spel, som kommer att spela en melodi som du ska följa och försöka spela samma som på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Dax att börja koda!
 
 Starta med att klicka på nedanstående länk
 1. [https://scratch.mit.edu/projects/311971291/editor/](https://scratch.mit.edu/projects/311971291/editor/)
+
+![alt text](bilder/bild_piano_startbild)
 
 Du startar med en bakgrund av ett piano. Klicka på **Bakgrunder**. Där ser du att det finns flera 9 backgrunder.
 Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden säger vilken ton du spelar på pianot i en C-skala.
