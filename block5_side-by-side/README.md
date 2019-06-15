@@ -1,16 +1,17 @@
 ## Koda ditt piano
-I denna uppgift kommer du få koda ett spel, som kommer att spela en melodi som du ska följa och försöka spela samma som på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Dax att börja koda!
+I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi som du ska följa och sen spela samma melodi på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Dax att börja koda!
 
-> <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka HÄR för att öppna ditt startprojekt</a>.
-![alt text](bilder/bild_piano_startbild.png)
-  
 1. [https://scratch.mit.edu/projects/311971291/editor/](https://scratch.mit.edu/projects/311971291/editor/)
 
-Du startar med en bakgrund av ett piano. Klicka på **Bakgrunder**. Där ser du att det finns flera 9 backgrunder.
-Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden säger vilken ton du spelar på pianot i en C-skala.
-C-skalan består av 8 noter och är: **C D E F G A B C**.
+> <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka på bilden nedan för att öppna ett startprojekt.
+![alt text](bilder/bild_piano_startbild.png)</a>
 
-Längst till vänster ser du olika kategorier som heter "Rörelse", "Utseende", "Ljud" m.m. Under varje kategorie finns det olika block du kan programmera med. Vi kommer i denna uppgift främst att använda block från "Utseende", "Händelse" och "Musik".
+I projektet finns en bakgrund av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet och sen på fliken **Bakgrunder** som du finner i övre vänstra hörnet. 
+
+Här ser du att det finns 9 bakgrunder för ditt piano.Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
+C-skalan i ditt piano består av 8 noter och är: **C D E F G A B C**.
+
+Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
 
 ---
 
