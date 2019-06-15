@@ -1,8 +1,8 @@
 ## Koda ditt piano
 I denna uppgift kommer du få koda ett spel, som kommer att spela en melodi som du ska följa och försöka spela samma som på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Dax att börja koda!
-![alt text](bilder/bild_piano_startbild.png)
 
-> Redo? <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka HÄR för att öppna ditt startprojekt</a>.
+> <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka HÄR för att öppna ditt startprojekt</a>.
+![alt text](bilder/bild_piano_startbild.png)
   
 1. [https://scratch.mit.edu/projects/311971291/editor/](https://scratch.mit.edu/projects/311971291/editor/)
 
