@@ -20,25 +20,37 @@ Dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 neda
 
 ## 1 - Välja instrument
 
-Det första du ska göra är att sätta en bakgrund och välja ditt instrument som ska ge ljudet du vill ha. Till att börja med väljer vi piano som instrument, men sedan kan du testa att byta till ett annat instrument och ljud om du vill. Den gröna flaggan är som en Play-knapp, som sätter igång ditt program.
+Det första du ska göra är att sätta en bakgrund och välja ditt instrument som ska ge ljudet du vill ha. Till att börja med väljer vi piano som instrument, men sedan kan du testa att byta till ett annat instrument och ljud om du vill. 
 
-Dessa block behövs:
+Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till kodarverktyget. 
+
+![alt text](bilder/bild_flik_kod.png)
+
+Den gröna flaggan över ditt piano på Scenen är som en Play-knapp, som sätter igång ditt program som du nu ska koda.
+
+![alt text](bilder/bild_grön_flagga.png)
+
+
+Dessa kodblock i bilden nedan behövs för att börja bygga ditt program som styr hur ditt piano ska fungera:
 
 ![alt text](bilder/startblock.PNG)
 
-Kan du koppla ihop dem så att de fungerar? 
+De 3 kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
-I nästa steg ska vi koppla ihop kodblock så att du kan spela en not på ditt piano.
+
+När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano.
 
 ---
 
 ## 2 - Spela en not
 
-Nu ska vi koda så att vi kan spela på pianot med tangentbordet på datorn. Vi måste lägga in instruktioner för det i koden. 
+Nu ska du koda så att du kan spela på pianot med hjälp av tangentbordet på datorn. Vi måste lägga in instruktioner med kod för hur pianot ska kunna spelas i programmet du bygger. 
 
-Dessa block behöver vi ha:
+Dessa block behöver du ha för att koppla noter till tangentbordets knappar:
 
 ![alt text](bilder/spela-not-block.PNG)
+
+I ditt projekt finner du några av dessa block inlagda på kodytan. Nu ska du pussla ihop dem rätt och göra lite ändringar. 
 
 1. På blocket ``` När mellanslag tangenten trycks ned ``` väljer vi bokstaven **a**.
 
@@ -48,7 +60,8 @@ Nu ska du sätta en bakgrund som ska visa fram vilken ton du spelar när du tryc
 
 3. På blocket ``` Spela not 60 i 0.25 takter ``` klickar du på siffran 60. Då får du upp ett litet piano, där du väljer **not C(60)**.
 
-Testa nu ditt program (starta genom att klicka på den **gröna flaggan** ovanför stora pianot på Scenen) och tryck på tangenten för **a** på sin dators tangentbord. Ser du att du spelar noten C? Här du tonen C?
+Testa nu ditt program (starta genom att klicka på den **gröna flaggan** ovanför stora pianot på Scenen) och tryck på tangenten för **a** på  datorns tangentbord. 
+Ser du att du spelar noten C? Hör du tonen spelas?
 
 Toppen! Då kan du koda färdig ditt piano. Klicka dig vidare för att se hur.
 
@@ -56,48 +69,60 @@ Toppen! Då kan du koda färdig ditt piano. Klicka dig vidare för att se hur.
 
 ## 3 - Resten av noterna
 
-Nu ska vi programmera resten av noterna.
-För varje not du vill skapa, gör du dessa tre steg:
+Nu ska vi programmera resten av noterna i skalan. Du finner kodbitar att jobba med under de olika teman i vänstra kanten. Tips: håll koll på vilka färger du använt på kodblocken, det är en ledtrpd för vart du hittar fler sådana block.
+
+För varje ny not du vill skapa, gör du dessa tre steg:
 
 1. På blocket ``` När mellanslag tangenten trycks ned ``` väljer du en bokstav istället, som du vill spela med på ditt tangentbord.
 2. På blocket ``` Byt bakgrund till ``` väljer du istället **Not-**.
 3. På blocket ``` Spela not 60 i 0.25 takter ``` så klicka du på siffran 60. Då kommer du få upp ett litet piano där du kan välj en ny not.
 
-Bokstäverna du ska använda för ditt tangentbord är **s, f, g, h, j, k** och noterna är **D(62) E(64) F(65) G(67) A(69) B(71) C(72)**.	
+Bokstavstangenterna du ska använda på din dator är **s, f, g, h, j, k** och noterna du ska lägga in är **D(62) E(64) F(65) G(67) A(69) B(71) C(72)**.	
 
-När du kodat färdigt alla noter och tangenter kan du testa koden. Kan du spela hela C-skalan nu?
+> När du kodat färdigt alla noter och tangenter kan du testa koden. Kan du spela hela C-skalan nu?
 
 ---
 
 ## 4 - Hemligt meddelande
-Du ska vara kvar på bakgrunder nu.
-Klicka på kategorien "Händelser" och dra ut blocket ``` Skicka din tur ``` och koppla ihop det med ``` När gröna flaggan klickas ```. Ändra sedan meddelandet till **hemligt meddelande**. Tryck sedan på den gröna flaggan och se vad som händer!
+Med kod kan man skapa massa saker. Nu vill du skapa ett hemligt meddelande som får något att hända i ditt program. 
 
-Kan du spela samma melodi som precis spelades?
+01. Börja med att klicka på **Scen** i nedre högra hörnet, så att du är säker på att bakgrunden är vald för att kodas. 
+
+02. Klicka på gula kategorin **Händelser** och dra ut blocket ``` Skicka din tur ``` . Klicka på orden din tur och ändra till **hemligt meddelande**. 
+
+03. Dra även ut blocket ``` När gröna flaggan klickas på ``` och koppla ihop de två gula kodblocken. 
+
+Tryck sedan på den gröna flaggan ovanför Scenen och se vad som händer!
+
+> Kan du spela samma melodi som precis spelades upp?
 
 ---
 
 ## 5 - Extra utmaning
 
-Om du vill ha en extra utmaning kan du testa och göra ditt eget piano med Makey Makey.
+Om du vill ha en extra utmaning kan du testa att göra ditt eget piano med Makey Makey.
 
-Klicka på ikonen som du ser i bilden nedan
+Först måste du koda in instruktionern för Makey Makey i ditt program. Gör såhär:
+
+01. Klicka på ikonen som du ser i bilden nedan (den finns under alla kategorier i vänstra nedre hörnet):
 
 ![alt text](bilder/fler-block.PNG)
 
-Välj tillägget Makey Makey.
+02. Välj tillägget Makey Makey genom att klicka på bilden som ser ut som den nedanför här:
 
 ![alt text](bilder/makey-makey.PNG)
 
-Nu har du fått två nya block att programmera med! Kan du byta ut dessa block:
+Nu har du fått två nya block att programmera med! Kan du byta ut dessa block i din kod i programmet:
 
 ![alt text](bilder/tangent-trycks-ned-block.PNG)
 
-Mot dessa block:
+...mot dessa block istället:
 
 ![alt text](bilder/makey-block.PNG)
 
-Koppla sedan in din Makey Makey i en USB-ingång och testa att spela igen!
+Koppla sedan in din Makey Makey i en USB-ingång på din dator och testa att spela igen! Fråga en volontär om hur du koppalr in Makey Makey till ditt projekt. 
+
+> För att en Makey Makey ska fungera behöver du koppla ihop sladdarnas krokodilklämnmr med saker som leder ström, exempelvis folie eller en frukt - eller varför inte en kompis hand? Hur vill du att ditt piano ska se ut och låta?
 
 ---
 
@@ -111,5 +136,5 @@ Skulle du kunna med blocket som är i bilden nedan fråga efter varje not du spe
 
 ## 7 - Färdig!
 
-Gratulerar nu har du gjort ett piano som kan spela en C-skala.
+Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul!
 
