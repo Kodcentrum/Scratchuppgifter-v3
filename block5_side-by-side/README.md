@@ -136,5 +136,7 @@ Skulle du kunna med blocket som är i bilden nedan fråga efter varje not du spe
 
 ## 7 - Färdig!
 
-Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul!
+Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul! Vilket instument vill du koda?
+
+![alt text](bilder/bild_piano_startbild.png)
 
