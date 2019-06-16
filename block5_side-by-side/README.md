@@ -1,22 +1,20 @@
 ## Koda ditt piano
 I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi som du ska följa och sen spela samma melodi på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Dax att börja koda!
 
-1. [https://scratch.mit.edu/projects/311971291/editor/](https://scratch.mit.edu/projects/311971291/editor/)
-
 > <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka på bilden nedan för att öppna ett startprojekt.
 ![alt text](bilder/bild_piano_startbild.png)</a>
 
-I projektet finns en bakgrund av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet och sen på fliken **Bakgrunder** som du finner i övre vänstra hörnet. 
+01. I projektet finns en bakgrund av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet och sen på fliken **Bakgrunder** som du finner i övre vänstra hörnet. 
 
 ![alt text](bilder/bild_scen.png)    ![alt text](bilder/bild_flik_bakgrunder.png)
 
-Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
+02. Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
 
-C-skalan i ditt piano består av 8 noter och är: **C D E F G A B C**.
+> **Tänk på**: C-skalan i ditt piano ska bestå av 8 noter som är: **C D E F G A B C**.
 
-Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
+03. Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
 
-Dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 nedan för att gå vidare.
+Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 nedan för att gå vidare.
 
 ---
 
@@ -24,7 +22,7 @@ Dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 neda
 
 Det första du ska göra är att sätta en bakgrund och välja ditt instrument som ska ge ljudet du vill ha. Till att börja med väljer vi piano som instrument, men sedan kan du testa att byta till ett annat instrument och ljud om du vill. 
 
-Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till kodarverktyget. 
+01. Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till kodarverktyget. 
 
 ![alt text](bilder/bild_flik_kod.png)
 
@@ -33,11 +31,11 @@ Den gröna flaggan över ditt piano på Scenen är som en Play-knapp, som sätte
 ![alt text](bilder/bild_grön_flagga.png)
 
 
-Dessa kodblock i bilden nedan behövs för att börja bygga ditt program som styr hur ditt piano ska fungera:
+02. Dessa kodblock i bilden nedan behövs för att börja bygga ditt program som styr hur ditt piano ska fungera:
 
 ![alt text](bilder/startblock.PNG)
 
-De 3 kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
+De tre kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
 
 När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano. 
@@ -122,9 +120,9 @@ Nu har du fått två nya block att programmera med! Kan du byta ut dessa block i
 
 ![alt text](bilder/makey-block.PNG)
 
-Koppla sedan in din Makey Makey i en USB-ingång på din dator och testa att spela igen! Fråga en volontär om hur du koppalr in Makey Makey till ditt projekt. 
+Koppla sedan in din Makey Makey i en USB-ingång på din dator och testa att spela igen! Fråga en volontär om hur du koppalar in Makey Makey till ditt projekt. 
 
-> För att en Makey Makey ska fungera behöver du koppla ihop sladdarnas krokodilklämnmr med saker som leder ström, exempelvis folie eller en frukt - eller varför inte en kompis hand? Hur vill du att ditt piano ska se ut och låta?
+> För att en Makey Makey ska fungera behöver du koppla ihop sladdarnas krokodilklämnmor med saker och ting som leder ström, exempelvis folie eller en frukt - eller varför inte en kompis hand? Hur vill du att ditt piano ska se ut och låta?
 
 ---
 
