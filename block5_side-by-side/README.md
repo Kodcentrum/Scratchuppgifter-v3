@@ -10,7 +10,7 @@ I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi 
 
 02. Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
 
-> **Tänk på**: C-skalan i ditt piano ska bestå av 8 noter som är: **C D E F G A B C**.
+> C-skalan i ditt piano ska bestå av 8 noter som är: **C D E F G A B C**.
 
 03. Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
 
