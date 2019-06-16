@@ -7,7 +7,8 @@ I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi 
 ![alt text](bilder/bild_piano_startbild.png)</a>
 
 I projektet finns en bakgrund av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet och sen på fliken **Bakgrunder** som du finner i övre vänstra hörnet. 
-![alt text](bilder/bild_scen.png)    ![alt text](bilder/bild_piano_startbild.png)
+
+![alt text](bilder/bild_scen.png)    ![alt text](bilder/bild_flik_bakgrunder.png)
 
 Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
 
