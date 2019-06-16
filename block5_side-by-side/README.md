@@ -39,7 +39,7 @@ Dessa kodblock i bilden nedan behövs för att börja bygga ditt program som sty
 De 3 kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
 
-När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano.
+När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano. 
 
 ---
 
@@ -137,7 +137,8 @@ Skulle du kunna med blocket som är i bilden nedan fråga efter varje not du spe
 
 ## 7 - Färdig!
 
-Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul! Vilket instument vill du koda?
+Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul! Vilket instrument vill du koda?
 
 ![alt text](bilder/bild_piano_startbild.png)
+
 
