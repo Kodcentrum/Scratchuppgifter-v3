@@ -45,7 +45,7 @@ Den gröna flaggan över ditt piano på Scenen är som en Play-knapp, som sätte
 De tre kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
 
-När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano. 
+När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano..
 
 ---
 
