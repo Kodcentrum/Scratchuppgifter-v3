@@ -21,31 +21,28 @@ Följ instruktionen på denna sida medan du steg för steg bygger koden för dit
 03. Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
 
 
-Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 nedan för att gå vidare.
+Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt nedan för att gå vidare.
 
 ---
 
 ## 1 - Välja instrument
 
-Det första du ska göra är att sätta en bakgrund och välja ditt instrument som ska ge ljudet du vill ha. Till att börja med väljer vi piano som instrument, men sedan kan du testa att byta till ett annat instrument och ljud om du vill. 
+Första ska du programmera så att programmet alltid visar rätt bakgrund av pianot när det börjar, och koda in vilket sorts instrument det ska kunna spela fram. Till att börja med ska du välja ett piano som ditt instrument. Om du vill kan du senare testa att byta till ett annat instrument och ljud. Då börjar vi! 
 
-01. Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till kodarverktyget. 
-
+01. Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till verktyget där du kan koda ditt musikprogram.
 ![alt text](bilder/bild_flik_kod.png)
 
-Den gröna flaggan över ditt piano på Scenen är som en Play-knapp, som sätter igång ditt program som du nu ska koda.
-
+Den gröna flaggan över ditt piano på Scenen är en Start-knapp för musikprogrammet du ska skapa.
 ![alt text](bilder/bild_grön_flagga.png)
 
 
-02. Dessa kodblock i bilden nedan behövs för att börja bygga ditt program som styr hur ditt piano ska fungera:
-
+02. Nu ska vi lägga in kod. Kodblocken i bilden nedan behövs för att börja bygga programmet som styr hur ditt piano ska fungera:
 ![alt text](bilder/startblock.PNG)
 
-De tre kodbitarna finner du inlagda på ditt projekts kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
+De tre kodbitarna finns redan inlagda på projektets kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
 
-När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano..
+När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano.
 
 ---
 
