@@ -27,7 +27,9 @@ Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt nedan 
 
 ## 1 - Välja instrument
 
-Första ska du programmera så att programmet alltid visar rätt bakgrund av pianot när det börjar, och koda in vilket sorts instrument det ska kunna spela fram. Till att börja med ska du välja ett piano som ditt instrument. Om du vill kan du senare testa att byta till ett annat instrument och ljud. Då börjar vi! 
+Första ska du programmera så att programmet alltid visar rätt bakgrund av pianot när det börjar, och sen äcven koda in vilket sorts instrument det ska kunna spela fram ljud från. Till att börja med ska du välja ett piano som ditt instrument. 
+Om du vill kan du senare testa att byta till ett annat instrument och ljud. 
+Då börjar vi! 
 
 01. Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till verktyget där du kan koda ditt musikprogram.
 
