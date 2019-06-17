@@ -30,25 +30,29 @@ Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt nedan 
 Första ska du programmera så att programmet alltid visar rätt bakgrund av pianot när det börjar, och koda in vilket sorts instrument det ska kunna spela fram. Till att börja med ska du välja ett piano som ditt instrument. Om du vill kan du senare testa att byta till ett annat instrument och ljud. Då börjar vi! 
 
 01. Klicka på fliken **Kod** i övre vänstra hörnet, så kommer du tillbaka till verktyget där du kan koda ditt musikprogram.
+
 ![alt text](bilder/bild_flik_kod.png)
 
 Den gröna flaggan över ditt piano på Scenen är en Start-knapp för musikprogrammet du ska skapa.
+
 ![alt text](bilder/bild_grön_flagga.png)
 
 
 02. Nu ska vi lägga in kod. Kodblocken i bilden nedan behövs för att börja bygga programmet som styr hur ditt piano ska fungera:
+
 ![alt text](bilder/startblock.PNG)
 
 De tre kodbitarna finns redan inlagda på projektets kodyta. Kan du koppla ihop dem nu så att de fungerar? De passar ihop som pusselbitar.
 
 
-När du pusslat klart, kan du klicka dig vidare till nästa steg. Dax att koda så att du kan spela noter på ditt piano.
+När du pusslat klart, kan du klicka dig vidare till nästa steg. 
+Dax att koda så att du kan spela noter på ditt piano.
 
 ---
 
 ## 2 - Spela en not
 
-Nu ska du koda så att du kan spela på pianot med hjälp av tangentbordet på datorn. Vi måste lägga in instruktioner med kod för hur pianot ska kunna spelas i programmet du bygger. 
+Nu ska du koda så att du kan spela på pianot med hjälp av tangentbordet på datorn. Du måste lägga in instruktioner med kod för hur pianot ska kunna spelas i programmet du bygger, annars vet inte programmet hur instrumentet ska låta eller fungera.
 
 Dessa block behöver du ha för att koppla noter till tangentbordets knappar:
 
@@ -56,30 +60,33 @@ Dessa block behöver du ha för att koppla noter till tangentbordets knappar:
 
 I ditt projekt finner du några av dessa block inlagda på kodytan. Nu ska du pussla ihop dem rätt och göra lite ändringar. 
 
-1. På blocket ``` När mellanslag tangenten trycks ned ``` väljer vi bokstaven **a**.
+01. På blocket ``` När mellanslag tangenten trycks ned ``` väljer du istället bokstaven **a**. (Klicka på lilla vita pilen på blocket, så får du fram en lista med val, och kan välja tangent **a** istället.)
 
-Nu ska du sätta en bakgrund som ska visa fram vilken ton du spelar när du trycker på **a-tangenten** på datorns tangentbord.
+Nu ska du välja en bakgrund med pianobild som ska visa fram **vilken ton du spelar** när du trycker på **a-tangenten** på datorns tangentbord.
 
-2. På blocket ``` Byt bakgrund till ``` väljer du **Not-C**. Detta betyder att du kommer att spela noten C på pianot.
+02. På blocket ``` Byt bakgrund till ``` väljer du **Not-C**. Detta betyder att du kommer att spela noten C på pianot.
 
-3. På blocket ``` Spela not 60 i 0.25 takter ``` klickar du på siffran 60. Då får du upp ett litet piano, där du väljer **not C(60)**.
+03. På blocket **``` Spela not 60 i 0.25 takter ```** klickar du på siffran 60. Då får du upp ett litet piano, där du väljer **not C(60)**. 
 
-Testa nu ditt program (starta genom att klicka på den **gröna flaggan** ovanför stora pianot på Scenen) och tryck på tangenten för **a** på  datorns tangentbord. 
-Ser du att du spelar noten C? Hör du tonen spelas?
+04. Pussla ihop de tre blocken och testa din kod!
 
-Toppen! Då kan du koda färdig ditt piano. Klicka dig vidare för att se hur.
+> Testa ditt program! Starta genom att klicka på den **gröna flaggan** ovanför pianot på Scenen och tryck på tangenten **a** på din datorns tangentbord. Ser du att du spelar noten C på pianot? Hör du tonen spelas?
+
+Toppen! Då kan du koda färdigt ditt piano. Bläddra dig vidare för att se hur du kan göra det.
 
 ---
 
 ## 3 - Resten av noterna
 
-Nu ska du programmera resten av noterna i skalan. Du finner kodbitar att jobba med under de olika teman i vänstra kanten. Tips: håll koll på vilka färger du använt på dina kodblockn, det är en ledtrpd för vart du hittar fler sådana block.
+Nu har du kodat ett C i sitt instruments C-skala. Dax att programmera resten av noterna i skalan. Du finner kodbitar att jobba med under de olika teman som finns i vänstra kanten. 
 
-För varje ny not du vill skapa, gör du dessa tre steg:
+> Tips! Håll koll på vilka färger du använt på dina kodblock, det är en ledtråd för vart du hittar fler sådana block under olika teman.
 
-01. På blocket ``` När mellanslag tangenten trycks ned ``` väljer du en bokstav istället, som du vill spela med på ditt tangentbord.
-02.  På blocket ``` Byt bakgrund till ``` väljer du istället **Not-**.
-04. På blocket ``` Spela not 60 i 0.25 takter ``` så klicka du på siffran 60. Då kommer du få upp ett litet piano där du kan välj en ny not.
+För varje ny not i skalan du vill skapa, gör du dessa tre steg:
+
+01. Dra ut blocket ``` När mellanslag tangenten trycks ned ``` och ändra till en bokstav istället (någon av tangenterna **s, f, g, h, j, k** )
+02. Dra ut blocket ``` Byt bakgrund till ``` och ändra till **Not-** istället (noter i din C-skala: **D, E, F, G, A, B, C**)
+04. Dra ut blocket ``` Spela not 60 i 0.25 takter ``` och klicka på siffran 60. Då kommer du få upp ett litet piano där du kan välj en ny not. (Ange istället **D(62) E(64) F(65) G(67) A(69) B(71) C(72)**)
 
 Bokstavstangenterna du ska använda på din dator är **s, f, g, h, j, k** och noterna du ska lägga in är **D(62) E(64) F(65) G(67) A(69) B(71) C(72)**.	
 
