@@ -1,25 +1,26 @@
 ## Koda ditt piano
-I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi som du ska följa och sen spela samma melodi på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. Följ instruktioneen på denna sida medan du steg för steg bygger koden fr ditt pianoprogram i vertyget Scratch. Dax att börja koda!
-<hr>
+I denna uppgift kommer du få koda ett spel, som kommer att spela upp en melodi som du ska följa och sen spela samma melodi på ditt piano. Du kommer även att få lära dig lite grundläggande om noter. 
 
+Följ instruktionen på denna sida medan du steg för steg bygger koden för ditt pianoprogram i vertyget Scratch. Dax att börja koda!
+<br>
 > <a href="https://scratch.mit.edu/projects/311971291/editor/">Starta med att klicka på bilden nedan för att öppna ett startprojekt.
 ![alt text](bilder/bild_piano_startbild.png)</a>
 
-<hr>
+<br>
 01. På scenen i projektet finns en bakgrundsbild av ett piano. Låt oss se närmare på den. Klicka på **Scen** i nedre högra hörnet för att aktivera den och klicka sen på fliken **Bakgrunder** i övre vänstra hörnet. Se bilderna här under, så vet du vad du ska leta efter.
 
 ![alt text](bilder/bild_scen.png)    ![alt text](bilder/bild_flik_bakgrunder.png)
 
-<hr>
+<br>
 02. Här ser du att det finns 9 bakgrunder för ditt piano. Varje bakgrund representerar en vit tangent på pianot. Namnet på bakgrunden visar  vilken ton den spelar på pianot i en C-skala.
 
-<hr>
+<br>
 > C-skalan i ditt piano ska bestå av 8 noter som är: **C D E F G A B C**.
 
-<hr>
+<br>
 03. Längst till vänster ser du olika kategorier som heter **"Rörelse"**, **"Utseende"**, **"Ljud"** m.m. Under varje kategori finns olika block du kan programmera med. I denna uppgift kommer du främst att använda block från **"Utseende"**, **"Händelse"** och **"Musik"**.
 
-<hr>
+<br>
 Nu är det dax att välja ljud till ditt piano. Klicka på nästa avsnitt med nummer 1 nedan för att gå vidare.
 
 ---
