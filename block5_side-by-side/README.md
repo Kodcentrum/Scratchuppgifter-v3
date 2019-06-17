@@ -97,15 +97,15 @@ Bokstavstangenterna du ska använda på din dator är **s, f, g, h, j, k** och n
 ---
 
 ## 4 - Hemligt meddelande
-Med kod kan man skapa massa saker. Nu vill du skapa ett hemligt meddelande som får något att hända i ditt program. 
+Med kod kan man skapa en massa saker. Nu ska du få skapa ett hemligt meddelande som får något att hända i ditt program. 
 
-01. Börja med att klicka på **Scen** i nedre högra hörnet, så att du är säker på att bakgrunden är vald för att kodas. 
+01. Börja med att klicka på **Scen** i nedre högra hörnet, så att du är säker på att bakgrunden är vald för att kodas. (viktigt att du har bakgrunden som visar blå markering på första tangent C i din skala. Om inte rätt bakgrund, klicka på **Scen**, sedan fliken **Bakgrunder** och markera rätt bakgrund som heter **Not-C**.)
 
 02. Klicka på gula kategorin **Händelser** och dra ut blocket ``` Skicka din tur ``` . Klicka på orden din tur och ändra till **hemligt meddelande**. 
 
 03. Dra även ut blocket ``` När gröna flaggan klickas på ``` och koppla ihop de två gula kodblocken. 
 
-Tryck sedan på den gröna flaggan ovanför Scenen och se vad som händer!
+Tryck sedan på den gröna flaggan ovanför Scenen och se vad som händer! Lyssna noga!
 
 > Kan du spela samma melodi som precis spelades upp?
 
@@ -113,7 +113,7 @@ Tryck sedan på den gröna flaggan ovanför Scenen och se vad som händer!
 
 ## 5 - Extra utmaning
 
-Om du vill ha en extra utmaning kan du testa att göra ditt eget piano med Makey Makey.
+Om du vill ha en extra utmaning kan du testa att göra ditt eget piano med Makey Makey. Fårga en volontär om hjälp för att komma igång.
 
 Först måste du koda in instruktionern för Makey Makey i ditt program. Gör såhär:
 
@@ -144,12 +144,14 @@ Koppla sedan in din Makey Makey i en USB-ingång på din dator och testa att spe
 Skulle du kunna med blocket som är i bilden nedan fråga efter varje not du spelar och spelaren skriva in notens namn?
 
 ![alt text](bilder/fraga-block.PNG)
+
+Lägg in kodblocket i ditt program och testa koden. 
  
 ---
 
 ## 7 - Färdig!
 
-Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul! Vilket instrument vill du koda?
+Grattulerar! Nu har du gjort ett piano som kan spela en C-skala. Att koda musik är kul! Vilket instrument vill du nu koda?
 
 ![alt text](bilder/bild_piano_startbild.png)
 
