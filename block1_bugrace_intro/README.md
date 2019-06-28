@@ -5,7 +5,7 @@
 Följ instruktionen steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a>
 </br>
 
-Klicka på steg 1 i gröna cirkeln nedan för att gå vidare.
+Klicka på steg 1 nedan för att gå vidare.
 
 ## 1: Välj en skalbagge som sprajt
 
