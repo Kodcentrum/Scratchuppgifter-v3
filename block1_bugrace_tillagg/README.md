@@ -1,13 +1,13 @@
 # Bug Race (tillägg)
 
-Om du redan har skapat spelet Bug Race Intro så har du redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
+Om du redan har skapat spelet Bug Race - Intro så har du redan ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet? Dax att utveckla det vidare.
 
-Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktinen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
+Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktionen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> **HUR KODAR JAG?** 
+</br>
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till att du har ditt projekt Bug Race öppet och forstätt koda.
+</br>
 
   Då börjar vi koda!
 
