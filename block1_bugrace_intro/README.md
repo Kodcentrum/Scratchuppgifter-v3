@@ -31,6 +31,7 @@ När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vi
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
+Klicka dig vidare.
 
 
 ## 2: Färglägg bakgrunden och rita en bana
