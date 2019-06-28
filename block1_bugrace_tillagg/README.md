@@ -53,7 +53,6 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 > Testa spelet! Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
 
-
 ## Tillägg 3: Ändra banan till en labyrint
 
 Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg, och inte hur själva banan ser ut, är det enkelt att byta ut banan. Du kan till exempel göra en labyrint som bakgrund istället.
