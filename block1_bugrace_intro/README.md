@@ -5,13 +5,13 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 > **HUR GÖR JAG?** 
 </br>
-Följ instruktionen steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch</a>. Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Klicka här!</a>.
+Följ instruktionen och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i ny flik</a>. Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Klicka här!</a>.
 
-Hur kan spelet Bug Race komma att se ut? Klicka på bilden här under och testa ett exempel på det färdiga spelet på Scratch sajt. (Starta spelet där genom att klicka på den gröna flaggan på projektet som kommer fram.) <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">
+Hur kan spelet Bug Race komma att se ut? Klicka på bilden under och testa ett exempel på spelet. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">
 
 ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
-Är du redo att koda? Då börjar vi! Klicka på steg 1 i gröna cirkeln nedan för att gå vidare i instruktionen.
+Är du redo att koda? Klicka på steg 1 i gröna cirkeln nedan för att gå vidare.
 
 ## 1: Välj en skalbagge som sprajt
 
