@@ -4,6 +4,8 @@ I spelet Bug Race är målet att få en skalbagge att springa runt en bana och f
 
 Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
+<iframe src="https://scratch.mit.edu/projects/27697024/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 > **HUR KODAR JAG?** 
 </br>
 Följ instruktionen steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a>
