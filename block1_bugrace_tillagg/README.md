@@ -1,14 +1,12 @@
 # Bug Race (tillägg)
 
-Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Och hur kan man lägga till fler spelare och ändra banor? Dax att utveckla spelet vidare.
-
-Här finns olika förslag på hur du kan fortsätta utveckla ditt Bug Race-spel. Bläddra i instruktionen och välj ett eller flera tillägg -  eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du kodade vissa skript.
+Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Och hur kan man lägga till fler spelare och ändra banor? Dax att utveckla spelet vidare. Här finns förslag på hur du bygger olika tillägg. Välj en elelr flera - eller hitta på egna! 
 
 ![Bug race med två spelare](image_2.png)
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till öppna ditt projekt Bug Race - Intro och koda vidare på det.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till öppna ditt projekt Bug Race - Intro och koda vidare på det. Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du kodade vissa skript.
 </br>
 
   Då börjar vi utveckla spelet!
