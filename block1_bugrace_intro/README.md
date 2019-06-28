@@ -8,9 +8,9 @@ Hur kan spelet Bug Race komma att se ut? Klicka på bilden under och testa ett e
 ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
 
-**HUR KODAR JAG?** 
+> **HUR KODAR JAG?** 
 </br>
-Följ instruktionen steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i ny flik</a>. 
+Följ instruktionen steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch</a>  i ny flik. 
 </br>
 Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugraceoffline">Klicka här!</a>.
 
