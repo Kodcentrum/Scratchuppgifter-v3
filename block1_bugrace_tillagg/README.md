@@ -1,8 +1,10 @@
 # Bug Race (tillägg)
 
-Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Dax att utveckla det vidare.
+Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Och hur kan man lägga till fler spelare och ändra banor? Dax att utveckla spelet vidare.
 
 Här finns olika förslag på hur du kan fortsätta utveckla ditt Bug Race-spel. Bläddra i instruktionen och välj ett eller flera tillägg -  eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du kodade vissa skript.
+
+![Bug race med två spelare](image_2.png)
 
 > **HUR KODAR JAG?** 
 </br>
