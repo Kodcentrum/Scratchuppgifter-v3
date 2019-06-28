@@ -1,34 +1,35 @@
 # Bug Race (tillägg)
 
-Om du redan har skapat spelet Bug Race - Intro så har du redan ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet? Dax att utveckla det vidare.
+Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Dax att utveckla det vidare.
 
-Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktionen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
+Här finns olika förslag på hur du kan fortsätta utveckla ditt Bug Race-spel. Bläddra i instruktionen och välj ett eller flera tillägg -  eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du kodade vissa skript.
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till att du har ditt projekt Bug Race öppet och forstätt koda.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till öppna ditt projekt Bug Race - Intro och koda vidare på det.
 </br>
 
-  Då börjar vi koda!
+  Då börjar vi utveckla spelet!
 
 ## 1: Mållinje för att vinna spelet
 
-För att kunna vinna spelet behöver du en mållinje för banan och ett skript som säger att du vinner spelet när skalbaggen rör vid mållinjen. Det liknar ditt skript för att det blir Game Over när skalbaggen rör vid det gröna gräset.
+För att kunna vinna spelet behöver du en mållinje för banan och ett skript som säger att du vinner spelet när skalbaggen rör vid mållinjen. Det liknar det skript du redan skapat i ditt Bug Race-spel, som styr hur spelet blir Game Over när skalbaggen rör vid det gröna gräset. Gör såhär för att koda mållinjen:
 
-1.  Börja med att rita en mållinje där du vill ha den, förslagsvis bakom skalbaggens startposition.
+1.  Börja med att rita en mållinje där du vill ha den, förslagsvis strax bakom skalbaggens startposition.
 
   ![Bild på Bug race](image_0.jpg)
 
-2. Skapa ett VILLKOR för skalbaggen: **om** skalbaggen rör vid färgen gul betyder det att den har nått mållinjen och **då** vinner du spelet. (Har du glömt hur du ska göra? Titta på ditt skript för Game Over.)
+2. Skapa nu ett VILLKOR för skalbaggen som säger: **om** skalbaggen rör vid färgen gul (eller din mållinjes färg), **då** vinner man spelet. (Tips: Om du inte kommer på hur du ska koda detta, kan du kika på skript du har kodat som styr Game Over.)
 
-3. Vad ska hända **om** skalbaggen rör vid mållinjen? Den kan till exempel säga Mål! eller Grattis!
+3. Vad ska hända **om** skalbaggen rör vid mållinjen? Den kan till exempel säga "Mål!" eller "Grattis!"
 Lägg till **"stoppa detta skript"** för att avsluta spelet.
 
 4. Lägg det nya i din **för alltid**-loop. Så här kan det se ut:
 
   ![För alltid loop](image_1.png)
   
-På nästa sida kan du lägga till flera spelare.
+Nu har du skapat skriptet för mållinjen.
+På nästa sida kan du lägga till fler spelare.
 
 
 ## 2: Flera spelare
@@ -55,6 +56,7 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 > Testa spelet! Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
 
+nu har du kodat in fler spelare.
 På nästa sida kan du ändra banan till en labyrint.
 
 ## 3: Ändra banan till en labyrint
@@ -75,6 +77,7 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 > Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
+Nu har du skapat ny bana.
 På nästa sida kan du skapa mjukare styrning när sprajtarna svänger.
 
 ## 4: Mjukare styrning
