@@ -11,7 +11,7 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
   Då börjar vi koda!
 
-## Tillägg 1: Mållinje för att vinna spelet
+## 1: Mållinje för att vinna spelet
 
 För att kunna vinna spelet behöver du en mållinje för banan och ett skript som säger att du vinner spelet när skalbaggen rör vid mållinjen. Det liknar ditt skript för att det blir Game Over när skalbaggen rör vid det gröna gräset.
 
