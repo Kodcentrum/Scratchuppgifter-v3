@@ -27,9 +27,11 @@ Lägg till **"stoppa detta skript"** för att avsluta spelet.
 4. Lägg det nya i din **för alltid**-loop. Så här kan det se ut:
 
   ![För alltid loop](image_1.png)
+  
+På nästa sida kan du lägga till flera spelare.
 
 
-## Tillägg 2: Flera spelare
+## 2: Flera spelare
 
 Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – eller spela med två händer! Om banan är tillräckligt bred kan du lägga till en skalbagge eller något annat djur och låta dem tävla mot varandra om vem som kommer först i mål.
 
@@ -53,7 +55,9 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 > Testa spelet! Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
 
-## Tillägg 3: Ändra banan till en labyrint
+På nästa sida kan du ändra banan till en labyrint.
+
+## 3: Ändra banan till en labyrint
 
 Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg, och inte hur själva banan ser ut, är det enkelt att byta ut banan. Du kan till exempel göra en labyrint som bakgrund istället.
 
@@ -71,7 +75,9 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 > Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
-## Tillägg 4: Mjukare styrning
+På nästa sida kan du skapa mjukare styrning när sprajtarna svänger.
+
+## 4: Mjukare styrning
 
 Du har kanske märkt att det kan vara svårt att styra sprajten när du spelar. Varje tryckning vrider den ett visst antal grader,
 men om du håller inne händer ingenting - förrän efter en liten stund. Då börjar den snurra jättefort!
@@ -99,7 +105,7 @@ tangent som helst).
 Var ska man placera "Om"-blocket, då? Tja, om man lägger det på samma ställe som flyttar sprajten framåt hela tiden,
 så kommer den vrida sig lite grann för varje steg framåt, om knappen man valt är nedtryckt. Då får man en mjuk sväng.
 
-Prova olika värden för hur många grader den ska vrida sig! Och glöm inte att ta borde de andra skripten som vrider
+Prova olika värden för hur många grader den ska vrida sig! Och glöm inte att ta bort de de andra skripten som vrider
 på sprajten!
 
 ## Färdig!
