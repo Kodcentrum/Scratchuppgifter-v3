@@ -221,6 +221,7 @@ Saknas något? Hur skulle du vilja utveckla spelet?
 
 Tips på hur du kan bygga vidare på Bug Race hittar du i uppgiften som heter <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-tillagg?chpt=0" target="_blank"> Bug Race - Tillägg</a>.
 Där kan du bland annat skapa Bug Race för två spelare samtidigt och göra en mjukare styrning av sprajtarna.
+![Bug race med två spelare](image_2.png)
 
 ## Frågeställningar
 
