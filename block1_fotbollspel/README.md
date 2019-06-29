@@ -2,14 +2,14 @@
 
 Det här är ett enkelt spel för dig som har börjat lära dig litegrann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/fotbollsspel-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
-
 Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/277142988/" target="_blank">https://scratch.mit.edu/projects/277142988/<a/>
 
 ![Fotbollspel](fotbollspel.png)
+
+> **HUR KODAR JAG?** 
+</br>
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+</br>
   
 Då börjar vi koda!
 
