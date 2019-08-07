@@ -6,7 +6,7 @@ Satelliten Mats behöver din hjälp - kan du rädda den från rymdskrot?! Vi ska
 
 Vi börjar med att starta med ett projekt som redan innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund. Detta kallas att *remixa*.
 
-1. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/282942221/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
+1. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/298331110/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden. 
 
