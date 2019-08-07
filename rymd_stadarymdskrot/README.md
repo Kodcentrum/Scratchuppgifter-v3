@@ -114,7 +114,7 @@ Testa! Visas vår kvadrat när du trycker på den gröna flaggan?
 
 ## 7 – Slumpa startposition
 
-Nästa steg är att ge kvadraten en *slumpmässig* position för var den ska visa sig.
+Det blir mer spännande om du inte vet var rymdskrotet dyker upp! För att göra det ska vi ge kvadraten en *slumpmässig* position för var den ska visa sig.
 
 Det finns ett block ”gå till slumpmässig position”. Lägg det efter blocket ”när grön flagga klickas på”.
 
@@ -126,7 +126,7 @@ Nu ska rymdskrotet hamna på en ny plats varje gång vi trycker på den gröna f
 
 ## 8 – Rymdskrotet rör sig
 
-Nästa steg är att få kvadraten att röra på sig.
+Sista steget för ett färdigt spel är att få kvadraten att röra på sig.
 
 Vi lägger till ett nytt block **När grön flagga klickas på** och **för alltid** så ska vi **gå 1 steg framåt**.
 
@@ -147,9 +147,9 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 >
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet! Om du vill kan du sedan fortsätta med en utmaning...
 
-## 9 – Utmaning: Räkna vikt som poäng
+## Utmaning 1 - Skapa en poängräknare
 
-Vill du fortsätta med ditt spel? Då kan du skapa en poängräknare som räknar hur många ton skrot du samlar in. När du har lyckats samla in 50 ton rymdskrot vinner du spelet! 
+Vill du fortsätta med ditt spel? Då kan du skapa en poängräknare som räknar hur många ton skrot du samlar in!
 
 Här behöver vi hålla reda på hur mycket rymdskrotet väger. Det kan vi använda en *variabel* till.
 
@@ -161,9 +161,11 @@ Nu får du bestämma vad rymdskrotet ska väga. Vad väger kvadraten? Vi använd
 
 ![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
 
-## 10 – Ännu mera rymdskrot!
+Är det lite tråkigt med bara ett rymdsrkot? Då kan du skapa flera!
 
-För att vi ska kunna samla in 50 ton behövs det mer rymdskrot! Nu ska vi lägga till fler former som alla väger olika mycket.
+## Utmaning 2 - Ännu mer rymdskrot!
+
+För att samla fler poäng behövs det mer rymdskrot! Nu ska vi lägga till fler former som alla väger olika mycket.
 
 På samma sätt som du ritade och programmerade din kvadrat – skapa nu tre nya figurer:
 
@@ -179,9 +181,7 @@ Nu ska du ha en massa rymdskrot som dyker upp på slumpmässiga platser varje g�
 
 <video src="./11_2.mp4" autoplay loop muted />
 
-## 11 – Rymdskrot med olika vikt
-
-Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket ”vikt” vi ändrar vår variabel med när vi rör de olika rymdskroten.
+Bitarna av rymdskrot ska väga olika mycket beroende på vilken form de har. Därför behöver vi ändra hur mycket vår ”vikt”-variabel ändras när vi rör de olika rymdskroten.
 
 - Kvadrat väger **5** ton
 - Cirkel väger **10** ton
@@ -190,9 +190,9 @@ Bitarna av rymdskrot väger olika mycket beroende på vilken form de har. Därf�
 
 Skriv in vikten i blocket **ändra vikt med** för varje sprajt som är ett rymdskrot.
 
-## 12 – Nollställ variabel
+## Utmaning 3 - Starta med 0 poäng
 
-Nu väger de olika bitarna olika mycket. Men vår poängräknare, variabel, bara fortsätter att räkna. Den börjar inte om från 0 när vi startar spelet.
+Nu väger de olika bitarna olika mycket. Men vår poängräknare, variabeln, bara fortsätter att räkna... Den börjar inte om från 0 när vi startar spelet!
 
 För att kunna hålla räkningen ordentligt så behöver vi *nollställa* vår variabel, sätta den till 0, varje gång vi trycker på den gröna flaggan.
 
@@ -204,11 +204,11 @@ Testa genom att fånga lite rymdskrot och sedan trycka på den gröna flaggan. S
 
 <video src="./13_2.mp4" autoplay loop muted />
 
-## 13 – Vinst när du städat färdigt
+## Utmaning 4 - Vinst när skrotet är uppfångat
 
 Hur vet vi att vi vinner spelet? Vi vill att vår rymdfarkost ska ropa ”Äntligen klart!" när vi har plockat upp allt rymdskrot. 
 
-Men hur vet spelet att vi har gjort det? Jo, om vi har städat upp allt rymdskrot så betyder det att vi har adderat ihop alla olika formers vikter i vår variabel.
+Men hur vet spelet att vi har gjort det? Jo, om vi har fångat upp allt rymdskrot så betyder det att vi har adderat ihop alla olika formers vikter i vår variabel.
 
 Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vårt ”för alltid”-block. Vi vill känna av om variabeln ”vikt” är lika mycket som *summan* av alla blockens vikt. Om den är det säger vi ”Äntligen klart!” och sedan stoppar vi alla skript med blocket ”stoppa alla”.
 
@@ -216,9 +216,9 @@ Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vår
 
 ![](./14_2.png)
 
-## 14 – Game over om rymdskrotet nuddar Mats
+## Utmaning 5 – Game over om rymdskrotet nuddar Mats
 
-Nu när vi har städat bort allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om något rymdskrot nuddar Mats. 
+Nu när vi har fångat upp allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om något rymdskrot träffar Mats. 
 
 Markera sprajten Mats. Det är där vi ska lägga till vår kod.
 
@@ -230,7 +230,7 @@ Efter det vill vi att Mats säger ”Ajajajaj!” i 2 sekunder. Och sedan vill v
 
 ![](./15_2.gif)
 
-Tips: Det kan bli svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Du kan minska storleken på Mats om du vill göra det lite lättare att vinna spelet:
+> Tips: Det kan bli svårt att hinna städa undan allt rymdskrot om Mats är väldigt stor. Du kan minska storleken på Mats om du vill göra det lite lättare att vinna spelet:
 
 ![](./15_3.png)
 
@@ -243,7 +243,3 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 > **Testa ditt projekt**
 > 
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-## Utmaningar
-
-## Frågeställningar
