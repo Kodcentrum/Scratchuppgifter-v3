@@ -40,7 +40,7 @@ Koppla ihop det med de förra blocken så att vår farkost fortsätter att åka 
 
 <video src="./2_3.mp4" autoplay loop muted />
 
-> 10 steg framåt går lite för fort. Testa att ändra till 1 steg framåt så att vår rymdfarkost åker lite långsammare.
+> Tips: 10 steg framåt går kanske lite för fort? Testa att ändra antalet steg framåt, t ex till 1 steg, så att rymdfarkosten åker långsammare.
 
 ## 3 – Svänga rymdfarkosten
 
