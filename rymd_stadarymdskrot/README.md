@@ -1,4 +1,4 @@
-# Rymdskrot
+# Rymdspel för barnhack
 
 Satelliten Mats behöver din hjälp - kan du rädda den från rymdskrot?! Vi ska skapa ett spel där du fångar upp rymdskrot med din rymdfarkost. Om Mats blir träffad av rymdskrot blir det "Game Over!". 
 
@@ -16,7 +16,7 @@ Vi börjar med att starta med ett projekt som redan innehåller en rymdfarkost, 
 
 Nu kan du börja skapa ditt spel!
 
-##  1 – Hoppa framåt
+##  1 – Åk framåt
 
 Vi ska börja med att röra oss framåt i rymden. Vi behöver blocket ”När grön flagga klickas på” och blocket ”gå 10 steg”.
 
@@ -26,7 +26,7 @@ Testa att trycka på den gröna flaggan och se om vad som händer.
 
 <video src="./1_3.mp4" autoplay loop muted />
 
-## 2 – Loopa
+## 2 – Loopa för alltid framåt
 
 Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt.
 
@@ -42,7 +42,7 @@ Koppla ihop det med de förra blocken så att vår farkost fortsätter att åka 
 
 > 10 steg framåt går lite för fort. Testa att ändra till 1 steg framåt så att vår rymdfarkost åker lite långsammare.
 
-## 3 – Svänga
+## 3 – Svänga rymdfarkosten
 
 Nästa steg är att lägga till styrning.
 
@@ -147,7 +147,7 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 >
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet! Om du vill kan du sedan fortsätta med en utmaning...
 
-## Utmaning 1 - Skapa en poängräknare
+## Utmaning - Skapa en poängräknare
 
 Vill du fortsätta med ditt spel? Då kan du skapa en poängräknare som räknar hur många ton skrot du samlar in!
 
@@ -163,7 +163,7 @@ Nu får du bestämma vad rymdskrotet ska väga. Vad väger kvadraten? Vi använd
 
 Är det lite tråkigt med bara ett rymdsrkot? Då kan du skapa flera!
 
-## Utmaning 2 - Ännu mer rymdskrot!
+## Ännu mer rymdskrot!
 
 För att samla fler poäng behövs det mer rymdskrot! Nu ska vi lägga till fler former som alla väger olika mycket.
 
@@ -190,7 +190,7 @@ Bitarna av rymdskrot ska väga olika mycket beroende på vilken form de har. Dä
 
 Skriv in vikten i blocket **ändra vikt med** för varje sprajt som är ett rymdskrot.
 
-## Utmaning 3 - Starta med 0 poäng
+# Starta med 0 poäng
 
 Nu väger de olika bitarna olika mycket. Men vår poängräknare, variabeln, bara fortsätter att räkna... Den börjar inte om från 0 när vi startar spelet!
 
@@ -204,7 +204,7 @@ Testa genom att fånga lite rymdskrot och sedan trycka på den gröna flaggan. S
 
 <video src="./13_2.mp4" autoplay loop muted />
 
-## Utmaning 4 - Vinst när skrotet är uppfångat
+# Vinst när skrotet är uppfångat
 
 Hur vet vi att vi vinner spelet? Vi vill att vår rymdfarkost ska ropa ”Äntligen klart!" när vi har plockat upp allt rymdskrot. 
 
@@ -216,7 +216,7 @@ Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vår
 
 ![](./14_2.png)
 
-## Utmaning 5 – Game over om rymdskrotet nuddar Mats
+# Game over om rymdskrotet nuddar Mats
 
 Nu när vi har fångat upp allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om något rymdskrot träffar Mats. 
 
