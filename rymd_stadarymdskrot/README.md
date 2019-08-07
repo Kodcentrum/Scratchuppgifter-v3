@@ -1,16 +1,20 @@
 # Rymdskrot
 
-**Rädda satelliten Mats från rymdskrot!**
+Satelliten Mats behöver din hjälp - kan du rädda den från rymdskrot?! Vi ska skapa ett spel där du fångar upp rymdskrot med din rymdfarkost. Om Mats blir träffad av rymdskrot blir det "Game Over!". 
 
 <video src="./0_1.mp4" autoplay loop muted />
 
-Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
+Vi börjar med att starta med ett projekt som redan innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund. Detta kallas att *remixa*.
 
-1. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/282942221/" target="_blank">https://scratch.mit.edu/projects/282942221/</a>
+1. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/282942221/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
 	
-2. Klicka på knappen **Se inuti** så att du kan se koden.
+2. Klicka på knappen **Se inuti** så att du kan se koden. 
 
-Nu har du ett projekt som innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad för att kunna remixa.
+
+> Tips! Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
+
+Nu kan du börja skapa ditt spel!
 
 ##  1 – Hoppa framåt
 
