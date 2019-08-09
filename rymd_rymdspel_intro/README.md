@@ -2,34 +2,34 @@
 
 Satelliten Mats är i fara! Det flyger runt en massa rymdskrot ute i rymden och en del av det kanske träffar Mats. Både stora- och små bitar kan vara farliga. Det är bäst att vi försöker städa undan så mycket som möjligt.
 
-Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda Mats från rymdskrotet. Vi lyckas rädda Mats om vi samlar ihop 50 poäng och vi får poäng varje gång vi plockar upp rymdskrot. Om rymdskrotet rör vid Mats så får vi ”Game Over” och behöver börja om.
+Vi ska bygga ett projekt i Scratch där vi får möjlighet att rädda satelliten Mats från rymdskrotet. Vi lyckas rädda Mats om vi samlar ihop 50 poäng och vi får poäng varje gång vi plockar upp rymdskrot. Om rymdskrotet rör vid Mats så blir vi ”Game Over” och behöver börja om.
 
-Så här kan det se ut: <a href="https://scratch.mit.edu/projects/311874292/" target="_blank">https://scratch.mit.edu/projects/311874292/</a>
+Här kan du se ett exempel på hur spelet kan se ut: <a href="https://scratch.mit.edu/projects/311874292/" target="_blank">https://scratch.mit.edu/projects/311874292/</a>
 
 <video src="./0_1.mp4" autoplay loop muted />
 
-Vi börjar med att starta från ett startprojekt. Detta kallas att *remixa*.
+Nu ska vi börja bygga vårt eget spel. Vi börjar med att starta från ett förberett startprojekt. I Scratch kallas detta att *remixa* ett projekt.
 
-1. Öppna din webbläsare och gå till
+1. Öppna din webbläsare på datorn och gå till
 		
 	<a href="https://scratch.mit.edu/projects/298331110/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
 	
-2. Klicka på knappen **Se inuti** så att du kan se koden.
-3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad för att kunna remixa. 
+2. Klicka på knappen **Se inuti** så att du kan se koden i det förberedda projektet.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad på Scratch för att kunna remixa. 
 
-> **Tips!** Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
+> **Tips!** Om du inte har konto på Scratch kan du ändra direkt i exempelprojektet och sen välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
 
-Nu har du ett projekt som innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund.
+Nu har du ett startprojekt som innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund. Gå vidare till nästa avsnitt, nu är det dax att börja koda!
 
 ##  1 – Hoppa framåt
 
-Vi ska börja med att röra oss framåt i rymden. Vi behöver två block från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
+Vi ska börja med att röra oss framåt i rymden med den stora rymdfarkosten. Vi behöver två kodblock från biblioteket. Ett block ”När grön flagga klickas på” och ett block ”gå 10 steg”.
 
 ![](./1_1.png)
 
 ![](./1_2.png)
 
-Kan du koppla ihop dem så att vår farkost hoppar framåt varje gång vi trycker på den gröna flaggan?
+Kan du koppla ihop dem så att vår stora rymdfarkost hoppar framåt varje gång vi trycker på den gröna flaggan?
 
 <video src="./1_3.mp4" autoplay loop muted />
 
