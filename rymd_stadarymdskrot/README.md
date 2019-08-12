@@ -7,13 +7,15 @@ Vi ska skapa ett spel där du fångar upp rymdskrot med din rymdfarkost. Om Mats
 
 Vi börjar med att starta med ett projekt som redan innehåller en rymdfarkost, satelliten Mats och en rymdbakgrund. Detta kallas att *remixa*.
 
-1. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/298331110/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
+1. **Logga in** på ditt konto på Scratch. 
+
+2. Klicka på denna länk för att öppna startprojektet: <a href="https://scratch.mit.edu/projects/298331110/" target="_blank">https://scratch.mit.edu/projects/298331110/</a>
 	
 2. Klicka på knappen **Se inuti** så att du kan se koden. 
 
-3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. Du måste vara inloggad för att kunna remixa.
+3. Klicka på knappen **"Remix"** så att du får din egen version av projektet. 
 
-> Tips! Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
+> Tips! Du måste vara inloggad för att kunna remixa. Om du inte har konto på Scratch kan du ändra direkt i projektet och välja **Spara till din dator** (under Arkiv) när du vill spara ditt projekt.
 
 Nu kan du börja skapa ditt spel!
 
@@ -29,7 +31,7 @@ Testa att trycka på den gröna flaggan och se om vad som händer.
 
 ## 2 – Loopa för alltid framåt
 
-Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt.
+Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt så länge spelet är igång.
 
 Det finns ett block som heter ”för alltid”. 
 
@@ -45,7 +47,7 @@ Koppla ihop det med de förra blocken så att vår farkost fortsätter att åka 
 
 ## 3 – Svänga rymdfarkosten
 
-Nästa steg är att lägga till styrning.
+Nästa steg är att lägga till styrning så att du kan styra rymdfarkosten med piltangenterna.
 
 Det finns ett block som heter ”när mellanslag-tangenten trycks ned” och två block som svänger. Ett block svänger vänster och ett block svänger höger.
 
@@ -61,7 +63,7 @@ Så här ska din kod se ut nu:
 
 ## 4 – Rita rymdskrot
 
-Låt oss lägga till lite rymdskrot i vår rymd så att vi har något att städa.
+Låt oss lägga till lite rymdskrot i vår rymd så att vi har något att fånga upp och skydda satelliten Mats ifrån.
 
 Tryck på knappen för att måla en ny sprajt.
 
@@ -78,6 +80,8 @@ Döp din sprajt till ”kvadrat”.
 ![](./5_3.png)
 
 ## 5 – Gömma rymdskrot
+
+När du fångar upp rymdskrotet vill du såklart att det ska försvinna! Nu ska vi göra så att kvadraten försvinner när rymdfarkosten nuddar vid den.
 
 Tryck på ”kvadrat” i ditt sprajtbibliotek så att den är vald.
 
@@ -143,9 +147,6 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 > **Grattis! Nu har du skapat ett spel**
 >
 >Snyggt jobbat! Nu kan du städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
-
-> **Testa ditt projekt**
->
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet! Om du vill kan du sedan fortsätta med en utmaning...
 
 ## Utmaning - Skapa en poängräknare
@@ -191,7 +192,7 @@ Bitarna av rymdskrot ska väga olika mycket beroende på vilken form de har. Dä
 
 Skriv in vikten i blocket **ändra vikt med** för varje sprajt som är ett rymdskrot.
 
-# Starta med 0 poäng
+## Starta med 0 poäng
 
 Nu väger de olika bitarna olika mycket. Men vår poängräknare, variabeln, bara fortsätter att räkna... Den börjar inte om från 0 när vi startar spelet!
 
@@ -205,7 +206,7 @@ Testa genom att fånga lite rymdskrot och sedan trycka på den gröna flaggan. S
 
 <video src="./13_2.mp4" autoplay loop muted />
 
-# Vinst när skrotet är uppfångat
+## Vinst när skrotet är uppfångat
 
 Hur vet vi att vi vinner spelet? Vi vill att vår rymdfarkost ska ropa ”Äntligen klart!" när vi har plockat upp allt rymdskrot. 
 
@@ -217,7 +218,7 @@ Välj sprajten ”rymdfarkost”. Nu ska vi lägga till ett par block inuti vår
 
 ![](./14_2.png)
 
-# Game over om rymdskrotet nuddar Mats
+## Game over om rymdskrotet nuddar Mats
 
 Nu när vi har fångat upp allt rymdskrot så kan vi pusta ut. Men vi har inte kodat vad som ska hända om något rymdskrot träffar Mats. 
 
