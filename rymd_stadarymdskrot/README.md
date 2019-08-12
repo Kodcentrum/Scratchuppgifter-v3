@@ -1,7 +1,7 @@
 # Rymdspel för barnhack
 
-**Satelliten Mats behöver din hjälp - kan du rädda den från rymdskrot?!** 
-Vi ska skapa ett spel där du fångar upp rymdskrot med din rymdfarkost. Om Mats blir träffad av rymdskrot blir det "Game Over!". 
+**Satelliten Mats behöver din hjälp - kan du rädda den från rymdskrot?!
+Vi ska skapa ett spel där du fångar upp rymdskrot med din rymdfarkost. Om Mats blir träffad av rymdskrot blir det "Game Over!".** 
 
 <video src="./0_1.mp4" autoplay loop muted />
 
