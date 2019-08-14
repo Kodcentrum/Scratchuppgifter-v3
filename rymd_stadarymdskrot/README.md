@@ -51,7 +51,9 @@ Lägg in gå-blocket i för alltid-loopen. Nu kommer vår farkost att fortsätta
 
 Nästa steg är att lägga till styrning så att du kan styra rymdfarkosten med piltangenterna.
 
-Det finns ett block under Händelser som heter ”när mellanslag-tangenten trycks ned” och där du kan ändra i rullistan till piltangenterna. Under Rörelse finns två block som roterar, ett åt vänster och ett åt höger.
+Det finns ett block under Händelser som heter ”när mellanslag-tangenten trycks ned” och där du kan ändra i rullistan till piltangenterna. 
+
+Under Rörelse finns två block som roterar, ett åt vänster och ett åt höger.
 
 ![](./3_2.png)
 
