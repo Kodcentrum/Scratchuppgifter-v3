@@ -29,6 +29,8 @@ Testa att trycka på den gröna flaggan och se om vad som händer.
 
 <video src="./1_3.mp4" autoplay loop muted />
 
+> Tips! Testa att ändra antal steg som farkosten går. Vad händer?
+
 ## 2 – Loopa för alltid framåt
 
 Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt så länge spelet är igång.
