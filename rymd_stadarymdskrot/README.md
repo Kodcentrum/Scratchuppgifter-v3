@@ -81,7 +81,7 @@ Rita en kvadrat genom att välja kvadratverktyget från paletten till vänster o
 
 ## 5 – Gömma rymdskrot
 
-När din farkost fångar upp rymdskrotet vill du såklart att det ska försvinna! Nu ska vi göra så att rymdskrotssprajten försvinner när rymdfarkosten nuddar vid den.
+När din farkost fångar upp rymdskrotet vill du såklart att det ska försvinna! Nu ska vi göra så att sprajten för rymdskrot försvinner när farkosten nuddar vid den.
 
 Tryck på ditt rymdskrot i sprajtbiblioteket så att den är vald och klicka på fliken ”Kod” för att komma till koden för kvadraten.
 
