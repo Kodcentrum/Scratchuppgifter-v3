@@ -21,7 +21,7 @@ Nu kan du börja skapa ditt spel!
 
 ##  1 – Åk framåt
 
-Vi ska börja med att röra oss framåt i rymden. Vi behöver blocket ”När grön flagga klickas på” och blocket ”gå 10 steg”.
+Vi ska börja med att röra oss framåt i rymden. Vi behöver blocket ”När grön flagga klickas på” från Händelser och blocket ”gå 10 steg” från Rörelse.
 
 ![Nu hoppar vi framåt varje gång vi trycker på den gröna flaggan](./2_1.png)
 
@@ -29,33 +29,33 @@ Testa att trycka på den gröna flaggan och se om vad som händer.
 
 <video src="./1_3.mp4" autoplay loop muted />
 
-> Tips! Testa att ändra antal steg som farkosten går. Vad händer?
+> Tips! Testa att ändra antal steg som farkosten går framåt. Vad händer?
 
 ## 2 – Loopa för alltid framåt
 
-Nästa steg är att lägga till en loop så att vår rymdfarkost fortsätter att åka framåt så länge spelet är igång.
+Nu rör sig rymdfarkosten bara en gång och stannar sedan. För att få den att fortsätta åka framåt så länge spelet är igång kan vi lägga till en loop!
 
 Det finns ett block som heter ”för alltid”. 
 
 ![För alltid](./2_2.png)
 
-Koppla ihop det med de förra blocken så att vår farkost fortsätter att åka framåt utan att stanna när vi trycker på den gröna flaggan.
+Lägg in gå-blocket i för alltid-loopen. Nu kommer vår farkost att fortsätta åka framåt utan att stanna när vi trycker på den gröna flaggan.
 
 ![Nu fortsätter vi att gå framåt. För alltid.](./3_1.png)
 
 <video src="./2_3.mp4" autoplay loop muted />
 
-> Tips: 10 steg framåt går kanske lite för fort? Testa att ändra antalet steg framåt, t ex till 1 steg, så att rymdfarkosten åker långsammare.
+> Tips: 10 steg framåt går kanske lite för fort? Testa att ändra antalet steg, t ex till 1 steg, så att rymdfarkosten åker långsammare.
 
 ## 3 – Svänga rymdfarkosten
 
 Nästa steg är att lägga till styrning så att du kan styra rymdfarkosten med piltangenterna.
 
-Det finns ett block som heter ”när mellanslag-tangenten trycks ned” och två block som svänger. Ett block svänger vänster och ett block svänger höger.
+Det finns ett block under Händelser som heter ”när mellanslag-tangenten trycks ned” och där du kan ändra i rullistan till piltangenterna. Under Rörelse finns två block som roterar, ett åt vänster och ett åt höger.
 
 ![](./3_2.png)
 
-Kan du ändra och sätta ihop dessa block så att när ”vänsterpil” tangenten trycks ned så ska farkosten svänga vänster? Och när ”högerpil” tangenten trycks ned så ska farkosten svänga höger?
+Kan du sätta ihop dessa block så att när ”vänsterpil” tangenten trycks ned så ska farkosten svänga vänster? Och när ”högerpil” tangenten trycks ned så ska farkosten svänga höger?
 
 <video src="./3_3.mp4" autoplay loop muted />
 
@@ -65,29 +65,23 @@ Så här ska din kod se ut nu:
 
 ## 4 – Rita rymdskrot
 
-Låt oss lägga till lite rymdskrot i vår rymd så att vi har något att fånga upp och skydda satelliten Mats ifrån.
+Dags att lägga till lite rymdskrot så att vi har något att skydda satelliten Mats ifrån!
 
 Tryck på knappen för att måla en ny sprajt.
 
 <img src="./5_1.png" width="263" alt="Tryck på knappen för att måla en ny sprajt" />
 
-Rita en kvadrat genom att välja kvadratverktyget från palletten till vänster och sedan rita en kvadrat på den rutiga ytan. Välj vilken färg du vill.
-
-> Tips! För att rita en *liksidig* kvadrat så håll ned tangenten **shift** när du ritar ut din kvadrat.
+Rita en kvadrat genom att välja kvadratverktyget från paletten till vänster och sedan rita en kvadrat på den rutiga ytan. Välj vilken färg du vill.
 
 ![](./5_2.png)
 
-Döp din sprajt till ”kvadrat”.
-
-![](./5_3.png)
+> Tips! Du kan rita ditt rymdskrot som du vill och i vilken form du vill ha det! I det här exemplet använder vi kvadrat för att sedan fylla på med mer rymdskrot: en cirkel, en rektangel och en triangel.
 
 ## 5 – Gömma rymdskrot
 
-När du fångar upp rymdskrotet vill du såklart att det ska försvinna! Nu ska vi göra så att kvadraten försvinner när rymdfarkosten nuddar vid den.
+När din farkost fångar upp rymdskrotet vill du såklart att det ska försvinna! Nu ska vi göra så att rymdskrotssprajten försvinner när rymdfarkosten nuddar vid den.
 
-Tryck på ”kvadrat” i ditt sprajtbibliotek så att den är vald.
-
-Nu ska vi lägga till kod för vår kvadrat så att den försvinner när vår farkost rör vid det. Klicka på fliken ”kod” för att komma till koden för kvadraten.
+Tryck på ditt rymdskrot i sprajtbiblioteket så att den är vald och klicka på fliken ”Kod” för att komma till koden för kvadraten.
 
 ![](./6_1.png)
 
@@ -97,11 +91,11 @@ För det behöver vi dessa block:
 
 ![Kan vi sätta ihop dem i rätt ordning?](./6_2.png)
 
-Kan du sätta ihop dem i rätt ordning så att kvadraten försvinner när vi rör vid den med vår rymdfarkost?
+Kan du sätta ihop dem i rätt ordning så att rymdskrotet försvinner när vi rör vid den med vår rymdfarkost?
 
 <video src="./6_3.mp4" autoplay loop muted />
 
-> Oroa dig inte för att kvadraten har försvunnit. Vi programmerar så att den visas igen i nästa steg.
+> Oroa dig inte för att rymdskrotet har försvunnit. Vi ska koda så att den visas igen i nästa steg.
 
 ## 6 – Visa rymdskrot igen
 
@@ -109,19 +103,19 @@ Så här ska din kod se ut nu:
 
 ![Ser din kod ut såhär?](./7_1.png)
 
-Nästa steg är att visa kvadraten igen när vi trycker på den gröna flaggan.
+Nästa steg är att visa rymdskrotet igen när vi trycker på den gröna flaggan.
 
-Det finns ett block som heter ”visa”. Vi skulle kunna lägga det så att det händer precis efter vi har klickat på den gröna flaggan.
+Det finns ett block som heter ”visa”. Vi kan lägga det så att det händer först av allt, precis efter vi har klickat på den gröna flaggan.
 
 ![](./8_1.png)
 
-Testa! Visas vår kvadrat när du trycker på den gröna flaggan?
+Testa! Visas rymdskrotet när du trycker på den gröna flaggan? Gömmer den sig när rymdfarkosten nuddar vid den?
 
 <video src="./7_3.mp4" autoplay loop muted />
 
 ## 7 – Slumpa startposition
 
-Det blir mer spännande om du inte vet var rymdskrotet dyker upp! För att göra det ska vi ge kvadraten en *slumpmässig* position för var den ska visa sig.
+Det blir mer spännande om du inte vet var rymdskrotet dyker upp! För att göra det ska vi ge sprajten en *slumpmässig* position för var den ska visa sig.
 
 Det finns ett block ”gå till slumpmässig position”. Lägg det efter blocket ”när grön flagga klickas på”.
 
@@ -133,7 +127,7 @@ Nu ska rymdskrotet hamna på en ny plats varje gång vi trycker på den gröna f
 
 ## 8 – Rymdskrotet rör sig
 
-Sista steget för ett färdigt spel är att få kvadraten att röra på sig.
+Sista steget för ett färdigt spel är att få rymdskrotet att röra på sig.
 
 Vi lägger till ett nytt block **När grön flagga klickas på** och **för alltid** så ska vi **gå 1 steg framåt**.
 
@@ -149,13 +143,13 @@ Vi vill att vårt rymdskrot ska studsa vid kanten efter att det ha **gått 1 ste
 > **Grattis! Nu har du skapat ett spel**
 >
 >Snyggt jobbat! Nu kan du städa rymden från rymdskrot och rädda Mats från ett hemskt öde.
-> Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet! Om du vill kan du sedan fortsätta med en utmaning...
+> Visa gärna någon och låt dem testa spelet. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Om du vill kan du sedan fortsätta med en utmaning...
 
 ## Utmaning - Skapa en poängräknare
 
-Vill du fortsätta med ditt spel? Då kan du skapa en poängräknare som räknar hur många ton skrot du samlar in!
+Vill du fortsätta med ditt spel? Då kan du skapa en poängräknare som räknar hur mycket rymdskrot du samlar in!
 
-Här behöver vi hålla reda på hur mycket rymdskrotet väger. Det kan vi använda en *variabel* till.
+I det här spelet ska vi få poäng för varje ton rymdskrot du fångar upp. Då behöver vi hålla reda på hur mycket rymdskrotet väger. Det kan vi använda en *variabel* till.
 
 Använd knappen **skapa en variabel** (under Variabler) och ge den namnet ”vikt”.
 
@@ -165,7 +159,7 @@ Nu får du bestämma vad rymdskrotet ska väga. Vad väger kvadraten? Vi använd
 
 ![Nu räknar vi hur mycket rymdskrot vi plockar upp](./11_1.png)
 
-Är det lite tråkigt med bara ett rymdsrkot? Då kan du skapa flera!
+Är det tråkigt med bara ett rymdskrot? Vill du kunna få fler poäng? Då kan du skapa flera!
 
 ## Ännu mer rymdskrot!
 
