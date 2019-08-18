@@ -27,7 +27,7 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
 Nu har du fått en rad nya block som du kan styra din kamera med.
 
-4. Klicka på SCEN längst ned till höger och gå in på fliken SKRIPT högst upp i mitten.
+4. Klicka på SCEN längst ned till höger och gå in på fliken KOD högst upp till vänster.
 
 3. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den kopplar du fast blocket för **sätt video till på**.
 
@@ -100,7 +100,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 6. Ändra också **sätt dragläge**-blocket till **inte dragbar** så att knapparna in kan dras över scenen när den är i fullskärmsläge.
 
-Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten.  Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha!
+Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha!
 
 7. Välj en knapp och gå till fliken för SKRIPT. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
 
