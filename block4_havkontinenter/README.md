@@ -1,12 +1,12 @@
 # Hav och kontinenter
 
-I denna uppgift ska du få skapa en prototyp till frågesport som du till exempel kan använda i skolan. Först ska du få koda ett spel som går ut på att gissa var olika hav ligger. Därefter kommer du att få utöka programmet med frågor om var olika kontinenter ligger. Även om det i detta exempel är ett geografispel, kan frågesporten också göras på helt andra teman, allt från att gissa djur till ABC-spel eller matematikfrågor! I uppgiften kommer du få använda dig av många funktioner och sprajtar.
+I denna uppgift ska du få skapa en prototyp till frågesport som du till exempel kan använda i skolan. Först ska du få koda ett spel som går ut på att gissa var olika hav ligger. Om du vill, kommer du att få utöka programmet med frågor om var olika kontinenter ligger. Även om det i detta exempel är ett geografispel, kan frågesporten också göras på helt andra teman, allt från att gissa djur till ABC-spel eller matematikfrågor! I uppgiften kommer du få använda dig av många funktioner och sprajtar.
 
   ![image alt exempel](image_1.png)
 
-Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116509972/" target="_blank">https://scratch.mit.edu/projects/116509972/</a>
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/301691594/" target="_blank">https://scratch.mit.edu/projects/301691594/</a>
 
-## 1: Bakgrund och några sprajtar
+## 1: Bakgrund och två sprajtar
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
@@ -15,120 +15,145 @@ Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.
   > **_Kan jag använda bilder som jag hittar på nätet?_**
 *Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
 
-3.	Nu behöver du en knapp för att starta frågesporten. Du kan till exempel använda dig av sprajten Sport/Ball. Sätt den i ett hörn av spelplanen.
+3.	Nu behöver du en knapp för att starta frågesporten. Sätt den i ett hörn av spelplanen.
+    Här har jag använt mig av en knapp från biblioteket som jag skrivit en text på.
 
-4.	Rita en ny sprajt och gör den till en ganska liten cirkel. Det är denna sprajt som du ska klicka på för att **gissa på olika hav** så till att den är **fylld**. Dra sprajten så att den ligger i **”Indiska oceanen”** på kartan.
+4. Sätt namnet på sprajten till **Hav_knapp**
 
-5.	Skapa en variabel för alla sprajter som heter **”poäng”**
+5.	Rita en ny sprajt och gör den till en ganska liten cirkel. Det är denna sprajt som du ska klicka på för att **gissa på olika hav** så till att den är **fylld**. Dra sprajten så att den ligger i **”Indiska oceanen”** på kartan.
 
-6.	Skapa en lista för all sprajter som heter **”alternativ”**
+![image alt exempel](image_2.png)
 
-  ![image alt exempel](image_2.png)
+## 2: En variabel och en lista
 
-## 2: Starta spelet
+1.	Skapa en variabel för alla sprajter som heter **”poäng”**. Variabler hittar du under kategorin som heter **Variabler**.
 
-I förra uppgiften skapade du en knapp, **Ball** för att starta spelet samt variabeln **"poäng"** och listan **"alternativ"**. När du klickar på knappen ska spelet börja: **"poäng"** ska nollställas och i listan **"alternativ"** ska alla svars alternativ läggas till. Det ska du få koda nu!
+Denna variabel kommer du använda för att hålla reda på hur många poäng du har.
 
-1.	Skapa ett skript för sprajten **Ball** som säger:
+2.	Skapa en lista för all sprajter som heter **”alternativ”**. Listor hittar du också under kategorin **Variabler**
+
+![image alt exempel](image_3.png)
+
+  > En **lista** är en speciell typ av variabler som kan innehålla flera värden. Om du tänker dig att en variabel är som en låda för ett värde eller en sak, så är en lista en låda som det får plats flera olika saker i.
+
+
+ Här kommer vi använda listan för att hålla reda på de olika sakerna som spelaren kan gissa på. Först kommer vi se till att det finns olika hav i listan.
+
+## 3: Starta spelet
+
+Nu ska du få koda vad som händer om du klickar på knappen **Hav_knapp**!
+
+1.	Skapa ett skript för sprajten **Hav_knapp** som säger:
 
   * Startar när sprajten klickas på
 
   * Skicka meddelandet **”starta nytt havsspel”**
 
-2. Skapa ett till skript för samma sprajt
-  *	Startar när den tar emot meddelandet **”starta nytt havsspel”**
+  ![image alt exempel](image_4.png)
+
+2. Skapa ett till skript för sprajten som startar när den tar emot meddelandet **”starta nytt havsspel”**:
 
   * Sätt **"poäng"** till **0**
 
-  * **Ta bort allt** i listan **”alternativ”**
+  * **ta bort alla** i listan **”alternativ”**
 
-  * **Sätt** in **”Atlanten”** sist i **"alternativ"**
+  * **Lägg** till **Indiska oceanen** i **"alternativ"**
 
-  * **Sätt** in **”Stilla havet”** sist i **"alternativ"**
+  * **Lägg** till **Atlanten** i **"alternativ"**
 
-  * **Sätt** in **”Indiska oceanen”** sist i **"alternativ"**
+  * **Lägg** till **Stilla havet** i **"alternativ"**
+
+  * **Skicka** meddelandet **"fråga hav"**
 
 
-  ![image alt block](image_3.png)
+  ![image alt block](image_5.png)
 
-  _Det här är några av de block du behöver för punkt 8. Tänk på att vissa behöver användas mer än en gång._
 
 > Testa spelet! Läggs det till olika hav i listan när du klickar på sprajten?
 
-9.	Skapa en variabel som heter **”rätt svar”**. Den ska inte visas på skärmen. Denna variabel ska peka på det svarsalternativ som är rätt.
+## 4: Ställ en fråga
 
-  ![image alt nyttblock](image_4.png)
+Nu ska du få programmera vad som händer när meddelandet **"fråga hav"** skickas.
 
-10.	Skapa ett nytt block som heter **”fråga”**, och som gör följande. (Du kan skapa nya block under fliken **Fler block**)
 
-  *	Sätt **”rätt svar”** till ett **slumptal** mellan **1** och **längden på ”gissningar”**
+9.	Skapa en variabel som heter **”rätt svar”**. Den ska inte visas på skärmen.
 
-  *	Säg **”Var ligger ”** + **objekt ”rätt svar” i "alternativ"** + **”?”**. +-tecknet här betyder att du ska sammanfoga flera olika strängar och variabler.
+Denna variabel ska peka på det svarsalternativ som är rätt. Det vill säga den plats i listan **"alternativ"** som är rätt.
 
-   ![image alt block](image_5.png)
 
-11.	Se till att blocket **”fråga”** körs när sprajten **Ball** tar emot meddelandet **”starta nytt havsspel”**. Du kan lägga in blocket efter koden du skapade ovan i punkt 2.
+10.	Skapa ett nytt som skript för **Hav_knapp**  som startar när den tar emot meddelandet **"fråga hav"**:
 
-## 3: Hav-prickar!
 
-Nu ska du göra så att du eller någon annan kan gissa på olika hav genom att klicka på hav-prickar. Du skapade en sådan sprajt ovan och det ska bli enkelt att skapa fler sådana prickar utan för mycket kod:
 
-* Du kan först **skapa många sprajter** och **sedan koda** för de olika sprajterna. Det kommer innebära att du får koda väldigt mycket.
+  *	Sätt **”rätt svar”** till ett **slumptal** mellan **1** och **längden på ”gissningar”** ![image alt block](image_6.png)
 
-* Istället _bör_ du **koda för en sprajt** och **sedan kopiera**. Då behöver du inte göra så mycket job.
 
-* Problemet är då hur du gör de olika sprajterna UNIKA. Till exempel så att du vet vilken som är på "Indiska oceanen" och vilken som är på "Atlanten".
+  *	Säg **”Var ligger ”** + **objekt ”rätt svar” i "alternativ"** + **”?”**.   ![image alt block](image_7.png)
 
-* Svaret är LOKALA VARIABLER. Varje sprajt har en variabel som **bara de själva ser**. Tänk på den som ett **id-nummer**. Eftersom varje sprajt har ett UNIKT **id-nummer** kan du känna igen dem. Fiffigt va?
 
-Nu till kodandet:
+
+  ![image alt block](image_8.png)
+
+
+> Testa spelet! Får du en fråga när du klickar på Hav_knappen?
+
+## 5: Svara med ett klick
+
+Nu ska du göra så att du eller någon annan kan gissa på olika hav genom att klicka på hav-prickar.
+
+Du skapade en sådan sprajt ovan och det ska bli enkelt att skapa fler sådana prickar utan för mycket kod. Först kommer du koda en prick, och sen kommer du kopiera den pricken så du får tre olika prickar.
+
 
 1.	Skapa en variabel för alla sprajter som heter **”svar”**. Den ska inte visas på skärmen.
 
-2.	Skapa ett skript i sprajten **Sprajt1** (cirkeln du ritade) som säger:
+2. Skapa ett skript för sprajten **Sprajt1** (cirkeln du ritade) som säger:
+
+    * När START klickas på
+
+    * **Göm**
+
+3. Skapa et till skript för  **Sprajt1** som säger:
+
+    * När **meddelandet "start nytt havsspel** tas emot
+
+    * **Visa**
+
+    ![image alt block](image_9.png)
+
+
+3.	Skapa ett tredje skript för **Sprajt1** som säger:
 
   * Startar när den klickas på
 
-  * Sätt **"svar”** till **3**
+  * Sätt **"svar”** till **1**
 
   * Skickar meddelandet **”rätta hav”**
 
-  * Säg **objekt 3** i **”alternativ”** i 2 sekunder.
+  * Säg **objekt 1** i **”alternativ”** i 2 sekunder.
 
 
-  ![image alt block](image_6.png)
+  ![image alt block](image_10.png)
 
-Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har. Det är i allmänhet inte bra att använda sig av siffror på det här sättet. Och det blir krångligt när du ska kopiera sprajten. Till exempel behöver du byta ut **3**:an på flera ställen. Därför ska du ersätta **3**:an med en LOKAL VARIABEL som bara finns för denna sprajt. Den kommer att fungera som ett **id-nummer** för sprajten.
+> Du använder dig av **1** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har.
 
-  ![image alt lokalvar](image_7.png)
+Nu kan du skapa fler prickar!
 
-3.	Skapa en variabel för **Sprajt1** som heter **”id”**. Var noga med att skapa denna variabel _enbart för denna sprajt_.
+6.	Kopiera **Sprajt1** och placera kopian på **"Atlanten"** på kartan.
 
-4.	Skapa ett skript för **Sprajt1** som säger:
+7.	**Ändra skriptet** som körs när sprajten klickas på. *Se till att **1:orna** byts ut mot **2:or***
 
-  * Startar när START klickas på
+![image alt block](image_11.png)
 
-  * Sätt **”id”** till **3**
 
-5.	**Ändra** i det skriptet som du skapade i punkt 2 ovan så att **3**:an byts ut mot variabeln **”id”**.
-
-  ![image alt block](image_9.png) **INTE** ![image alt block](image_8.png)
-
-Nu kan du skapa fler prickar! Eftersom du har använder **"id"** som är UNIK för varje sprajt kan du lätt känna igen dem.
-
-6.	Kopiera **Sprajt1** och placera kopian på Atlanten i kartan.
-
-7.	Ändra skriptet som sätter **”id”** så att värdet i stället blir **1**. Nu har den sprajten ett annat **id-nummer** än pricken i Indiska oceanen.
-
-8.	Repetera punkterna 6 och 7 men placera den tredje pricken i Stilla havet och sätt **”id”** till **2**.
+8.	Repetera punkterna 6 och 7 men placera den tredje pricken i Stilla havet och byt ut **1:orna** till **3:or**.
 
 > Vad händer nu om du klickar på de olika prickarna? Visar de rätt namn?
 
-## 4: Rätta gissningen
+## 6: Rätta gissningen
 
 Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 
-1.	Skapa ett skript i **Ball** som säger
+1.	Skapa ett skript för **Hav_knapp** som säger
 
   * Startar när den tar emot meddelandet **”rätta hav”**
 
@@ -136,7 +161,7 @@ Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 
     * Öka **"poäng"** med **1**
 
-    * **fråga** (det här blocket skapade du tidigare)
+    * Skicka **meddelandet "fråga hav"**
 
   * Annars:
 
@@ -144,49 +169,42 @@ Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 
     * Skicka meddelandet **”starta nytt havsspel”**
 
+![image alt block](image_12.png)
+
+
   > Nu ska du ha en första fungerande version av spelet. Testa! Ökar poängen om du gissar på rätt hav? Nollställs poängen om du gissar fel?
 
-2.	Lägg till **ny** kod **efter** att du ändrat poäng med **1**:
 
-  *	**Repetera** 40 gånger:  Ändra **färg effekten** med 25
-
-  * **Ta bort grafiska effekten**
-
-Nu har du lagt till en liten färganimation som visas om du gissar rätt.
-
-![image alt block](image_10.png)
-
-## 5: Kontinenter
+## 7: Kontinenter - knappen
 
 Nu ska du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från sprajtar du redan kodat. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
 
-1.	Kopiera sprajten **Ball** och placera den i ett annat hörn. Välja en annan klädsel för den nya sprajten så att den ser annorlunda ut.
+1.	Kopiera sprajten **Hav_knapp** och placera den i ett annat hörn. Rita om knappen så att den ser annorlunda ut
 
-  **Tips:** Om du vill kan du använda textverktyget och skriva "H" och "K" på de olika knapparna så att de är lättare att förstå.
+![image alt block](image_13.png)
 
-2.	Ändra i den nya sprajten **Ball2** så att den skickar meddelandet **”starta nytt kontinentspel”** i stället för **”starta nytt havsspel”** när den klickas på.
+2.  Döp den nya sprajten till **Kontinent_knapp**
+
+2.	Ändra i den nya sprajten **Kontinent_knapp** så att den skickar meddelandet **”starta nytt kontinentspel”** i stället för **”starta nytt havsspel”** när den klickas på.
+
+![image alt block](image_14.png)
+
 
 3.	Ändra också på andra stället så att den kör kod när den tar emot **”starta nytt kontinentspel”**.
 
-  ![image alt block](image_11.png) **INTE** ![image alt block](image_12.png)
 
-4.	Ta bort insättningarna av **haven** i listan och sätt istället in dessa 6 **kontinenter**
+4.	Ta bort insättningarna av **haven** i listan och sätt istället in 5 **kontinenter**
 
-  * Afrika
+5.  Ändra så att meddelandet **"fråga kontinent"** skickas
 
-  * Eurasien
+![image alt block](image_15.png)
 
-  * Nordamerika
 
-  * Sydamerika
+6.	Ändra så att den kör kod för att rätta spelet när den tar emot meddelandet **”rätta kontinent”** istället för **”rätta hav”**.
 
-  * Australien
+> Nu ska knappen fungera. Vad händer om du klickar på den? Frågar den efter en kontinent?
 
-  * Antarktis
-
-5.	Ändra så att den kör kod för att rätta spelet när den tar emot meddelandet **”rätta kontinent”** istället för **”rätta hav”**.
-
-> Nu ska bollen fungera. Vad händer om du klickar på den? Frågar den efter en kontinent?
+## 8: Kontinenter - svara
 
 Nästa steg är att lägga till prickar för de olika kontinenterna.
 
@@ -194,9 +212,15 @@ Nästa steg är att lägga till prickar för de olika kontinenterna.
 
 7.	Ändra **”rätta hav”** till **”rätta kontinent”** så att rätt meddelandet skickas
 
-8.	**Kopiera** denna prick **5 gånger** och placera ut dem på de olika kontinenterna
+8.	Ändra i skriptet att **svar** ändras till rätt siffra.
 
-9.	Ändra i skripten för de olika prickarna så att den lokala variabeln **”id”** sätts till rätt siffra.
+
+![image alt block](image_16.png)
+
+9.	**Kopiera** denna prick **5 gånger** och placera ut dem på de olika kontinenterna
+
+![image alt block](image_17.png)
+
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
@@ -217,7 +241,7 @@ Det är väldigt många prickar på spelplanen. Det vore bra om hav-prickarna f�
 
 Nu förlorar du genast alla poäng om du gissar fel. Ett alternativ är att du får fler chanser. Kan du koda det?
 
-**Tips:** Ändra i koden för **Ball** som körs när den tar emot meddelandet **"rätta hav"**.
+**Tips:** Ändra i koden för **Hav_knapp** som körs när den tar emot meddelandet **"rätta hav"**.
 
 En annan idé är att hålla reda på vilka hav eller kontinenter användaren har gissat på. Då får spelaren bara en chans per hav eller kontinent och så avslutas spelet när hen har gissat på alla. Du kan till exempel avsluta med meddelandet "Du klarade 2 av 3 hav"!
 
@@ -229,8 +253,8 @@ Du kan till exempel lägga till ett spel går ut på att gissa länder.
 
 ## Frågeställningar
 
-* Vad är en lokal variabel?
+* Varför var det bra att koda en svar-sprajt först och sedan kopiera den?
 
-* Vad kan du använda en lokal variabel till?
+* Vad är en lista?
 
-* Varför kan det vara bra att skapa ett nytt block?  
+* Varför var det viktigt att hålla reda på vilken siffra du skrev in i skripten för de olika svar-sprajtarna?
