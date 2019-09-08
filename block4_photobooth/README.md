@@ -88,9 +88,23 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 2. Dra din menyrad dit du vill ha den på Scen: på sidan, nere eller upptill i bild.
 
-3. Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en, genom att högerklicka och välja kopiera. Döp gärna sprajtarna till **"Knapp ….”** och din effekt.
+Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en:
 
-4. De kopierade sprajtarna ska fungera som knappar. Du behöver förminska dem så att de får plats i din menyrad. Dra dem dit och lägg i en rad så att alla får plats.
+1. Högerklicka på sprajten och välja kopiera.
+
+  ![image kopiera sprajt](image_kopiera_sprajt.png)
+
+
+ 2. Döp gärna sprajtarna till **"Knapp ….”** och din effekt.
+
+ ![image kopiera sprajt](image_namn_knapp.png)
+
+
+ De kopierade sprajtarna ska fungera som knappar.
+
+ 3. Du behöver förminska knapp-sprajten så att de får plats i din menyrad.
+
+ 4. Dra knapp-sprajten till menyraden och lägg i en rad så att alla får plats.
 
     ![image alt text](image_8.png)
 
