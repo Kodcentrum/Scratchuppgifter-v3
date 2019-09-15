@@ -2,8 +2,6 @@
 
 Här kan du skapa en animerad berättelse om en hjälte i Scratch! Vem är din hjälte? Låt fantasin flöda.
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/min-hjalte-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
