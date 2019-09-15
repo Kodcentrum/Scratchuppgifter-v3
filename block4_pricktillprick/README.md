@@ -2,8 +2,6 @@
 
 I denna uppgift ska du få skapa ett enkelt prick-till-prick spel. Du ska få lära dig att använda koordinater och penn-funktionen i Scratch. Det är en perfekt uppgift om du är kreativ.
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kodaiskolan/aventyrxy/uppgifter-i-scratch/prick-till-prick-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även det påbörjade Scratch-projektet för Prick till prick genom att klicka på länken bredvid katt-figuren ovan</a>. Här kodar och skapar du vidare ditt spel utifrån instruktionerna nedan. 
 
