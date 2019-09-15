@@ -4,8 +4,6 @@ Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, sen
 
 Musikspelarna blir också smartare och kan föreslå musik som de tror att du kommer att tycka om. Vad vill du ha för pryl eller program som spelar din favoritmusik och hur vill du att den ska fungera?
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
