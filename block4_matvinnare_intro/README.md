@@ -10,8 +10,6 @@ alla kan hjälpas åt med. Vad skulle få dig att slänga mindre mat själv,
 hemma eller i skolan? Här ska du få skapa en soptunna som talar om hur
 mycket mat du slänger!
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/kodaiskolan/matvinnaren/uppgifter-i-scratch/matvinnaren-scratch-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även vårt påbörjade Scratch-projekt för Matvinnaren genom att klicka på länken bredvid katt-figuren ovan.</a>. Här kodar och skapar du vidare ditt projekt utifrån instruktionerna nedan. 
 
