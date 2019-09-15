@@ -2,8 +2,6 @@
 
 Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga! Dessutom kommer du att få lära dig att använda strängar och listor.
 
-> Använder du Scratch 2.0 offline-version? <a href="https://www.kodboken.se/start/skapa-program/uppgifter-i-scratch/robotgenerator-offline?chpt=0">Här hittar du samma instruktion anpassad utifrån kodning med nedladdningsbara Scratch 2.0 offline</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
