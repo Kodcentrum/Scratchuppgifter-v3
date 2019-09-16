@@ -7,13 +7,20 @@ Om du skapade ditt eget synth-instrument och kunde spela musik på vad som helst
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du din Fantasisynth utifrån instruktionerna nedan. 
 
-Ett exempel på vårt projekt hittar du här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
+Vi har skapat ett exempelprojekt av vår Fantasisynt, som du kan kika på här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a> 
+
+
+Vi har skapat ett exempelprojekt av vår Fantasisynt, som du kan kika på här: <a href="<iframe src="https://scratch.mit.edu/projects/128504924/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a> 
+
 
 ![image alt text](image_0.png)
 
+Nu ör det din tur att skapa din egen Fantasisynth. Du bestämmer hur den ska se ut. 
 
-## 1: Komma på en idé
-Det första du behöver göra är att komma på hur ditt synth ska se ut!
+Gå till nästa sida och förlj instruktionen för att börja skapa ditt instrument. 
+
+## 1: Kom på en idé för ditt instrument
+Det första du behöver göra är att komma på hur din synth ska se ut!
 
 Du kommer att få göra en synth som du spelar med hjälp av datorns tangenter. Bara din fantasi sätter gränserna hur din synth ska se ut, så länge det finns 6 sprajtar som kan vara synthens olika "tangenter" att spela på. I det här exemplet använder vi äpplen som tangenter.
 
