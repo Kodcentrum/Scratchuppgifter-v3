@@ -13,7 +13,7 @@ Vi har skapat ett exempelprojekt av Fantasisynth med äpplen som tangenter, som 
 
 ...och här finns en annan variant med dansande figurer som tangenter som du kan testa: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/329325873</a> Klicka på den gröna flaggan för att provspela vår synth.
 
-![Exempelprojekt Fantasisynth med dansande figurer](image_0_b_exmpelprojekt.png)
+![Exempelprojekt Fantasisynth med dansande figurer](image_0_b_exempelprojekt.png)
 
 Nu är det din tur att skapa din egen Fantasisynth. Du bestämmer själv hur den ska se ut. 
 
