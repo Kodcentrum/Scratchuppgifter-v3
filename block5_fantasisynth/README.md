@@ -2,15 +2,15 @@
 
 Hur skulle du vilja spela musik? Förr i tiden fanns bara akustiska instrument som piano, fiol eller gitarr som kunde spela klassisk musik. Idag finns datorer som kan spela nästan vilka otroliga ljud som helst som används som digitala instrument.
 
-Om du skapade ditt eget synth-instrument och kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill!
+Om du skapade ditt eget instrument och kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill!
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du din Fantasisynth utifrån instruktionerna nedan. 
 
-Vi har skapat ett exempelprojekt av vår Fantasisynt, som du kan kika på här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a> 
+Vi har skapat ett exempelprojekt av vår Fantasisynth, som du kan kika på här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a> 
 
 
-Vi har skapat ett exempelprojekt av vår Fantasisynt, som du kan kika på här: <a href="<iframe src="https://scratch.mit.edu/projects/128504924/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a> 
+Vi har skapat ett exempelprojekt av vår Fantasisynth, som du kan kika på här: <a <iframe src= href="https://scratch.mit.edu/projects/128504924/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a> 
 
 
 ![image alt text](image_0.png)
