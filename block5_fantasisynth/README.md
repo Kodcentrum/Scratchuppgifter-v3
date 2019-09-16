@@ -182,7 +182,7 @@ Men vi har ju bara en ton som spelas nu. Lite tråkig synth! Nu ska du kopiera s
 
   ![image alt text](image_17.png)
 
-24. Kopiera nu sprajten flera gånger så att du har totalt fem äppel-sprajtar. Alla skript och klädslar som du har skapat åt det första äpplet har också kopierats till de nya sprajtarna.
+24. Kopiera nu sprajten flera gånger så att du har totalt sex äppel-sprajtar. Alla skript och klädslar som du har skapat åt det första äpplet har också kopierats till de nya sprajtarna.
 
   ![image alt text](image_18.png)
 
@@ -190,69 +190,76 @@ Men vi har ju bara en ton som spelas nu. Lite tråkig synth! Nu ska du kopiera s
 
   ![image alt text](image_19.png)
 
-
-
-LÄGG TILL FLER SKRIPT I SCENEN!!!
-
-
-
-26.	Markera nu SCEN och ändra i skriptet med kod för scenen så att meddelandet skickas när tangent **"g"** på datorns tangentbord trycks ned.
+26.	Markera nu SCEN för att skapa en kopia av skriptet för tangent "a" som nu ligger där. Högerklicka på skriptet som finns och välj kopiera. Klicka sen en gång på skriptytan, så fastnar den nya kopian där. 
 
   ![image alt text](image_image_20.png)
+ 
+  ![image alt text](image_image_20_b_b.png)
   
+  ![image alt text](image_image_20_b_c.png)
+
+I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"g"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska noten G spelas och sprajten "Apple2" ska sjunga.
+
   ![image alt text](image_image_20_b.png)
 
-  
-27.	Ett nytt meddelande från SCEN måste skickas så att rätt sprajt spelar rätt ton. Välj **"nytt meddelande"** i rullistan och döp det nya meddelandet till **"spela äpple 2"**.
+27.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Välj **"nytt meddelande"** i rullistan och döp det nya meddelandet till **"spela äpple 2"**.
 
   ![image alt text](image_20_c.png)
+  
   ![image alt text](image_20_d.png)
 
-28.	Gå tillbaka till skripten för sprajten **Apple2**, genom att klicka på sprajten nummer 2 i ditt sprajt-bibliotek under SCEN och ändra i skriptet med meddelandet till **när jag tar emot "spela äpple 2"** för båda skript.
+Nu ska det finnas två skript bredvid varandra, en för tangent A och en för tangent G. Såhär ska det se ut:
+
+  ![image alt text](image_image_20_e.png)
+
+28.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
 
   ![image alt text](image_21.png)
   ![image alt text](image_21_b.png)
   ![image alt text](image_21_c.png)
 
-> Testa ditt projekt! Klicka på START-flaggan. Prova nu att trycka på a eller g! Vad händer? Spelas två olika toner?
+> Testa ditt projekt! Klicka på den gröna START-flaggan. Prova nu att trycka på a eller g! Vad händer? Spelas två olika toner?
 
-Nu ska vi göra likadant för resten av äpplena!
+Nu ska vi göra likadant med alla våra fem sprajtar (eller äpplen, som vi har i vårt exempel.)!
 
-27. Byt ut skripten för alla nya sprajtar. Glöm inte att skapa ett nytt meddelande för att skicka och ta emot, döp dem till **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
+27. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ta emot till sprajt (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
 
-* Apple3 ska ha ton **69** och tangent **h**.
-* Apple4 ska ha ton **65** och tangent **f**.
-* Apple5 ska ha ton **64** och tangent **d**.
-* Apple6 ska ha ton **62** och tangent **s**.
+C-skala: 
+* Apple ska ha not C **60** och datortangent **a**.
+* Apple2 ska ha not G **67** och datortangent **g**.
+* Apple3 ska ha not A **69** och datortangent **h**.
+* Apple4 ska ha not F **65** och datortangent **f**.
+* Apple5 ska ha not E **64** och datortangent **d**.
+* Apple6 ska ha not D **62** och datortangent **s**.
 
 
-> Testa ditt projekt! Klicka på START. När du är klar med alla tangenter på din fantasisynth, prova att spela följande tangenter i rad:
+> Testa ditt projekt! Klicka på gröna START-flaggan. När du är klar med alla tangenter på din fantasisynth, prova att spela följande tangenter i rad:
  **A A G G H H G F F D D S S A**.
-Hör du vilken melodi du spelar? Nu kan du spela blinka lilla stjärna på din synth!  
+Hör du vilken melodi du spelar? Nu kan du spela Blinka lilla stjärna på din synth!  
 
 
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Du måste vara inloggad för att kunna spara. Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+Visa gärna din Fantasisynth för en kompis och låt dem testa. Tryck om du vill på DELA för att andra ska kunna hitta spelet på Scratch. 
 
 
 ## Frågeställningar
 
 * Vad är ett meddelande?
 * Vad kan du använda ett meddelande till?
-* Varför kan en sprajt ha flera klädslar?
-* Vad kan du använda det till?
-* Hur kan du använda toner i Scratch?
-* Vad händer när du ändrar taktslag för tonen?
+* Varför kan det vara användbart att en sprajt har flera klädslar?
+* Vad betyder animation?
+* Hur kan du använda noter och toner i Scratch?
+* Vad händer när du ändrar takt för tonen?
 
 
 ## Tips
-Om du har tillgång till **Makey Makey** kan du koppla din fantasisynth till den och spela musik på riktiga äpplen!
+Om du har tillgång till **Makey Makey** kan du koppla din Fantasisynth till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande.
 Makey Makey är ett litet kretskort för att styra datorn med saker som är elektriskt ledande, som till exempel frukt eller metall.
 
-Här hittar du instruktion till att koppla in Makey Makey till din fantasisynth.
+Här hittar du instruktion till att koppla in Makey Makey till din Fantasisynth och liknande andra projekt. <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
