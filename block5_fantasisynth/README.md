@@ -4,6 +4,9 @@ Hur skulle du vilja spela musik? Förr i tiden fanns bara akustiska instrument s
 
 Om du skapade ditt eget synth-instrument och kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill!
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du din Fantasisynth utifrån instruktionerna nedan. 
+
 Ett exempel på vårt projekt hittar du här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
 
 ![image alt text](image_0.png)
@@ -259,9 +262,7 @@ Visa gärna din Fantasisynth för en kompis och låt dem testa. Tryck om du vill
 
 
 ## Tips
-Om du har tillgång till **Makey Makey** kan du koppla din Fantasisynth till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande.
+Om du har tillgång till **Makey Makey** kan du koppla din Fantasisynth till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande. Makey Makey kan ses som en förlängning av datorns tangentbord, för att skapa egna styrkontroller och knappar till sitt digitala projekt.
 Makey Makey är ett litet kretskort för att styra datorn med saker som är elektriskt ledande, som till exempel frukt eller metall.
 
-Här hittar du en instruktion till att koppla in Makey Makey till din Fantasisynth och liknande projekt. <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
-
-https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth-makey-makey?chpt=0 
+> Här hittar du en instruktion till att <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth-makey-makey?chpt=0"> koppla in Makey Makey till din Fantasisynth</a> och liknande projekt.
