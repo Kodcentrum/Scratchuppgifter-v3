@@ -10,7 +10,7 @@ Om du skapade ditt eget instrument och kunde spela musik på vad som helst, vad 
 Vi har skapat ett exempelprojekt av vår Fantasisynth, som du kan kika på här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a> 
 
 
-Vi har skapat ett exempelprojekt av vår Fantasisynth, som du kan kika på här: <a <iframe src= href="https://scratch.mit.edu/projects/128504924/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a> 
+Vi har skapat ett exempelprojekt av vår Fantasisynth, som du kan kika på här: <a iframe src= href="https://scratch.mit.edu/projects/128504924/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe></a> 
 
 
 ![image alt text](image_0.png)
