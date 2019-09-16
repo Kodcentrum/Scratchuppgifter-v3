@@ -262,4 +262,6 @@ Visa gärna din Fantasisynth för en kompis och låt dem testa. Tryck om du vill
 Om du har tillgång till **Makey Makey** kan du koppla din Fantasisynth till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande.
 Makey Makey är ett litet kretskort för att styra datorn med saker som är elektriskt ledande, som till exempel frukt eller metall.
 
-Här hittar du instruktion till att koppla in Makey Makey till din Fantasisynth och liknande andra projekt. <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
+Här hittar du en instruktion till att koppla in Makey Makey till din Fantasisynth och liknande projekt. <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
+
+https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth-makey-makey?chpt=0 
