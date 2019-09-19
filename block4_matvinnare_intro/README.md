@@ -99,7 +99,7 @@ konstigt? Snart får du se hur det fungerar.
 Nu ska du skapa en variabel som mäter hur många kilo (kg) mat som du
 slänger i soptunnan:
 
-1.  Markera soptunnan som är den sprajt som ska mäta matsvinnet. För att göra det, gå till **DATA** och tryck på **skapa en variabel**. Döp variabeln till **"*Matsvinn i kilo*”**.  
+1.  Markera soptunnan som är den sprajt som ska mäta matsvinnet. För att göra det, gå till **VARIABLER** och tryck på **skapa en variabel**. Döp variabeln till **"*Matsvinn i kilo*”**.  
 
     ![image alt text](image_9.png)
 
@@ -107,7 +107,7 @@ slänger i soptunnan:
 
     ![image alt text](image_10.png)
 
-3.  För att nollställa vikten när programmet startas behöver du göra ett skript för soptunnan. Markera soptunne-sprajten. Ta skriptblocket från HÄNDELSER som heter "**när START (flaggan) klickas på”** och under det fäster du skriptblocket **”sätt *Matsvinn i kilo* till 0”** från **DATA**.
+3.  För att nollställa vikten när programmet startas behöver du göra ett skript för soptunnan. Markera soptunne-sprajten. Ta skriptblocket från HÄNDELSER som heter "**när START (flaggan) klickas på”** och under det fäster du skriptblocket **”sätt *Matsvinn i kilo* till 0”** från **VARIABLER**.
 
     ![image alt text](image_11.png)
 
@@ -154,7 +154,7 @@ tredjedel av en vanlig portion skolmat väger:
 Vad en tredjedel av hela portionen blir kan du få skriptet att räkna ut,
 så slipper du att räkna ut det själv!
 
-5.  Ta ett skriptblock från DATA som säger **”ändra matsvinn i kilo med _”**.
+5.  Ta ett skriptblock från VARIABLER som säger **”ändra matsvinn i kilo med _”**.
 
 6.  Från OPERATORER väljer du nu en **division**-operator, det vill säga en operator som kan dela två värden. Titta på bilden här under om du inte hittar den!
 
@@ -163,7 +163,7 @@ så slipper du att räkna ut det själv!
 7.  Skriv in hela portionens värde, alltså **0.36** till vänster om tecknet för division (**/)** och värdet **3** till höger.
 
 **Tips!** Tänk på att i Scratch behöver du använda punkt och inte
-kommatecken för decimaler!
+kommatecken efter 0:an för decimaler (ex. 0.36)!
 
 8.  Lägg sedan till att sprajten ska gömma sig, så att det ser ut som att tacosen försvinner in i soptunnan. Det gör du med skriptblocket **”göm”** från UTSEENDE. Så här ska skriptet se ut nu:  
 
