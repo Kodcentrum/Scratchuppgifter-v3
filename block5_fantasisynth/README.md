@@ -29,7 +29,7 @@ Du ska göra en synth som du spelar med hjälp av datorns tangenter. Bara din fa
 
 2.	Har du fått en idé för din synth? Rita eller skriv ned dina idéer, berätta gärna för någon som kan hjälpa dig med din idé och ge förslag. Tänk på att ingen ide är fel, för i framtiden kan allt vara möjligt! Du bestämmer!
 
->**Tips** Om du kikar in i Scratch sprajt-bibliotek, kan du se vilja sprajtfigurer du kan välja som tangenter - om du inte vill måla eget?  ![image alt text](image_1.png)
+>**Tips** Om du kikar in i Scratch sprajt-bibliotek, kan du se vilka sprajt-figurer du kan välja som synthens tangenter - om du inte vill måla en egen istället?  ![knapp - välj en sprajt ur Scratch sprajtbibliotek](image_1.png)   ![Scratch sprajtbibliotek](image_5.png)
   
 När du har en grund för din idé, kan du gå vidare och börja designa och koda din Fantasisynth.
 
