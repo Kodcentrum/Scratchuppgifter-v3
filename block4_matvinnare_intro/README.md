@@ -26,17 +26,21 @@ att minska på matsvinnet!
 
 ## 1: Remixa ett projekt
 
-Vi börjar med att remixa ett projekt som redan finns på Scratch. I
+Vi börjar med att remixa ett förberett start-projekt som redan finns på Scratch. I
 startprojektet får du två sprajtar som vi har ritat åt dig, en tallrik
-och en soptunna. Så kan du komma igång och koda snabbare!
+och en soptunna. Så kan du komma igång och koda snabbare! 
 
-Öppna din webbläsare och gå till startprojektet: <a href="https://scratch.mit.edu/projects/188522752/" target="_blank">https://scratch.mit.edu/projects/188522752/</a>
+> **Tips:** Du kan givetvis ändra på eller byta ut figurer och bakgrunder i startprojektet om du vill att det ska se annorlunda ut, men det kan vara enklare att börja med startprojektet första gången.
 
-1.  Klicka på knappen **“Remix”** så att du får din egen version av projektet.
+Öppna din webbläsare och gå till färdiga startprojektet: <a href="https://scratch.mit.edu/projects/188522752/" target="_blank">https://scratch.mit.edu/projects/188522752/</a>
+
+1. Logga in på Scratch med ditt konto. (eller skaffa ett om du inget har, det är gratis. Fråga en vuxen om hjälp.)
+
+2. Klicka på knappen **“Remix”** så att du får din egen version av projektet. (Remix-knappen syns endast om du är inloggad.)
 
     ![image alt text](image_1.png)
 
-Programmet kommer öppnas i Scratch studion.
+Programmet kommer öppnas i Scratch studio.
 
 När du har remixat programmet så ser du att projektets namn har
 förändrats. Om du tittar under namnet ska du också se ditt eget
