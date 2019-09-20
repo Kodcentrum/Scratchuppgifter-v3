@@ -217,11 +217,11 @@ Nu ska du ändra vilken ton denna andra sprajt ska spela och vilken tangent på 
   
   ![image alt text](image_20_b_c.png)
 
-I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"G"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska **noten G** spelas och sprajten "Apple2" ska sjunga.
+28. I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"G"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska **noten G** spelas och sprajten "Apple2" ska sjunga.
 
   ![image alt text](image_20_b.png)
 
-27.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Klicka på lilla pilen i kodblocket under **när g tangenten trycks ned**. Välj **"nytt meddelande"** i rullistan som kommer fram och döp det nya meddelandet till **"spela äpple 2"**. Nu har du skapat ett nytt meddelande.
+29.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Klicka på lilla pilen i kodblocket under **när g tangenten trycks ned**. Välj **"nytt meddelande"** i rullistan som kommer fram och döp det nya meddelandet till **"spela äpple 2"**. Nu har du skapat ett nytt meddelande.
 
   ![image alt text](image_20_c.png)
   
@@ -231,7 +231,7 @@ Nu ska det finnas två skript bredvid varandra, en för tangent A på din dator 
 
   ![image alt text](image_20_e.png)
 
-28.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
+30.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
 
   ![image alt text](image_21.png)
   ![image alt text](image_21_b.png)
@@ -241,7 +241,7 @@ Nu ska det finnas två skript bredvid varandra, en för tangent A på din dator 
 
 Nu ska vi göra likadant med alla våra fem sprajtar (eller äpplen, som vi har i vårt exempel)!
 
-27. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ändra om i meddelandet som tas emot till sprajterna (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
+31. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ändra om i meddelandet som tas emot till sprajterna (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
 
 **Glöm inte ändra alla noter för alla sprajtar!**
 
