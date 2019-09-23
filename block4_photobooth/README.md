@@ -39,11 +39,14 @@ Nu ska din kamera komma igång när du trycker på den gröna START-flaggan ovan
 
 > Testa ditt projekt. Klicka på START (gröna flaggan). Du kasnke får upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska. Ser du dig själv nu i bild? 
 
-## 2 : Knapp för att stänga av kameran
+
+## 2 : Kunna stänga av webbkameran
 
 Du ska kunna stänga av din kamera när du vill såklart! Därför lägger vi till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet.  Det skriptet skapar du för scenen, precis som när du startade kameran.
 
 1. Markera SCEN längst ned till vänster och gå in på fliken KOD. Dra ut ett block för **”när trycks ned”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV**: **”sätt video AV”**.
+
+    ![image alt text](image_3_b.png)
 
 2. Välj vilken tangent som ska tryckas ned för att stänga av kameran. Här i exemplet har vi valt "Q” som i *Quit*.
 
@@ -137,10 +140,6 @@ Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en oc
 9. Dra sen in ett block **KÄNNA AV**: **sätt dragläge till...** och ändra *dragbar* till **inte dragbar** så att knapparna i menyraden inte kan dras över scenen när den är i *fullskärmsläge*. De ska ju alltid vara på sin plats i menyn.
 
     ![image alt text](image_draglage_inte_dragbar.png)
-
-Knappen för fullskärmsläge finns ovanför Scen (med din Photo Booth). 
-
-   ![image alt text](image_fullskarm_knapp.png)
 
 
 ## 5: Koppla knapparna till effekt
