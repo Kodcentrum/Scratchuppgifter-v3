@@ -25,21 +25,23 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
     ![image alt text](image_2.png)
 
-Nu har du fått en rad nya block som du kan styra din kamera med.
+Nu har du fått en rad nya block som du kan styra din kamera med. Då ska vi koda att kameran ska startas när du trycker igång di Photo Booth. Gör såhär:
 
-4. Klicka på SCEN längst ned till höger och gå in på fliken KOD högst upp till vänster.
+4. Klicka på SCEN längst ned till höger och gå in på fliken KOD högst upp till vänster - så du ser Scenens tomma kodyta för skript.
 
 3. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den kopplar du fast blocket för **sätt video till på**.
 
 4. Till samma skript fäster du blocket för **”sätt videotransparens till”** och sätt värdet till 0, alltså inte genomskinligt alls.
 
     ![image alt text](image_3.png)
+    
+Nu ska din kamera komma igång när du trycker på den gröna START-flaggan ovanför Scen.
 
 > Testa ditt projekt. Klicka på START (gröna flaggan). Du kasnke får upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska. Ser du dig själv nu i bild? 
 
-## 2 : Stäng av kameran
+## 2 : Knapp för att stänga av kameran
 
-Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet . Det skriptet skapar du för scenen, precis som när du startade kameran.
+Du ska kunna stänga av din kamera när du vill såklart! Därför lägger vi till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet.  Det skriptet skapar du för scenen, precis som när du startade kameran.
 
 1. Markera SCEN längst ned till vänster och gå in på fliken KOD. Dra ut ett block för **”när trycks ned”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV**: **”sätt video AV”**.
 
@@ -48,20 +50,20 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
     ![image alt text](image_12.png)
 
 
-> Testa ditt projekt! Klicka på START. Går det att stänga av webbkameran med Q-tangenten?
+> Testa ditt projekt! Klicka på den gröna START-flaggan för att slå på kameran. Går det sen att stänga av webbkameran med Q-tangenten? Slå på kameran igen med gröna START-flaggan om du vill.
 
 
 
-## 3: Ändra utseende
+## 3: Ändra utseende med effekter
 
-Då vörjar vi skapa en Photobooth. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
+Då börjar vi skapa en Photo Booth med effekter. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
 
   ![image alt text](image_Photobooth_layout_overview.png)
 
-Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photobooth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
+Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photo Booth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
 > **_Kan jag använda bilder som jag hittar på nätet?_**
-*Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
+*De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först av den som skapat bilden. Men det finns många bilder som är ok att använda, till exempel om du söker bilder genom* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
 
 
 1. För att rita egen ny sprajt, håll muspekaren över **Välj en sprajt**, så får du fram fler val. Välj **"Måla”** (penseln). Här får du själv hitta på och prova dig fram för att skapa egna sprajtar som blir dina effekter. Om du hellre vill använda färdiga sprajtar, gå till biblioteket genom att trycka på direkt på knappen för **”Välj en sprajt”**.
