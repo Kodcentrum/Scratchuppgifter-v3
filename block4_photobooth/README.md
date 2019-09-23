@@ -41,7 +41,11 @@ Nu har du fått en rad nya block som du kan styra din kamera med.
 
 ## 2: Ändra utseende
 
-Nu är det dag att skapa frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
+Då vörjar vi skapa en Photobooth. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
+
+    ![image alt text](image_Photobooth_layout_overview.png)
+
+Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photobooth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
 > **_Kan jag använda bilder som jag hittar på nätet?_**
 *Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
@@ -114,6 +118,9 @@ Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en oc
 
 6. Ändra också **sätt dragläge**-blocket till **inte dragbar** så att knapparna in kan dras över scenen när den är i fullskärmsläge.
 
+
+## 4: Koppla knapparna till effekt
+
 Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha!
 
 7. Välj en knapp och gå till fliken för SKRIPT. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
@@ -142,7 +149,7 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
 
 
-## 4: Stäng av kameran
+## 5: Stäng av kameran
 
 Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet. Det skriptet skapar du för scenen, precis som när du startade kameran.
 
