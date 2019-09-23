@@ -25,35 +25,50 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
     ![image alt text](image_2.png)
 
-Nu har du fått en rad nya block som du kan styra din kamera med.
+Nu har du fått en rad nya block som du kan styra din kamera med. Då ska vi koda att kameran ska startas när du trycker igång di Photo Booth. Gör såhär:
 
-4. Klicka på SCEN längst ned till höger och gå in på fliken KOD högst upp till vänster.
+4. Klicka på SCEN längst ned till höger och gå in på fliken KOD högst upp till vänster - så du ser Scenens tomma kodyta för skript.
 
 3. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den kopplar du fast blocket för **sätt video till på**.
 
 4. Till samma skript fäster du blocket för **”sätt videotransparens till”** och sätt värdet till 0, alltså inte genomskinligt alls.
 
     ![image alt text](image_3.png)
+    
+Nu ska din kamera komma igång när du trycker på den gröna START-flaggan ovanför Scen.
 
-> Nu har du skapat ditt första skript! Testa ditt projekt. Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild? 
+> Testa ditt projekt. Klicka på START (gröna flaggan). Du kasnke får upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska. Ser du dig själv nu i bild? 
+
+## 2 : Knapp för att stänga av kameran
+
+Du ska kunna stänga av din kamera när du vill såklart! Därför lägger vi till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet.  Det skriptet skapar du för scenen, precis som när du startade kameran.
+
+1. Markera SCEN längst ned till vänster och gå in på fliken KOD. Dra ut ett block för **”när trycks ned”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV**: **”sätt video AV”**.
+
+2. Välj vilken tangent som ska tryckas ned för att stänga av kameran. Här i exemplet har vi valt "Q” som i *Quit*.
+
+    ![image alt text](image_12.png)
+
+
+> Testa ditt projekt! Klicka på den gröna START-flaggan för att slå på kameran. Går det sen att stänga av webbkameran med Q-tangenten? Slå på kameran igen med gröna START-flaggan om du vill.
 
 
 
-## 2: Ändra utseende
+## 3: Ändra utseende med effekter
 
-Då vörjar vi skapa en Photobooth. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
+Då börjar vi skapa en Photo Booth med effekter. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
 
   ![image alt text](image_Photobooth_layout_overview.png)
 
-Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photobooth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
+Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photo Booth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
 > **_Kan jag använda bilder som jag hittar på nätet?_**
-*Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
+*De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först av den som skapat bilden. Men det finns många bilder som är ok att använda, till exempel om du söker bilder genom* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
 
 
+1. För att rita egen ny sprajt, håll muspekaren över **Välj en sprajt**, så får du fram fler val. Välj **"Måla”** (penseln). Här får du själv hitta på och prova dig fram för att skapa egna sprajtar som blir dina effekter. Om du hellre vill använda färdiga sprajtar, gå till biblioteket genom att trycka på direkt på knappen för **”Välj en sprajt”**.
 
-1. För att rita själv, välj **"Rita ny sprajt”** (penseln). Här får du själv hitta på och prova dig fram för att skapa egna sprajtar. Om du hellre vill använda färdiga sprajtar, gå till biblioteket genom att trycka på knappen för **”Välj sprajt”**.
-
+    ![image alt text](image_mala_sprajt_pensel.png)
     ![image alt text](image_4.png)
 
 
@@ -66,23 +81,23 @@ Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra 
 
 För att din sprajt alltid ska hamna rätt på scenen, behöver du sätta en *startposition*. Alltså en plats där den alltid startar ifrån. Sedan kommer du så klart att kunna dra runt på effekterna i ditt färdiga program, för att passa in på olika ansikten.
 
-4. Gå till fliken för SKRIPT för din effekt. Dra ut blocket **"när START (flaggan) klickas på”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **RÖRELSE**: **”gå till X  Y ”**.
+4. Gå till fliken för KOD för din effekt, där du kan skapa SKRIPT för din sprajt. Dra ut blocket **"när START (flaggan) klickas på”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **RÖRELSE**: **”gå till X  Y ”**.
 
 5. Dra in ett block **Känna av** till **sätt dragläge till dragbar** så att du kan dra blocket på scenen.
 
     ![image alt text](image_6.png)
 
 
-6. Gör nu ett likadant skript för alla dina sprajtar, med den X- och Y-position som stämmer med där du vill att just den sprajten ska hamna. Positionen sätts automatiskt i blocket när du drar sprajten över Scen.
+6. Gör nu ett likadant skript för alla dina sprajtar, med den X- och Y-position som stämmer med där du vill att just den sprajten ska hamna när effekten slås på. **Ett tips**: om du placerar sprajten där du vill att den ska starta på Scen *innan* du drar ut blocket från RÖRELSE: ”gå till X  Y ”., så sätts positionen för X och Y automatiskt i blocket. 
 
 
-> Testa ditt projekt! Klicka på START. Startar dina effekter där du vill ha dem? Kan du dra runt med effekterna och passa in dem på ditt ansikte?
+> Testa ditt projekt! Klicka på START. Startar dina effekter där du vill ha dem i din Photo Booth? Kan du dra runt med effekterna på Scen och passa in dem på ditt ansikte?
 
 
 
-## 3: Knappar för att välja effekt
+## 4: Knappar för att välja effekt
 
-Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Photo Booth. När du startar ditt Photo Booth ska inga effekter vara synliga, utan det blir de först när du trycker på knapparna. Du behöver en knapp för varje effekt du vill använda.
+Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Photo Booth. När du startar ditt Photo Booth ska inga effekter vara synliga, utan det blir de först när du trycker på knapparna. Du behöver en knapp för varje effekt du vill använda. De blir som små kopierade bilder av dina olika effekter. Gör såhär:
 
 1. Börja med att göra en sprajt som ska vara menyrad. Välj **"Måla”** (penseln) och använd REKTANGEL för att skapa en menyrad i valfri färg. Tänk på att göra rektangeln tillräckligt stor för alla dina knappar – men inte för stor, du vill ju kunna se dig själv i bild också!
 
@@ -92,75 +107,71 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 2. Dra din menyrad dit du vill ha den på Scen: på sidan, nere eller upptill i bild.
 
-Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en:
+Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en. Gör såhär:
 
-1. Högerklicka på sprajten och välja kopiera.
+3. Högerklicka på sprajten och välja kopiera.
 
   ![image kopiera sprajt](image_kopiera_sprajt.png)
+  
+ De kopierade sprajtarna ska fungera som knappar för dina olika effekter, att slå dem av och på med.
 
 
- 2. Döp gärna sprajtarna till **"Knapp ….”** och din effekt.
+ 4. Döp sprajtarna till **"Knapp ….”** och din effekt. 
 
  ![image kopiera sprajt](image_namn_knapp.png)
+ 
+ *Namnet går att ändra under scenen för vardera sprajt i ditt sprajtbibliotek.*
 
+ 5. Du behöver förminska knapp-sprajten så att de får plats i din menyrad.
 
- De kopierade sprajtarna ska fungera som knappar.
-
- 3. Du behöver förminska knapp-sprajten så att de får plats i din menyrad.
-
- 4. Dra knapp-sprajten till menyraden och lägg i en rad så att alla får plats.
+ 6. Dra knapp-sprajten till menyraden och lägg alla i en rad så att de får plats.
 
     ![image alt text](image_8.png)
 
-*Så här kan en menyrad se ut på scen med olika knappar.*
+*Så här kan en menyrad med effekternas olika knappar se ut på scen i din Photo Booth.*
 
-5. Gå till fliken för SKRIPT och sätt rätt startposition för varje knapp, på samma sätt som du gjorde med dina effekter tidigare.
+7. Sätt rätt *startposition* i menyraden för varje knapp, på samma sätt som du gjorde med dina effekter tidigare. Alltså såhär:
 
-6. Ändra också **sätt dragläge**-blocket till **inte dragbar** så att knapparna in kan dras över scenen när den är i fullskärmsläge.
+8. Dra ut kod-blocket **"när START (flaggan) klickas på”** från **HÄNDELSER** till skriptytan för varje knapp-sprajt. Under detta kodblock kopplar du fast blocket för **RÖRELSE**: **”gå till X  Y ”**.
+
+9. Dra sen in ett block **KÄNNA AV**: **sätt dragläge till...** och ändra *dragbar* till **inte dragbar** så att knapparna i menyraden inte kan dras över scenen när den är i *fullskärmsläge*. De ska ju alltid vara på sin plats i menyn.
+
+    ![image alt text](image_draglage_inte_dragbar.png)
+
+Knappen för fullskärmsläge finns ovanför Scen (med din Photo Booth). 
+
+   ![image alt text](image_fullskarm_knapp.png)
 
 
-## 4: Koppla knapparna till effekt
+## 5: Koppla knapparna till effekt
 
 Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha!
 
-7. Välj en knapp och gå till fliken för SKRIPT. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
+1. Välj en knapp och gå till fliken för KOD. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
 
-8. Nu ska du be knappen att **skicka meddelande** när du klickar på den. I **HÄNDELSER** hittar du **"skicka ”**, fäst blocket till det ovan och ändra till ett nytt meddelande i rullistan. Skriv in namnet på din effekt, till exempel *”glasögon”*.
+2. Nu ska du koda så att knappen ska **skicka meddelande** när du klickar på den. I **HÄNDELSER** hittar du blocket **"skicka... ”**, fäst blocket till det ovan och ändra till ett *nytt meddelande* i rullistan. Skriv in namnet på den effekt som knappen ska skicka sitt meddelande till, till exempel *”glasögon”*.
 
     ![image alt text](image_9.png)
 
-9. Markera nu sprajten som föreställer den effekt som knappen ska prata med. Gå till fliken för SKRIPT och dra ut blocket **”när jag tar emot ”** från **HÄNDELSER**. Välj meddelandet för din effekt i rullistan, till exempel meddelandet *”glasögon”*.
+Nu måste du se till att sprajten med den rätta effekten kan ta emot knappens skickade meddelande. Gör såhär: 
 
-10. Fäst blocket för **”visa”** som du hittar under **UTSEENDE**. Nu har du sagt åt din effekt att visa sig när den får meddelandet från knappen. Men du behöver också säga åt den att gömma sig innan knappen skickar meddelandet!
+3. Markera sprajten som föreställer den effekt som knappen ska skicka meddelande till (exempelvis sprajten för effekten *glasögon*). Gå till fliken för KOD och under **HÄNDELSER** drar du ut blocket **”när jag tar emot...”**. Välj rätt meddelandet för just din effekt i rullistan, till exempel meddelandet *”glasögon”*.
+
+4. Fäst blocket för **”visa”** som du hittar under **UTSEENDE**. Nu har du sagt åt din effekt-sprajt att visa sig när den får meddelandet från knappen. Men du behöver också säga åt effekt-sprajten att gömma sig innan knappen har skcikat sitt meddelande, så den inte syns för tidigt.
 
     ![image alt text](image_10.png)
 
 
-11. Dra ut blocket för **”göm”** som också finns under **UTSEENDE** och fäst det till din startposition, alltså under **”när START (flaggan) klickas på”**.
+5. Dra ut blocket för **”göm”** som också finns under **UTSEENDE** och fäst det direkt under din startposition, alltså under **”när START (flaggan) klickas på”**. Det gör att när Photo Booth startas är effekt-sprajten alltid gömd tills knappen skickar meddelandet att den ska visa sig.
 
     ![image alt text](image_11.png)
 
-12. Nu behöver du göra likadana skript för alla dina knappar och alla effekter. Du kan kopiera skript genom att högerklicka, välja kopiera och sedan dra det till nästa sprajt. Byt namn på meddelandet för varje sprajt så att de stämmer överens med vardera knapp/effekt.
+6. Nu behöver du göra likadana skript för alla dina knappar och alla effekter. Du kan kopiera skript genom att högerklicka, välja kopiera och sedan dra det till nästa sprajt. Byt namn på meddelandet för varje knapp-sprajt och effekt-sprajt så att de stämmer överens med vardera knapp/effekt (ex. *peruk*, *mun*...)
 
 
 **Tips:** Ibland hamnar effekterna på varandra i fel ordning, så att till exempel en hatt hamnar under en peruk istället för tvärtom. Om det händer kan du lägga till **gå till "översta" lagret** eller **”gå ned 1 lager”** från **UTSEENDE** och välja vilken ordning du vill att effekterna ska ligga ovanpå varandra.
 
-> Testa ditt projekt! Klicka på START. Är alla effekter gömda när du startar programmet? Händer det något när du trycker på knapparna? Hamnar effekterna i rätt ordning?
-
-
-
-## 5: Stäng av kameran
-
-Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet. Det skriptet skapar du för scenen, precis som när du startade kameran.
-
-1. Markera SCEN längst ned till vänster och gå in på fliken SKRIPT. Dra ut ett block för **”när trycks ned”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV**: **”sätt video AV”**.
-
-2. Välj vilken tangent som ska tryckas ned för att stänga av kameran. Här i exemplet har vi valt "Q” som i Quit.
-
-    ![image alt text](image_12.png)
-
-
-> Testa ditt projekt! Klicka på START. Går det att stänga av webbkameran med Q-tangenten?
+> Testa ditt projekt! Klicka på START. Öppna Photo Booth i fullskärms-läge. Är alla effekter gömda när du startar programmet? Ser du dig själv i din Photo Booth med kameran? Händer det något när du trycker på knapparna? Hamnar effekterna i rätt ordning? Kan du flytta runt dina effekter? Sitter dina knappar fast i menyraden?
 
 
 
@@ -170,14 +181,12 @@ Grattis, nu har du ett färdigt program.
 **Glöm inte att spara ditt projekt!** Döp ditt projekt i rutan högst upp till vänster så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon testa.
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA-knappen om du vill att andra ska kunna hitta projektet på Scratch och se och prova det. Gå ut till projektsidan och låt någon testa.
 
 
-> **Varför kan jag inte ta bilder med mitt Photo Booth?**
+> **Varför kan jag inte ta bilder med mitt Photo Booth för att spara?**
 Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live.
-Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det?
-Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda **Print Screen**, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!
-
+Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet.
 
 
 ## Utmaningar
@@ -196,7 +205,7 @@ Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program 
 
 Det kan vara användbart med en funktion som tar bort effekter allt eftersom du provar dem och väljer ditt utseende. På så sätt kan du ångra dina val. Här får du göra ett skript som gömmer effekten igen om du trycker ned mellanslag-tangenten (Space) samtidigt som du klickar på effektknappen.
 
-1. Gå in på fliken för SKRIPT på en av dina effekter. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg på skriptytan.
+1. Gå in på fliken för KOD på en av dina effekter. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg på skriptytan.
 
 2. Under **KÄNNA AV** finns blocket "**tangent nedtryckt?”**. Välj **”mellanslag”** ur rullistan och fäst blocket inuti **<>** på **”om <> då: annars”**.
 
@@ -229,9 +238,9 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 
 2. Kopiera den klädsel som ligger där genom att högerklicka och välja kopiera. Gör så många klädslar som du vill ha olika utseende.
 
-3. Markera varje klädsel och ändra utseendet så som du vill ha det. För att ändra färg, använd FYLL MED FÄRG (färgburken). Du väljer bland färgerna nere i paletten. Klicka på klädseln för att fylla i med färgen.
+3. Markera varje klädsel och ändra utseendet så som du vill ha det. För att ändra färg, använd FYLL MED FÄRG (färgburken). Du väljer bland färgerna ovanför i paletten. Klicka på klädseln för att fylla i med färgen.
 
-4. Gå till fliken för Skript. För att byta klädsel, välj från **HÄNDELSER**: **”när (…) trycks ned”** och välj vilken tangent på tangentbordet som du ska använda för att byta klädsel. Du kan till exempel välja ”H” för hår eller ”M” för mustasch.
+4. Gå till fliken för KOD. För att byta mellan olika klädslar, välj från **HÄNDELSER**: **”när (…) trycks ned”** och välj vilken tangent på tangentbordet som du ska använda för att byta klädsel. Du kan till exempel välja ”H” för hår eller ”M” för mustasch.
 
 5. Fäst blocket för **”nästa klädsel”** från **UTSEENDE** till skriptet.
 
@@ -249,7 +258,7 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 
 Du vill kanske också kunna ändra storlek på effekterna, så att de kan passa ansikten som är olika stora i bild. Här får du göra ett skript som låter dig ändra storlek genom att klicka på effekten. Den blir större om du klickar på den, och mindre om du samtidigt håller in mellanslag på tangentbordet.
 
-1. Gå till fliken för Skript. Välj **”när denna sprajt klickas på”** från **HÄNDELSER** och under den sätter du blocket **”om <> då: annars”** som finns under **KONTROLL**.
+1. Gå till fliken för KOD. Välj **”när denna sprajt klickas på”** från **HÄNDELSER** och under den sätter du blocket **”om <> då: annars”** som finns under **KONTROLL**.
 
 2. Fäst blocket för **”ändra storlek med ”** från **UTSEENDE** till skriptet, ett under **”då”** och ett under **”annars”**. Testa dig fram med vilket värde du vill ha, alltså hur mycket mindre eller större effekten ska bli. För att förminska effekten ska det vara ett minusvärde. I vårt exempel använder vi -10 och 10 som värden.
 
@@ -276,7 +285,7 @@ Du kan göra ramar som går att välja till bilden i ditt Photo Booth.  Om du in
 > Testa ditt projekt! Klicka på START. Kan du få en ram runt din bild när du trycker på R-tangenten? Går det att byta ram genom att klicka på den?
 
 
-**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Lycka till!
+**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Knaske lite effektljud? Lycka till!
 
 ## Frågeställningar
 
