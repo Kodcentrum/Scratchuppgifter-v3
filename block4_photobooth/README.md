@@ -35,9 +35,9 @@ Nu har du fått en rad nya block som du kan styra din kamera med.
 
     ![image alt text](image_3.png)
 
-> Nu har du skapat ditt första skript! Testa ditt projekt. Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild? 
+> Testa ditt projekt. Klicka på START (gröna flaggan). Du kasnke får upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska. Ser du dig själv nu i bild? 
 
-##: Stäng av kameran
+## 2 : Stäng av kameran
 
 Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet . Det skriptet skapar du för scenen, precis som när du startade kameran.
 
@@ -52,7 +52,7 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
 
 
 
-## 2: Ändra utseende
+## 3: Ändra utseende
 
 Då vörjar vi skapa en Photobooth. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
 
@@ -62,7 +62,6 @@ Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra 
 
 > **_Kan jag använda bilder som jag hittar på nätet?_**
 *Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
-
 
 
 1. För att rita egen ny sprajt, håll muspekaren över **Välj en sprajt**, så får du fram fler val. Välj **"Måla”** (penseln). Här får du själv hitta på och prova dig fram för att skapa egna sprajtar som blir dina effekter. Om du hellre vill använda färdiga sprajtar, gå till biblioteket genom att trycka på direkt på knappen för **”Välj en sprajt”**.
@@ -94,7 +93,7 @@ För att din sprajt alltid ska hamna rätt på scenen, behöver du sätta en *st
 
 
 
-## 3: Knappar för att välja effekt
+## 4: Knappar för att välja effekt
 
 Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Photo Booth. När du startar ditt Photo Booth ska inga effekter vara synliga, utan det blir de först när du trycker på knapparna. Du behöver en knapp för varje effekt du vill använda. De blir som små kopierade bilder av dina olika effekter. Gör såhär:
 
@@ -142,7 +141,7 @@ Knappen för fullskärmsläge finns ovanför Scen (med din Photo Booth).
    ![image alt text](image_fullskarm_knapp.png)
 
 
-## 4: Koppla knapparna till effekt
+## 5: Koppla knapparna till effekt
 
 Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha!
 
@@ -174,24 +173,18 @@ Nu måste du se till att sprajten med den rätta effekten kan ta emot knappens s
 
 
 
-
-
-
-
 ## Färdig!
 Grattis, nu har du ett färdigt program.
 
 **Glöm inte att spara ditt projekt!** Döp ditt projekt i rutan högst upp till vänster så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon testa.
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA-knappen om du vill att andra ska kunna hitta projektet på Scratch och se och prova det. Gå ut till projektsidan och låt någon testa.
 
 
-> **Varför kan jag inte ta bilder med mitt Photo Booth?**
+> **Varför kan jag inte ta bilder med mitt Photo Booth för att spara?**
 Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live.
-Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det?
-Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda **Print Screen**, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!
-
+Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet.
 
 
 ## Utmaningar
@@ -210,7 +203,7 @@ Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program 
 
 Det kan vara användbart med en funktion som tar bort effekter allt eftersom du provar dem och väljer ditt utseende. På så sätt kan du ångra dina val. Här får du göra ett skript som gömmer effekten igen om du trycker ned mellanslag-tangenten (Space) samtidigt som du klickar på effektknappen.
 
-1. Gå in på fliken för SKRIPT på en av dina effekter. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg på skriptytan.
+1. Gå in på fliken för KOD på en av dina effekter. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg på skriptytan.
 
 2. Under **KÄNNA AV** finns blocket "**tangent nedtryckt?”**. Välj **”mellanslag”** ur rullistan och fäst blocket inuti **<>** på **”om <> då: annars”**.
 
@@ -243,9 +236,9 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 
 2. Kopiera den klädsel som ligger där genom att högerklicka och välja kopiera. Gör så många klädslar som du vill ha olika utseende.
 
-3. Markera varje klädsel och ändra utseendet så som du vill ha det. För att ändra färg, använd FYLL MED FÄRG (färgburken). Du väljer bland färgerna nere i paletten. Klicka på klädseln för att fylla i med färgen.
+3. Markera varje klädsel och ändra utseendet så som du vill ha det. För att ändra färg, använd FYLL MED FÄRG (färgburken). Du väljer bland färgerna ovanför i paletten. Klicka på klädseln för att fylla i med färgen.
 
-4. Gå till fliken för Skript. För att byta klädsel, välj från **HÄNDELSER**: **”när (…) trycks ned”** och välj vilken tangent på tangentbordet som du ska använda för att byta klädsel. Du kan till exempel välja ”H” för hår eller ”M” för mustasch.
+4. Gå till fliken för KOD. För att byta mellan olika klädslar, välj från **HÄNDELSER**: **”när (…) trycks ned”** och välj vilken tangent på tangentbordet som du ska använda för att byta klädsel. Du kan till exempel välja ”H” för hår eller ”M” för mustasch.
 
 5. Fäst blocket för **”nästa klädsel”** från **UTSEENDE** till skriptet.
 
@@ -263,7 +256,7 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 
 Du vill kanske också kunna ändra storlek på effekterna, så att de kan passa ansikten som är olika stora i bild. Här får du göra ett skript som låter dig ändra storlek genom att klicka på effekten. Den blir större om du klickar på den, och mindre om du samtidigt håller in mellanslag på tangentbordet.
 
-1. Gå till fliken för Skript. Välj **”när denna sprajt klickas på”** från **HÄNDELSER** och under den sätter du blocket **”om <> då: annars”** som finns under **KONTROLL**.
+1. Gå till fliken för KOD. Välj **”när denna sprajt klickas på”** från **HÄNDELSER** och under den sätter du blocket **”om <> då: annars”** som finns under **KONTROLL**.
 
 2. Fäst blocket för **”ändra storlek med ”** från **UTSEENDE** till skriptet, ett under **”då”** och ett under **”annars”**. Testa dig fram med vilket värde du vill ha, alltså hur mycket mindre eller större effekten ska bli. För att förminska effekten ska det vara ett minusvärde. I vårt exempel använder vi -10 och 10 som värden.
 
@@ -290,7 +283,7 @@ Du kan göra ramar som går att välja till bilden i ditt Photo Booth.  Om du in
 > Testa ditt projekt! Klicka på START. Kan du få en ram runt din bild när du trycker på R-tangenten? Går det att byta ram genom att klicka på den?
 
 
-**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Lycka till!
+**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Knaske lite effektljud? Lycka till!
 
 ## Frågeställningar
 
