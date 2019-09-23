@@ -35,7 +35,7 @@ Nu har du fått en rad nya block som du kan styra din kamera med.
 
     ![image alt text](image_3.png)
 
-> Nu har du skapat ditt första skript! Testa ditt projekt. Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild?
+> Nu har du skapat ditt första skript! Testa ditt projekt. Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild? 
 
 
 
@@ -43,7 +43,7 @@ Nu har du fått en rad nya block som du kan styra din kamera med.
 
 Då vörjar vi skapa en Photobooth. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
 
-    ![image alt text](image_Photobooth_layout_overview.png)
+  ![image alt text](image_Photobooth_layout_overview.png)
 
 Nu är det dax att skapa exempelvis frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende i din Photobooth. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
