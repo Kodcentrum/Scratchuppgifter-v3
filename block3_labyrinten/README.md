@@ -2,8 +2,6 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
-> Använder du surfplatta? <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/labyrinten-surfplatta?chpt=0">Här finns en anpassad version av Labyrinten för surfplatta</a>.
-
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
