@@ -21,7 +21,7 @@ Dax att börja koda!
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
 
-1. Skapa ett nytt projekt. Ta bort katt-sprajten genom att trycka på krysset på den.
+1. Skapa ett nytt projekt. Ta bort katt-sprajten genom att trycka på soptunnan på den lilla kattbilden under scenen.
 
 ![image alt text](Ta_bort_Sprajt.png)
 
@@ -75,11 +75,11 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
   * Sedan **röra sig** ett par steg
 
-8. Gör tre till likadana skript, fast för att styra **vänster**, **höger** och **nedåt**.
-
   ![image alt text](image_4.png)
+  
+  8. Gör sen tre till likadana skript, så du kan styra genom labyringet åt alla håll. Ändra riktiningen i det överta gula HÄNDELSE-blocket för att styra **vänster**, **höger** och **nedåt**.
 
-  _Tänk på att ha olika riktningar i de olika skripten_
+> Tänk på! Det är viktigt att ha olika riktningar i de olika skripten, så att din karaktär kan svänga i labyrintens bana.
 
 > Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
 
