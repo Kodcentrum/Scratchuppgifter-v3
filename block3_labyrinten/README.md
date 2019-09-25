@@ -77,13 +77,13 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
   ![image alt text](image_4.png)
   
-  8. Gör sen tre till likadana skript, så du kan styra genom labyringet åt alla håll. Ändra riktiningen i det överta gula HÄNDELSE-blocket för att styra **vänster**, **höger** och **nedåt**.
+  8. Gör sen tre till likadana skript, så du kan styra genom labyrinten åt alla håll. Ändra piltangentknapp och riktningen för att styra **vänster**, **höger** och **nedåt**.
 
-> Tänk på! Det är viktigt att ha olika riktningar i de olika skripten, så att din karaktär kan svänga i labyrintens bana.
+> Tänk på! Det är viktigt att ha olika styrknappar och riktningar i de fyra skripten, så att din karaktär kan svänga i labyrintens bana.
 
 > Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
 
-**Tips:** Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
+**Tips:** Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig. Ju fler steg den tar, desto längre fram kommer den när den springer, alltså går det fortare.
 
 
 ## 3 – Vinna eller förlora
