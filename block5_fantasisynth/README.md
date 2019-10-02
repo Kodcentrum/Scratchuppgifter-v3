@@ -1,6 +1,6 @@
 # Fantasisynth
 
-Hur skulle du vilja spela musik? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns datorer som kan spela nästan vilka otroliga ljud som helst som används som digitala instrument.
+Hur skulle du vilja spela musik? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa din egen Fantasisynth!
 
 Om du skapade ditt eget instrument och kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt instrument kan se ut precis hur du vill!
 
