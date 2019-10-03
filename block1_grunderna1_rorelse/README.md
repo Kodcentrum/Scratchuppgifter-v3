@@ -2,7 +2,7 @@
 
 Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig i programmeringsverktyget Scratch.
 
-De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig i sina spel.
+De flesta program och spel som du kommer att skapa i verktyget Scratch kommer att innehålla någon form av figurer. I Scratch kallas alla figurer för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig i sina spel.
 
 Nu ska vi prova att koda en av Kodcentrums robotar att röra sig så här:
 
@@ -12,13 +12,13 @@ Redo att börja koda? Klicka på nästa steg nummer 1 här under för att gå vi
 
 ## 1: Remixa projekt
 
-När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program så vi kan skapa vidare på det:
+När man ska koda i Scratch kan man antingen starta ett eget projekt eller program själv, eller jobba vidare på någon annans skapade program och kod. Det senare kallas för att remixa. Vi ska nu testa att remixa ett program så att vi kan jobba vidare på det:
 
 1. Klicka på länken här under för att komma till det förberedda programmet på Scratch:
 
  <a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Scratchprojekt: Robot som rör sig</a> <!--_-->
  
-2. Om Scratch visas på annat språk än Svenska kan du om du vill byta språk längst ned på Scratch sajt med den här knappen:
+2. Om Scratch visas på ett annat språk än svenska kan du om du vill byta språk längst ned på Scratch sajt med den här knappen:
 
 ![Bild av knapp för byte av språk på sajt](Image_1.png)
 
@@ -26,7 +26,7 @@ När man ska koda i Scratch kan man antingen starta ett eget projekt eller progr
 
 ![Bild av Scratch inloggningsfunktion](Image_2.png)
 
-4. Klicka på Se inuti.
+4. Klicka på "Se inuti".
 
 ![Bild av knapp för Scratch funktion Se inuti](Image_3.png)
 
@@ -44,9 +44,9 @@ Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig.
 
 ![Alt Text](Skript_1.gif)
 
-2. Testa att dubbelklicka på en blå del av gå-skriptet du lade på skriptytan. Vad händer?
+2. Testa att klicka på en blå del av gå-skriptet du lade på skriptytan. Vad händer?
 
-	Roboten rör sig en liten bit till höger varje gång vi dubbelklickar. Testa nu att klicka på siffran 10 i gå-skriptet och ändra det till en högre siffra. Vad händer då när du klickar på gå-scriptet?
+	Roboten rör sig en liten bit till höger varje gång vi klickar. Testa nu att klicka på siffran 10 i gå-skriptet och ändra det till en högre siffra. Vad händer då när du klickar på gå-scriptet?
 
 	Om roboten skulle hamna för långt till höger kan du bara dra in henne till mitten igen.
 
@@ -56,7 +56,7 @@ Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig.
 
 ![Alt Text](Skript_2.gif)
 
-Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att dubbelklicka på vårt Gå-skript.
+Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att klicka på vårt Gå-skript.
 
 ![Alt Text](Robot_3.gif)
 
@@ -66,11 +66,11 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 ![Alt Text](Image_5.png)
 
-1. Dra ut båda två till skriptytan och dubbelklicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
+1. Dra ut båda två till skriptytan och klicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
 
 2. Testa att byta till 360. Vad händer då?
 
-3. Testa byta till något ännu större än 360 och till något negativt med minustecken framför. Vad händer då?
+3. Testa att byta till något ännu större än 360 och till något negativt med minustecken framför. Vad händer då?
 
 Nu när vi har Rotera-skripten kan vi få roboten att vända sig om.
 
@@ -86,7 +86,7 @@ Scratch-skripten funkar lite som lego eller pusselbitar, man kan sätta ihop dem
 
 ![Alt Text](Skript_3.gif)
 
-2. Dubbelklicka på det första skriptet som ligger på toppen.
+2. Klicka på det första skriptet som ligger på toppen.
 
 ![Alt Text](Robot_5.gif)
 
@@ -96,15 +96,15 @@ Scratch-skripten funkar lite som lego eller pusselbitar, man kan sätta ihop dem
 
 ## 5: Start-skriptet
 
-Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka direkt på blocken. För att slippa dubbelklicka på blocken, och få programmet att starta med ett klick behöver vi en startknapp. Välj rubriken **HÄNDELSER** och använd skriptet **"när** grön flagga **klickas på"**. Den gröna flagg-bilden betyder samma sak som "Start".
+Nu har vi lärt oss hur man får roboten att röra sig genom att klicka direkt på blocken. För att slippa klicka på blocken, och få programmet att starta med ett klick behöver vi en startknapp. Välj rubriken **HÄNDELSER** och använd skriptet **"när** grön flagga **klickas på"**. Den gröna flagg-bilden betyder samma sak som "Start".
 
-1. Dra in detta Flagg-skript och lägg ovanför rörelse-skripten som du skapade. Testa sen att klicka på den gröna flaggan som finns ovanför roboten. Nu har du kopplat ditt program till Scratch startknapp.
+1. Dra in detta Flagg-skript och lägg ovanför rörelse-skripten som du skapade. Testa sedan att klicka på den gröna flaggan som finns ovanför roboten. Nu har du kopplat ditt program till Scratch startknapp.
 
 ![Alt Text](Skript_5.gif)
 
-Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplat under att hända. Händelse-skript har en rundad topp, det betyder att de alltid ligger överst och man kan bara koppla andra scriptblock under.
+Under rubriken **HÄNDELSER** finns många olika sorters händelse-skript att använda - alla dessa får saker som finns kopplade under att hända. Händelse-skript har en rundad topp, det betyder att de alltid ligger överst och att man bara kan koppla andra scriptblock under.
 
-Alla skript i programmet måste vara kopplade till ett händelse-skript med rundad topp, annars kommer inte programmet veta när den ska köra skripten och inget händer.
+Alla skript i programmet måste vara kopplade till ett händelse-skript med rundad topp, annars kommer inte programmet att veta när det ska köra skripten och inget händer.
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
