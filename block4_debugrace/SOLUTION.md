@@ -18,8 +18,6 @@ Detta är buggarna i spelet:
 
 * Meddelandet **"starta"** skickas inte när skalbaggen rör mållinjen
 
-* Det finns två loopar som startas när meddelande **"starta"** tas emot, det skapar problem när skalbaggen rör mållinjen. Variabeln **"varv"** ökar ibland med mer än 1.
-
 * Istället för att jämföra om variabeln **"varv"** är 5 för att avsluta spelet så jämförs 5 med texten *"varv"* och villkoret kommer därför aldrig vara sant.
 
 * Bakgrunden byts inte tillbaka banan när skalbaggen har gjort 5 varv och man vill spela en gång till
