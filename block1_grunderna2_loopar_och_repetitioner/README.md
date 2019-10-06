@@ -18,7 +18,7 @@ Precis som i den förra uppgiften **Kom Igång: Rörelse** ska vi även nu börj
 
 <a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Scratch-projekt: Robot rör sig för alltid</a> <!--_-->
 
-2. Om texten på Scratch sajt är på annat språk än Svenska, kan du om du vill byta språk längst ner på sidan.
+2. Om texten på Scratch sajt är på annat språk än svenska, kan du om du vill byta språk längst ner på sidan.
 
 ![Alt Text](Image_1.png)
 
@@ -30,7 +30,7 @@ Precis som i den förra uppgiften **Kom Igång: Rörelse** ska vi även nu börj
 
 ![Alt Text](Image_3.png)
 
-5. Klicka på remixknappen för att spara en egen kopia av programmet
+5. Klicka på remixknappen för att spara en egen kopia av programmet.
 
 ![Alt Text](Image_4.png)
 
