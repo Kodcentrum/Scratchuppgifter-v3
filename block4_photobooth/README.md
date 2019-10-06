@@ -34,10 +34,13 @@ Nu har du fått en rad nya block som du kan styra din kamera med. Då ska vi kod
 4. Till samma skript fäster du blocket för **”sätt videotransparens till”** och sätt värdet till 0, alltså inte genomskinligt alls.
 
     ![image alt text](image_3.png)
-    
+
 Nu ska din kamera komma igång när du trycker på den gröna START-flaggan ovanför Scen.
 
-> Testa ditt projekt. Klicka på START (gröna flaggan). Du kasnke får upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska. Ser du dig själv nu i bild? 
+> Testa ditt projekt. Klicka på START (gröna flaggan). Ser du dig själv nu i bild?
+
+
+> Första gången du kör programmet kan du få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Tillåt*" eller "*Allow*” på engelska.
 
 
 ## 2 : Kunna stänga av webbkameran
@@ -59,7 +62,7 @@ Du ska kunna stänga av din kamera när du vill såklart! Därför lägger vi ti
 
 ## 3: Ändra utseende med effekter
 
-Då börjar vi skapa en Photo Booth med effekter. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras. 
+Då börjar vi skapa en Photo Booth med effekter. I vårt exempel har vi byggt den såhär som i bilden nedan, men du väljer själv hur du vill att din Photobooth ska se ut och vart knapparna för dina effekter ska placeras.
 
   ![image alt text](image_Photobooth_layout_overview.png)
 
@@ -91,7 +94,7 @@ För att din sprajt alltid ska hamna rätt på scenen, behöver du sätta en *st
     ![image alt text](image_6.png)
 
 
-6. Gör nu ett likadant skript för alla dina sprajtar, med den X- och Y-position som stämmer med där du vill att just den sprajten ska hamna när effekten slås på. **Ett tips**: om du placerar sprajten där du vill att den ska starta på Scen *innan* du drar ut blocket från RÖRELSE: ”gå till X  Y ”., så sätts positionen för X och Y automatiskt i blocket. 
+6. Gör nu ett likadant skript för alla dina sprajtar, med den X- och Y-position som stämmer med där du vill att just den sprajten ska hamna när effekten slås på. **Ett tips**: om du placerar sprajten där du vill att den ska starta på Scen *innan* du drar ut blocket från RÖRELSE: ”gå till X  Y ”, så sätts positionen för X och Y automatiskt i blocket.
 
 
 > Testa ditt projekt! Klicka på START. Startar dina effekter där du vill ha dem i din Photo Booth? Kan du dra runt med effekterna på Scen och passa in dem på ditt ansikte?
@@ -115,14 +118,14 @@ Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en oc
 3. Högerklicka på sprajten och välja kopiera.
 
   ![image kopiera sprajt](image_kopiera_sprajt.png)
-  
+
  De kopierade sprajtarna ska fungera som knappar för dina olika effekter, att slå dem av och på med.
 
 
- 4. Döp sprajtarna till **"Knapp ….”** och din effekt. 
+ 4. Döp sprajtarna till **"Knapp ….”** och din effekt.
 
  ![image kopiera sprajt](image_namn_knapp.png)
- 
+
  *Namnet går att ändra under scenen för vardera sprajt i ditt sprajtbibliotek.*
 
  5. Du behöver förminska knapp-sprajten så att de får plats i din menyrad.
@@ -133,6 +136,8 @@ Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en oc
 
 *Så här kan en menyrad med effekternas olika knappar se ut på scen i din Photo Booth.*
 
+Eftersom du kopierade sprajtarna har du också kopierat deras kod. Men vi behöver ändra lite på den koden. Det kör vi i dessa tre steg:
+
 7. Sätt rätt *startposition* i menyraden för varje knapp, på samma sätt som du gjorde med dina effekter tidigare. Alltså såhär:
 
 8. Dra ut kod-blocket **"när START (flaggan) klickas på”** från **HÄNDELSER** till skriptytan för varje knapp-sprajt. Under detta kodblock kopplar du fast blocket för **RÖRELSE**: **”gå till X  Y ”**.
@@ -141,6 +146,7 @@ Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en oc
 
     ![image alt text](image_draglage_inte_dragbar.png)
 
+> Du behöver alltså inte dra in dessa tre block igen - utan det räcker med att du ändrar de blocken som redan finns.
 
 ## 5: Koppla knapparna till effekt
 
@@ -152,11 +158,11 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
     ![image alt text](image_9.png)
 
-Nu måste du se till att sprajten med den rätta effekten kan ta emot knappens skickade meddelande. Gör såhär: 
+Nu måste du se till att sprajten med den rätta effekten kan ta emot knappens skickade meddelande. Gör såhär:
 
 3. Markera sprajten som föreställer den effekt som knappen ska skicka meddelande till (exempelvis sprajten för effekten *glasögon*). Gå till fliken för KOD och under **HÄNDELSER** drar du ut blocket **”när jag tar emot...”**. Välj rätt meddelandet för just din effekt i rullistan, till exempel meddelandet *”glasögon”*.
 
-4. Fäst blocket för **”visa”** som du hittar under **UTSEENDE**. Nu har du sagt åt din effekt-sprajt att visa sig när den får meddelandet från knappen. Men du behöver också säga åt effekt-sprajten att gömma sig innan knappen har skcikat sitt meddelande, så den inte syns för tidigt.
+4. Fäst blocket för **”visa”** som du hittar under **UTSEENDE**. Nu har du sagt åt din effekt-sprajt att visa sig när den får meddelandet från knappen. Men du behöver också säga åt effekt-sprajten att gömma sig innan knappen har skickat sitt meddelande, så den inte syns för tidigt.
 
     ![image alt text](image_10.png)
 
@@ -284,7 +290,7 @@ Du kan göra ramar som går att välja till bilden i ditt Photo Booth.  Om du in
 > Testa ditt projekt! Klicka på START. Kan du få en ram runt din bild när du trycker på R-tangenten? Går det att byta ram genom att klicka på den?
 
 
-**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Knaske lite effektljud? Lycka till!
+**Klart!** Nu kan du hitta på egna funktioner eller skapa ännu fler effekter till ditt Photo Booth. Kanske lite effektljud? Lycka till!
 
 ## Frågeställningar
 
