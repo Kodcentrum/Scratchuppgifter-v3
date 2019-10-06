@@ -19,7 +19,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 <a href="https://scratch.mit.edu/projects/210050672/" target='_blank'>Projektlänk</a> <!--_-->
 
-2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
+2. Om texten på hemsidan är på engelska så kan du ändra språk längst ner på sidan.
 
 ![Alt Text](Image_1.png)
 
@@ -31,7 +31,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 ![Alt Text](Image_3.png)
 
-5. Klicka på remixknappen för att spara en egen kopia av programmet
+5. Klicka på remixknappen för att spara en egen kopia av programmet.
 
 ![Alt Text](Image_4.png)
 
@@ -81,7 +81,7 @@ Nu kan vi få roboten att säga speciella saker till oss, som hon inte kommer s�
 
 ![Alt Text](Image_5.png)
 
-Superbra jobbat! Nu har du en robot som kan säga ett meddelande bara till dig. Andra personer som använder roboten kommer bara få ett hej tillbaka.
+Superbra jobbat! Nu har du en robot som kan säga ett meddelande bara till dig. Andra personer som använder roboten kommer bara att få ett hej tillbaka.
 
 ## 4: Om-då-annars-skriptet
 
@@ -101,7 +101,7 @@ Precis som förra gången vill vi se vad svaret är lika med.
 
 ![Alt Text](Skript_6.gif)
 
-Skript som du lägger in i den övre delen av **"om <> då annars"**-skriptet kommer köras om man svarat att man tycker programmering är jättekul. Skript som du lägger in i den undre delen kommer köras om man svarar något annat.
+Skript som du lägger in i den övre delen av **"om <> då annars"**-skriptet kommer köras om man svarat att man tycker att programmering är jättekul. Skript som du lägger in i den undre delen kommer köras om man svarar något annat.
 
 5. Dra in ett **"säg _Hej!_ i 2 sekunder"**-skript i den övre delen och ändra texten till _Åh jag med! Jättekul!_
 
