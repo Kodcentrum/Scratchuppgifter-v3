@@ -20,7 +20,7 @@ I instruktionen som följer får du lära dig hur du ändrar i Scratch-koden fö
 
 ![image alt text](image_6.png)</a>
 
-> Bra att veta: Instruktionen som följer bygger vidare på den föregående uppgiften **Fantasisynth** på Kodboken, där du kodar grunden till programmet för din egen Fantasisynth. Om du inte redan skapat ett grundprojekt för <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a> bör du göra detta först.
+> **Tänk på!** Instruktionen som följer bygger vidare på den föregående uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a> på Kodboken, där du kodar grunden till programmet för din egen Fantasisynth. Om du inte redan skapat ett grundprojekt bör du göra detta först.
 
 Redo att börja koppla och koda musik? Klicka dig vidare i siffermenyn här under.
 
