@@ -15,12 +15,12 @@ Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som ä
 <br>
 **Exempelprojekt av en Fantasisynth med Makey Makey**
 
-Klicka på bilden här under för att se ett exempelprojekt av en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den baseras på föregående uppgift på Kodboken som heter endast **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
-I den här instruktionen får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och frukter som tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
+Klicka på bilden här under för att se ett exempelprojekt av en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den bygger vidare på föregående uppgift på Kodboken som heter **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
+I den här instruktionen får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och empelvis frukter som dess tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
 
 ![image alt text](image_6.png)</a>
 
-Redo att koppla och koda musik? Klicka dig vidare här under:
+Redo att koppla och koda musik? Klicka dig vidare i siffermenyn här under.
 
 ## 1: Koppla in Makey Makey
 Makey makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
