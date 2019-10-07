@@ -26,6 +26,103 @@ Redo att börja koppla och koda musik? Klicka dig vidare i siffermenyn här unde
 
 ## 1: Ändra kod i Scratch-projektet
 
+I grundprojektet för Fantasisynth fick du koda för att spela toner med datorns tangentbord och bokstavstangenter. Eftersom en Makey Makey enklast använder uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick som sina tangentkopplingar, behöver du nu ändra lite i koden i ditt Scratch-projekt för din Fantasisynth, så det följer Makey Makeyns tangenter. På så sätt kommer du att kunna spela på Fantasisynthen i Scratch med hjälp av Makey Makey och ledande objekt. Gör såhär:
+
+1. **Logga in på Scratch** (https://scratch.mit.edu) och öppna ditt projekt med din egen **"Fantasisynth"** som du gjorde i förra uppgiften. Klicka på **Arkiv** i övre vänstra hörnet och välj **Spara som kopia**. Nu får du ett nytt projekt av din Fantasisynth. Döp ditt nya projekt till **"Fantasisynth med Makey Makey"**. På så sätt kan du ändra i ditt nya projekt, men samtidigt har du kvar den vanliga synthens projekt också.
+
+2.	Klicka på SCEN i ditt nya projekt **"Fantasisynth med Makey Makey"** och titta på skripten som finns där och som du ska ändra i. Börja med skriptet som skickar meddelandet **"spela äpple"**. Ändra i blocket **när _ trycks ned** och byt ut **"a"** till **uppåtpil** i rullistan.
+
+3. Gör på samma sätt med de andra tangenterna, men hoppa över **"äpple3"** tills vidare, för den ska ha ett specialskript. Byt ut koden så att:
+
+    * Skriptet för **"spela äpple 2"** har **mellanslag**.
+    * Skriptet för **"spela äpple 4"** har **vänsterpil**.
+    * Skriptet för **"spela äpple 5"** har **nedåtpil**.
+    * Skriptet för **"spela äpple 6"** har **högerpil**.
+
+    ![image alt text](image_4.png)
+
+4.	Klicka nu på skriptet för **"spela äpple 3"**. Denna ska skicka meddelandet när du klickar på musknappen. Därför behövs det ett skript som **för alltid** känner av **om musknappen är nedtryckt** och då **skickar meddelandet**.
+
+11.	Du behöver också lägga in att **vänta tills musknappen inte är nedtryckt** innan programmet gör något annat.
+
+    ![image alt text](image_7.png)
+
+> Testa ditt projekt! Klicka på START. Använd först bara datorns tangentbord och mus och testa om skriptet fungerar. Händer det något när du klickar med musknappen? Spelas det en ton? Spelas det toner när du använder piltangenter och mellanslag? Om inget ljud hörs, dubbelkolla att högtalarna är på och volymen lagom.
+
+När allt fungerar är det dags att koppla in en Makey Makey!
+
+## 2: Koppla in Makey Makey
+Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda en dators  tangentbord och mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
+
+![image alt text](image_0.png)
+
+För att koppla in din Makey Makey och spela din Fantasisynth med den så gör du såhär:
+
+1.	 Ta fram den röda kabeln med **USB** och **mini-USB**, det är den tjockaste kabeln i paketet. Koppla den lilla **mini-USB-kabeln** in i Makey Makeyn och den större **USB-kabeln** in i datorn. Om Makey Makeyn nu börjar blinka så är den rätt inkopplad.
+
+![image alt text](image_1.png)
+
+2.	Om det dyker upp meddelanden på skärmen så stänger du bara ner dem.
+
+3.	Koppla in en valfri **alligatorkabel** (en kabel med metallklämmor), längst ner på Makey Makeyn där det står **earth** (det betyder "jord" på svenska"). Kläm fast kabeln ena metallklämma in i två av hålen på metallytan, så sitter den ordentligt. Det spelar ingen roll vilken färg kabeln har, vi använder orange här i vårt exempel på bilderna.
+
+4.	Koppla sen in en alligatorkabel i Makey Makeyn i hålen där det står **space** ( det betyder "mellanslag" på svenska). Det gör att du kopplar in den till **mellanslag** i datorn. Koppla nu metallklämman i den andra änden av denna sladd till någonting som är ledande – en sked till exempel.
+
+![image alt text](image_3.png)
+
+> Testa om det fungerar! För att leda strömmen behöver du hålla med ena handen på metallklämman på fria änden av den kabel som är kopplad till **earth**. Det gör du för att **jorda kopplingen** mellan Makey Makeyn och skeden som leder ström. Rör sen vid skeden med den andra handen. Om det lyser på din Makey Makey betyder det att du nu leder strömmen igenom och allt fungerar som det ska!
+
+>Tips! Du kan även **öppna en texteditor** som Notepad eller ett skrivprogram som Word för att testa om det blir **mellanslag** och markören hoppar framåt varje gång du trycker på skeden, då den är kopplad till **space** - alltså mellanslag på svenska.
+
+5.	Koppla nu in alla övriga alligatorkablar i Makey Makeyn! Du kopplar alltså varsin alligatorkabel till hålen för alla fyra **piltangenter** och till **click** (klick på datormusen på svenska), på samma sätt som du gjorde med kabeln till space.
+
+6.	Koppla sen den andra klämman på varje alligatorkabel till något som kan leda ström - flera skedar, foliebitar, bananer eller något annat elektriskt ledande.
+
+![image alt text](image_2.png)
+
+> Testa om det fungerar! Prova dig fram och se vad som kan vara tangenter till just din Fantasisynth, du kanske vill spela på äpplen, bestick, folieformar, gem eller på dina kompisar? Människor leder också ström! 
+
+## 3: Spela en melodi på din Fantasisynth
+Nu ska du få testa om du kan spela "Blinka lilla stjärna" med dina ledande saker istället för datorns tangentbord!
+
+1.	 Se till så att alla alligatorkablar är inkopplade i Makey Makey, i hålen för alla fyra **piltangenter**, **space** och **click** och att de med andra klämman sitter fast i dina saker som leder ström.
+
+2.	 Se till så att en alligatorkabel är kopplad till **earth**. Håll i den andra klämman för att jorda kopplingen.
+
+3. Kan du nu spela **Blinka lilla stjärna** på din Fantasisynth? Utmana gärna en kompis.
+
+> Testa om det fungerar! Rör nu vid alla de olika saker som du har kopplat via Makey Makeyn till datorn. Vad händer? Kan du spela toner på din synth? Kan du lista ut hur du ska spela "Blinka lilla stjärna" med ditt nya instrument?
+
+> Tips! Ibland kan vissa frukter leda strömmen lite sämmre. Prova dig fram med olika frukter, ibland kan det hjälpa att skrapa bort lite av skalet eller ta lite fukt på fingerspetsarna för att öka den ledande förmågan. Experimentera och testa vad som fungerar bäst.
+
+## Utmaning
+Om du vill komponera egen musik med din Fantasisynth har du här en tabell över MIDI-toner (nummer 60, 62 och så vidare) som du kan använda i Scratch och som motsvaras av bokstavsnoter. Testa dig fram eller sök på nätet efter noter till din favoritmusik!
+
+
+
+<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
+
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt nya projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+
+## Frågeställningar
+
+* Vad betyder att något är ledande?
+* Kan du ge exempel på något som leder ström?
+* Hur tror du att ström omvandlas till något som datorn kan förstå?
+* Hur tror du att ditt program kan förstå när du rör vid dina ledande saker, till exempel skedar eller frukt?
+
+
+
+## 1: Ändra kod i Scratch-projektet
+
 Nu behöver du byta ut vilka tangenter som din fantasisynth spelas med, till de tangenter som finns på Makey Makeyn. På så sätt kommer du att kunna spela på fantasisynthen i Scratch!
 
 7.	Dra ur Makey Makeyns USB-kabel ur datorn. **Gå till Scratch** och öppna ditt projekt som du gjorde i förra uppgiften, **"Fantasisynth"**. Välj **Spara som kopia** och döp ditt nya projekt till **"Fantasisynth med Makey Makey"**. På så sätt har du kvar den vanliga synthen också.
@@ -49,8 +146,9 @@ Nu behöver du byta ut vilka tangenter som din fantasisynth spelas med, till de 
 
 > Testa ditt projekt! Klicka på START. Använd  först tangentbord och mus och testa om skriptet fungerar. Händer det något när du klickar med musen? Spelas det en ton? Spelas det toner när du använder piltangenter och mellanslag?
 
+
 ## 2: Koppla in Makey Makey
-Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
+Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda en dators  tangentbord och mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
 
 ![image alt text](image_0.png)
 
@@ -77,41 +175,3 @@ Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt)
 ![image alt text](image_2.png)
 
 > Testa om det fungerar! Prova dig fram och se vad som kan vara tangenter till just din Fantasisynth, du kanske vill spela på äpplen, bestick, folieformar, gem eller på dina kompisar? Människor leder också ström! 
-
-
-## 3: Spela fantasisynth med Makey Makey
-Nu ska du få testa om du kan spela "Blinka lilla stjärna" med dina ledande saker istället för datorns tangentbord!
-
-12.	 Koppla in Makey Makey i datorn med USB-kabeln.
-
-13.	 Se till så att alla alligatorkablar är inkopplade i Makey Makey, i hålen för alla fyra **piltangenter**, **space**, **click** och att de med andra klämman sitter fast i dina saker som leder ström.
-
-14.	 Se till så att en alligatorkabel är kopplad till **earth**. Håll i den andra klämman för att jorda kopplingen.
-
-> Testa om det fungerar! Rör nu vid alla de olika saker som du har kopplat via Makey Makeyn till datorn. Vad händer? Kan du spela toner på din synth? Kan du lista ut hur du ska spela "Blinka lilla stjärna" med ditt nya instrument?
-
-> Tips! Ibland kan vissa frukter leda strömmen lite sämmre. Prova dig fram med olika frukter, ibland kan det hjälpa att skrapa bort lite av skalet eller ta lite fukt på fingerspetsarna för att öka den ledande förmågan. Experimentera och testa vad som fungerar bäst.
-
-## Utmaning
-Om du vill komponera egen musik med din fantasisynth har du här en tabell över miditoner (nummer 60, 62 och så vidare) som du kan använda i Scratch och som motsvaras av bokstavsnoter. Testa dig fram eller sök på nätet efter noter till din favoritmusik!
-
-
-
-<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
-
-
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
-
-**Glöm inte att spara ditt nya projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-
-## Frågeställningar
-
-* Vad betyder att något är ledande?
-* Kan du ge exempel på något som leder ström?
-* Hur tror du att ström omvandlas till något som datorn kan förstå?
-* Hur tror du att ditt program kan förstå när du rör vid dina ledande saker, till exempel skedar eller frukt?
