@@ -97,13 +97,6 @@ Nu ska du få testa om du kan spela "Blinka lilla stjärna" med dina ledande sak
 
 > Tips! Ibland kan vissa frukter leda strömmen lite sämmre. Prova dig fram med olika frukter, ibland kan det hjälpa att skrapa bort lite av skalet eller ta lite fukt på fingerspetsarna för att öka den ledande förmågan. Experimentera och testa vad som fungerar bäst.
 
-## Utmaning
-Om du vill komponera egen musik med din Fantasisynth har du här en tabell över MIDI-toner (nummer 60, 62 och så vidare) som du kan använda i Scratch och som motsvaras av bokstavsnoter. Testa dig fram eller sök på nätet efter noter till din favoritmusik!
-
-
-
-<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
-
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
@@ -113,6 +106,10 @@ Grattis, nu har du gjort klart uppgiften.
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
+## Utmaning
+Om du vill komponera egen musik med din Fantasisynth har du här en tabell över MIDI-toner (nummer 60, 62 och så vidare) som du kan använda i Scratch och som motsvaras av bokstavsnoter. Testa dig fram eller sök på nätet efter noter till din favoritmusik!
+
+<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
 
 ## Frågeställningar
 
