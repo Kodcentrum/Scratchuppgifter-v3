@@ -1,9 +1,9 @@
 # Fantasisynth med Makey Makey
 
-Om du har tillgång till en Makey Makey kan du koppla den genom datorn till din Fantasisynth som du skapat i Scratch. Med Makey Makey kan du sen spela musik på allt som leder ström, så som riktiga äpplen, eller kanske en Banansynth! För att göra detat behöver du ändra lite i koden i ditt Scratch-projekt som du skapade i den föregående uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>. Följ instruktionen för att du skapa din Fantasisynth med Makey Makey! 
+Om du har tillgång till en Makey Makey kan du koppla den till ditt Scratch-projekt från den föregående uppgiften med din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>. Med en Makey Makey kan du sen spela musik på allt som leder ström, så som frukt, metall eller dina kompisar! Följ instruktionen för att koppla och koda din Fantasisynth med Makey Makey! 
 
 
-**Vad är Makey Makey?**
+**Vad är en Makey Makey?**
 
 Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som är elektriskt ledande, för att styra olika program på din dator, exempelvis projekt du kodat i Scratch. Din Fantasisynth kan då med Makey Makey spelas på tangenter av frukt, skedar eller varför inte en kompis! 
 
@@ -15,12 +15,15 @@ Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som ä
 <br>
 **Exempelprojekt av en Fantasisynth med Makey Makey**
 
-Klicka på bilden här under för att se ett exempelprojekt av en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den bygger vidare på föregående uppgift på Kodboken som heter **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
-I den här instruktionen får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och empelvis frukter som dess tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
+Om du är nyfiken på hur en **Fantasisynth med Makey Makey** kan tänkas se ut, har vi gjort ett exempelprojekt här nedan som du kan klicka på för att kika på. Hur din egen Fantasisynth med Makey Makey kommer se ut bestämmer såklart du själv sen. 
+
+Instruktion som följer bygger vidare på den föregående uppgift som heter **Fantasisynth**, där du kodar grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>.
+
+I den här instruktionen får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och exempelvis frukter som tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
 
 ![image alt text](image_6.png)</a>
 
-Redo att koppla och koda musik? Klicka dig vidare i siffermenyn här under.
+Redo att börja koppla och koda musik? Klicka dig vidare i siffermenyn här under.
 
 ## 1: Koppla in Makey Makey
 Makey makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
