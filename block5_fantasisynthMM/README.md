@@ -1,26 +1,29 @@
 # Fantasisynth med Makey Makey
 
-Om du har tillgång till en Makey Makey kan du koppla den till din Fantasisynth, som du redan skapat i Scratch, och spela musik på riktiga äpplen! För att göra det kommer du att behöva ändra lite i koden i ditt Scratch-projekt som du skapade i uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>
+Om du har tillgång till en Makey Makey kan du koppla den genom datorn till din Fantasisynth som du skapat i Scratch. Med Makey Makey kan du sen spela musik på allt som leder ström, så som riktiga äpplen, eller kanske en Banansynth! För att göra detat behöver du ändra lite i koden i ditt Scratch-projekt som du skapade i den föregående uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>. Följ instruktionen för att du skapa din Fantasisynth med Makey Makey! 
+
 
 **Vad är Makey Makey?**
 
-Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som är elektriskt ledande, för att styra olika program på din dator, exempelvis projekt du kodat i Scratch. Din Fantasisynth kan med Makey Makey spelas på tangenter av frukt, skedar eller varför inte en kompis! 
+Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som är elektriskt ledande, för att styra olika program på din dator, exempelvis projekt du kodat i Scratch. Din Fantasisynth kan då med Makey Makey spelas på tangenter av frukt, skedar eller varför inte en kompis! 
 
 ![image alt text](image_2.png) 
 
->**Tips!** Vill du se film om hur du använder Makey Makey så finns en här:  
+>**Tips!** Vill du se en film om hur du kan använda Makey Makey så finns en här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
 
 
-**Exempelprojekt av Fantasisynth med Makey Makey**
-Klicka på bilden här under för att se ett exempelprojekt som är anpassat för en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den baseras på föregående uppgift på Kodboken som heter endast **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
-I den här instruktionen får du lära dig hur du ändrar lite i Scratch-koden för att koppla om datortangenterna till att istället styras med en Makey Makey: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
+**Exempelprojekt av en Fantasisynth med Makey Makey**
+
+Klicka på bilden här under för att se ett exempelprojekt av en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den baseras på föregående uppgift på Kodboken som heter endast **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
+I den här instruktionen får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musik toner på, till att istället styras med en Makey Makey och frukter som tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
 
 ![image alt text](image_6.png)</a>
 
+Redo att koppla och koda musik? Klicka dig vidare här under:
 
 ## 1: Koppla in Makey Makey
-Vi kopplar in Makey Makeyn i datorn och testar hur den fungerar!Makey makeyn överför signaler från det ledande objektet, via kretskortet till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil,  mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus.
+Makey makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
 
 ![image alt text](image_0.png)
 
