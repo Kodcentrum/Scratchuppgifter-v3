@@ -3,7 +3,6 @@
 Om du har tillgång till en Makey Makey kan du koppla den till din Fantasisynth, som du redan skapat i Scratch, och spela musik på riktiga äpplen! För att göra det kommer du att behöva ändra lite i koden i ditt Scratch-projekt som du skapade i uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>
 
 **Vad är Makey Makey?**
-
 Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som är elektriskt ledande, för att styra olika program på din dator, exempelvis projekt du kodat i Scratch. Din Fantasisynth kan med Makey Makey spelas på tangenter av frukt, skedar eller varför inte en kompis! 
 
 ![image alt text](image_2.png) 
@@ -11,10 +10,9 @@ Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som ä
 >**Tips!** Vill du se film om hur du använder Makey Makey så finns en här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
 
+
 **Exempelprojekt av Fantasisynth med Makey Makey**
-
 Klicka på bilden här under för att se ett exempelprojekt för en "Fantasisynth med Makey Makey" programmerad i Scratch. Den baseras på föregående uppgift på Kodboken som heter bara Fantasisynth, där du kodar grunden till en <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>, som du nu kan lägga till Makey Makey för: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
-
 
 ![image alt text](image_6.png)</a>
 
