@@ -12,7 +12,7 @@ Makey Makey är ett litet kretskort som enkelt kan kopplas ihop med saker som ä
 >**Tips!** Vill du se en film om hur du kan använda Makey Makey så finns en här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
 
-
+<br>
 **Exempelprojekt av en Fantasisynth med Makey Makey**
 
 Klicka på bilden här under för att se ett exempelprojekt av en "**Fantasisynth med Makey Makey**", programmerad i Scratch. Den baseras på föregående uppgift på Kodboken som heter endast **Fantasisynth**, där instruktioner finns för att koda grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. 
