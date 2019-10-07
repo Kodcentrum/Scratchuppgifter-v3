@@ -16,11 +16,11 @@ Makey Makey är ett litet programmerbart kretskort som enkelt kan kopplas ihop m
 
 Om du är nyfiken på hur en **Fantasisynth med Makey Makey** kan tänkas se ut, har vi gjort ett exempelprojekt här nedan som du kan klicka på för att testa. Hur just din Fantasisynth med Makey Makey kommer se ut bestämmer givetvis du själv sen. 
 
-I den här instruktionen som följer får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och exempelvis frukter som tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
+I instruktionen som följer får du lära dig hur du ändrar i Scratch-koden för att koppla om datortangenterna du spelar musiktoner på, till att istället styras med en Makey Makey och exempelvis frukter som tangenter: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">
 
 ![image alt text](image_6.png)</a>
 
-Instruktionen som följer bygger vidare på den föregående uppgiften **Fantasisynth** på Kodboken, där du kodar grunden till programmet för din egen <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a>. Om du inte redan skapat grundprjektet Fantasisynth bör du göra detta först.
+> Bra att veta: Instruktionen som följer bygger vidare på den föregående uppgiften **Fantasisynth** på Kodboken, där du kodar grunden till programmet för din egen Fantasisynth. Om du inte redan skapat ett grundprojekt för <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth?chpt=0" target="_blank">Fantasisynth</a> bör du göra detta först.
 
 Redo att börja koppla och koda musik? Klicka dig vidare i siffermenyn här under.
 
