@@ -127,13 +127,13 @@ Nu ska du får skapa ett meddelande för din sprajt-tangent i din synth. Gör s�
 
 > Testa ditt projekt! Klicka på gröna START-flaggan över SCEN för att stta igång projektet. Vad händer när du trycker på tangenten "A" på din dators tangentbord.? Visst spelas det en ton? Om du inte hör en ton - öka volymen på din dators högtalare!
 
-**Vad är noternas siffror?** Vad betyder egentligen siffran 60 för noten i kodblocket? Förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
+> **Vad är noternas siffror?** Vad betyder siffran 60 för noten i kodblocket? Jo, förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
 
   ![Lista med MIDI-siffror för noter i din synth](image_MIDI.png)
 
 ## 5: Ge sprajten en mun att sjunga med
 
-I vårt exempel jobbar vi med äppel-sprajten, den har ingen mun att sjunga med och endast en bild utan röresle eller klädslar. I det här kapitlet guidar vi dig att skapa röresle på din sprajt, genom att skapa egna nya "klädslar" med öppen och stängd mun på don sprajt att sedan växla mellan så den ser ut att sjunga eller inte. 
+I vårt exempel jobbar vi med en äppel-sprajt, den har ingen mun att sjunga med och endast en bild utan röresle eller klädslar. I det här kapitlet guidar vi dig att skapa röresle på din sprajt, genom att skapa egna nya "klädslar" med öppen och stängd mun på don sprajt att sedan växla mellan så den ser ut att sjunga eller inte. 
 
 Hur ska vi se vilken sprajt det är som spelar toner i din synth när du spelar på tangentbordet? Jo, om du ändrar lite på sprajtens  utseende så ser ut som om den sjunger när tonen spelas! I vårt exempel har vi ritat in en mun på våra äpplen som öppnas och stängs när den sjunger. För att göra det ska du ANIMERA sprajten, genom att byta mellan så kallade klädslar på den - med en mun som öppnas och stängs. Gör såhär:
 
@@ -141,7 +141,7 @@ Hur ska vi se vilken sprajt det är som spelar toner i din synth när du spelar 
 
   ![Scratch - fliken Klädslar för din sprajt](image_flik_kladslar.png)
  
-Först ska du rita två ögon på äpplet. Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktyget tills du är nöjd. Välj sen vilket ritverktyg du vill ha för att måla, exemmeplvis  **pensel**, **cirkel** eller **linje** och rita två ögon på äpplet. 
+Först ska du rita två ögon på äpplet (eller den sprajt du har valt). Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktyget tills du är nöjd. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel**, **cirkel** eller **linje** och rita två ögon. Tips: När du ritat ögonen kan du dra dem dit du vill ha den om de först hamnar lite fel. 
 
   ![Scratch - Klädslar - ritverktyget - välj färg](image_11.png)
   
@@ -155,33 +155,33 @@ Först ska du rita två ögon på äpplet. Välj vilken **färg** du vill ha gen
 
   !Scratch - Klädslar - ritverktyget - rita stängd mun på första klädseln](image_13.png)
 
-4.	Klicka sen på den andra klädseln, (den heter "apple2" i vårt exempel), så den andra blir markerad istället. Måla en **cirkel** som en öppen mun, så sprajten ser ut att sjunga! Dra cirkeln till mitt på äpplet så att den öppna munnen sitter på rätt ställe.
+4.	Klicka sen på den andra klädseln, (den heter "apple2" i vårt exempel), så den andra blir markerad istället. Måla en **cirkel** som en öppen mun, så sprajten ser ut att sjunga! Dra cirkeln till mitten på äpplet (eller den sprajt du använder) så att den öppna munnen sitter på rätt ställe.
 
   ![Scratch - Klädslar - ritverktyget - rita öppen mun på andra klädseln](image_14.png)
 
-**Tips:** Har du valt en annan sprajt som redan har ögon och mun? Eller en sprajt som redan har flera olika klädslar? I så fall får du redigera och göra om bilderna som du vill, så länge som en klädsel har stängd mun och en har öppen! Tänk på att du kan alltid "måla över" en sprajts mun och ögon med en ny färg.
+**Tips:** Har du valt en annan sprajt som redan har ögon och mun? Eller en sprajt som redan har flera olika klädslar? I så fall får du redigera elelr rita och göra om bilderna som du vill, så länge som en klädsel ser ut att ha en stängd mun och en har en öppen mun - så den kan sjunga! Tänk på att du kan alltid "måla över" en sprajts mun och ögon med en ny färg.
 
 ## 6: Få äpplet att börja sjunga!
 
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
-Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i den spelas. Vi måste ju veta vilken sprajt det är som låter när tangenten trycks ned! Vi använder ett likadant skript med koder som vi använde för att spela tonen.
+Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i den spelas. Vi måste ju veta vilken sprajt det är som låter när tangenten trycks ned! Vi använder ett likadant skript med koder som vi använde för att spela tonen. 
 
-19. Klicka på fliken KOD för att komma bort från KLÄDSLAR med ritverktyget och tillbaka där du kan koda skript igen. 
+1. Klicka på fliken KOD för att komma bort från fliken KLÄDSLAR med ritverktyget och tillbaka där du kan koda skript igen. 
 
   ![image alt text](image_flik_kod.png)
 
-20. Från tema HÄNDELSER drar du ut kodblocket: **när jag tar emot spela äpple** och lägger det på skriptytan för din sprajt. Dra sedan ut ett block från tema UTSEENDE: **byt klädsel till...** och klicka på lilla triangeln och välj **"apple2"**, klädseln med öppen mun. Nu kommer de två olika klädslarna med stängd och öppen mun att bytas mellan varandra när sprajtens ton spelas.
+2. Från tema HÄNDELSER drar du ut kodblocket: **när jag tar emot spela äpple** och lägger det på skriptytan för din sprajt. Dra sedan ut ett block från tema UTSEENDE: **byt klädsel till...** och klicka på lilla triangeln och välj **"apple2"**, klädseln med öppen mun. Nu kommer de två olika klädslarna med stängd och öppen mun att bytas mellan varandra när sprajtens ton spelas.
 
   ![image alt text](image_kodblock_animera_kladslar.png)
   ![image alt text](image_andra_kladsel_till.png)
   ![image alt text](image_andra_kladsel_till_apple2.png)
   
   
-21. Efter att äpplet har spelat sin not så ska munnen stängas igen. Munnen behöver vara öppen en liten stund innan den stängs, så noten hinner spelas klart. Vi lägger till ett VÄNTA-block i koden, innan sprajten byter klädsel till stängd mun. Dra ut ett block från orangea temat KONTROLL: **vänta 1 sekunder** och ändra variablen med värdet **1** till det mindre **0.2** sekunder.
+3. Efter att äpplet har spelat sin not så ska munnen stängas igen. Munnen behöver vara öppen en liten stund innan den stängs, så noten hinner spelas klart. Vi lägger till ett VÄNTA-block i koden, innan sprajten byter klädsel till stängd mun. Dra ut ett block från orangea temat KONTROLL: **vänta 1 sekunder** och ändra variablen med värdet **1** till det mindre **0.2** sekunder.
 
   ![image alt text](image_vanta_sekunder.png)
 
-22. Dra ut ett till block för UTSEENDE: **byt klädsel till...**. Välj klädseln **"apple"** så att äpplet får stängd mun igen.  
+4. Dra ut ett till block för UTSEENDE: **byt klädsel till...**. Välj klädseln **"apple"** så att äpplet får stängd mun igen.  
 
   ![image alt text](image_16.png)
 
@@ -191,27 +191,27 @@ Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i d
 
 Men vi har ju bara en ton som spelas nu. Lite tråkig synth! Nu ska du kopiera sprajten som spelar noter fem gånger och ändra i skripten för att få fem toner till i synth-instrumentet. Gör såhär:
 
-23. Högerklicka på den lilla sprajtbilden som finns i ditt lilla sprajt-bibliotek under scenen. Välj **kopiera** så får du en kopia av din sprajt som får siffran 2 i sitt namn. 
+1. Högerklicka på den lilla sprajtbilden som finns i ditt lilla sprajt-bibliotek under scenen. Välj **kopiera** så får du en kopia av din sprajt som får siffran 2 i sitt namn. 
 
   ![Scratch - Kopiera din sprajt](image_17.png)
 
-24. Kopiera nu sprajten flera gånger så att du har totalt sex sprajtar - dina sex tangenter i din synth. Alla kodskript och olika klädslar som du har skapat i det den första sprajten, har också kopierats till alla de nya sprajtarna. Dom är alla likadana.
+2. Kopiera nu sprajten flera gånger så att du har totalt sex sprajtar - dina sex tangenter i din synth. Alla kodskript och olika klädslar som du har skapat i det den första sprajten, har också kopierats till alla de nya sprajtarna. Dom är alla likadana.
 
   ![image alt text](image_18.png)
 
 ## 8: Ge synten alla toner
 
-25.	Klicka på den andra lilla sprajt-bilden i sprajtbiblioteket under scenen (**Apple2** i vårt exempel). 
+1. Klicka på den andra lilla sprajt-bilden i sprajtbiblioteket under scenen (**Apple2** i vårt exempel). 
 
   ![image alt text](image_18b.png)
   
 Nu ska du ändra vilken ton denna andra sprajt ska spela och vilken tangent på datorn du ska trycka på för att den ska börja låta! Gör såhär: 
 
-26. Byt ut värdet **60** i variabeln i kodblocket **spela not 60 i 0.5 takter** så att not G **67** spelas istället. Klicka på lilla pianot som kommer upp, till du hittar G-67, se bilden nedan:
+2. Byt ut värdet **60** i variabeln i kodblocket **spela not 60 i 0.5 takter** så att not G **67** spelas istället. Klicka på lilla pianot som kommer upp, till du hittar G-67, se bilden nedan:
 
   ![image alt text](image_19.png)
 
-27.	Markera nu SCEN för att skapa en kopia av skriptet för tangent **"a"** som nu ligger där. Högerklicka på skriptet med koden som finns och välj kopiera. Klicka sen en gång på skriptytan, så fastnar den nya kopian där. 
+3.	Markera nu SCEN för att skapa en kopia av skriptet för tangent **"a"** som nu ligger där. Högerklicka på skriptet med koden som finns och välj kopiera. Klicka sen en gång på skriptytan, så fastnar den nya kopian där. 
 
   ![image alt text](image_20.png)
  
@@ -219,11 +219,11 @@ Nu ska du ändra vilken ton denna andra sprajt ska spela och vilken tangent på 
   
   ![image alt text](image_20_b_c.png)
 
-28. I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"G"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska **noten G** spelas och sprajten "Apple2" ska sjunga.
+4. I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"G"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska **noten G** spelas och sprajten "Apple2" ska sjunga.
 
   ![image alt text](image_20_b.png)
 
-29.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Klicka på lilla pilen i kodblocket under **när g tangenten trycks ned**. Välj **"nytt meddelande"** i rullistan som kommer fram och döp det nya meddelandet till **"spela äpple 2"**. Nu har du skapat ett nytt meddelande.
+5.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Klicka på lilla pilen i kodblocket under **när g tangenten trycks ned**. Välj **"nytt meddelande"** i rullistan som kommer fram och döp det nya meddelandet till **"spela äpple 2"**. Nu har du skapat ett nytt meddelande.
 
   ![image alt text](image_20_c.png)
   
@@ -233,7 +233,7 @@ Nu ska det finnas två skript bredvid varandra, en för tangent A på din dator 
 
   ![image alt text](image_20_e.png)
 
-30.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
+6.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
 
   ![image alt text](image_21.png)
   ![image alt text](image_21_b.png)
@@ -243,7 +243,7 @@ Nu ska det finnas två skript bredvid varandra, en för tangent A på din dator 
 
 Nu ska vi göra likadant med alla våra fem sprajtar (eller äpplen, som vi har i vårt exempel)!
 
-31. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ändra om i meddelandet som tas emot till sprajterna (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
+7. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ändra om i meddelandet som tas emot till sprajterna (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
 
 **Glöm inte ändra alla noter för alla sprajtar!**
 
