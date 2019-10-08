@@ -2,10 +2,10 @@
 
 Nu ska du få göra en version av spelet Sky Whale där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre! Här i vår version ska valen äta så många munkar som möjligt - varje munk ger poäng! Du kommer att lära dig att använda variabler och slumptal för att få spelet att fungera.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> Bläddra dig fram genom denna guide, steg för steg. 
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Här kan du se ett exempel här: <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">https://scratch.mit.edu/projects/104732551/</a>
+Här kan du se ett exempel: <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">https://scratch.mit.edu/projects/104732551/</a>
 
 ![Färdigt projekt](image_0.png)
   
@@ -18,15 +18,15 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
    ![Ta bort sprajt genom att klicka på vita krysset i blå ring](image_1.png)
 
-2. Klicka på **"Rita ny sprajt”** (katten med den vita plus tecknet) nere i högra hörnet. Välj sedan **Måla** i menyn. Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, tryck på knappen **”Välj en sprajt”**.
+2. Klicka på **"Rita ny sprajt”** (katten med det vita plus-tecknet) nere i högra hörnet. Välj sedan **Måla** i menyn. Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, tryck på knappen **”Välj en sprajt”**.
 
   ![Rita nya sprajt genom att klicka på den vita katten med ett plus](image_2.png)
 
-3. För att spelet ska bli enklare att spela måste du minska storleken på valen. Klicka på sprajten och skriv in 50 i **rutan för storlek**. Välj ännu mindre 
+3. För att spelet ska bli enklare att spela måste du minska storleken på valen. Klicka på sprajten och skriv in 50 i **rutan för storlek**. Välj en ännu mindre storlek om det behövs.
 
   ![Skriv i rutan för storlek](image_3.png)
 
-4. Tryck på kod-fliken. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till kodytan. Under den fäster du ett **”för alltid”** block som finns under oranga pluppen **KONTROLL**. Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.
+4. Tryck på kod-fliken. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till kodytan. Under den fäster du ett **”för alltid”** block som finns under orangea pluppen **KONTROLL**. Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.
 
 5. Inuti loopen lägger du ett block från **RÖRELSE** som säger **"peka mot muspekare”** och efter det **”gå 10 steg”**. Byt ut 10 mot ett värde som du tycker ger lagom hastighet!
 
