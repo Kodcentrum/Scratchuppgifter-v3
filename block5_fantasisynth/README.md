@@ -23,16 +23,16 @@ Instruktionen följer exemplet av Fantasisynth med äpplen här ovan.
 ## 1: Kom på en idé för ditt instrument
 Först behöver du komma på hur din Fantasisynth ska se ut!
 
-Du ska göra en synth som du spelar med hjälp av datorns tangenter. Bara din fantasi sätter gränserna hur din synth kan se ut, så länge det finns 6 sprajtar (Scratch-figurer kallas för sprajtar) som kan vara synthens olika "tangenter" att spela på. I vårt exempel och i denna instruktion använder vi sprajtar som ser ut som äpplen för vår Fantasisynts tangenter. 
+Du ska göra en synth som du spelar med hjälp av datorns tangenter. Bara din fantasi sätter gränserna hur den ska se ut, så länge det finns 6 sprajtar (Scratch-figurer kallas för sprajtar) som kan vara synthens olika "tangenter" att spela på. I vårt exempel och i denna instruktion använder vi sprajtar som ser ut som äpplen för vår Fantasisynts tangenter. 
 
-1.	Vad ska vara din fantasisynths tangentet? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Klura ut hur du vill att din synth ska se ut.
+1.	Vad ska vara din fantasisynths tangenter? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Klura ut hur du vill att din synth ska se ut.
 
-2.	Har du fått en idé för din synth? Rita eller skriv ned dina idéer, berätta gärna för någon som kan hjälpa dig med din idé och ge förslag. Tänk på att ingen ide är fel, för i framtiden kan allt vara möjligt! Du bestämmer!
+2.	Har du fått en idé för din synth? Rita eller skriv ned dina idéer, berätta gärna för någon som kan hjälpa dig med din idé och ge förslag. Tänk på att ingen idé är fel, för i framtiden kan allt vara möjligt - du bestämmer!
 
 > **Tips** om du behöver inspiration kan du kika in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli tangenter.
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-När du har en grund för din idé, kan du gå vidare och börja designa och koda din Fantasisynth.
+När du har en grund för din idé, kan du gå vidare med att designa och koda din Fantasisynth.
 
 ## 2: Välj bakgrund och sprajt
 
@@ -48,12 +48,13 @@ Först behöver du välja en bakgrund som passar som SCEN till din synth och en 
 
 5.	Nu ska du få välja en ny sprajt som ska vara din synthtangent. Tryck på knappen för **Välj en sprajt**, och välj din tangent-sprajt. Klicka på den du vill ha, så läggs den till i ditt projekt.
 
-I vårt exempel är sprajten för tangenter ett äpple, men du kan välja precis vilken sprajt du vill!
+I vårt exempel är sprajten för tangenter ett äpple, men du kan välja precis vilken sprajt du vill! (Läs gärna faktarutan nedanför bilderna om hur olika sprajtar fungerar.)
 
   ![image alt text](image_4.png)  
 
   ![image alt text](image_5.png)
 
+> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig från början, andra inte. Du kan välja vilken du vill, men då här instruktionen är skriven för sprajtar som **inte** kan röra på sig (exempelvis äppel-sprajten). Hur vet man om sprajten är en som kan röra sig? Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket. Om det är en med rörelse i sig så börjar den nu röra på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egenna klädsslar för rörelse. (I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.)
 
 ## 3: Välj tillägget Musik i Scratch
 När du ska jobba med ljud och musik i Scratch, är det enklast att lägga till Scratch tillägg med temat Musik, så får du bra kodblock med just musik att koda med. Gör såhär:
