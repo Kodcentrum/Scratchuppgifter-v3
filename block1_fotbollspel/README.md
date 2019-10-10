@@ -137,7 +137,7 @@ Nu ska du få fotbollsspelaren att ropa "Mål!" när bollen nuddar det vita mål
 
 > Att en sprajt kan **skicka meddelande** till en annan, kallas för en *funktion*. Det är ett sätt för olika delar i programmet att kunna "prata" med varandra. Du kommer snart att se varför det är bra att ha.
 
-15. Börja med att säga till bollens sprajt att *om* den *rör färgen* för målet, *då* ska bollen göra något. Lägg kommandot i samma loop som den första **"om <> då"**-blocket. Färgen för målet får du om du klickar i rutan för **"rör vid färgen ( )?"** och sedan klickar på färgväljaren och sen på ditt mål på scenen.
+15. Börja med att säga till bollens sprajt att *om* den *rör färgen* för målet, *då* ska bollen göra något. Lägg kommandot i samma loop som den första **"om <> då"**-blocket. Färgen för målet får du om du klickar i rutan för **"rör vid färgen ( )?"** och sedan klickar på färgväljaren och sedan på ditt mål på scenen.
 
   ![Färgväljare](rita-valj-farg-valjare-1.png) ![Välja färg](rita-valj-farg-valjare-2.png) 
 
@@ -171,16 +171,16 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   ![Ta emot meddelande, Nytt spel](kod-spelare-meddelande-2.png)
 
-21. Markera nu bollen och gör ett likadant skript som **när jag tar emot [Nytt spel]** "nytt spel" som för spelaren i punkt 20. Ta sedan ett block för **"skicka [Nytt spel]"** och lägg in i bollens start-skript, innan **"för alltid"**-loop:en.
+21. Markera nu bollen och gör ett likadant skript som **när jag tar emot [Nytt spel]** "nytt spel" som för spelaren i punkt 20.
 
   ![Kod skicka meddelande](kod-boll-4.png)
 
-> **Testa ditt projekt.** Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
+> **Testa ditt projekt.** Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startpositionerna?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på Dela-knappen för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
