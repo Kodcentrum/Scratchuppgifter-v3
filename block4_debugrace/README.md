@@ -12,21 +12,18 @@ Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
 	<a href="https://scratch.mit.edu/projects/203394778/" target="_blank">https://scratch.mit.edu/projects/203394778/</a>
 
-2. Klicka på knappen **"Se inuti"** så att du kan se koden
+2. Klicka på knappen **"Remix"** så får du en egen version av spelet.
 
 	![image alt text](image_1.png)
 
-3. Klicka sedan på knappen **"Remix"** så får du en egen version av spelet
+
+När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
+
+3. Döp om till något roligare
 
 	![image alt text](image_2.png)
 
-	När du har remixat spelet så ser du att namnet har förändrats.
-
-4. Döp om till något roligare
-
-	![image alt text](image_3.png)
-
-I projektet har du nu en massa kod och två sprajter: ![image alt text](image_4.png)
+I projektet har du nu en massa kod och två sprajter: ![image alt text](image_3.png)
 
 1. En skalbagge som är din spelare
 
@@ -34,7 +31,7 @@ I projektet har du nu en massa kod och två sprajter: ![image alt text](image_4.
 
 > *Testa spelet! Tryck på den gröna flaggan. Vad händer? Inte så mycket förrutom att skalbaggen rusar utanför planen - det är för att spelet är fullt med buggar.*
 
-**Det finns 11 buggar i spelet – klarar du av att hitta dem? Kan du få spelet att fungera?**
+**Det finns 10 buggar i spelet – klarar du av att hitta dem? Kan du få spelet att fungera?**
 
 ## 2 – Spelregler
 
