@@ -36,30 +36,32 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
 **Tips:** För att valen inte ska vända sig upp och ned i spelet, klicka på sprajtens riktning och välj **vänster/höger** (pilarna i mitten som pekar mot varandra)
 
+  ![klicka på sprajtens riktning](image_15.png)
+
 > Testa ditt projekt! Klicka på START-flaggan. Kan du styra valen med muspekaren? Går den lagom snabbt?
 Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
 
 7. Du kan förhindra att valen flippar omkring som en galning genom att lägga till blocket **"om <> då”** som finns under **KONTROLL**. Blocket för **"om <> då”** ska vara inuti loopen men utanför din kod för rörelsen.
 
-8. Nu ska du välja två block från **OPERATORER** och **KÄNNA AV**. När du är klar ska sprajten.
+8. Nu ska du välja två block från **OPERATORER** och **KÄNNA AV**. När du är klar ska sprajten:
 
-  * Om **avståndet till muspekare är större än 10** så ska sprajten **peka mot muspekaren** och **gå**. 
+  * **Peka mot muspekaren** och **gå** om **avståndet till muspekare är större än 10**. 
 
-  * Är avståndet mindre än 10 så ska sprajten bara stå stilla.
+  * Bara stå stilla om avståndet är mindre än 10.
 
   ![Tidigare koden med om avståndet till musen är större än 10](image_5.png)
 
 > Testa ditt projekt! Klicka på START. Fungerar det bättre att styra valen nu? 
 
 ## 2: En himmel som bakgrund
-Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajter. Då kan du välja att programmera dem senare i en av våra utmaningar!
+Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajtar. Då kan du välja att programmera dem senare i en av våra utmaningar!
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till höger och sedan på fliken BAKGRUNDER högst upp i mitten.
 
   ![En vit bakgrund till höger som säger bakgrund](image_6.png)
   ![En tabb i övre menyn som säger bakgrund](image_7.png)
 
-10. Tryck på Gör till bitmap. Välj en färg under fyll. Tryck på målarburken sedan på bakgrunden för att rita hela bakgrunden med den valda färgen.
+10. Tryck på **"Gör till bitmapp"**. Välj en färg under **"Fyll"**. Tryck på målarburken sedan på bakgrunden för att måla hela bakgrunden med den valda färgen.
 
 11. Moln gör du som sprajtar. Rita egna med **"Måla”** eller välj en som redan finns. Sök efter **”Cloud”** för att hitta moln. Gör sprajten lagom stor och placera på scenen. Kopiera för flera moln, eller välj två olika moln om du vill!
 
@@ -68,11 +70,11 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 ## 3: Munkar att äta
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita egna munkar själv finns det färdiga i Scratch. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
-12. Rita en egen munk med **"Måla”** eller välj en som redan finns. Under ”Mat” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den! Du behöver bara en sprajt för donut.
+12. Rita en egen munk med **"Måla”** eller välj en som redan finns. Under **"Mat"** hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den! Du behöver bara en sprajt för donut.
 
   ![En bild av en donut](image_9.png)
 
-13. Klicka på donuts först sedan tryck på fliken som säger KOD. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
+13. Klicka på donut först och klicka sedan på fliken som keter **"Kod"**. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
 
 14. Inuti loopen fäster du block från **RÖRELSE** som säger att sprajten ska:
 
@@ -112,7 +114,7 @@ Nu ska du få valen att äta munken. När valen når en munk ska den försvinna 
 
 > Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
 
-Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
+Munken försvinner oavsett var på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
 
 17. Hur kan du se till att munken bara försvinner om den nuddar valens mun? Se först till att din val har en speciell färg på sin mun, en färg som inte finns någon annanstans på sprajten. Du kan byta ut blocket **"rör sprajten”** mot **”rör färgen”** och välja färgen som valen har på sin mun.
 
@@ -138,7 +140,7 @@ För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låd
 
   ![Koden skickar meddelande "jag är uppäten" när den rör vid valens mun](image_13.png)
 
-20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variablar** som du döper till "*poäng*”. Fäst blocket **”ändra **_poäng_** med 1” **efter** ”tar emot meddelandet”**.
+20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variabler** som du döper till "*poäng*”. Fäst blocket **”ändra **_poäng_** med 1” ** efter ** ”tar emot meddelandet”**.
 
 22. För att nollställa poängen vid start gör du ett till skript som säger att **"när START (flaggan) klickas på”** så **”sätt poäng till 0”**.
 
