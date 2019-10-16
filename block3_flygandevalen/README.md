@@ -34,7 +34,7 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
   ![Kod för när flaggan klickas på gå till x och y för alltid peka mot muspekare gå 3 steg](image_4.png)
 
-**Tips:** För att valen inte ska vända sig upp och ned i spelet, klicka på sprajtens riktning och välj **vänster/höger** (pilarna i mitten som pekar mot varandra)
+**Tips:** För att valen inte ska vända sig upp och ned i spelet, klicka på sprajtens riktning och välj **vänster/höger** (pilarna i mitten som pekar mot varandra).
 
   ![klicka på sprajtens riktning](image_15.png)
 
@@ -140,7 +140,7 @@ För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låd
 
   ![Koden skickar meddelande "jag är uppäten" när den rör vid valens mun](image_13.png)
 
-20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variabler** som du döper till "*poäng*”. Fäst blocket **”ändra **_poäng_** med 1” ** efter ** ”tar emot meddelandet”**.
+20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variabler** som du döper till "*poäng*”. Fäst blocket **”ändra _poäng_ med 1”** efter **”tar emot meddelandet”**.
 
 22. För att nollställa poängen vid start gör du ett till skript som säger att **"när START (flaggan) klickas på”** så **”sätt poäng till 0”**.
 
@@ -157,7 +157,7 @@ Om du vill att munkarna ska bli unika kan du:
 
 **Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
 
-> Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter munkar? Står poängräknaren på 0 när du startar spelet?
+> Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter munkar?
 
 
 
@@ -214,4 +214,4 @@ I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattens
 
 * Vad är en variabel?
 
-* Vilka två sätt kan du använda för att köra kod när två sprajter rör vid varandra?
+* Vilka två sätt kan du använda för att köra kod när två sprajtar rör vid varandra?
