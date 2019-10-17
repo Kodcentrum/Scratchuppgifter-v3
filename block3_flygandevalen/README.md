@@ -45,9 +45,9 @@ Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det u
 
 8. Nu ska du välja två block från **OPERATORER** och **KÄNNA AV**. När du är klar ska sprajten:
 
-  * **Peka mot muspekaren** och **gå** om **avståndet till muspekare är större än 10**. 
+  * Om **avståndet till muspekare är större än 10** då **Peka mot muspekaren** och **gå** 
 
-  * Bara stå stilla om avståndet är mindre än 10.
+  * Bara stå stilla om avståndet är mindre än eller lika med 10.
 
   ![Tidigare koden med om avståndet till musen är större än 10](image_5.png)
 
