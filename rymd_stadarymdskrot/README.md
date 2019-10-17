@@ -218,7 +218,7 @@ På samma sätt som vi ritade och programmerade vår kvadrat – skapa nu tre ny
 - En cirkel
 - En triangel
 
-> Tips! Det verkar inte finnas ingen färdig form för att rita en triangel. Vi måste nog rita den själva.
+> Tips! Det verkar inte finnas någon färdig form för att rita en triangel. Vi måste nog rita den själva.
 
 Glöm inte att också lägga in all kod från vår första sprajt.
 
