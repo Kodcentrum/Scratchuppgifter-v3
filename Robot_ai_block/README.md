@@ -23,18 +23,22 @@ Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi kan programe
 ## Få roboten att röra på sig!
 
 Det första som vi vill göra är att få roboten att röra sig, börja med att lägga till ett rör dig frammåt block och sätt det till 5 steg. Vi vill också att roboten ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
-(Lägg till bild)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
 
 Nu rör sig roboten på sig, men den kommer också röra sig genom väggar och inte städa bort någon smuts. Vi behöver koda lite mer. 
 
-Börja med att ta ett kontrollblock, om ... då, annars ... . och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
+Börja med att ta ett kontrollblock, om ... då, och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
+
 
 Klicka på den färg som finns i känn av färg blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna.
 
-Nu känner roboten av om den åker in i en vägg, men den vet inte vad den ska göra om det här händer! Vi måste skriva lite kod till. Gå till rörelseblocken och välj sväng vänster. Skriv in 11 grader här.
+Nu känner roboten av om den åker in i en vägg, men den vet inte vad den ska göra om det här händer! Vi måste skriva lite kod till. Gå till rörelseblocken och välj sväng vänster. Skriv in 36 grader här.
 
 Sådär, lägg in rör dig frammåt blocket i annars biten av om blocket så att det ser ut något såhär: 
-(Lägg till bild)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörelseKlar.png)
+
 
 Om allt har gått bra har vi nu en robot som rör sig runt i rummet vi ritade i början, men ingenting damsugs! Vi behöver koda lite till.
 
