@@ -44,9 +44,12 @@ Om allt har gått bra har vi nu en robot som rör sig runt i rummet vi ritade i 
 
 ## Damsugare
 
-För den här biten kommer vi behöva lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp som ser ut såhär ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/laggtillBlock.png)
+För den här biten kommer vi behöva lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp som ser ut såhär 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/laggtillBlock.png)
 
 Klickar vi på den kommer vi till en sida där vi kan lägga till massor med olika tillägg, men just den här gånge vill vi lägga till Pennan så vi klickar på den ruta som ser ut såhär 
+
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/pennaBlock.png)
 
 Sådär! Nu kan vi hitta våra pen-block längst ner under våra vanliga block. 
