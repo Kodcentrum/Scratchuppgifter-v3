@@ -3,18 +3,20 @@
 Visst är det tråkigt att damsuga så varför inte försöka koda en egen liten robotdamsugare som kan hjälpa till hemma? 
 Det är lättare än vad du tror! 
 
-Börja med att ta bort katt sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdamsugare. Den kan se ut precis så som du vill att den ska se ut!
+Börja med att ta bort katt sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdamsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/dammsugare.png)
+
 
 Roboten kommer också behöva en yta att damsuga, så klicka därefter på bakgrunder och använd fantasin för att rita upp antingen ditt rum eller kanske din drömlägeneht sedd ifrån ovan.
 Viktigt här är att alla väggar är samma färg och att inget annat är målat i samma färg!
 
 Här är ett enkelt exempel på hur det kan se ut: 
-(Lägg till bild)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rum.png)
 
-En damsugare är ju inte så användbar om det inte finns smuts så nu måste vi också välja en ny färg som ska vara smuts. Rita ut lite smuts eller damm lite här och var, tänk att det inte har städats på riktigt länge 
-!
 
-(Lägg till bild)
+En damsugare är ju inte så användbar om det inte finns smuts så nu måste vi också välja en ny färg som ska vara smuts. Rita ut lite smuts eller damm lite här och var, tänk att det inte har städats på riktigt länge !
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rummedSmuts.png)
+
 
 Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi kan programera att städa upp efter oss! 
 
