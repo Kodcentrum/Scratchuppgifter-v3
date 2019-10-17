@@ -29,7 +29,7 @@ Nu rör sig roboten på sig, men den kommer också röra sig genom väggar och i
 
 Börja med att ta ett kontrollblock, om ... då, och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörVidFärg.png)
 
 
 Klicka på den färg som finns i känn av färg blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna.
