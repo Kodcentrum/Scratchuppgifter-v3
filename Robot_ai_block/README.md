@@ -48,28 +48,33 @@ För den här biten kommer vi behöva lägga till en grupp specialblock. Nere i 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/laggtillBlock.png)
 
-Klickar vi på den kommer vi till en sida där vi kan lägga till massor med olika tillägg, men just den här gånge vill vi lägga till Pennan så vi klickar på den ruta som ser ut såhär 
+Klickar vi på den kommer vi till en sida där vi kan lägga till massor med olika tillägg, men just den här gången vill vi lägga till Pennan så vi klickar på den ruta som ser ut såhär 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/pennaBlock.png)
 
 Sådär! Nu kan vi hitta våra pen-block längst ner under våra vanliga block. 
 
-Det första vi måste göra är att sätta pennan till den storlek som vi vill ha. Detta gör vi innan vårt för alltid block. Beroende på hur stor eller liten din robot är så kommer du kanske behöva skriva in en annan siffra här men i mitt fall passar 30 väldigt bra. Vi sätter också pennan till samma färg som golvet genom att dra ut ett "sätt färg till" block. Välj smutsfärgen på samma sätt som vi valde färgen för väggen!
+Det första vi måste göra är att sätta pennan till den storlek som vi vill ha. Detta gör vi innan vårt för alltid block. Beroende på hur stor eller liten din robot är så kommer du kanske behöva skriva in en annan siffra här men i mitt fall passar 30 väldigt bra. Det viktigaste är att pennan är mindre än vad din robotdamsugare är!
+
+Vi sätter också pennan till samma färg som golvet genom att dra ut ett "sätt färg till" block. Välj golvfärgen på samma sätt som vi valde färgen för väggen!
+
 Eftersom vi inte heller vill dammsuga innan vi är ovanför smuts så sätter vi också ut blocket "Penna upp" i vårt "om då" block precis innan "rör dig frammåt" blocket.
 
-När du är klar borde det se ut någonting såhär:
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/s.png)
-
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugarConfig.png)
 
 
 
 Sådär! Nu är vi redo att koda själva städandet!
 
 Inne i vår för alltid loop lägger vi nu till ytterligare ett om block precis under vårt penna upp block. Vi anväder samma känn av färg block som vi använde för att känna av väggarna, men istället för färgen på väggarna väljer vi nu färgen vi valde på smutsen!
-(Lägg till bild)
 
 Inne i det här blocket lägger vi in ett penna ner block och med det är vi klara! Scriptet borde nu se ut någo sådanthär:
 
-(Lägg till bild)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugOmFärg.png)
+
+Sätt ihop den här biten kod med resten för att få en bit kod som ser ut såhär:
+
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/slutresultat.png)
 
 Vi kan nu köra det och se hur roboten damsuger upp smutsen vi ritade ut! 
