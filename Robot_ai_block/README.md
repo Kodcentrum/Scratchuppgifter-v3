@@ -60,7 +60,7 @@ Vi sätter också pennan till samma färg som golvet genom att dra ut ett "sätt
 
 Eftersom vi inte heller vill dammsuga innan vi är ovanför smuts så sätter vi också ut blocket "Penna upp" i vårt "om då" block precis innan "rör dig frammåt" blocket.
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugarConfig.png)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugarConfig.PNG)
 
 
 
@@ -70,11 +70,11 @@ Inne i vår för alltid loop lägger vi nu till ytterligare ett om block precis 
 
 Inne i det här blocket lägger vi in ett penna ner block och med det är vi klara! Scriptet borde nu se ut någo sådanthär:
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugOmFärg.png)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugOmFärg.PNG)
 
 Sätt ihop den här biten kod med resten för att få en bit kod som ser ut såhär:
 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/slutresultat.png)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/slutresultat.PNG)
 
 Vi kan nu köra det och se hur roboten damsuger upp smutsen vi ritade ut! 
