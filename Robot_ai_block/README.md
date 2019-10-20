@@ -105,3 +105,18 @@ Sådär, lägg in rör dig frammåt blocket i annars biten av om blocket så att
 
 Nu har vi ett hudjur som rör sig runt i rummet!
 
+## Få damsugaren att undvika husdjuret
+Beroende på om du har ritat en egen sprajt eller tagit en som redan är färdig så kanske din damsugare redan kommer akta sig för ditt husdjur. Om det till exempel har samma färg som dina väggare eller en kontur med samma färg så kommer din robotdamsugare akta sig när den kommer nära!
+
+Men om det inte är så kan vi programmera lite till för att få damsugaren att akta sig för husdjuret. 
+
+Vi tar ett till om block och placerar det innan om blocket som kollar efter väggarna. I detta blocket sätter vi precis som med väggarna ett sväng vänster/höger block med 36 grader. 
+
+För att få damsugaren att vända även när den stöter på sprajten tar vi ett rör vid block och väljer vår nya sprajt i listan. Detta blocket placerar vi sen i om-blocket. Sådär! Damsugaren undviker nu också katten som springer runt i lägenheten!
+
+### Saker att arbeta vidare på
+Kan du göra så att roboten skiljer på fler saker? Kanske finns det en viss smuts som den inte ska damsuga upp utan istället hälla vatten på? 
+
+Går det att få roboten att röra sig på annat sätt?
+
+
