@@ -22,7 +22,7 @@ Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi kan programe
 
 ## Få roboten att röra på sig!
 
-Det första som vi vill göra är att få roboten att röra sig, börja med att lägga till ett rör dig frammåt block och sätt det till 5 steg. Vi vill också att roboten ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
+Det första som vi vill göra är att få roboten att röra sig, börja med att lägga till ett rör dig frammåt block och sätt det till 5 steg. Vi vill också att roboten aldrig ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
 
 Nu rör sig roboten på sig, men den kommer också röra sig genom väggar och inte städa bort någon smuts. Vi behöver koda lite mer. 
@@ -78,3 +78,30 @@ Sätt ihop den här biten kod med resten för att få en bit kod som ser ut såh
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/slutresultat.PNG)
 
 Vi kan nu köra det och se hur roboten damsuger upp smutsen vi ritade ut! 
+
+
+## Fortsättning (Fler alternativ i framtiden)
+Kanske finns det något i hemmet som roboten behöver undvika? Kanske finns det något husdjur eller liknande som roboten måste kunna undvika. 
+
+### Koda ett litet husdjur 
+Börja med att rita ett husdjur eller välj en sprajt som du tycker skulle vara rolig att ha som ett husdjur!
+
+Vi kodar husdjuret på samma sätt som vi kodade damsugaren börja med att lägga till ett rör dig frammåt block och sätta det till 5 steg. Vi vill också att roboten ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
+
+
+Ta också ett kontrollblock, om ... då, och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörVidFärg.png)
+
+
+Klicka på den färg som finns i känn av färg blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna.
+
+Nu känner husdjuret av om den åker in i en vägg! Nu vehöver vi bara ett till rörelseblock, välj sväng vänster och skriv in 36 grader här.
+
+Sådär, lägg in rör dig frammåt blocket i annars biten av om blocket så att det ser ut något såhär: 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörelseKlar.png)
+
+
+Nu har vi ett hudjur som rör sig runt i rummet!
+
