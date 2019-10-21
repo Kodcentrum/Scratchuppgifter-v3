@@ -2,8 +2,7 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> Bläddra dig fram genom denna guide, steg för steg. Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
 
 Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spelet kan se ut, beroende på vilken form labyrintens väggar har:
 
@@ -15,7 +14,7 @@ Din labyrint kan se ut som du vill. Här visar vi två exempel på hur olika spe
 
 ![image alt text](image_1.png)
 
-Dax att börja koda!
+Dags att börja koda!
 
 ## 1 – Rita en labyrint
 
@@ -25,17 +24,17 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 
 ![image alt text](Ta_bort_Sprajt.png)
 
-2. Tryck på SCEN långtned till höger och byt till fliken BAKGRUNDER som du finner långt upp till vänster. 
+2. Tryck på SCEN långt ned till höger och byt till fliken BAKGRUNDER som du finner långt upp till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)
 
 ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på knappen som det står **Gör till bitmap** på.
+Börja med att fixa **bakgrundsfärg**, genom att fylla bakgrunden med en färg du gillar. För att detta ska fungera, behöver du först trycka på knappen som det står **Gör till bitmapp** på.
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut som en liten hink för att fylla bakgrunden genom att klicka på den stora vita rutan bredvid.
+Sedan väljer du en färg du gillar och klickar på verktyget som ser ut som en liten hink för att fylla bakgrunden genom att klicka på den stora vita rutan bredvid.
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
@@ -53,7 +52,7 @@ Sen väljer väljer du en färg du gillar och klickar på verktyget som ser ut s
 
 ## 2 – Gör din karaktär
 
-Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan att röra väggarna. Välj en färdig sprajt i Scratch som du lägger till, eller rita din egen. Vad för karaktär vill du spela som? Om du vill rita din egen sprajt, så gör du såhär:
+Nu ska lägga till en sprajt eller figur som ska kunna styras genom labyrinten, utan att röra väggarna. Välj en färdig sprajt i Scratch som du lägger till, eller rita din egen. Vad för karaktär vill du spela som? Om du vill rita din egen sprajt, så gör du så här:
 
 6. Välj **Ny Sprajt** och klicka på **Måla** som ser ut som en liten pensel. Rita din egen sprajt-figur hur du vill, men tänk på att den ska kunna styras genom labyrinten och enkelt svänga i banans hörn och kanter. Var noga med att sprajten ritas med **andra färger** än din  bagrund och labyrintens väggar. **Efter** att du ritat färdigt din sprajt kan du förminska den så att **den blir tillräcklig liten** för att få plats att ta sig igenom labyrinten ordentligt.
 
@@ -61,7 +60,7 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
   _Exempel på en sprajt._
   
-Ändra stoleken på din sprajt så den passar in i labyrinten, från 100% full storlek till lägre procenttal. Prova dig fram tills det passar.
+Ändra stoleken på din sprajt så att den passar in i labyrinten, från 100% full storlek till lägre procenttal. Prova dig fram tills det passar.
 
   ![image alt text](Ändra_Storlek_Sprajt.png) 
 
@@ -77,7 +76,7 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
   ![image alt text](image_4.png)
   
-  8. Gör sen tre till likadana skript, så du kan styra genom labyrinten åt alla håll. Ändra piltangentknapp och riktningen för att styra **vänster**, **höger** och **nedåt**.
+  8. Gör sedan tre till likadana skript, så du kan styra genom labyrinten åt alla håll. Ändra piltangentknapp och riktningen för att styra **vänster**, **höger** och **nedåt**.
 
 > Tänk på! Det är viktigt att ha olika styrknappar och riktningar i de fyra skripten, så att din karaktär kan svänga i labyrintens bana.
 
@@ -90,7 +89,7 @@ Nu ska lägga till en sprajt eller figur som ska kunna styras labyrinten, utan a
 
 Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt rör väggen i labyrinten, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten så vinner du.
 
-9. Ta först reda på var din startpunkt är. Dra din sprajt till mitten på **startpunkten** på SCENEN. Titta på vad din sprajt har för KOORDINATER (alltså vilken position på scen-ytan med X och y). Kom ihåg eller skriv upp dem!
+9. Ta först reda på var din startpunkt är. Dra din sprajt till mitten på **startpunkten** på SCENEN. Titta på vad din sprajt har för KOORDINATER (alltså vilken position på scen-ytan med x och y). Kom ihåg eller skriv upp dem!
 
   ![image alt text](image_5.png)
 
@@ -116,7 +115,7 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
 
-> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
+> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten? Säger den "Du vann!" när du nuddar målpunkten? 
 
 
 ## 4: En timer
