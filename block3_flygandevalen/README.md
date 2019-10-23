@@ -2,10 +2,10 @@
 
 Nu ska du få göra en version av spelet Sky Whale där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre! Här i vår version ska valen äta så många munkar som möjligt - varje munk ger poäng! Du kommer att lära dig att använda variabler och slumptal för att få spelet att fungera.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> Bläddra dig fram genom denna guide, steg för steg. 
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-Här kan du se ett exempel här: <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">https://scratch.mit.edu/projects/104732551/</a>
+Här kan du se ett exempel: <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">https://scratch.mit.edu/projects/104732551/</a>
 
 ![Färdigt projekt](image_0.png)
   
@@ -18,15 +18,15 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
    ![Ta bort sprajt genom att klicka på vita krysset i blå ring](image_1.png)
 
-2. Klicka på **"Rita ny sprajt”** (katten med den vita plus tecknet) nere i högra hörnet. Välj sedan **Måla** i menyn. Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, tryck på knappen **”Välj en sprajt”**.
+2. Klicka på **"Rita ny sprajt”** (katten med det vita plus-tecknet) nere i högra hörnet. Välj sedan **Måla** i menyn. Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, tryck på knappen **”Välj en sprajt”**.
 
   ![Rita nya sprajt genom att klicka på den vita katten med ett plus](image_2.png)
 
-3. För att spelet ska bli enklare att spela måste du minska storleken på valen. Klicka på sprajten och skriv in 50 i **rutan för storlek**. Välj ännu mindre 
+3. För att spelet ska bli enklare att spela måste du minska storleken på valen. Klicka på sprajten och skriv in 50 i **rutan för storlek**. Välj en ännu mindre storlek om det behövs.
 
   ![Skriv i rutan för storlek](image_3.png)
 
-4. Tryck på kod-fliken. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till kodytan. Under den fäster du ett **”för alltid”** block som finns under oranga pluppen **KONTROLL**. Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.
+4. Tryck på kod-fliken. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på”** till kodytan. Under den fäster du ett **”för alltid”** block som finns under orangea pluppen **KONTROLL**. Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.
 
 5. Inuti loopen lägger du ett block från **RÖRELSE** som säger **"peka mot muspekare”** och efter det **”gå 10 steg”**. Byt ut 10 mot ett värde som du tycker ger lagom hastighet!
 
@@ -34,32 +34,34 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
   ![Kod för när flaggan klickas på gå till x och y för alltid peka mot muspekare gå 3 steg](image_4.png)
 
-**Tips:** För att valen inte ska vända sig upp och ned i spelet, klicka på sprajtens riktning och välj **vänster/höger** (pilarna i mitten som pekar mot varandra)
+**Tips:** För att valen inte ska vända sig upp och ned i spelet, klicka på sprajtens riktning och välj **vänster/höger** (pilarna i mitten som pekar mot varandra).
+
+  ![klicka på sprajtens riktning](image_15.png)
 
 > Testa ditt projekt! Klicka på START-flaggan. Kan du styra valen med muspekaren? Går den lagom snabbt?
 Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
 
 7. Du kan förhindra att valen flippar omkring som en galning genom att lägga till blocket **"om <> då”** som finns under **KONTROLL**. Blocket för **"om <> då”** ska vara inuti loopen men utanför din kod för rörelsen.
 
-8. Nu ska du välja två block från **OPERATORER** och **KÄNNA AV**. När du är klar ska sprajten.
+8. Nu ska du välja två block från **OPERATORER** och **KÄNNA AV**. När du är klar ska sprajten:
 
-  * Om **avståndet till muspekare är större än 10** så ska sprajten **peka mot muspekaren** och **gå**. 
+  * Om **avståndet till muspekare är större än 10** då **Peka mot muspekaren** och **gå** 
 
-  * Är avståndet mindre än 10 så ska sprajten bara stå stilla.
+  * Bara stå stilla om avståndet är mindre än eller lika med 10.
 
   ![Tidigare koden med om avståndet till musen är större än 10](image_5.png)
 
 > Testa ditt projekt! Klicka på START. Fungerar det bättre att styra valen nu? 
 
 ## 2: En himmel som bakgrund
-Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajter. Då kan du välja att programmera dem senare i en av våra utmaningar!
+Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajtar. Då kan du välja att programmera dem senare i en av våra utmaningar!
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till höger och sedan på fliken BAKGRUNDER högst upp i mitten.
 
   ![En vit bakgrund till höger som säger bakgrund](image_6.png)
   ![En tabb i övre menyn som säger bakgrund](image_7.png)
 
-10. Tryck på Gör till bitmap. Välj en färg under fyll. Tryck på målarburken sedan på bakgrunden för att rita hela bakgrunden med den valda färgen.
+10. Tryck på **"Gör till bitmapp"**. Välj en färg under **"Fyll"**. Tryck på målarburken sedan på bakgrunden för att måla hela bakgrunden med den valda färgen.
 
 11. Moln gör du som sprajtar. Rita egna med **"Måla”** eller välj en som redan finns. Sök efter **”Cloud”** för att hitta moln. Gör sprajten lagom stor och placera på scenen. Kopiera för flera moln, eller välj två olika moln om du vill!
 
@@ -68,11 +70,11 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 ## 3: Munkar att äta
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita egna munkar själv finns det färdiga i Scratch. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
-12. Rita en egen munk med **"Måla”** eller välj en som redan finns. Under ”Mat” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den! Du behöver bara en sprajt för donut.
+12. Rita en egen munk med **"Måla”** eller välj en som redan finns. Under **"Mat"** hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den! Du behöver bara en sprajt för donut.
 
   ![En bild av en donut](image_9.png)
 
-13. Klicka på donuts först sedan tryck på fliken som säger KOD. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
+13. Klicka på donut först och klicka sedan på fliken som keter **"Kod"**. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
 
 14. Inuti loopen fäster du block från **RÖRELSE** som säger att sprajten ska:
 
@@ -112,7 +114,7 @@ Nu ska du få valen att äta munken. När valen når en munk ska den försvinna 
 
 > Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
 
-Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
+Munken försvinner oavsett var på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
 
 17. Hur kan du se till att munken bara försvinner om den nuddar valens mun? Se först till att din val har en speciell färg på sin mun, en färg som inte finns någon annanstans på sprajten. Du kan byta ut blocket **"rör sprajten”** mot **”rör färgen”** och välja färgen som valen har på sin mun.
 
@@ -138,7 +140,7 @@ För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låd
 
   ![Koden skickar meddelande "jag är uppäten" när den rör vid valens mun](image_13.png)
 
-20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variablar** som du döper till "*poäng*”. Fäst blocket **”ändra **_poäng_** med 1” **efter** ”tar emot meddelandet”**.
+20. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **variabler** som du döper till "*poäng*”. Fäst blocket **”ändra _poäng_ med 1”** efter **”tar emot meddelandet”**.
 
 22. För att nollställa poängen vid start gör du ett till skript som säger att **"när START (flaggan) klickas på”** så **”sätt poäng till 0”**.
 
@@ -155,7 +157,7 @@ Om du vill att munkarna ska bli unika kan du:
 
 **Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
 
-> Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter munkar? Står poängräknaren på 0 när du startar spelet?
+> Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter munkar?
 
 
 
@@ -212,4 +214,4 @@ I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattens
 
 * Vad är en variabel?
 
-* Vilka två sätt kan du använda för att köra kod när två sprajter rör vid varandra?
+* Vilka två sätt kan du använda för att köra kod när två sprajtar rör vid varandra?
