@@ -122,9 +122,9 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare.
 
-För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
+För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör så här:
 
-1. Under tema VARIABLER finns överst **Skapa en variabel**. Klicka på den och skriv in **Tid** och tryck på OK. Nu har det skapats ett nytt kodblock under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
+1. Under tema VARIABLER finns överst **Skapa en variabel**. Klicka på den och skriv in **Tid** och tryck på OK. Nu har det skapats ett nytt kodblock under tema VARIABLER som heter **Tid**. Du kan också se tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så att den räknar ned sekunderna. Gör så här:
 
 2. Gör ett helt nytt skript för sprajten som säger (och se exempelbilden nedan):
 
@@ -134,13 +134,13 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
   * **Sätt Tid** till 60 sekunder (eller välj själv hur många sekunder ditt spel ska ha)
 
-  * **För alltid om Tid < 61**
+  * **För alltid om Tid > 0**
 
     * **Då** ska sprajten **vänta** 1 sekund
 
     * **Ändra Tid** med -1
 
-    * Annars **säg "Game over"** och **stoppa alla** skript
+    * Annars **säg "Game Over!"** och **stoppa alla** skript
 
   ![image alt text](image_7.png)
 
@@ -150,7 +150,7 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
   ![image alt text](image_8.png)
 
-  _Så här ska alla skript se ut som kollar om sprajten nuddar väggen_
+  _Så här ska alla skript se ut som kollar om sprajten nuddar väggen._
 
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
@@ -165,7 +165,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 2. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**.
 
-> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
+> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sedan tillbaka till din nya bakgrund och måla väggar och mål.
 
 3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd kodblocket  **skicka meddelande1**. Klicka på texten **meddelande 1** så kan du välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
 
