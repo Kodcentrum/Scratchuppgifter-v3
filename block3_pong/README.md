@@ -2,8 +2,7 @@
 
 Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
+> Bläddra dig fram genom denna guide, steg för steg. Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
 
 Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a>
 
@@ -17,17 +16,17 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 
 2. Klicka på **"Måla ny bakgrund"**.
 
-3. Färglägg hela bakgrunden svart och rita en mållinje på vänster och höger sida, använd **rektangelverktyget** för att få dem helt raka och ganska breda. Mållinjerna ska ha olika färg, i vårt exempel använder vi röd och blå.
+3. Färglägg hela bakgrunden svart och rita en mållinje på vänster och höger sida. Använd **rektangelverktyget** för att få dem helt raka och ganska breda. Mållinjerna ska ha olika färg, i vårt exempel använder vi röd och blå.
 
   ![image alt text](image_1.png)
 
-4. Klicka på **"Mål ny sprajt"** för att skapa en ny sprajt. Gör en avlång platta med **rektangelverktyget** i en rolig färg. Här har vi använt lila.
+4. Klicka på **"Måla ny sprajt"** för att skapa en ny sprajt. Gör en avlång platta med **rektangelverktyget** i en rolig färg. Här har vi använt lila.
 
     **Tips!** Vita rektanglar kan skapa problem.
 
     ![image alt text](mala_sprajt.png)
 
-5. Skapa en kopia av sprajten och lägg båda sprajtar framför varsin mållinje, lika nära mållinjerna.
+5. Skapa en kopia av sprajten och lägg båda sprajtarna framför varsin mållinje, lika nära mållinjerna.
 
   ![image alt text](image_2.png)
 
