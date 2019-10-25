@@ -46,48 +46,48 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
 
       * Ändra **y med 10**
 
-      * Om vid kantent, studsa
+      * Om vid kanten, studsa
 
     * OM **M är nedtryckt**
 
       * Ändra **y med -10**
 
-      * Om vid kantent, studsa
+      * Om vid kanten, studsa
 
   ![image alt text](image_3.png)
 
 7. Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.
 
-8. Ändra **rotationsstil** på de två plattorna så de bara roterar i höger-vänster riktning. Det gör du genom att klicka på siffran där det står **Riktning**
+8. Ändra **rotationsstil** på de två plattorna så att de bara roterar i höger-vänster riktning. Det gör du genom att klicka på siffran där det står **Riktning**
 
      ![image alt text](rotationsstil.png)
 
-> Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?
+> Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar de hela tiden inom skärmen? Vad händer om de nuddar kanten?
 
 
 
 
 ## 3: En studsande boll
 
-Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!
+Nu har du gjort bakgrunden med mållinjer och plattor att styra med. Nu behöver du en boll att spela med!
 
 8. Skapa en ny sprajt genom att klicka på **"Välj en sprajt"**. Välj en som liknar en boll! I exemplet används **Saker/Baseball**.
 
-9. Gör bollen till den storlek som du tycker passar, du kan alltid ändra storleken sen om det blir för enkelt eller svårt att spela.
+9. Gör bollen till den storlek som du tycker passar. Du kan alltid ändra storleken senare om det blir för enkelt eller svårt att spela.
 
-10. Nu behöver du se till att bollen startar i mitten varje gång vi sätter på spelet, och åker därifrån åt ett slumpmässigt håll!
+10. Nu behöver du se till att bollen startar i mitten varje gång vi startar spelet, och därifrån åker åt ett slumpmässigt håll!
 
-  Skapa ett skript för bollen som säger:  
+  Skapa ett skript för bollen som säger:
 
-  * Starta när START klickas på
+  * Starta när START klickas på.
 
-  * Starta på positionen **x:0 och y:0**
+  * Starta på positionen **x:0 och y:0**.
 
-  * **Peka i en slumpmässig riktning mellan 10 och 350 grader**. På så att rör sig bollen sedan åt ett slumpmässigt håll.
+  * **Peka i en slumpmässig riktning mellan 10 och 350 grader**. På så sätt rör sig bollen åt ett slumpmässigt håll.
 
-  * **Vänta 2 sekunder**, så att du hinner sätta dig bekvämt innan spelet startar
+  * **Vänta 2 sekunder**, så att du hinner sätta dig bekvämt innan spelet startar.
 
-  * Därefter ska bollen **för alltid gå tio steg**, men om den **rör kanten, ska den studsa**
+  * Därefter ska bollen **för alltid gå tio steg**, men om den **rör kanten, ska den studsa**.
 
   ![image alt text](image_4.png)
 
@@ -95,9 +95,9 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   Inuti **för alltid** blocket i bollens skript behöver du lägga till:
 
-  * Kolla **om bollen rör färgen lila**, det vill säga plattornas färg, innan bollen rör sig
+  * Känna av **om bollen rör färgen lila**, det vill säga plattornas färg, innan bollen rör sig
 
-  * OM bollen rör färgen lila, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
+  * Om bollen rör färgen lila, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
 
   ![image alt text](image_5.png)
 
