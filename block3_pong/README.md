@@ -116,9 +116,9 @@ Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bol
 
   ![image alt text](image_6.png)
 
-14. Gå till skriptet för bollen och lägga till:
+14. Gå till skriptet för bollen och lägg till:
 
-  * Två **om** -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en lila färg)
+  * Två **om**-block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en lila färg)
 
   * Två block ovanför **för alltid**-blocket som sätter variablerna till 0 när spelet startar
 
@@ -144,7 +144,7 @@ Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bol
 
   _Här är blocken du behöver. Tänk på att om bollen rör blå färg så ska röd spelaren få poäng och vice versa!_
 
-> Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?
+> Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den åt ett slumpmässigt håll då? Får rätt spelare poäng?
 
 
 ## 5: Game Over!
@@ -178,7 +178,7 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
@@ -202,7 +202,7 @@ Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan n
 
     * **Ändra "hastighet" med 1** **var femte sekund**
 
-4. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om-**block som kollar om bollen har **rört blå färg** respektive **röd färg**.
+4. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om**-block som kollar om bollen har **rört blå färg** respektive **röd färg**.
 
 ### Mindre plattor
 Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
@@ -217,7 +217,7 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
 2. Skapa ett skript för bollen som säger:
 
-  * Startar när meddelandet ** "flytta boll"**
+  * Startar när meddelandet **"flytta boll"** tas emot
 
   * För ALLTID: **Gå 10 steg** och **studsa** vid kanten.
 
@@ -227,11 +227,11 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
   ![image alt text](image_12.png)
 
-4. Nu måste vi se till att bollen stannar upp när de har träffat väggarna. Lägg därför till ett block som säger **stoppa andra skript i sprajt** precis efter du har känt efter om bollen rör röd (eller blå) färg.
+4. Nu måste vi se till att bollen stannar upp när den har träffat väggarna. Lägg därför till ett block som säger **stoppa andra skript i sprajt** precis efter att du har känt efter om bollen rör röd (eller blå) färg.
 
-5. Skicka meddelandet **"flytta boll"** efter du har väntat i två sekunder.
+5. Skicka meddelandet **"flytta boll"** efter att du har väntat i två sekunder.
 
-6. Se till att du göra båda dessa ändringar för när du känner av _"röd"_ OCH _"blå"_ färg.
+6. Se till att du gör båda dessa ändringar för när du känner av _"röd"_ OCH _"blå"_ färg.
 
   ![image alt text](image_13.png)
 
@@ -239,7 +239,7 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
    Dessa ändringar frikopplar koden som känner av om bollen rör plattan från koden som rör bollen.
 
-7. Lägg till ett skript efter du har känt av _"lila"_ färg och ändrat riktning på bollen:
+7. Lägg till ett skript efter att du har känt av _"lila"_ färg och ändrat riktning på bollen:
 
   * REPETERA tills **_inte_ rör lila färg** :
 
