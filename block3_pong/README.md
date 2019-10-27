@@ -2,8 +2,7 @@
 
 Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
+> Bläddra dig fram genom denna guide, steg för steg. Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
 
 Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a>
 
@@ -17,17 +16,17 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 
 2. Klicka på **"Måla ny bakgrund"**.
 
-3. Färglägg hela bakgrunden svart och rita en mållinje på vänster och höger sida, använd **rektangelverktyget** för att få dem helt raka och ganska breda. Mållinjerna ska ha olika färg, i vårt exempel använder vi röd och blå.
+3. Färglägg hela bakgrunden svart och rita en mållinje på vänster och höger sida. Använd **rektangelverktyget** för att få dem helt raka och ganska breda. Mållinjerna ska ha olika färg, i vårt exempel använder vi röd och blå.
 
   ![image alt text](image_1.png)
 
-4. Klicka på **"Mål ny sprajt"** för att skapa en ny sprajt. Gör en avlång platta med **rektangelverktyget** i en rolig färg. Här har vi använt lila.
+4. Klicka på **"Måla ny sprajt"** för att skapa en ny sprajt. Gör en avlång platta med **rektangelverktyget** i en rolig färg. Här har vi använt lila.
 
     **Tips!** Vita rektanglar kan skapa problem.
 
     ![image alt text](mala_sprajt.png)
 
-5. Skapa en kopia av sprajten och lägg båda sprajtar framför varsin mållinje, lika nära mållinjerna.
+5. Skapa en kopia av sprajten och lägg båda sprajtarna framför varsin mållinje, lika nära mållinjerna.
 
   ![image alt text](image_2.png)
 
@@ -47,48 +46,48 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
 
       * Ändra **y med 10**
 
-      * Om vid kantent, studsa
+      * Om vid kanten, studsa
 
     * OM **M är nedtryckt**
 
       * Ändra **y med -10**
 
-      * Om vid kantent, studsa
+      * Om vid kanten, studsa
 
   ![image alt text](image_3.png)
 
 7. Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.
 
-8. Ändra **rotationsstil** på de två plattorna så de bara roterar i höger-vänster riktning. Det gör du genom att klicka på siffran där det står **Riktning**
+8. Ändra **rotationsstil** på de två plattorna så att de bara roterar i höger-vänster riktning. Det gör du genom att klicka på siffran där det står **Riktning**
 
      ![image alt text](rotationsstil.png)
 
-> Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?
+> Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar de hela tiden inom skärmen? Vad händer om de nuddar kanten?
 
 
 
 
 ## 3: En studsande boll
 
-Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!
+Nu har du gjort bakgrunden med mållinjer och plattor att styra med. Nu behöver du en boll att spela med!
 
 8. Skapa en ny sprajt genom att klicka på **"Välj en sprajt"**. Välj en som liknar en boll! I exemplet används **Saker/Baseball**.
 
-9. Gör bollen till den storlek som du tycker passar, du kan alltid ändra storleken sen om det blir för enkelt eller svårt att spela.
+9. Gör bollen till den storlek som du tycker passar. Du kan alltid ändra storleken senare om det blir för enkelt eller svårt att spela.
 
-10. Nu behöver du se till att bollen startar i mitten varje gång vi sätter på spelet, och åker därifrån åt ett slumpmässigt håll!
+10. Nu behöver du se till att bollen startar i mitten varje gång vi startar spelet, och därifrån åker åt ett slumpmässigt håll!
 
-  Skapa ett skript för bollen som säger:  
+  Skapa ett skript för bollen som säger:
 
-  * Starta när START klickas på
+  * Starta när START klickas på.
 
-  * Starta på positionen **x:0 och y:0**
+  * Starta på positionen **x:0 och y:0**.
 
-  * **Peka i en slumpmässig riktning mellan 10 och 350 grader**. På så att rör sig bollen sedan åt ett slumpmässigt håll.
+  * **Peka i en slumpmässig riktning mellan 10 och 350 grader**. På så sätt rör sig bollen åt ett slumpmässigt håll.
 
-  * **Vänta 2 sekunder**, så att du hinner sätta dig bekvämt innan spelet startar
+  * **Vänta 2 sekunder**, så att du hinner sätta dig bekvämt innan spelet startar.
 
-  * Därefter ska bollen **för alltid gå tio steg**, men om den **rör kanten, ska den studsa**
+  * Därefter ska bollen **för alltid gå tio steg**, men om den **rör kanten, ska den studsa**.
 
   ![image alt text](image_4.png)
 
@@ -96,9 +95,9 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   Inuti **för alltid** blocket i bollens skript behöver du lägga till:
 
-  * Kolla **om bollen rör färgen lila**, det vill säga plattornas färg, innan bollen rör sig
+  * Känna av **om bollen rör färgen lila**, det vill säga plattornas färg, innan bollen rör sig
 
-  * OM bollen rör färgen lila, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
+  * Om bollen rör färgen lila, **peka i riktningen** **360 – den nuvarande riktningen**. Då kommer bollen att studsa på ett naturligt sätt!
 
   ![image alt text](image_5.png)
 
@@ -117,9 +116,9 @@ Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bol
 
   ![image alt text](image_6.png)
 
-14. Gå till skriptet för bollen och lägga till:
+14. Gå till skriptet för bollen och lägg till:
 
-  * Två **om** -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en lila färg)
+  * Två **om**-block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en lila färg)
 
   * Två block ovanför **för alltid**-blocket som sätter variablerna till 0 när spelet startar
 
@@ -145,7 +144,7 @@ Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bol
 
   _Här är blocken du behöver. Tänk på att om bollen rör blå färg så ska röd spelaren få poäng och vice versa!_
 
-> Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?
+> Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den åt ett slumpmässigt håll då? Får rätt spelare poäng?
 
 
 ## 5: Game Over!
@@ -179,7 +178,7 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
@@ -203,7 +202,7 @@ Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan n
 
     * **Ändra "hastighet" med 1** **var femte sekund**
 
-4. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om-**block som kollar om bollen har **rört blå färg** respektive **röd färg**.
+4. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om**-block som kollar om bollen har **rört blå färg** respektive **röd färg**.
 
 ### Mindre plattor
 Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
@@ -218,7 +217,7 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
 2. Skapa ett skript för bollen som säger:
 
-  * Startar när meddelandet ** "flytta boll"**
+  * Startar när meddelandet **"flytta boll"** tas emot
 
   * För ALLTID: **Gå 10 steg** och **studsa** vid kanten.
 
@@ -228,11 +227,11 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
   ![image alt text](image_12.png)
 
-4. Nu måste vi se till att bollen stannar upp när de har träffat väggarna. Lägg därför till ett block som säger **stoppa andra skript i sprajt** precis efter du har känt efter om bollen rör röd (eller blå) färg.
+4. Nu måste vi se till att bollen stannar upp när den har träffat väggarna. Lägg därför till ett block som säger **stoppa andra skript i sprajt** precis efter att du har känt efter om bollen rör röd (eller blå) färg.
 
-5. Skicka meddelandet **"flytta boll"** efter du har väntat i två sekunder.
+5. Skicka meddelandet **"flytta boll"** efter att du har väntat i två sekunder.
 
-6. Se till att du göra båda dessa ändringar för när du känner av _"röd"_ OCH _"blå"_ färg.
+6. Se till att du gör båda dessa ändringar för när du känner av _"röd"_ OCH _"blå"_ färg.
 
   ![image alt text](image_13.png)
 
@@ -240,7 +239,7 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
 
    Dessa ändringar frikopplar koden som känner av om bollen rör plattan från koden som rör bollen.
 
-7. Lägg till ett skript efter du har känt av _"lila"_ färg och ändrat riktning på bollen:
+7. Lägg till ett skript efter att du har känt av _"lila"_ färg och ändrat riktning på bollen:
 
   * REPETERA tills **_inte_ rör lila färg** :
 
