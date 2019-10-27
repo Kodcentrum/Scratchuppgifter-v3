@@ -14,9 +14,9 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
 
 3. Använd **rektangelverktyget** och skapa en röd, **fylld**, rektangel på botten av scenen. Den ska inte vara för tjock men den ska täcka hela botten.
 
-4. Lägg till sprajten **Rocketship** från biblioteket. Den är stor, så du ändra **storleken till ca 50**. Placera sprajten precis ovanför den röda linjen.
+4. Lägg till sprajten **Rocketship** från biblioteket. Den är stor, så ändra **storleken till ca 50**. Placera sprajten precis ovanför den röda linjen.
 
-5. Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten **Robot** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
+5. Nu behöver du ett gäng med elaka robotar! Men du börjar med bara en. Lägg till sprajten **Robot** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
 
   ![image alt text](image_1.png)
 
