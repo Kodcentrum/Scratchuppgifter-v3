@@ -66,7 +66,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * Avfyras när du trycker på mellanslag
 
-  * Försvinner när den rör kanten
+  * Försvinner när det rör kanten
 
   * Bara kan avfyras 3 skott åt gången på scenen, för annars kan du fylla hela scenen med skott!
 
@@ -92,7 +92,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * och **skapa en klon av sig själv**
 
-  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om den krockar, med kanten!
+  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om det krockar med kanten!
 
 14. Skapa ett till skript för skottet som säger:
 
