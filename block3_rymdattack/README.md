@@ -117,9 +117,9 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
 
 ## 3: Attackerande robot
-Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
+Nu har du gjort en raket som kan röra på sig och skjuta. Nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
 
-För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.
+För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajtar med samma skript.
 
 15. Skapa två nya VARIABLER, en som heter **poäng** och en som heter **timer**. De ska båda visas på scenen.
 
@@ -149,7 +149,7 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
 ![image alt text](image_6a.png)
 
-1. Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:
+18. Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:
 
   * Starta när den **startar som klon**
 
