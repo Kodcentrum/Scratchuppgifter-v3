@@ -213,7 +213,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   ![image alt text](image_8b.png)
 
-  Båda av dessa block ska fästas efter sprajten har **gömts**, men innan **för alltid**-loopen.
+  Båda dessa block ska fästas efter att sprajten har **gömts**, men innan **för alltid**-loopen.
 
 24. Byt ut **ändra y med -4** till **ändra y med hastighet** i det andra skriptet, det som du gjorde i steg 18.
 
@@ -221,7 +221,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   Nu gör du ett skript som **tar emot _meddelandet_** för att byta nivå och försvåra spelet.
 
-2. Gå till robotens SKRIPT-flik och skapa ett nytt skript som säger:
+25. Gå till robotens SKRIPT-flik och skapa ett nytt skript som säger:
 
   * Starta när den **tar emot meddelande "Nästa nivå"**
 
@@ -237,10 +237,9 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
     * Säg **Nästa nivå!** i 2 sekunder
 
+    * Ändra sedan _färg_ **effekten** med 50
 
-  * Ändra sedan _färg_ **effekten** med 50
-
-  * Ändra sedan **hastigheten** med -2
+    * Ändra sedan **hastigheten** med -2
 
   ![image alt text](image_9.png)
 
@@ -275,7 +274,7 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 
   * När den tar emot _meddelandet_ **vinst**
 
-  * **Byt** till in nya bakgrund för att spelet är vunnet
+  * **Byt** till din nya bakgrund för att spelet är vunnet
 
 **Tips:** Du kan se vad bakgrunderna heter om du klicka på fliken **Bakgrunder**!
 
@@ -283,7 +282,7 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
