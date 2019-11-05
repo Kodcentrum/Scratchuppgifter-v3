@@ -14,9 +14,9 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
 
 3. Använd **rektangelverktyget** och skapa en röd, **fylld**, rektangel på botten av scenen. Den ska inte vara för tjock men den ska täcka hela botten.
 
-4. Lägg till sprajten **Rocketship** från biblioteket. Den är stor, så du ändra **storleken till ca 50**. Placera sprajten precis ovanför den röda linjen.
+4. Lägg till sprajten **Rocketship** från biblioteket. Den är stor, så ändra **storleken till ca 50**. Placera sprajten precis ovanför den röda linjen.
 
-5. Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten **Robot** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
+5. Nu behöver du ett gäng med elaka robotar! Men du börjar med bara en. Lägg till sprajten **Robot** från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.
 
   ![image alt text](image_1.png)
 
@@ -66,7 +66,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * Avfyras när du trycker på mellanslag
 
-  * Försvinner när den rör kanten
+  * Försvinner när det rör kanten
 
   * Bara kan avfyras 3 skott åt gången på scenen, för annars kan du fylla hela scenen med skott!
 
@@ -92,7 +92,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * och **skapa en klon av sig själv**
 
-  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om den krockar, med kanten!
+  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om det krockar med kanten!
 
 14. Skapa ett till skript för skottet som säger:
 
@@ -117,9 +117,9 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
 
 ## 3: Attackerande robot
-Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
+Nu har du gjort en raket som kan röra på sig och skjuta. Nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
 
-För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.
+För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajtar med samma skript.
 
 15. Skapa två nya VARIABLER, en som heter **poäng** och en som heter **timer**. De ska båda visas på scenen.
 
@@ -149,7 +149,7 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
 ![image alt text](image_6a.png)
 
-1. Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:
+18. Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:
 
   * Starta när den **startar som klon**
 
@@ -213,7 +213,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   ![image alt text](image_8b.png)
 
-  Båda av dessa block ska fästas efter sprajten har **gömts**, men innan **för alltid**-loopen.
+  Båda dessa block ska fästas efter att sprajten har **gömts**, men innan **för alltid**-loopen.
 
 24. Byt ut **ändra y med -4** till **ändra y med hastighet** i det andra skriptet, det som du gjorde i steg 18.
 
@@ -221,7 +221,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   Nu gör du ett skript som **tar emot _meddelandet_** för att byta nivå och försvåra spelet.
 
-2. Gå till robotens SKRIPT-flik och skapa ett nytt skript som säger:
+25. Gå till robotens SKRIPT-flik och skapa ett nytt skript som säger:
 
   * Starta när den **tar emot meddelande "Nästa nivå"**
 
@@ -237,10 +237,9 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
     * Säg **Nästa nivå!** i 2 sekunder
 
+    * Ändra sedan _färg_ **effekten** med 50
 
-  * Ändra sedan _färg_ **effekten** med 50
-
-  * Ändra sedan **hastigheten** med -2
+    * Ändra sedan **hastigheten** med -2
 
   ![image alt text](image_9.png)
 
@@ -275,7 +274,7 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 
   * När den tar emot _meddelandet_ **vinst**
 
-  * **Byt** till in nya bakgrund för att spelet är vunnet
+  * **Byt** till din nya bakgrund för att spelet är vunnet
 
 **Tips:** Du kan se vad bakgrunderna heter om du klicka på fliken **Bakgrunder**!
 
@@ -283,7 +282,7 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta det igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
