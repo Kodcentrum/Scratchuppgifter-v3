@@ -1,6 +1,6 @@
 # Debuggning
 
-I denna uppgiften ska du hitta fel i koden för några enklare spel och åtgärda dem. Detta kallas att *debugga*. Du kommer att få öva dig på felsökning och repetera begrepp som du lärt dig tidigare i Kodstugan.
+I denna uppgiften ska du hitta fel i koden för några enklare spel och åtgärda dem. Detta kallas att *debugga*. Du kommer att få öva dig på felsökning men också att repetera begrepp om programmering som du lärt dig tidigare.
 
 Alla projekt som du ska debugga är olika Bugrace spel med olika slags fel i.
 
@@ -10,24 +10,27 @@ Alla projekt som du ska debugga är olika Bugrace spel med olika slags fel i.
 
 För att lösa denna uppgift behöver vi första remixa ett existerande projekt. Vi har alltså skapat ett färdigt Bugrace spel som du ska få debugga och fixa.
 
-1. Öppna din webbläsare och gå till:
+1. Vi börjar med att logga in på Scratch med ditt konto om du inte redan gjort det
+
+
+2. Öppna din webbläsare och gå till:
 
 	<a href="https://scratch.mit.edu/projects/295593809/" target="_blank">https://scratch.mit.edu/projects/295593809/</a>
 
-2. Klicka på knappen **"Remix"** så får du en egen version av spelet.
+3. Klicka på knappen **"Remix"** så får du en egen version av spelet.
 
 	![image alt text](image1.png)
 
 	När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+4. Döp om till något roligare och klicka på Spara
 
 	![image alt text](image2.png)
 
 
 Nu är det upp till dig att debugga programmet och få det att fungera som Bugrace ska fungera.
 
-> Testa programmet: Klicka på den gröna flaggan!
+> *Testa programmet*: Klicka på den gröna flaggan!
 
 Skalbaggen rör sig som den ska, och det finns kod för att avsluta spelet om skalbaggen rör gräset. Men inget händer när skalbaggen rör gräset! Varför?
 
@@ -46,9 +49,9 @@ När du har fixat felet så kan du gå vidare till nästa uppgift.
 
 	När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+3. Döp om till något roligare och klicka på Spara.
 
-> Testa programmet: Klicka på den gröna flaggan!
+> *Testa programmet*: Klicka på den gröna flaggan!
 
 Skalbaggen rör sig som den ska, och det finns kod för att avsluta spelet om skalbaggen rör gräset. Men inget händer när skalbaggen rör gräset! Varför?
 
@@ -67,9 +70,9 @@ När du har fixat felet så kan du gå vidare till nästa uppgift.
 
 	När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+3. Döp om till något roligare och klicka på Spara.
 
-> Testa programmet: Klicka på den gröna flaggan!
+> *Testa programmet*: Klicka på den gröna flaggan!
 
 Skalbaggen rör sig som den ska när du trycker på den gröna flaggan. Men snart stannar skalbaggen! Varför?
 
@@ -87,9 +90,9 @@ När du har fixat felet så kan du gå vidare till nästa uppgift.
 
  När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+3. Döp om till något roligare och klicka på Spara.
 
-> Testa programmet: Klicka på den gröna flaggan!
+> *Testa programmet*: Klicka på den gröna flaggan!
 
 Samma spel som vanligt: skalbaggen ska röra sig över banan och spelet ska avslutas när den rör gräset. Men här har lite andra block använts och spelet fungerar inte som det är tänkt!
 
@@ -108,9 +111,9 @@ När du har fixat felet så kan du gå vidare till nästa uppgift.
 
  När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+3. Döp om till något roligare och klicka på Spara.
 
-> Testa programmet: Klicka på den gröna flaggan!
+> *Testa programmet*: Klicka på den gröna flaggan!
 
 Nu tänker vi oss att skalbaggen ska börja om från början när den rör gräset istället för att avsluta spelet.
 Vi har börjat på spelet men det fungerar in som det ska!

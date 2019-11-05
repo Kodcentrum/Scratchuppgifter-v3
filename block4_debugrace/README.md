@@ -1,43 +1,43 @@
 # Debug Race
 
-I denna uppgiften ska du hitta fel i koden för ett spel och åtgärda dem. Detta kallas att *debugga*. Du kommer att få öva dig på felsökning och repetera begrepp som du lärt dig tidigare i Kodstugan.
+I denna uppgiften ska du hitta fel i koden för ett spel och åtgärda dem. Detta kallas att *debugga*. Du kommer att få öva dig på felsökning men också att repetera begrepp om programmering som du lärt dig tidigare.
 
 ![image alt text](image_0.png)
 
 ## 1 – Remixa ett projekt
 
-Vi börjar med att remixa ett projekt som redan finns på Scratch.
+1. Vi börjar med att logga in på Scratch med ditt konto om du inte redan gjort det
 
-1. Öppna din webbläsare och gå till:
+2. Klicka sedan på länken nedan för att öppna och remixa ett projekt av Debugrace som redan finns på Scratch. Det är detta projekt du sedan ska jobba vidare med.
 
 	<a href="https://scratch.mit.edu/projects/203394778/" target="_blank">https://scratch.mit.edu/projects/203394778/</a>
 
-2. Klicka på knappen **"Remix"** så får du en egen version av spelet.
+3. Klicka på knappen **"Remix"** så får du en egen version av spelet.
 
 	![image alt text](image_1.png)
 
 
 När du har remixat spelet så öppnas Scratch-studion. Du har också fått ett nytt namn på projektet.
 
-3. Döp om till något roligare
+4. Döp om till något roligare och klicka på Spara.
 
 	![image alt text](image_2.png)
 
-I projektet har du nu en massa kod och två sprajter: ![image alt text](image_3.png)
+I projektet har du nu en massa kod och två sprajter: ![image alt text](image_4.png)
 
 1. En skalbagge som är din spelare
 
 2. Bananer som är mat till skalbaggen
 
-> *Testa spelet! Tryck på den gröna flaggan. Vad händer? Inte så mycket förrutom att skalbaggen rusar utanför planen - det är för att spelet är fullt med buggar.*
+> *Testa spelet!* Tryck på den gröna flaggan. Vad händer? Inte så mycket förrutom att skalbaggen rusar utanför planen - det är för att spelet är fullt med buggar.
 
 **Det finns 10 buggar i spelet – klarar du av att hitta dem? Kan du få spelet att fungera?**
 
 ## 2 – Spelregler
 
-Det är nu din uppgift att debugga koden. Du ska hitta de 11 felen och fixa dem. Till din hjälp får du här detaljerade spelregler. De förklarar för dig hur det är tänkt att spelet ska fungera.
+Det är nu din uppgift att debugga koden. Du ska hitta de 10 felen och fixa dem. Till din hjälp får du här detaljerade spelregler. De förklarar för dig hur det är tänkt att spelet ska fungera.
 
-*Ditt mål är att styra skalbaggen runt banan till mållinjen.*
+* Ditt mål är att styra skalbaggen runt banan till mållinjen.*
 
 * Du styr skalbaggen med vänster och höger piltangent
 
@@ -47,7 +47,7 @@ Det är nu din uppgift att debugga koden. Du ska hitta de 11 felen och fixa dem.
 
 * När du kommer i mål så börjar du om direkt från startpositionen
 
-*Du vinner när du har klarat av 10 varv.*
+* Du vinner när du har klarat av 10 varv.*
 
 > Kan du få spelet att fungera precis så som reglerna säger? Utforska koden och om det blir svårt så gå till nästa steg och få lite tips.
 
@@ -59,7 +59,7 @@ Om du har problem med att hitta buggarna kommer här några ledtrådar och tips.
 
 * Tänk på att det ska fungera som ett recept, allt måste hända i rätt ordning
 
-* Repetera de begrepp du har lärt dig i kodstugan:
+* Repetera de begrepp du har lärt dig om programmering:
 
     * Vad är en loop? Vad finns det för typer av loopar?
 
