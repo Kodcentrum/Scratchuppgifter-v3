@@ -98,7 +98,7 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 
 Nu ska du få valen att äta munken. När valen når en munk ska den försvinna för att komma tillbaka en stund senare, så att munkarna inte tar slut!
 
-15. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg det inuti munkens **”för alltid”**-loop, efter rörelserna. Nu ska du lägga till block så att munken kan **KÄNNA AV** om den **”rör vid sprajten”** som är valen.
+15. Dra ut blocket **"om <> då"** som finns under **KONTROLL** och lägg det inuti munkens **”för alltid”**-loop, efter rörelserna. Nu ska du lägga till block så att munken kan **KÄNNA AV** om den **”rör vid sprajten”** som är valen.
 
   **Om** rör valen, **då** ska munk-sprajten:
 
@@ -155,7 +155,7 @@ Om du vill att munkarna ska bli unika kan du:
 
   * Ändra munkarnas hastighet och riktning
 
-**Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
+**Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"starta ljud"** i det skript du nyss gjort.
 
 > Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter munkar?
 
