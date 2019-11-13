@@ -74,7 +74,7 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 
   ![En bild av en donut](image_9.png)
 
-13. Klicka på donut först och klicka sedan på fliken som keter **"Kod"**. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
+13. Klicka på donut först och klicka sedan på fliken som heter **"Kod"**. Dra ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan. Under den fäster du blocket **”för alltid”** från **KONTROLL**.
 
 14. Inuti loopen fäster du block från **RÖRELSE** som säger att sprajten ska:
 
