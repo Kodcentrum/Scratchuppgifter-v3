@@ -1,5 +1,19 @@
 # Labyrinten
 
+## Checklista
+
+ - [ ] Rita labyrint
+ - [ ] Styra sprajten
+ - [ ] Känner sprajten av väggarna?
+ - [ ] Känner sprajten av att den gått i mål?
+
+EXTRA:
+ - [ ] Timer
+ - [ ] Fler banor
+
+
+## Beskrivning
+
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
 > Bläddra dig fram genom denna guide, steg för steg. Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
