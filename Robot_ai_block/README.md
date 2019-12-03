@@ -7,6 +7,8 @@ Börja med att ta bort katt-sprajten och klicka sedan på skapa ny sprajt och b�
 
     ![image alt text](dammsugare.png) 
 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/dammsugare.png)
+
 Roboten kommer också behöva en yta att dammsuga, så klicka därefter på Bakgrunder och använd fantasin för att rita upp antingen ditt rum eller kanske din drömlägeneht sedd ifrån ovan.
 Det är viktigt är att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna!
 
