@@ -1,122 +1,143 @@
 # Romba
 
-Visst är det tråkigt att damsuga så varför inte försöka koda en egen liten robotdamsugare som kan hjälpa till hemma? 
+Visst är det tråkigt att dammsuga så varför inte försöka koda en egen liten robotdammsugare som kan hjälpa till hemma? 
 Det är lättare än vad du tror! 
 
-Börja med att ta bort katt sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdamsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
+Börja med att ta bort katt-sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/dammsugare.png)
 
 
-Roboten kommer också behöva en yta att damsuga, så klicka därefter på bakgrunder och använd fantasin för att rita upp antingen ditt rum eller kanske din drömlägeneht sedd ifrån ovan.
-Viktigt här är att alla väggar är samma färg och att inget annat är målat i samma färg!
+Roboten kommer också behöva en yta att dammsuga, så klicka därefter på Bakgrunder och använd fantasin för att rita upp antingen ditt rum eller kanske din drömlägeneht sedd ifrån ovan.
+Det är viktigt är att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna!
 
-Här är ett enkelt exempel på hur det kan se ut: 
+Här är ett enkelt exempel på hur rummet eller lägenheten kan se ut: 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rum.png)
 
 
-En damsugare är ju inte så användbar om det inte finns smuts så nu måste vi också välja en ny färg som ska vara smuts. Rita ut lite smuts eller damm lite här och var, tänk att det inte har städats på riktigt länge !
+En dammsugare är ju inte så användbar om det inte finns smuts och damm att städa upp, så nu ska du få måla dit det i rummen. Välj först en ny du färg som du ska rita allt smuts med. Rita sen ut lite smuts eller damm lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge!
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rummedSmuts.png)
 
 
-Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi kan programera att städa upp efter oss! 
+Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi kan programmera att städa upp efter oss! 
 
 ## Få roboten att röra på sig!
 
-Det första som vi vill göra är att få roboten att röra sig, börja med att lägga till ett rör dig frammåt block och sätt det till 5 steg. Vi vill också att roboten aldrig ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
+Det första som vi vill göra är att få städroboten att röra på sig. Börja med att lägga till ett block som rör roboten frammåt och ändra siffran i det så det blir Gå 5 steg. Vi vill också att roboten aldrig ska sluta röra sig framåt, så vi lägger rörelseblocket inuti en loop - alltså i ett för alltid-block. 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
 
-Nu rör sig roboten på sig, men den kommer också röra sig genom väggar och inte städa bort någon smuts. Vi behöver koda lite mer. 
+Nu rör roboten på sig, men den kommer också röra sig genom väggar och inte städa bort någon smuts. Den saknar alla instrutkioner för att veta hur den ska känna av väggar och ta bort smutsen, så vi behöver koda lite mer. 
 
-Börja med att ta ett kontrollblock, om ... då, och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
+## Känn av väggarna
+Först kodar vi så att roboten känner av väggarna när den rör vid väggens färg. Då ska den vända lite och åka åt andra hållet. 
+
+Börja med att dra in ett kontrollblock, om ... då, lägg det någonstans på skriptytan med koder för din robot. Klicka därefter på Känna av och välj blocket "rör vid färgen". Dra in detta kodblock och lägg det inuti "om .. då" blocket på skriptytan. 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörVidFärg.png)
 
+Nu står det i koden "Om - rör vid färgen - Då". Dax att hjälpa roboten förstå vilken färg väggen har samt vad som då ska hända när den rör vid väggfärgen. Gör såhär: 
 
-Klicka på den färg som finns i känn av färg blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna.
+Klicka på den färg som just nu finns i ditt Känn av färgen-block. Klicka sedan på lilla pippettverktyget längst ned för att sen kunna välja exakt samma färg som väggarna genom att klicka på en av väggarna på scenen.
 
-Nu känner roboten av om den åker in i en vägg, men den vet inte vad den ska göra om det här händer! Vi måste skriva lite kod till. Gå till rörelseblocken och välj sväng vänster. Skriv in 36 grader här.
+BILD SAKNAS
 
-Sådär, lägg in rör dig frammåt blocket i annars biten av om blocket så att det ser ut något såhär: 
+Nu känner roboten av om den åker in i en vägg - för den känner igen väggens färg. Men roboten vet inte ännu vad den ska göra om den träffar på en vägg! Vi måste ge den mer instruktioner med lite mer kod. Gör såhär:
+
+Gå till Rörelse och välj blocket Sväng vänster. Klicka på siffran 15 grader, och ändra till 36 grader.
+
+Lägg sen in Rör dig framåt-blocket inom Om...Då...Annars-blocket under Annars-delen, så att det ser ut såhär: 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörelseKlar.png)
 
+Nu har vi en robotdammsugare som rör sig runt i rummet vi ritat och vänder om den stöter in i en vägg, men ingen smuts dammsugas upp! Vi behöver koda lite till.
 
-Om allt har gått bra har vi nu en robot som rör sig runt i rummet vi ritade i början, men ingenting damsugs! Vi behöver koda lite till.
+## Dammsugarroboten får en penna
 
-## Damsugare
-
-För den här biten kommer vi behöva lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp som ser ut såhär 
+För den här delen behöver vi lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp som ser ut såhär:
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/laggtillBlock.png)
 
-Klickar vi på den kommer vi till en sida där vi kan lägga till massor med olika tillägg, men just den här gången vill vi lägga till Pennan så vi klickar på den ruta som ser ut såhär 
+Klickar vi på den kommer vi till en sida där vi kan lägga till massor med olika tillägg. Klicka på tillägget Penna, så läggs den till i ditt Scratchprojekt. 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/pennaBlock.png)
 
-Sådär! Nu kan vi hitta våra pen-block längst ner under våra vanliga block. 
+Sådär! Nu kan vi hitta nya penn-block längst ner under våra vanliga block. Dax att koda mer!
 
-Det första vi måste göra är att sätta pennan till den storlek som vi vill ha. Detta gör vi innan vårt för alltid block. Beroende på hur stor eller liten din robot är så kommer du kanske behöva skriva in en annan siffra här men i mitt fall passar 30 väldigt bra. Det viktigaste är att pennan är mindre än vad din robotdamsugare är!
+Det första vi måste göra är att göra pennan till den storlek som vi vill ha. Koden som styr pennans storlek lägger vi in före För alltid-blocket. Beroende på hur stor eller liten din robot är så kommer du kanske behöva skriva in en annan siffra här. I exemplet här använder vi storleken 30. Det viktigaste är att pennans storlek är mindre än vad din robotdamsugare är! Prova dig fram, du kan alltid ändra om.
 
-Vi sätter också pennan till samma färg som golvet genom att dra ut ett "sätt färg till" block. Välj golvfärgen på samma sätt som vi valde färgen för väggen!
+Det är viktigt att färgen på pennan är av samma färg som golvet i rummet du ritat. Då "målar" pennan över smutsen med golvfärgen medan roboten åker runt. Sätt färgen på pennan genom att dra ut ett "sätt färg till"-block. Klicka på blockets färg och välj sen färgpimpetten nedan och välj golvfärgen på scenen, på samma sätt som när du valde färgen för väggen! Nu får blocket den rätta golvfärgen.
 
-Eftersom vi inte heller vill dammsuga innan vi är ovanför smuts så sätter vi också ut blocket "Penna upp" i vårt "om då" block precis innan "rör dig frammåt" blocket.
+Eftersom vi inte vill dammsuga något innan roboten är ovanför smuts, så väljer vi tema Penna och drar in blocket "Penna upp". Lägg in det i robotens "Om...Då"-block precis ovanför "Rör dig framåt".
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugarConfig.PNG)
 
-
-
 Sådär! Nu är vi redo att koda själva städandet!
 
-Inne i vår för alltid loop lägger vi nu till ytterligare ett om block precis under vårt penna upp block. Vi anväder samma känn av färg block som vi använde för att känna av väggarna, men istället för färgen på väggarna väljer vi nu färgen vi valde på smutsen!
+## Dammrugarroboten städar
 
-Inne i det här blocket lägger vi in ett penna ner block och med det är vi klara! Scriptet borde nu se ut någo sådanthär:
+Inuti vår För alltid loop lägger vi nu till ytterligare ett Om...Då-block precis under vårt Penna upp-block. Vi anväder samma Känn av färgen-block som vi använde för att känna av väggarnas färg, men istället för färgen på väggarna väljer vi nu färgen vi valde på smutsen!
+
+Inuti det här blocket lägger vi in ett block för Penna ner och med det är vi klara! 
+
+Skriptet borde nu se ut såhär:
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/damsugOmFärg.PNG)
 
-Sätt ihop den här biten kod med resten för att få en bit kod som ser ut såhär:
 
+Sätt ihop den här biten kod med resten för att få en större bit kod som ser ut såhär:
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/slutresultat.PNG)
 
-Vi kan nu köra det och se hur roboten damsuger upp smutsen vi ritade ut! 
+Vi kan nu köra skriptet det och se hur roboten dammsugar upp smutsen vi ritat ut!
+
+> Testa koden! försvinner smutsen när dammsugarroboten åkt över det? Får golvet sin rätta färg igen? 
 
 
 ## Fortsättning (Fler alternativ i framtiden)
-Kanske finns det något i hemmet som roboten behöver undvika? Kanske finns det något husdjur eller liknande som roboten måste kunna undvika. 
+Kanske finns det något i hemmet som roboten behöver undvika? Kanske finns det något husdjur eller möbel som roboten måste stanna för att inte köra på?
 
 ### Koda ett litet husdjur 
-Börja med att rita ett husdjur eller välj en sprajt som du tycker skulle vara rolig att ha som ett husdjur!
+Börja med rita en ny sprajt som blir ditt husdjur eller välj en färdig sprajt som du tycker skulle vara rolig att ha som ett husdjur!
 
-Vi kodar husdjuret på samma sätt som vi kodade damsugaren börja med att lägga till ett rör dig frammåt block och sätta det till 5 steg. Vi vill också att roboten ska sluta göra detta så vi lägger också detta blocket i ett för alltid block. 
+> Notera: Om du ritar en egen figur, var noga med att det inte har samma färg som dina väggar, golv eller smuts. 
+
+Vi kodar husdjuret på samma sätt som vi kodade dammsugaren. Börja med att lägga till ett Rör dig framåt-block och ändra variabeln i det  till 5 steg. Vi vill också att husdjuret ska gå framåt hela tiden, så vi lägger Rör dig framåt-blocket inuti ett För alltid-block - alltså en loop.  
+
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörSigFram.png)
 
-
-Ta också ett kontrollblock, om ... då, och dra ut detta . Klicka därefter på känna av blocken och välj blocket "rör vid färgen", dra in detta i "om" blocket som du tidigare drog ut.
+För att husdjuret ska vändra då det rör vid en vägg, behöver det känna av väggarnas färg. Lägg till blocket Om ... Då som finns under KONTROLL. Välj sen tema KÄNNA AV och välj blocket "Rör vid färgen", dra in detta inuti "Om...DÅ" blocket.
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörVidFärg.png)
 
+Klicka på den färg som finns i Känn av färg-blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna på scenen.
 
-Klicka på den färg som finns i känn av färg blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna.
+Nu känner husdjuret av om den åker in i en vägg! För att husdjuret ska vända åt andra hållet, väljer du temat RÖRELSE och drar ut blocket för Sväng vänster 15 grader. Klicka på variabeln 15 och ändra till 36 grader istället.
 
-Nu känner husdjuret av om den åker in i en vägg! Nu vehöver vi bara ett till rörelseblock, välj sväng vänster och skriv in 36 grader här.
+Lägg nu in Rör dig framåt-blocket du har på skriptytan, så den hamnar inom dit Om...Då-blok direkt under Annars. Då ska skriptet se ut  såhär: 
 
-Sådär, lägg in rör dig frammåt blocket i annars biten av om blocket så att det ser ut något såhär: 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/rörelseKlar.png)
 
+Nu har vi ett husdjur som rör sig runt i rummet!
 
-Nu har vi ett hudjur som rör sig runt i rummet!
+> Tips! Vill du att ditt husdjur ska röra sig lite olika, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på egna andra idéer?
 
-## Få damsugaren att undvika husdjuret
-Beroende på om du har ritat en egen sprajt eller tagit en som redan är färdig så kanske din damsugare redan kommer akta sig för ditt husdjur. Om det till exempel har samma färg som dina väggare eller en kontur med samma färg så kommer din robotdamsugare akta sig när den kommer nära!
+## Få dammsugaren att undvika husdjuret
+För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika möbler eller människofigurer - kan du koda så att den stannar om den möter på något. För att roboten ska akta sig för att åka in i husdjuret gör du såhär:
 
-Men om det inte är så kan vi programmera lite till för att få damsugaren att akta sig för husdjuret. 
+Se till att dammsugarrobot-sprajten är vald, så att du kan koda vidare på robotens skriptyta. Välj KONTROLL och dra in ett till Om...Då-block och placera det direkt ovanför det Om...Då-block i skriptet som känner av färgen på väggarna. I det nya Om...Då-blocket lägger vi till ett Sväng vänster 15 grader-block. Klicka på variabeln 15 och ändra det till 36 grader. (Du kan givetvis valfritt välja mellan ett sväng vänster eller sväng höger-block)
 
-Vi tar ett till om block och placerar det innan om blocket som kollar efter väggarna. I detta blocket sätter vi precis som med väggarna ett sväng vänster/höger block med 36 grader. 
+För att få dammsugaren att vända riktning när den stöter på husdjurs-sprajten tar vi under KÄNNA AV ett Rör vid-block och väljer vår husdjurs-sprajt i listan under den lilla pilen i blocket. Detta Rör vid-block placerar vi sen inuti det nya Om...Då-blocket. 
 
-För att få damsugaren att vända även när den stöter på sprajten tar vi ett rör vid block och väljer vår nya sprajt i listan. Detta blocket placerar vi sen i om-blocket. Sådär! Damsugaren undviker nu också katten som springer runt i lägenheten!
+Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lägenheten!
+
+> Tips! Du kan givetvis göra på samma sätt för att undvika exempelvis en möbel eller annat i din lägenhet. Det är bra om alla saker som roboten ska undvika har en egen speciell färg, annars kan inte roboten veta vad den rör vid. Men det går såklart bra att allt har samma färg som exempelvis väggarna, så undviker roboten alltid just den färgen.
 
 ### Saker att arbeta vidare på
-Kan du göra så att roboten skiljer på fler saker? Kanske finns det en viss smuts som den inte ska damsuga upp utan istället hälla vatten på? 
+Kan du göra så att roboten kan känna av och skilja på flera olika saker? Kanske finns det en viss typ av smuts som den inte ska damsuga upp utan istället hälla vatten på? 
 
 Går det att få roboten att röra sig på annat sätt?
+
+Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
+
+Bygg en tidsräknare som räknar städtiden, eller en poängräknare som ger roboten minuspoäng om den dammsugar upp exempelvis strumpor eller kattgodis som katten letar efter. Kanske du kommer på fler egna idéer?
+
 
 
