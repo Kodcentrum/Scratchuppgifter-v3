@@ -98,7 +98,7 @@ För att dammsugarroboten ska se ut att kunna suga upp smutsen i rummet, kommer 
 
 1. Det första vi måste göra är att ändra pennan till den storlek som vi vill ha. Under tema **PENNA** finns kodblocket **Sätt pennans storlek till 1**. Lägg i blocket direkt under start-blocket med **När START-flaggan klickas på**, ovanför **För alltid**-blocket. Ändra siffren 1 till passande storlek, i vårt exempel har vi skrivit 30. Anpassa storlek beroende på hur stor eller liten din robot är. Pennans storlek behöver vara  mindre än din robotdamsugare är! Prova dig fram.
 
-![image alt text](sätt_pennans_storlek_till_30.png)
+![image alt text](satt_pennans_storlek_till_30.png)
 
 2. Ändra färgen på pennan till golvfärgen, genom att dra ut ett **Sätt färg till**-block från tmat **PENNA**. Klicka på blockets färg och välj pippetten i rutan som kommer upp och välj sen golvfärgen på scenen, på samma sätt som när du valde färgen för väggen! Nu får blocket den rätta golvfärgen.
 
@@ -124,7 +124,7 @@ Nu ska vi koda så att roboten känner av smutsen - eller snarare dess färg. G�
 
 Skriptet bör nu se ut såhär:
 
-![image alt text](damsugOmFärg.png)
+![image alt text](damsugOmFarg.png)
 
 Sätt ihop den här biten kod med resten av kodbitarna på skriptytan för att få ett större skript som ser ut såhär:
 
