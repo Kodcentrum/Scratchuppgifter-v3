@@ -202,8 +202,8 @@ Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lä
 ### Saker att arbeta vidare på
 1. Kan du göra så att roboten kan känna av och skilja på flera olika saker? Kanske finns det en viss typ av smuts som den inte ska damsuga upp utan istället hälla vatten på? 
 
-2- Går det att få roboten att röra sig på annat sätt?
+2. Går det att få roboten att röra sig på annat sätt?
 
-3- Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
+3. Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
 
 4. Bygg en tidsräknare som räknar städtiden, eller en poängräknare som ger roboten minuspoäng om den dammsugar upp exempelvis strumpor eller kattgodis som katten letar efter. Kanske du kommer på fler egna idéer?
