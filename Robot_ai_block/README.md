@@ -5,7 +5,6 @@ Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan
 BILD SAKNAS SAMT LÄNK TILL EXEMPELPROJEKT
 
 > **HUR KODAR JAG?** 
-</br>
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
 </br>
 
