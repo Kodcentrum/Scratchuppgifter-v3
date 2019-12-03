@@ -184,7 +184,7 @@ Nu har vi ett husdjur som rör sig runt i rummet!
 
 > Tips! Vill du att ditt husdjur ska röra sig lite olika genom rummet, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på egna andra idéer?
 
-## Få dammsugaren att undvika husdjuret
+### Få dammsugaren att undvika husdjuret
 För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika möbler eller människofigurer - kan du koda så att den stannar om den möter på något. För att roboten ska akta sig för att åka in i husdjuret gör du såhär:
 
 1. Se till att dammsugarrobot-sprajten är vald, så att du kan koda vidare på robotens skriptyta. 
