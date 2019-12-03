@@ -5,7 +5,7 @@ Det är lättare än vad du tror!
 
 Börja med att ta bort katt-sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
 
-    ![image alt text](dammsugare.png) 
+![image alt text](dammsugare.png) 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/master/Robot_ai_block/dammsugare.png)
 
