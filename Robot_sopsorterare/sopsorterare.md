@@ -2,8 +2,22 @@
 
 Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta
 
+# Sopkärl 
+Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa fyra nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du hittar. 
+
+Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. Under detta sätter vi ett om-block. I detta sätter vi sedan ett jämförelseblock där vi helt enkelt kollar om vi kolliderar med vår skräpsprajt. 
+
+Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytterligare ett om-annars-block och i det blocket sätter vi sedan ett = jämförelesblock där vi på ena sidan sätter soptypen som ska slängas här i, och på den andra sidan sätter vi variabeln "soptyp". 
+
+[Återvinn genom att skicka meddelande]
+
+I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om en försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
+
+Sådär! Nu är våra sopkärn redo att ta emot sopor och kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra något med musen till fel kärl.
 
 # Styr roboten
+Det är ju lite tråkigt att dra varje grej till rätt ställe så istället kan vi programera en robot som gör detta åt oss. 
+
 Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda så att vi kan styra den för att fånga alla sopor. Jag har valt att göra en skalbaggerobot men du kan välja en annan typ av robot om du vill. 
 
 För att styra roboten behöver vi två när [någonting] trycks på block 
@@ -25,13 +39,11 @@ Det finns ifrån början som sagt fyra sopsorter att hantera så vi kommer behö
 
 När du är klar borde det se ut något sådanthär: [bild]
 
-# Sopkärl 
-Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa fyra nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du hittar. 
-
-Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. I det blocket sätter vi sedan ett om block. I det placerar vi i sin tur ett = jämförelesblock där vi på ena sidan sätter soptypen som ska slängas här i, och i den andra 
 
 # Sortera!
-Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få 
+Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få sakerna att hamna rätt. I blocket för metall ska vi skicka meddelandet metall. 
+
+På samma sätt ska vi göra för alla andra soptyper. För batteri ska vi skicka soptyp batteri och så vidare för glas och kompost.
 
 
 
