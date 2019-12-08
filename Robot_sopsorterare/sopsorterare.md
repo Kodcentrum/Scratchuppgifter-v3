@@ -1,6 +1,7 @@
 # Sopsorterare 
 
-Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta 
+Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta
+
 
 # Styr roboten
 Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda så att vi kan styra den för att fånga alla sopor. Jag har valt att göra en skalbaggerobot men du kan välja en annan typ av robot om du vill. 
@@ -22,8 +23,15 @@ Vi börjar med om skräptypen är glas. Ta ett till om block och lägg i detta e
 
 Det finns ifrån början som sagt fyra sopsorter att hantera så vi kommer behöva skapa 4 stycken liknande block för att hantera de andra sorterna. Gör precis som innan men skriv nu istället "metall", "kompost" och "batteri". Kom ihåg att dubbelkolla stavningen så att det blir rätt!
 
+När du är klar borde det se ut något sådanthär: [bild]
 
+# Sopkärl 
+Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa fyra nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du hittar. 
 
+Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. I det blocket sätter vi sedan ett om block. I det placerar vi i sin tur ett = jämförelesblock där vi på ena sidan sätter soptypen som ska slängas här i, och i den andra 
+
+# Sortera!
+Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få 
 
 
 
