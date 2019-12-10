@@ -111,7 +111,7 @@ BILD PÅ FÄRGPIPETTEN OCH BLOCKET MAN KLICKADE SKA IN HÄR.
 
 Sådär! Nu är vi redo att koda själva städandet av smutsen!
 
-## 6: Dammrugarroboten städar
+## 6: Dammsugarroboten städar
 
 Nu ska vi koda så att roboten känner av smutsen - eller snarare dess färg. Gör såhär:
 
