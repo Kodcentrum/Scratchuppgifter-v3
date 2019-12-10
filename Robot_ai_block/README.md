@@ -1,11 +1,10 @@
 Visst kan det ibland kännas tungt och trist att städa, men kanske det blir roligare och enklare med en robotdammsugare som kan hjälpa till hemma? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
 
-Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan se ut:
+Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> här!.</a>
 
 BILD SAKNAS SAMT LÄNK TILL EXEMPELPROJEKT
 
 > **HUR KODAR JAG?** 
-</br>
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
 </br>
 
@@ -137,7 +136,7 @@ Vi kan nu testa skriptet och se hur roboten dammsugar upp smutsen vi ritat ut!
 ## Färdig!
 Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
 
-SAKNAS BILD PÅ DET FÄRDIGA SKRIPTET I SIN HELHET!
+![image alt text](slutresultat.png)
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Robotdammsugaren - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
@@ -184,7 +183,7 @@ Nu har vi ett husdjur som rör sig runt i rummet!
 
 > Tips! Vill du att ditt husdjur ska röra sig lite olika genom rummet, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på egna andra idéer?
 
-## Få dammsugaren att undvika husdjuret
+### Få dammsugaren att undvika husdjuret
 För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika möbler eller människofigurer - kan du koda så att den stannar om den möter på något. För att roboten ska akta sig för att åka in i husdjuret gör du såhär:
 
 1. Se till att dammsugarrobot-sprajten är vald, så att du kan koda vidare på robotens skriptyta. 
@@ -199,11 +198,60 @@ Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lä
 
 > Tips! Du kan givetvis göra på samma sätt för att undvika exempelvis en möbel eller annat i din lägenhet. Det är bra om alla saker som roboten ska undvika har en egen speciell färg, annars kan inte roboten veta vad den rör vid. Men det går såklart bra att allt har samma färg som exempelvis väggarna, så undviker roboten alltid just den färgen.
 
+### Koda ett batteri och en laddningstation till dammsugaren!
+1. Börja med att rita eller välja en sprajt som ska vara platsen där robotdammsugaren kan ladda sitt batteri. 
+
+2. Skapa därefter en ny **Variabel** och döp den till **Batteri**. 
+
+> En variabel kan ses som en låda i vilken vi lägger en liten kom-ihåg lapp med någon form av information. I det här fallet är informationen hur mycket batteri som dammsugaren har kvar att använda innan den behöver laddas - som en batterimätare.
+
+3. När vi startar skriptet vill vi att batteriets variabel ska vara **1000**, så därför lägger vi till ett variabel-block som kan ändra variabelns värde. Var noga med att ändra så att det i blocket står **sätt "Batteri" till 1000**, så det ser ut såhär:
+
+![image alt text](batteriStart.png)
+
+4. Nu kan vi börja koda batteriets möjlighet till laddning och urladdning. Börja med att sätta ett **för alltid**-block (en loop) direkt inunder **sätt batteri**-blocket. Inuti loopen kommer vi sätta in två stycken **om...då**-block. Ett som sköter batteriets laddande, och ett annat som sköter batteriets urladdning. 
+
+5. Nu kodar vi först delen för batteriets laddning. Ta ett **känna av**-block och välj sprajten för vår dammsugare. Inuti blocket sätter vi därefter ett variabelblock som heter **ändra batteri med** och ändrar variabeln till **5**. För att det ska synas vad som händer kan vi lägga till ett **säg**-block från tema UTSEENDE som säger "Laddar batteri!" När du är klar ser skriptet ut såhär:
+
+![image alt text](laddaBatteri.png)
+ 
+Vi stoppar in skriptet ovan i vårt **för alltid**-block och så det ser ut såhär:
+
+![image alt text](laddaKlar.png)
+
+Nu går det att ladda roboten!
+För att göra det realistiskt behöver vi också skriva lite kod så att robotens bateri laddas ut medan den städar. 
+
+6. Vi tar ett **om...då...annars**-block och sätter in ett **operator**-block och gör jämförelsen **om värdet av "Batteri" är större än 0**. Koden ser då ut såhär:
+
+![image alt text](batteriStörreÄnNoll.png)
+
+7. Innanför **om...då**-delen av blocket sätter vi ett **ändra "Batteri" med 1**-block och skriver in **-1** som variabel. Längre ned i blockets **...annars**-del sätter vi in ett **Säg**-block från tema UTSEENDE, och skriv in "Åh nej! Batteriet tog slut!". 
+När du är klar borde skriptet se ut såhär:
+
+![image alt text](laddaUr.png)
+
+Sätt nu även detta skript innuti **för alltid**-blocket, så att skriptet för batteriets kod ser ut såhär:
+
+![image alt text](laddstationKlar.png)
+
+Nu Har vi kodat batteriets laddning och urladdning. Då återstår bara att göra så att robotdammsugaren stannar helt och inte kan röra sig framåt om den råkar få slut på sitt batteri. Gör såhär:
+
+8. Välj din dammsugarsprajt och skapa ett nytt om block. I det lägger vi in en jämförelse som kollar om batteriet är större än noll.
+![image alt text](batteriStörreÄnNoll.png)
+
+Nu ska vi bara lägga in detta block innanför **för alltid**-blocket, och dra med även all den kod som tidigare låg innanför **för alltid**-blocket i det nya om blocket. När du är klar bör det se ut såhär:
+
+![image alt text](damsugareMedBatteri.png)
+
+Sådär! Nu använder din robotdammsugare ett batteri!
+
+
 ### Saker att arbeta vidare på
 1. Kan du göra så att roboten kan känna av och skilja på flera olika saker? Kanske finns det en viss typ av smuts som den inte ska damsuga upp utan istället hälla vatten på? 
 
-2- Går det att få roboten att röra sig på annat sätt?
+2. Går det att få roboten att röra sig på annat sätt?
 
-3- Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
+3. Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
 
 4. Bygg en tidsräknare som räknar städtiden, eller en poängräknare som ger roboten minuspoäng om den dammsugar upp exempelvis strumpor eller kattgodis som katten letar efter. Kanske du kommer på fler egna idéer?
