@@ -190,11 +190,11 @@ För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika m�
 
 2. Välj tema **KONTROLL** och dra in ett till **Om...Då**-block. Placera det direkt ovanför det **Om...Då**-block du redan har i skriptet som känner av färgen på väggarna. 
 
-3. I det nya **Om...Då**-blocket lägger vi till ett **Rotera vänster 15 grader**-block. Klicka på variabeln 15 och ändra det till 36 grader. (Du kan givetvis valfritt välja mellan ett vänd vänster eller vänd höger-block)
+3. I det nya **Om...Då**-blocket lägger vi till ett **Rotera vänster 15 grader**-block. Klicka på variabeln "15" och ändra det till "36" grader. (Du kan givetvis valfritt välja mellan ett vänd vänster eller vänd höger-block)
 
 4. För att få dammsugaren att vända riktning när den stöter på husdjurs-sprajten tar vi under **KÄNNA AV** ett **Rör vid muspekare?**-block. Klicka sedan på lilla pilen på **Rör vid muspekare?**-blocket och välj vårt husdjurs-sprajt i listan, så muspekare nyts ut mot din husdjurssprajts namn. Detta **Rör vid...?**-block sätter vi sen in inuti det nya **Om...Då**-blocket. 
 
-Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lägenheten!
+Sådär! Nu undviker robotdammsugaren även ditt husdjur som springer runt i lägenheten!
 
 > Tips! Du kan givetvis göra på samma sätt för att undvika exempelvis en möbel eller annat i din lägenhet. Det är bra om alla saker som roboten ska undvika har en egen speciell färg, annars kan inte roboten veta vad den rör vid. Men det går såklart bra att allt har samma färg som exempelvis väggarna, så undviker roboten alltid just den färgen.
 
@@ -211,7 +211,7 @@ Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lä
 
 4. Nu kan vi börja koda batteriets möjlighet till laddning och urladdning. Börja med att sätta ett **för alltid**-block (en loop) direkt inunder **sätt batteri**-blocket. Inuti loopen kommer vi sätta in två stycken **om...då**-block. Ett som sköter batteriets laddande, och ett annat som sköter batteriets urladdning. 
 
-5. Nu kodar vi först delen för batteriets laddning. Ta ett **känna av**-block och välj sprajten för vår dammsugare. Inuti blocket sätter vi därefter ett variabelblock som heter **ändra batteri med** och ändrar variabeln till **5**. För att det ska synas vad som händer kan vi lägga till ett **säg**-block från tema UTSEENDE som säger "Laddar batteri!" När du är klar ser skriptet ut såhär:
+5. Nu kodar vi först delen för batteriets laddning. Ta ett **känna av**-block och välj sprajten för vår dammsugare. Inuti blocket sätter vi därefter ett variabelblock som heter **ändra batteri med** och ändrar variabeln till **5**. För att det ska synas vad som händer kan vi lägga till ett **säg __ i 2 sekunder**-block från tema UTSEENDE som du ändrar text i så den säger "Laddar!". När du är klar ser skriptet ut såhär:
 
 ![image alt text](laddaBatteri.png)
  
@@ -220,13 +220,13 @@ Vi stoppar in skriptet ovan i vårt **för alltid**-block och så det ser ut så
 ![image alt text](laddaKlar.png)
 
 Nu går det att ladda roboten!
-För att göra det realistiskt behöver vi också skriva lite kod så att robotens bateri laddas ut medan den städar. 
+För att göra det realistiskt behöver vi också skriva lite kod så att robotens batteri laddas ut medan den städar. 
 
-6. Vi tar ett **om...då...annars**-block och sätter in ett **operator**-block och gör jämförelsen **om värdet av "Batteri" är större än 0**. Koden ser då ut såhär:
+6. Från tema KONTROLL drar vi in ett **om...då...annars**-block. Och från tema OPERATORER tar vi ett kantigt block som har tecken för att något är "större än", alltså block med **__ > __** och sätter in **operator**-blocket i det kantiga hålet mellan **om...då**. Gå sedan till tema VARIABLER och dra in blocket du skapade som heter **Batteri**. Lägg det i operatorns vänstra vida cirkel. Skriv sedan värdet **0** i den högra cirkeln på operatorn. Då kan blocket göra jämförelsen **om "Batteri" är större än 0**. Alltså om värdet som håller reda på variablen i kodblocket som heter Batteri är större än 0 - då ska något hända.  Koden ser alltså nu ut såhär:
 
 ![image alt text](batteriStörreÄnNoll.png)
 
-7. Innanför **om...då**-delen av blocket sätter vi ett **ändra "Batteri" med 1**-block och skriver in **-1** som variabel. Längre ned i blockets **...annars**-del sätter vi in ett **Säg**-block från tema UTSEENDE, och skriv in "Åh nej! Batteriet tog slut!". 
+7. Vad ska då hända? Jo, batteriet ska laddas ur. Gör såhär: Innanför **om...då**-delen av blocket sätter vi ett **ändra "Batteri" med 1**-block och skriver in **-1** som variabel. Längre ned i blockets **...annars**-del sätter vi in ett **Säg __ i 2 sekunder**-block från tema UTSEENDE, och skriv in "Åh nej! Batteriet tog slut!". Ändra till förslagsvis 5 sekunder i variablen. 
 När du är klar borde skriptet se ut såhär:
 
 ![image alt text](laddaUr.png)
@@ -244,7 +244,7 @@ Nu ska vi bara lägga in detta block innanför **för alltid**-blocket, och dra 
 
 ![image alt text](dammsugareMedBatteri.png)
 
-Sådär! Nu använder din robotdammsugare ett batteri!
+Sådär! Nu använder din robotdammsugare ett batteri och kan ladda det!
 
 
 ### Saker att arbeta vidare på
