@@ -1,6 +1,6 @@
 Visst kan det ibland kännas tungt och trist att städa, men kanske det blir roligare och enklare med en robotdammsugare som kan hjälpa till hemma? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
 
-Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan se ut:
+Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> här!.</a>
 
 BILD SAKNAS SAMT LÄNK TILL EXEMPELPROJEKT
 
@@ -136,7 +136,7 @@ Vi kan nu testa skriptet och se hur roboten dammsugar upp smutsen vi ritat ut!
 ## Färdig!
 Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
 
-SAKNAS BILD PÅ DET FÄRDIGA SKRIPTET I SIN HELHET!
+![image alt text](slutresultat.png)
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Robotdammsugaren - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
