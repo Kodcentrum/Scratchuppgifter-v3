@@ -198,6 +198,42 @@ Sådär! Nu undviker Robotdammsugaren även ditt husdjur som springer runt i lä
 
 > Tips! Du kan givetvis göra på samma sätt för att undvika exempelvis en möbel eller annat i din lägenhet. Det är bra om alla saker som roboten ska undvika har en egen speciell färg, annars kan inte roboten veta vad den rör vid. Men det går såklart bra att allt har samma färg som exempelvis väggarna, så undviker roboten alltid just den färgen.
 
+### Koda ett batteri och en laddningstation till damsugaren!
+Börja med att rita eller välja en sprajt som ska vara platsen där robotdamsugaren kan ladda sitt batteri. 
+
+Skapa därefter en variabel och döp den till Batteri. En variabel kan ses som en låda i vilken vi lägger en liten kom-ihåg lapp med någon form av information. I det här fallet är det hur mycket batteri som damsugaren har kvar. 
+
+När vi startar vårat skript kommer vill vi sätta den variabeln till 1000 så vi sätter ut ett variabel block som ändrar variabelns värde. Var noga med att ändra så att det står sätt Batteri till 1000 som det står här:
+![image alt text](batteriStart.png)
+
+Nu kan vi börja koda laddandet och urladdandet. Börja med att sätta ett för alltid block under sätt batteri blocket. I detta block kommer vi ha två om block. Ett som sköter laddandet, och ett som laddar ur damsugaren. 
+
+Vi börjar med laddningen och tar ett känna av block och väljer sprajten som vi har för våran damsugare. I blocket sätter vi därefter ett variabelblock som heter ändra batteri med och skriver in 5. För att det ska synas vad som händer kan en lägga till ett säg block som säger ladder i några sekunder! När du är klar ser det ut såhär:
+![image alt text](laddaBatteri.png)
+ 
+Vi stoppar in detta i vårt för alltid block och får något som ser ut såhär
+![image alt text](laddaKlar.png)
+
+Nu går det att ladda roboten!
+
+För att göra det realistiskt behöver vi också skriva lite kod så att roboten laddas ut när den jobbar. Vi tar ett om annars block men och sätter in ett operator block och gör jämförelsen om värdet av variabeln Batteri är större än 0. Detta ser ut såhär:
+![image alt text](batteriStörreÄnNoll.png)
+
+Innanför om blocket sätter vi därefter som vi gjorde förut ett ändra Batteri med block och sätter detta till -1. I blockets annars del placerar vi ett säg block som informerar om att batteriet har tagit slut. När du är klar borde det se ut något såhär:
+![image alt text](laddaUr.png)
+
+Sätt nu även detta blocket innuti för alltid blocket och när du är klar borde det se ut ungefär såhär
+![image alt text](laddstationKlar.png)
+
+Nu återstår bara att göra så att robotdamsugaren inte kan röra sig om den råkar få slut på batteri. Välj din damsugarsprajt och skapa ett nytt om block. I det lägger vi in en jämförese som kollar om batteriet är större än noll.
+![image alt text](batteriStörreÄnNoll.png)
+
+Nu ska vi bara lägga in detta block inanför för alltid blocket, och all kod som tidigare låg innanför för alltid blocket i det nya om blocket. När du är klar borde det likna det här
+![image alt text](damsugareMedBatteri.png)
+
+Sådär! Nu använder din robotdamsugare batteri!
+
+
 ### Saker att arbeta vidare på
 1. Kan du göra så att roboten kan känna av och skilja på flera olika saker? Kanske finns det en viss typ av smuts som den inte ska damsuga upp utan istället hälla vatten på? 
 
