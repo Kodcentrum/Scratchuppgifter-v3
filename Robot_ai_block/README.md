@@ -1,14 +1,14 @@
 Visst kan det ibland kännas tungt och trist att städa, men kanske det blir roligare och enklare med en robotdammsugare som kan hjälpa till hemma? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
 
-Här kan du se ett exempelprojekt på hur ett projekt med en robotdammsugare kan se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> här!.</a>
+Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett projekt med en robotdammsugare kan tänkas se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> 
 
-BILD SAKNAS SAMT LÄNK TILL EXEMPELPROJEKT
+![image alt text](Exempelprojekt.png) </a>
 
 > **HUR KODAR JAG?** 
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du spara och om du vill även sen dela ditt projekt. Det är gratis att skaffa ett konto på Scratch.
 </br>
 
-Dax att börja skapa robot! Klicka på kapitel 1 här under för att bläddra dig vidare.
+Dax att börja skapa en städrobot! Klicka på kapitel 1 här under för att bläddra dig vidare.
 
 ## 1: Rita din robot och rummet
 Börja med att ta bort katt-sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
@@ -107,7 +107,7 @@ BILD PÅ FÄRGPIPETTEN OCH BLOCKET MAN KLICKADE SKA IN HÄR.
 
 3. Eftersom vi endast vill dammsuga om roboten rör vid smuts (och inte annars), lyfter vi upp pennan från golvet först, så den inte kan måla golvfärg hela tiden. Välj tema **PENNA** och drar in blocket **Penna upp**. Lägg in det i robotens **Om...Då**-block precis ovanför **Gå 5 steg**. Nu kommer pennan hållas uppe ovan golvet och inte rita golvfärg.
 
-![image alt text](damsugarConfig.png)
+![image alt text](dammsugarConfig.png)
 
 Sådär! Nu är vi redo att koda själva städandet av smutsen!
 
@@ -123,7 +123,7 @@ Nu ska vi koda så att roboten känner av smutsen - eller snarare dess färg. G�
 
 Skriptet bör nu se ut såhär:
 
-![image alt text](damsugOmFarg.png)
+![image alt text](dammsugOmFarg.png)
 
 Sätt ihop den här biten kod med resten av kodbitarna på skriptytan för att få ett större skript som ser ut såhär:
 
@@ -242,7 +242,7 @@ Nu Har vi kodat batteriets laddning och urladdning. Då återstår bara att gör
 
 Nu ska vi bara lägga in detta block innanför **för alltid**-blocket, och dra med även all den kod som tidigare låg innanför **för alltid**-blocket i det nya om blocket. När du är klar bör det se ut såhär:
 
-![image alt text](damsugareMedBatteri.png)
+![image alt text](dammsugareMedBatteri.png)
 
 Sådär! Nu använder din robotdammsugare ett batteri!
 
