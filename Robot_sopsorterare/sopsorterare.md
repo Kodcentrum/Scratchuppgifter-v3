@@ -69,5 +69,9 @@ Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss
 Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamn batteri och skicka den soptypen. 
 
 
+Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot block för och sätter dessa till våra olika soptypsmedelanden. Eftersom vi började med glas och kompost och har satt block som skickar dessa så sätter vi blocken till de två. 
 
+Under de två blocken sätter vi ett glid till block och sätter det till 1 sekund och på den ena skriver positionen för komposten och för den andra positionen för glasåtervinningen. 
+
+Sådär! Om inget har blivit tokigt har du nu en robot som sorterar sopor! 
 
