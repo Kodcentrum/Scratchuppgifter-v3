@@ -1,11 +1,10 @@
 # Robotgenerator
 
-Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga! Dessutom kommer du att få lära dig att använda strängar och listor.
+Nu ska du få skapa ett program som sätter ihop olika robotdelar till en robot! Roboten får slumpvis olika klädslar och säger olika saker varje gång du trycker på start. Du får själv rita robotens delar och bestämma vad den ska säga! Du använder slumptal, strängar och listor för att skapa robotgeneratorn.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch genom att klicka på länken med Scratch-katten här ovan eller via www.scratch.mit.edu</a>. Klicka dig fram genom denna guide, steg för steg, i ett eget fönster. 
 
-Ett exempel på Robotgenerator hittar du här: <a href="https://scratch.mit.edu/projects/83059676/" target="_blank">https://scratch.mit.edu/projects/83059676</a>
+Du kan titta på ett exempel på Robotgenerator här: <a href="https://scratch.mit.edu/projects/83059676/" target="_blank">https://scratch.mit.edu/projects/83059676</a>
 
   ![image alt text](image_0.jpg)
   
@@ -13,27 +12,29 @@ Ett exempel på Robotgenerator hittar du här: <a href="https://scratch.mit.edu/
 
 ## 1: Skapa robotklädslar
 
-Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. Du kommer att göra flera olika huvuden, armar, munnar, ögon och så vidare så att du sedan kan göra till flera olika kombinationer av robotar!
+Du börjar med att rita dina egna *sprajtar* med flera olika *klädslar* som ska föreställa robotens delar. Du kommer att göra flera huvuden, armar, munnar, ögon och så vidare så att du sedan kan kombinera dessa till robotar!
 
 1. Skapa ett nytt Scratch-projekt och ta bort katten.
 
 2. Klicka på **Rita ny** *_sprajt_*. Klicka igen tills du har totalt sex tomma *sprajtar*. Döp om *sprajtarna* till: **"kropp"**, **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**.
 
-3. Nu får du gå in på varje *sprajt* och rita egna *klädslar* till dem. Börja med att markera *sprajten* **"kropp"**. Gör den första klädseln som är en **stor grå kvadrat**. Välj **Rita ny** _klädsel_ och gör den som en **stor grå cirkel**.
+3. Nu får du gå in på varje *sprajt* och rita egna *klädslar* till dem. Börja med att markera *sprajten* **"kropp"**. Gör den första klädseln som är en **stor grå kvadrat**. 
 
-4. Gör nu två till *klädslar* som du väljer helt själv. Hur vill du att en **robots kropp** ska se ut?
+4. Välj **Rita ny** _klädsel_ för att göra en andra klädsel. Gör den som en **stor grå cirkel**.
 
-  **Tips:** Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer *sprajten* att hoppa hit och dit på Scenen!
+5. Gör nu två till *klädslar* som du väljer helt själv. Hur vill du att en **robots kropp** ska se ut?
+
+  **Tips:** Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer din *sprajt* att hoppa hit och dit på Scenen!
 
   ![image alt text](image_1.png)
 
-5. Dra sedan *sprajten* **"kropp"** till mitten av *Scenen* och lägg i nederkant så att kroppen sticker upp från nederkanten.
+6. Dra *sprajten* **"kropp"** till mitten av *Scenen* och lägg i nederkant så att kroppen sticker upp från scenens botten.
 
-6. Gör på samma sätt med *sprajterna* **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**. Hitta på flera olika klädslar för varje *sprajt*.
+7. Gör på samma sätt med *sprajterna* **"huvud"**, **"armar"**, **"mun"**, **"ögon"**. Hitta på flera olika klädslar för varje *sprajt*.
 
-7. **"Extra"** kan till exempel vara antenner, en hatt eller ett halsband. Du kan behöva placera just dessa *klädslar* lite olika och **inte centrerat** som för de andra *sprajterna*!
+8. Gör nu sprajten **"Extra"**. Det kan till exempel vara antenner, en hatt eller ett halsband. Du kan behöva placera just dessa *klädslar* lite olika och **inte centrerat** som för de andra *sprajterna*, så att de passar till dina robotar!
 
-8. Placera alla *sprajter* på Scenen så att alla robotens delar sitter där du vill ha dem.
+9. Placera alla *sprajter* på Scenen så att alla robotens delar sitter där du vill ha dem.
 
   ![image alt text](image_2.jpg)
 
@@ -46,7 +47,7 @@ Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. D
 
 Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olika *klädslar *varje gång du trycker på START. Ungefär som när du drar i spaken på en Enarmad bandit! Du behöver också säga åt programmet att lägga *sprajterna* i rätt ordning, i det LAGER där du vill ha dem.
 
-8. Skapa ett skript för *sprajten* **"ögon"** som säger:
+10. Skapa ett skript för *sprajten* **"ögon"** som säger:
 
   * Starta när START klickas på
   * Gå till **översta lagret**
@@ -54,13 +55,13 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
     * **Vänta **0.5** sekunder**
     * Byt till **nästa klädsel**
 
-9. Kopiera *skriptet* till *sprajten* **"mun"**. Både mun och ögon kan ligga i översta lagret.
+11. Kopiera *skriptet* till *sprajten* **"mun"**. Både mun och ögon kan ligga i översta lagret.
 
   ![image alt text](image_3.png)
 
   > Testa ditt projekt! Klicka på START. Ändras robotens mun och ögon och stannar på en slumpmässigt vald klädsel?
 
-10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. **Byt ut** blocket **lägg överst** till **gå ned** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
+12. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. **Byt ut** blocket **lägg överst** till **gå ned** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
 
   ![image alt text](image_4.png)
 
@@ -73,9 +74,9 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
 
 Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje gång du trycker på START. Du får själv välja olika bakgrundsbilder till *Scenen*.
 
-11. Markera *Scenen* och **välj ny** **_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
+13. Markera *Scenen* och **välj ny** **_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
 
-12. Skapa ett *skript* för *scenen* som gör samma sak som *sprajternas* skript, fast att du byter *bakgrund* istället för *klädsel*. Du behöver inte tänka på lager här.
+14. Skapa ett *skript* för *scenen* som gör samma sak som *sprajternas* skript, fast att du byter *bakgrund* istället för *klädsel*. Du behöver inte tänka på lager här.
 
 > Testa ditt projekt! Klicka på START. Ändras bakgrunden nu?
 
@@ -92,9 +93,9 @@ En LISTA är en *variabel* som innehåller flera andra variabler. Om variabeln �
 
 Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
-13. Välj blocket **Skapa en lista** under **DATA** och kalla den för **"Strängar"**.
+15. Välj blocket **Skapa en lista** under **DATA** och kalla den för **"Strängar"**.
 
-14. Markera *Scenen* och skapa ett nytt *skript* som säger:
+16. Markera *Scenen* och skapa ett nytt *skript* som säger:
 
   * Starta när START klickas på
   * Först **ta bort alla i** listan **"Strängar"**
@@ -102,7 +103,7 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
   ![image alt text](image_6.png)
 
-15. Välj själv vad roboten ska säga och lägg till flera meningar i **"Strängar"** under varandra i samma *skript*.
+17. Välj själv vad roboten ska säga och lägg till flera meningar i **"Strängar"** under varandra i samma *skript*.
 
   > Testa ditt projekt! Klicka på START. Kan du se dina *strängar* i en *lista* på scenen? Ser du att de är numrerade? *Listan* kan du sedan klicka ur och gömma, men just nu är det bra att du ser den.
 
@@ -110,7 +111,7 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
   Nu ska du programmera roboten att slumpmässigt **välja ett objekt ur listan med strängar** och säga den meningen. För det behöver du skapa en *variabel* som innehåller det slumpmässiga valet.
 
-16. Skapa en *variabel* och kalla den för **"Val"**. I det *skript* som du redan har skapat för *scenen*, lägg till en blockrad som säger:
+18. Skapa en *variabel* och kalla den för **"Val"**. I det *skript* som du redan har skapat för *scenen*, lägg till en blockrad som säger:
 
   * **Sätt "Val" till**
     * Det **post i "strängar"**
@@ -119,9 +120,9 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
   ![image alt text](image_8.png)
 
 
-17. Nästa steg är att få roboten att säga den valda *strängen*, och samtidigt göra ett robotljud! Gå till *sprajten* **"huvud"** och fliken LJUD. Klicka på **Nytt ljud från bibliotek** och välj ett passande ljud, till exempel **"computer beeps1"**.
+19. Nästa steg är att få roboten att säga den valda *strängen*, och samtidigt göra ett robotljud! Gå till *sprajten* **"huvud"** och fliken LJUD. Klicka på **Nytt ljud från bibliotek** och välj ett passande ljud, till exempel **"computer beeps1"**.
 
-18. Fortsätt på ditt *skript* för *sprajten* **"huvud"**. Lägg till att den ska:
+20. Fortsätt på ditt *skript* för *sprajten* **"huvud"**. Lägg till att den ska:
 
   * **Spela** ljudet _"computer beeps 1"_
   * **Säg** innehållet i variabeln **"Sträng"**
