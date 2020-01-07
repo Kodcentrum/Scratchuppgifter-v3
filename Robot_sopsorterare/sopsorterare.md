@@ -1,21 +1,23 @@
 # Sopsorterare 
 
-Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta. I den här uppgiften kommer vi koda ett litet spel där du eller en kompis får styra en robot som automatiskt lägger soporna på rätt ställe!
+Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta. I den här uppgiften kommer vi koda ett litet spel där du eller en kompis får styra en robot som automatiskt skickar soporna till rätt ställe!
 
 # Soporna
-För att kunna sortera sopor så behöver vi ju först koda lite sopor. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (Lite senare kommer vi kunna skapa fler!)
+Innan vi börjar kode roboten så måste vi först koda lite sopor som den kan sortera. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (När du förstår principen kommer du enkelt kunna skapa fler!)
 
-Som exempel har jag valt en glasflaska och en äppelskrot.
+Som exempel har jag skapat en glasflaska och en äppelskrot. 
 
 Vi ska nu koda så att soporna ramlar ner ifrån ovan för roboten att fånga! 
 
 Börja med att dra ut ett startblock. Under detta sätter vi känna av blocket sätt dragläge till "dragbar". Detta är en liten extra grej som gör att en kan hjälpa roboten genom att klicka och dra soporna till rätt ställe!
 
+[dragbar bild]
+
 Nu ska vi göra något som kanske är nytt för dig eller som du kanske har gjort tidigare, vi ska skicka ett medelande. När vi skickar ett medelande kan vi skapa en samling block som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Praktiskt va?! 
 
-Detta gör att vi efter vi har satt dragläget ska vi skicka medelandet "börjaOm"
+Detta gör att vi efter vi har satt dragläget ska vi skicka medelandet "omstart"
 
-På samma ställe som vi hittade skicka blocket kan vi också hitta händelseblocket när jag tar emot vilket vi drar ut och sätter till "börjaOm". 
+På samma ställe som vi hittade skicka blocket kan vi också hitta händelseblocket när jag tar emot vilket vi drar ut och sätter till "omstart". 
 
 Under detta sätter vi sedan ett ändra klädselblock och i det ett slumptalsblock som vi sätter till mellan 1 och 2 (Om du gör fler klädslar så ändra bara på sista talet!)
 
@@ -23,7 +25,7 @@ Därefter vill vi placera spajten högst upp så den kan glida ner vilket vi gö
 
 Under detta sätter vi sedan ett glid till block som vi sätter till 2 sek och därefter till en slumpmässig x position mellan -73 och 94 och y position -130. Sådär! 
 
-Vi går nu tillbaka till efter att vi skickade vårt "börjaOm" block. Nu ska vi här placera ut ett  för alltid block och i det sätter vi därefter ett om block i vilket vi kollar om y positionen är mindre än tex -129. Slutligen sätter vi ett skicka "börjaOm" innuti detta. Nu kommer det nya sopor varje gång de ramlat hela vägen!
+Vi går nu tillbaka till efter att vi skickade vårt "börjaOm" block. Nu ska vi här placera ut ett  för alltid block och i det sätter vi därefter ett om block i vilket vi kollar om y positionen är mindre än tex -129. Slutligen sätter vi ett skicka "omstart" innuti detta. Nu kommer det nya sopor varje gång de ramlat hela vägen!
 
 
 # Sopkärl 
