@@ -5,19 +5,30 @@ Många kanske tycker det är tråkigt att sortera sopor för återvinning, så v
 # Soporna
 Innan vi börjar kode roboten så måste vi först koda lite sopor som den kan sortera. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (När du förstår principen kommer du enkelt kunna skapa fler!)
 
-Som exempel har jag skapat en glasflaska och en äppelskrot. 
+Som exempel har jag skapat en glasflaska och en äppelskrott 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/soptypGlas.PNG)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/soptypKompost.PNG)
 
 Vi ska nu koda så att soporna ramlar ner ifrån ovan för roboten att fånga! 
 
 Börja med att dra ut ett startblock. Under detta sätter vi känna av blocket sätt dragläge till "dragbar". Detta är en liten extra grej som gör att en kan hjälpa roboten genom att klicka och dra soporna till rätt ställe!
 
-[dragbar bild]
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/draglageDragbar.PNG)
 
 Nu ska vi göra något som kanske är nytt för dig eller som du kanske har gjort tidigare, vi ska skicka ett medelande. När vi skickar ett medelande kan vi skapa en samling block som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Praktiskt va?! 
 
-Detta gör att vi efter vi har satt dragläget ska vi skicka medelandet "omstart"
+(Skriv lite om att skapa meddelanden)
 
-På samma ställe som vi hittade skicka blocket kan vi också hitta händelseblocket när jag tar emot vilket vi drar ut och sätter till "omstart". 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/skapaBorjaOm.PNG)
+
+Detta gör att vi efter vi har placerat dragläget ska skicka medelandet "omstart"
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/skickaBorjaOm.PNG)
+
+På samma ställe som vi hittade skicka blocket kan vi också hitta händelseblocket när jag tar emot vilket vi drar ut och sätter till vårt meddelande "omstart".
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narjagTarMotBorjaOm.PNG)
+
 
 Under detta sätter vi sedan ett ändra klädselblock och i det ett slumptalsblock som vi sätter till mellan 1 och 2 (Om du gör fler klädslar så ändra bara på sista talet!)
 
