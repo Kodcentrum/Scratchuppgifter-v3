@@ -60,13 +60,29 @@ Nu vill vi att spajten ska starta högst upp så den kan glida ner. Detta göra 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/gaTillPosKlar.PNG)
 
-Under detta sätter vi sedan ett glid till block som vi sätter till 2 sek och därefter till en slumpmässig x position mellan -73 och 94 och y position -130. Sådär! 
+Under detta sätter vi sedan ett glid till block som vi sätter till 2 sek och därefter till en slumpmässig x position mellan -73 och 94 och y position -130. 
 
-Vi går nu tillbaka till efter att vi skickade vårt "börjaOm" block. Nu ska vi här placera ut ett  för alltid block och i det sätter vi därefter ett om block i vilket vi kollar om y positionen är mindre än tex -129. Slutligen sätter vi ett skicka "omstart" innuti detta. Nu kommer det nya sopor varje gång de ramlat hela vägen!
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/glidTillSlumptal.PNG)
 
+Tillsammans borde allt se ut såhär:
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omstartKlar.PNG)
+
+Vi går nu tillbaka till vårat när jag tar mot omstart block. Nu ska vi här placera ut ett för-alltid block och i det ska vi sätta ett om-block i vilket vi kollar om y positionen är mindre än -129 (Detta eftersom vi tidigare valde att glida till -130). Slutligen sätter vi ett skicka "omstart" innuti detta. 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/forAlltidYposOm.PNG)
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/forAlltidYposOmKlar.PNG)
+
+Alltihop tillsammans borde se ut såhär:
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/forAlltidYposOmKlarIhopsatt.PNG)
 
 # Sopkärl 
 Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa två nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du hittar. 
+
+Jag har valt att rita så jag ritar enkla små lådor som ser ut såhär:
+
 
 Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. Under detta sätter vi ett om-block. I detta sätter vi sedan ett jämförelseblock där vi helt enkelt kollar om vi kolliderar med vår skräpsprajt. 
 
