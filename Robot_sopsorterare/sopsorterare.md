@@ -18,10 +18,12 @@ Börja med att dra ut ett startblock. Under detta sätter vi känna av blocket s
 Nu ska vi göra något som kanske är nytt för dig eller som du kanske har gjort tidigare, vi ska skicka ett medelande. När vi skickar ett medelande kan vi skapa en samling block som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Praktiskt va?! 
 
 (Skriv lite om att skapa meddelanden)
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/narJagTarMotMeddelande.PNG)
 
+bla bla 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narJagTarMotMeddelande.PNG)
+och sen
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/narJagTarMotNyttMeddelande.PNG)
-
+men glöm ej
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/SkapaBorjaOm.PNG)
 
 Detta gör att vi efter vi har placerat dragläget ska skicka medelandet "omstart"
