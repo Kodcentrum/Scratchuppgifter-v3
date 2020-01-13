@@ -81,6 +81,9 @@ Alltihop tillsammans borde se ut såhär:
 # Sopkärl 
 Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa två nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du hittar. 
 
+Jag har valt att rita så jag ritar enkla små lådor som ser ut såhär:
+
+
 Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. Under detta sätter vi ett om-block. I detta sätter vi sedan ett jämförelseblock där vi helt enkelt kollar om vi kolliderar med vår skräpsprajt. 
 
 Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytterligare ett om-annars-block och i det blocket sätter vi sedan ett = jämförelesblock där vi på första sidan sätter klädselnamn av Sopor och på andra sidan skriver namnet på soptypen som ska slängas här i. I detta block sätter vi tillslut ett skicka "börjaOm" block. 
