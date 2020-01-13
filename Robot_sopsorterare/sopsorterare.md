@@ -83,16 +83,28 @@ Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skap
 
 Jag har valt att rita så jag ritar enkla små lådor som ser ut såhär:
 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/KompostSprajt.PNG)
 
-Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. Under detta sätter vi ett om-block. I detta sätter vi sedan ett jämförelseblock där vi helt enkelt kollar om vi kolliderar med vår skräpsprajt. 
+Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna där. Vi börjar med att dra ut ett start block med den gröna flaggan. Under detta placerar vi ett för alltid block. Under detta sätter vi ett om-block. I detta sätter vi sedan ett jämförelseblock där vi om vi rör vid vår skräpsprajt. 
 
-Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytterligare ett om-annars-block och i det blocket sätter vi sedan ett = jämförelesblock där vi på första sidan sätter klädselnamn av Sopor och på andra sidan skriver namnet på soptypen som ska slängas här i. I detta block sätter vi tillslut ett skicka "börjaOm" block. 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/sopkarlskod1.PNG)
 
-[Återvinn genom att skicka meddelande]
+Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytterligare ett om-annars-block och i det blocket sätter vi sedan ett = jämförelesblock där vi på första sidan sätter klädselnamn av Sopor och på andra sidan skriver namnet på soptypen som ska slängas här i. Slutligen sätter vi också ett skicka "omstart" block innuti vårt om block. 
+ 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/sopkarlskod2.PNG)
 
+När vi sen sätter ihop allting borde det se ut såhär:
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/sopkarlskod2.PNG)
+
+Sådär! Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra sopsprajten till ditt sopkärl. 
+
+På samma sätt som vi precis gjort kan vi nu koda ett till sopkärl. Antingen kan du kopiera din sprajt och byta färg eller kanske rita någonting helt annat. För att göra flera sopkärl följer du helt enkelt stegan vi precis gjort men ändrar så att istället för klädsel 1, så kollar till exempel ett glasåtervinningskärl efter klädsel 2 som är just glas. 
+
+(Bygga vidare)
 I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om en försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
 
-Sådär! Nu är våra sopkärl redo att ta emot sopor och kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra något med musen till fel kärl.
+
 
 # Styr roboten
 Det är ju lite tråkigt att dra varje grej till rätt ställe så istället kan vi programera en robot som gör detta åt oss. 
