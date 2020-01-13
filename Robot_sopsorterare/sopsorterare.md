@@ -17,23 +17,33 @@ Börja med att dra ut ett startblock. Under detta sätter vi känna av blocket s
 
 Nu ska vi göra något som kanske är nytt för dig eller som du kanske har gjort tidigare, vi ska skicka ett medelande. När vi skickar ett medelande kan vi skapa en samling block som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Praktiskt va?! 
 
-(Skriv lite om att skapa meddelanden)
+## Skapa meddelade
 
-bla bla 
+Börja med att dra ut ett när jag tar emot block. När du drar ut det står det meddelande1 men det ska vi snart ändra på.
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narJagTarMotMeddelande.PNG)
-och sen
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/narJagTarMotNyttMeddelande.PNG)
-men glöm ej
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/SkapaBorjaOm.PNG)
 
-Detta gör att vi efter vi har placerat dragläget ska skicka medelandet "omstart"
+Klicka på medelande1 och när du får upp menyn med alternativen välj det översta "skapa nytt meddelande". 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/edit/feature_sopsorterare/Robot_sopsorterare/skickaBorjaOm.PNG)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narJagTarMotNyttMeddelande.PNG)
+
+Nu kan du döpa ditt meddelande till något passande. I vårat fall är "omstart" ett bra namn. 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/SkapaBorjaOm.PNG)
+
+När du är klar borde det se ut såhär:
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narjagTarMotBorjaOm.PNG)
+
+Sådär! Nu har vi skapat början på en bit kod som kommer att köras varje gång vi skickar meddelandet "omstart" 
+
+Innan vi går vidare och kodar vad som ska hända vid omstart kan vi passa på att placera ut ett block som skickar vårat nya meddelande.
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/skickaBorjaOm.PNG)
 
 På samma ställe som vi hittade skicka blocket kan vi också hitta händelseblocket när jag tar emot vilket vi drar ut och sätter till vårt meddelande "omstart".
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narjagTarMotBorjaOm.PNG)
+Nu går vi tillbaka till vårat när jag tar emot omstart block
 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narjagTarMotBorjaOm.PNG)
 
 Under detta sätter vi sedan ett ändra klädselblock och i det ett slumptalsblock som vi sätter till mellan 1 och 2 (Om du gör fler klädslar så ändra bara på sista talet!)
 
