@@ -31,6 +31,7 @@ Nu kan du döpa ditt meddelande till något passande. I vårat fall är "omstart
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/SkapaBorjaOm.PNG)
 
 När du är klar borde det se ut såhär:
+
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narjagTarMotBorjaOm.PNG)
 
 Sådär! Nu har vi skapat början på en bit kod som kommer att köras varje gång vi skickar meddelandet "omstart" 
@@ -47,7 +48,17 @@ Nu går vi tillbaka till vårat när jag tar emot omstart block
 
 Under detta sätter vi sedan ett ändra klädselblock och i det ett slumptalsblock som vi sätter till mellan 1 och 2 (Om du gör fler klädslar så ändra bara på sista talet!)
 
-Därefter vill vi placera spajten högst upp så den kan glida ner vilket vi gör med hjälp av ett gå till x block. Även här använder vi oss av slumptal och sätter in något i stil med mellan -73 till 94. Y postionen sätter vi till 140.
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/andraKladselHurBygg.PNG)
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/andraKladselSlumptal.PNG)
+
+Du kan nu testa att starta ditt projekt ett par gånger. Om allt har blivit rätt så borde sprajten byta klädsel ungefär hälften av gångerna. 
+
+Nu vill vi att spajten ska starta högst upp så den kan glida ner. Detta göra vi med hjälp av ett gå till x block. Även här använder vi oss av slumptal och sätter in något i stil med mellan -73 till 94. Y postionen sätter vi till 140.
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/gaTillPos.PNG)
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/gaTillPosKlar.PNG)
 
 Under detta sätter vi sedan ett glid till block som vi sätter till 2 sek och därefter till en slumpmässig x position mellan -73 och 94 och y position -130. Sådär! 
 
