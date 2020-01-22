@@ -1,6 +1,6 @@
 Visst kan det ibland kännas tungt och lite trist att städa. Varför inte skapa din egna robotdammsugare som kan hjälpa till? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
 
-Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett projekt med en robotdammsugare kan tänkas se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> 
+Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett projekt med en robotdammsugare kan tänkas se ut: <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> 
 
 ![image alt text](Exempelprojekt.png) </a>
 
@@ -22,9 +22,7 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 ![image alt text](dammsugare.png) 
 
 ## 2: Rita rummet som ska städas
-Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita väggarna på rummet sett *ovanifrån*, exempelvis en enkel fyrkant. Ett enkelt rum kan vara en fyrkant, men du bestämmer själv hur rummet - eller lägenheten - ska se ut. Endast väggar ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! 
-
->>Tänk på! Rummet ska ritas sett ovanifrån. Rita rummet ganska öppen så det blir enkelt för roboten att åka runt i. Alla väggarna måste ha en och samma färg.
+Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! 
 
 Gör såhär:
 
