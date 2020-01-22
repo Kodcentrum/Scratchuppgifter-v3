@@ -99,9 +99,14 @@ För att dammsugarroboten ska se ut att kunna suga upp smutsen i rummet, kommer 
 
 ![image alt text](satt_pennans_storlek_till_30.png)
 
-2. Ändra färgen på pennan till golvfärgen, genom att dra ut ett **Sätt färg till**-block från tmat **PENNA**. Klicka på blockets färg och välj pippetten i rutan som kommer upp och välj sen golvfärgen på scenen, på samma sätt som när du valde färgen för väggen! Nu får blocket den rätta golvfärgen.
+2. Ändra färgen på pennan till golvfärgen, genom att dra ut ett **Sätt färg till**-block från tmat **PENNA**. Klicka på blockets färg och välj pippetten i rutan som dyker upp på skärmen.
 
-BILD PÅ FÄRGPIPETTEN OCH BLOCKET MAN KLICKADE SKA IN HÄR.
+![image alt text](PippetVerkyget.png)
+
+Klicka därefter på golvfärgen i scenen, på samma sätt som när du valde färgen för väggen! Nu får blocket den rätta golvfärgen.
+
+![image alt text](PippetVerktygPåSpelplan.PNG)
+
 
 > Notera: Det är viktigt att färgen på pennan är av samma färg som golvet i rummet du ritat. Då "målar" pennan över smutsen med golvfärgen medan roboten åker runt. 
 
