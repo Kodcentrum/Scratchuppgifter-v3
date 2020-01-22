@@ -1,4 +1,4 @@
-Visst kan det ibland kännas tungt och trist att städa, men kanske det blir roligare och enklare med en robotdammsugare som kan hjälpa till hemma? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
+Visst kan det ibland kännas tungt och lite trist att städa. Varför inte skapa din egna robotdammsugare som kan hjälpa till? I den här uppgiften får du rita och koda din egen robotdammsugare! Det är lättare än vad du tror! 
 
 Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett projekt med en robotdammsugare kan tänkas se ut <a href="https://scratch.mit.edu/projects/352325169" target="_blank"> 
 
@@ -8,17 +8,27 @@ Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett pro
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du spara och om du vill även sen dela ditt projekt. Det är gratis att skaffa ett konto på Scratch.
 </br>
 
-Dax att börja skapa en städrobot! Klicka på kapitel 1 här under för att bläddra dig vidare.
+Dax att börja skapa din städrobot! Klicka på kapitel 1 här under för att bläddra dig vidare.
 
-## 1: Rita din robot och rummet
-Börja med att ta bort katt-sprajten och klicka sedan på skapa ny sprajt och börja rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
+## 1: Rita din robotdammsugare
+Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
+
+1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på symbolen med en *soptunna* på den lilla katt-bilden under scenen. 
+
+2. För att rita din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på pensel-symbolen **Måla**. Nu öppnas ett ritverktyg att måla med. 
+
+3. Rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
 
 ![image alt text](dammsugare.png) 
 
-Roboten behöver en golvyta att dammsuga okså. Använd fantasin för hur ditt rum eller längenhets form ska se ut, det är endast väggarna du ska rita upp, sett från ovan. Endast väggar ska finnas med i din bild och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! 
+## 2: Rita rummet som ska städas
+Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita väggarna på rummet sett *ovanifrån*, exempelvis en enkel fyrkant. Ett enkelt rum kan vara en fyrkant, men du bestämmer själv hur rummet - eller lägenheten - ska se ut. Endast väggar ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! 
+
+>>Tänk på! Rummet ska ritas sett ovanifrån. Rita rummet ganska öppen så det blir enkelt för roboten att åka runt i. Alla väggarna måste ha en och samma färg.
+
 Gör såhär:
 
-1.  Klicka på fliken **Bakgrunder** högst upp till vänster för att få fram ritverktyget. 
+1.  Klicka på fliken **Bakgrunder** högst upp till vänster för att få fram ritverktyget för bakgrundsbilden på scenen. 
 
 2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla upp väggarnas form som om rummet eller lägenheten var sedd ovanifrån.
 
@@ -28,18 +38,18 @@ Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut:
 
 ![image alt text](rum.png)
 
+## 3: Smutsa ner rummet
 En dammsugare är ju inte så användbar om det inte finns smuts och damm att städa upp, så nu ska du få måla dit det i rummen. 
 
-4. Välj verktyget **Pensel** och välj sen **en ny färg** att rita allt smuts med. 
+1. Välj verktyget **Pensel** och välj sen **en ny färg** att rita allt smuts med. 
 
-5. Måla ut smuts eller damm lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
+2. Måla ut smuts eller damm lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
 
 ![image alt text](rummedSmuts.png)
 
-Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi nu kan programmera att städa upp efter oss! 
+Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi nu kan programmera att städa upp efter oss! Dax att väcka liv i roboten!
 
-## 2: Få roboten att röra sig
-
+## 4: Få roboten att röra sig
 Nu ska vi börja koda roboten så att den vet hur den ska röra sig. Det första som vi vill göra är att få städroboten att röra sig framåt. 
 
 1. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg**. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
@@ -54,7 +64,7 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig. Det första
 
 Nu rör sig roboten, men den känner inte av väggarna. Dags att koda vidare!
 
-## 3: Känna av väggarna
+## 5: Känna av väggarna
 Först kodar vi så att roboten känner av väggarna när den rör vid väggens färg. Då ska den vända lite och åka åt andra hållet. 
 
 1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta. 
@@ -80,7 +90,7 @@ Färgen är rätt, men roboten vet inte ännu vad den ska göra om den träffar 
 Nu har vi en robotdammsugare som rör sig runt i rummet vi ritat och vänder om den stöter in i en vägg, men ingen smuts dammsugas upp! 
 Vi behöver koda lite till.
 
-## 4: Lägg till nya kodblock
+## 6: Lägg till nya kodblock
 
 För den här delen behöver vi lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp för **Tillägg** som ser ut såhär:
 
@@ -92,7 +102,7 @@ Klickar vi knappen **Tillägg** kommer vi till bilder på olika tillägg. Klicka
 
 Sådär! Nu kan vi hitta nya penn-block längst ner under våra vanliga block. Dax att koda mer!
 
-## 5: Dammsugarroboten får en penna
+## 7: Dammsugarroboten får en penna
 För att dammsugarroboten ska se ut att kunna suga upp smutsen i rummet, kommer vi koppla en penn-funktion till den, som målar över smutsen med rummets golvfärg. På så vis ser smutsen ut att försvinna nör roboten åkt över det.
 
 1. Det första vi måste göra är att ändra pennan till den storlek som vi vill ha. Under tema **PENNA** finns kodblocket **Sätt pennans storlek till 1**. Lägg i blocket direkt under start-blocket med **När START-flaggan klickas på**, ovanför **För alltid**-blocket. Ändra siffren 1 till passande storlek, i vårt exempel har vi skrivit 30. Anpassa storlek beroende på hur stor eller liten din robot är. Pennans storlek behöver vara  mindre än din robotdamsugare är! Prova dig fram.
@@ -116,7 +126,7 @@ Klicka därefter på golvfärgen i scenen, på samma sätt som när du valde fä
 
 Sådär! Nu är vi redo att koda själva städandet av smutsen!
 
-## 6: Dammsugarroboten städar
+## 8: Dammsugarroboten städar
 
 Nu ska vi koda så att roboten känner av smutsen - eller snarare dess färg. Gör såhär:
 
