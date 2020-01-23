@@ -79,7 +79,7 @@ BILD SAKNAS?
 
 Färgen är rätt, men roboten vet inte ännu vad den ska göra om den träffar på en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Vi måste ge roboten mer instruktioner med kod. Gör såhär:
 
-4. Välj tema **RÖRELSE** och välj blocket **Rotera vänster 15 grader**. Klicka på siffran 15 och ändra till 36 grader.
+4. Välj tema **RÖRELSE** och välj blocket **Rotera vänster 15 grader**. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
 
 5. Dra sen in blocket du redan har på skriptytan med **Gå 5 steg** och lägg den direkt under **Om...Då**-blocket, men inom **För alltid**-loopen, så att det ser ut som bilden nedan: 
 
@@ -88,20 +88,24 @@ Färgen är rätt, men roboten vet inte ännu vad den ska göra om den träffar 
 Nu har vi en robotdammsugare som rör sig runt i rummet vi ritat och vänder om den stöter in i en vägg, men ingen smuts dammsugas upp! 
 Vi behöver koda lite till.
 
-## 6: Lägg till nya kodblock
+## 6: Lägg till specialblocket Penna
 
-För den här delen behöver vi lägga till en grupp specialblock. Nere i vänstra hörnet hittar vi en knapp för **Tillägg** som ser ut såhär:
+Nu vill vi att smutsen ska försvinna när dammsugaren åker över den. Vi läser det genom att måla över smutsen med golvets färg. Då lägger vi till specialblocket "Penna".  Görs såhär:
+
+1. Nere i vänstra hörnet hittar vi en knapp för **Tillägg** som ser ut såhär:
 
 ![image alt text](laggtillBlock.png)
 
-Klickar vi knappen **Tillägg** kommer vi till bilder på olika tillägg. Klicka på den som heter Penna, så läggs den till i ditt Scratchprojekt. 
+Klicka på knappen **Tillägg**  och välj bilden som heter Penna, så läggs den till i ditt Scratchprojekt. 
 
 ![image alt text](pennaBlock.png)
+
+Då får du fram nya kodblock för Penna att koda med. 
 
 Sådär! Nu kan vi hitta nya penn-block längst ner under våra vanliga block. Dax att koda mer!
 
 ## 7: Dammsugarroboten får en penna
-För att dammsugarroboten ska se ut att kunna suga upp smutsen i rummet, kommer vi koppla en penn-funktion till den, som målar över smutsen med rummets golvfärg. På så vis ser smutsen ut att försvinna nör roboten åkt över det.
+Dax att koda in penna i dammsugarrobotens kod.
 
 1. Det första vi måste göra är att ändra pennan till den storlek som vi vill ha. Under tema **PENNA** finns kodblocket **Sätt pennans storlek till 1**. Lägg i blocket direkt under start-blocket med **När START-flaggan klickas på**, ovanför **För alltid**-blocket. Ändra siffren 1 till passande storlek, i vårt exempel har vi skrivit 30. Anpassa storlek beroende på hur stor eller liten din robot är. Pennans storlek behöver vara  mindre än din robotdamsugare är! Prova dig fram.
 
