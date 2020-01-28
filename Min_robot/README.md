@@ -1,6 +1,7 @@
-# Vykort
+# Min Robot
+Robotar kan hjälpa oss i vår vardag - här får du skapa din egen robot!
+Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner i Scratch. 
 
-Här får du göra ett digitalt vykort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
 Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
 
 ![image alt text](image_0.png)</a>
@@ -9,6 +10,13 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
   Då börjar vi koda!
+  
+  1. Välj en färdig sprajt-figur som din robot - eller rita din egen robot med ritverktyget.
+  2. Välj bakgrund
+  3. Vad ska roboten hjälpa dig med i din vardag. (Ex: pigga upp mig när det känns tråkigt genom att spela glad musik, eller matväljaren - hjälp mig välja vad jag ska äta idag.
+  4. Få roboten att rra på sig/dansa
+  5.Utveckla med fler val och slump? 
+  6. Utveckla med ljud - uppläst röst på text?
 
 ## 1: Välja sprajtar och bakgrund
 
