@@ -28,7 +28,7 @@ Vi har valt att rita vår dammsugarrobot såhär:
 ![image alt text](dammsugare.png) 
 
 ## 2: Rita rummet som ska städas
-Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! 
+Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Golvet ska ha en egen färg.
 
 Gör såhär:
 
@@ -36,37 +36,39 @@ Gör såhär:
 
 ![image alt text](FlikBakgrunder.png) 
 
-2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla upp väggarnas form som om rummet eller lägenheten var sedd ovanifrån.
-
-![image alt text](ritaPensel.png)
-
-3. Byt verktyg till **Fyll färg**, alltså den som ser ut som en liten **hink** med målarvärg. Välj vilken färg du vill ha på rummets golvyta och fyll golvfärgen genom att klicka på ytan innanför väggarna. 
-
-![image alt text](fyllFarg.png)
+2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla nu upp väggarnas form som om du såg rummet ovanifrån. 
 
 Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut: 
 
 ![image alt text](rum.png)
 
+3. Golvet kan du måla med en annan färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
+
+![image alt text](fyllFarg.png)
+
 ## 3: Smutsa ner rummet
-En dammsugare är ju inte så användbar om det inte finns smuts och damm att städa upp, så nu ska du få måla dit det i rummen. 
+Dammsugaren behöver såklart smuts och damm att städa upp. Dax att måla smuts! 
 
-1. Välj verktyget **Pensel** och välj sen **en ny färg** att rita allt smuts med. 
+1. Välj verktyget **Pensel** och **en färg** att rita allt smuts med. 
 
-2. Måla ut smuts eller damm lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
+2. Måla ut smuts lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
 
 ![image alt text](rummedSmuts.png)
 
 Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi nu kan programmera att städa upp efter oss! Dax att väcka liv i roboten!
 
 ## 4: Få roboten att röra sig
-Nu ska vi börja koda roboten så att den vet hur den ska röra sig. Det första som vi vill göra är att få städroboten att röra sig framåt. 
+Nu ska vi börja koda roboten så att den vet hur den ska röra sig för att kunna städa. Det första som vi vill göra är att få roboten att röra sig framåt. 
 
-1. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg**. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
+1. Välj fliken **Kod** högst upp till vänster för att komma bort från ritläget och tillbaka till där du kan koda md kodblocken.
 
-2. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Under tema **KONTROLL** finns kodblocket **För alltid**. Dra ut den på skriptytan och stoppa in blå blocket **Gå 5 steg** inuti. Nu loopas koden för Gå 5 steg för alltid, om och om igen. 
+![image alt text](flikKod.png)
 
-3. Ser du den gröna flaggan ovanför scenen med din robot på? Det är ditt projekts startknapp, för att sätta igång roboten. För att den ska funka, och roboten ska veta när den ska börja gå, behöver vi lägga in det i koden. Under **HÄNDELSER** finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in den på skriptytan och lägg den överst, så den har resten av koden direkt under sig. 
+2. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg** och lägg det på den tomma skriptytan. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
+
+3. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Om vi loopar koden för röelse, så kommer roboten gå framåt för alltid. Under tema **KONTROLL** finns kodblocket **För alltid**. Dra ut den på skriptytan och stoppa in röresleblocket **Gå 5 steg** inuti. Nu har du kodat en loop för robotens röresle och den komemr gå framåt hela tiden.
+
+4. Ser du den gröna flaggan ovanför scenen med din robot på? Det är ditt projekts startknapp, för att sätta igång roboten. För att den ska funka och roboten ska veta när den ska börja gå behöver vi lägga till det i koden. Under **HÄNDELSER** finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in den på skriptytan och lägg den överst i skriptet med kodblock. Nu ska koden se ut som bilden nedan.
 
 ![image alt text](rörSigFram.png)
 
@@ -75,7 +77,7 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig. Det första
 Nu rör sig roboten, men den känner inte av väggarna. Dags att koda vidare!
 
 ## 5: Känna av väggarna
-Först kodar vi så att roboten känner av väggarna när den rör vid väggens färg. Då ska den vända lite och åka åt andra hållet. 
+Nu kodar vi så att roboten känner av väggarna när den rör vid väggens färg. Om roboten rör en vägg vill vi att den ska Då ska den ska vända sig lite och åka vidare.
 
 1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta. 
 
