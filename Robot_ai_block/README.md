@@ -21,7 +21,9 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
 ![image alt text](MalaNySprajt.png) 
 
-3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Din robotdammsugare kan se ut precis så som du vill att den ska se ut! Kanske såhär:
+3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Din robotdammsugare kan se ut precis så som du vill att den ska se ut! 
+
+Vi har valt att rita vår dammsugarrobot såhär:
 
 ![image alt text](dammsugare.png) 
 
@@ -32,9 +34,15 @@ Gör såhär:
 
 1.  Klicka på fliken **Bakgrunder** högst upp till vänster för att få fram ritverktyget för bakgrundsbilden på scenen. 
 
+![image alt text](FlikBakgrunder.png) 
+
 2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla upp väggarnas form som om rummet eller lägenheten var sedd ovanifrån.
 
+![image alt text](ritaPensel.png)
+
 3. Byt verktyg till **Fyll färg**, alltså den som ser ut som en liten **hink** med målarvärg. Välj vilken färg du vill ha på rummets golvyta och fyll golvfärgen genom att klicka på ytan innanför väggarna. 
+
+![image alt text](fyllFarg.png)
 
 Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut: 
 
