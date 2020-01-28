@@ -13,11 +13,15 @@ Dax att börja skapa din städrobot! Klicka på kapitel 1 här under för att bl
 ## 1: Rita din robotdammsugare
 Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
-1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på symbolen med en *soptunna* på den lilla katt-bilden under scenen. 
+1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på lilla *soptunnan* på den katt-bilden under scenen. 
+
+![image alt text](tabortSprajt.png) 
 
 2. För att rita din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på pensel-symbolen **Måla**. Nu öppnas ett ritverktyg att måla med. 
 
-3. Rita din alldeles egen robotdammsugare. Den kan se ut precis så som du vill att den ska se ut! Kanske såhär:
+![image alt text](MalaNySprajt.png) 
+
+3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Din robotdammsugare kan se ut precis så som du vill att den ska se ut! Kanske såhär:
 
 ![image alt text](dammsugare.png) 
 
