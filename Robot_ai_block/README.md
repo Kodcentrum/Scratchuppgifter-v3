@@ -28,24 +28,28 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 
 ## 2: Rita rummet som ska städas
-Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Golvet ska också ha en egen färg.
+Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggar som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Golvet ska också ha en egen färg.
 
 Gör såhär:
 
-1.  Klicka på lilla rutan där det står **Bakgrunder** i nedre högra hörnet under scenen.  Då får du fram ritverktyget för bakgrunden och kan rita ditt rum. 
+1.  Klicka på lilla rutan där det står **Scen** i nedre högra hörnet av Scratch. Klicka sedan på fliken som heter **Bakgrunder** i övre vänsta hörnet, så får du fram ritverktyget för din bakgrundsbild. Här kan du rita rummet. 
 
+![image alt text](aktiveraScenBakgrund.png) 
 ![image alt text](FlikBakgrunder.png) 
 
+2. Klicka allra först på den blå knappen under ritfönstret där det står **Gör till Bitmapp**. 
 
-2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla nu upp väggarnas form som om du såg rummet ovanifrån. 
+![image alt text](ÄndraBitmapp.png) 
+
+3. Välj sen verktyg att måla med, exempelvis **Pensel**, och en färg du vill ha på väggarna. Måla sen upp väggarnas form som om du såg rummet ovanifrån. 
 
 Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut, där det svarta är väggarna och det vita är golvet: 
 
 ![image alt text](rum.png)
 
-3. Golvet kan du måla med en annan färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
+4. Golvet ska också få en färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
-Nu har vi en dammsugarrobot och ett rum att städa, men inget damm och smuts att städa. Det fixar vi i nästa steg.
+Nu har vi en dammsugarrobot och ett rum, men inget damm och smuts att städa. Det fixar vi i nästa steg.
 
 ## 3: Smutsa ner rummet
 Dammsugaren behöver såklart smuts och damm att städa upp. Dax att måla smuts! 
@@ -61,9 +65,13 @@ Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi nu kan progr
 ## 4: Få roboten att röra sig
 Nu ska vi börja koda roboten så att den vet hur den ska röra sig för att kunna städa. Det första som vi vill göra är att få roboten att röra sig framåt. 
 
-1. Välj fliken **Kod** högst upp till vänster för att komma bort från ritläget och tillbaka till där du kan koda md kodblocken.
+1. Välj fliken **Kod** högst upp till vänster för att komma bort från ritläget och tillbaka till där du kan koda md kodblocken.Se till att din sprajt för dammsugarroboten är vald, genom att klicka på den lilla bilden som visar din dammsugar-sprajt under scenen. Nu kan du koda din dammsugarrobot.
 
 ![image alt text](flikKod.png)
+
+2. Är din dammsugarrobot för stor för ditt rum? Ändra storleken på dammsugarroboten genom att ändra siffrorna där det står **Storlek**. Storleken 100 betyder 100% full storlek.
+
+![image alt text](storlekSprajt.png)
 
 2. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg** och lägg det på den tomma skriptytan. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
 
