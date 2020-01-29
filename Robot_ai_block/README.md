@@ -21,14 +21,18 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
 ![image alt text](MalaNySprajt.png) 
 
-3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Din robotdammsugare kan se ut precis så som du vill att den ska se ut! 
-
-Vi har valt att rita vår dammsugarrobot såhär:
+3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Du väljer själv hur din robotdammsugare ska se ut! I vårt exempel har vi valt att rita vår dammsugarrobot såhär:
 
 ![image alt text](dammsugare.png) 
 
+När du är nöjd med din dammsugarrobot stänger du ritverktyget genom att klicka på fliken **KOD** högst upp till vänster. 
+
+![image alt text](flikKod.png) 
+
+Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
+
 ## 2: Rita rummet som ska städas
-Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Golvet ska ha en egen färg.
+Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita rummets väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla väggar har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Golvet ska också ha en egen färg.
 
 Gör såhär:
 
@@ -36,9 +40,10 @@ Gör såhär:
 
 ![image alt text](FlikBakgrunder.png) 
 
+
 2. Välj **Pensel** som verktyg. Välj sen den färg du vill ha på väggarna. Måla nu upp väggarnas form som om du såg rummet ovanifrån. 
 
-Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut: 
+Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut, där det svarta är väggarna och det vita är golvet: 
 
 ![image alt text](rum.png)
 
