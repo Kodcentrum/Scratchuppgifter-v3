@@ -88,7 +88,7 @@ Nu rör sig roboten, men den känner inte av väggarna, och inte heller smutsen.
 ## 5: Känna av väggarna
 Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten rör en vägg, då ska ska vrida sig lite och åka vidare. Gör såhär: 
 
-1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta. 
+1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta.
 
 2. Välj tema **KÄNNA AV** och välj blocket **Rör vid färgen?**. Dra in detta kodblock och lägg det inuti blocket **Om...Då**.
 
@@ -96,19 +96,21 @@ Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten
 
 Nu står det i koden **Om - Rör vid färgen? - Då**. Dax att hjälpa roboten förstå vilken färg väggen har samt vad som då ska hända när den rör vid väggfärgen. Gör såhär: 
 
-3. Klicka på den färgpunkt som just nu finns i ditt **Rör vid färgen?**-block. Då kommer en palett med färger fram. Klicka på det lilla pippettverktyget längst ned under färgerna och klicka sedan på en av väggarna på scenen. Då ändras färgen i ditt **Rör vid färgen?**-block till just din väggfärg.
+3. Klicka på den färgpunkt som just nu finns i ditt **Rör vid färgen?**-block. Då kommer en palett med färger fram. Klicka på det lilla pippettverktyget längst ned under färgerna och klicka sedan på en av väggarna på scenen. Då ändras färgen i ditt **Rör vid färgen?**-block till just den väggfärg du målat ditt rum med.
 
 ![image alt text](Känna_av_byt_färg_pimpett.png)
 
-Nu är färgen rätt, men vi måste även koda in vad roboten ska göra när den känner av en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Gör såhär:
+Nu är färgen i din kod rätt, men vi måste även koda in vad roboten ska göra när den känner av en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Gör såhär:
 
-4. Välj tema **RÖRELSE** och välj blocket **Rotera vänster 15 grader**. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
+4. Välj tema **RÖRELSE** och välj blocket **Rotera höger 15 grader**. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
 
-5. Dra sen in blocket du redan har på skriptytan med **Gå 5 steg** och lägg den direkt under **Om...Då**-blocket, inom **För alltid**-loopen, så att det ser ut som bilden nedan: 
+5. Nu ska vi lägga ihop all kod vi har på skriptytan. Dra in **Om...Då**-blocket så det hamnar inom **För alltid**-loopen med **Gå 5 steg**, så att det ser ut som bilden nedan: 
 
 ![image alt text](rörelseKlar.png)
 
-Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den suger inte upp smutsen än. Vi behöver koda lite till.
+> Testa koden! Klicka på den gröna flaggan ovanför scenen - rör sig roboten framåt? Vänder den när den åker in i en vägg?  
+
+Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den dammsugar inte upp smutsen. Vi behöver koda in det med.
 
 ## 6: Lägg till specialblocket Penna
 
