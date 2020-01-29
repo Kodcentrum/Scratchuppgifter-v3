@@ -69,7 +69,7 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig för att kun
 
 ![image alt text](flikKod.png)
 
-2. Är din dammsugarrobot för stor för ditt rum? Ändra storleken på dammsugarroboten genom att ändra siffrorna där det står **Storlek**. Storleken 100 betyder 100% full storlek.
+2. Är din dammsugarrobot för stor, så kan du ändra storleken på den. Under scenen finns **Storlek** och siffran 100. Storleken 100 betyder 100% med full storlek. Ändra till lägre siffra, prova dig fram vad som passar.
 
 ![image alt text](storlekSprajt.png)
 
