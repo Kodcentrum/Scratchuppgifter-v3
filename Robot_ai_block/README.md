@@ -17,17 +17,13 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
 ![image alt text](tabortSprajt.png) 
 
-2. För att rita din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på pensel-symbolen **Måla**. Nu öppnas ett ritverktyg att måla med. 
+2. För att rita din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på pensel-symbolen **Måla**. Nu öppnas ett ritverktyg att måla med nya sprajtfigurer med. 
 
 ![image alt text](MalaNySprajt.png) 
 
 3. Rita din alldeles egen robotdammsugare med hjälp av ritverktygen. Du väljer själv hur din robotdammsugare ska se ut! I vårt exempel har vi valt att rita vår dammsugarrobot såhär:
 
 ![image alt text](dammsugare.png) 
-
-När du är nöjd med din dammsugarrobot stänger du ritverktyget genom att klicka på fliken **KOD** högst upp till vänster. 
-
-![image alt text](flikKod.png) 
 
 Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 
@@ -36,7 +32,7 @@ Dax att rita rummet eller lägenheten som roboten ska städa. Du ska endast rita
 
 Gör såhär:
 
-1.  Klicka på fliken **Bakgrunder** högst upp till vänster för att få fram ritverktyget för bakgrundsbilden på scenen. 
+1.  Klicka på lilla rutan där det står **Bakgrunder** i nedre högra hörnet under scenen.  Då får du fram ritverktyget för bakgrunden och kan rita ditt rum. 
 
 ![image alt text](FlikBakgrunder.png) 
 
@@ -49,12 +45,12 @@ Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut, där d
 
 3. Golvet kan du måla med en annan färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
-![image alt text](ritaFarg.png)
+Nu har vi en dammsugarrobot och ett rum att städa, men inget damm och smuts att städa. Det fixar vi i nästa steg.
 
 ## 3: Smutsa ner rummet
 Dammsugaren behöver såklart smuts och damm att städa upp. Dax att måla smuts! 
 
-1. Välj verktyget **Pensel** och **en färg** att rita allt smuts med. 
+1. Välj verktyget **Pensel** och en färg att rita allt smuts med. 
 
 2. Måla ut smuts lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
 
