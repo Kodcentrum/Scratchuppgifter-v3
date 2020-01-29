@@ -49,7 +49,7 @@ Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut, där d
 
 3. Golvet kan du måla med en annan färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
-![image alt text](fyllFarg.png)
+![image alt text](ritaFarg.png)
 
 ## 3: Smutsa ner rummet
 Dammsugaren behöver såklart smuts och damm att städa upp. Dax att måla smuts! 
