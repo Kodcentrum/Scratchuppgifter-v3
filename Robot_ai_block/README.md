@@ -75,7 +75,7 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig för att kun
 
 2. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg** och lägg det på den tomma skriptytan. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
 
-3. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Om vi loopar koden för röelse, så kommer roboten gå framåt för alltid. Under tema **KONTROLL** finns kodblocket **För alltid**. Dra ut den på skriptytan och stoppa in röresleblocket **Gå 5 steg** inuti. Nu har du kodat en loop för robotens röresle och den komemr gå framåt hela tiden.
+3. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Om vi loopar koden för röelse, så kommer roboten gå framåt för alltid. Under tema **KONTROLL** finns kodblocket **För alltid**. Dra ut den på skriptytan och stoppa in röresleblocket **Gå 5 steg** inuti. Nu har du kodat en loop för robotens röresle och den kommer gå framåt hela tiden.
 
 4. Ser du den gröna flaggan ovanför scenen med din robot på? Det är ditt projekts startknapp, för att sätta igång roboten. För att den ska funka och roboten ska veta när den ska börja gå behöver vi lägga till det i koden. Under **HÄNDELSER** finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in den på skriptytan och lägg den överst i skriptet med kodblock. Nu ska koden se ut som bilden nedan.
 
@@ -83,10 +83,10 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig för att kun
 
 > Testa koden! Klicka på den gröna flaggan ovanför scenen - rör sig roboten framåt? 
 
-Nu rör sig roboten, men den känner inte av väggarna. Dags att koda vidare!
+Nu rör sig roboten, men den känner inte av väggarna, och inte heller smutsen. Dags att koda vidare!
 
 ## 5: Känna av väggarna
-Nu kodar vi så att roboten känner av väggarna när den rör vid väggens färg. Om roboten rör en vägg vill vi att den ska Då ska den ska vända sig lite och åka vidare.
+Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten rör en vägg, då ska ska vrida sig lite och åka vidare. Gör såhär: 
 
 1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta. 
 
@@ -96,20 +96,19 @@ Nu kodar vi så att roboten känner av väggarna när den rör vid väggens fär
 
 Nu står det i koden **Om - Rör vid färgen? - Då**. Dax att hjälpa roboten förstå vilken färg väggen har samt vad som då ska hända när den rör vid väggfärgen. Gör såhär: 
 
-3. Klicka på den färgpunkt som just nu finns i ditt **Rör vid färgen?**-block. Då kommer en palett med färger fram. Klicka på det lilla pippettverktyget längst ned under färgerna och klicka sedan på en av väggarna på scenen, så väljs exakt samma färg till ditt **Rör vid färgen?**-block. Nu kan snart koden - och roboten - känna av just din väggfärg.
+3. Klicka på den färgpunkt som just nu finns i ditt **Rör vid färgen?**-block. Då kommer en palett med färger fram. Klicka på det lilla pippettverktyget längst ned under färgerna och klicka sedan på en av väggarna på scenen. Då ändras färgen i ditt **Rör vid färgen?**-block till just din väggfärg.
 
-BILD SAKNAS?
+![image alt text](Känna_av_byt_färg_pimpett.png)
 
-Färgen är rätt, men roboten vet inte ännu vad den ska göra om den träffar på en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Vi måste ge roboten mer instruktioner med kod. Gör såhär:
+Nu är färgen rätt, men vi måste även koda in vad roboten ska göra när den känner av en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Gör såhär:
 
 4. Välj tema **RÖRELSE** och välj blocket **Rotera vänster 15 grader**. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
 
-5. Dra sen in blocket du redan har på skriptytan med **Gå 5 steg** och lägg den direkt under **Om...Då**-blocket, men inom **För alltid**-loopen, så att det ser ut som bilden nedan: 
+5. Dra sen in blocket du redan har på skriptytan med **Gå 5 steg** och lägg den direkt under **Om...Då**-blocket, inom **För alltid**-loopen, så att det ser ut som bilden nedan: 
 
 ![image alt text](rörelseKlar.png)
 
-Nu har vi en robotdammsugare som rör sig runt i rummet vi ritat och vänder om den stöter in i en vägg, men ingen smuts dammsugas upp! 
-Vi behöver koda lite till.
+Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den suger inte upp smutsen än. Vi behöver koda lite till.
 
 ## 6: Lägg till specialblocket Penna
 
