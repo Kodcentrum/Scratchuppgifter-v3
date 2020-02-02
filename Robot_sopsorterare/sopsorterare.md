@@ -99,7 +99,7 @@ När vi sen sätter ihop allting borde det se ut såhär:
 
 Sådär! Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra sopsprajten till ditt sopkärl. 
 
-På samma sätt som vi precis gjort kan vi nu koda ett till sopkärl. Antingen kan du kopiera din sprajt och byta färg eller kanske rita någonting helt annat. För att göra flera sopkärl följer du helt enkelt stegan vi precis gjort men ändrar så att istället för klädsel 1, så kollar till exempel ett glasåtervinningskärl efter klädsel 2 som är just glas. 
+På samma sätt som vi precis gjort kan vi nu koda ett till sopkärl. Antingen kan du kopiera din sprajt och byta färg eller kanske rita någonting helt annat. För att göra flera sopkärl följer du helt enkelt stegen vi precis gjort men ändrar så att istället för klädsel 1, så kollar till exempel ett glasåtervinningskärl efter klädsel 2 som är just glas. 
 
 (Bygga vidare)
 I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om en försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
@@ -111,8 +111,22 @@ Det är ju lite tråkigt att dra varje grej till rätt ställe så istället kan
 
 Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda så att vi kan styra den för att fånga alla sopor. Jag har valt att göra en skalbaggerobot men du kan välja en annan typ av robot om du vill. 
 
-För att styra roboten behöver vi två när [någonting] trycks på block 
-som vi sätter till höger samt vänsterpil, och därefter sätter gå -10 steg under vänsterpil, och gå 10 steg under högerpil. 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/skalbaggeRobot.PNG)
+
+
+För att styra roboten behöver vi två när [någonting] trycks på block. som vi sätter till höger samt vänsterpil.
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narVansterPilTrycksNed.PNG)
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narHogerPilTrycksNer.PNG)
+
+Under dessa placerar vi sen blocken gå -10 steg under vänsterpil, och blocket gå 10 steg under högerpil. När du är klar ska de båda blocken se ut såhär:
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/klarNarHogerpilTrycksNed.PNG)
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/klarNarVansterpilTrycksNed.PNG)
+
+
 
 Sådär! Nu kan vi styra roboten! Enkelt va? 
 
@@ -121,7 +135,11 @@ Vi måste också programera roboten så den tar hand om soporna som faller ner p
 
 För att göra detta måste roboten känna igen vad för typ av sopor det är som den stöter på. 
 
-Vi börjar med att lägga till en [för alltid loop] under [startblocket] med den gröna flaggan. Innuti detta lägger vi därefter ett om block i vilket vi sätter ett [rör vid] och väljer vår sopsprajt. I detta blocket kommer vi därefter att lägga flera block som var och en kommer hantera de olika typerna av skräp.
+Vi börjar med att lägga till en [för alltid loop] under [startblocket] med den gröna flaggan. 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/robotNarKlickarStart.PNG)
+
+Innuti detta lägger vi därefter ett om block i vilket vi sätter ett [rör vid] och väljer vår sopsprajt. I detta blocket kommer vi därefter att lägga flera block som var och en kommer hantera de olika typerna av skräp.
 
 Vi börjar med om skräptypen är glas. Vi börjar med att ta ett till om block och lägg i detta ett jämförelseblock med = som jämförelse. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi glas. Det är viktigt att vi skriver det på exakt det sättet, alltså utan stor bokstav eller utan felstavningar. Roboten är väldigt smart, men den gör också bara exakt som du säger åt den att göra, om vi skriver till exempel "Glas" kommer den att jämföra detta med soptypen "glas", och även om de beryder samma sak så är de ju olika. Roboten kommer därför inte veta vad den ska göra. 
 
