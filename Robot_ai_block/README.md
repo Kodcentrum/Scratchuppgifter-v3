@@ -148,9 +148,9 @@ Klicka sen på golvfärgen i scenen, så ändras färgen i kodblocket till den r
 
 3. Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta rita. Därför lägger vi till ett kodblock som lyfter upp pennan från golvet så den inte ritar över med färg hela tiden - utan bara när den rör vid smuts. Gör såhär: 
 
-Välj tema **PENNA** och dra in blocket **Penna upp**. Lägg blocket direkt under den två andra penn-blocken så det ser ut som i bilden nedan, Nu kommer pennan hållas uppe ovan golvet och inte rita golvfärg när roboten startas.
+Välj tema **PENNA** och dra in blocken **Penna upp** och **Radera Allt**. Lägg blocket **Penna upp** direkt under den två andra penn-blocken och blocket **Radera Allt** precis ovanför de tidigare så det ser ut som i bilden nedan, Nu kommer pennan hållas uppe ovan golvet och inte rita golvfärg när roboten startas.
 
-![image alt text](dammsugarConfig.png)
+![image alt text](damsugarConfig2.PNG)
 
 Sådär! Nu är vi redo att koda själva städandet av smutsen!
 
