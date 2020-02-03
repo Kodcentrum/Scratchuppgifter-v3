@@ -1,8 +1,7 @@
 # Min Robot
-Robotar kan hjälpa oss i vår vardag - här får du skapa din egen robot!
-Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner i Scratch. 
+Här du skapa din egen robot! Vad vil du att din robot ska hjälpa dig med? I den här uppgiften får du prova att koda meddelanden och funktioner i Scratch. 
 
-Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
+**ÄNDRA BILD/LÄNK  OCH BYGG PROJEKT!** Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
@@ -18,53 +17,49 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
   5.Utveckla med fler val och slump? 
   6. Utveckla med ljud - uppläst röst på text?
 
-## 1: Välja sprajtar och bakgrund
+## 1: Välj bakgrund och rita din robot
 
-Först behöver du en **bakgrund** och några fina **sprajtar** som figurer!
+Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
 
-1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt.
+1. Logga in på Scratch och öppna ett nytt projekt genom att trycka på **Skapa** på Scratch startsida.
 
-2. Lägg till en bakgrund, till exempel **Utomhus > Slopes** som vi har valt i exempelprojektet.
+2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikone för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt.
 
-3. Klipp bort sprajten katten genom att klicka krysset på den lilla kattbilden under scenen, så förvinner den.
+  ![image alt text](ny-bakgrund-knapp.png)
+
+3. Ta bort Katt-sprajten i projektet genom att klicka på soptunnan på den lilla kattbilden under scenen. Då försvinner katten ur projektet.
 
   ![image alt text](Ta_bort_Sprajt.png)
 
-4. Välj en ny sprajt som huvudkaraktär i ditt vykort. Vi har valt **Djur > Penguin 2**, men du kan välja vilken du vill såklart.
+4. Dax att rita din egen robotfigur. Om du inte vill rita kan du istället välja en färdig sprajtfigur som din robot.
 
-5. Lägg in två till sprajtar som kan röra på sig på var sin sida om pingvinen. Till exempel **Djur > Rabbit** och **Människor > Kai.** Lägg alla tre sprajtar bredvid varandra på **scenen** med utrymme för att röra på sig.
 
-6. Om figurerna är för stora kan du ändra storlek genom att skriva in exempelvis 80 istället för 100 - då visas sprajten med 80% storlek istället för full storlek på 100%. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt tal mellan 1-100. Prova dig fram.
+5. Om din robotfigur är för stor kan du ändra storleken. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre tal. (Storleken visas i procent, där 100 är full storlek.) Prova dig fram.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du sprajtar som kan röra sig och en bakgrund. Nästa steg är att få vykortet att:
-
-* Fråga mottagaren : Vad heter du?
-
-* Spela upp musik.
-
-* Få alla sprajtar att dansa och röra sig på sitt eget sätt.
-
-* Säga en hälsning till mottagaren av kortet.
+Nu har du en robot-sprajt och en bakgrund. Nu ska vi lägga till vad roboten ska hjälpa dig med. Dax att koda vidare.
 
 
-## 2: Fråga efter mottagarens namn
+## 2: Roboten frågar
 
-Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) att fråga vad kortets mottagare heter.
+Nu ska du få roboten (eller den sprajt du valt) att fråga vad du behöver hjälp med. Det kan avar att exempelvis hjälpa dig att välja maträtt eller pigga upp dig om du känner dig ledsen.
 
-7. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under scenen så den blir markerad) och skapa ett skript till den som säger:
+1. Se först till att robot-sprajten är vald, genom att klicka på den lilla robot-figuren under scenen så den blir blåmarkerad. Nu kan du koda din robot. 
 
-  * Startar när START-flaggan klickas på.
+2. Från tema **HÄNDELSER** drar du in kodblocket **När GRÖN FLAGGA klickas på** och lägger det på skriptytan för din robot.
 
-  * Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vad heter du?"*.
+3. Fån tema **KÄNNA AV** drar du in kodblocket **fråga** *What's your name?* **och vänta**. Lägg det direkt under **När GRÖN FLAGGA klickas på**.
+
+4. Vi vill att roboten ska kunan hjälpa oss med något, exempelvis vad vi ska äta till middag eller trösta oss om vi är ledsna. Ändra därför texten i det blå kodblocket, så att roboten frågar en fråga som vi sen ska svara på, exempelvis kan en tröstar-robot fråga: *Hur mår du?*.
+
+> Välj en fråga som passar för vad just din robot ska hjälpa dig med. Om det är en Matväljar-robot kanske den frågar: *Vad är du sugen på att äta idag?* Om det är en Tröstar-robot, kanske den frågar *Hur mår du?*. Om det är en Klädväljar-robot kanske den kan fråga: *Vad är det för väder idag?. 
 
   ![image alt text](image_fråga.png)
 
-*När du har skrivit in ett namn i svarsrutan, tryck på Enter-knappen på datorns tangentbord.
-Du kommer att förstå senare vad namnet ska användas till!*
+5. Klicka på den gröna flaggan ovanför projektet, så ställer din robot frågan du lagt in i koden. Men för att du ska kunna svara roboten behöver du koda vidare. 
 
-> Testa ditt projekt! Klicka på START. Frågar pingvinen "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
+> Testa ditt projekt! Klicka på START-flaggan. Frågar roboten din fråga?
 
 
 ## 3: Pingvinen kan dansa!
@@ -81,7 +76,7 @@ Nu vill du ge pingvinen några rörelser till musik.
 
 10. Välj nytt ljud från ljudbiblioteket och klicka på det ljud du vill välja. Vi har valt **Loop > Dance Around** i exempelprojektet. 
   
-  > **Tips!** Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
+  > **Tips!** Man kan förlyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
 
 11. Gå till fliken KOD i vänstra övre hörnet och ändra lite i skriptet som du skapade i steg 2. Det ska nu:
 
