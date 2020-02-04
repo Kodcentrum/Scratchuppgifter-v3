@@ -1,21 +1,16 @@
 # Min Robot
-Här du skapa din egen robot! Vad vil du att din robot ska hjälpa dig med? I den här uppgiften får du prova att koda meddelanden och funktioner i Scratch. 
+Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda meddelanden och variabler i Scratch. 
 
-**ÄNDRA BILD/LÄNK  OCH BYGG PROJEKT!** Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
+<Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Känslorobot: <a href="https://scratch.mit.edu/projects/364852272/" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
-  Då börjar vi koda!
-  
-  1. Välj en färdig sprajt-figur som din robot - eller rita din egen robot med ritverktyget.
-  2. Välj bakgrund
-  3. Vad ska roboten hjälpa dig med i din vardag. (Ex: pigga upp mig när det känns tråkigt genom att spela glad musik, eller matväljaren - hjälp mig välja vad jag ska äta idag.
-  4. Få roboten att rra på sig/dansa
-  5.Utveckla med fler val och slump? 
-  6. Utveckla med ljud - uppläst röst på text?
+Du bestämmer själv hur din robot ska se ut, vad den ska hjälpa till med och hur. Kanske det är en Matrobot som hjälper dig att välja vad du ska äta till middag? Eller en Musikrobot som spelar glad musik när du har tråkigt? 
+
+Då börjar vi koda!
 
 ## 1: Välj bakgrund och rita din robot
 
@@ -31,7 +26,9 @@ Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
 
   ![image alt text](Ta_bort_Sprajt.png)
 
-4. Dax att rita din egen robotfigur. Om du inte vill rita kan du istället välja en färdig sprajtfigur som din robot.
+Dax att rita din egen robotfigur. (Om du inte vill rita kan du istället välja en färdig sprajtfigur som din robot. I vårt exempelprojekt har vi valt sprajten **Retro Robot**.) För att rita din egen robot gör du såhär: 
+
+4. Klicka på 
 
 
 5. Om din robotfigur är för stor kan du ändra storleken. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre tal. (Storleken visas i procent, där 100 är full storlek.) Prova dig fram.
