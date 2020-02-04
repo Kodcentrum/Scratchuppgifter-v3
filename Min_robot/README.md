@@ -12,13 +12,13 @@ Du bestämmer själv hur din robot ska se ut, vad den ska hjälpa till med och h
 
 Då börjar vi koda!
 
-## 1: Välj bakgrund och rita din robot
+## 1: Välj bakgrund och din robot
 
 Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
 
 1. Logga in på Scratch och öppna ett nytt projekt genom att trycka på **Skapa** på Scratch startsida.
 
-2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikone för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt.
+2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikonne för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt.
 
   ![image alt text](ny-bakgrund-knapp.png)
 
@@ -26,13 +26,19 @@ Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
 
   ![image alt text](Ta_bort_Sprajt.png)
 
-Dax att rita din egen robotfigur. (Om du inte vill rita kan du istället välja en färdig sprajtfigur som din robot. I vårt exempelprojekt har vi valt sprajten **Retro Robot**.) För att rita din egen robot gör du såhär: 
+Dax att välja en figur som ska vara din robot. I vårt exempelprojekt har vi valt sprajten **Retro Robot**, men du väljer vilken figur du vill som din robot. 
 
-4. Välj penseln **Måla ny sprajt** som du finner om du håller muspekaren över den lilla blå symbolen med en vit katt på som finns i nedre högra hörnet under scenen. så får du upp en meny med val. Nu får du upp ett ritverktyg för att måla din robot-sprajt med.
+4. Klicka på knappen **Välj ny sprajt**. Det är den lilla blå symbolen med en vit katt på, som du finner i nedre högra hörnet i Scratch. Klicka på sprajt du vill ha i sprajtbibioteket som kommer fram, så läggs den till i ditt projekt. 
+
+  ![image alt text](Ny_Sprajt-knapp.png)
+
+Om du istället vill rita din egen robot kan du välja ritverktyget genom klcika på penseln **Måla ny sprajt** som kommer fram om du håller muspekaren över knappen **Välj ny sprajt**: 
 
   ![image alt text](MalaNySprajt.png)
+  
+  När du är nöjd med din ritade sprajt så klickar du på 
 
-
+5. 
 
 5. Om din robotfigur är för stor kan du ändra storleken. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre tal. (Storleken visas i procent, där 100 är full storlek.) Prova dig fram.
 
