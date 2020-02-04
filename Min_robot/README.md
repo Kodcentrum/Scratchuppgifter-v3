@@ -28,7 +28,10 @@ Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
 
 Dax att rita din egen robotfigur. (Om du inte vill rita kan du istället välja en färdig sprajtfigur som din robot. I vårt exempelprojekt har vi valt sprajten **Retro Robot**.) För att rita din egen robot gör du såhär: 
 
-4. Klicka på 
+4. Välj penseln **Måla ny sprajt** som du finner om du håller muspekaren över den lilla blå symbolen med en vit katt på som finns i nedre högra hörnet under scenen. så får du upp en meny med val. Nu får du upp ett ritverktyg för att måla din robot-sprajt med.
+
+  ![image alt text](MalaNySprajt.png)
+
 
 
 5. Om din robotfigur är för stor kan du ändra storleken. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre tal. (Storleken visas i procent, där 100 är full storlek.) Prova dig fram.
