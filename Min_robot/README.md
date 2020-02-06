@@ -256,8 +256,6 @@ vdsnjkk
 
 
 
-
-
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
