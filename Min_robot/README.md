@@ -1,14 +1,14 @@
 # Min Robot
 Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda meddelanden och variabler i Scratch. 
 
-<Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Känslorobot: <a href="https://scratch.mit.edu/projects/364852272/" target="_blank">
+Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Känslorobot: <a href="https://scratch.mit.edu/projects/364852272/" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva Min Robot-projektet utifrån Kodbokens instruktioner.
   
-Du bestämmer själv hur din robot ska se ut, vad den ska hjälpa till med och hur. Kanske det är en Matrobot som hjälper dig att välja vad du ska äta till middag? Eller en Musikrobot som spelar glad musik när du har tråkigt? 
+Du bestämmer själv hur just din robot ska se ut, vad den ska hjälpa till med och hur. Kanske det är en Matrobot som hjälper dig att välja vad du ska äta till middag? Eller en Musikrobot som spelar glad musik när du har tråkigt? 
 
 Då börjar vi koda!
 
@@ -74,20 +74,46 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 
   ![image alt text](image_fråga.png)
 
-> Testa ditt projekt! Klicka på START-flaggan. Frågar roboten din fråga?
+> **Testa ditt projekt!** Klicka på START-flaggan. Frågar roboten din fråga?
 
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
 
 ## 3: Svar att välja mellan
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan den ställer. Nu ska vi lägga till två olika svar att välja mellan. För att lösa det skapar vi två nya sprajtar som svar att klicka på. Gör såhär:
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till två olika svar att välja mellan. För att lösa det skapar vi två nya sprajtar som blir till svar-knappar att klicka på. Du ska göra en knapp i taget, så att det till slut blir till två olika sprajtar med varsin knapp. Gör såhär:
 
-1. Håll muspekaren över **Skapa ny sprajt** och välj penseln för **Måla**. Nu kommer ritverktyget för sprajtar fram.
+1. Håll muspekaren över **Skapa ny sprajt** och välj penseln för **Måla**. Nu kommer ritverktyget för sprajtar fram. 
 
   ![image alt text](MalaNySprajt.png)
   
-2. Nu ska du få rita en knapp. Det kan vara exempelvis en rund eller fyrkantig form. Välj först en **färg** du vill ha på knappen.
+Du ser även att det bildas en ny liten sprajt-ruta under scenen, bredvid din robot. Det blir din nya knapp-sprajt.
 
+  ![image alt text](Ny_Sprajt_ruta.png)
+  
+2. Rita nu den första knappen. Det kan vara exempelvis en enkel rund eller fyrkantig form fylld med färg. Välj först en **färg** du vill ha på knappen. Välj sen ett **ritverktyg**, exempelvis rund form, och måla en knapp på ritytan.
+
+  ![image alt text](Rita_knapp_verktyg.png)
+ 
+4. Byt till en ny färg som du vill skriva texten med svaret på din knapp. Välj en färg som syns tydligt på knappen. Välj sen verktyg att skriva text med, det är knappen med ett **T**. Skriv ett ord med ett av svaren på din knapp. 
+
+  ![image alt text](rita_svartext_knapp.png)
+
+>**Tips!** Blir knappens text för liten eller på fel ställe? Du kan ändra storlek på texten och vart den ska placeras genom att klicka en gång utanför ritverktygets yta, direkt efter att du skrivit texten. Då kommer en liten ram upp kring texten, som du kan dra i hörnpunkterna för att förstora eller förminska texten och ta tag i mitten av för att flytta till rätt position på knappen.  utanför 
+
+5. Nu ska du göra en till knapp med den andra svars-texten på. Gör på samma sätt som ovan. Börja med att klicka på **Måla** som finns under knappen för **Skapa ny sprajt**.
+
+  ![image alt text](MalaNySprajt.png)
+  
+6. Rita nu en andra knapp och skriv den andra svarstexten på den. Följ instruktionen ovan och gör din knapp på samma sätt som din första. 
+
+Såhär ser vårt exempel ut med vår Känslorobot. Du bestämmer själv vilka svar din robot ska få och hur knapparna ska se ut.
+
+  ![image alt text](Robot_2_Svar.png)
+
+Nu har du att ha en robot och två olika svarsknappar bredvid. Men hur ska roboten få reda på vilket svar vi väljer att klicka på? Och hur ska knapparna kopplas så de börjar fungera? Dax att koda vidare, så roboten kan få instruktioner om våra svar och kan hjälpa oss! 
+
+
+## 4: Koppla svaren till roboten
 
 
 
