@@ -192,7 +192,7 @@ Här nedan följer några exempel på vad du kan koda in i projektet. Vi börjar
 ### Koda ett litet husdjur 
 Börja med rita en ny sprajt som blir ditt husdjur eller välj en färdig sprajt som du tycker skulle vara rolig att ha som ett husdjur! Som exempel kommer vi visa hur du kodar en dammråtta, men du kan koda ett annat djur om du hellre vill det! 
 
-![image alt text](dammratta.png)
+![image alt text](dammratta.PNG)
 
 > Notera: Om du ritar en egen figur, var noga med att det inte har samma färg som dina väggar, golv eller smuts. 
 
@@ -231,7 +231,7 @@ Börja med att ta ett **sätt pennans storlek** block och välj här en passande
 
 Därefter behöver vi bara ett **penna ner block** och sen är du klar. 
 
-![image alt text](dammrattaSkraparNer.png)
+![image alt text](dammrattaSkraparNer.PNG)
 
 Sätt dessa tre block direkt efter **startblocket** för ditt djur.
 
