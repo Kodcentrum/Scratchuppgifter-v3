@@ -190,7 +190,9 @@ Kanske finns det något i rummet som roboten behöver undvika? Kanske finns det 
 Här nedan följer några exempel på vad du kan koda in i projektet. Vi börjar med ett kodat husdjur som roboten ska akta att inte köra på.
 
 ### Koda ett litet husdjur 
-Börja med rita en ny sprajt som blir ditt husdjur eller välj en färdig sprajt som du tycker skulle vara rolig att ha som ett husdjur! Som exempel kommer vi visa hur du kodar en dammråtta, men du kan koda ett annat djur om du hellre vill det!  
+Börja med rita en ny sprajt som blir ditt husdjur eller välj en färdig sprajt som du tycker skulle vara rolig att ha som ett husdjur! Som exempel kommer vi visa hur du kodar en dammråtta, men du kan koda ett annat djur om du hellre vill det! 
+
+![image alt text](dammratta.png)
 
 > Notera: Om du ritar en egen figur, var noga med att det inte har samma färg som dina väggar, golv eller smuts. 
 
@@ -223,8 +225,15 @@ Nu har vi ett husdjur som rör sig runt i rummet!
 ### Få djuret att stöka ner
 Många djur har en tendens att stöka ner lite efter sig (särskilt dammråttan som vi har använt som exempel!) Vi ska nu lägga till en liten bit kod som gör att djuret stökar till det lite efter sig. 
 
+Börja med att ta ett **sätt pennans storlek** block och välj här en passande storlek. I dammråttans fall passar 20 bra. Sätt därefter pennans färg med ett **sätt pennans färg till** block till samma färg som du använde för smutsen tidigare.
 
+> Tips! Använd pippetverktyget som du använda förut för att få exakt samma färg!
 
+Därefter behöver vi bara ett **penna ner block** och sen är du klar. 
+
+![image alt text](dammrattaSkraparNer.png)
+
+Sätt dessa tre block direkt efter **startblocket** för ditt djur.
 
 ### Få dammsugaren att undvika husdjuret
 För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika möbler eller människofigurer - kan du koda så att den stannar om den möter på något. För att roboten ska akta sig för att åka in i husdjuret gör du såhär:
