@@ -1,7 +1,7 @@
-# Min Robot
-Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda meddelanden och variabler i Scratch. 
+# Min Robot med frågor
+Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda variabler, operatorer och slump i Scratch. 
 
-Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Känslorobot: <a href="https://scratch.mit.edu/projects/364852272/" target="_blank">
+Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Matrobot: <a href="https://scratch.mit.edu/projects/364851926" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
@@ -14,11 +14,11 @@ Då börjar vi koda!
 
 ## 1: Välj bakgrund och din robot
 
-Här ska du välja en ny bakgrund och rita din robotfigur. Gör såhär:
+Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot. Gör såhär:
 
 1. Logga in på Scratch och öppna ett nytt projekt genom att trycka på **Skapa** på Scratch startsida.
 
-2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikonne för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt.
+2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikonen för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt. (Du kan givetvis även välja att rita din egen bakgrund med Scratch ritverktyg för bakgrunder.)
 
   ![image alt text](ny-bakgrund-knapp.png)
 
@@ -32,7 +32,7 @@ Dax att välja en figur som ska vara din robot. I vårt exempelprojekt har vi va
 
   ![image alt text](Ny_Sprajt-knapp.png)
 
-Om du istället vill rita din egen robot kan du välja ritverktyget genom klcika på penseln **Måla ny sprajt** som kommer fram om du håller muspekaren över knappen **Välj ny sprajt**: 
+Om du istället vill rita din egen robot kan du välja ritverktyget genom klicka på penseln **Måla ny sprajt** som kommer fram om du håller muspekaren över knappen **Välj ny sprajt**: 
 
   ![image alt text](MalaNySprajt.png)
   
@@ -44,15 +44,15 @@ När du är nöjd med din ritade sprajt så klickar du på fliken **Kod** högst
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda det som roboten ska hjälpa till med.  att lägga till vad roboten ska hjälpa dig med.
+Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som roboten ska hjälpa till med. 
 
 ## 2: Robotens frågor
 
-Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt eller pigga upp dig om du känner dig ledsen. Gör såhär:
+Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag. Gör såhär:
 
 1. Se först till att robot-sprajten är vald, genom att klicka på den lilla robot-figuren under scenen så den blir blåmarkerad. Nu kan du börja koda din robot. 
 
-2. Från tema **HÄNDELSER** drar du in kodblocket **När GRÖN FLAGGA klickas på** och lägger det på skriptytan för din robot. Det här är koden för starktknappen på ditt projekt. 
+2. Från tema **HÄNDELSER** drar du in kodblocket **När GRÖN FLAGGA klickas på** och lägger det på skriptytan för din robot. Det här är koden för startknappen på ditt projekt. 
 
   ![image alt text](koda-handelser-nar-start-klickas-pa.png)
 
@@ -60,27 +60,31 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 
   ![image alt text](utseende_sag_hej.png)
   
- 4. Klicka på ordet *Hej* i det lila kodblocket du just lade till och ändra texten till vad du vill att din robot ska presentera sig som. I vårt exempel har vi gjort en Känslorobot, så vi skrev: *Hej! Jag är din Känslorobot*.
-
+ 4. Klicka på ordet *Hej* i det lila kodblocket du just lade till och ändra texten till vad du vill att din robot ska presentera sig som. I vårt exempel har vi gjort en Matrobot, så vi skrev: *Hej! Jag är din Matrobot!*.
+!
   ![image alt text](utseende_text_intro.png)
 
-5. Dra sedan in ett till likadant kodblock med **säg Hej i 2 sekunder** från tema **UTSEENDE** och lägg det under de andra kodblocken. 
+>**Testa koden!** Klicka på den lilla flaggan ovanför scenen och testa koden. Presenterar sig roboten?
 
-6. Vi vill att roboten ska kunna hjälpa oss med något. Ändra därför texten *Hej* i det nya kodblocket till en fråga som du vill att roboten ska ställa dig, så den vet hur den bäst kan hjälpa dig. I vårt exempel med vår Känslorobot har vi valt frågan *Hur mår du?*.
+5. Nu vill vi att roboten ska ställa en fråga som vi ska skriva in svaret på. Då behöver vi ett annat block. Under tema **KÄNNA AV** finns blocket **fråga** *Vad heter du?* **och vänta**. Dra sedan in blocket och sätt ihop det underst med de andra kodblocken på skriptytan.
+
+6.Klicka på texten i kodblocket du lade till och ändra texten *Vad heter du?* till en fråga som roboten ska ställa dig, så den vet hur den bäst kan hjälpa dig. I vårt exempel med vår Matrobot har vi valt frågan *Är du hungrig - ja eller nej?*.
 
   ![image alt text](utseende_text_intro2.png)
 
-> **Tips!** Är det svårt att komma på en bra fråga till din robot? Välj en fråga som passar för vad just din robot ska hjälpa dig med. Om det är en Matväljar-robot kanske den frågar: *Vad är du sugen på att äta?* Om det är en Tröstar-robot, kanske den frågar *Hur mår du?*.
+> **Tänk på!** Det är viktigt att skriva ut vilka svar man ska ge roboten, då svaret måste vara exakt det samma som roboten efterfrågar, exempelvis ja eller nej. Tänk på att göra enkla svar, så det inte blir komplicerat att skriva. 
+
+>**Tips!** Är det svårt att komma på en bra fråga till din robot? Välj en fråga som passar för vad just din robot ska hjälpa dig med.  Om det är en Tröstar-robot, kanske den frågar *Hur mår du - glad eller ledsen?*. Om det är en Musik-robot kanske den frågar *Vilken musik gillar du - lugn eller snabb?
 
   ![image alt text](image_fråga.png)
 
-> **Testa ditt projekt!** Klicka på START-flaggan. Frågar roboten din fråga?
+> **Testa ditt projekt!** Klicka på START-flaggan. Frågar roboten din fråga? Vad händer om du skriver ett svar i nedre textrutan?
 
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
 
 ## 3: Svar att välja mellan
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till två olika svar att välja mellan. För att lösa det skapar vi två nya sprajtar som blir till svar-knappar att klicka på. Du ska göra en knapp i taget, så att det till slut blir till två olika sprajtar med varsin knapp. Gör såhär:
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Gör såhär:
 
 1. Håll muspekaren över **Skapa ny sprajt** och välj penseln för **Måla**. Nu kommer ritverktyget för sprajtar fram. 
 
