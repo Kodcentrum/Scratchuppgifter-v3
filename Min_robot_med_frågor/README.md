@@ -84,22 +84,34 @@ Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi mås
 
 
 ## 3: Svar att välja mellan
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Gör såhär:
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här. Då börjar vi
 
-1. Håll muspekaren över **Skapa ny sprajt** och välj penseln för **Måla**. Nu kommer ritverktyget för sprajtar fram. 
+1. Under tema **KONTROLL** finns kodblocket **om __ då __ annars**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
 
-  ![image alt text](MalaNySprajt.png)
+  ![image alt text](Robot_om_då_annars.png)
+
+2. Ser du det kantiga hålet mellan **om** och **då** i kodblocket du just lade till? Nu ska vi lägga in kod där som säger att **om** *Svar = ja* **då**. Gör såhär: Gå först till det gröna temat **OPERATORER** och leta fram kodblocket som har tecknet för "lika med" i sig ( = ). Dra in det blocket och lägg det inuti hålet mellan **om __ då**. Då ser det ut såhär:
+
+  ![image alt text](Robot_operatorer_kodblock.png)
   
-Du ser även att det bildas en ny liten sprajt-ruta under scenen, bredvid din robot. Det blir din nya knapp-sprajt.
+3. Nu ska vi lägga in vad den gröna operatorblocket ska hantera för variabler. Vi vill att det ska stå kod för **om** *Svar = ja* **då**. Koden ska "känna av" vilket svar som skrivs in i textrutan. Gå därför till tema **KÄNNA AV** och hitta kodblocket **svar**. 
+Dra in det så det lägger sig inuti den första tomma vita cirkeln i den gröna operator-koden, så det ser ut såhär:
 
-  ![image alt text](Ny_Sprajt_ruta.png)
-  
-2. Rita nu den första knappen. Det kan vara exempelvis en enkel rund eller fyrkantig form fylld med färg. Välj först en **färg** du vill ha på knappen. Välj sen ett **ritverktyg**, exempelvis rund form, och måla en knapp på ritytan.
-
-  ![image alt text](Rita_knapp_verktyg.png)
+  ![image alt text](Robot_operator_svar-block.png)
  
-4. Byt till en ny färg som du vill skriva texten med svaret på din knapp. Välj en färg som syns tydligt på knappen. Välj sen verktyg att skriva text med, det är knappen med ett **T**. Skriv ett ord med ett av svaren på din knapp. 
+4. Skriv sedan in det första av de svarsval du skrev i robotens fråga, exempelvis ett **ja** så som vår matrobot efterfrågar i vårt exempel i denna instruktion. (Är du hungrig? Svara ja eller nej).
 
+
+
+
+
+
+XXXXXXXX
+
+
+XXXXXXXXXXX
+
+XXXXXXXXX
   ![image alt text](rita_svartext_knapp.png)
 
 >**Tips!** Blir knappens text för liten eller på fel ställe? Du kan ändra storlek på texten och vart den ska placeras genom att klicka en gång utanför ritverktygets yta, direkt efter att du skrivit texten. Då kommer en liten ram upp kring texten, som du kan dra i hörnpunkterna för att förstora eller förminska texten och ta tag i mitten av för att flytta till rätt position på knappen.  utanför 
