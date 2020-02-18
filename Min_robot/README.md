@@ -244,17 +244,29 @@ Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar.
 >**Testa koden!** Spelar roboten dina nya ljud när du testar dina olika svarsknappar? 
 
 ## 8: Roboten rör sig
+För att göra roboten mer levande kan den gärna få dansa runt och röra sig. Då kan du göra såhär:
 
-fkjdnfjsdv
+1. Från tema **KONTROLL** drar du in ett **för alltid**-block, alltså en loop. Lägg den direkt under koden som spelar musik vid robotens ena känslosvar.
 
-sdmkflvsmdl
+  ![image alt text](Robot_loop_känslosvar.png)
 
-vnsdjvnksd
+2. Inuti denna loop lägger du kodblock för rörelse. Under tema **RÖRESLE** drar du in blocket **glid 1 sekunder till slumpmässig position**.
 
-vsndjk
-vdsnjkk
+  ![image alt text](Robot_rörelse.png)
+  
+3. Vi kan lägga till att roboten ska säga något mer. Under tema **UTSEENDE** drar du in blocket **säg Hej! i 2 sekunder**. Ändra texten till något som passar din robots svar, och korta eventuellt ned sekunderna till förslagsvis 1 sekund. 
 
+  ![image alt text](Robot_säg_Hurra.png)
+  
+4. Upprepa nu och gör exakt samma sak igen på din robots andra svar. Byt bara ut vad roboten ska säga så det passar vad din robot vill hjälpa dig med och vitt val. I vårt exempel med vår känslorobot ser koden nu ut såhär:
 
+  ![image alt text](Robot_kod_två_svar.png)
+  
+5. För att roboten som nu kommer röra sig runt på skärmen, ska återkomma till samma startpunkt varje gång du startar om, behöver du lägga in en **startposition** i koden. Se först till att din robot står på det ställe där du vill den alltid ska starta, du kan dra robot-sprajten dit du vill den ska stå. Under tema **RÖRELSE** finns kodblocket **gå till x: __ och y: __**. Dra in detta block och lägg det direkt under blocket **När GRÖN FLAGGA klickas på**. 
+
+  ![image alt text](Robot_startposition.png)
+  
+>**Testa koden!** Vad händer när du kör koden? Rör sig roboten när den svarat dig? Får du olika svar beroende på dina olika val?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
@@ -266,7 +278,11 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 
 
 ## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
+
+**Slumpade val**
+För att ge roboten fler svar att välja mellan kan du välja att utveckla med slumpade val och svar. Det gär att roboten känns än mer klok och hjälpsam. För att lägga in slumpade val i koden kan du göra så här:
+
+
 
 
 ## Frågeställningar
