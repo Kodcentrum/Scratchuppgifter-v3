@@ -68,11 +68,11 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 
 5. Nu vill vi att roboten ska ställa en fråga som vi ska skriva in svaret på. Då behöver vi ett annat block. Under tema **KÄNNA AV** finns blocket **fråga** *Vad heter du?* **och vänta**. Dra sedan in blocket och sätt ihop det underst med de andra kodblocken på skriptytan.
 
-6.Klicka på texten i kodblocket du lade till och ändra texten *Vad heter du?* till en fråga som roboten ska ställa dig, så den vet hur den bäst kan hjälpa dig. I vårt exempel med vår Matrobot har vi valt frågan *Är du hungrig - ja eller nej?*.
+6. Klicka på texten i kodblocket du lade till och ändra texten *Vad heter du?* till en fråga som din din robot ska ställa dig, så den vet hur den bäst kan hjälpa dig. I vårt exempel med vår Matrobot har vi valt frågan *Vill du äta kött eller vegetariskt?*.
 
   ![image alt text](utseende_text_intro2.png)
 
-> **Tänk på!** Det är viktigt att skriva ut vilka svar man ska ge roboten, då svaret måste vara exakt det samma som roboten efterfrågar, exempelvis ja eller nej. Tänk på att göra enkla svar, så det inte blir komplicerat att skriva. 
+> **Tänk på!** Det är viktigt att skriva rätt i det svar ger till roboten, då svaret måste vara exakt det samma som roboten efterfrågar, exempelvis ja eller nej, kött eller vegetariskt, och såvidare. Tänk på att göra enkla svar, så det inte blir komplicerat att skriva. 
 
 >**Tips!** Är det svårt att komma på en bra fråga till din robot? Välj en fråga som passar för vad just din robot ska hjälpa dig med.  Om det är en Tröstar-robot, kanske den frågar *Hur mår du - glad eller ledsen?*. Om det är en Musik-robot kanske den frågar *Vilken musik gillar du - lugn eller snabb?
 
@@ -82,24 +82,30 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
-
-## 3: Svar att välja mellan
+## 3: Roboten hjälper till
 För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här. Då börjar vi
 
-1. Under tema **KONTROLL** finns kodblocket **om __ då __ annars**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
+1. Under tema **KONTROLL** finns kodblocket **om __ då**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
 
-  ![image alt text](Robot_om_då_annars.png)
+  ![image alt text](Robot_om_då.png)
 
-2. Ser du det kantiga hålet mellan **om** och **då** i kodblocket du just lade till? Nu ska vi lägga in kod där som säger att **om** *Svar = ja* **då**. Gör såhär: Gå först till det gröna temat **OPERATORER** och leta fram kodblocket som har tecknet för "lika med" i sig ( = ). Dra in det blocket och lägg det inuti hålet mellan **om __ då**. Då ser det ut såhär:
+2. Ser du det kantiga hålet mellan **om** och **då** i kodblocket du just lade till? Nu ska vi lägga in kod där som säger att **om** *Svar = kött* **då**. Gör såhär: Gå först till det gröna temat **OPERATORER** och leta fram kodblocket som har tecknet för "lika med" i sig ( = ). Dra in blocket och lägg det inuti det kantiga hålet mellan **om __ då**. Då ser skriptet ut såhär:
 
   ![image alt text](Robot_operatorer_kodblock.png)
   
-3. Nu ska vi lägga in vad den gröna operatorblocket ska hantera för variabler. Vi vill att det ska stå kod för **om** *Svar = ja* **då**. Koden ska "känna av" vilket svar som skrivs in i textrutan. Gå därför till tema **KÄNNA AV** och hitta kodblocket **svar**. 
-Dra in det så det lägger sig inuti den första tomma vita cirkeln i den gröna operator-koden, så det ser ut såhär:
+3. Nu ska vi lägga in vad det gröna operatorblocket ska hantera för variabler. Vi vill att det ska stå kod som ger **om** *Svar = kött* **då**. Koden ska **känna av** vilket svar som skrivs in i textrutan för svaret. Gå därför till tema **KÄNNA AV** och hitta kodblocket **svar**. Dra in blocket så det lägger sig inuti den första tomma vita cirkeln i den gröna operator-blocket, så det ser ut såhär:
 
   ![image alt text](Robot_operator_svar-block.png)
  
-4. Skriv sedan in det första av de svarsval du skrev i robotens fråga, exempelvis ett **ja** så som vår matrobot efterfrågar i vårt exempel i denna instruktion. (Är du hungrig? Svara ja eller nej).
+4. Skriv sedan in det första av de svarsval du gav i robotens fråga, exempelvis svaret **kött** så som vår matrobot efterfrågar i exemplet i denna instruktion. (*"Vill du äta kött eller vegetariskt?"*).
+
+5. Nu ska vi ändra så att svaret blir lika med ett av robotens givna svarsval i det gröna operatorblocket. Klicka på variabelsiffran 50 och skriv istället ett av robotens två svarsval. I vårt exempel med Matroboten skriver vi svarsvalet *kött*.
+
+  ![image alt text](Robot_svarsval_kött.png)
+  
+6. Nu vet roboten vilket svar vi valt och kan hjälpa dig, dax att lägga till robotens svar. Under tema **UTSEENDE** finns blocket **säg Hej! i 2 sekunder**. lägg in det blocket inuti den gula villkors-loopen. Ändra texten till robotens svar som passar med det val du skrivit till den. I vårt exempel blir det såhär:
+
+  ![image alt text](Robot_hjälpande_svar_köttbullar.png)
 
 
 
