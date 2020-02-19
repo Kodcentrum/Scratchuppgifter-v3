@@ -87,7 +87,7 @@ För att din robot ska kunna hjälpa dig måste den veta vad du svarar på fråg
 
 1. Under tema **KONTROLL** finns kodblocket **om __ då**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
 
-  ![image alt text](Robot_om_då.png)
+  ![image alt text](robot_om_då.png)
 
 2. Ser du det kantiga hålet mellan **om** och **då** i kodblocket du just lade till? Nu ska vi lägga in kod där som säger att **om** *Svar = kött* **då**. Gör såhär: Gå först till det gröna temat **OPERATORER** och leta fram kodblocket som har tecknet för "lika med" i sig ( = ). Dra in blocket och lägg det inuti det kantiga hålet mellan **om __ då**. Då ser skriptet ut såhär:
 
