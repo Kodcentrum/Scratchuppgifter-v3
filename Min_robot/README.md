@@ -120,7 +120,7 @@ Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar.
 
 1. Först ska vi lägga till kodblocken för ljud, så att roboten vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
 
-  ![image alt text](Robot_ljud_kodblock.png)
+  ![image alt text](Robot_kod_ljud_pop.png)
   
 >**Tips!** Ibland kan det stå något annat ljud än just ljudet **Pop** i kodblocket. Det är ok, välj det ändå. 
 
