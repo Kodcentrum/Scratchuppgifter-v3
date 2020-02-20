@@ -103,11 +103,11 @@ För att din robot ska kunna hjälpa dig måste den veta vad du svarar på fråg
 
   ![image alt text](Robot_svarsval_kött.png)
   
-6. Nu vet roboten vilket svar vi valt och kan hjälpa dig, dax att lägga till robotens svar. Under tema **UTSEENDE** finns blocket **säg Hej! i 2 sekunder**. lägg in det blocket inuti den gula villkors-loopen. Ändra texten till robotens svar som passar med det val du skrivit till den. I vårt exempel blir det såhär:
+6. Nu vet roboten vilket svar vi valt och kan hjälpa dig, dax att lägga till robotens svar. Under tema **UTSEENDE** finns blocket **säg Hej! i 2 sekunder**. lägg in det blocket inuti den gula villkors-loopen. Ändra texten till robotens svar som passar med det val du skrivit till den. I vårt exempel blir koden med svaret såhär:
 
   ![image alt text](Robot_hjälpande_svar_köttbullar.png)
 
-7. Gör nu en exakt likadan kod till som du just gjort för svarsvalet kött, men som istället styr vad som händer om du svarar det andra svarsvalet. Exempelvis om vi svarar Matroboten att vi vill äta *vegetariskt* istället för *kött*. Repetera steg 1-6 ovan för att bygga en lika dan kodbit till . Lägg hela kodbiten direkt under det förra, så det ser ut såhär när det är färdigt:
+7. Gör nu en exakt likadan kod till som den du just gjort för det första svarsvalet ovan, men som istället styr vad som händer om du svarar det andra svarsvalet. Exempelvis om vi svarar Matroboten att vi vill äta *vegetariskt* istället för *kött*. Repetera steg 1-6 ovan för att bygga en likadan kodbit till. Sätt in hela kodbiten direkt under det förra, så det ser ut såhär:
 
   ![image alt text](Robot_två_frågor_och_svar.png)
 
@@ -116,8 +116,9 @@ För att din robot ska kunna hjälpa dig måste den veta vad du svarar på fråg
 Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lite musik och rörde på sig! Vi pimpar vår robot lite!
 
 ## Roboten spelar musik
+För att lägga till musik till din robots svar kan du göra såhär:
 
-xxxxxxx
+
 
 
 
