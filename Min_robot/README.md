@@ -115,24 +115,87 @@ För att din robot ska kunna hjälpa dig måste den veta vad du svarar på fråg
 
 Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lite musik och rörde på sig! Vi pimpar vår robot lite!
 
-## Roboten spelar musik
-För att lägga till musik till din robots svar kan du göra såhär:
+## Roboten spelar ljud
+Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
 
+1. Först ska vi lägga till kodblocken för ljud, så att roboten vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
 
+  ![image alt text](Robot_ljud_kodblock.png)
+  
+>**Tips!** Ibland kan det stå något annat ljud än just ljudet **Pop** i kodblocket. Det är ok, välj det ändå. 
 
+>**Testa koden!** Kör igång ditt projekt och testa koden. Hörs det ett ljud efter att roboten svarat på ditt knappval? Om du hör ljudet så vet du att roboten kan skapa ljud. Om du inget hör, kolla att högtalarna på din dator är på och volymen bra och prova att starta projektet igen. 
 
+2. Nu ska vi välja ett nytt ljud eller musik som du tycker passar din robots två olika hjälpande svar. Klicka på **fliken** som heter **Ljud** i övre vänstra hörnet i Scratch. Då kommer du till Scratch ljudredigerare, där du kan välja nya ljud.
+
+  ![image alt text](Flik_ljud.png)
+  
+3. Nu ska vi välja två olika ljud eller musiksslingor som du tycker passar för din robots två olika svar. Klicka på **Välj nytt ljud** som är den lilla blå knappen med en vit högtalare på i nedre vänstra hörnet av Scratch. 
+
+  ![image alt text](image_41.png)
+
+4. Om du vill ha musik väljer du kategorin **Loopar** högst upp, vill du ha ljudeffekter kan du välja kategorin **Effekter**. Lyssna på de olika ljuden genom att klicka på de lilla små Play-knapparna. När du hittat ett ljud du vill ha klickar du mitt på ljudets svarta hägtalarbild så läggs ljudet till i ditt projekt.
+
+  ![image alt text](Ljud_Loopar.png)
+  
+5. Gör om steg 2 och 3 och välj ditt andra ljud till ditt projekt. I vårt exempelprojekt har vi valt två likadana datorljud som heter  **computer beep**.
+
+6. När du är nöjd klickar du på fliken **KOD** i övre vänstra hörnet av Scratch, så kommer du tillbaka till robotens skriptyta med all kod igen.
+
+  ![image alt text](flik_kod.png)
+  
+7.  Klicka nu på den lilla pilen i dina kodblock för ljud. Byt ljudet som ska spelas till något av de nya ljud som du valt. I vårt exempelprojekt ser nu koden ut såhär:
+
+  ![image alt text](Robot_ljudblock_ljud.png)
+  
+>**Testa koden!** Spelar roboten dina nya ljud när du testar dina olika svarsknappar? 
+
+Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite också. Vi lägger till kod för rörelse!
+
+## 8: Roboten rör sig
+För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika röresler. Exempelvis kan du göra såhär:
+
+1. Under tema **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Dra in två sådana block och lägg ett inuti vardera villkor med **om...då**. Då ser koden ut såhär:
+
+  ![image alt text](Robot_kod_rörelse_glid.png)
+  
+2.. För att roboten alltid ska ha samma startpunkt varje gång du startar om, behöver du lägga in en **startposition** i koden. Se först till att din robot står på det ställe där du vill den alltid ska starta, du kan dra robot-sprajten dit du vill den ska stå. Under tema **RÖRELSE** finns kodblocket **gå till x: __ och y: __**. Dra in detta block och lägg det direkt under blocket **När GRÖN FLAGGA klickas på**.
+
+  ![image alt text](Robot_kod_startposition.png)
+  
+>**Testa koden!** Vad händer när du kör koden? Rör sig roboten när den svarat dig? Hoppar roboten tillbaka till si startposition varje gång du klickar på den gröna flaggan?
+
+3. Om du vill kan du även animera din robot så den ändrar sig i utseendet. Det kan du göra genom att växla mellan olika bilder av robot-sprajten. I Scratch kallas bilderna det för sprajtens **klädslar**. Alla sprajtar har inte flera klädslar, men många har det. Kontrollera vilka klädslar din sprajt har genom att klicka på fliken **KLÄDSLAR** som finns i övre vänstra hörnet. Då ser du sprajtens klädslar till vänster. I vårt exempel ser vår robots klädslar ut såhär:
+
+  ![image alt text](Robot_klädslar.png)
+
+4. Varje klädsel har ett namn. Dessa går att lägga in i kod-skriptet så att du kan byta klädslar. Bestäm först vilken klädsel du vill att din robot ska ha varje gång den startas. Under tema **UTSEENDE** finns blocket **ändra klädsel till...**. Lägg blocket direkt under översta blocket med gröna startflaggan. Klicka sen på lilla **pilen i blocket** och ändra till den klädsel du vill ha som start-klädsel.
+
+  ![image alt text](Robot_kod_klädsel_byt.png)
+  
+5. Lägg nu in två likadana block till med **ändra klädsel till...**. Lägg ett block inom vardera villkors-loop **om...då**. Ändra dem till den klädsel du vill att din robot ska få varje gång den gett sitt svar. Såhär kan koden se ut nu:
+
+  ![image alt text](Robot_kod_klädsel_olika.png)
+
+>**Testa koden!** Vad händer när du kör koden? Rör sig roboten? Byter den klädslar? 
+
+> **Tips!** Om din sprajt saknar fler klädslar, eller om du ritat din egen sprajt, kan du skapa fler klädslar genom att exempelvis kopiera sprajtens enda klädsel (högerklicka på den enda klädsel som finns och välj kopiera, så får du en till likadan) och sedan ändra lite på den nya klädseln som skapades. Kanske du vill ändra färg på sprajten med hink-verktyget, eller måla dit en glad mun eller stora ögon?
 
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+Grattis, nu har du gjort klart uppgiften. Om du har följt vår instruktion ser den färdiga koden ut ungefär såhär:
+
+  ![image alt text](Robot_färdigt_skript.png)
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
-
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
+
+**Slumpa fram fler svar**
+
 
 
 ## Frågeställningar
