@@ -150,7 +150,7 @@ Sen kan vi börja med om skräptypen är glas. Vi skapar fört ett jämförelseb
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidLogik.PNG)
 
-När du är klar borde det se ut något sådanthär: 
+Vi upprepar samma steg för andra soptyper vi skapat och när du är klar borde det se ut något sådanthär: 
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidSoporKlar.PNG)
 
@@ -160,12 +160,15 @@ För vår andra soptyp kan vi kopiera blocken vi skapade i föregående steg men
 
 När du är klar ser det nog ut något sådant här:
 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/olikaSoporFanga.PNG)
 
 
 # Sortera!
 Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få sakerna att hamna rätt. I blocket för glas ska vi skicka meddelandet glas. 
 
 Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamn batteri och skicka den soptypen. 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/SorteradeSopor.PNG)
 
 
 Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot block för och sätter dessa till våra olika soptypsmedelanden. Eftersom vi började med glas och kompost och har satt block som skickar dessa så sätter vi blocken till de två. 
