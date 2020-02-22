@@ -95,7 +95,7 @@ Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytter
 
 När vi sen sätter ihop allting borde det se ut såhär:
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/sopkarlskod2.PNG)
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/sopkarlskod3.PNG)
 
 Sådär! Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra sopsprajten till ditt sopkärl. 
 
@@ -139,17 +139,21 @@ Vi börjar med att lägga till en [för alltid loop] under [startblocket] med de
 
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/robotNarKlickarStart.PNG)
 
-Innuti detta lägger vi därefter ett om block i vilket vi sätter ett [rör vid] och väljer vår sopsprajt. I detta blocket kommer vi därefter att lägga flera block som var och en kommer hantera de olika typerna av skräp.
+Vi börjar med om skräptypen är glas. Vi skapar fört ett jämförelseblock som vi därefter kan sätta in i ett om-block. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi glas. 
 
-Vi börjar med om skräptypen är glas. Vi börjar med att ta ett till om block och lägg i detta ett jämförelseblock med = som jämförelse. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi glas. Det är viktigt att vi skriver det på exakt det sättet, alltså utan stor bokstav eller utan felstavningar. Roboten är väldigt smart, men den gör också bara exakt som du säger åt den att göra, om vi skriver till exempel "Glas" kommer den att jämföra detta med soptypen "glas", och även om de beryder samma sak så är de ju olika. Roboten kommer därför inte veta vad den ska göra. 
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidLogik.PNG)
+
+Det är viktigt att vi skriver det på exakt det sättet, alltså utan stor bokstav eller utan felstavningar. Roboten är väldigt smart, men den gör också bara exakt som du säger åt den att göra, om vi skriver till exempel "Glas" kommer den att jämföra detta med soptypen "glas", och även om de betyder samma sak så är de ju olika. Roboten kommer därför inte veta vad den ska göra. 
 
 Eftersom vi både har sopsorterna glas och kompost behöver vi göra samma sak för kompost. 
 Ta ett till om block och lägg i detta ett jämförelseblock med = som jämförelse. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi kompost. 
 
-När du är klar borde det se ut något sådanthär: [bild]
+När du är klar borde det se ut något sådanthär: 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidSoporKlar.PNG)
 
 # Sortera!
-Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få sakerna att hamna rätt. I blocket för metall ska vi skicka meddelandet metall. 
+Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få sakerna att hamna rätt. I blocket för glas ska vi skicka meddelandet glas. 
 
 Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamn batteri och skicka den soptypen. 
 
