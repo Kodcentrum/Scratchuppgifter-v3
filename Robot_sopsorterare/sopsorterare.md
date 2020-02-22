@@ -171,9 +171,16 @@ Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/SorteradeSopor.PNG)
 
 
-Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot block för och sätter dessa till våra olika soptypsmedelanden. Eftersom vi började med glas och kompost och har satt block som skickar dessa så sätter vi blocken till de två. 
+Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot meddelande block och sätter dessa till våra olika soptypsmedelanden. 
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/glidGlas.PNG)
+
+
+![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/glidKompost.PNG)
 
 Under de två blocken sätter vi ett glid till block och sätter det till 1 sekund och på den ena skriver positionen för komposten och för den andra positionen för glasåtervinningen. 
+
+
 
 Sådär! Om inget har blivit tokigt har du nu en robot som sorterar sopor! 
 
