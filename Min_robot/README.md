@@ -195,6 +195,8 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
 **Slumpa fram fler svar**
+  ![image alt text](slumpsvar_scenbild.png)
+  
 För att din robot ska kännas mer som att den är en smart robot som kan "tänka själv", kan du lägga till att den ska slumpa fram olika svar till dig. Då varierar den svaren varje gång du ber den svara. 
 För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöver en lista för vardera val vi svarat på, exempelvis om vi svarat att vi vill äta vegetariskt eller kött i vår Matrobot, så behöver vi skapa två listor, en med vegetariska rätter att välja mellan och en för kötträtter. Vi börjar med att skapa två listor med olika savrsval. 
 
