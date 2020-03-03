@@ -115,7 +115,7 @@ För att din robot ska kunna hjälpa dig måste den veta vad du svarar på fråg
 
 Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lite musik och rörde på sig! Vi pimpar vår robot lite!
 
-## Roboten spelar ljud
+## 4: Roboten spelar ljud
 Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
 
 1. Först ska vi lägga till kodblocken för ljud, så att roboten vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
@@ -152,7 +152,7 @@ Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar.
 
 Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite också. Vi lägger till kod för rörelse!
 
-## 8: Roboten rör sig
+## 5: Roboten rör sig
 För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika röresler. Exempelvis kan du göra såhär:
 
 1. Under tema **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Dra in två sådana block och lägg ett inuti vardera villkor med **om...då**. Då ser koden ut såhär:
