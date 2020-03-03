@@ -211,6 +211,7 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
 4. Nu har du fått fram två listor som heter dina valda namn (exempelvis Vegetariska rätter och Kötträtter). Det syns bland dina block och även som två tomma listor på scenen bredvid din robot. 
 
   ![image alt text](två_listor_svarsval_skapade.png)
+  ![image alt text](listor_tomma.png)
   
 5. Nu ska du lägga till tre stycken olika svar i respektive lista, som roboten kan slumpa fram när den ska svara. Under tema **VARIABLER** drar du ut blocket **lägg till** *grej* **i** *Kötträtter*. (istället för vårt exempel med "Kötträtter" står det här ett av dina skapade namn på en av dina svarslistor.) Lägg blocket fritt på din skriptyta med kod. 
 
@@ -224,13 +225,42 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
 
   ![image alt text](lista_färdig_tre_svar.png)
   
-9. Gör nu ett exakt likadant kod-skript för din andra lista. Lägg den bredvid din första. Notera att du behöver klicka på lilla pilen och byta till din andra svarslista, i vårt exempel byter vi alltså från *Kötträtter* till *Vegetariska rätter* i kodblocken. När du är färdig kan koden och din robot på scenen se ut exempelvis såhär:
+9. Gör nu ett exakt likadant kodskript för din andra lista. Lägg den bredvid din första. Notera att du behöver klicka på lilla pilen och byta till din andra svarslista, i vårt exempel byter vi alltså från *Kötträtter* till *Vegetariska rätter* i kodblocken. När du är färdig kan koden och din robot på scenen se ut exempelvis såhär:
 
   ![image alt text](listor_två_olika_färdiga.png)
   ![image alt text](matrobot_scen_med_listor.png)
   
+10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ut ur de två olika listorna. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder**. Nu ska vi byta ut det som roboten säger där mot slumpade svar ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in det gröna blocket inuti det lila blocket ovanpå den text som står i den vita bubblan efter ordet **säg...**, såhär:
 
+  ![image alt text](operatorblock_sammanfogaÄppleBanan.png)
+  
+11. Nu ska vi koda in vilken lista som roboten ska hämta sina svarsval från. Från tema **VARIABLER** drar du in kodblocket **post 1 i** *Kötträtter*. (Det står något av dina listors namn i kodblocket, du kan byta med lilla pilen i kodblocket, så det hämtar svar från rätt lista.) Dra in kodbiten och lägg den inuti den gröna operatorblocket där det står **banan**. Så här:
 
+  ![image alt text](post_1_i_kötträtter.png)
+
+12. Just nu visar din kod att roboten alltid ska välja att posta svaret nummer 1 ur listan, men vi vill ju att den ska slumpa svar från hela listan. Nu ska vi lägga till kod för slump, så roboten kan ge olika svar från sina listor. Under tema **OPERATORER** finns kodblocket **slumptal 1 till 10**. Dra in det och lägg det ovanpå där det står siffran **1** i orangea variabelkoden, direkt efter **säg sammanfoga post...**. Så här: 
+
+  ![image alt text](slumptal_kodbit.png)
+  
+Ändra sedan variablen i operatorn så att det står **slumptal 1 till 3**, då du endast har 3 svarsval i din lista. 
+
+  ![image alt text](kod_slump_svar_3.png)
+
+13. Byt nu ut texten **äpple** till något som passar vad din robot ska säga. I vprt exempel med vår Matrobot skriver vi istället: *Då lagar jag *. Sedan kommer svaret från listan att stå efter, exempelvis *Då lagar jag lasagne*.
+Nu ska koden i skriptet se ut såhär:
+
+  ![image alt text](Färdig_slump_kötträtter.png)
+  
+**Testa koden!** Vad händer när roboten svarar dig? Slumpar den fram olika svar varje gång du startar om med gröna flaggan? 
+**Tips!** Sitter orden ihop i svaret? Lägg då till ett mellanslag efter texten *"Då lagar jag "* så får du mellanrumm mellan din svarsmening och ditt slumpade svar. 
+
+14. Skapa nu exakt samma kod igen längre ned i din robots kodskript, så att den kan hämta slumpade svar från din andra lista också. I vårt exempel med vår Matrobot ser då hela koden ut såhär:
+
+  ![image alt text](Robot_färdig_kod_med_slump_listor.png)
+  
+**Testa koden!** Ger roboten slumpade svar från de två olika listorna? 
+
+Nu har du en robot som kan slumpa fram svar. Utmana dig genom att lägga till fler svar och ändra i antalet som roboten kan slumpa fram. Kanske till och med fler listor? 
 
 
 ## Frågeställningar
