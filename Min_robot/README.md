@@ -260,7 +260,13 @@ Nu ska koden i skriptet se ut såhär:
 
   ![image alt text](Robot_färdig_kod_med_slump_listor.png)
   
-> **Testa koden!** Ger roboten slumpade svar från de två olika listorna? 
+15. För att listorna med svarsvalen inte ska synas på scenen med roboten lägger du slutligen till två stycken block **göm listan ____** som finns under tema **VARIABLER**. Lägg en vardera under de två skripten med variabler för de två listorna, direkt inunder **när GRÖN FLAGGA klickas på**, så det ser ut såhär:
+
+  ![image alt text](slumpsvar_scenbild.png)
+  
+Notera att du behöver ändra namnet på listan i kodblocket, så det är ett block med vardera listas namn i sig.
+  
+> **Testa koden!** Ger roboten slumpade svar från de två olika listorna? Är listorna synliga på scenen?
 
 Nu har du en robot som kan slumpa fram svar. Utmana dig genom att lägga till fler svar och ändra i antalet som roboten kan slumpa fram. Kanske till och med fler listor? 
 
