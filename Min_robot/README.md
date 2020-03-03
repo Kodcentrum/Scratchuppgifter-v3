@@ -195,6 +195,41 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
 **Slumpa fram fler svar**
+För att din robot ska kännas mer som att den är en smart robot som kan "tänka själv", kan du lägga till att den ska slumpa fram olika svar till dig. Då varierar den svaren varje gång du ber den svara. 
+För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöver en lista för vardera val vi svarat på, exempelvis om vi svarat att vi vill äta vegetariskt eller kött i vår Matrobot, så behöver vi skapa två listor, en med vegetariska rätter att välja mellan och en för kötträtter. Vi börjar med att skapa två listor med olika savrsval. 
+
+1. Under tema **VARIABLER** klickar du på **Skapa en lista**. 
+
+  ![image alt text](Variabler_Skapa_en_lista.png)
+
+2. Namnge din nya lista till ett av dina svarsval, exempelvis *Vegetariska rätter* som i vårt exempel med Matrobot.
+
+  ![image alt text](lista_vegetariska_rätter.png)
+
+3. Gör en exakt likadan lista till som du döper för ditt andra svarsval, som i vårt exempel blir *Kötträtter* med vår Matrobot.
+
+4. Nu har du fått fram två listor som heter dina valda namn (exempelvis Vegetariska rätter och Kötträtter). Det syns bland dina block och även som två tomma listor på scenen bredvid din robot. 
+
+  ![image alt text](två_listor_svarsval_skapade.png)
+  
+5. Nu ska du lägga till tre stycken olika svar i respektive lista, som roboten kan slumpa fram när den ska svara. Under tema **VARIABLER** drar du ut blocket **lägg till** *grej* **i** *Kötträtter*. (istället för vårt exempel med "Kötträtter" står det här ett av dina skapade namn på en av dina svarslistor.) Lägg blocket fritt på din skriptyta med kod. 
+
+6. Istället för ordet *grej* skriver du nu in ett svarsalternativ som passar för just denna lista. I vårt exempel med listan *Kötträtter* kan ett svar från Matroboten exempelvis vara *lasagne*. 
+
+7. Dra ut två till likadana kodblock till och byt ut ordet *grej* till andra svar som passar för denna lista. I vårt exempel blir det *köttbullar* och *korvgryta*. Sätt alla de tre kodblocken under varandra så de sitter ihop. 
+
+  ![image alt text](lista_kötträtter_svarsval.png)
+  
+8. Från tema **HÄNDELSER** drar du in startblocket **när GRÖN FLAGGA klickas på**. Lägg det överst på de andra kodblocken. När du startar om din robot, vill du att din svarslista alltid ska vara tom, så från tema **VARIABLER** drar du även in kodblocket **ta bort alla** *Kötträtter*. Lägg det direkt under **när GRÖN FLAGGA klickas på**, så det ser ut såhär:
+
+  ![image alt text](lista_färdig_tre_svar.png)
+  
+9. Gör nu ett exakt likadant kod-skript för din andra lista. Lägg den bredvid din första. Notera att du behöver klicka på lilla pilen och byta till din andra svarslista, i vårt exempel byter vi alltså från *Kötträtter* till *Vegetariska rätter* i kodblocken. När du är färdig kan koden och din robot på scenen se ut exempelvis såhär:
+
+  ![image alt text](listor_två_olika_färdiga.png)
+  ![image alt text](matrobot_scen_med_listor.png)
+  
+
 
 
 
