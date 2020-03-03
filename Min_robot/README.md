@@ -251,14 +251,14 @@ Nu ska koden i skriptet se ut såhär:
 
   ![image alt text](Färdig_slump_kötträtter.png)
   
-**Testa koden!** Vad händer när roboten svarar dig? Slumpar den fram olika svar varje gång du startar om med gröna flaggan? 
-**Tips!** Sitter orden ihop i svaret? Lägg då till ett mellanslag efter texten *"Då lagar jag "* så får du mellanrumm mellan din svarsmening och ditt slumpade svar. 
+> **Testa koden!** Vad händer när roboten svarar dig? Slumpar den fram olika svar varje gång du startar om med gröna flaggan? 
+> **Tips!** Sitter orden ihop i svaret? Lägg då till ett mellanslag efter texten *"Då lagar jag "* så får du mellanrumm mellan din svarsmening och ditt slumpade svar. 
 
 14. Skapa nu exakt samma kod igen längre ned i din robots kodskript, så att den kan hämta slumpade svar från din andra lista också. I vårt exempel med vår Matrobot ser då hela koden ut såhär:
 
   ![image alt text](Robot_färdig_kod_med_slump_listor.png)
   
-**Testa koden!** Ger roboten slumpade svar från de två olika listorna? 
+> **Testa koden!** Ger roboten slumpade svar från de två olika listorna? 
 
 Nu har du en robot som kan slumpa fram svar. Utmana dig genom att lägga till fler svar och ändra i antalet som roboten kan slumpa fram. Kanske till och med fler listor? 
 
