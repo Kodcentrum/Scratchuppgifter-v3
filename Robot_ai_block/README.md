@@ -43,13 +43,9 @@ Gör såhär:
 
 ![image alt text](ÄndraBitmapp.png) 
 
-3. Välj sen verktyg att måla med, exempelvis **Pensel**, och en färg du vill ha på väggarna. Måla sen upp väggarnas form som om du såg rummet ovanifrån. 
+3. Välj sen verktyg att måla med, exempelvis **Pensel**, och en färg du vill ha på väggarna. Måla upp väggarnas form som om du såg rummet ovanifrån. Tänk på att inte göra det för trångt för roboten att kunna åka in mellan väggarna. 
 
-Här är ett exempel på hur rummet eller lägenheten skulle kunna se ut, där det svarta är väggarna och det vita är golvet: 
-
-![image alt text](rum.png)
-
-4. Golvet ska också få en färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
+4. Golvet kan också få en ny färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
 Nu har vi en dammsugarrobot och ett rum, men inget damm och smuts att städa. Det fixar vi i nästa steg.
 
