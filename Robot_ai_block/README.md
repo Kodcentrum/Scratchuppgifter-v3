@@ -106,9 +106,9 @@ Nu är färgen i din kod rätt, men vi måste även koda in vad roboten ska gör
 
 ![image alt text](rörelseKlar.png)
 
-> Testa koden! Klicka på den gröna flaggan ovanför scenen - rör sig roboten framåt? Vänder den när den åker in i en vägg?  
+> **Testa koden!** Klicka på den gröna flaggan ovanför scenen - rör sig roboten framåt? Vänder den när den åker in i en vägg?  
 
-Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den dammsugar inte upp smutsen. Vi behöver koda in det med.
+Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den städar inte upp smutsen. Vi behöver koda in det med.
 
 ## 6: Lägg till specialblocket Penna
 
@@ -154,7 +154,7 @@ Sådär! Nu är vi redo att koda själva städandet av smutsen!
 
 ## 8: Dammsugarroboten städar
 
-Först ska vi koda så att roboten känner av smutsen - eller snarare dess färg. Då ska den börja rita över med golvfärg. Gör såhär:
+Först ska vi koda så att roboten känner av smutsen - eller snarare dess färg. Då ska den börja rita över smutsen med din golvfärg. Gör såhär:
 
 1. I tema **KONTROLL** finns blocket **Om...Då...Annars**- Dra in det och lägg det inuti **För alltid**-loopen direkt under blocket med **Om...Då** som redan ligger där. **Om...Då**-block, precis inunder vårt **Penna upp**-block i skriptet. 
 
@@ -164,9 +164,9 @@ Först ska vi koda så att roboten känner av smutsen - eller snarare dess färg
 
 ![image alt text](dammsugOmFarg.png)
 
-Vi kan nu testa skriptet och se hur roboten dammsugar upp smutsen vi ritat ut!
+Vi kan nu testa skriptet och se hur roboten dammsugar upp smutsen!
 
-> Testa koden! Försvinner smutsen när dammsugarroboten åkt över det? Får golvet sin rätta färg igen bakom roboten? Städar roboten upp allt smuts i lägenheten?
+> **Testa koden!** Försvinner smutsen när dammsugarroboten åkt över det? Får golvet sin rätta färg igen bakom roboten? Städar roboten upp allt smuts i lägenheten?
 
 ## Färdig!
 Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
@@ -181,7 +181,7 @@ Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen D
 > **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
 
 
-## Utmaning (Fler alternativ i framtiden)
+## Utmaning
 Saknas något? Hur skulle du vilja utveckla projektet? 
 Kanske finns det något i rummet som roboten behöver undvika? Kanske finns det något husdjur eller möbel som roboten måste stanna för att inte köra på? 
 
@@ -202,26 +202,26 @@ Vi kodar husdjuret på samma sätt som vi kodade dammsugaren.
 
 ![image alt text](rörSigFram.png)
 
-3. Lägg till ett startblock från tema **HÄNDELSER**, alltså blocket **När START-flaggan klickas på** och sätt den överst i skriptet.
+3. Lägg till ett startblock från tema **HÄNDELSER**, alltså blocket **När GRÖNA FLAGGAN klickas på** och sätt den överst i skriptet.
 
-4. För att husdjuret ska vändra då det rör vid en vägg, behöver det känna av väggarnas färg. Lägg till blocket **Om...Då** som finns under tema **KONTROLL**. Välj sen tema **KÄNNA AV** och välj blocket **Rör vid färgen?**. Dra in detta block inuti **Om...Då**-blocket.
+4. För att husdjuret ska vända om det rör vid en vägg, behöver det känna av väggarnas färg. Från tema **KONTROLL** lägger du till blocket **Om...Då**. Välj sen tema **KÄNNA AV** och välj blocket **Rör vid färgen?**. Dra in detta block inuti det kantiga hålet i **Om...Då**-blocket.
 
 ![image alt text](rörVidFärg.png)
 
-5. Klicka på den färg som finns i **Rör vid färgen?**-blocket och använd pippettverktyget för att välja exakt samma färg som väggarna genom att klicka på en av väggarna på scenen.
+5. Klicka på den färg som finns i **Rör vid färgen?**-blocket och använd pippettverktyget längst ned för att välja exakt samma färg som väggarna genom att klicka på en av väggarna på scenen. Då ändras färgen i blocket till samma färg som dina väggar.
 
-6. Nu känner husdjuret av om den åker in i en vägg! För att husdjuret ska vända åt andra hållet, väljer du temat **RÖRELSE**och drar ut blocket för **Rotera vänster 15 grader**. Klicka på variabeln 15 och ändra till 36 grader istället.
+6. Nu känner husdjuret av om den åker in i en vägg. För att husdjuret ska vända sig, väljer du temat **RÖRELSE** och drar ut blocket **Rotera vänster 15 grader**. Klicka på variabeln 15 och ändra till 36 grader istället.
 
-Lägg nu in röresle-blocket du har på skriptytan, så den hamnar **Fär alltid**-loopen, direkt under **Om...Då**-blocket. Då ska skriptet se ut såhär: 
+Lägg nu in röresle-blocket som du har på skriptytan så den hamnar inom **För alltid**-loopen, direkt under **Om...Då**-blocket. Då ser skriptet ut såhär: 
 
 ![image alt text](rörelseKlar.png)
 
 Nu har vi ett husdjur som rör sig runt i rummet!
 
-> Tips! Vill du att ditt husdjur ska röra sig lite olika genom rummet, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på egna andra idéer?
+> Tips! Vill du att ditt husdjur ska röra sig lite olika genom rummet, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på andra idéer?
 
-### Få djuret att stöka ner
-Många djur har en tendens att stöka ner lite efter sig (särskilt dammråttan som vi har använt som exempel!) Vi ska nu lägga till en liten bit kod som gör att djuret stökar till det lite efter sig. 
+### Få hudsjuret att smutsa till lägenheten
+Många djur har en tendens att stöka ner lite efter sig (särskilt dammråttan som vi har använt som exempel!) Vi ska nu lägga till en liten bit kod som gör att djuret stökar till det lite efter sig, så dammsugaren får mer att städa upp.. 
 
 Börja med att ta ett **sätt pennans storlek** block och välj här en passande storlek. I dammråttans fall passar 20 bra. Sätt därefter pennans färg med ett **sätt pennans färg till** block till samma färg som du använde för smutsen tidigare.
 
