@@ -30,6 +30,8 @@ Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 ## 2: Rita rummet som ska städas
 Dax att rita rummet eller lägenheten som roboten ska städa. Du ska rita väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Måla gärna golvet i en ny färg också.
 
+![image alt text](Tom_lägenhet_väggar.png) 
+
 Gör såhär:
 
 1.  Klicka på lilla rutan där det står **Scen** i nedre högra hörnet av Scratch. Klicka sedan på fliken som heter **Bakgrunder** i övre vänsta hörnet, så får du fram ritverktyget för din bakgrundsbild. Här kan du rita rummet. 
@@ -37,7 +39,7 @@ Gör såhär:
 ![image alt text](aktiveraScenBakgrund.png) 
 ![image alt text](FlikBakgrunder.png) 
 
-2. Klicka allra först på den blå knappen under ritfönstret där det står **Gör till Bitmapp**. 
+2. Klicka först på den blå knappen under ritfönstret där det står **Gör till Bitmapp**. 
 
 ![image alt text](ÄndraBitmapp.png) 
 
