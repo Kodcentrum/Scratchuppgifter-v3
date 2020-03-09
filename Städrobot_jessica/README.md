@@ -81,19 +81,22 @@ Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten
 
 1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta.
 
-2. Välj tema **KÄNNA AV** och välj blocket **Rör vid färgen?**. Dra in detta kodblock och lägg det inuti det lilla kantiga hålet mellan **Om** och **Då** i blocket. Då står det i koden: *Om Rör vid färgen? Då*.
+2. Välj tema **KÄNNA AV** och välj blocket **rör vid färgen__?**. Dra in kodblocket och lägg det inuti det lilla kantiga hålet mellan **Om** och **Då** i det gula blocket, så att koden säger: *om rör vid färgen__? då*.
 
+![image alt text](lägg_in_blocket_rörVidFärg.png)
 ![image alt text](rörVidFärg.png)
 
 För att roboten ska kunna känna av att den rör vid en vägg, behöver den veta vilken färg väggen har. Viktig att färgpunkten i ditt kodblock har exakt ditt rums väggfärg. Det ordnar du såhär:
 
-3. Klicka på den färgpunkt som just nu finns i ditt **Rör vid färgen?**-block. Då kommer en palett med färger fram. Klicka på det lilla pippettverktyget längst ned under färgerna och klicka sedan på en av väggarna på scenen. Då ändras färgen i ditt **Rör vid färgen?**-block till just den väggfärg du målat ditt rum med.
+3. Klicka på den färgpunkt som just nu finns i ditt **rör vid färgen__?**-block. Då kommer fler färger fram. Klicka på pippettverktyget längst ned under färgvalen och klicka sedan på en av väggarna på scenen. Då ändras färgen i ditt **Rör vid färgen?**-block till just den väggfärg du målat ditt rum med.
 
 ![image alt text](Känna_av_byt_färg_pimpett.png)
 
 Nu är färgen i din kod rätt, men vi måste även koda in vad roboten ska göra när den känner av en vägg! Vi vill att roboten ska vända lite åt sidan och åka vidare, bort från väggen. Gör såhär:
 
-4. Välj tema **RÖRELSE** och välj blocket **Rotera höger 15 grader**. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
+4. Välj tema **RÖRELSE** och välj blocket **Rotera höger 15 grader**. Lägg blocket inuti **om...då**-loopen. För att få roboten att svänga lite mer, kan du höja värdet lite. I vårt exempel har vi valt 34 grader.
+
+![image alt text](robot_rotera_höger.png)
 
 5. Nu ska vi lägga ihop all kod vi har på skriptytan. Dra in **Om...Då**-blocket så det hamnar inom **För alltid**-loopen med **Gå 5 steg**, så att det ser ut som bilden nedan: 
 
@@ -104,35 +107,41 @@ Nu är färgen i din kod rätt, men vi måste även koda in vad roboten ska gör
 Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den behöver smuts att städa upp. Vi lägger till en liten dammråtta som smutsar ned!
 
 ## 6: Koda en dammråtta 
-Välj en sprajt som blir din dammråtta. Du kan såklart välja annat djur eller rita din egen sprajt om du hellre vill det.du kan koda ett annat djur om du hellre vill det.
+Nu ska vi lägga till en liten sprajtfigur som smutsar ned - en dammråtta.
+
+1. Välj en sprajt som blir din dammråtta. Du kan såklart välja annat djur eller rita din egen sprajt om du hellre vill det. Klicka på **Välj en sprajt** i nedre högra hörnet av Scratch för att lägga till en ny sprajtfigur. 
 
 ![image alt text](dammratta.PNG)
 
-> Notera: Om du ritar en egen figur, var noga med att det inte har samma färg som din dammsugarrobot, väggar, golv eller smuts. 
+> **Tänk på** Om du ritar en egen figur, var noga med att den inte har samma färg som din dammsugarrobot, väggar eller golv. 
 
-Vi kodar husdjuret på samma sätt som vi kodade dammsugaren. 
+Dammråttar ska också röra sig i rummet, så vi kodar den på samma sätt som vi kodade dammsugaren:
 
-1. Börja med att lägga till ett **Gå 10 steg**-block från **RÖRELSE** och ändra variabeln i det till 5 steg. 
+2. Från tema **RÖRELSE** lägger du till ett **gå 10 steg**-block och ändrar variabeln i blocket till 5 steg. 
 
-2. Vi vill också att dammråttan ska gå framåt hela tiden, så vi lägger rörelseblocket inuti ett **För alltid**-block.
+3. Från tema **KONTROLL** drar du in ett **för alltid**-block. Lägg in rörelseblocket **gå 5 steg** inuti loopen.
 
-3. Från tema **HÄNDELSER** lägger du in startblocket **när GRÖNA FLAGGAN klickas på** och lägger det överst i skriptet.
+4. Från tema **HÄNDELSER** drar du in startblocket **när GRÖNA FLAGGAN klickas på** och lägger det överst i skriptet.
 
 ![image alt text](rörSigFram.png)
 
-4. För att husdjuret ska vända om det rör vid en vägg, behöver det känna av väggarnas färg. Från tema **KONTROLL** drar du in blocket **Om...Då** och lägger det fritt på skriptytan. Välj sen tema **KÄNNA AV** och blocket **rör vid färgen?**, lägg det inuti block inuti det kantiga hålet i **Om...Då**-blocket.
+5. För att dammråttan ska veta att den ska göra något om den stöter in i en vägg, behöver den känna av väggens färg. Från tema **KONTROLL** drar du in blocket **Om...Då** och lägger det fritt på skriptytan. Välj sen tema **KÄNNA AV** och blocket **rör vid färgen__?**. Lägg detta block inuti det kantiga hålet mellan **Om...Då**.
 
 ![image alt text](rörVidFärg.png)
 
-5. Klicka på cirkeln med färg som finns i blocket **rör vid färgen?** och klicka på pippettverktyget längst ned i rutan som kommer upp. Klicka på väggens färg på scenen för att välja exakt samma färg som väggarna.
+6. Klicka på cirkeln med färg som finns i blocket **rör vid färgen__?** och klicka på pippettverktyget längst ned i rutan som kommer upp. Klicka på väggens färg på scenen för att välja exakt samma färg som väggarna.
 
-6. För att husdjuret ska vända sig om den rör vid en vägg, väljer du tema **RÖRELSE** och drar ut blocket **Rotera höger 15 grader**. Klicka på variabeln 15 och skriv 34 grader istället.
+![image alt text](råtta_rör_vid_väggfärg.png)
 
-Lägg nu in röresle-blocket som du har på skriptytan så den hamnar inom **För alltid**-loopen, direkt under **Om...Då**-blocket. Då ser skriptet ut såhär: 
+7. För att husdjuret ska vända sig om den rör vid en vägg, väljer du tema **RÖRELSE** och drar ut blocket **Rotera höger 15 grader**. Klicka på variabeln 15 och skriv 34 grader istället.
+
+![image alt text](robot_rotera_höger.png)
+
+Lägg nu in hela denna **om...då**-loop med väggfärg och röresle in i  det andra skriptet så allt hamnar inom **för alltid**-loopen. Då ser skriptet ut såhär: 
 
 ![image alt text](rörelseKlar.png)
 
-Nu har vi en dammråtta som rör sig runt i rummet! Men den ska smutsa ned också. Vi lägger till en penna som ritar smuts där råttan åker fram.
+Nu har vi en dammråtta som rör sig runt i rummet! Men den ju ska smutsa ned också. Vi lägger till en penna som ritar smuts där råttan åker fram.
 
 ## 7: Dammråttan smutsar ned
 Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten där den åker runt. Det löser vi genom att lägga till specialblocket **Penna**, som ritar smuts efter dammråttan. Gör såhär:
