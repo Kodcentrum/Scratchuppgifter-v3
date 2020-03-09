@@ -52,25 +52,29 @@ Nu har vi en dammsugarrobot och ett rum, men vi måste rå roboten att börja r�
 ## 3: Få roboten att röra sig
 Nu ska vi börja koda roboten så att den vet hur den ska röra sig i rummet. Det första som vi vill göra är att få roboten att röra sig framåt. 
 
-1. Välj fliken **Kod** högst upp till vänster för att komma bort från ritläget och tillbaka till där du kan koda md kodblocken. Se till att din sprajt för dammsugarroboten är vald, genom att klicka på den lilla bilden som visar din dammsugar-sprajt under scenen. Nu kan du koda din dammsugarrobot.
+1. Välj fliken **Kod** högst upp till vänster för att komma bort från ritläget och tillbaka till där du kan koda med kodblocken. 
 
 ![image alt text](flikKod.png)
 
-2. Är din dammsugarrobot för stor, så kan du ändra storleken på den. Under scenen finns **Storlek** och siffran 100 (alltså 100% full storlek). Ändra till lägre siffra, prova dig fram vad som passar.
+2. Se till att din sprajt för dammsugarroboten är vald, genom att klicka på den lilla bilden som visar din dammsugar-sprajt under scenen. Nu kan du koda din dammsugarrobot.
+
+3. Är din dammsugarrobot för stor, så kan du ändra storleken på den. Under scenen finns **Storlek** och siffran 100 (alltså 100% full storlek). Ändra till lägre siffra, prova dig fram vad som passar.
 
 ![image alt text](storlekSprajt.png)
 
-2. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg** till den tomma skriptytan. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
+4. Klicka på temat **RÖRELSE** och dra ut kodblocket **Gå 10 steg** till den tomma skriptytan. Ändra siffran i blocket så det istället står **Gå 5 steg**. 
 
-3. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Om vi loopar koden för röelse, så kommer roboten gå framåt för alltid. Under tema **KONTROLL** finns kodblocket **För alltid**. Dra ut den på skriptytan och stoppa in röresleblocket **Gå 5 steg** inuti. Nu har du kodat en loop för robotens röresle och den kommer gå framåt hela tiden.
+5. Vi vill att roboten ska gå framåt hela tiden utan att sluta gå. Om vi loopar koden för rörelse, så kommer roboten gå framåt för alltid. Från tema **KONTROLL** drar du ut kodblocket **för alltid** till skriptytan. Lägg sen rörelseblocket **Gå 5 steg** inuti.
 
-4. Ser du den gröna flaggan ovanför scenen med din robot på? Det är ditt projekts startknapp, för att sätta igång roboten. För att den ska funka och roboten ska veta när den ska börja gå behöver vi lägga till det i koden. Under **HÄNDELSER** finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in den på skriptytan och lägg den överst i skriptet med kodblock. Nu ska koden se ut som bilden nedan.
+![image alt text](Robot_loop_rörelse.png)
+
+6. För att roboten veta när den ska börja röra sig behöver vi lägga till en startknapp. Under tema **HÄNDELSER** finns kodblocket **när GRÖN FLAGGA klickas på**. Dra in den på skriptytan och lägg den överst i skriptet med kodblock. Nu ska koden se ut såhär:
 
 ![image alt text](rörSigFram.png)
 
-> Testa koden! Klicka på den gröna flaggan ovanför scenen - rör sig roboten framåt? 
+> **Testa koden!** Klicka på den projektets startknapp som är den gröna flaggan ovanför scenen - rör sig roboten framåt? 
 
-Nu rör sig roboten, men den känner inte av väggarna, och inte heller smutsen. Dags att koda vidare!
+Nu rör sig roboten, men den känner inte av väggarna. Dags att koda vidare!
 
 ## 5: Känna av väggarna
 Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten rör en vägg, då ska ska vrida sig lite och åka vidare. Gör såhär: 
