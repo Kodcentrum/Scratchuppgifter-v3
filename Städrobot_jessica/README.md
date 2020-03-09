@@ -113,7 +113,7 @@ Nu ska vi lägga till en liten sprajtfigur som smutsar ned - en dammråtta.
 
 ![image alt text](dammratta.PNG)
 
-> **Tänk på** Om du ritar en egen figur, var noga med att den inte har samma färg som din dammsugarrobot, väggar eller golv. 
+> **Tänk på!** Om du ritar en egen figur, var noga med att den inte har samma färg som din dammsugarrobot, väggar eller golv. 
 
 Dammråttar ska också röra sig i rummet, så vi kodar den på samma sätt som vi kodade dammsugaren:
 
@@ -146,42 +146,54 @@ Nu har vi en dammråtta som rör sig runt i rummet! Men den ju ska smutsa ned oc
 ## 7: Dammråttan smutsar ned
 Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten där den åker runt. Det löser vi genom att lägga till specialblocket **Penna**, som ritar smuts efter dammråttan. Gör såhär:
 
-1. Nere i vänstra hörnet hittar vi en knapp för **Tillägg** som ser ut såhär:
+1. Nere i vänstra hörnet av Scratch hittar vi en knapp för **Tillägg** som ser ut såhär:
 
 ![image alt text](laggtillBlock.png)
 
-2. Klicka på knappen **Tillägg**  och klicka sen på bilden som heter Penna, så läggs den till i ditt Scratchprojekt. 
+2. Klicka på knappen **Tillägg**  och klicka sen på bilden som heter **Penna**, så läggs den till i ditt Scratchprojekt. 
 
 ![image alt text](pennaBlock.png)
 
-Sådär! Nu finns nya penn-block att koda med. Dax att koda vidare så dammråttan kan börja smutsa ned!
+Sådär! Nu finns nya pennblock att koda med. Dax att koda vidare så dammråttan kan börja smutsa ned - eller ritar "damm" med en penna!
 
 3. Under nya temat **PENNA** drar du ut ett **sätt pennans storlek 1**-block och lägger det direkt under dammråttans starblock **när GRÖN FLAGGA klickas på**. Ändra pennans storlek till 20, det blir lagom. 
 
-4. Från tema **PENNA** drar du in blocket **sätt pennans färg till**. Klicka på cirkeln med färg och välj en dammfärg du gillar. Lägg blocket direkt under det förra med pennans storlek.
+![image alt text](råtta_sätt_pennans_storlek.png)
 
-> **Tänk på!** Smutsfärgen kan inte vara samma som färgen på dammsugarroboten, dammråttan, golv eller väggar.
+4. Från tema **PENNA** drar du in blocket **sätt pennans färg till**. Klicka på cirkeln med färg i blocket och välj en dammfärg du gillar. Lägg in blocket direkt under det förra med **sätt pennans storlek 20**.
 
-5. För att pennan ska börja måla smutsfärg, väljer du tema **PENNA** och drar in blocket **penna ner**. Lägg blocket direkt under det förra med pennans färg.
+![image alt text](råtta_sätt_pennans_storlek.png)
+
+> **Tänk på!** Smutsfärgen kan inte vara samma som färgen som på dammsugarroboten, dammråttan, golv eller väggar.
+
+5. För att pennan ska börja måla smutsfärg där dammråttan åkt fram, väljer du tema **PENNA** och drar in blocket **penna ner**. Lägg blocket direkt under det förra med pennans färg.
 
 ![image alt text](dammrattaSkraparNer.PNG)
+
+6. Slutligen lägger du till ett block för att radera all pennfrg med dammet varje gång du startar om koden. Under tema **PENNA** drar du in blocket **radera allt**. Lägg den överst i dammråttans kod under **när GRÖN FLAGGA klickas på**. 
+
+![image alt text](råtta_penna_radera_allt.png)
 
 > **Testa koden!** Vad händer när du kör igång koden? Ritar dammråttan smuts? Vänder den om den stöter i väggen?
 
 Nu har vi en robotdammsugare och en dammråtta som ritar smuts. Men dammsugaren städar inte upp smutsen. Vi kodar in vidare!
 
-## 8: Dammsugarroboten får en penna
-Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. Det löser det genom att låta dammsugaren får en penna att rita över smutsen med golvfärg, så ser det rent och städat ut igen! 
+## 8: Dammsugarroboten får också en penna
+Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. Det löser vi genom att låta dammsugaren får en penna med golvfärg att rita över smutsen med, så ser det rent och städat ut igen! Gör såhär:
 
 1. Se till att sprajten för dammsugarroboten är aktiverad, så att du kodar rätt sprajt.
 
-2. Under tema **PENNA** finns kodblocket **Sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel har vi skrivit 30. Anpassa storlek beroende på hur stor eller liten din robot är. Pennans storlek behöver vara mindre än din robotdammsugare är! Prova dig fram.
+![image alt text](dammsugarsprajt_aktiverad.PNG)
+
+2. Under tema **PENNA** finns kodblocket **sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel är det 25. Pennans storlek behöver vara mindre än din robotdammsugare! Prova dig fram.
 
 ![image alt text](satt_pennans_storlek_till_30.png)
 
 2. Från tema **PENNA** lägger du även till blocket **sätt pennans färg**. Lägg det direkt under blocket **sätt pennans storlek till __**. 
 
-3. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkel i blocket **sätt pennans färg** och välj pippetten längst ned i rutan som kommer fram. Klicka sen på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
+![image alt text](robot_sätt_pennans_färg.png)
+
+3. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
 
 ![image alt text](PippetVerkyget.png)
 ![image alt text](PippetVerktygPåSpelplan.PNG)
@@ -190,19 +202,21 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta rita. Därför lägger vi till kodblock som lyfter upp pennan från golvet så den inte ritar över med färg hela tiden - utan bara när den rör vid smuts. Gör såhär: 
 
-4. Från tema **PENNA** dra du in blocket **penna upp**. Lägg blocket direkt under den två andra penn-blocken i robotens skript. 
+4. Från tema **PENNA** dra du in blocket **penna upp**. Lägg blocket direkt under den två andra pennblocken i robotens skript. 
+
+![image alt text](dammsugarConfig.png)
 
 5. Från tema **PENNA** drar du även in blocket **radera allt**. Lägg det direkt under startblocket **när GRÖN FLAGGA klickas på**. Detta kodblock gör att all färg försvinner varje gång vi startar om roboten. 
 
 ![image alt text](damsugarConfig2.PNG)
 
-Nu har vi en robot som kan måla golvfärg. Men den behöver veta vad den ska måla över, alltså känna av när den åker över smuts. Vi kodar vidare.
+Nu har vi en robot som kan måla golvfärg. Men den behöver veta när den ska måla och vad den ska måla över, alltså *känna av* när den åker över smuts. Vi kodar vidare.
 
 ## 9: Dammsugarroboten städar
 
-Först ska vi koda så att roboten känner av smutsen - eller snarare dess färg. Då ska den börja rita över smutsen med din golvfärg. Gör såhär:
+Först ska vi koda så att roboten känner av dammet i rummet - eller snarare dess färg. Då ska den börja rita över dammet med golvfärgen så det ser fint ut igen. Gör såhär:
 
-1. I tema **KONTROLL** finns blocket **Om...Då...Annars**- Dra in det och lägg det inuti **För alltid**-loopen direkt under blocket med **Om...Då** som redan ligger där. **Om...Då**-block, precis inunder vårt **Penna upp**-block i skriptet. 
+1. Under tema **KONTROLL** finns blocket **Om...Då...Annars**- Dra in det och lägg det inuti **För alltid**-loopen direkt under blocket med **Om...Då** som redan ligger där. **Om...Då**-block, precis inunder vårt **Penna upp**-block i skriptet. 
 
 2. Från tema **KÄNNA AV** drar vi sedan in ett **Känn av färgen**-block. Klicka på färgen i blocket och pippettverktyget, sedan på smutsfärgen i rummet på scenen. Då får **Känna av**-blocket smutsens färg och roboten kan "känna av smutsen". 
 
