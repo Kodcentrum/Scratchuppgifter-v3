@@ -279,11 +279,17 @@ Sådär! Nu undviker roboten din dammråttan som springer runt i lägenheten!
 > **Tips!** Vill du att dammråttan ska röra sig lite olika genom rummet, kan du prova med att lägga in att den ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på andra idéer?
 
 ### Koda ett batteri och en laddningstation till dammsugaren!
-1. Börja med att rita eller välja en sprajt som ska vara platsen där robotdammsugaren kan ladda sitt batteri. 
+Vi kan lägga till en laddningsstation till vår dammsugarrobot, som den åker till då och då för att ladda lite när batteriet blir lågt.
+
+1. Börja med att rita en sprajt som ska vara platsen där robotdammsugaren kan ladda sitt batteri. Placera det i rummet. I vårt exempel är det en liten röd ruta.
+
+![image alt text](batteri_laddstation.png)
 
 2. Skapa därefter en ny **Variabel** och döp den till **Batteri**. 
 
-> En variabel kan ses som en låda i vilken vi lägger en liten kom-ihåg lapp med någon form av information. I det här fallet är informationen hur mycket batteri som dammsugaren har kvar att använda innan den behöver laddas - som en batterimätare.
+![image alt text](batteri_skapaVariabel.png)
+
+> **Tips!** En variabel kan ses som en låda i vilken vi lägger en liten kom-ihåg lapp med någon form av information. I det här fallet är informationen hur mycket batteri som dammsugaren har kvar att använda innan den behöver laddas - som en batterimätare.
 
 3. När vi startar skriptet vill vi att batteriets variabel ska vara **1000**, så därför lägger vi till ett variabel-block som kan ändra variabelns värde. Var noga med att ändra så att det i blocket står **sätt "Batteri" till 1000**, så det ser ut såhär:
 
