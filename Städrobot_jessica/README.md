@@ -191,11 +191,11 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 ![image alt text](satt_pennans_storlek_till_30.png)
 
-2. Från tema **PENNA** lägger du även till blocket **sätt pennans färg**. Lägg det direkt under blocket med pennans storlek.
+3. Från tema **PENNA** lägger du även till blocket **sätt pennans färg**. Lägg det direkt under blocket med pennans storlek.
 
 ![image alt text](robot_sätt_pennans_färg.png)
 
-3. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
+4. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
 
 ![image alt text](PippetVerkyget_välj.png)
 ![image alt text](PippetVerktygScen.png)
@@ -204,13 +204,13 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta rita. Därför lägger vi till kodblock som lyfter upp pennan från golvet så den inte ritar över med färg hela tiden - utan bara när den rör vid smuts. Gör såhär: 
 
-4. Från tema **PENNA** dra du in blocket **penna upp**. Lägg blocket direkt under den två andra pennblocken i robotens skript. 
+5. Från tema **PENNA** dra du in blocket **penna upp**. Lägg blocket direkt under den två andra pennblocken i robotens skript. 
 
-![image alt text](dammsugarConfig.png)
+![image alt text](dammsugarConfig1.png)
 
-5. Från tema **PENNA** drar du även in blocket **radera allt**. Lägg det direkt under startblocket **när GRÖN FLAGGA klickas på**. Detta kodblock gör att all färg försvinner varje gång vi startar om roboten. 
+6. Från tema **PENNA** drar du även in blocket **radera allt**. Lägg det direkt under startblocket **när GRÖN FLAGGA klickas på**. Detta kodblock gör att all färg försvinner varje gång vi startar om roboten. 
 
-![image alt text](damsugarConfig2.PNG)
+![image alt text](dammsugarConfig2.PNG)
 
 Nu har vi en robot som kan måla golvfärg. Men den behöver veta när den ska måla och vad den ska måla över, alltså *känna av* när den åker över smuts. Vi kodar vidare.
 
