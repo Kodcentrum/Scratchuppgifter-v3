@@ -76,7 +76,7 @@ Nu ska vi börja koda roboten så att den vet hur den ska röra sig i rummet. De
 
 Nu rör sig roboten, men den känner inte av väggarna. Dags att koda vidare!
 
-## 5: Känna av väggarna
+## 4: Känna av väggarna
 Nu ska vi koda så att roboten känner av när den rör vid en vägg. Om roboten rör en vägg, då ska ska vrida sig lite och åka vidare. Gör såhär: 
 
 1. Välj tema **KONTROLL** och dra in kodblocket **Om...Då**. Lägg det någonstans fritt på robotens skriptyta.
@@ -106,7 +106,7 @@ Nu är färgen i din kod rätt, men vi måste även koda in vad roboten ska gör
 
 Nu har vi en robotdammsugare som rör sig runt i rummet och vänder när den stöter in i en vägg. Men den behöver smuts att städa upp. Vi lägger till en liten dammråtta som smutsar ned!
 
-## 6: Koda en dammråtta 
+## 5: Koda en dammråtta 
 Nu ska vi lägga till en liten sprajtfigur som smutsar ned - en dammråtta.
 
 1. Välj en sprajt som blir din dammråtta. Du kan såklart välja annat djur eller rita din egen sprajt om du hellre vill det. Klicka på **Välj en sprajt** i nedre högra hörnet av Scratch för att lägga till en ny sprajtfigur. 
@@ -143,7 +143,7 @@ Lägg nu in hela denna **om...då**-loop med väggfärg och röresle in i  det a
 
 Nu har vi en dammråtta som rör sig runt i rummet! Men den ju ska smutsa ned också. Vi lägger till en penna som ritar smuts där råttan åker fram.
 
-## 7: Dammråttan smutsar ned
+## 6: Dammråttan smutsar ned
 Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten där den åker runt. Det löser vi genom att lägga till specialblocket **Penna**, som ritar smuts efter dammråttan. Gör såhär:
 
 1. Nere i vänstra hörnet av Scratch hittar vi en knapp för **Tillägg** som ser ut såhär:
@@ -178,7 +178,7 @@ Sådär! Nu finns nya pennblock att koda med. Dax att koda vidare så dammråtta
 
 Nu har vi en robotdammsugare och en dammråtta som ritar smuts. Men dammsugaren städar inte upp smutsen. Vi kodar in vidare!
 
-## 8: Dammsugarroboten får också en penna
+## 7: Dammsugarroboten får också en penna
 Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. Det löser vi genom att låta dammsugaren får en penna med golvfärg att rita över smutsen med, så ser det rent och städat ut igen! Gör såhär:
 
 1. Se till att sprajten för dammsugarroboten är aktiverad, så att du kodar rätt sprajt.
@@ -212,7 +212,7 @@ Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta 
 
 Nu har vi en robot som kan måla golvfärg. Men den behöver veta när den ska måla och vad den ska måla över, alltså *känna av* när den åker över smuts. Vi kodar vidare.
 
-## 9: Dammsugarroboten städar
+## 8: Dammsugarroboten städar
 Först ska vi koda så att roboten känner av dammet i rummet - eller snarare dess färg. Då ska den börja rita över dammet med golvfärgen så det ser fint ut igen. Gör såhär:
 
 1. Under tema **KONTROLL** finns blocket **om...då...annars**- Dra in det och lägg det inuti **för alltid**-loopen direkt under blocket med **gå 5 steg** som redan ligger där. 
