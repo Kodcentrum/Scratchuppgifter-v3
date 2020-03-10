@@ -235,9 +235,11 @@ Först ska vi koda så att roboten känner av dammet i rummet - eller snarare de
 Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet för roboten i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
 
 **Skript för dammsugarrobot:**
+<br/>
 ![image alt text](slutresultat.png)
 
 **Skript för dammråtta:**
+<br/>
 ![image alt text](råtta_slutresultat.png)
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Robotdammsugaren - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
