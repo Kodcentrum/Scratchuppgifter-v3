@@ -148,7 +148,7 @@ Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten dä
 
 1. Nere i vänstra hörnet av Scratch hittar vi en knapp för **Tillägg** som ser ut såhär:
 
-![image alt text](laggtillBlock.png)
+![image alt text](laggTillBlock.png)
 
 2. Klicka på knappen **Tillägg**  och klicka sen på bilden som heter **Penna**, så läggs den till i ditt Scratchprojekt. 
 
@@ -166,9 +166,9 @@ Sådär! Nu finns nya pennblock att koda med. Dax att koda vidare så dammråtta
 
 > **Tänk på!** Smutsfärgen kan inte vara samma som färgen som på dammsugarroboten, dammråttan, golv eller väggar.
 
-5. För att pennan ska börja måla smutsfärg där dammråttan åkt fram, väljer du tema **PENNA** och drar in blocket **penna ner**. Lägg blocket direkt under det förra med pennans färg.
+5. För att pennan ska börja måla smutsfärg där dammråttan åkt fram, väljer du tema **PENNA** och drar in blocket **penna ned**. Lägg blocket direkt under det förra med pennans färg.
 
-![image alt text](dammrattaSkraparNer.PNG)
+![image alt text](dammrattaSkraparNer.png)
 
 6. Slutligen lägger du till ett block för att radera all pennfrg med dammet varje gång du startar om koden. Under tema **PENNA** drar du in blocket **radera allt**. Lägg den överst i dammråttans kod under **när GRÖN FLAGGA klickas på**. 
 
