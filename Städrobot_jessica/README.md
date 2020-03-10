@@ -183,7 +183,7 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 1. Se till att sprajten för dammsugarroboten är aktiverad, så att du kodar rätt sprajt.
 
-![image alt text](dammsugarsprajt_aktiverad.PNG)
+![image alt text](dammsugarsprajt_aktiverad.png)
 
 2. Under tema **PENNA** finns kodblocket **sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel är det 20. Pennans storlek behöver vara mindre än din robotdammsugare! Prova dig fram.
 
