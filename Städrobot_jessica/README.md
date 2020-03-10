@@ -148,7 +148,7 @@ Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten dä
 
 1. Nere i vänstra hörnet av Scratch hittar vi en knapp för **Tillägg** som ser ut såhär:
 
-![image alt text](laggTillBlock.png)
+![image alt text](tillägg.png)
 
 2. Klicka på knappen **Tillägg**  och klicka sen på bilden som heter **Penna**, så läggs den till i ditt Scratchprojekt. 
 
