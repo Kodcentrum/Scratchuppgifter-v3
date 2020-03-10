@@ -115,7 +115,7 @@ Nu ska vi lägga till en liten sprajtfigur som smutsar ned - en dammråtta.
 
 > **Tänk på!** Om du ritar en egen figur, var noga med att den inte har samma färg som din dammsugarrobot, väggar eller golv. 
 
-Dammråttar ska också röra sig i rummet, så vi kodar den på samma sätt som vi kodade dammsugaren:
+Dammråttan ska också röra sig i rummet, så vi kodar den på samma sätt som vi kodade dammsugaren:
 
 2. Från tema **RÖRELSE** lägger du till ett **gå 10 steg**-block och ändrar variabeln i blocket till 5 steg. 
 
@@ -213,25 +213,32 @@ Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta 
 Nu har vi en robot som kan måla golvfärg. Men den behöver veta när den ska måla och vad den ska måla över, alltså *känna av* när den åker över smuts. Vi kodar vidare.
 
 ## 9: Dammsugarroboten städar
-
 Först ska vi koda så att roboten känner av dammet i rummet - eller snarare dess färg. Då ska den börja rita över dammet med golvfärgen så det ser fint ut igen. Gör såhär:
 
-1. Under tema **KONTROLL** finns blocket **Om...Då...Annars**- Dra in det och lägg det inuti **För alltid**-loopen direkt under blocket med **Om...Då** som redan ligger där. **Om...Då**-block, precis inunder vårt **Penna upp**-block i skriptet. 
+1. Under tema **KONTROLL** finns blocket **om...då...annars**- Dra in det och lägg det inuti **för alltid**-loopen direkt under blocket med **gå 5 steg** som redan ligger där. 
 
-2. Från tema **KÄNNA AV** drar vi sedan in ett **Känn av färgen**-block. Klicka på färgen i blocket och pippettverktyget, sedan på smutsfärgen i rummet på scenen. Då får **Känna av**-blocket smutsens färg och roboten kan "känna av smutsen". 
+![image alt text](robot_om_då_annars.png)
 
-3. Från tema **PENNA** drar vi in ett **Penna ned**-block och även ett **Penna upp**-block och lägger dem inuti **Om...Då...Annars**-blocket, så att det ser ut som på bilden här:
+2. Från tema **KÄNNA AV** drar du sedan in ett **rör vid färgen**-block. Klicka på färgen i blocket och pippettverktyget, sedan på råttans sammfärg i rummet på scenen. Då får blocket rätt dammfärg och roboten kan "känna av dammet".
+
+![image alt text](robot_rör_vid_dammfärgen.png)
+
+3. När roboten känner av dammet, ska den sätta ned pennan och måla över med golvfärg, om inget damm ska roboten ta upp pennan och sluta måla. Från tema **PENNA** drar du in ett **penna ned**-block och även ett **penna upp**-block och lägger dem inuti **Om...Då...Annars**-blocket, så att det ser ut som på bilden här:
 
 ![image alt text](dammsugOmFarg.png)
 
-Vi kan nu testa skriptet och se hur roboten dammsugar upp smutsen!
-
 > **Testa koden!** Försvinner smutsen när dammsugarroboten åkt över det? Får golvet sin rätta färg igen bakom roboten? Städar roboten upp allt smuts i lägenheten?
 
-## Färdig!
-Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
+> **Tips!** Försvinner dina sprajtar ut från lägeneheten? Testa att göra tjockare ytterväggar. Du kan även sätta in en startposition i början på varje sprajts skript från tema **RÖRESLE** med blocket **gå till x:__ y__.
 
+## Färdig!
+Grattis, nu har du skapat din egen robotdammsugare! Det färdiga skriptet för roboten i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
+
+**Skript för dammsugarrobot:**
 ![image alt text](slutresultat.png)
+
+**Skript för dammråtta:**
+![image alt text](råtta_slutresultat.png)
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Robotdammsugaren - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
@@ -240,30 +247,32 @@ Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen D
 
 > **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
 
-
 ## Utmaning
 Saknas något? Hur skulle du vilja utveckla projektet? 
 Kanske finns det något i rummet som roboten behöver undvika? Kanske finns det något husdjur eller möbel som roboten måste stanna för att inte köra på? 
 
 Här nedan följer några exempel på vad du kan koda in i projektet. Vi börjar med ett kodat husdjur som roboten ska akta att inte köra på.
 
+### Få dammsugaren att undvika dammråttan
+För att dammsugarroboten inte ska åka in i dammråttan - eller kanske i olika möbler, husdjur eller människofigurer som du vill lägga till - kan du koda så att roboten stannar om den möter på något. För att roboten ska akta sig för att åka in i dammråttan gör du såhär:
 
-### Få dammsugaren att undvika husdjuret
-För att dammsugarroboten inte ska åka in i husdjuret - eller kanske i olika möbler eller människofigurer - kan du koda så att den stannar om den möter på något. För att roboten ska akta sig för att åka in i husdjuret gör du såhär:
-
-1. Se till att dammsugarrobot-sprajten är vald, så att du kan koda vidare på robotens skriptyta. 
+1. Se till att dammsugarrobot-sprajten är vald, så att du kan koda vidare på robotens skriptyta.
 
 2. Välj tema **KONTROLL** och dra in ett till **Om...Då**-block. Placera det direkt ovanför det **Om...Då**-block du redan har i skriptet som känner av färgen på väggarna. 
 
-3. I det nya **Om...Då**-blocket lägger vi till ett **Rotera vänster 15 grader**-block. Klicka på variabeln "15" och ändra det till "36" grader. (Du kan givetvis valfritt välja mellan ett vänd vänster eller vänd höger-block)
+![image alt text](robot_utmaning_om_då-block.png)
 
-4. För att få dammsugaren att vända riktning när den stöter på husdjurs-sprajten tar vi under **KÄNNA AV** ett **Rör vid muspekare?**-block. Klicka sedan på lilla pilen på **Rör vid muspekare?**-blocket och välj vårt husdjurs-sprajt i listan, så muspekare nyts ut mot din husdjurssprajts namn. Detta **Rör vid...?**-block sätter vi sen in inuti det nya **Om...Då**-blocket. 
+3. Inuti det nya **Om...Då**-blocket lägger vi till ett **Rotera vänster 15 grader**-block från tema **RÖRELSE**. Klicka på variabeln "15" och ändra det till "36" grader.
 
-Sådär! Nu undviker robotdammsugaren även ditt husdjur som springer runt i lägenheten!
+![image alt text](robot_utmaning_vända.png)
 
-> **Tips!** Du kan givetvis göra på samma sätt för att undvika exempelvis en möbel eller annat i din lägenhet. Det är bra om alla saker som roboten ska undvika har en egen speciell färg, annars kan inte roboten veta vad den rör vid. Men det går såklart bra att allt har samma färg som exempelvis väggarna, så undviker roboten alltid just den färgen.
+4. Roboten behöver känna av när den rör vid dammråttan. Från tema **KÄNNA AV** drar du ut ett **Rör vid muspekare?**-block och lägger in det i lilla hålet i ditt **om...då**-block. Klicka på lilla pilen på **Rör vid muspekare?**-blocket och välj dammråttans sprajt från listan som visas. 
 
-> **Tips!** Vill du att ditt husdjur ska röra sig lite olika genom rummet, kan du prova med att lägga in att den förslagsvis ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller  ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på andra idéer?
+![image alt text](robot_utmaning_RörVidRåtta.png)
+
+Sådär! Nu undviker roboten din dammråttan som springer runt i lägenheten!
+
+> **Tips!** Vill du att dammråttan ska röra sig lite olika genom rummet, kan du prova med att lägga in att den ska vänta några sekunder ibland på olika ställen, eller att den ska röra sig annorlunda om den kommer nära robotdammsugaren. Kanske den ska ha röst eller ljud - eller pratbubbla med text som säger någonting? Kanske du kommer på andra idéer?
 
 ### Koda ett batteri och en laddningstation till dammsugaren!
 1. Börja med att rita eller välja en sprajt som ska vara platsen där robotdammsugaren kan ladda sitt batteri. 
@@ -322,18 +331,3 @@ Sådär! Nu använder din robotdammsugare ett batteri och kan ladda det!
 3. Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
 
 4. Bygg en tidsräknare som räknar städtiden, eller en poängräknare som ger roboten minuspoäng om den dammsugar upp exempelvis strumpor eller kattgodis som katten letar efter. Kanske du kommer på fler egna idéer?
-
-
-
-BORTKLIPPT!
-
-## 3: Smutsa ner rummet
-Dammsugaren behöver såklart smuts och damm att städa upp. Dax att måla smuts! 
-
-1. Välj verktyget **Pensel** och en färg att rita allt smuts med. 
-
-2. Måla ut smuts lite här och var i rummen. Gör ganska mycket, som om det inte har städats på riktigt länge! Det är viktigt att allt smuts har en och samma färg.
-
-![image alt text](rummedSmuts.png)
-
-Sådär! Nu har vi en riktigt smutsig lägenhet och en robot som vi nu kan programmera att städa upp efter oss! Dax att väcka liv i roboten!
