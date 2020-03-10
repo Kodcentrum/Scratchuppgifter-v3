@@ -337,13 +337,11 @@ Nu går det att ladda robotens batteri. Men batteriet behöver ju laddas ur ocks
 
 ![image alt text](batteri_operator.png)
 
-10. Från tema **VARIABLER** dra du in blocket som heter **Batteri**. Lägg det i operatorns vänstra tomma cirkel. Skriv sedan värdet **0** i den högra cirkeln på operatorn. 
+10. Från tema **VARIABLER** dra du in blocket som heter **Batteri**. Lägg det i operatorns vänstra tomma cirkel. Ändra värdet 50 till värdet **0** i den högra cirkeln på operatorn. 
 
 ![image alt text](batteri_operator_batterivariabel.png)
 
-Nu kan blocket göra jämförelsen **om "Batteri" är större än 0**. Alltså om värdet för Batteri är större än 0 - då ska något hända. Koden ser alltså nu ut såhär:
-
-![image alt text](batteriStörreÄnNoll.png)
+Nu kan blocket göra jämförelsen **om "Batteri" är större än 0**. Alltså om värdet för Batteri är större än 0 - då ska något hända.
 
 7. Vad ska då hända? Jo, batteriet ska laddas ur. Från tema **VARIABLER** drar du in ett **ändra Batteri med 1**-block. Lägg det inom **om...då**-delen och ändra variablen till **-1** istället. Koden ser då ut såhär:
 
