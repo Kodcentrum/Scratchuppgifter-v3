@@ -170,7 +170,7 @@ Sådär! Nu finns nya pennblock att koda med. Dax att koda vidare så dammråtta
 
 5. För att pennan ska börja måla smutsfärg där dammråttan åkt fram, väljer du tema **PENNA** och drar in blocket **penna ned**. Lägg blocket direkt under det förra med pennans färg.
 
-![image alt text](dammrattaSkraparNer.png)
+![image alt text](råttaSkräparNer.png)
 
 6. Slutligen lägger du till ett block för att radera all pennfrg med dammet varje gång du startar om koden. Under tema **PENNA** drar du in blocket **radera allt**. Lägg den överst i dammråttans kod under **när GRÖN FLAGGA klickas på**. 
 
