@@ -365,13 +365,9 @@ Nu Har vi kodat batteriets laddning och urladdning. Då återstår bara att gör
 
 ![image alt text](batteri_robot_batterikoll.png)
 
+Nu är batteriet klart och skriptet bör då se ut såhär:
 
-AAAAAAAAAAAAAAAAAAAA
-
-
-Nu ska vi bara lägga in detta block innanför **för alltid**-blocket, och dra med även all den kod som tidigare låg innanför **för alltid**-blocket i det nya om blocket. När du är klar bör det se ut såhär:
-
-![image alt text](dammsugareMedBatteri.png)
+![image alt text](Batteri_laddstation_KLAR.png)
 
 Sådär! Nu använder din robotdammsugare ett batteri och kan ladda det!
 
