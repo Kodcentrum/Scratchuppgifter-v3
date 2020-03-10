@@ -156,13 +156,13 @@ Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten dä
 
 Sådär! Nu finns nya pennblock att koda med. Dax att koda vidare så dammråttan kan börja smutsa ned - eller ritar "damm" med en penna!
 
-3. Under nya temat **PENNA** drar du ut ett **sätt pennans storlek 1**-block och lägger det direkt under dammråttans starblock **när GRÖN FLAGGA klickas på**. Ändra pennans storlek till 20, det blir lagom. 
+3. Under nya temat **PENNA** drar du ut ett **sätt pennans storlek 1**-block och lägger det direkt under dammråttans starblock **när GRÖN FLAGGA klickas på**. Ändra pennans storlek till 10, det blir lagom. 
 
 ![image alt text](råtta_sätt_pennans_storlek.png)
 
-4. Från tema **PENNA** drar du in blocket **sätt pennans färg till**. Klicka på cirkeln med färg i blocket och välj en dammfärg du gillar. Lägg in blocket direkt under det förra med **sätt pennans storlek 20**.
+4. Från tema **PENNA** drar du in blocket **sätt pennans färg till**. Klicka på cirkeln med färg i blocket och välj en dammfärg du gillar. Lägg in blocket direkt under det förra med pennans storlek.
 
-![image alt text](råtta_sätt_pennans_storlek.png)
+![image alt text](råtta_sätt_pennans_färg.png)
 
 > **Tänk på!** Smutsfärgen kan inte vara samma som färgen som på dammsugarroboten, dammråttan, golv eller väggar.
 
@@ -185,18 +185,18 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 ![image alt text](dammsugarsprajt_aktiverad.PNG)
 
-2. Under tema **PENNA** finns kodblocket **sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel är det 25. Pennans storlek behöver vara mindre än din robotdammsugare! Prova dig fram.
+2. Under tema **PENNA** finns kodblocket **sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel är det 20. Pennans storlek behöver vara mindre än din robotdammsugare! Prova dig fram.
 
 ![image alt text](satt_pennans_storlek_till_30.png)
 
-2. Från tema **PENNA** lägger du även till blocket **sätt pennans färg**. Lägg det direkt under blocket **sätt pennans storlek till __**. 
+2. Från tema **PENNA** lägger du även till blocket **sätt pennans färg**. Lägg det direkt under blocket med pennans storlek.
 
 ![image alt text](robot_sätt_pennans_färg.png)
 
 3. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
 
 ![image alt text](PippetVerkyget.png)
-![image alt text](PippetVerktygPåSpelplan.PNG)
+![image alt text](PippetVerktygPåSpelplan.png)
 
 > **Tänk på!** Det är viktigt att färgen på pennan har exakt samma färg som golvet i rummet du ritat. Då ritar pennan över dammråttans smutsfärg med golvfärgen.
 
