@@ -196,7 +196,7 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 3. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
 
 ![image alt text](PippetVerkyget.png)
-![image alt text](PippetVerktygPåSpelplan.png)
+![image alt text](PippetVerktygScen.png)
 
 > **Tänk på!** Det är viktigt att färgen på pennan har exakt samma färg som golvet i rummet du ritat. Då ritar pennan över dammråttans smutsfärg med golvfärgen.
 
