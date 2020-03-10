@@ -210,7 +210,7 @@ Vi vill kunna styra när dammsugaren ska rita med pennan och när den ska sluta 
 
 6. Från tema **PENNA** drar du även in blocket **radera allt**. Lägg det direkt under startblocket **när GRÖN FLAGGA klickas på**. Detta kodblock gör att all färg försvinner varje gång vi startar om roboten. 
 
-![image alt text](dammsugarConfig2.PNG)
+![image alt text](dammsugarConfig2.png)
 
 Nu har vi en robot som kan måla golvfärg. Men den behöver veta när den ska måla och vad den ska måla över, alltså *känna av* när den åker över smuts. Vi kodar vidare.
 
