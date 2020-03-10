@@ -45,9 +45,11 @@ Gör såhär:
 
 3. Välj sen verktyg att måla med, exempelvis **Pensel**, och en färg du vill ha på väggarna. Måla upp väggarnas form som om du såg rummet ovanifrån. Tänk på att inte göra det för trångt för roboten att kunna åka in mellan väggarna. 
 
+![image alt text](rum.png) 
+
 4. Golvet kan också få en ny färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
-Nu har vi en dammsugarrobot och ett rum, men vi måste rå roboten att börja röra på sig. Dax att börja koda.
+Nu har vi en dammsugarrobot och ett rum, men vi måste få roboten att börja röra på sig. Dax att börja koda.
 
 ## 3: Få roboten att röra sig
 Nu ska vi börja koda roboten så att den vet hur den ska röra sig i rummet. Det första som vi vill göra är att få roboten att röra sig framåt. 
