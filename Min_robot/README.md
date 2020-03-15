@@ -273,3 +273,14 @@ Nu har du en robot som kan slumpa fram svar. Utmana dig genom att lägga till fl
 
 ## Frågeställningar
 
+* Vad är en loop?
+
+* Varför kan det vara bra att använda en loop?
+
+* Vad är ett villkor? 
+
+* Vad är slump?
+
+* Varför kan inte roboten förstå dig om du skriver fel svar på frågan?
+
+
