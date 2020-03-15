@@ -292,10 +292,10 @@ Sådär! Nu undviker roboten din dammråttan som springer runt i lägenheten!
 
 * Vad är en loop?
 
-* Vad är ett villkor? 
+* Varför är en loop bra att använda ibland?
 
-* Vad är operatorer bra till?
+* Vad är ett villkor? 
 
 * Vad händer om roboten inte känner igen väggfärgen?
 
-* 
+* Vad händer om dammråttan har samma färg som dammet?
