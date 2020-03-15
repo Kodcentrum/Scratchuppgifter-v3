@@ -287,3 +287,15 @@ Sådär! Nu undviker roboten din dammråttan som springer runt i lägenheten!
 3. Ska roboten och husdjuret ha ljud, kanske robot-ljud, varningssignaler eller husdjur som jamar eller skäller? Kanske pratbubblor med text?
 
 4. Bygg en tidsräknare som räknar städtiden, eller en poängräknare som ger roboten minuspoäng om den dammsugar upp exempelvis strumpor eller kattgodis som katten letar efter. Kanske du kommer på fler egna idéer?
+
+## Frågeställningar
+
+* Vad är en loop?
+
+* Vad är ett villkor? 
+
+* Vad är operatorer bra till?
+
+* Vad händer om roboten inte känner igen väggfärgen?
+
+* 
