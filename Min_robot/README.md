@@ -7,10 +7,8 @@ Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam M
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva Min Robot-projektet utifrån Kodbokens instruktioner.
-  
-Du bestämmer själv hur just din robot ska se ut, vad den ska hjälpa till med och hur. Kanske det är en Matrobot som hjälper dig att välja vad du ska äta till middag? Eller en Musikrobot som spelar glad musik när du har tråkigt? 
 
-Då börjar vi koda!
+Så, vad ska din robot hjälpa dig med? Dax att börja koda!
 
 ## 1: Välj bakgrund och din robot
 
