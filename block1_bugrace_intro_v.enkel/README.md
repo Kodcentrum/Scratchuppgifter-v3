@@ -10,7 +10,24 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Välj en skalbagge som sprajt
+## 1: Välj ny skalbagge som sprajt
+
+Gör det här: 
+
+1. **Ta bort kattfiguren.**
+
+    ![image alt text](Ta_bort_Sprajt.png) 
+    
+2. **Välj ny sprajt**
+
+    ![image alt text](Ny_Sprajt-knapp.png)
+
+3. **Minska sprajtens storlek.**
+
+    ![image alt text](Ändra_Storlek_Sprajt.png)
+
+
+**Full instruktion om hur man gör det:**
 
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
@@ -38,11 +55,32 @@ Klicka dig vidare.
 
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 
-4. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
+**Gör det här:**
+
+1. **Aktivera bakgrunder:**
+
+    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
+    
+2. **Aktivera Bitmapp-läge:**
+
+    ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
+
+3. **Välj färg och verktyg för att fylla bakgrund:**
+
+   ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)     ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
+   
+4. **Välj ny färg och verktyg för att måla en bana:**
+
+ ![image alt text](Bakgrund_måla_pensel.png)      ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
+ 
+ 
+**Full instruktion om hur man gör det:**
+
+1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-5. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
+2. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
 
     ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
@@ -56,18 +94,39 @@ Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** 
   
 > Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
 
-6. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt). Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+3. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt). Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
- Rita nu en bana som en oval eller en utdragen cirkel - gör den så stor som du kan, utan att den hamnar utanför spelets ruta!
+Rita nu en bana som en oval eller en utdragen cirkel - gör den så stor som du kan, utan att den hamnar utanför spelets ruta!
 
- Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
+Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
 
-## 3: Ditt första skript
+## 3: Sprajten rör sig
+Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
+
+**Gör såhär:**
+
+1. **Välj KOD och din sprajt för att kunna börja koda:**
+
+BILD KODFLIK + SKALBAGGESKRAJT AKTIVERAD
+
+2. **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
+
+  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
+  
+3. **Lägg in kod för RÖRELSE: Gå 10 steg:**
+
+  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
+  
+4. **Lägg in kod för KONTROLL: För alltid (en loop):**
+
+  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
+
+**Full instruktion om hur man gör det:**
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
@@ -85,7 +144,7 @@ Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på STAR
 
 Gör såhär:
 
-7. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
+1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
 
@@ -99,7 +158,7 @@ Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj block
 
 > Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
 
-8. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
+2. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
 Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
