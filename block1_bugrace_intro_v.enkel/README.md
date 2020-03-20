@@ -12,19 +12,16 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny skalbagge som sprajt
 
+<video src="./BugRaceIntroDel1_enkel.mp4" autoplay loop muted />
 > Gör det här: 
 
 1. **Ta bort kattfiguren.**
-
-    ![image alt text](Ta_bort_Sprajt.png) 
     
 2. **Välj ny sprajt**
 
-    ![image alt text](Ny_Sprajt-knapp.png)
-
 3. **Minska sprajtens storlek.**
 
-    ![image alt text](Ändra_Storlek_Sprajt.png)
+
 
 
 **Full instruktion om hur man gör det:**
