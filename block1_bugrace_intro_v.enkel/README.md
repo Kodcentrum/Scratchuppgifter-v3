@@ -12,7 +12,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny skalbagge som sprajt
 
-<video src="./BugRaceIntroDel1_enkel.mp4" autoplay loop muted />
+<video src="./BugRaceIntroDel1_enkel.mp4" autoplay loop muted height=480 width=640 />
 > Gör det här: 
 
 1. **Ta bort kattfiguren.**
