@@ -11,20 +11,14 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
 ## 1: Välj ny skalbagge som sprajt
-
 <video src="./BugRaceIntroDel1_enkel.mp4" autoplay loop muted height=480 width=640 />
-> Gör det här: 
-
 1. **Ta bort kattfiguren.**
     
 2. **Välj ny sprajt**
 
 3. **Minska sprajtens storlek.**
 
-
-
-
-**Full instruktion om hur man gör det:**
+**Full instruktion om hur du gör detta:**
 
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
