@@ -15,6 +15,8 @@ Först ska vi byta sprajt-figur!
 
 ![image alt text](Robot_1.gif)
 
+Hej
+
 ![image alt text](BugRaceintroDel1.gif)
 
 **Gör naaa detta:**
