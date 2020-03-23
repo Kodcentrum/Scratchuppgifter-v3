@@ -13,14 +13,16 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 ## 1: Välj ny skalbagge som sprajt
 <video src="./BugRaceIntroDel1_enkel.mp4" autoplay muted height=480 width=640 />
 ___
+**Gör detta:**
 
 1. **Ta bort kattfiguren.**
     
 2. **Välj ny sprajt**
 
 3. **Minska sprajtens storlek.**
+___
 
-**Full instruktion om hur du gör detta:**
+**Full instruktion om hur du gör:**
 
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
@@ -48,6 +50,9 @@ Klicka dig vidare.
 
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 <video src="./BugRaceIntroDel2_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
+
 1. **Aktivera bakgrunder:**
 
 2. **Aktivera Bitmapp-läge:**
@@ -55,8 +60,8 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 3. **Välj färg och verktyg för att fylla bakgrund:**
    
 4. **Välj ny färg och verktyg för att måla en bana:**
- 
- 
+___
+
 **Full instruktion om hur du gör detta:**
 
 1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
@@ -91,10 +96,14 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 ## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
 <video src="./BugRaceIntroDel3_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
+
 1. **Välj KOD och din sprajt för att kunna börja koda:**
 2. **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
 3. **Lägg in kod för RÖRELSE: Gå 10 steg:**
 4. **Lägg in kod för KONTROLL: För alltid (en loop):**
+___
 
 **Full instruktion om hur du gör detta:**
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
@@ -143,11 +152,14 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta. 
 > **Tips!** Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
 <video src="./BugRaceIntroDel4_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
 
 1. **Dra sprajten till där du vill den ska starta på banan.**
 2. **Lägg in kod för RÖRELSE: gå till x:__ y:__.**
+___
 
-**Full instruktion om hur du gör detta:**
+**Full instruktion om hur du gör:**
 
 1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en rakträcka, inte en kurva. 
 
@@ -162,9 +174,12 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
 <video src="./BugRaceIntroDel5_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
 1. **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
 2. **Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*.**
 3. **Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader.**
+___
 
 **Full instruktion om hur du gör detta:**
 1. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
