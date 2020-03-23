@@ -21,7 +21,6 @@ Först ska vi byta sprajt-figur!
 2. **Välj ny sprajt**
 
 3. **Minska sprajtens storlek.**
-___
 
 **Full instruktion om hur du gör:**
 
@@ -50,8 +49,8 @@ Klicka dig vidare.
 ## 2: Färglägg bakgrunden och rita en bana
 
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
-<video src="./BugRaceIntroDel2_enkel.mp4" autoplay loop muted height=480 width=640 />
-___
+<video src="./Bugracedel2.mp4" autoplay loop muted height=480 width=640 />
+
 **Gör detta:**
 
 1. **Aktivera bakgrunder:**
@@ -61,7 +60,6 @@ ___
 3. **Välj färg och verktyg för att fylla bakgrund:**
    
 4. **Välj ny färg och verktyg för att måla en bana:**
-___
 
 **Full instruktion om hur du gör detta:**
 
