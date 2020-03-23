@@ -12,8 +12,9 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny skalbagge som sprajt
 Först ska vi byta sprajt-figur!
-<video src="./BugRaceIntroDel1.gif" autoplay loop muted height=480 width=640 />
+![image alt text](BugRaceIntroDel1.gif)
 ___
+
 **Gör detta:**
 
 1. **Ta bort kattfiguren.**
