@@ -13,6 +13,8 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 ## 1: Välj ny skalbagge som sprajt
 Först ska vi byta sprajt-figur!
 
+![image alt text](Robot_1.gif)
+
 ![image alt text](BugRaceintroDel1.gif)
 
 ___
