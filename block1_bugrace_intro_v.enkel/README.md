@@ -11,20 +11,19 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
 ## 1: Välj ny skalbagge som sprajt
-
-<video src="./BugRaceIntroDel1_enkel.mp4" autoplay loop muted height=480 width=640 />
-> Gör det här: 
+Först ska vi byta sprajt-figur!
+<video src="./BugRaceIntroDel1_enkel.mp4" autoplay muted height=480 width=640 />
+___
+**Gör detta:**
 
 1. **Ta bort kattfiguren.**
     
 2. **Välj ny sprajt**
 
 3. **Minska sprajtens storlek.**
+___
 
-
-
-
-**Full instruktion om hur man gör det:**
+**Full instruktion om hur du gör:**
 
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
@@ -51,27 +50,20 @@ Klicka dig vidare.
 ## 2: Färglägg bakgrunden och rita en bana
 
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
-
-**Gör det här:**
+<video src="./BugRaceIntroDel2_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
 
 1. **Aktivera bakgrunder:**
 
-    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
-    
 2. **Aktivera Bitmapp-läge:**
 
-    ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
-
 3. **Välj färg och verktyg för att fylla bakgrund:**
-
-   ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)     ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
    
 4. **Välj ny färg och verktyg för att måla en bana:**
+___
 
- ![image alt text](Bakgrund_måla_pensel.png)      ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
- 
- 
-**Full instruktion om hur man gör det:**
+**Full instruktion om hur du gör detta:**
 
 1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
@@ -102,29 +94,19 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
 
-## 3: Sprajten rör sig
+## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-
-**Gör såhär:**
+<video src="./BugRaceIntroDel3_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
 
 1. **Välj KOD och din sprajt för att kunna börja koda:**
-
-BILD KODFLIK + SKALBAGGESKRAJT AKTIVERAD
-
 2. **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
-
-  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
-  
 3. **Lägg in kod för RÖRELSE: Gå 10 steg:**
-
-  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
-  
 4. **Lägg in kod för KONTROLL: För alltid (en loop):**
+___
 
-  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
-
-**Full instruktion om hur man gör det:**
-
+**Full instruktion om hur du gör detta:**
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
 Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
@@ -168,12 +150,21 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 
 
 ## 4: Sätt en Startposition
+För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta. 
+> **Tips!** Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
+<video src="./BugRaceIntroDel4_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
 
-För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.
+1. **Dra sprajten till där du vill den ska starta på banan.**
+2. **Lägg in kod för RÖRELSE: gå till x:__ y:__.**
+___
 
-Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
+**Full instruktion om hur du gör:**
 
-9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en rakträcka, inte en kurva. 
+
+2. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
@@ -183,10 +174,16 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 ## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
+<video src="./BugRaceIntroDel5_enkel.mp4" autoplay loop muted height=480 width=640 />
+___
+**Gör detta:**
+1. **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
+2. **Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*.**
+3. **Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader.**
+___
 
-Gör såhär:
-
-10. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
+**Full instruktion om hur du gör detta:**
+1. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
 
   ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
 
@@ -194,7 +191,7 @@ Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Kli
 
   ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
 
-11. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
+2. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
 
   ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
 
