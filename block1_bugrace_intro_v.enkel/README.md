@@ -19,7 +19,7 @@ Först ska vi byta sprajt-figur!
 
 ___
 
-**Gör n detta:**
+**Gör nee detta:**
 
 1. **Ta bort kattfiguren.**
     
