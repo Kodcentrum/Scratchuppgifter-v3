@@ -17,9 +17,7 @@ Först ska vi byta sprajt-figur!
 
 ![image alt text](BugRaceintroDel1.gif)
 
-___
-
-**Gör nee detta:**
+**Gör naaa detta:**
 
 1. **Ta bort kattfiguren.**
     
