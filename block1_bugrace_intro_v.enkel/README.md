@@ -11,6 +11,7 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
 ## 1: Välj ny skalbagge som sprajt
+Först ska vi byta sprajt-figur!
 <video src="./BugRaceIntroDel1_enkel.mp4" autoplay muted height=480 width=640 />
 ___
 **Gör detta:**
