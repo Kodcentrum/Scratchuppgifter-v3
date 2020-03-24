@@ -12,21 +12,15 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny skalbagge som sprajt
 Först ska vi byta sprajt-figur!
+<video src="./bugracedel1_fade.mp4" autoplay loop muted height=480 width=640 />
 
-![image alt text](Robot_1.gif)
+**Gör detta:**
 
-Hej
-
-![image alt text](BugRaceintroDel1.gif)
-
-**Gör naaa detta:**
-
-1. **Ta bort kattfiguren.**
+- **Ta bort kattfiguren.**
     
-2. **Välj ny sprajt**
+- **Välj ny sprajt**
 
-3. **Minska sprajtens storlek.**
-___
+- **Minska sprajtens storlek.**
 
 **Full instruktion om hur du gör:**
 
@@ -55,18 +49,17 @@ Klicka dig vidare.
 ## 2: Färglägg bakgrunden och rita en bana
 
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
-<video src="./BugRaceIntroDel2_enkel.mp4" autoplay loop muted height=480 width=640 />
-___
+<video src="./Bugracedel2.mp4" autoplay loop muted height=480 width=640 />
+
 **Gör detta:**
 
-1. **Aktivera bakgrunder:**
+- **Aktivera bakgrunder:**
 
-2. **Aktivera Bitmapp-läge:**
+- **Aktivera Bitmapp-läge:**
 
-3. **Välj färg och verktyg för att fylla bakgrund:**
+- **Välj färg och verktyg för att fylla bakgrund:**
    
-4. **Välj ny färg och verktyg för att måla en bana:**
-___
+- **Välj ny färg och verktyg för att måla en bana:**
 
 **Full instruktion om hur du gör detta:**
 
@@ -102,14 +95,13 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 ## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
 <video src="./BugRaceIntroDel3_enkel.mp4" autoplay loop muted height=480 width=640 />
-___
+
 **Gör detta:**
 
-1. **Välj KOD och din sprajt för att kunna börja koda:**
-2. **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
-3. **Lägg in kod för RÖRELSE: Gå 10 steg:**
-4. **Lägg in kod för KONTROLL: För alltid (en loop):**
-___
+- **Välj KOD och din sprajt för att kunna börja koda:**
+- **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
+- **Lägg in kod för RÖRELSE: Gå 10 steg:**
+- **Lägg in kod för KONTROLL: För alltid (en loop):**
 
 **Full instruktion om hur du gör detta:**
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
@@ -158,12 +150,11 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta. 
 > **Tips!** Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
 <video src="./BugRaceIntroDel4_enkel.mp4" autoplay loop muted height=480 width=640 />
-___
+
 **Gör detta:**
 
-1. **Dra sprajten till där du vill den ska starta på banan.**
-2. **Lägg in kod för RÖRELSE: gå till x:__ y:__.**
-___
+- **Dra sprajten till där du vill den ska starta på banan.**
+- **Lägg in kod för RÖRELSE: gå till x:__ y:__.**
 
 **Full instruktion om hur du gör:**
 
@@ -180,12 +171,11 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
 <video src="./BugRaceIntroDel5_enkel.mp4" autoplay loop muted height=480 width=640 />
-___
+
 **Gör detta:**
-1. **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
-2. **Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*.**
-3. **Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader.**
-___
+- **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
+- **Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*.**
+- **Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader.**
 
 **Full instruktion om hur du gör detta:**
 1. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
@@ -207,7 +197,7 @@ Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Kli
 
 Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 
-12. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
+1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
   ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
 
@@ -222,11 +212,11 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 
 Gör såhär:
 
-13. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
+1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
 
   ![image alt text](Koda_KONTROLL-Om-Då-block.png)
   
-14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
+2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
 Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. 
 
   ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
@@ -235,7 +225,7 @@ Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"**
 
   ![image alt text](Känna_av_byt_färg_pimpett.png)
 
-15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
+3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
   ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
 
@@ -248,11 +238,11 @@ Något saknas för att koden ska fungera! Tänk efter: **När** vill du att dato
 
 Gör såhär:
 
-16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
+1. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
   ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
 
-17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till scriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"**.
+2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till scriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"**.
 
   ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
 
