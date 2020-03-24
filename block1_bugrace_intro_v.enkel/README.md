@@ -12,7 +12,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny skalbagge som sprajt
 Först ska vi byta sprajt-figur!
-<video src="./bugracedel1_fade.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **Gör detta:**
 
@@ -49,9 +49,7 @@ Klicka dig vidare.
 ## 2: Färglägg bakgrunden och rita en bana
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 
-<video src="./bugracedel1_fade.mp4" autoplay loop muted height=480 width=640 />
-
-<video src="./bugracedel2.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **Gör detta:**
 
@@ -96,7 +94,7 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 
 ## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-<video src="./BugRaceIntroDel3_enkel.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel3_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **Gör detta:**
 
@@ -151,7 +149,7 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 ## 4: Sätt en Startposition
 För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta. 
 > **Tips!** Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
-<video src="./BugRaceIntroDel4_enkel.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel4_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **Gör detta:**
 
@@ -172,7 +170,7 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 ## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
-<video src="./BugRaceIntroDel5_enkel.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel5_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **Gör detta:**
 - **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
@@ -198,6 +196,7 @@ Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Kli
 ## 6: Ändra startriktning
 
 Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
+<video src="./BugRacedel6_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
@@ -211,6 +210,7 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 ## 7: Känna av när skalbaggen åker av banan
 
 Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför banan. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
+<video src="./BugRacedel7_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 Gör såhär:
 
@@ -237,6 +237,7 @@ Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"**
 ## 8: Göra klart skriptet
 
 Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
+<video src="./BugRacedel8_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 Gör såhär:
 
