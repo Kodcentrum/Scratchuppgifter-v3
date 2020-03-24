@@ -47,9 +47,8 @@ Klicka dig vidare.
 
 
 ## 2: Färglägg bakgrunden och rita en bana
-
 Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
-<video src="./BugRacedel2_ny.gif" autoplay loop muted height=480 width=640 />
+    ![image alt text](BugRacedel2_ny.gif)
 
 **Gör detta:**
 
