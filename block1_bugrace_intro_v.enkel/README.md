@@ -14,7 +14,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 Byt ut katt-sprajten till ny sprajt - en skalbagge!
 
-**ATT GÖRA**
+**ATT GÖRA:**
 - **Ta bort kattfiguren**
     
 - **Välj ny sprajt**
