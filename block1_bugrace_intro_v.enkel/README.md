@@ -15,13 +15,14 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 Byt ut katt-sprajten till ny sprajt - en skalbagge!
 
 **ATT GÖRA:**
-- **Ta bort kattfiguren**
+- Ta bort kattfiguren
     
-- **Välj ny sprajt**
+- Välj ny sprajt
 
-- **Minska sprajtens storlek**
+- Minska sprajtens storlek
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
-</br>
+Videon visar stegen som ska göras i detta avsnitt.
+<br>
 **INSTRUKTION STEG-FÖR-STEG:**
 
 I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
