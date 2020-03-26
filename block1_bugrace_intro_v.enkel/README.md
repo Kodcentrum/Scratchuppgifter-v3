@@ -12,8 +12,9 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Välj ny sprajtfigur
 
-Byt ut katt-sprajten till en ny sprajtfigur.
+Byt ut katt-sprajten till ny sprajt - en skalbagge!
 
+**ATT GÖRA**
 - **Ta bort kattfiguren**
     
 - **Välj ny sprajt**
@@ -22,26 +23,26 @@ Byt ut katt-sprajten till en ny sprajtfigur.
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 **INSTRUKTION STEG-FÖR-STEG:**
 
-I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
-När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
+Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
 
-1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den - du har nu tagit bort den ur projektet.
+1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
+2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-  En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du skalbaggen. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
+En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
 
-3. Skalbaggen är ganska stor, för att spelet ska bli enklare att spela måste vi minska storleken på sprajten. Under projektet med sprajten hittar du **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50 för hälften så stor. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
-Klicka dig vidare.
+Klicka dig vidare till kapitel 2.
 
 
 ## 2: Färglägg bakgrunden och rita en bana
