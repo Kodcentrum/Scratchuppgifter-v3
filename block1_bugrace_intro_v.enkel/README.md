@@ -16,6 +16,7 @@ Byt ut katt-sprajten till ny sprajt - en skalbagge!
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA? (se videon ovan):**
+
 Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
