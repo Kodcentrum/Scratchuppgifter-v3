@@ -14,7 +14,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 Byt ut katt-sprajten till ny sprajt - en skalbagge!
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
-_
+
 **ATT GÖRA (se videon ovan):**
 - Ta bort kattfiguren
     
@@ -51,7 +51,7 @@ Klicka dig vidare till kapitel 2.
 ## 2: Färglägg bakgrunden och rita en bana
 Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 <video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
-_
+
 **ATT GÖRA (se videon ovan):**
 - Aktivera bakgrunder
 
