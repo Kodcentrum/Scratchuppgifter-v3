@@ -14,7 +14,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 Byt ut katt-sprajten till ny sprajt - en skalbagge!
 
-**ATT GÖRA:**
+**ATT GÖRA (se videon nedan):**
 - Ta bort kattfiguren
     
 - Välj ny sprajt
@@ -22,8 +22,8 @@ Byt ut katt-sprajten till ny sprajt - en skalbagge!
 - Minska sprajtens storlek
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 Videon visar stegen som ska göras i detta avsnitt.
-<br>
-**INSTRUKTION STEG-FÖR-STEG:**
+</br>
+**INSTRUKTION STEG-FÖR-STEG:*
 
 I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
@@ -50,19 +50,17 @@ Klicka dig vidare till kapitel 2.
 ## 2: Färglägg bakgrunden och rita en bana
 Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 
-<video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
+**ATT GÖRA (se videon nedan):**
 
-**GÖR DETTA:**
+- Aktivera bakgrunder
 
-- **Aktivera bakgrunder**
+- Aktivera Bitmapp-läge
 
-- **Aktivera Bitmapp-läge**
-
-- **Välj färg och verktyg för att fylla bakgrund**
+- Välj färg och verktyg för att fylla bakgrund
    
-- **Välj ny färg och verktyg för att måla en bana**
-<br>
-<br>
+- Välj ny färg och verktyg för att måla en bana
+<video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
+</br>
 **INSTRUKTION STEG-FÖR-STEG:**
 
 1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
