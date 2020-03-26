@@ -48,7 +48,7 @@ Klicka dig vidare till kapitel 2.
 
 
 ## 2: Färglägg bakgrunden och rita en bana
-Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
 
 <video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
 
@@ -83,7 +83,7 @@ Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** 
   
 > Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
 
-3. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt). Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+3. Tryck sen på verktyget **PENSEL** och välj en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbaggens färger. Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
