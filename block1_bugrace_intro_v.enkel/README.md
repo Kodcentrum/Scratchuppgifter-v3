@@ -1,5 +1,5 @@
 # Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over! 
+I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over! .
 
 Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
