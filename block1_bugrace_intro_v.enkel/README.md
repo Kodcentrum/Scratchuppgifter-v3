@@ -16,6 +16,7 @@ Byt ut katt-sprajten till ny sprajt - en skalbagge!
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA? (se videon ovan):**
+Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
 - Minska sprajtens storlek
@@ -95,7 +96,7 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
 <video src="./BugRacedel3_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-**VAD SKA JAG GÖRA?** (se videon ovan)
+>**VAD SKA JAG GÖRA?** (se videon ovan):
 - Välj KOD och din sprajt för att kunna börja koda
 - Lägg in kod för start-block: När GRÖN FLAGGA klickas på
 - Lägg in kod för RÖRELSE: Gå 10 steg
