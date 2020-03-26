@@ -225,7 +225,7 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 
 ## 7: Känna av när skalbaggen åker av banan
 
-Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför banan. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
+Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
 <video src="./BugRacedel7_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
