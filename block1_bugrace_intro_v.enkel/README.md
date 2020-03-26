@@ -10,8 +10,17 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Välj ny skalbagge som sprajt
-Först ska vi byta sprajt-figur!
+## 1: Välj ny sprajt
+Byt ut katt-sprajten till en ny sprajtfigur.
+
+**GÖR DETTA:**
+
+- **Ta bort kattfiguren**
+    
+- **Välj ny sprajt**
+
+- **Minska sprajtens storlek**
+
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 **GÖR DETTA:**
