@@ -1,5 +1,5 @@
 # Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over! 
+I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over!
 
 Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
@@ -10,60 +10,62 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Välj ny skalbagge som sprajt
-Först ska vi byta sprajt-figur!
-<video src="./bugracedel1_fade.mp4" autoplay loop muted height=480 width=640 />
+## 1: Välj ny sprajtfigur
 
-**Gör detta:**
+Byt ut katt-sprajten till ny sprajt - en skalbagge!
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-- **Ta bort kattfiguren.**
-    
-- **Välj ny sprajt**
+>**VAD SKA JAG GÖRA?**
 
-- **Minska sprajtens storlek.**
+Se i videon ovan hur du ska:
+- Ta bort kattfiguren
+- Välj ny sprajt
+- Minska sprajtens storlek
 
-**Full instruktion om hur du gör:**
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en boll, ett träd du ritat själv eller annat. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
-När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
+Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
 
-1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den - du har nu tagit bort den ur projektet.
+1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
+2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-  En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du skalbaggen. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
+En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
 
-3. Skalbaggen är ganska stor, för att spelet ska bli enklare att spela måste vi minska storleken på sprajten. Under projektet med sprajten hittar du **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50 för hälften så stor. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
-Klicka dig vidare.
+Klicka dig vidare till kapitel 2.
 
 
 ## 2: Färglägg bakgrunden och rita en bana
-Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+<video src="./BugRacedel2_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-<video src="./bugracedel1_fade.mp4" autoplay loop muted height=480 width=640 />
 
-<video src="./bugracedel2.mp4" autoplay loop muted height=480 width=640 />
+>**VAD SKA JAG GÖRA?**
 
-**Gör detta:**
+Se i videon ovan hur du ska:
+- Aktivera bakgrunder
+- Aktivera Bitmapp-läge
+- Välj färg och verktyg för att fylla bakgrund
+- Välj ny färg och verktyg för att måla en bana
 
-- **Aktivera bakgrunder:**
-
-- **Aktivera Bitmapp-läge:**
-
-- **Välj färg och verktyg för att fylla bakgrund:**
-   
-- **Välj ny färg och verktyg för att måla en bana:**
-
-**Full instruktion om hur du gör detta:**
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
@@ -83,7 +85,7 @@ Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** 
   
 > Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
 
-3. Tryck sen på figuren som ser ut som en **PENSEL** och välj sen en annan färg som du vill ha för banan i ditt spel Viktigt att färgen inte är samma som färger som insekten har (eller den sprajt du valt). Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+3. Tryck sen på verktyget **PENSEL** och välj en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbaggens färger. Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
@@ -96,16 +98,22 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 
 ## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-<video src="./BugRaceIntroDel3_enkel.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel3_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-**Gör detta:**
 
-- **Välj KOD och din sprajt för att kunna börja koda:**
-- **Lägg in kod för start-block: När GRÖN FLAGGA klickas på:**
-- **Lägg in kod för RÖRELSE: Gå 10 steg:**
-- **Lägg in kod för KONTROLL: För alltid (en loop):**
+>**VAD SKA JAG GÖRA?**
 
-**Full instruktion om hur du gör detta:**
+Se i videon ovan hur du ska:
+- Välj KOD och din sprajt för att kunna börja koda
+- Lägg in kod för start-block: När GRÖN FLAGGA klickas på
+- Lägg in kod för RÖRELSE: Gå 10 steg
+- Lägg in kod för KONTROLL: För alltid (en loop)
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
 Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
@@ -149,18 +157,22 @@ Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas
 
 
 ## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start. Detta kallas för att **initiera programmet** - du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta. 
-> **Tips!** Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
-<video src="./BugRaceIntroDel4_enkel.mp4" autoplay loop muted height=480 width=640 />
+För att slippa dra tillbaka skalbaggen till startplatsen varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start.
+<video src="./BugRacedel4_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-**Gör detta:**
 
-- **Dra sprajten till där du vill den ska starta på banan.**
-- **Lägg in kod för RÖRELSE: gå till x:__ y:__.**
+>**VAD SKA JAG GÖRA?**
 
-**Full instruktion om hur du gör:**
+Se i videon ovan hur du ska:
+- Dra sprajten till där du vill den ska starta på banan
+- Lägg in kod för RÖRELSE: gå till x:__ y:__
 
-1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en rakträcka, inte en kurva. 
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en raksträcka, inte en kurva. 
 
 2. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
@@ -172,14 +184,20 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 ## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
-<video src="./BugRaceIntroDel5_enkel.mp4" autoplay loop muted height=480 width=640 />
+<video src="./BugRacedel5_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-**Gör detta:**
-- **Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block.**
-- **Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*.**
-- **Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader.**
+>**VAD SKA JAG GÖRA?**
 
-**Full instruktion om hur du gör detta:**
+Se i videon ovan hur du ska:
+- Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block
+- Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*
+- Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
 1. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
 
   ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
@@ -198,6 +216,17 @@ Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Kli
 ## 6: Ändra startriktning
 
 Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
+<video src="./BugRacedel6_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg in kod för RÖRELSE: peka i 90 graders ritning
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
 1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
@@ -210,16 +239,28 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 
 ## 7: Känna av när skalbaggen åker av banan
 
-Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför banan. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
+Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
+<video src="./BugRacedel7_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-Gör såhär:
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg in kod för KONTROLL: om...då
+- Lägg in kod för KÄNNA AV: rör färgen_. Lägg blocket i det kantiga hålet mellan om...då.
+- Lägg in kod för UTSEENDE: säg Hej! i 2 sekunder. Ändra texten till Game Over!
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
 
   ![image alt text](Koda_KONTROLL-Om-Då-block.png)
   
 2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. 
+Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på skriptytan. 
 
   ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
 
@@ -227,28 +268,40 @@ Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"**
 
   ![image alt text](Känna_av_byt_färg_pimpett.png)
 
-3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
+3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under tema   **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
   ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
 
 > Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
 
 
-## 8: Göra klart skriptet
+## 8: Gör klart skriptet
 
 Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
+<video src="./BugRacedel8_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-Gör såhär:
+>**VAD SKA JAG GÖRA?**
 
-1. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
+Se i videon ovan hur du ska:
+- Lägg skriptet inuti för alltid-loopen
+- Lägg in kod för KONTROLL: stoppa alla. Lägg blocket längst ned inom *om...då*. Ändra till *stoppa detta skript*.
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Lägg skriptet som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
   ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
 
-2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till scriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta script"**.
+2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa helt. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till skriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta skript"**.
 
   ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
 
 Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
+
+>**Testa koden!** Kan du styra skalbaggen runt banan med piltangenterna? Vad händer om sprajten åker utanför banan? 
 
 > Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
 
