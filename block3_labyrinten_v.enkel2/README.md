@@ -184,6 +184,21 @@ Dags att koda det här till ett spel! Här ska du programmera in **villkor** i k
 Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. 
 Dax att koda!
 
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Fyll scenen med en bakgrundsfärg
+- Rita en enkel bana med väggar
+- Rita startpunkt och målpunkt i två olika färger
+- Sätt sprajtfiguren på startpunkten
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
 17. Först lägger vi till en pusselbit som kontrollerar om sprajten rör vid en speciell färg. Under tema KONTROLL finns en stor pusselbit med ett kantigt hål på som heter **Om < > Då... Annars**. Dra in biten och lägg den fritt på skriptytan. Såhär ser pusselbiten ut:
 
   ![image alt text](block_om_då_annars.png) 
@@ -204,7 +219,7 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
 21. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
 
-232. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
+22. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
 
 23. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
 
@@ -229,6 +244,21 @@ Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du ka
 Kanske hindren är att ta sig förbi stenar, och om man rör dem blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
 
   ![image alt text](exempelbild_med_hinder.png) 
+
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Fyll scenen med en bakgrundsfärg
+- Rita en enkel bana med väggar
+- Rita startpunkt och målpunkt i två olika färger
+- Sätt sprajtfiguren på startpunkten
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 > Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
 
