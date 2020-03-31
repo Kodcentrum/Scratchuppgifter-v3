@@ -1,11 +1,11 @@
-# Labyrinten (anpassad för surfplatta)
+# Labyrinten
 
-Det här är ett spel där du ska försöka ta dig igenom en labyrint utan att röra väggarna och hinder - för då blir du Game Over! Du kan även utmana dig och skapa nya banor fär att komma till nästa nivå i spelet. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
+Det här är ett spel där du ska försöka ta dig igenom en labyrint utan att röra väggarna och hinder - för då blir du Game Over! Du kan även utmana dig och skapa nya banor för att komma till nästa nivå i spelet. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
-En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi två exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har. Här finns några exempel på olika labyrinter:
+En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi två exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har:
 
 ![image alt text](image_0.png)
 
@@ -16,23 +16,61 @@ En labyrint kan se ut på många olika sätt och du kan rita din som du vill. H�
 Hur vill du att din labyrint ska se ut? Dax att börja koda! 
 Klicka nedan på nästa kapitel för att gå vidare.
 
-## 1 – Rita din labyrint
+## 1 – Byt till ny spelfigur
+Först ska du lägga till en ny figur som ska kunna styras genom labyrinten utan att röra väggarna. Det blir din spelhjälte.
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg, som inte får vara samma färg som väggar eller bakgrund har. 
+>**VAD SKA JAG GÖRA?**
 
-Då börjar vi skapa!
+Se i videon ovan hur du ska:
+- Ta bort kattfiguren
+- Välj ny sprajt
+- Minska sprajtens storlek
 
-1. Skapa först ett nytt projekt i Scratch. Ta bort katt-sprajten genom att trycka på krysset på den.
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Ta bort katt-sprajten genom att trycka på den krysset eller den lilla soptunnan vid den kattfiguren under scenen.
 
 ![image alt text](Ta_bort_Sprajt.png)
+21. Tryck på den lilla blå ikonen med en vit katt på längst ned till höger, så blir den grön - tryck nu på den gröna. Då kommer du till ett sprajtbibliotek, där du kan välja **en ny sprajt**. Tryck på en sprajt du gillar för att lägga till den i ditt projekt. 
 
-2. Tryck på SCEN nere till höger och tryck sen på fliken för BAKGRUNDER uppe till vänster. 
+  ![image alt text](Ny_Sprajt-knapp.png) 
+  
+> **Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
+  
+3. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan som heter **Storlek** som finns under SCENEN. Prova dig fram tills sprajten känns lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
+
+> **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram. Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
+
+## 2 – Rita din labyrint
+Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet sen ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg och de får inte ha samma färger som väggarna eller bakgrunden har. 
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Fyll scenen med en bakgrundsfärg
+- Rita en enkel bana med väggar
+- Rita startpunkt och målpunkt i två olika färger
+- Sätt sprajtfiguren på startpunkten
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Tryck på SCEN nere till höger och tryck sen på fliken för BAKGRUNDER uppe till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 <br>
 
-3. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
+2. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
 
   En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
 
@@ -50,39 +88,38 @@ Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vit
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och välj en färg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget.
+3. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och välj en färg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget.
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
 > **Tänk på!** Det är viktigt att **alla väggarna har samma färg** genom hela labyrinten och att avståndet mellan väggarna ska vara ganska stort så sprajten kommer emellan.
 
-5. Rita nu en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
+4. Rita nu en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
   
 Nu är labyrinten klar. Tryck på fliken KOD längst upp i vänstra hörnet, så kommer du ut ur ritläget.
 
-Dax att lägga till en spelfigur - spelets hjälte.
+Det är dax att börja koda sprajtens rörelse!
 
-## 2 – Lägg till en spelfigur
-
-Nu ska du lägga till en sprajt eller figur som ska kunna styras genom labyrinten utan att röra väggarna. Det blir din spelhjälte. Gör såhär:
-
-6. Tryck på den lilla blå ikonen med en vit katt på längst ned till höger, så blir den grön - tryck nu på den gröna. Då kommer du till ett sprajtbibliotek, där du kan välja **en ny sprajt**. Tryck på en sprajt du gillar för att lägga till den i ditt projekt. 
-
-  ![image alt text](Ny_Sprajt-knapp.png) 
-  
-> **Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
-  
-7. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan som heter **Storlek** som finns under SCENEN. Prova dig fram tills sprajten känns lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
-
-  ![image alt text](Ändra_Storlek_Sprajt.png) 
-
-> **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram.  Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
 ## 3 - Koda sprajtens rörelse
 
-Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål, utan att stöta i väggarna, för då blir du Game Over. Den ska styras genom att följa efter ditt finger när du drar den genom labyrinten. Ditt finger blir samma sak som om du skulle ha en datormus och sprajten följer muspekaren genom labyrinten. 
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Om du stöter i en vägg ska du bli du Game Over. Sprajten ska styras med dina piltangenter på tangentbordet. 
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Fyll scenen med en bakgrundsfärg
+- Rita en enkel bana med väggar
+- Rita startpunkt och målpunkt i två olika färger
+- Sätt sprajtfiguren på startpunkten
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 Dax att koda sprajtens rörelser - vi börjar med att få sprajten att gå:
 
