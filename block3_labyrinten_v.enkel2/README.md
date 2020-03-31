@@ -105,73 +105,77 @@ Det är dax att börja koda sprajtens rörelse!
 
 ## 3 - Koda sprajtens rörelse
 
-Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Om du stöter i en vägg ska du bli du Game Over. Sprajten ska styras med dina piltangenter på tangentbordet. 
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på tangentbordet. 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Fyll scenen med en bakgrundsfärg
-- Rita en enkel bana med väggar
-- Rita startpunkt och målpunkt i två olika färger
-- Sätt sprajtfiguren på startpunkten
+- Lägga till ett block för piltangent uppåt. 
+- Lägga till block för att sprajten ska peka uppåt.
+- Lägga till block för att sprajten ska gå framåt när du trycker på piltangenten.
 
 </br>
 </br>
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-Dax att koda sprajtens rörelser - vi börjar med att få sprajten att gå:
+Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar och stuyras med hjälp av piltangenterna på datorns tangentbord.
 
-8. Under temat HÄNDELSER finns pusselbiten som heter **När "GRÖN FLAGGA" klickas på** (den som har en grön flagga på sig). Dra ut denna bit och lägg på sprajtens tomma manusyta i mitten. Denna pusselbit är kopplad till den gröna START-flaggan som finns över ditt spel på SCENEN - alltså en **startknapp för ditt spel**.
+1. Från tema HÄNDELSER drar du ut blocket **när mellanslagstangenten trycks ned**. Lägg blocket någonstans på sprajtens tomma skriptyta.
 
-  ![image alt text](block_När_grön_flagga_klickas_på.png) 
+2. klicka på lilla pilen bredvid ordet **mellanslagstangenten** i blocket. Välj **uppåtpil** istället. 
 
-9. Under tema RÖRELSE finns pusselbiten **Gå 10 steg**. Dra in denna bit och sätt den under det första kodblocket med den gröna flaggan. 
+3. Från tema RÖRELSE drar du ut blocket **peka i 90 grader**. Lägg blocket direkt under det andra på skriptytan, så de sitter ihop.
 
-  ![image alt text](block_kod_börja_gå.png) 
+4. Klicka på siffran 90 i blocket och ändra till 0 (så att riktningen är rakt uppåt).
 
-Testa koden genom att trycka några gånger på den gröna flaggan över ditt spel. Sprajten rör sig framåt en bit varje gång du trycker på startflaggan. Men vi vill ju att den ska röra sig hela tiden efter att vi tryckt på start. Vi behöver kontrollera koden med en LOOP.
+5. Från tema RÖRESLE drar du ut blocket **gå 10 steg**. Lägg blocket direkt under de andra på skriptytan, så att de alla sitter ihop.
 
-10. Under tema KONTROLL finns pusselbiten **För alltid**. Dra in den och lägg den runt om den blå pusselbiten **Gå 10 steg**, så den blå hamnar inuti den gula. Det ser det ut såhär.
+6. Ändra siffran 10 till förslagsvis 5. Då rör sig sprajten en kortare sträcka framåt, varje gång du trycker på piltangenten.
 
-  ![image alt text](block_kod_börja_gå_med_loop.png) 
+  ![image alt text](image_4.png)
 
-Testa koden igen! Se, nu springer sprajten hela tiden. 
-Stoppa koden med den röda STOPP-knappen över SCENEN med spelet och dra tillbaka sprajten till spelets startpunkt. 
+>**Testa koden**: Vad händer när du trycker på piltangenten uppåt? Rör sig sprajten uppåt?
 
-## 4 - Koda styrning och position
+7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
 
-Sprajten ska styras genom labyrinten genom att du drar ditt finger genom labyrinten och sprajten följer efter ditt finger. Fingret på en surfplatta motsvarar muspekaren på en dator. Gör såhär för att koda denna styrning av sprajten:
 
-11. Under tema RÖRELSE finns pusselbiten **Peka mot muspekare**. Dra in biten och lägg den direkt ovanför kodblocket med **Gå 10 steg**. Då ser det ut såhär:
+>**Testa koden!** Kan du röra din sprajt åt alla håll? Rör sig sprajten lagom långt när du trycker på piltangenterna? 
 
-  ![image alt text](block_kod_peka_mot_muspekare.png) 
 
-Testa koden! Nu ska sprajten följa ditt finger i labyrinten. Men det går lite snabbt. Bra om vi sänker hastigheten och fördröjer starten lite - gör såhär:
+## 4 - Ge sprajten en startposition och riktning
 
-12. Klicka på siffran 10 i pusselbiten **Gå 10 steg**. Detta är en variabel som kan ändras till lägre och högre siffra, för att sprajten ska gå långsammare eller snabbare. Ändra förslagsvis till 1. 
+För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägga till en startposition. Vi lägger även till en startriktning, så att sprajten tittar åt rätt håll när den startar.
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
-13. Under tema KONTROLL finns pusselbiten **Vänta 1 sekunder**. Dra in biten och lägg den direkt under pusselbiten **När GRÖN FLAGGA klickas på**. Då väntar sprajten 1 sekund innan den börjar springa iväg. 
+>**VAD SKA JAG GÖRA?**
 
-  ![image alt text](block_kod_vänta1sekund.png) 
+Se i videon ovan hur du ska:
+- Lägga till ett startblock med grön flagga
+- Lägga till ett block för sprajtens startposition
+- Lägga till block för sprajtens startriktning
 
-För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägga till sprajtens startposition och även startriktning. Då går den åt rätt håll från början. Vi börjar med riktningen.
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-14. Dra sprajten till labyrintens startplatta. Under tema RÖRELSE finns pusselbiten **Peka i riktning 90**. Dra in biten och lägg det direkt under kodblocket **När GRÖN FLAGGA klickas på**. 
+1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som stry vad som händer när du sen klickar på gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
-15. Om sprajten inte tittar åt rätt håll nu, så tryck på siffran 90 i kodblocket och ändra riktningen åt det håll som passar din labyrint bäst genom att dra i blå pilen tills du är nöjd med sprajtens riktning. 
-
-  ![image alt text](block_kod_ändra_riktning.png) 
-
-16. Nu lägger du till sprajtens startposition. Se först till att sprajten står på start-markeringen, där du vill att den ska starta när spelet börja. Under tema RÖRELSE finns pusselbiten **Gå till X:__ och Y:__**. (det står siffror med koordinater för X och Y). Dra in denna pusselbit och lägg in den direkt under kodblocket **När GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet.
+2. Nu ska du lägga till sprajtens startposition. Dra först sprajten så den står på mitten av startplattan i din labyrint. Under tema RÖRELSE drar du in blocket **gå till x:__  y:__**. (det står siffror med koordinater för x och y i blocket). Lägg blocket direkt under kodblocket **när GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet med den gröna flaggan ovanför ditt spel.
 
   ![image alt text](block_kod_färdigt_första-skript.png) 
+
+3. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i sprajtens skript.
+
+15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggam, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra i blå pilen tills du är nöjd med sprajtens riktning. 
+
+  ![image alt text](block_kod_ändra_riktning.png) 
   
-> Testa koden! Går sprajten i lagom hastighet? Startar den på rätt ställe? Ändra i variablerna om du inte är nöjd.
+>**Testa koden!** Går sprajten i lagom hastighet? Startar den på rätt ställe? Pekar den i rätt riktning när den startar? Ändra i variablerna om du inte är nöjd.
 
-Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger - och kan vinna eller förlora i spelet.
-
+Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger och kan vinna eller förlora i spelet.
 
 ## 5 – Vinna eller förlora
 
