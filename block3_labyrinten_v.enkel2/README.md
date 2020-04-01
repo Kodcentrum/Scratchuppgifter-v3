@@ -219,8 +219,8 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
 3. Nu ska vi ställa in rätt färg för just din målpunkt. Tryck på färgcirkeln i kodbiten **rör vid färgen**. Välj lilla pimpett-verktyget i menyn längst ned och tryck sen på färgen på labyrintens mål-markering. Färgen ändras då till den rätta målfärgen i blocket **rör vid färgen**.
 
-  ![image alt text](exempel_byt_färg_pimpettverktyg.png) 
-
+  ![image alt text](exempel_byt_färg_pimpettverktyg.png)    ![image alt text](rör_vid_färgen_pinpettverktyget.png)
+<br>
 Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Gör såhär: 
 
 4. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg blocket inuti din villkors-loop, så det ser ut såhär: 
@@ -235,20 +235,21 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
   ![image alt text](villkor_jag_vann_startposition.png) 
 
-7. När spelet blir Game Over ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.
-
-**STÄMMER OVAN INFO????**
-
+7. **När spelet ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.**
+**STÄMMER DETTA???**
 
 8. ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
-9. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!". Se tips nedan för att enkelt kopiera skript.
+9. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!". 
 
-**Tips!**. Kopiera ditt första skript och ändra sen bara fägen till väggfärgen och texten till Game Over! Kopera genom att högerklicka överst på ditt första skript och välj **kopiera**. Sen klickar du bredvid på vita skriptytan så får du ett likadant skript som det första.
+  ![image alt text](villkor_två_stycken.png) 
 
-10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpukten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. 
+**Tips!**. Kopiera ditt första skript och ändra sen bara fägen till väggfärgen och texten till Game Over! Kopera genom att högerklicka överst på ditt första skript och välj **kopiera**. Sen klickar du bredvid på vita skriptytan så får du ett likadant skript som det första. 
+  ![image alt text](Villkor_Kopiera_skript.png) 
 
-BILD!!
+10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. 
+
+  ![image alt text](Loop.png) 
 
 11. Lägg nu in dina två villkor inom **för alltid**-loopen, det ena under det andra, så att ditt skript ser ut såhär när du är klar:
 
