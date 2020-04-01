@@ -45,6 +45,8 @@ Se i videon ovan hur du ska:
 
 3. Sprajten är ganska stor, så **ändra storleken** på sprajten. Just nu är den 100% full storlek. Du ändrar det i rutan som heter **Storlek** som finns under SCENEN med ditt spel. Skriv förslagsvis 30 istället. Det brukar vara ganska lagom.
 
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
+
 > **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll muspekaren över (utan att klicka) på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram. Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
 Nu har vi en spelfigur, men vi behöver rita labyrinten. Vi bläddrar vidare!
@@ -66,43 +68,43 @@ Se i videon ovan hur du ska:
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
+Nu ska du skapa din labyrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
+
+En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
+
+  ![image alt text](image_2_b.png)
+
 1. Klicka på den vita lilla rutan där det står SCEN nere till höger och klicka sen på fliken för BAKGRUNDER längst uppe till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 <br>
 
-2. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
-
-En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
-
-  ![image alt text](image_2_b.png)
-
-1. Börja med att ge spelet en **bakgrundsfärg**. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
+2. Klicka först på den blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-2. Välj en ny **färg** du gillar. Klicka på färgverktyget och dra i färgväljarens inställningar tills du är nöjd med din färg.
+3. Välj en ny **färg** du gillar. Klicka på färgverktyget och dra i färgväljarens inställningar tills du är nöjd med din färg.
 
 ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
 
-3. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
+4. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid så fylls den med din nya färg.  
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och en väggfärg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget. Rita väggarna så att sprajten kan gå emellan och svänga utan att stöta i väggarna.
+5. Nu ska du rita din labyrints väggar med en **annan färg än bakgrunden**. Välj ett verktyg att måla med och en väggfärg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget. Rita väggarna så att sprajten kan gå emellan och svänga utan att stöta i väggarna.
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
 > **Tänk på!** Det är viktigt att **alla väggarna har samma färg** genom hela labyrinten och att avståndet mellan väggarna ska vara lagom stort så sprajten kommer emellan.
 
-4. Rita sen en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
+4. Rita sen in en **startpunkt** och en **målpunkt** i din labyrint. Start och mål ska **ha olika färger** och kan inte ha samma färger som väggarna eller bakgrundsfärgen. Du kan till exempel göra fyllda färgcirklar med PENSEL-verktyget.
+
+BILD!!!
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
   
-3. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten om den verkar vara för stor eller för liten för att passa mellan väggarna i din labyrint. Den behöver lite svängrum omkring sig för att inte stöta i vöäggen. Du ändrar storleken i rutan som heter **Storlek** under SCENEN med ditt spel. 
-
-  ![image alt text](Ändra_Storlek_Sprajt.png) 
+3. Dra sprajten till din labyrints startpunkt och **ändra eventuellt storleken** på sprajten om den verkar vara för stor eller för liten för att passa mellan väggarna i din labyrint. Den behöver lite svängrum omkring sig för att inte stöta i väggen. Du ändrar storleken i rutan som heter **Storlek** under SCENEN med ditt spel. 
   
 Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget.
 
@@ -131,11 +133,15 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 
 1. Från tema HÄNDELSER drar du ut blocket **när mellanslagstangenten trycks ned**. Lägg blocket någonstans på sprajtens tomma skriptyta.
 
-2. klicka på lilla pilen bredvid ordet **mellanslagstangenten** i blocket. Välj **uppåtpil** istället. 
+2. Klicka på lilla pilen bredvid ordet **mellanslagstangenten** i blocket. Välj **uppåtpil** istället. 
+
+  ![image alt text](Uppåtpil_byt_tangent.png)
 
 3. Från tema RÖRELSE drar du ut blocket **peka i 90 grader**. Lägg blocket direkt under det andra på skriptytan, så de sitter ihop.
 
-4. Klicka på siffran 90 i blocket och ändra till 0 (så att riktningen är rakt uppåt).
+4. Klicka på siffran 90 i blocket och ändra till 0 (så att riktningen är rakt uppåt), eller dra i vita pilen så den hamnar i rätt vinkel för din labyrintbana.
+
+  ![image alt text](Peka_riktning_ändra.png)
 
 5. Från tema RÖRELSE drar du ut blocket **gå 10 steg**. Lägg blocket direkt under de andra på skriptytan, så att de alla sitter ihop.
 
@@ -168,15 +174,17 @@ Se i videon ovan hur du ska:
 
 1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som styr vad som händer när du sen klickar på den gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
+  ![image alt text](block_När_grön_flagga_klickas_på.png.png) 
+
 2. Nu ska du lägga till sprajtens startposition. Dra först sprajten så den står på mitten av startplattan i din labyrint. Under tema RÖRELSE drar du in blocket **gå till x:__  y:__**. (det står siffror med koordinater för x och y i blocket). Lägg blocket direkt under kodblocket **när GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet med den gröna flaggan ovanför ditt spel.
 
-  ![image alt text](block_kod_färdigt_första-skript.png) 
+  ![image alt text](block_startposition.png) 
 
-3. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i  skriptet.
+3. Det är bra om sprajten tittar i en bestämd riktning när spelet ska börja. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i  skriptet.
 
-15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggan, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra runt i riktningspilen som kommer fram.
+  ![image alt text](block_start_peka_i_riktning_90.png) 
 
-  ![image alt text](block_kod_ändra_riktning.png) 
+15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggan, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra runt i den vita riktningspilen som kommer fram.
   
 >**Testa koden!** Går sprajten i lagom hastighet? Startar den på rätt ställe? Pekar den i rätt riktning när den startar? Ändra i variablerna om du inte är nöjd.
 
@@ -205,7 +213,7 @@ Se i videon ovan hur du ska:
 
 Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg. Vi börjar med målet för att vinna:
 
-2. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
+2. Under tema KÄNNA AV finns kodblocket **rör vid färgen__**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
 
   ![image alt text](block_kod_OmRörvidfärgenDå.png) 
 
@@ -215,15 +223,22 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
 Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Gör såhär: 
 
-4. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg blocket inuti din villkorsloop, så det ser ut såhär: 
+4. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg blocket inuti din villkors-loop, så det ser ut såhär: 
 
   ![image alt text](block_kod_sägHEJi2sekunder.png) 
 
 5. Tryck på texten "Hej!" i kodblocket och skriv istället "Jag vann!"
 
-6. Dra din sprajt till start-markeringen i labyrinten. Från tema RÖRELSE drar du in kodblocket **gå till x__ y__** och lägg in den i villkorsblocket direkt under **säg Jag vann! i 2 sekunder**. 
+  ![image alt text](villkor_UTSEENDE_jag_vann.png) 
+
+6. Se till att din sprajt står på mitten av start-markeringen i labyrinten. Från tema RÖRELSE drar du in kodblocket **gå till x__ y__** och lägger in den i villkorsblocket direkt under **säg Jag vann! i 2 sekunder**. 
+
+  ![image alt text](villkor_jag_vann_startposition.png) 
 
 7. När spelet blir Game Over ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.
+
+**STÄMMER OVAN INFO????**
+
 
 8. ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
