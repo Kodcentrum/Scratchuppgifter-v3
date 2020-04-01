@@ -43,9 +43,11 @@ Se i videon ovan hur du ska:
   
 > **Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
 
+3. Sprajten är ganska stor, så **ändra storleken** på sprajten. Just nu är den 100% full storlek. Du ändrar det i rutan som heter **Storlek** som finns under SCENEN med ditt spel. Skriv förslagsvis 30 istället. Det brukar vara ganska lagom.
+
 > **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll muspekaren över (utan att klicka) på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram. Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
-3. Sprajten är ganska stor, så **ändra storleken** på sprajten. Just nu är den 100% full storlek. Du ändrar det i rutan som heter **Storlek** som finns under SCENEN med ditt spel. Skriv förslagsvis 30 istället. Det brukar vara ganska lagom.
+Nu har vi en spelfigur, men vi behöver rita labyrinten. Vi bläddrar vidare!
 
 ## 2 – Rita din labyrint
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet sen ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg och de får inte ha samma färger som väggarna eller bakgrunden har. 
