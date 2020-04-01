@@ -27,7 +27,7 @@ Först ska du lägga till en ny figur som ska kunna styras genom labyrinten utan
 Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
-- Minska sprajtens storlek
+- Minska storleken på sprajten
 
 </br>
 </br>
@@ -42,12 +42,10 @@ Se i videon ovan hur du ska:
   ![image alt text](Ny_Sprajt-knapp.png) 
   
 > **Tänk på!** Välj en sprajt som inte är för bred eller lång, annars kan den vara svår att styra utan att stöta i väggarna.
-  
-3. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten så den passar in mellan labyrintens väggar, från 100% full storlek till lägre procenttal. Det gör du i rutan som heter **Storlek** som finns under SCENEN. Prova dig fram tills sprajten känns lagom stor, den ska få ordentligt med plats mellan labyrintens väggar.
 
-  ![image alt text](Ändra_Storlek_Sprajt.png) 
+> **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll muspekaren över (utan att klicka) på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram. Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
 
-> **Tips!** Om du vill rita din egen sprajt, så gör du såhär: Håll fingret på ikonen för **Ny Sprajt** i nedre högra hörnet så att fler val kommer fram. Välj **Måla** som ser ut som en liten pensel. Rita din egen sprajtfigur, men tänk på att den inte ska vara för stor, bred eller lång, då blir den svår att svänga i labyrintens hörn. Var noga med att sprajten ritas med **andra färger** än din bakgrund och labyrintens väggar.
+3. Sprajten är ganska stor, så **ändra storleken** på sprajten. Just nu är den 100% full storlek. Du ändrar det i rutan som heter **Storlek** som finns under SCENEN med ditt spel. Skriv förslagsvis 30 istället. Det brukar vara ganska lagom.
 
 ## 2 – Rita din labyrint
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet sen ska fungera. Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg och de får inte ha samma färger som väggarna eller bakgrunden har. 
@@ -57,16 +55,16 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 
 Se i videon ovan hur du ska:
 - Fyll scenen med en bakgrundsfärg
-- Rita en enkel bana med väggar
+- Rita en enkel bana med väggar i en annan färg
 - Rita startpunkt och målpunkt i två olika färger
-- Sätt sprajtfiguren på startpunkten
+- Sätt sprajtfiguren på startpunkten och minska storleken på sprajten
 
 </br>
 </br>
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Tryck på SCEN nere till höger och tryck sen på fliken för BAKGRUNDER uppe till vänster. 
+1. Klicka på den vita lilla rutan där det står SCEN nere till höger och klcika sen på fliken för BAKGRUNDER längst uppe till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
@@ -78,27 +76,31 @@ En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att 
 
   ![image alt text](image_2_b.png)
 
-Börja med att fylla med en ny **bakgrundsfärg** till labyrinten. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
+1. Börja med att ge spelet en **bakgrundsfärg**. För att detta ska fungera, behöver du först trycka på blå knappen under målarytan som det står **Gör till bitmap** på. 
 
 ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Välj en ny **färg** du gillar. Klicka på färgverktyget och dra i färgväljarens inställningar tills du är nöjd med din färg.
+2. Välj en ny **färg** du gillar. Klicka på färgverktyget och dra i färgväljarens inställningar tills du är nöjd med din färg.
 
 ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
 
-Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
+3. Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vita rutan bredvid, så fylls den med din nya färg.  
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-3. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och en väggfärg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget.
+4. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och en väggfärg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget. Rita väggarna så att sprajten kan gå emellan och svänga utan att stöta i väggarna.
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
-> **Tänk på!** Det är viktigt att **alla väggarna har samma färg** genom hela labyrinten och att avståndet mellan väggarna ska vara ganska stort så sprajten kommer emellan.
+> **Tänk på!** Det är viktigt att **alla väggarna har samma färg** genom hela labyrinten och att avståndet mellan väggarna ska vara lagom stort så sprajten kommer emellan.
 
 4. Rita sen en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
+  
+3. Dra sprajten till din labyrints startpunkt och **ändra storleken** på sprajten om den verkar vara för stor eller för liten för att passa mellan väggarna i din labyrint. Den behöver lite svängrum omkring sig för att inte stöta i vöäggen. Du ändrar storleken i rutan som heter **Storlek** under SCENEN med ditt spel. 
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
   
 Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget.
 
@@ -107,7 +109,7 @@ Det är dax att börja koda sprajtens rörelse!
 
 ## 3 - Koda sprajtens rörelse
 
-Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på datorns tangentbordet. 
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på datorns tangentbord. 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -123,7 +125,7 @@ Se i videon ovan hur du ska:
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar och stuyras med hjälp av piltangenterna på datorns tangentbord.
+Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar och styras med hjälp av piltangenterna på datorns tangentbord.
 
 1. Från tema HÄNDELSER drar du ut blocket **när mellanslagstangenten trycks ned**. Lägg blocket någonstans på sprajtens tomma skriptyta.
 
@@ -133,19 +135,17 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 
 4. Klicka på siffran 90 i blocket och ändra till 0 (så att riktningen är rakt uppåt).
 
-5. Från tema RÖRESLE drar du ut blocket **gå 10 steg**. Lägg blocket direkt under de andra på skriptytan, så att de alla sitter ihop.
+5. Från tema RÖRELSE drar du ut blocket **gå 10 steg**. Lägg blocket direkt under de andra på skriptytan, så att de alla sitter ihop.
 
-6. Ändra siffran 10 till förslagsvis 5. Då rör sig sprajten en kortare sträcka framåt, varje gång du trycker på piltangenten.
+6. Ändra siffran 10 till förslagsvis 5 i rörelseblocket. Då rör sig sprajten en kortare sträcka framåt varje gång du trycker på piltangenten.
 
   ![image alt text](image_4.png)
 
 >**Testa koden**: Vad händer när du trycker på piltangenten uppåt? Rör sig sprajten uppåt?
 
-7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
-
+7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll med tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
 
 >**Testa koden!** Kan du röra din sprajt åt alla håll? Rör sig sprajten lagom långt när du trycker på piltangenterna? 
-
 
 ## 4 - Ge sprajten en startposition och riktning
 
@@ -170,7 +170,7 @@ Se i videon ovan hur du ska:
 
   ![image alt text](block_kod_färdigt_första-skript.png) 
 
-3. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i sprajtens skript.
+3. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i  skriptet.
 
 15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggan, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra runt i riktningspilen som kommer fram.
 
@@ -178,20 +178,20 @@ Se i videon ovan hur du ska:
   
 >**Testa koden!** Går sprajten i lagom hastighet? Startar den på rätt ställe? Pekar den i rätt riktning när den startar? Ändra i variablerna om du inte är nöjd.
 
-Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger och kan vinna eller förlora i spelet.
+Dax att koda så sprajten kan vinna eller förlora i spelet.
 
 ## 5 – Vinna eller förlora
 
-Dags att koda det här till ett spel! Här ska du programmera in **villkor** i koden som skapar olika händelser. Till exempel: OM sprajten rör vid en vägg i labyrinten, DÅ blir spelet Game Over och sprajten hamnar tillbaka på startpunkten. OM sprajten nuddar vid målpunkten - DÅ vinner du. Vi ska koda så att sprajten **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg.
+Här ska du programmera in **villkor** i koden som skapar olika händelser. Exempel:  **OM** sprajten rör vid en vägg i labyrinten, **DÅ** blir spelet Game Over och hamnar tillbaka på startpunkten. **OM** sprajten rör vid målpunkten - **DÅ** vinner du. Vi ska koda så att sprajten **känner av vilken färg den rör vid**, så den vet vart den befiner sig.
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Skapa ett villkor som känner av målfärgen och väggfärgen
-- Rita en enkel bana med väggar
-- Rita startpunkt och målpunkt i två olika färger
-- Sätt sprajtfiguren på startpunkten
+- Skapa ett villkor som känner av målfärgen och säger "Jag vann!"
+- Skapa ett villkor som känner av väggfärgen i labyrinten och säger "Game Over!" och flyttar sprajten till startpunkten.
+- Lägg till en loop och lägg in villkoren i loopen
+- Sätt ihop skriptet med startflaggans skript
 
 </br>
 </br>
@@ -217,21 +217,23 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
   ![image alt text](block_kod_sägHEJi2sekunder.png) 
 
-5. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
+5. Tryck på texten "Hej!" i kodblocket och skriv istället "Jag vann!"
 
 6. Dra din sprajt till start-markeringen i labyrinten. Från tema RÖRELSE drar du in kodblocket **gå till x__ y__** och lägg in den i villkorsblocket direkt under **säg Jag vann! i 2 sekunder**. 
 
 7. När spelet blir Game Over ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.
 
-8. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Från tema RÖRELSE drar du därför in ett rörelseblock med **gå 10 steg** och lägger in deni villkors-loopen under där det står **annars**. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
-
-  ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
+8. ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
 9. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!". Se tips nedan för att enkelt kopiera skript.
 
 **Tips!**. Kopiera ditt första skript och ändra sen bara fägen till väggfärgen och texten till Game Over! Kopera genom att högerklicka överst på ditt första skript och välj **kopiera**. Sen klickar du bredvid på vita skriptytan så får du ett likadant skript som det första.
 
-10. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte den gör det så går sprajten vidare framåt. Ditt skript ska se ut såhär när du är klar:
+10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpukten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. 
+
+BILD!!
+
+11. Lägg nu in dina två villkor inom **för alltid**-loopen, det ena under det andra, så att ditt skript ser ut såhär när du är klar:
 
   ![image alt text](block_kod_helt_färdigt_slutskript.png) 
 
@@ -239,63 +241,27 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
 >**Tips!** Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
 
+Nu har du ett spel som fungerar! Dax att göra det lite roligare med hinder!
 
-## 6 - Lägg till ett hinder 
-Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
+## 6 - En tidsräknare
 
-Kanske hindren är att ta sig förbi stenar, och om man rör dem blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
-
-  ![image alt text](exempelbild_med_hinder.png) 
-
+Dags att göra spelet lite svårare! Vi lägger till en tidsräknare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om man inte är i mål när tiden är slut förlorar man! 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Fyll scenen med en bakgrundsfärg
-- Rita en enkel bana med väggar
-- Rita startpunkt och målpunkt i två olika färger
-- Sätt sprajtfiguren på startpunkten
+- Skapa en variabel för tid
+- 
 
 </br>
 </br>
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-> Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
-
-Tänk på att:
-
-* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder, exempelvis en sten.
-
-* Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
-
-* Välj om du vill att hindret ska röra sig eller om det ska stå stilla. 
-
-* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibalnd kan man behöva flytta på det tills det funkar.
-
-* Lägg till kod i skriptet för sprajten så att den känner av hindren på samma sätt som väggen, och blir Game over. 
-
-
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
-
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-
-## Utmaningar
-Har du tid över och bygga mer på spelet. Då kan du lägga till en timer som räknar ned speltiden opch fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
-
-## En timer
-
-Dags att göra spelet lite svårare med ett till hinder! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du! Nu ska du skapa en timer, alltså en tidräknare. 
-
 För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
-1. Under tema VARIABLER finns överst **Skapa en variabel**. Tryck på den och skriv in **Tid** där det efterfrågas nytt variabelnamn, och tryck på OK. Nu har det skapats en ny pusselbit under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
+1. Under tema VARIABLER finns överst **skapa en variabel**. Tryck på den och skriv in **Tid** där det efterfrågas nytt variabelnamn, och tryck på OK. Nu har det skapats ett nytt kodblock under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
 
 2. Gör ett helt nytt skript för sprajten som säger (och se exempelbilden nedan):
 
@@ -317,8 +283,55 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
   Nu har du en timer, det vill säga en tidräknare! 
 
-> Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
+> **Testa koden!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+
+## Utmaningar
+Har du tid över och bygga mer på spelet. Då kan du lägga till en timer som räknar ned speltiden opch fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
+
+## Lägg till ett hinder 
+Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
+
+Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
+
+  ![image alt text](exempelbild_med_hinder.png) 
+
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till nya sprajtar som hinder
+- Koda så att om spelfigurens sprajt rör vid en sprajt som är ett hinder, då ska spelet bli Game Over
+- Koda så att hindren kan röra sig för att göra spelet svårare
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+> Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
+
+Tänk på att:
+
+* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder, exempelvis en sten.
+
+* Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
+
+* Välj om du vill att hindret ska röra sig eller om det ska stå stilla. 
+
+* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibalnd kan man behöva flytta på det tills det funkar.
+
+* Lägg till kod i skriptet för spelfigurens sprajt så att den känner av hindren på samma sätt som väggen, och att spelet då kan bli Game over. 
 
 ## Fler banor
 
