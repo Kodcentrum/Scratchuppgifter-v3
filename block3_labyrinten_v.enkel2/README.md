@@ -66,7 +66,7 @@ Se i videon ovan hur du ska:
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Klicka på den vita lilla rutan där det står SCEN nere till höger och klcika sen på fliken för BAKGRUNDER längst uppe till vänster. 
+1. Klicka på den vita lilla rutan där det står SCEN nere till höger och klicka sen på fliken för BAKGRUNDER längst uppe till vänster. 
 
 ![image alt text](Aktivera_Scen_Bakgrund.png)          ![image alt text](Aktivera_Bakgrunder-flik.png)
 
