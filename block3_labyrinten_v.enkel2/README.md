@@ -2,9 +2,6 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint utan att röra väggarna och hinder - för då blir du Game Over! Du kan även utmana dig och skapa nya banor för att komma till nästa nivå i spelet. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
-
 En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi två exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har:
 
 ![image alt text](image_0.png)
@@ -12,6 +9,11 @@ En labyrint kan se ut på många olika sätt och du kan rita din som du vill. H�
 ![image alt text](image_1.png)
 
 ![image alt text](Exempelspel_enkel.png)
+
+> **HUR KODAR JAG?** 
+</br>
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på **Skapa** för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+</br>
 
 Hur vill du att din labyrint ska se ut? Dax att börja koda! 
 Klicka nedan på nästa kapitel för att gå vidare.
@@ -72,7 +74,7 @@ Se i videon ovan hur du ska:
 
 2. Nu ska du skapa din layrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
 
-  En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
+En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att skapa en enkel, bred bana utan för många väggar och svängar.
 
   ![image alt text](image_2_b.png)
 
@@ -88,24 +90,24 @@ Välj sen verktyget som ser ut som en liten **hink** och tryck på den stora vit
 
 ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
 
-3. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och välj en färg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget.
+3. Nu ska du rita din labyrints väggar med **annan färg än bakgrunden**. Välj ett verktyg att måla med och en väggfärg du vill ha. Om du vill ha raka streck kan du välja LINJE-verktyget.
 
 ![image alt text](Bakgrunder_linje-verktyg.png)
 
 > **Tänk på!** Det är viktigt att **alla väggarna har samma färg** genom hela labyrinten och att avståndet mellan väggarna ska vara ganska stort så sprajten kommer emellan.
 
-4. Rita nu en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
+4. Rita sen en **startpunkt** och en **målpunkt** i din labyrint. Start och mål kan se ut hur som helst, men de kan **inte ha samma färg** som väggarna eller bakgrundsfärgen - eller varandra. Alltså en färg för start och en annan för mål. Du kan till exempel göra fyllda färgcirklar med CIRKEL-verktyget.
 
   ![image alt text](Bakgrunder_rita_cirkel-verktyg.png)
   
-Nu är labyrinten klar. Tryck på fliken KOD längst upp i vänstra hörnet, så kommer du ut ur ritläget.
+Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget.
 
 Det är dax att börja koda sprajtens rörelse!
 
 
 ## 3 - Koda sprajtens rörelse
 
-Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på tangentbordet. 
+Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på datorns tangentbordet. 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -113,7 +115,8 @@ Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska
 Se i videon ovan hur du ska:
 - Lägga till ett block för piltangent uppåt. 
 - Lägga till block för att sprajten ska peka uppåt.
-- Lägga till block för att sprajten ska gå framåt när du trycker på piltangenten.
+- Lägga till block för att sprajten ska röra sig när du trycker på piltangenten.
+- Gör sen tre likadana skript till så sprajten kan röra sig i alla riktningar (uppåt, nedåt, höger och vänster).
 
 </br>
 </br>
@@ -154,14 +157,14 @@ För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägg
 Se i videon ovan hur du ska:
 - Lägga till ett startblock med grön flagga
 - Lägga till ett block för sprajtens startposition
-- Lägga till block för sprajtens startriktning
+- Lägga till ett block för sprajtens startriktning
 
 </br>
 </br>
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som stry vad som händer när du sen klickar på gröna flaggan ovanför ditt spel - som en PLAY-knapp.
+1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som styr vad som händer när du sen klickar på den gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
 2. Nu ska du lägga till sprajtens startposition. Dra först sprajten så den står på mitten av startplattan i din labyrint. Under tema RÖRELSE drar du in blocket **gå till x:__  y:__**. (det står siffror med koordinater för x och y i blocket). Lägg blocket direkt under kodblocket **när GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet med den gröna flaggan ovanför ditt spel.
 
@@ -169,7 +172,7 @@ Se i videon ovan hur du ska:
 
 3. Under tema RÖRELSE finns blocket **peka i riktning 90**. Dra in blocket och lägg det direkt under blocket för **gå till x:__ y:__** i sprajtens skript.
 
-15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggam, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra i blå pilen tills du är nöjd med sprajtens riktning. 
+15. Om sprajten inte tittar åt rätt håll när du startar med gröna flaggan, så klicka på på siffran 90 i kodblocket på skriptytan och ändra riktningen åt det håll som passar din labyrint bäst genom att dra runt i riktningspilen som kommer fram.
 
   ![image alt text](block_kod_ändra_riktning.png) 
   
@@ -179,17 +182,13 @@ Bläddra dig vidare så ska du få koda så sprajten kan känna av olika färger
 
 ## 5 – Vinna eller förlora
 
-Dags att koda det här till ett spel! Här ska du programmera in **villkor** i koden som skapar olika händelser - om en sak händer, då ska något annat hända. Till exempel: OM sprajten rör vid en vägg i labyrinten, DÅ blir spelet Game Over och sprajten hamnar tillbaka på startpunkten. OM sprajten nuddar vid målpunkten - DÅ vinner du.
-
-Men hur ska sprajten veta vad den rör vid? Jo, vi ska koda så att den **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg. Det är därför de alla måste ha olika färger så sprajten kan hålla ordning. 
-Dax att koda!
-
+Dags att koda det här till ett spel! Här ska du programmera in **villkor** i koden som skapar olika händelser. Till exempel: OM sprajten rör vid en vägg i labyrinten, DÅ blir spelet Game Over och sprajten hamnar tillbaka på startpunkten. OM sprajten nuddar vid målpunkten - DÅ vinner du. Vi ska koda så att sprajten **känner av vilken färg den rör vid**; labyrintens väggfärg eller målpunktens färg.
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Fyll scenen med en bakgrundsfärg
+- Skapa ett villkor som känner av målfärgen och väggfärgen
 - Rita en enkel bana med väggar
 - Rita startpunkt och målpunkt i två olika färger
 - Sätt sprajtfiguren på startpunkten
@@ -198,42 +197,45 @@ Se i videon ovan hur du ska:
 </br>
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-17. Först lägger vi till en pusselbit som kontrollerar om sprajten rör vid en speciell färg. Under tema KONTROLL finns en stor pusselbit med ett kantigt hål på som heter **Om < > Då... Annars**. Dra in biten och lägg den fritt på skriptytan. Såhär ser pusselbiten ut:
+1. Först lägger vi till ett kodblock som styr vad som ska hända om sprajten rör vid en speciell färg. Under tema KONTROLL finns kodblocket med ett kantigt hål på som heter **Om < > Då... Annars**. Dra in blocket och lägg den fritt på skriptytan.
 
   ![image alt text](block_om_då_annars.png) 
 
 Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid färgen för mål eller en vägg. Vi börjar med målet för att vinna:
 
-18. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
+2. Under tema **Känna av** finns pusselbiten **Rör vid färgen ...**. Dra in biten och lägg den inuti det kantiga hålet mellan **Om < > Då**, så det ser ut såhär:
 
   ![image alt text](block_kod_OmRörvidfärgenDå.png) 
 
-19. Nu ska vi ställa in rätt färg. Tryck på färgcirkeln i kodbiten **Rör vid färgen**. Välj lilla pimpett-verktyget i menyn längst ned, och tryck sen på färgen på labyrintens mål-markering. Färgen ändras då i pusselbiten **Rör vid färgen**.
+3. Nu ska vi ställa in rätt färg för just din målpunkt. Tryck på färgcirkeln i kodbiten **rör vid färgen**. Välj lilla pimpett-verktyget i menyn längst ned och tryck sen på färgen på labyrintens mål-markering. Färgen ändras då till den rätta målfärgen i blocket **rör vid färgen**.
 
   ![image alt text](exempel_byt_färg_pimpettverktyg.png) 
 
-20. Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Koda nu så att sprajten kan säga "Jag vann!" när den går i mål: Under tema UTSEENDE finns pusselbiten **Säg Hej! i 2 sekunder**. Dra in biten och lägg den inuti din villkorsloop, så det ser ut såhär. 
+Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Gör såhär: 
+
+4. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg blocket inuti din villkorsloop, så det ser ut såhär: 
 
   ![image alt text](block_kod_sägHEJi2sekunder.png) 
 
-21. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
+5. Tryck på texten "Hej!" i pusselbiten och skriv istället "Jag vann!"
 
-22. Om sprajten går i mål, ska den flyttas tillbaka till start-positionen igen. Då kodar vi in det: Dra din sprajt till start-markeringen i labyrinten. Under tema RÖRELSE finns pusselbiten **Gå till X... och Y...**. Dra in biten och lägg den direkt under kodblocket **Säg Jag vann! i 2 sekunder**. 
+6. Dra din sprajt till start-markeringen i labyrinten. Från tema RÖRELSE drar du in kodblocket **gå till x__ y__** och lägg in den i villkorsblocket direkt under **säg Jag vann! i 2 sekunder**. 
 
-23. När det blir Game Over ska spelet stoppas - och koden sluta köras. Under tema KONTROLL finns pusselbiten **Stoppa alla**. Lägg in det direkt under **Gå till X... Y...** i din villkors-loop.
+7. När spelet blir Game Over ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.
 
-24. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Lägg därför ett rörelseblock med **Gå 10 steg** in under där det står **annars** i sin gula villkor-loop. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
+8. När sprajten **inte** rör vid mål-färgen, ska den för alltid fortsätta gå framåt. Från tema RÖRELSE drar du därför in ett rörelseblock med **gå 10 steg** och lägger in deni villkors-loopen under där det står **annars**. Ändra siffran 10 till ett lägre tal, 1 kan vara lagom. 
 
   ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
-25. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället, och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!" om den nuddar målets färg.
+9. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!". Se tips nedan för att enkelt kopiera skript.
 
-26. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte går den annars vidare framåt. Ditt skript ska se ut såhär när du är klar.
+**Tips!**. Kopiera ditt första skript och ändra sen bara fägen till väggfärgen och texten till Game Over! Kopera genom att högerklicka överst på ditt första skript och välj **kopiera**. Sen klickar du bredvid på vita skriptytan så får du ett likadant skript som det första.
+
+10. Till sist ska du **lägga in båda dessa skript under varandra inuti det första skriptets För alltid-loop**. Då har du kodat ett skript som **för alltid** - gång på gång under hela spelet - känner av om sprajten rör vid väggar eller målet - och om inte den gör det så går sprajten vidare framåt. Ditt skript ska se ut såhär när du är klar:
 
   ![image alt text](block_kod_helt_färdigt_slutskript.png) 
 
-> Testa ditt projekt! Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
+>**Testa koden!** Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
 
 >**Tips!** Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
 
