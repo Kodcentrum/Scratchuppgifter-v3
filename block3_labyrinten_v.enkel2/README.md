@@ -235,19 +235,15 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
   ![image alt text](villkor_jag_vann_startposition.png) 
 
-7. **När spelet ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.**
-**STÄMMER DETTA???**
+7. När du kommit i mål i spelet ska allt stoppas - och koden sluta köras. Från tema KONTROLL drar du in blocket **stoppa alla**. Lägg in den direkt under **gå till X... Y...** i din villkors-loop.
 
-8. ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
+  ![image alt text](block_kod_färdigt_Om_Då-skript.png) 
 
-9. Nu ska du koda ett likadant skript till, men byt färg så att sprajten känner av labyrintens väggar istället och att den säger "Game Over!" om den nuddar väggfärgen istället för "Jag vann!". 
+9. Nu ska du koda ett till skript med villkor som gör att **OM** sprajten **känner av vägg-färgen**, **DÅ** ska spelet bli **Game Over och stoppa**. När du är klar ska detta villkors-skript för väggfärgen se ut såhär. 
 
-  ![image alt text](villkor_två_stycken.png) 
+  ![image alt text](villkor_GameOver.png) 
 
-**Tips!**. Kopiera ditt första skript och ändra sen bara fägen till väggfärgen och texten till Game Over! Kopera genom att högerklicka överst på ditt första skript och välj **kopiera**. Sen klickar du bredvid på vita skriptytan så får du ett likadant skript som det första. 
-  ![image alt text](Villkor_Kopiera_skript.png) 
-
-10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. 
+10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. Så det ser ut såhär:
 
   ![image alt text](Loop.png) 
 
