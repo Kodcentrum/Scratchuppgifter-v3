@@ -391,27 +391,27 @@ Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska
 
   ![image alt text](Tidsräknare_villkor.png) 
   
-6. Nu ska vi lägga in en **operator**. Operatorer gör beräkningar av olika värden i koden. Under tema OPERATORER drar du ut blocket **__ > 50**. (Tecknet > betyder större än.) Lägg operator-blocket inuti det kantiga hålet mellan **om...då...** i villkoret, så det ser ut såhär:
+7. Nu ska vi lägga in en **operator**. Operatorer gör beräkningar av olika värden i koden. Under tema OPERATORER drar du ut blocket **__ > 50**. (Tecknet > betyder större än.) Lägg operator-blocket inuti det kantiga hålet mellan **om...då...** i villkoret, så det ser ut såhär:
 
   ![image alt text](Tidsräknare_operator.png) 
   
-7. Under VARIABLER drar du in det lilla ovala kodblocket **Tid**, alltså variabeln du skapade tidigare. Lägg blocket i den första tomma vita cirkeln i det gröna operatorblocket. Ändra även siffran **50** till **0**. Nu står det alltså **om Tid större än 0**, alltså att det finns tid kvar i tidräknaren.
+8. Under VARIABLER drar du in det lilla ovala kodblocket **Tid**, alltså variabeln du skapade tidigare. Lägg blocket i den första tomma vita cirkeln i det gröna operatorblocket. Ändra även siffran **50** till **0**. Nu står det alltså **om Tid större än 0**, alltså att det finns tid kvar i tidräknaren.
 
   ![image alt text](Tidsräknare_operatorer_tid.png)
   
-8. Vi vill ändra tiden med en sekund i taget. Därför lägger vi in att räknaren ska vänta 1 sekund mellan varje nedräkning av tiden. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det inuti ditt villkor, såhär:
+9. Vi vill ändra tiden med en sekund i taget. Därför lägger vi in att räknaren ska vänta 1 sekund mellan varje nedräkning av tiden. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det inuti ditt villkor, såhär:
 
   ![image alt text](Tidräknare_vänta1sekund.png)
   
-9. Nu lägger vi in block som söger hur mycket tid som ska räknas ned varje sekund. Från tema VARIABLER drar du in blocket **ändra min variabel med 1**. Klicka på lilla pilen bredvid **min variabel* och ändra till **Tid**. Klicka på siffran **1** och skriv istället **-1**. Nu ser skriptet ut såhär:
+10. Nu lägger vi in block som söger hur mycket tid som ska räknas ned varje sekund. Från tema VARIABLER drar du in blocket **ändra min variabel med 1**. Klicka på lilla pilen bredvid **min variabel* och ändra till **Tid**. Klicka på siffran **1** och skriv istället **-1**. Nu ser skriptet ut såhär:
 
   ![image alt text](Tidsräknare_sätt_tid_till_-1.png)
   
-10. När tiden tagit slut och blivit 0, och spelaren fortfarande inte kommit i mål i labyrinten, då vill vi att spelet ska bli Game Over. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret under **..annars** och ändra **Hej!** till **Game Over!**.
+11. När tiden tagit slut och blivit 0, och spelaren fortfarande inte kommit i mål i labyrinten, då vill vi att spelet ska bli Game Over. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret under **..annars** och ändra **Hej!** till **Game Over!**.
 
   ![image alt text](Tidsräknare_Säg_GameOver.png)
   
-11. När tiden tagit slut ska även koden för spelet stoppas. Under tema KONTROLL drar du in blocket **stoppa alla**. Lägg det inuti villkoret direkt under **säg Game Over! i 2 sekunder**. 
+12. När tiden tagit slut ska även koden för spelet stoppas. Under tema KONTROLL drar du in blocket **stoppa alla**. Lägg det inuti villkoret direkt under **säg Game Over! i 2 sekunder**. 
 
   ![image alt text](Tidsräknare_stoppa_alla.png)
 
@@ -480,7 +480,7 @@ Nu har du en ny labyrint och som kan bli din nästa nivå. Nu ska vi koda så at
 
   ![image alt text](Ta_bort_stoppa_alla.png)
   
-6 Från tema HÄNDELSER drar du ut blocket **skicka meddelande1** och lägger in det i samma villkorsloop istället vör blocket **stoppa alla** som du just tog bort. 
+6. Från tema HÄNDELSER drar du ut blocket **skicka meddelande1** och lägger in det i samma villkorsloop istället vör blocket **stoppa alla** som du just tog bort. 
 
   ![image alt text](Skicka meddelande_villkor.png)
 
