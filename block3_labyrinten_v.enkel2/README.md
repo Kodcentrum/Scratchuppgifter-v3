@@ -266,8 +266,6 @@ Se i videon ovan hur du ska:
 
 >**Testa koden!** Klicka på START-flaggan. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den "Game Over!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten? 
 
->**Tips!** Tryck på symbolen med fyra pilar som pekar utåt, som finns överst i högra hörnet ovanför SCENEN, så kan du spela labyrintspelet i större fönster - det är lättare.
-
 Nu har du ett spel som fungerar! Dax att göra det lite roligare med hinder!
 
 ## 7 - Lägg till hinder och motståndare
@@ -356,11 +354,8 @@ Har du tid över och vill bygga mer på spelet? Då kan du lägga till en timer 
 ## En tidräknare
 
 Dags att göra spelet lite svårare! Vi lägger till en tidräknare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om man inte är i mål när tiden är slut förlorar man! 
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
 - Skapa en variabel för tid
 - Koda variabeln att räkna ned 60 sekunder
 - Sätt upp villkoret att om tiden är slut ska spelet bli Game Over
@@ -386,7 +381,7 @@ Variabeln "Tid" måste kodas för att fungera som vi vill. Den ska räkna ned ti
 
   ![image alt text](Variabel_Ändra_Tid.png) 
   
-5. Under tema KONTROLL drar du ut en **för alltid**-loop. Sätt in det i skriptet direkt under de andra blocken, så det se ut såhär:
+5. Under tema KONTROLL drar du ut en **för alltid**-loop. Sätt in det i skriptet direkt under de andra blocken, så det ser ut såhär:
 
   ![image alt text](Tidsvariabel_loop.png) 
   
@@ -439,8 +434,6 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
   
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
 - Kopiera bakgrunden
 - Byta ut färgen på bakgrunden
 - Rita ny labyrintform och flytta målpunkten
@@ -509,7 +502,7 @@ Nu har du en ny labyrint och som kan bli din nästa nivå. Nu ska vi koda så at
 
     ![image alt text](Bakgrund_växla_vid_start.png)
 
-> Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Kanske dolda cheats och portaler, nycklar att samla in som öppnar dörrar, varialer som rknar liv eller poäng. Lägg gärna på musik och effektljud. Testa dig fram och skapa ditt spel som du vill.
+>**Tips!** Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Kanske dolda cheats och portaler, nycklar att samla in som öppnar dörrar, varialer som rknar liv eller poäng. Lägg gärna på musik och effektljud. Testa dig fram och skapa ditt spel som du vill.
 
 
 ## Frågeställningar
