@@ -153,6 +153,8 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 
 7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll med tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
 
+>**Tips!** Du kan kopiera kodblock och hela skript med kod genom att högerklicka på det översta blocket i skriptet du vill kopiera och välja **Kopiera** i menyn som kommer fram. Klicka sedan på den vita skriptytan bredvid så fastnar en kopia där. Sedan kan du bara ändra lite i koden i kopian.   ![image alt text](Kopiera_kod_styrning_skript.png)
+
 >**Testa koden!** Kan du röra din sprajt åt alla håll? Rör sig sprajten lagom långt när du trycker på piltangenterna? 
 
 ## 4 - Ge sprajten en startposition och riktning
