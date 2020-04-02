@@ -174,7 +174,7 @@ Se i videon ovan hur du ska:
 
 1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som styr vad som händer när du sen klickar på den gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
-  ![image alt text](block_När_grön_flagga_klickas_på.png.png) 
+  ![image alt text](block_När_grön_flagga_klickas_på.png) 
 
 2. Nu ska du lägga till sprajtens startposition. Dra först sprajten så den står på mitten av startplattan i din labyrint. Under tema RÖRELSE drar du in blocket **gå till x:__  y:__**. (det står siffror med koordinater för x och y i blocket). Lägg blocket direkt under kodblocket **när GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet med den gröna flaggan ovanför ditt spel.
 
@@ -279,11 +279,9 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
   ![image alt text](Variabler_Skapa_en_variabel.png) 
   ![image alt text](Variabel_namnge_tid.png) 
-  ![image alt text](Variabel_nytt_block_tid.png) 
-  ![image alt text](Variabel_nytt_block_tid.png) 
+  ![image alt text](Variabel_nytt_block_tid.png)
 
-
-Variabeln Tid måste kodas för att fungera som vi vill. Den ska räkna ned sekunder från 60 till 0. Gör såhär:
+Variabeln "Tid" måste kodas för att fungera som vi vill. Den ska räkna ned tiden i sekunder från 60 till 0. Gör såhär:
 
 2. Vi gör ett nytt skript bredvid det första Från tema HÄNDELSER drar du ut blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt.
 
@@ -304,15 +302,28 @@ Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska
 6. Under tema KONTROLL drar du in villkors-blocket som heter **om...då...annars**. Sätt det inuti skriptets **för alltid**-loop.
 
   ![image alt text](Tidsräknare_villkor.png) 
+  
+6. Nu ska vi lägga in en operator. Den gör beräkningar i koden. Under tema OPERATORER drar du ut blocket **__ > 50**. Lägg det inuti det kantiga hålet mellan **om...då...** i villkoret, så det ser ut såhär.
 
+  ![image alt text](Tidsräknare_operator.png) 
+  
+7. Under VARIABLER drar du in det lilla ovala kodblocket **Tid**, alltså variabeln du skapade tidigare. Lägg blocket i den första tomma vita cirkeln i det gröna operatorblocket. Ändra även siffran 50 till 60, så får tidräknaren 60 sekunder totalt.
 
-  * **För alltid om Tid < 61**
+  ![image alt text](Tidsräknare_operatorer_tid.png)
+  
+8. Vi vill ändra tiden med en sekund i taget. Därför lägger vi in att räknaren ska vänta 1 sekund mellan varje nedräkning av tiden. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det inuti ditt villkor, såhär:
 
-    * **Då** ska sprajten **vänta** 1 sekund
+  ![image alt text](Tidräknare_vänta1sekund.png)
+  
+9. Nu lägger vi in block som söger hur mycket tid som ska räknas ned varje sekund. Från tema VARIABLER drar du in blocket **ändra min variabel med 1**. Klicka på lilla pilen bredvid **min variabel* och ändra till **Tid**. Klicka på siffran **1** och skriv istället **-1**. Nu ser skriptet ut såhär:
 
-    * **Ändra Tid** med -1
+  ![image alt text](Tidsräknare_sätt_tid_till_-1.png)
+  
+10. När tiden tagit slut och blivit 0, och spelaren fortfarande inte kommit i mål i labyrinten, då vill vi att spelet ska bli Game Over. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret under **..annars** och ändra **Hej!** till **Game Over!**.
 
-    * Annars **säg "Game over"** och **stoppa alla** skript
+  ![image alt text](Tidsräknare_Säg_GameOver.png)
+  
+11. När tiden tagit slut ska även koden för spelet stoppas. Under tema KONTROLL drar du in blocket **stoppa alla**. Lägg det inuti villkoret direkt under **säg Game Over! i 2 sekunder**. När du är färdig ska hela skriptet se ut såhär:
 
   ![image alt text](block_kod_timer.png)
 
