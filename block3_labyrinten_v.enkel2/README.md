@@ -253,10 +253,8 @@ För att sprajten ska kunna vinna eller förlora behöver villkoren som känner 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägga till ett block för piltangent uppåt. 
-- Lägga till block för att sprajten ska peka uppåt.
-- Lägga till block för att sprajten ska röra sig när du trycker på piltangenten.
-- Gör sen tre likadana skript till så sprajten kan röra sig i alla riktningar (uppåt, nedåt, höger och vänster).
+- Lägga till en loop till sprajtens skript
+- Lägga in de två villkoren inuti loopen
 
 </br>
 </br>
