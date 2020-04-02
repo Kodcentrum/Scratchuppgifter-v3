@@ -257,9 +257,9 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
 Nu har du ett spel som fungerar! Dax att göra det lite roligare med hinder!
 
-## 6 - En tidsräknare
+## 6 - En tidräknare
 
-Dags att göra spelet lite svårare! Vi lägger till en tidsräknare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om man inte är i mål när tiden är slut förlorar man! 
+Dags att göra spelet lite svårare! Vi lägger till en tidräknare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om man inte är i mål när tiden är slut förlorar man! 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -289,7 +289,7 @@ Variabeln "Tid" måste kodas för att fungera som vi vill. Den ska räkna ned ti
 
   ![image alt text](Variabel_sätt_till_0.png) 
 
-4. Klicka på lilla pilen bredvid **min variabel** i blocket och byt till **Tid**. Ändra variabel-siffran 0 till 60 (eller till den tid du vill ha på dig i ditt spel).
+4. Klicka på lilla pilen bredvid **min variabel** i blocket och byt till **Tid**. Ändra variabel-siffran **0** till **60** (eller till den tid du vill ha på dig i ditt spel).
 
   ![image alt text](Variabel_Ändra_Tid.png) 
   
@@ -303,11 +303,11 @@ Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska
 
   ![image alt text](Tidsräknare_villkor.png) 
   
-6. Nu ska vi lägga in en operator. Den gör beräkningar i koden. Under tema OPERATORER drar du ut blocket **__ > 50**. Lägg det inuti det kantiga hålet mellan **om...då...** i villkoret, så det ser ut såhär.
+6. Nu ska vi lägga in en **operator**. Operatorer gör beräkningar av olika värden i koden. Under tema OPERATORER drar du ut blocket **__ > 50**. (Tecknet > betyder större än.) Lägg operator-blocket inuti det kantiga hålet mellan **om...då...** i villkoret, så det ser ut såhär:
 
   ![image alt text](Tidsräknare_operator.png) 
   
-7. Under VARIABLER drar du in det lilla ovala kodblocket **Tid**, alltså variabeln du skapade tidigare. Lägg blocket i den första tomma vita cirkeln i det gröna operatorblocket. Ändra även siffran 50 till 60, så får tidräknaren 60 sekunder totalt.
+7. Under VARIABLER drar du in det lilla ovala kodblocket **Tid**, alltså variabeln du skapade tidigare. Lägg blocket i den första tomma vita cirkeln i det gröna operatorblocket. Ändra även siffran **50** till **0**. Nu står det alltså **om Tid större än 0**, alltså att det finns tid kvar i tidräknaren.
 
   ![image alt text](Tidsräknare_operatorer_tid.png)
   
