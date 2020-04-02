@@ -275,15 +275,36 @@ Se i videon ovan hur du ska:
 
 För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
-1. Under tema VARIABLER finns överst **skapa en variabel**. Tryck på den och skriv in **Tid** där det efterfrågas nytt variabelnamn, och tryck på OK. Nu har det skapats ett nytt kodblock under tema VARIABLER som heter **Tid**. Du kan också se en tidräknaren i ditt labyrintspel på SCENEN. Men vi behöver koda hur räknaren ska fungera, så den räknar ned sekunderna. Gör såhär:
+1. Under tema VARIABLER finns en ruta som det står **skapa en variabel** på. Tryck på rutan och skriv in **Tid** som namn i textrutan som kommer fram och tryck sedan OK. Nu har du skapat en variabel som heter **Tid**, och flera nya kodblock för variabler har dykt upp under temat VARIABLER. Du kan också se en tidräknaren överst i ditt spel på SCENEN. 
 
-2. Gör ett helt nytt skript för sprajten som säger (och se exempelbilden nedan):
+  ![image alt text](Variabler_Skapa_en_variabel.png) 
+  ![image alt text](Variabel_namnge_tid.png) 
+  ![image alt text](Variabel_nytt_block_tid.png) 
+  ![image alt text](Variabel_nytt_block_tid.png) 
 
-  * Starta när **START-flaggan** klickas på
 
-  * **Gå till** startmarkeringen i spelet (sätt X och Y-position)
+Variabeln Tid måste kodas för att fungera som vi vill. Den ska räkna ned sekunder från 60 till 0. Gör såhär:
 
-  * **Sätt Tid** till 60 sekunder (eller välj själv hur många sekunder ditt spel ska ha)
+2. Vi gör ett nytt skript bredvid det första Från tema HÄNDELSER drar du ut blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt.
+
+3. Under tema VARIABLER drar du ut blocket **sätt min variabel till 0**. Sätt blocket direkt under **när GRÖN FLAGGA klickas på**. 
+
+  ![image alt text](Variabel_sätt_till_0.png) 
+
+4. Klicka på lilla pilen bredvid **min variabel** i blocket och byt till **Tid**. Ändra variabel-siffran 0 till 60 (eller till den tid du vill ha på dig i ditt spel).
+
+  ![image alt text](Variabel_Ändra_Tid.png) 
+  
+5. Under tema KONTROLL drar du ut en **för alltid**-loop. Sätt in det i skriptet direkt under de andra blocken, så det se ut såhär:
+
+  ![image alt text](Tidsvariabel_loop.png) 
+  
+Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska den räkna ned en sekund i taget, och när den är på 0 blir spelet Game Over. Gör såhär:
+
+6. Under tema KONTROLL drar du in villkors-blocket som heter **om...då...annars**. Sätt det inuti skriptets **för alltid**-loop.
+
+  ![image alt text](Tidsräknare_villkor.png) 
+
 
   * **För alltid om Tid < 61**
 
