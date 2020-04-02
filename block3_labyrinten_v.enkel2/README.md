@@ -20,7 +20,7 @@ Klicka nedan på nästa kapitel för att gå vidare.
 
 ## 1 – Byt till ny spelfigur
 Först ska du lägga till en ny figur som ska kunna styras genom labyrinten. Det blir din spelhjälte.
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -53,7 +53,7 @@ Nu har vi en spelfigur, men vi behöver rita labyrinten. Vi bläddrar vidare!
 
 ## 2 – Rita din labyrint
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att spelet sen ska fungera: Labyrintens väggar måste alla vara i samma färg. Start och mål ska ha varsin färg och de får inte ha samma färger som väggarna eller bakgrunden har. 
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_2.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -116,7 +116,7 @@ Nu är et dax att börja koda sprajtens rörelse genom labyrinten!
 ## 3 - Koda sprajtens rörelse
 
 Din sprajt ska kunna röra sig igenom labyrinten och ta sig i mål. Sprajten ska styras med piltangenterna på datorns tangentbord. 
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_3.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -160,7 +160,7 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 ## 4 - Startposition och riktning
 
 För att slippa dra tillbaka sprajten till startplatsen hela tiden, ska du lägga till en startposition. Vi lägger även till en startriktning, så att sprajten tittar åt rätt håll när den startar.
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_4.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -195,7 +195,7 @@ Dax att koda så sprajten kan vinna eller förlora i spelet.
 ## 5 – Vinna eller förlora
 
 Här ska du programmera in **villkor** i koden som skapar olika händelser. Exempel:  **OM** sprajten rör vid en vägg i labyrinten, **DÅ** blir spelet Game Over och hamnar tillbaka på startpunkten. **OM** sprajten rör vid målpunkten - **DÅ** vinner du. Vi ska koda så att sprajten **känner av vilken färg den rör vid**, så den vet vart den befinner sig.
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_5.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -248,7 +248,7 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 ## 6 - Sprajten känner av färger
 För att sprajten ska kunna vinna eller förlora behöver villkoren som känner av väggfärgen och målfärgen läggas in i ett större skript med en loop.
 
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_6.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -284,7 +284,7 @@ Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir 
 
   ![image alt text](exempelbild_med_hinder.png) 
 
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Labyrint_7.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
