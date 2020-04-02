@@ -174,7 +174,7 @@ Se i videon ovan hur du ska:
 
 1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som styr vad som händer när du sen klickar på den gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
-  ![image alt text](block_När_grön_flagga_klickas_på.png.png) 
+  ![image alt text](block_När_grön_flagga_klickas_på.png) 
 
 2. Nu ska du lägga till sprajtens startposition. Dra först sprajten så den står på mitten av startplattan i din labyrint. Under tema RÖRELSE drar du in blocket **gå till x:__  y:__**. (det står siffror med koordinater för x och y i blocket). Lägg blocket direkt under kodblocket **när GRÖN FLAGGA klickas på**. Nu startar sprajten på samma ställe varje gång du startar spelet med den gröna flaggan ovanför ditt spel.
 
