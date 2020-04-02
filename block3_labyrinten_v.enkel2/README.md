@@ -326,15 +326,15 @@ Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska
   
 11. När tiden tagit slut ska även koden för spelet stoppas. Under tema KONTROLL drar du in blocket **stoppa alla**. Lägg det inuti villkoret direkt under **säg Game Over! i 2 sekunder**. 
 
-  ![image alt text](Tidsräknare_Stoppa_alla.png)
+  ![image alt text](Tidsräknare_stoppa_alla.png)
 
-När du är färdig ska hela skriptet för Tidräknaren se ut såhär:
+När du är färdig ska hela skriptet för tidräknaren se ut såhär:
 
   ![image alt text](block_kod_timer.png)
 
   Nu har du en timer, det vill säga en tidräknare! 
 
-> **Testa koden!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
+> **Testa koden!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som tidräknaren startar med, om du vill ha längre eller kortare tid på dig.
 
 
 ## Färdig!
