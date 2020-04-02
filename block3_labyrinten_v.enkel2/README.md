@@ -1,8 +1,9 @@
 # Labyrinten
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint utan att röra väggarna och hinder - för då blir du Game Over! Du kan även utmana dig och skapa nya banor för att komma till nästa nivå i spelet. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
+<video src="./Labyrinten_0_spela.mp4" autoplay loop muted height=480 width=640 />
 
-En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi två exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har:
+En labyrint kan se ut på många olika sätt och du kan rita din som du vill. Här visar vi exempel på hur ett labyrintspel skulle kunna se ut, beroende på vilken form labyrintens väggar har:
 
 ![image alt text](image_0.png)
 
@@ -104,13 +105,13 @@ En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att 
   
 3. Dra sprajten till din labyrints startpunkt och **ändra eventuellt storleken** på sprajten om den verkar vara för stor eller för liten för att passa mellan väggarna i din labyrint. Den behöver lite svängrum omkring sig för att inte stöta i väggen. Du ändrar storleken i rutan som heter **Storlek** under SCENEN med ditt spel. 
   
-Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget.
+4. Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget och tillbaka till där du kodar.
 
   ![image alt text](KOD_flik.png)
   
-Se till att din sprajt är aktiverad genom att klicka på den lilla bilden av din sprajt under scenen en gång.
+5. Se till att din sprajt är aktiverad, istället för din bakgrund, genom att klicka på den lilla bilden av din sprajt under scenen en gång.
 
-Nu är et dax att börja koda sprajtens rörelse genom labyrinten!
+Nu är det dax att börja koda sprajtens rörelse genom labyrinten!
 
 
 ## 3 - Koda sprajtens rörelse
@@ -135,6 +136,8 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 
 1. Från tema HÄNDELSER drar du ut blocket **när mellanslagstangenten trycks ned**. Lägg blocket någonstans på sprajtens tomma skriptyta.
 
+  ![image alt text](block_tangent.png)
+
 2. Klicka på lilla pilen bredvid ordet **mellanslagstangenten** i blocket. Välj **uppåtpil** istället. 
 
   ![image alt text](Uppåtpil_byt_tangent.png)
@@ -152,6 +155,8 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
   ![image alt text](image_4.png)
 
 7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll med tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
+
+  ![image alt text](Styrknappar_färdig_kod.png)
 
 >**Tips!** Du kan kopiera kodblock och hela skript med kod genom att högerklicka på det översta blocket i skriptet du vill kopiera och välja **Kopiera** i menyn som kommer fram. Klicka sedan på den vita skriptytan bredvid så fastnar en kopia där. Sedan kan du bara ändra lite i koden i kopian.   ![image alt text](Kopiera_kod_styrning_skript.png)
 
@@ -222,6 +227,7 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 3. Nu ska vi ställa in rätt färg för just din målpunkt. Tryck på färgcirkeln i kodbiten **rör vid färgen**. Välj lilla pimpett-verktyget i menyn längst ned och tryck sen på färgen på labyrintens mål-markering. Färgen ändras då till den rätta målfärgen i blocket **rör vid färgen**.
 
   ![image alt text](exempel_byt_färg_pimpettverktyg.png)    ![image alt text](rör_vid_färgen_pinpettverktyget.png)
+<br>
 <br>
 Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Gör såhär: 
 
