@@ -104,13 +104,13 @@ En enkel labyrint kan se ut såhär, men du ritar din som du vill. Tips är att 
   
 3. Dra sprajten till din labyrints startpunkt och **ändra eventuellt storleken** på sprajten om den verkar vara för stor eller för liten för att passa mellan väggarna i din labyrint. Den behöver lite svängrum omkring sig för att inte stöta i väggen. Du ändrar storleken i rutan som heter **Storlek** under SCENEN med ditt spel. 
   
-Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget.
+4. Nu är labyrinten klar. Tryck på fliken **KOD** längst upp i vänstra hörnet, så kommer du ut ur ritläget och tillbaka till där du kodar.
 
   ![image alt text](KOD_flik.png)
   
-Se till att din sprajt är aktiverad genom att klicka på den lilla bilden av din sprajt under scenen en gång.
+5. Se till att din sprajt är aktiverad, istället för din bakgrund, genom att klicka på den lilla bilden av din sprajt under scenen en gång.
 
-Nu är et dax att börja koda sprajtens rörelse genom labyrinten!
+Nu är det dax att börja koda sprajtens rörelse genom labyrinten!
 
 
 ## 3 - Koda sprajtens rörelse
@@ -135,6 +135,8 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
 
 1. Från tema HÄNDELSER drar du ut blocket **när mellanslagstangenten trycks ned**. Lägg blocket någonstans på sprajtens tomma skriptyta.
 
+  ![image alt text](block_tangent.png)
+
 2. Klicka på lilla pilen bredvid ordet **mellanslagstangenten** i blocket. Välj **uppåtpil** istället. 
 
   ![image alt text](Uppåtpil_byt_tangent.png)
@@ -152,6 +154,8 @@ Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar o
   ![image alt text](image_4.png)
 
 7. Skapa nu tre till likadana skript, så du kan styra genom labyrinten åt alla håll med tangentbordets fyra piltangenter. Ändra piltangentknapp och riktningen sprajten pekar för att styra **vänster**, **höger** och **nedåt**.
+
+  ![image alt text](Styrknappar_färdig_kod.png)
 
 >**Tips!** Du kan kopiera kodblock och hela skript med kod genom att högerklicka på det översta blocket i skriptet du vill kopiera och välja **Kopiera** i menyn som kommer fram. Klicka sedan på den vita skriptytan bredvid så fastnar en kopia där. Sedan kan du bara ändra lite i koden i kopian.   ![image alt text](Kopiera_kod_styrning_skript.png)
 
