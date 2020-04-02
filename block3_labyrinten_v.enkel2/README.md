@@ -30,6 +30,7 @@ Se i videon ovan hur du ska:
 - Välj ny sprajt
 - Minska storleken på sprajten
 
+<br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Ta bort katt-sprajten genom att trycka på den krysset eller den lilla soptunnan vid den kattfiguren under scenen.
@@ -61,10 +62,8 @@ Se i videon ovan hur du ska:
 - Rita startpunkt och målpunkt i två olika färger
 - Sätt sprajtfiguren på startpunkten och minska storleken på sprajten
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 Nu ska du skapa din labyrint med en **bakgrundsfärg, labyrintväggar, start och mål**. Viktigt att du ger varje del en egen färg för att spelet sen fungera. 
 
@@ -124,10 +123,8 @@ Se i videon ovan hur du ska:
 - Lägga till block för att sprajten ska röra sig när du trycker på piltangenten.
 - Gör sen tre likadana skript till så sprajten kan röra sig i alla riktningar (uppåt, nedåt, höger och vänster).
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 Dax att koda sprajtens rörelser. Den ska röra sig framåt i olika riktningar och styras med hjälp av piltangenterna på datorns tangentbord.
 
@@ -171,10 +168,8 @@ Se i videon ovan hur du ska:
 - Lägga till ett block för sprajtens startposition
 - Lägga till ett block för sprajtens startriktning
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema HÄNDELSER drar du in blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på skriptytan för din sprajt. Detta är ett startblock och är kodblocket som styr vad som händer när du sen klickar på den gröna flaggan ovanför ditt spel - som en PLAY-knapp.
 
@@ -207,10 +202,9 @@ Se i videon ovan hur du ska:
 - Lägg till en loop och lägg in villkoren i loopen
 - Sätt ihop skriptet med startflaggans skript
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
 1. Först lägger vi till ett kodblock som styr vad som ska hända om sprajten rör vid en speciell färg. Under tema KONTROLL finns kodblocket med ett kantigt hål på som heter **om...då...**. Dra in blocket och lägg den fritt på skriptytan.
 
   ![image alt text](block_om_då_annars.png) 
@@ -259,10 +253,8 @@ Se i videon ovan hur du ska:
 - Lägga till en loop till sprajtens skript
 - Lägga in de två villkoren inuti loopen
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. Så det ser ut såhär:
 
@@ -282,9 +274,6 @@ Nu har du ett spel som fungerar! Dax att göra det lite roligare med hinder!
 Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
 
 Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
-
-  ![image alt text](exempelbild_med_hinder.png) 
-
 <video src="./Labyrint_7.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -294,10 +283,8 @@ Se i videon ovan hur du ska:
 - Koda så att om spelfiguren rör vid ett hinder, då ska spelet bli Game Over
 - Koda så att hindren kan röra sig för att göra spelet svårare
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med? Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
 
@@ -377,11 +364,8 @@ Se i videon ovan hur du ska:
 - Skapa en variabel för tid
 - Koda variabeln att räkna ned 60 sekunder
 - Sätt upp villkoret att om tiden är slut ska spelet bli Game Over
-
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 För att skapa en tidräknare behöver du först skapa en ny variabel som ska heta "Tid". En variabel är lite som en låda som håller reda på saker som sker i spelet, så som hur mycket tid som gått eller hur många poäng som sprajten fått. Gör såhär:
 
@@ -444,18 +428,25 @@ När du är färdig ska hela skriptet för tidräknaren se ut såhär:
 
 > **Testa koden!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som tidräknaren startar med, om du vill ha längre eller kortare tid på dig.
 
->br>
+<br>
 ## Fler banor och nivåer
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten. Det gör du genom att rita nya **bakgrunder** som följer reglerna:
 
   * Samma position och färg på startpunkten
-
   * Samma färg på väggarna
-
   * Samma färg på målpunkten
-
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
+  
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Kopiera bakgrunden
+- Byta ut färgen på bakgrunden
+- Rita ny labyrintform och flytta målpunkten
+- Koda in att byta till nästa bana när spelfiguren går i mål
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Klicka på scenens bild i nedre högra hörnet av Scratch. Klicka sen på fliken BAKGRUNDER i övre vänstra hörnet av Scratch. På vänster sida finns en liten bild av din nuvarande bakgrund med din labyrint. Högerklicka på lilla bakgrundsbilden så får du upp valet **kopiera**. Klicka på kopiera, så får du en ny kopia av din bakgrund. Se till att du har din kopia av bakgrunden vald. 
   
@@ -467,19 +458,22 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
 3. Nu ska vi måla en ny labyrint med samma väggfärg som den förra labyrinten. Vi ska därför hämta upp färgen från den första labyrintens bakgrund och använda den. Gör såhär:
 - Gå till din första bakgrund genom att klicka på den lilla bilden av första bakgrunden till vänster. 
+
   ![image alt text](Bakgrunder_växla_till_första.png) 
 - Klicka på färgväljaren och sen på det lilla pimpettverktyget längst ned. 
 - Välj väggfärgen genom att klicka på väggen - så har du rätt färg. 
  ![image alt text](Pimpett_väggfärg.png) 
 - Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
+
  ![image alt text](Bakgrund_växla_2.png) 
-- Välj verktyg, exempelvis LINJE-verktyget oh ändra storlek till ca 10. 
+- Välj verktyg, exempelvis LINJE-verktyget och ändra storlek till ca 10. 
 - Rita din labyrint med start vid din Startpunkt.
  ![image alt text](Bakgrund_ny_labyrint_2.png) 
 - Se till att labyrinten har ett slut där du sen ska rita din Målpunkt i nästa steg. 
+<br>
 
 4. Gör nu likadant för att måla din Målpunkt. Gör såhär:
-- Gå till din första bakgrund genom att klicka på den lilla bilden av första bakgrunden till vänster. 
+- Gå till din första bakgrund genom att klicka på den lilla bilden av översta bakgrunden till vänster. 
 - Klicka på färgväljaren och sen på det lilla pimpettverktyget längst ned. 
 - Välj målpunktens färg genom att klicka på målpunkten - så har du rätt färg. 
 - Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
@@ -487,26 +481,23 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 - Rita din Målpunkt där din labyrint slutar.
  ![image alt text](Bakgrund_ny_bana_2.png)
 
-Nu har du en ny labyrint och som kan bli din nästa nivå. Dax att koda så det funkar i spelet.
+Nu har du en ny labyrint och som kan bli din nästa nivå. Nu ska vi koda så att bakgrunden byts till nästa labyrint när spelfigurens sprajt går i mål. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när sprajten **nuddar målpunktens färg**. Gör såhär:
 
-5. Nu ska vi koda så att bakgrunden byts till nästa labyrint när spelfigurens sprajt går i mål. 
+5. Se till att din sprajt för spelfiguren är aktiverad, så du kan koda sprajten och inte bakgrunden. börja med att ta bort blocket **stoppa alla** från det stora skriptet inuti den villkorsloop som säger att när sprajten känner målfärgen så säger den **Jag vann!** 
 
+  ![image alt text](Ta_bort_stoppa_alla.png)
+  
+6 Från tema HÄNDELSER drar du ut blocket **skicka meddelande1** och lägger in det i samma villkorsloop istället vör blocket **stoppa alla** som du just tog bort. 
 
-  ![image alt text](Bakgrund_byt_fäg_bakgrund_labyrint.png) 
+  ![image alt text](Skicka meddelande_villkor.png)
 
-SLUTBILD NY BAKGRUND OCH BANA: Bakgrund_ny_bana_2 
-
-Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**. 
-
-> Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
-
-3. Nu behöver du se till att den nya labyrintbanan kommer fram när du har gått i mål och vunnit den första. Det gör du genom att lägga till ett block som sänder ut ett **meddelande** när du **nuddar målpunkten**. Skapa meddelandet från tema HÄNDELSER och använd pusselbiten **skicka meddelande1**. Tryck på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge nya meddelandet namnet **NästaNivå**.
+7. Tryck på texten **meddelande 1** så får du upp en meny och kan välja **Nytt meddelande**. Ge det nya meddelandet namnet **NästaNivå**.
 
   ![image alt text](block_kod_skicka_meddelande.png)
 
   ![image alt text](image_9.png)
 
-4. Lägg sedan till ett nytt skript för SCENEN (med den första bakgrundsbilden) som säger:
+8. Klicka på lilla bilden för bakgrunden där det står SCEN, långt till höger i Scratch. Då blir bakgrunden vald och kan kodas. Se till att du står på den första bakgrunden den du vill starta spelet med. Lägg sedan till ett nytt skript för SCENEN som säger:
 
   * När sprajten **tar emot meddelandet NästaNivå**
 
@@ -514,9 +505,10 @@ Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att anvä
   
     ![image alt text](block_kod_nästa_bakgrund.png)
 
-5. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund och labyrintbana i början. Under tema UTSEENDE finns pusselbiten **Växla till bakgrund 1**. Lägg in denna kod till sprajten direkt in under översta koden **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
+9. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund i början. Se till att din spelfigurs sprajt är aktiverad. Under tema UTSEENDE finns blocket **Växla till bakgrund 1**. Lägg in detta kodblock till sprajten direkt in under översta blocket för **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
 
-  
+    ![image alt text](Bakgrund_växla_vid_start.png)
+
 > Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Kanske dolda cheats och portaler, nycklar att samla in som öppnar dörrar, varialer som rknar liv eller poäng. Lägg gärna på musik och effektljud. Testa dig fram och skapa ditt spel som du vill.
 
 
