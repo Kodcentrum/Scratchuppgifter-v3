@@ -432,11 +432,39 @@ Se i videon ovan hur du ska:
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
-1. Gå till fliken BAKGRUNDER i övre vänstra hörnet. På vänster sida finns en liten bild av din nuvarande bakgrund. Tryck på lilla bakgrundsbilden en lite längre stund och släpp, så får du upp valet **kopiera**. Tryck på kopiera, så får du en ny kopia av din bakgrund. Se till att du har din kopia av bakgrunden vald. Välj nu verktyget som ser ut som ett litet suddgummi och sudda sen bort allt i din labyrint **förutom startpunkten** 
+1. Klicka på scenens bild i nedre högra hörnet av Scratch. Klicka sen på fliken BAKGRUNDER i övre vänstra hörnet av Scratch. På vänster sida finns en liten bild av din nuvarande bakgrund med din labyrint. Högerklicka på lilla bakgrundsbilden så får du upp valet **kopiera**. Klicka på kopiera, så får du en ny kopia av din bakgrund. Se till att du har din kopia av bakgrunden vald. 
   
-  ![image alt text](Bakgrund_kopiera.png)
+  ![image alt text](Bakgrund_kopiera.png)      ![image alt text](Bakgrund_2.png)
 
-2. Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**. 
+2. Klicka på verktyget med en **hink**. Välj en ny färg för bakgrunden. Se till att färgen inte är samma som din startpunkt, målpunkt eller väggfärg. Klicka på bakgrunden för att byta ut färgen. Klicka även på labyrintens väggar och på målpunkten så de målas över med. **OBS!** Måla inte över startpunkten!
+
+  ![image alt text](Bakgrund_byt_fäg_bakgrund_labyrint.png) 
+
+3. Nu ska vi måla en ny labyrint med samma väggfärg som den förra labyrinten. Vi ska därför hämta upp färgen från den första labyrintens bakgrund. Gör såhär:
+- Gå till din första bakgrund genom att klicka på den lilla bilden av första bakgrunden till vänster. 
+- Klicka på färgväljaren och sen på det lilla pimpettverktyget längst ned. 
+- Välj väggfärgen genom att klicka på väggen - så har du rätt färg. 
+- Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
+- Välj verktyg, exempelvis LINJE-verktyget oh ändra storlek till ca 10. 
+- Rita din labyrint med start vid din Startpunkt.. 
+- Se till att labyrinten har ett slut där du sen ska rita din Målpunkt i nästa steg. 
+
+4. Gör nu likadant för att måla din Målpunkt. Gör såhär:
+- Gå till din första bakgrund genom att klicka på den lilla bilden av första bakgrunden till vänster. 
+- Klicka på färgväljaren och sen på det lilla pimpettverktyget längst ned. 
+- Välj målpunktens färg genom att klicka på målpunkten - så har du rätt färg. 
+- Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
+- Välj verktyg, exempelvis PENSEL-verktyget och ändra storlek till 100. 
+- Rita din Målpunkt där din labyrint slutar.
+
+5. Nu ska vi koda så att bakgrunden byts till nästa labyrint när spelfigurens sprajt går i mål. 
+
+
+  ![image alt text](Bakgrund_byt_fäg_bakgrund_labyrint.png) 
+
+SLUTBILD NY BAKGRUND OCH BANA: Bakgrund_ny_bana_2 
+
+Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att använda **samma färger på väggarna och på målpunkten som i förra labyrinten**. 
 
 > Tips! För att få exakt samma färg på vägg och mål på den nya banan, kan du trycka på färgväljaren och sen på det lilla pimpettverktyget längst ned i färgväljarens meny. Gå sedan till den första bakgrunden och klicka på väggfärgen eller målfärgen så väljs just den färgen. Gå sen tillbaka till din nya bakgrund och måla väggar och mål.
 
