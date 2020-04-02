@@ -31,8 +31,6 @@ Se i videon ovan hur du ska:
 - Minska storleken på sprajten
 
 </br>
-</br>
-</br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Ta bort katt-sprajten genom att trycka på den krysset eller den lilla soptunnan vid den kattfiguren under scenen.
