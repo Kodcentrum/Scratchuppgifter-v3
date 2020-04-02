@@ -279,7 +279,6 @@ För att skapa en tidräknare behöver du först skapa en ny variabel som ska he
 
   ![image alt text](Variabler_Skapa_en_variabel.png) 
   ![image alt text](Variabel_namnge_tid.png) 
-  ![image alt text](Variabel_nytt_block_tid.png)
 
 Variabeln "Tid" måste kodas för att fungera som vi vill. Den ska räkna ned tiden i sekunder från 60 till 0. Gör såhär:
 
