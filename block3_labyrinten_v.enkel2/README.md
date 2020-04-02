@@ -348,9 +348,9 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 
 
 ## Utmaningar
-Har du tid över och bygga mer på spelet. Då kan du lägga till en timer som räknar ned speltiden opch fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
+Har du tid över och vill bygga mer på spelet? Då kan du lägga till en timer som räknar ned speltiden och fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
 
-## Lägg till ett hinder 
+## Lägg till hinder och motståndare
 Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
 
 Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
