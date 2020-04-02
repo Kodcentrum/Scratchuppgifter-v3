@@ -428,9 +428,17 @@ Se i videon ovan hur du ska:
 >**Tips!** Det finns massor av sätt att lägga in olika hinder på. Du kan ha flera olika hinder och göra ett villkor för varje för spelfiguren att känna igen dem om sprajten rör vid dem. Men du måste inte alltid bli Game Over om du rör vid hindret. Kanske du istället ska få eller tappa poäng, få liv, förlora tid, fånga en nyckel för att öppna en dörr vid målpunkten? Hur vill du att dina hinder ska fungera?
 
 
-## Fler banor
+## Fler banor och nivåer
 
-Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
+Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten. Det gör du genom att rita nya **bakgrunder** som följer reglerna:
+
+  * Samma position och färg på startpunkten
+
+  * Samma färg på väggarna
+
+  * Samma färg på målpunkten
+
+  * Att det inte finns andra saker med samma färg som väggen eller målpunkten
 
 1. Klicka på scenens bild i nedre högra hörnet av Scratch. Klicka sen på fliken BAKGRUNDER i övre vänstra hörnet av Scratch. På vänster sida finns en liten bild av din nuvarande bakgrund med din labyrint. Högerklicka på lilla bakgrundsbilden så får du upp valet **kopiera**. Klicka på kopiera, så får du en ny kopia av din bakgrund. Se till att du har din kopia av bakgrunden vald. 
   
@@ -440,13 +448,17 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
   ![image alt text](Bakgrund_byt_fäg_bakgrund_labyrint.png) 
 
-3. Nu ska vi måla en ny labyrint med samma väggfärg som den förra labyrinten. Vi ska därför hämta upp färgen från den första labyrintens bakgrund. Gör såhär:
+3. Nu ska vi måla en ny labyrint med samma väggfärg som den förra labyrinten. Vi ska därför hämta upp färgen från den första labyrintens bakgrund och använda den. Gör såhär:
 - Gå till din första bakgrund genom att klicka på den lilla bilden av första bakgrunden till vänster. 
+  ![image alt text](Bakgrunder_växla_till_första.png) 
 - Klicka på färgväljaren och sen på det lilla pimpettverktyget längst ned. 
 - Välj väggfärgen genom att klicka på väggen - så har du rätt färg. 
+ ![image alt text](Pimpett_väggfärg.png) 
 - Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
+ ![image alt text](Bakgrund_växla_2.png) 
 - Välj verktyg, exempelvis LINJE-verktyget oh ändra storlek till ca 10. 
-- Rita din labyrint med start vid din Startpunkt.. 
+- Rita din labyrint med start vid din Startpunkt.
+ ![image alt text](Bakgrund_ny_labyrint_2.png) 
 - Se till att labyrinten har ett slut där du sen ska rita din Målpunkt i nästa steg. 
 
 4. Gör nu likadant för att måla din Målpunkt. Gör såhär:
@@ -456,6 +468,9 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 - Gå till din nya bakgrund genom att klicka på den lilla bilden av den till vänster.
 - Välj verktyg, exempelvis PENSEL-verktyget och ändra storlek till 100. 
 - Rita din Målpunkt där din labyrint slutar.
+ ![image alt text](Bakgrund_ny_bana_2.png)
+
+Nu har du en ny labyrint och som kan bli din nästa nivå. Dax att koda så det funkar i spelet.
 
 5. Nu ska vi koda så att bakgrunden byts till nästa labyrint när spelfigurens sprajt går i mål. 
 
@@ -484,19 +499,6 @@ Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att anvä
 
 5. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund och labyrintbana i början. Under tema UTSEENDE finns pusselbiten **Växla till bakgrund 1**. Lägg in denna kod till sprajten direkt in under översta koden **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
 
-> Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
-Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
-
-## Fler nivåer
-Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som följer reglerna:
-
-  * Samma position på startpunkten
-
-  * Samma färg på väggarna
-
-  * Samma färg på målpunkten
-
-  * Att det inte finns andra saker med samma färg som väggen eller målpunkten
   
 > Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
 
