@@ -394,22 +394,17 @@ Se i videon ovan hur du ska:
 6. Vi vill att hindret ska åka lite fram och tillbaka när spelet går igång. Dra sprajten för ditt hinder lite åt ena sidan dit du vill att den ska åka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket inuti loopen.
 
   ![image alt text](Hindret_glidTill.png) 
+
+7. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut ett till kodblock med **glid till x__ y__** och lägg blocket nederst inuti loopen. När du är klar ser det färdiga skriptet ut såhär:
+
+  ![image alt text](Hindret_rörelse_färdigt_skript..png) 
   
-7. Under tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in den i loopen och ändra **1** till kortare tid, exempelvis **0.1**.
+>**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på. Testa dig fram, kanske 0.5 sekunder blir lagom?
 
-  ![image alt text](Hindret_vänta.png) 
-
-8. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket nederst inuti loopen.
-
-  ![image alt text](Hindret_rörelse_långsam.png) 
-  
->**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på.
-
-9. Ändra tiden i rörelseblocken för att hindret ska röra sig snabbare. Testa dig fram, kanske **0.5 sekunder** blir lagom?
 
 
   
-  
+  bknknkklnnknlnknlknnknklnnklnnlk
 
 
 
