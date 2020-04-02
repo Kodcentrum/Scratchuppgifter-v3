@@ -362,8 +362,8 @@ Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägg till nya sprajtar som hinder
-- Koda så att om spelfigurens sprajt rör vid en sprajt som är ett hinder, då ska spelet bli Game Over
+- Lägga till nya sprajtar som hinder
+- Koda så att om spelfigurens rör vid ett hinder, då ska spelet bli Game Over
 - Koda så att hindren kan röra sig för att göra spelet svårare
 
 </br>
@@ -371,7 +371,53 @@ Se i videon ovan hur du ska:
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-> Kan du klura ut hur du ska koda hindren? Tips är att kika på hur du löste koden med labyrintens väggar. 
+1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med?
+
+  ![image alt text](Scen_hinder_sten.png) 
+  
+2. Ändra så den blir lagom stor och dra den till rätt ställe i spelet. 
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
+
+3. Nu ska vi göra så att hindret med sten-sprajten rör på sig. Under HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på**.
+
+  ![image alt text](block_När_grön_flagga_klickas_på.png) 
+  
+4. Från tema RÖRELSE drar du ut kodblocket **gå till x__ y__**. Sätt blocket dirket under **när GRÖNA FLAGGAN klickas på**.
+
+  ![image alt text](Hindrets_startposition.png) 
+  
+5. Från tema KONTROLL drar du ut en **för alltid**-loop. Sätt den längst ned i skriptet under **gå till x__ y__**.
+
+  ![image alt text](Hindret_loop.png) 
+
+6. Vi vill att hindret ska åka lite fram och tillbaka när spelet går igång. Dra sprajten för ditt hinder lite åt ena sidan dit du vill att den ska åka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket inuti loopen.
+
+  ![image alt text](Hindret_glidTill.png) 
+  
+7. Under tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in den i loopen och ändra **1** till kortare tid, exempelvis **0.1**.
+
+  ![image alt text](Hindret_vänta.png) 
+
+8. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket nederst inuti loopen.
+
+  ![image alt text](Hindret_rörelse_långsam.png) 
+  
+>**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på.
+
+9. Ändra tiden i rörelseblocken för att hindret ska röra sig snabbare. Testa dig fram, kanske **0.5 sekunder** blir lagom?
+
+
+  
+  
+
+
+
+Klicka på din spelsprajt, så den blir aktiverad och du får fram koden för den istället för din hinder-sprajt. 
+
+Lägg till ett villkor **om...då...**-
+villkor_om_då.
+
 
 Tänk på att:
 
