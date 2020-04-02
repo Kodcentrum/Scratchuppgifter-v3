@@ -245,11 +245,29 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
   ![image alt text](villkor_GameOver.png) 
 
-10. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. Så det ser ut såhär:
+## 6 - Sprajten känner av färger
+För att sprajten ska kunna vinna eller förlora behöver villkoren som känner av väggfärgen och målfärgen läggas in i ett större skript med en loop.
+
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägga till ett block för piltangent uppåt. 
+- Lägga till block för att sprajten ska peka uppåt.
+- Lägga till block för att sprajten ska röra sig när du trycker på piltangenten.
+- Gör sen tre likadana skript till så sprajten kan röra sig i alla riktningar (uppåt, nedåt, höger och vänster).
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. För att sprajten alltid, om och om igen, ska kontrollera om den rör vid en vägg eller målpunkten, behöver vi skapa en loop i skriptet. Från tema KONTROLL drar du in kodblocket **för alltid**. Det är en loop. Sätt fast loopen direkt under koden med sprajtens startposition och riktning, i skriptet med **när GRÖN FLAGGA klickas på**. Så det ser ut såhär:
 
   ![image alt text](Loop.png) 
 
-11. Lägg nu in dina två villkor inom **för alltid**-loopen, det ena under det andra, så att ditt skript ser ut såhär när du är klar:
+2. Lägg nu in dina två villkor med väggfärg och målfärg inom **för alltid**-loopen, det ena under det andra, så att ditt skript ser ut såhär när du är klar:
 
   ![image alt text](block_kod_helt_färdigt_slutskript.png) 
 
@@ -259,7 +277,95 @@ Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska s
 
 Nu har du ett spel som fungerar! Dax att göra det lite roligare med hinder!
 
-## 6 - En tidräknare
+## 7 - Lägg till hinder och motståndare
+Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
+
+Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
+
+  ![image alt text](exempelbild_med_hinder.png) 
+
+<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägga till nya sprajtar som hinder
+- Koda så att om spelfiguren rör vid ett hinder, då ska spelet bli Game Over
+- Koda så att hindren kan röra sig för att göra spelet svårare
+
+</br>
+</br>
+</br>
+**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med? Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
+
+  ![image alt text](Scen_hinder_sten.png) 
+  
+2. Ändra så den blir lagom stor och dra den till rätt ställe i spelet. 
+
+  ![image alt text](Ändra_Storlek_Sprajt.png) 
+
+3. Nu ska vi göra så att hindret med sten-sprajten rör på sig. Under HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på**.
+
+  ![image alt text](block_När_grön_flagga_klickas_på.png) 
+  
+4. Från tema RÖRELSE drar du ut kodblocket **gå till x__ y__**. Sätt blocket dirket under **när GRÖNA FLAGGAN klickas på**.
+
+  ![image alt text](Hindrets_startposition.png) 
+  
+5. Från tema KONTROLL drar du ut en **för alltid**-loop. Sätt den längst ned i skriptet under **gå till x__ y__**.
+
+  ![image alt text](Hindret_loop.png) 
+
+6. Vi vill att hindret ska åka lite fram och tillbaka när spelet går igång. Dra sprajten för ditt hinder lite åt ena sidan dit du vill att den ska åka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket inuti loopen.
+
+  ![image alt text](Hindret_glidTill.png) 
+
+7. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut ett till kodblock med **glid till x__ y__** och lägg blocket nederst inuti loopen. När du är klar ser det färdiga skriptet ut såhär:
+
+  ![image alt text](Hindret_rörelse_färdigt_skript.png) 
+  
+>**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på. Testa dig fram, kanske 0.5 sekunder blir lagom? Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibland kan man behöva flytta på det tills det funkar.
+
+8. Nu ska vi lägga till kod i vår spelfigurs sprajt, så den kan känna när den rör vid hindret - och bli Game Over! Klicka först på din spelfigurs sprajt (den lilla figuren av din spelfigur under scenen med spelet). Då blir den aktiverad och skriptytan med koden för spelfiguren kommer fram.
+
+9. Från tema KONTROLL drar du ut ett villkor med blocket **om...då...**. Lägg blocket fritt på spelfigurens skriptyta. 
+
+  ![image alt text](villkor_om_då.png) 
+  
+10. Från tema KÄNNA AV drar du ut blocket **rör vid muspekare?** och lägger det i det kantiga hplet mellan **om...då** i villkoret. Klicka på lilla pilen bredvid **muspekare** och välj namnet på sprajten för ditt hinder. (I vårt exempelt heter stenen Rocks.)
+
+  ![image alt text](Villkor_KännaAvHinder.png) 
+  
+11. Från UTSEENDE drar du in blocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret **om...då...**. Byt ut **Hej!** mot **Game Over!**.
+
+  ![image alt text](Villkor_hinder_SägGameOver.png) 
+
+12. Från tema KONTROLL drar du in **stoppa alla**. Lägg blocket längst ned i villkoret. 
+
+  ![image alt text](Villkor_hinder_stoppaAlla.png) 
+
+13. Dax att lägga in detta skript med villkoret in i spelsprajtens stora skript med de andra villkoren som känner av målfärg och väggarnas färg. Lägg in hindrets villkor inom loopen så det ser ut såhär:
+
+  ![image alt text](Villkor_hinder_in_i_sprajtens_skript.png) 
+  
+>**Testa koden!** Rör sig hindret som du vill? Blir spelet Game Over om spelsprajten nuddar hindret?
+
+>**Tips!** Det finns massor av sätt att lägga in olika hinder på. Du kan ha flera olika hinder och göra ett villkor för varje för spelfiguren att känna igen dem om sprajten rör vid dem. Men du måste inte alltid bli Game Over om du rör vid hindret. Kanske du istället ska få eller tappa poäng, få liv, förlora tid, fånga en nyckel för att öppna en dörr vid målpunkten? Hur vill du att dina hinder ska fungera?
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften. Nedanför finns utmaningar för att skapa mer i ditt spel, så som en tidräknare och fler banor och nivåer.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+Har du tid över och vill bygga mer på spelet? Då kan du lägga till en timer som räknar ned speltiden och fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
+
+## En tidräknare
 
 Dags att göra spelet lite svårare! Vi lägger till en tidräknare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om man inte är i mål när tiden är slut förlorar man! 
 <video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
@@ -337,97 +443,7 @@ När du är färdig ska hela skriptet för tidräknaren se ut såhär:
 
 > **Testa koden!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som tidräknaren startar med, om du vill ha längre eller kortare tid på dig.
 
-
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
-
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-
-## Utmaningar
-Har du tid över och vill bygga mer på spelet? Då kan du lägga till en timer som räknar ned speltiden och fler banor och nivåer. Här kommer några förslag på hur du kan skapa detta. 
-
-## Lägg till hinder och motståndare
-Det behöver inte bara vara väggarna i labyrinten som gör dig Game Over. Du kan hitta på andra hinder eller motståndare som din sprajt måste ta sig förbi på väg till mål. 
-
-Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir man Game over, precis som om man rör väggarna. Exempelvis såhär:
-
-  ![image alt text](exempelbild_med_hinder.png) 
-
-<video src="./BugRacedel1_nytt.mp4" autoplay loop muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägga till nya sprajtar som hinder
-- Koda så att om spelfiguren rör vid ett hinder, då ska spelet bli Game Over
-- Koda så att hindren kan röra sig för att göra spelet svårare
-
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med? Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
-
-  ![image alt text](Scen_hinder_sten.png) 
-  
-2. Ändra så den blir lagom stor och dra den till rätt ställe i spelet. 
-
-  ![image alt text](Ändra_Storlek_Sprajt.png) 
-
-3. Nu ska vi göra så att hindret med sten-sprajten rör på sig. Under HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på**.
-
-  ![image alt text](block_När_grön_flagga_klickas_på.png) 
-  
-4. Från tema RÖRELSE drar du ut kodblocket **gå till x__ y__**. Sätt blocket dirket under **när GRÖNA FLAGGAN klickas på**.
-
-  ![image alt text](Hindrets_startposition.png) 
-  
-5. Från tema KONTROLL drar du ut en **för alltid**-loop. Sätt den längst ned i skriptet under **gå till x__ y__**.
-
-  ![image alt text](Hindret_loop.png) 
-
-6. Vi vill att hindret ska åka lite fram och tillbaka när spelet går igång. Dra sprajten för ditt hinder lite åt ena sidan dit du vill att den ska åka till och ställ den där. Från tema RÖRELSE drar du ut kodblocket **glid till x__ y__** och lägg blocket inuti loopen.
-
-  ![image alt text](Hindret_glidTill.png) 
-
-7. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut ett till kodblock med **glid till x__ y__** och lägg blocket nederst inuti loopen. När du är klar ser det färdiga skriptet ut såhär:
-
-  ![image alt text](Hindret_rörelse_färdigt_skript.png) 
-  
->**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på. Testa dig fram, kanske 0.5 sekunder blir lagom? Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibland kan man behöva flytta på det tills det funkar.
-
-8. Nu ska vi lägga till kod i vår spelfigurs sprajt, så den kan känna när den rör vid hindret - och bli Game Over! Klicka först på din spelfigurs sprajt (den lilla figuren av din spelfigur under scenen med spelet). Då blir den aktiverad och skriptytan med koden för spelfiguren kommer fram.
-
-9. Från tema KONTROLL drar du ut ett villkor med blocket **om...då...**. Lägg blocket fritt på spelfigurens skriptyta. 
-
-  ![image alt text](villkor_om_då.png) 
-  
-10. Från tema KÄNNA AV drar du ut blocket **rör vid muspekare?** och lägger det i det kantiga hplet mellan **om...då** i villkoret. Klicka på lilla pilen bredvid **muspekare** och välj namnet på sprajten för ditt hinder. (I vårt exempelt heter stenen Rocks.)
-
-  ![image alt text](Villkor_KännaAvHinder.png) 
-  
-11. Från UTSEENDE drar du in blocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret **om...då...**. Byt ut **Hej!** mot **Game Over!**.
-
-  ![image alt text](Villkor_hinder_SägGameOver.png) 
-
-12. Från tema KONTROLL drar du in **stoppa alla**. Lägg blocket längst ned i villkoret. 
-
-  ![image alt text](Villkor_hinder_stoppaAlla.png) 
-
-13. Dax att lägga in detta skript med villkoret in i spelsprajtens stora skriptmed de andra villkoren som känner av målfärg och väggarnas färg. Lägg in hindrets villkor inom loopen så det ser ut såhär:
-
-  ![image alt text](Villkor_hinder_in_i_sprajtens_skript.png) 
-  
->**Testa koden!** Rör sig hindret som du vill? Blir spelet Game Over om spelsprajten nuddar hindret?
-
->**Tips!** Det finns massor av sätt att lägga in olika hinder på. Du kan ha flera olika hinder och göra ett villkor för varje för spelfiguren att känna igen dem om sprajten rör vid dem. Men du måste inte alltid bli Game Over om du rör vid hindret. Kanske du istället ska få eller tappa poäng, få liv, förlora tid, fånga en nyckel för att öppna en dörr vid målpunkten? Hur vill du att dina hinder ska fungera?
-
-
+>br>
 ## Fler banor och nivåer
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten. Det gör du genom att rita nya **bakgrunder** som följer reglerna:
@@ -500,7 +516,7 @@ Du kan nu rita en ny labyrint precis som du vill ha den, men kom ihåg att anvä
 5. Slutligen behöver du sätta in kod som gör att första bakgrundsbilden alltid visas när du sätter igång spelet, så det inte blir fel bakgrund och labyrintbana i början. Under tema UTSEENDE finns pusselbiten **Växla till bakgrund 1**. Lägg in denna kod till sprajten direkt in under översta koden **När GRÖN FLAGGA klickas på**. Då börjar spelet alltid med Bakgrund 1. 
 
   
-> Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Testa dig fram och skapa ditt spel som du vill.
+> Tips! Du kan även göra nivåerna svårare genom att skapa svårare banor, lägga till kluriga hinder eller minska spelets tid för varje nivå. Kanske dolda cheats och portaler, nycklar att samla in som öppnar dörrar, varialer som rknar liv eller poäng. Lägg gärna på musik och effektljud. Testa dig fram och skapa ditt spel som du vill.
 
 
 ## Frågeställningar
