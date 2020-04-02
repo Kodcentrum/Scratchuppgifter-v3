@@ -363,7 +363,7 @@ Kanske hindren blir att ta sig förbi stenar, och om man rör vid stenarna blir 
 
 Se i videon ovan hur du ska:
 - Lägga till nya sprajtar som hinder
-- Koda så att om spelfigurens rör vid ett hinder, då ska spelet bli Game Over
+- Koda så att om spelfiguren rör vid ett hinder, då ska spelet bli Game Over
 - Koda så att hindren kan röra sig för att göra spelet svårare
 
 </br>
@@ -371,7 +371,7 @@ Se i videon ovan hur du ska:
 </br>
 **INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med?
+1. Lägg till en ny sprajt som ska vara ditt hinder. Vi har valt en sten som vårt hinder, men du väljer fritt vad du vill ha, kanske rita en egen sprajt till och med? Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
 
   ![image alt text](Scen_hinder_sten.png) 
   
@@ -397,34 +397,36 @@ Se i videon ovan hur du ska:
 
 7. Dra sprajten för ditt hinder lite åt andra sidan dit du vill att den ska åka tillbaka till och ställ den där. Från tema RÖRELSE drar du ut ett till kodblock med **glid till x__ y__** och lägg blocket nederst inuti loopen. När du är klar ser det färdiga skriptet ut såhär:
 
-  ![image alt text](Hindret_rörelse_färdigt_skript..png) 
+  ![image alt text](Hindret_rörelse_färdigt_skript.png) 
   
->**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på. Testa dig fram, kanske 0.5 sekunder blir lagom?
+>**Testa koden!** Rör sig hindret? Går det för långsamt? Ändra tiden den glider på. Testa dig fram, kanske 0.5 sekunder blir lagom? Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibland kan man behöva flytta på det tills det funkar.
 
+8. Nu ska vi lägga till kod i vår spelfigurs sprajt, så den kan känna när den rör vid hindret - och bli Game Over! Klicka först på din spelfigurs sprajt (den lilla figuren av din spelfigur under scenen med spelet). Då blir den aktiverad och skriptytan med koden för spelfiguren kommer fram.
 
+9. Från tema KONTROLL drar du ut ett villkor med blocket **om...då...**. Lägg blocket fritt på spelfigurens skriptyta.
 
+  ![image alt text](villkor_om_då.png) 
   
-  bknknkklnnknlnknlknnknklnnklnnlk
+10. Från tema KÄNNA AV drar du ut blocket **rör vid muspekare?** och lägger det i det kantiga hplet mellan **om...då** i villkoret. Klicka på lilla pilen bredvid **muspekare** och välj namnet på sprajten för ditt hinder. (I vårt exempelt heter stenen Rocks.)
 
+  ![image alt text](Villkor_KännaAvHinder.png) 
+  
+11. Från UTSEENDE drar du in blocket **säg Hej! i 2 sekunder**. Lägg det inuti villkoret **om...då...**. Byt ut **Hej!** mot **Game Over!**.
 
+  ![image alt text](Villkor_hinder_SägGameOver.png) 
 
-Klicka på din spelsprajt, så den blir aktiverad och du får fram koden för den istället för din hinder-sprajt. 
+12. Från tema KONTROLL drar du in **stoppa alla**. Lägg blocket längst ned i villkoret. 
 
-Lägg till ett villkor **om...då...**-
-villkor_om_då.
+  ![image alt text](Villkor_hinder_stoppaAlla.png) 
 
+13. Dax att lägga in detta skript med villkoret in i spelsprajtens stora skriptmed de andra villkoren som känner av målfärg och väggarnas färg. Lägg in hindrets villkor inom loopen så det ser ut såhär:
 
-Tänk på att:
+  ![image alt text](Villkor_hinder_in_i_sprajtens_skript.png) 
+  
+>**Testa koden!** Rör sig hindret som du vill? Blir spelet Game Over om spelsprajten nuddar hindret?
 
-* Du kan välja att hindret ska vara en färdig sprajt som du lägger till i projektet - eller rita ett eget hinder, exempelvis en sten.
+>**Tips!** Det finns massor av sätt att lägga in olika hinder på. Du kan ha flera olika hinder och göra ett villkor för varje för spelfiguren att känna igen dem om sprajten rör vid dem. Men du måste inte alltid bli Game Over om du rör vid hindret. Kanske du istället ska få eller tappa poäng, få liv, förlora tid, fånga en nyckel för att öppna en dörr vid målpunkten? Hur vill du att dina hinder ska fungera?
 
-* Om du ritar eget hinder, tänk på att ge den en annan färg än vägg- och mål-färgen.
-
-* Välj om du vill att hindret ska röra sig eller om det ska stå stilla. 
-
-* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindret. Ibalnd kan man behöva flytta på det tills det funkar.
-
-* Lägg till kod i skriptet för spelfigurens sprajt så att den känner av hindren på samma sätt som väggen, och att spelet då kan bli Game over. 
 
 ## Fler banor
 
