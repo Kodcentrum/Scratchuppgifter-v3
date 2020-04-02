@@ -331,7 +331,7 @@ Nu ska vi koda in ett villkor som säger att om tiden är större än 60 så ska
 
 När du är färdig ska hela skriptet för tidräknaren se ut såhär:
 
-  ![image alt text](block_kod_timer.png)
+  ![image alt text](färdig_kod_timer.png)
 
   Nu har du en timer, det vill säga en tidräknare! 
 
