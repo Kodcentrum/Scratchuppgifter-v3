@@ -403,7 +403,7 @@ Se i videon ovan hur du ska:
 
 8. Nu ska vi lägga till kod i vår spelfigurs sprajt, så den kan känna när den rör vid hindret - och bli Game Over! Klicka först på din spelfigurs sprajt (den lilla figuren av din spelfigur under scenen med spelet). Då blir den aktiverad och skriptytan med koden för spelfiguren kommer fram.
 
-9. Från tema KONTROLL drar du ut ett villkor med blocket **om...då...**. Lägg blocket fritt på spelfigurens skriptyta.
+9. Från tema KONTROLL drar du ut ett villkor med blocket **om...då...**. Lägg blocket fritt på spelfigurens skriptyta. 
 
   ![image alt text](villkor_om_då.png) 
   
