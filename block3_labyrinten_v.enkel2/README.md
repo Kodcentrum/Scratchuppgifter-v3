@@ -227,6 +227,7 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
   ![image alt text](exempel_byt_färg_pimpettverktyg.png)    ![image alt text](rör_vid_färgen_pinpettverktyget.png)
 <br>
+>br>
 Om sprajten rör vid målet i labyrinten, ska du vinna spelet och sprajten ska säga "Jag vann!" och hamna tillbaka på start-markeringen igen, redo för att spelas på nytt. Koden ska då också stoppas. Gör såhär: 
 
 4. Från tema UTSEENDE drar du in kodblocket **säg Hej! i 2 sekunder**. Lägg blocket inuti din villkors-loop, så det ser ut såhär: 
