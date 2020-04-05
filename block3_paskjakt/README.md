@@ -6,7 +6,7 @@ Här kan du bygga en klassikt “platformer”-spel om påskharen som är på ja
 
 Bläddra dig fram genom denna guide, steg för steg. Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu. Här kodar och skapar du själva spelet utifrån instruktionerna nedan.
 
-Testa ett exempelspel här <a href="https://scratch.mit.edu/projects/382828127/" target="_blank">https://scratch.mit.edu/projects/382828127/</a>
+Testa ett exempelspel här <a href="https://scratch.mit.edu/projects/380522616/" target="_blank">https://scratch.mit.edu/projects/380522616/</a>
 
 Är du redo att koda? Då börjar vi!
 
