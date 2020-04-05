@@ -20,15 +20,18 @@ höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken *
 ![image alt exempel](platformer-bild-02.png)
 
 ![image alt exempel](platformer-bild-03.png)
+
 2. Välj sen **en färg** du gillar genom att klicka på den lilla färgade rutan ovanför och ställ in färgen du vill ha, genom att dra eller klicka på de olika reglagen tills du är nöjd.
 
 ![image alt exempel](platformer-bild-04.png)
+
 3. Rita sen banan genom att klicka på verktyget **Rektangel** och sen dra upp en rektangel på den stora vita rutan. Gör rektangeln 3/4 delar av den vita rutan.
 
 ![image alt exempel](platformer-bild-05.png)
 
 
 ## 2: Välj dina sprajtar
+
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en påskhare, eller annat du har ritat själv. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en hare, så börja med att ta bort katten och välja en ny sprajt istället.
 
@@ -43,6 +46,7 @@ Gör så här:
 
 En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du haren. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
 3. Tryck igen på knappen för **NY SPRAJT** och lägg till ett **ägg** och ett **träd**.
+
 ![image alt exempel](platformer-bild-08.png)
 
 Nu har du alla dina sprajtar och det är dags att animera dem! Klicka dig vidare. 
@@ -79,6 +83,7 @@ från RÖRELSER: sätt **x till 0.** Ändra nollan så att det står **100** ist
 Nu ska vi få haren att röra på sig. Det gör du så här:
 
 1. Markera din **hare-sprajt** och gå in på **KLÄDSLAR-fliken**. Ta bort första klädseln.
+
 ![image alt exempel](platformer-bild-12.png)
 
 2. Gå in på **KOD-fliken**. Välj från HÄNDELSER: **när START-flaggan klickas på**.
