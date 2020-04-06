@@ -195,7 +195,9 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
 
 
 ### Tidsgräns för spelet
-
+<a href="https://scratch.mit.edu/projects/383201383" target="_blank">https://scratch.mit.edu/projects/383201383
+  ![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)</a>
+  
 Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på exempelvis 30 sekunder?
 
 För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** och som gäller för alla sprajtar. Sedan gör du ett skript för SCEN som talar om att:
