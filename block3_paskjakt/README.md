@@ -1,6 +1,6 @@
 # Påskjakt Platformer
 
-Här kan du bygga en klassikt “platformer”-spel om påskharen som är på jakt efter ägg! Vi har valt det som tema till spelet, men tänk på att du kan själv välja att ersätta med en egen karaktär och andra objekt som kan ge eller ta bort poäng.
+Här kan du bygga en klassikt “platformer”-spel om påskharen som är på jakt efter ägg! Vi har valt det som tema till spelet, men tänk på att du kan själv välja att ersätta med en egen karaktär och andra objekt som kan ge eller ta bort poäng. 
 
 ![image alt exempel](platformer-bild-01.png)
 
