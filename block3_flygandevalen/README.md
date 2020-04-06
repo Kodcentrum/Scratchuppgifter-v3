@@ -195,7 +195,7 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
 
 
 ### Tidsgräns för spelet 
-Testa ett exempelspel av en påskinspirerat spel nedan med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank">
+Klicka på spelet nedan för ett testa av en påskinspirerat spel nedan med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank">
 ![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)</a> 
 
 
