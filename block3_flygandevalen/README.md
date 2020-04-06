@@ -195,9 +195,10 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
 
 
 ### Tidsgräns för spelet 
-Testa ett exempelspel av en påskinspirerat spel nedan med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank">Testa spelet Påskharen äter ägg</a> 
+Testa ett exempelspel av en påskinspirerat spel nedan med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank">
+![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)</a> 
 
-  ![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)
+
   
 Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på exempelvis 30 sekunder?
 
