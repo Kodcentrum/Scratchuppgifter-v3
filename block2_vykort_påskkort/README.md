@@ -1,7 +1,7 @@
 # Vykort
 
-Här får du göra ett digitalt vykort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
-Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/285411488/" target="_blank">
+Här får du göra ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
@@ -12,98 +12,111 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
 
 ## 1: Välja sprajtar och bakgrund
 
-Först behöver du en **bakgrund** och några fina **sprajtar** som figurer!
+Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Sprajtarna ska helst kunna röra på sig.
 
-1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt.
+1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt. Se gärna till att du är inloggad på Scratch, så kan du spara ditt projekt även.
 
-2. Lägg till en bakgrund, till exempel **Utomhus > Slopes** som vi har valt i exempelprojektet.
-
-3. Klipp bort sprajten katten genom att klicka krysset på den lilla kattbilden under scenen, så förvinner den.
+2. Klipp först bort katt-sprajten genom att klicka på krysset på den lilla kattbilden under scenen. Då försvinner den.
 
   ![image alt text](Ta_bort_Sprajt.png)
+  
+3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Utomhus > Slopes** som vi har valt i exempelprojektet. Du kan även välja att rita en egen bakgrund med ritverktyget.
 
-4. Välj en ny sprajt som huvudkaraktär i ditt vykort. Vi har valt **Djur > Penguin 2**, men du kan välja vilken du vill såklart.
+  ![image alt text](Ny_Bakgrund-knapp.png)
 
-5. Lägg in två till sprajtar som kan röra på sig på var sin sida om pingvinen. Till exempel **Djur > Rabbit** och **Människor > Kai.** Lägg alla tre sprajtar bredvid varandra på **scenen** med utrymme för att röra på sig.
+4. Klicka på **Ny sprajt**-ikonen som ser ut som en liten vit katt på en blå knapp. Välj en ny sprajt som huvudkaraktär i ditt vykort, se till att det är en sprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den). Vi har valt en kyckling,  men du kan välja vilken sprajt du vill såklart.
 
-6. Om figurerna är för stora kan du ändra storlek genom att skriva in exempelvis 80 istället för 100 - då visas sprajten med 80% storlek istället för full storlek på 100%. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt tal mellan 1-100. Prova dig fram.
+  ![image alt text](Ny_Sprajt-knapp.png)
+
+5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
+
+6. Om figurerna är för stora kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt tal mellan 1-100, där 100 är 100%, alltså full storlek. Prova dig fram.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du sprajtar som kan röra sig och en bakgrund. Nästa steg är att få vykortet att:
-
-* Fråga mottagaren : Vad heter du?
-
-* Spela upp musik.
-
-* Få alla sprajtar att dansa och röra sig på sitt eget sätt.
-
-* Säga en hälsning till mottagaren av kortet.
+Nu har du sprajtar och en bakgrund. Dax att börja koda vykortet!
 
 
 ## 2: Fråga efter mottagarens namn
 
-Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du valt) att fråga vad kortets mottagare heter.
+Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kortets mottagare heter. 
 
-7. Välj pingvinens sprajt (klicka på lilla figuren med pingvinen under scenen så den blir markerad) och skapa ett skript till den som säger:
+1. Välj den sprajt du vill koda genom att klicka på den lilla figuren av din sprajt under scenen så den blir markerad. Vi har valt att kycklingen ska ställa frågan i vårt exempel. 
 
-  * Startar när START-flaggan klickas på.
+2. Från tema HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på** och lägger det fritt på skriptytan för din sprajt. 
 
-  * Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vad heter du?"*.
+  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
 
+3. Från tema KÄNNA AV drar du in blocket **"Fråga** *"Vad heter du?"* **och vänta"** och sätter fast det under det gula blocket med gröna flaggan.
+
+  ![image alt text](image_1.png)
+  
   ![image alt text](image_fråga.png)
 
-*När du har skrivit in ett namn i svarsrutan, tryck på Enter-knappen på datorns tangentbord.
+*När du har skrivit in ett namn i svarsrutan, klicka på den lilla blå ikonen till höger eller tryck på Enter-knappen på datorns tangentbord.
 Du kommer att förstå senare vad namnet ska användas till!*
 
-> Testa ditt projekt! Klicka på START. Frågar pingvinen "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
+> **Testa ditt projekt!** Klicka på START-flaggan ovanför ditt projekt på scenen. Frågar sprajten "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
 
+Dax att koda vidare!
 
-## 3: Pingvinen kan dansa!
+## 3: Sprajten kan dansa!
 
-Nu vill du ge pingvinen några rörelser till musik. 
+Nu vill du ge sprajten några rörelser till musik. 
 
-8. Gå till fliken LJUD i övre vänstra hörnet.
+1. Gå till fliken LJUD i övre vänstra hörnet av Scratch.
 
   ![image alt text](image_40.png)
 
-9. Klicka sen på VÄLJ NYTT LJUD-symbolen i nedre vänstra hörnet. 
+2. Klicka sen på VÄLJ NYTT LJUD-ikonen i nedre vänstra hörnet. 
 
   ![image alt text](image_41.png)
 
-10. Välj nytt ljud från ljudbiblioteket och klicka på det ljud du vill välja. Vi har valt **Loop > Dance Around** i exempelprojektet. 
+3. Välj nytt ljud från ljudbiblioteket. Lyssna på de olika ljuden genom att föra muspekare över den lila Play-symbolen på ljuden och klicka sedan på mittan på det du vill välja in i projektet!  
+
+![image alt text](Ljud_lyssna.png)
+
+> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** hgst upp för att få fram endast musikslingor. ![image alt text](Loopar_knapp.png)
+
+4. Klicka på fliken KOD i vänstra övre hörnet så kommer du tillbaka till kodsidan igen. Se till att din sprajt som ställer frågan är vald.
+
+5. Nu ska vi skapa ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Sätt in det under de andra blocken på skriptytan.
+
+![image alt text](Block_skickaMeddelande.png)
+
+6. Nu ska vi skapa ett nytt meddelande. Klicka på den lilla pilen bredvid texten **meddelande** i blocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
+
+![image alt text](Block_skapa_nytt_meddelande.png)
+
+7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i blocket till **skicka Dansa**.
+
+![image alt text](Skapa_nytt_meddelande_Dansa.png)   ![image alt text](Skript_meddelande_Dansa.png)
+
+8. Nu lägger vi in musiken. Från tema **Ljud** drar du in blocket **Spela ljudet ____ tills färdigt**. (i blocket står namnet på det ljud du valde tidigare, i vårt exempel heter ljudet *Dance Around*. 
+
+  ![image alt text](image_7.png)      
   
-  > **Tips!** Man kan för-lyssna på de olika ljuden genom att föra musknappen över de olika! Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon om hjälp om du inte kan få igång ljudet!
+*Meddelandet "Dansa" kommer att bli viktigt om en stund. Kan du lista ut varför?*
 
-11. Gå till fliken KOD i vänstra övre hörnet och ändra lite i skriptet som du skapade i steg 2. Det ska nu:
+9. Nu ska vi skapa ett nytt skript till vår sprajt som som vi lägger bredvid det första på skriptytan. Från tema HÄNDELSER drar du in blocket **När jag tar emot meddelande1**. Klicka på den lila pilen och välj meddelandet **Dansa** som du skapade tidigare.
 
-  * Starta när START-flaggan klickas på
+  ![image alt text](Block_NärJagTarEmotDansa.png)
+  
+10. Nu ska lägga till en loop. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det förra blocket du just drog in.
 
-  * **Fråga** _"Vad heter du?"_ och vänta på svar
+  ![image alt text](loop_byta_klädsel.png)
+  
+11. Nu ska vi få sprajten att byta klädslar, eller rörelsebilder som det är egentligen. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen, så det ser ut såhär:
 
-  * **Skicka** meddelandet _"Dansa"_
-
-  * **Spela ljudet** _Dance Around_ tills det har spelats färdigt
-
-  ![image alt text](image_7.png)
-
-  _Meddelandet "Dansa" kommer att bli viktigt
-om en stund. Kan du lista ut varför?_
-
-
-12. Skapa nu ett nytt skript till pingvinen som ska:
-
-  * Starta när det **tar emot meddelandet** _"Dansa"_
-
-  * **För alltid**:
-
-    * Byta till **nästa klädsel**
-
-    * **Vänta 0.25 sekunder**
+  ![image alt text](Block_nästaKlädsel.png)
+  
+12. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i loopen under blocket **nästa klädsel**. Klicka på variabeln **1** i blocket och ändra till **0.25** för kortare väntetid.
 
   ![image alt text](image_8.png)
 
-> Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar pingvinen lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
+Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik!
+
+> **Testa ditt projekt!** Spelas ljudet efter att du har skrivit in ett namn som svar? Dansar sprajten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
 
 ## 4: Festens slut
 
