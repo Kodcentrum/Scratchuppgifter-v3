@@ -118,19 +118,25 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 > **Testa ditt projekt!** Spelas ljudet efter att du har skrivit in ett namn som svar? Dansar sprajten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
 
-## 4: Festens slut
+## 4: Dansen är slut
 
-För att pingvinen ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Ha det så bra "* och sluta dansa.
+För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Ha det så bra!"* och sluta dansa.
 
-13. Gör så att skriptet du gjorde i steg 1 skickar ut **meddelande** _"DANSEN SLUT"_ efter att ljudet _Danse Around_ har spelats klart.
+1. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Fäst blocket i det första större skriptet i sprajten, såhär:
 
-  ![image alt text](image_skicka_Dansen_slut.png)
+  ![image alt text](Block_meddelande2.png)
 
-14. Skapa ett nytt skript för pingvinen som ska:
+2. Klicka på lilla pilen i i meddelande-blocket och klicka på Nytt meddelande. Döp det till **Dansen slut**.
 
-  * Starta när det **tar emot meddelande** _"DANSEN SLUT"_
+3. Nu ska vi skapa ett helt nytt skript bredvid de andra. Från tema HÄNDELSER drar du ut **När jag tar emot meddelande1**. Klicka på lilla pilen i blocket och byt till meddelandet *Dansen slut*. 
 
-  * **Stoppa** alla _andra skript i sprajt_
+  ![image alt text](Block_dansen_slut.png)
+
+4. Från tema KONTROLL tar du blocket **stoppa alla**. Lägg det direkt under det förra blocket du lade in. 
+
+  ![image alt text](Block_stoppa_alla_ändra.png)
+
+5. BLAAAAAAAAAAAAAAA
 
   * **Säga** _"Ha det så bra"_ och **namnet du skrev in i början** i 2 sekunder! (namnet kommer automatiskt läggas in)
 
