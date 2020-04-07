@@ -120,7 +120,7 @@ Munken försvinner oavsett var på valen den nuddar. Men den borde egentligen ba
 
 17. Hur kan du se till att munken bara försvinner om den nuddar valens mun? Se först till att din val har en speciell färg på sin mun, en färg som inte finns någon annanstans på sprajten. Du kan byta ut blocket **"rör sprajten”** mot blocket **”rör färgen”** och välja färgen som valen har på sin mun. Då försvinner munken endast om den rör vid munnens färg, och inte om den stöter emot andra delar av valems kropp.
 
-  **Tips:** När du har ritat munnen kan du i skriptet för **"rör färgen”** välja färg genom att klicka på färgrutan och sedan färgväljaren och därefter på valens mun! DÄ blir det rätt färg i blovket i ditt skript.
+  **Tips:** När du har ritat munnen kan du i skriptet för **"rör färgen”** välja färg genom att klicka på färgrutan och sedan färgväljaren och därefter på valens mun! Då blir det rätt färg i blovket i ditt skript.
 
  ![Färgväljaren längst ner i menyn, en bild av en pipett och ett fotografi](image_11b.png)
 
@@ -195,8 +195,10 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
 
 
 ### Tidsgräns för spelet 
-Testa ett exempelspel av en påskinspirerat spel nedan med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank"></a> 
-  ![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)
+Klicka på spelet nedan för ett testa av en påskinspirerat spel med en tidräknare. <a href="https://scratch.mit.edu/projects/383201383/" target="_blank">
+![projektexempel Påskharen äter ägg](Flygande_påskharen_äter_ägg.png)</a> 
+
+
   
 Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på exempelvis 30 sekunder?
 
