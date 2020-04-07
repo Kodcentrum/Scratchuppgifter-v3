@@ -206,35 +206,39 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 
   ![image alt text](Skript_visa.png)
   
-7. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
+7. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det längst ned innanför loopen. Klicka på variabeln **1** och ändra till **0.25**. 
 
-  ![image alt text](Meddelande_byt_till_Dansen_slut.png)
+  ![image alt text](image_8.png)
+  
+8. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
 
-8. Från tema UTSEENDE drar du sen in blocket **göm** och fäst det direkt under blocket du just drog in. Då ser skriptet ut såhär. 
+  ![image alt text](Skript_meddelande_2.png)
+
+9. Från tema UTSEENDE drar du sen in blocket **göm** och fäst det direkt under blocket du just drog in. Då ser skriptet ut såhär. 
 
   ![image alt text](skript_Dansen_slut_göm.png)
 
 > **Testa koden!** Fungerar projektet som du vill? Gömmer sig och visar sig sprajten som den ska? Tips: om något inte fungerar, gå igenom koden och läs den högt så kan man enklare hitta felet. Kontrollera att du valt rätt meddelande i de olika skripten.
 
-9. Nu ska vi se till att själva bakgrunden får en snygg effekt! Klicka på lilla bilden av din bakgrund där det står BAKGRUNDER till vänster under scenen med ditt projekt. Nu kommer skriptytan för din bakgrund fram, där du kan lägga in kod för den med.
+10. Nu ska vi se till att själva bakgrunden får en snygg effekt! Klicka på lilla bilden av din bakgrund där det står BAKGRUNDER till vänster under scenen med ditt projekt. Nu kommer skriptytan för din bakgrund fram, där du kan lägga in kod för den med.
 
   ![image alt text](Bakgrund_välj_scenen.png)
 
-10. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
+11. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
 
   ![image alt text](Bakgrund_skript_meddelanden.png)
   
-11. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
+12. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
 
-12. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
+13. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
 
-13. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
+14. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
 
 När du är färdig ska skriptet se ut såhär:
 
   ![image alt text](Skript_ändra_färgeffekt.png)
 
-14. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
+15. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
 
   ![image alt text](Skript_stoppa_andra_skript_i_sprajten.png)
 
