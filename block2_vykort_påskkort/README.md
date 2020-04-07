@@ -182,33 +182,63 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 
 ## 6: Pynta vykortet
 
-Du har dansare och musik, men det finns alltid plats för lite mer bling och punt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller ej annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
+Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
 
-17. Börja med en sprajt som ska dykea upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
+1. Börja med en sprajt som ska vara osynlig i början men dyka upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
 
-18. Skapa ett skript för hjärtat som säger att den ska vara **gömd** när START klickas på (så man inte ser den i början), och ett skript som säger att den ska **gömma** sig när den **tar emot meddelandet** "DANSEN SLUT" ( så den försvinenr igen när dansen är slut).
+  ![image alt text](Scenen_sprajt_hjärta.png)
 
-  ![image alt text](image_43.png)
+2. Nu ska vi koda när sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
+
+3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under det blocket med glrna flaggan. 
+
+  ![image alt text](Skript_göm.png)
+
+4. Från tema HÄNDELSER drar du in blocket **när jag tar emot Dansa** (alltså ett meddelande). Lägg det fritt på sprajtens skriptyta. 
+
+  ![image alt text](Block_när_jag_tar_emot_Dansa.png)
   
-19. Sen lägger vi in att hjärtat ska **visa** sig och dansa och **byta klädsel** precis som pingvinen, när musiken går igång. Och försvinna igen när musiken tar slut.
+5. Från tema UTSEENDE drar du in lilla blocket **visa** och fäster det under förra blocket. 
 
-  ![image alt text](image_42.png)
+5. Från tema KONTROLL drar du ut blocket **för alltid**, som alltså är en loop. Föst det under förra blocket du drog in. 
 
-20. Nu när vi har gjort ett hjärta (eller vilken sprajt du väljer) så ska vi se till att scenen blir mer pyntad genom att scenen ändrar färg. Klicka på BAKGRUNDER som finns under SCEN och gå till KOD-fliken. Skapa ett skript för när scenen tar emot meddelandet "DANSA" och ett för "DANSEN SLUT".
+6. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen. När du är färdig ska skriptet se ut såhär:
 
-21. Skriptet för "DANSA" ska använda en LOOP som gör att scenen **för alltid** ska:
+  ![image alt text](Skript_visa.png)
+  
+7. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
 
-  * **Ändra** _färg_ **effekten med** _25_
+  ![image alt text](Meddelande_byt_till_Dansen_slut.png)
 
-  * **Vänta** _2_ **sekunder**
+8. Från tema UTSEENDE drar du sen in blocket **göm** och fäst det direkt under blocket du just drog in. Då ser skriptet ut såhär. 
 
-22. Skriptet för "DANSEN SLUT" ska:
+  ![image alt text](skript_Dansen_slut_göm.png)
 
-  * **Stoppa** _andra skript i sprajten_
+> **Testa koden!** Fungerar projektet som du vill? Gömmer sig och visar sig sprajten som den ska? Tips: om något inte fungerar, gå igenom koden och läs den högt så kan man enklare hitta felet. Kontrollera att du valt rätt meddelande i de olika skripten.
 
-  ![image alt text](image_12.png)
+9. Nu ska vi se till att själva bakgrunden får en snygg effekt! Klicka på lilla bilden av din bakgrund där det står BAKGRUNDER till vänster under scenen med ditt projekt. Nu kommer skriptytan för din bakgrund fram, där du kan lägga in kod för den med.
 
-> **Testa ditt projekt!** Kommer det upp ett hjärte när pingvinen säger _"Ha det så bra …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
+  ![image alt text](Bakgrund_välj_scenen.png)
+
+10. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
+
+  ![image alt text](Bakgrund_skript_meddelanden.png)
+  
+11. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
+
+12. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
+
+13. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
+
+När du är färdig ska skriptet se ut såhär:
+
+  ![image alt text](Skript_ändra_färgeffekt.png)
+
+14. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
+
+  ![image alt text](Skript_stoppa_andra_skript_i_sprajten.png)
+
+> **Testa ditt projekt!** Ändrar bakgrundsbilden på scenen färg? Slutar den ändra färg när musiken är slut?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
