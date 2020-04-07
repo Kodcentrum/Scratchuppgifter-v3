@@ -76,7 +76,8 @@ Nu vill du ge sprajten några rörelser till musik.
 
 ![image alt text](Ljud_lyssna.png)
 
-> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** hgst upp för att få fram endast musikslingor. ![image alt text](Loopar_knapp.png)
+> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** hgst upp för att få fram endast musikslingor. 
+  ![image alt text](Loopar_knapp.png)
 
 4. Klicka på fliken KOD i vänstra övre hörnet så kommer du tillbaka till kodsidan igen. Se till att din sprajt som ställer frågan är vald.
 
