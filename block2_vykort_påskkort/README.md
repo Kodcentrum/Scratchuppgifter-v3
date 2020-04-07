@@ -1,4 +1,4 @@
-# Vykort
+# Påskkort
 
 Här får du göra ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
 Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
@@ -126,19 +126,34 @@ För att sprajten ska sluta dansa när melodin är slut, måste du koda den att 
 
   ![image alt text](Block_meddelande2.png)
 
-2. Klicka på lilla pilen i i meddelande-blocket och klicka på Nytt meddelande. Döp det till **Dansen slut**.
+2. Klicka på lilla pilen i meddelande-blocket och klicka på **Nytt meddelande**. Döp det till *Dansen slut*.
 
-3. Nu ska vi skapa ett helt nytt skript bredvid de andra. Från tema HÄNDELSER drar du ut **När jag tar emot meddelande1**. Klicka på lilla pilen i blocket och byt till meddelandet *Dansen slut*. 
+3. Nu ska vi skapa ett helt nytt skript bredvid de andra. Från tema HÄNDELSER drar du ut **När jag tar emot meddelande1** och lägger det fritt på skriptytan som ett nytt skript. Klicka på lilla pilen i blocket och byt till meddelandet *Dansen slut*. 
 
   ![image alt text](Block_dansen_slut.png)
 
-4. Från tema KONTROLL tar du blocket **stoppa alla**. Lägg det direkt under det förra blocket du lade in. 
+4. Från tema KONTROLL tar du blocket **stoppa alla**. Lägg det direkt under det förra blocket du lade in. Klicka på lilla pilen i blocket och byt till **andra skript i sprajten**.
 
   ![image alt text](Block_stoppa_alla_ändra.png)
 
-5. BLAAAAAAAAAAAAAAA
+5. Nu ska vi koda så att sprajten säger något på slutet och lägger in namnet du skrev in i början. Från tema UTSEENDE drar du in blocket **säg Hej! i 2 sekunder**. Fäst det under det förra blocket du lade in, såhär:
 
-  * **Säga** _"Ha det så bra"_ och **namnet du skrev in i början** i 2 sekunder! (namnet kommer automatiskt läggas in)
+  ![image alt text](Block_sägheji2sekunder_slutreplik.png)
+  
+6. Nu ska vi lägga in en operator. Det är ett block som kan göra beräkningar i koden, exempelvis sätta ihop olika saker. Från tema OPERATORER drar du ut det gröna blocket som heter **sammanfoga äpple och banan**. Lägg det inuti den textbubblan i förra blocket där det står **Hej!**. 
+
+  ![image alt text](Block_operator_sammanfoga_lägg_in.png)  
+
+> **Tips** **Svårt att lägga in operatorblocket?** Gör såhär: dra operatorblockets ena kant snett in över texten Hej! och när det visas en vit ring runt texten Hej! så kan du släppa. Då fäster operatorblocket inne i textcirkeln.
+
+8. Klicka på texten **äpple** i det gröna blocket och skriv istället **Glad Påsk**. (lägg till ett mellanslag efter Glad påsk, så blir det mellanrum mellan Glad Påsk och nästa ord som sen ska komma.)
+
+  ![image alt text](Block_operator_text_GladPåsk.png)  
+  
+7. Nu ska vi lägga in svaret på frågan *Vad heter du?* som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger in det inuti gröna operatorns andra textcirkel, där det står *banan*. 
+
+  ![image alt text](Block_svar_in_i_operator_slutreplik.png)  
+  
 
   ![image alt text](image_9.png)
 
