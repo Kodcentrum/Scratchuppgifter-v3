@@ -251,7 +251,7 @@ När du är färdig ska skriptet se ut såhär:
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det projektet högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
+**Glöm inte att spara ditt projekt!** Döp ditt Påskkortsprojekt högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
 
   ![image alt text](Namnge_dela.png)
 
@@ -261,13 +261,17 @@ Grattis, nu har du gjort klart uppgiften.
 Har du tid över? Här kommer utmaningar för dig som vill fortsätta.
 
 ### Unika sprajtar
-Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
+Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga?
+<a href="https://scratch.mit.edu/projects/383506646" target="_blank">
+  ![image alt text](Utmaning_bild_exempel.png)</a>
+
+Testa till exempel att:
 
 * Lägg till pratbubblor på sprajtarna så de säger olika saker
 
 * Ändra färgeffekt under dansen (på samma sätt som du gjorde med bakgrunden)
 
-* Ändra storlek på sprajten så den blir ex större eller mindre medan musiken pågår
+* Ändra storlek på sprajten så den blir exempelvis större eller mindre medan musiken spelas
 
 * Lägg till rotation så att sprajtarna vrider på sig
 
@@ -281,7 +285,7 @@ Kan du hitta fler sätt att göra dom mer unika?
 
 ## Frågeställningar
 
-* Hur är denna uppgift en berättelse?  
+* Vad är en loop bra till när man programmerar?
 
 * Vad för block kan du använda för att få spelaren att ge ett svar på en fråga?
 
