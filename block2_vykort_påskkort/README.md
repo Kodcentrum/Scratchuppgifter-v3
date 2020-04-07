@@ -206,6 +206,10 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 
   ![image alt text](Skript_visa.png)
   
+7. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det längst ned innanför loopen. Klicka på variabeln **1** och ändra till **0.25**. 
+
+  ![image alt text](image_8.png)
+  
 7. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
 
   ![image alt text](Meddelande_byt_till_Dansen_slut.png)
