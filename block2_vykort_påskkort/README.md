@@ -20,7 +20,7 @@ Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Spr
 
   ![image alt text](Ta_bort_Sprajt.png)
   
-3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Utomhus > Slopes** som vi har valt i exempelprojektet. Du kan även välja att rita en egen bakgrund med ritverktyget.
+3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Forest** som vi har valt i vårt exempelprojekt. Du kan även välja att rita en egen bakgrund med ritverktyget.
 
   ![image alt text](Ny_Bakgrund-knapp.png)
 
@@ -180,7 +180,7 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 > **Testa ditt projekt!** Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
 
-## 6: Pynta vykortet
+## 6: Pynta påskkortet
 
 Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
 
@@ -188,7 +188,7 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 
   ![image alt text](Scenen_sprajt_hjärta.png)
 
-2. Nu ska vi koda när sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
+2. Nu ska vi koda när den nya sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
 
 3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under det blocket med glrna flaggan. 
 
@@ -220,25 +220,29 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 
 > **Testa koden!** Fungerar projektet som du vill? Gömmer sig och visar sig sprajten som den ska? Tips: om något inte fungerar, gå igenom koden och läs den högt så kan man enklare hitta felet. Kontrollera att du valt rätt meddelande i de olika skripten.
 
-10. Nu ska vi se till att själva bakgrunden får en snygg effekt! Klicka på lilla bilden av din bakgrund där det står BAKGRUNDER till vänster under scenen med ditt projekt. Nu kommer skriptytan för din bakgrund fram, där du kan lägga in kod för den med.
+## 7: Blinga bakgrundsbilden
+
+Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
+
+1. Klicka på lilla bilden av din bakgrund nere till höger under ditt projekt där det står **Scen**. Då kommer skriptytan för din bakgrund fram, där du kan lägga in kod.
 
   ![image alt text](Bakgrund_välj_scenen.png)
 
-11. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
+2. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
 
   ![image alt text](Bakgrund_skript_meddelanden.png)
   
-12. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
+3. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
 
-13. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
+5. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
 
-14. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
+6. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
 
 När du är färdig ska skriptet se ut såhär:
 
   ![image alt text](Skript_ändra_färgeffekt.png)
 
-15. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
+7. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
 
   ![image alt text](Skript_stoppa_andra_skript_i_sprajten.png)
 
@@ -247,25 +251,29 @@ När du är färdig ska skriptet se ut såhär:
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det projektet högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
 
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
+> **Testa ditt projekt** och låt gärna andra få prova!
 
 ## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
+Har du tid över? Här kommer utmaningar för dig som vill fortsätta.
 
 ### Unika sprajtar
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
 
-* Ändra färgeffekt under dansen
+* Lägg till pratbubblor på sprajtarna så de säger olika saker
 
-* Ändra storlek på sprajten
+* Ändra färgeffekt under dansen (på samma sätt som du gjorde med bakgrunden)
+
+* Ändra storlek på sprajten så den blir ex större eller mindre medan musiken pågår
 
 * Lägg till rotation så att de vrider på sig
 
 * Ändra hur fort dom dansar
+
+* låt sprajter glida till slumpvisa positioner
+
+* Rita till objekt eller ändra färger på olika klädslar i dina sprajter
 
 Kan du hitta fler sätt att göra dom mer unika?
 
