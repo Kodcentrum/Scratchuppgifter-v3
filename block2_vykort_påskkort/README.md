@@ -91,7 +91,7 @@ Nu vill du ge sprajten några rörelser till musik.
 
 7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i blocket till **skicka Dansa**.
 
-![image alt text](Skapa_nytt_meddelande_Dansa.png)   ![image alt text](Skript_meddelande_Dansa.png)
+![image alt text](Skapa_nytt_meddelande_Dansa.png)
 
 8. Nu lägger vi in musiken. Från tema **Ljud** drar du in blocket **Spela ljudet ____ tills färdigt**. (i blocket står namnet på det ljud du valde tidigare, i vårt exempel heter ljudet *Dance Around*. 
 
