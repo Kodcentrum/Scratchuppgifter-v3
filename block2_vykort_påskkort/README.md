@@ -253,6 +253,8 @@ Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det projektet högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
 
+  ![image alt text](Namnge_dela.png)
+
 > **Testa ditt projekt** och låt gärna andra få prova!
 
 ## Utmaning
@@ -267,7 +269,7 @@ Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga
 
 * Ändra storlek på sprajten så den blir ex större eller mindre medan musiken pågår
 
-* Lägg till rotation så att de vrider på sig
+* Lägg till rotation så att sprajtarna vrider på sig
 
 * Ändra hur fort dom dansar
 
