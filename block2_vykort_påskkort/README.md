@@ -20,7 +20,7 @@ Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Spr
 
   ![image alt text](Ta_bort_Sprajt.png)
   
-3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Utomhus > Slopes** som vi har valt i exempelprojektet. Du kan även välja att rita en egen bakgrund med ritverktyget.
+3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Forest** som vi har valt i vårt exempelprojekt. Du kan även välja att rita en egen bakgrund med ritverktyget.
 
   ![image alt text](Ny_Bakgrund-knapp.png)
 
@@ -188,7 +188,7 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 
   ![image alt text](Scenen_sprajt_hjärta.png)
 
-2. Nu ska vi koda när sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
+2. Nu ska vi koda när den nya sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
 
 3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under det blocket med glrna flaggan. 
 
@@ -247,25 +247,29 @@ När du är färdig ska skriptet se ut såhär:
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det projektet högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
 
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
+> **Testa ditt projekt** och låt gärna andra få prova!
 
 ## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
+Har du tid över? Här kommer utmaningar för dig som vill fortsätta.
 
 ### Unika sprajtar
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
 
-* Ändra färgeffekt under dansen
+* Lägg till pratbubblor på sprajtarna så de säger olika saker
 
-* Ändra storlek på sprajten
+* Ändra färgeffekt under dansen (på samma sätt som du gjorde med bakgrunden)
+
+* Ändra storlek på sprajten så den blir ex större eller mindre medan musiken pågår
 
 * Lägg till rotation så att de vrider på sig
 
 * Ändra hur fort dom dansar
+
+* låt sprajter glida till slumpvisa positioner
+
+* Rita till objekt eller ändra färger på olika klädslar i dina sprajter
 
 Kan du hitta fler sätt att göra dom mer unika?
 
