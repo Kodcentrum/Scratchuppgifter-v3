@@ -32,7 +32,7 @@ höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken *
 
 ## 2: Välj dina sprajtar
 
-I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel. Sprajtar kan se ut hur som helst, kanske som en katt, en påskhare, eller annat du har ritat själv. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel. Sprajtar kan se ut hur som helst, kanske som en katt, en påskhare, eller annat du har ritat själv. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du byggt ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
 När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en hare, så börja med att ta bort katten och välja en ny sprajt istället.
 
