@@ -42,7 +42,7 @@ Se i videon ovan hur du ska:
 
 5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
 
-6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över elelr under 100, där 100 är 100% - alltså full storlek. Prova dig fram vad som blir lagom
+6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över elelr under 100, där 100 är 100%, alltså full storlek. Prova dig fram vad som blir lagom.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
@@ -111,9 +111,7 @@ Se i videon ovan hur du ska:
 
 ![image alt text](Ljud_lyssna.png)
 
-> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** hgst upp för att få fram endast musikslingor. 
-
-  ![image alt text](Loopar_knapp.png)
+> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** högst upp för att få fram endast musikslingor. 
 
 4. Klicka på fliken KOD i vänstra övre hörnet så kommer du tillbaka till kodsidan igen. Se till att din sprajt som ställer frågan är vald.
 
