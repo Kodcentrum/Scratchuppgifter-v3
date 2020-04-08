@@ -30,8 +30,6 @@ Se i videon ovan hur du ska:
 
 2. Klipp först bort katt-sprajten genom att klicka på krysset på den lilla kattbilden under scenen. Då försvinner den.
 
-  ![image alt text](Ta_bort_Sprajt.png)
-  
  ![image alt text](ikon_radera_katt.png)
   
 3. Klicka på ikonen för **Ny bakgrund** som finns längst ned till höger och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Forest"**. Du kan givetvis välja att rita en egen bakgrund med ritverktyget.
@@ -44,7 +42,7 @@ Se i videon ovan hur du ska:
 
 5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
 
-6. Om figurerna är för stora kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt tal mellan 1-100, där 100 är 100%, alltså full storlek. Prova dig fram.
+6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över elelr under 100, där 100 är 100% - alltså full storlek. Prova dig fram vad som blir lagom
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
@@ -59,25 +57,28 @@ Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kor
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägg till fråga till en av sprajtarna
+- Lägga till en fråga till en av sprajtarna
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Välj den sprajt du vill koda genom att klicka på den lilla figuren av din sprajt under scenen så den blir markerad. Vi har valt att kycklingen ska ställa frågan i vårt exempel. 
+1. Välj den sprajt du vill koda att ställa en fråga genom att klicka på den lilla figuren av din sprajt under scenen så den blir markerad. Vi har valt att kycklingen ska ställa frågan i vårt exempel. 
+
+  ![image alt text](aktivera_sprajt.png)
 
 2. Från tema HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på** och lägger det fritt på skriptytan för din sprajt. 
 
   ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
 
-3. Från tema KÄNNA AV drar du in blocket **"Fråga** *"Vad heter du?"* **och vänta"** och sätter fast det under det gula blocket med gröna flaggan.
+3. Från tema KÄNNA AV drar du in blocket **Fråga** *"Vad heter du?"* **och vänta** och sätter fast det under det gula blocket med gröna flaggan.
 
   ![image alt text](image_1.png)
   
-  ![image alt text](image_fråga.png)
+4. Klicka på den gröna flaggan ovanför scenen med ditt projekt och se din sprajt ställa frågan.
+  
+  ![image alt text](image_fråga_2.png)
 
-*När du har skrivit in ett namn i svarsrutan, klicka på den lilla blå ikonen till höger eller tryck på Enter-knappen på datorns tangentbord.
-Du kommer att förstå senare vad namnet ska användas till!*
+*När du har skrivit in ett namn i svarsrutan längst ned klickar du på den lilla blå ikonen till höger eller tryck på Enter-knappen på datorns tangentbord. Just nu kommer inget att hända, men du kommer att förstå senare vad namnet ska användas till!*
 
 > **Testa ditt projekt!** Klicka på START-flaggan ovanför ditt projekt på scenen. Frågar sprajten "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
 
@@ -93,12 +94,12 @@ Nu vill du ge sprajten några rörelser till musik.
 Se i videon ovan hur du ska:
 - Lägg till musik till projektet
 - Skapa ett meddelande
-- Skapa en loop och låt en sprajt byta klädslar
+- Skapa en loop och låt en sprajt byta klädslar för att röra på sig
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Gå till fliken LJUD i övre vänstra hörnet av Scratch.
+1. Först lägger vi till musik. Gå till fliken LJUD i övre vänstra hörnet av Scratch.
 
   ![image alt text](image_40.png)
 
@@ -111,11 +112,14 @@ Se i videon ovan hur du ska:
 ![image alt text](Ljud_lyssna.png)
 
 > **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** hgst upp för att få fram endast musikslingor. 
+
   ![image alt text](Loopar_knapp.png)
 
 4. Klicka på fliken KOD i vänstra övre hörnet så kommer du tillbaka till kodsidan igen. Se till att din sprajt som ställer frågan är vald.
 
-5. Nu ska vi skapa ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Sätt in det under de andra blocken på skriptytan.
+  ![image alt text](Flik_KOD.png)
+
+5. Nu ska vi lägga till kod för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Sätt in det under de andra blocken på skriptytan.
 
 ![image alt text](Block_skickaMeddelande.png)
 
@@ -123,25 +127,23 @@ Se i videon ovan hur du ska:
 
 ![image alt text](Block_skapa_nytt_meddelande.png)
 
-7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i blocket till **skicka Dansa**.
+7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i blocket så det står **skicka Dansa**.
 
 ![image alt text](Skapa_nytt_meddelande_Dansa.png)
 
 8. Nu lägger vi in musiken. Från tema **Ljud** drar du in blocket **Spela ljudet ____ tills färdigt**. (i blocket står namnet på det ljud du valde tidigare, i vårt exempel heter ljudet *Dance Around*. 
 
-  ![image alt text](image_7.png)      
-  
-*Meddelandet "Dansa" kommer att bli viktigt om en stund. Kan du lista ut varför?*
+  ![image alt text](image_7.png)
 
-9. Nu ska vi skapa ett nytt skript till vår sprajt som som vi lägger bredvid det första på skriptytan. Från tema HÄNDELSER drar du in blocket **När jag tar emot meddelande1**. Klicka på den lila pilen och välj meddelandet **Dansa** som du skapade tidigare.
+9. Nu ska vi skapa ett nytt skript till vår sprajt som som vi lägger bredvid det första på skriptytan. Från tema HÄNDELSER drar du in blocket **När jag tar emot meddelande1**. Klicka på den lilla pilen och välj meddelandet **Dansa** som du skapade tidigare.
 
   ![image alt text](Block_NärJagTarEmotDansa.png)
   
-10. Nu ska lägga till en loop. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det förra blocket du just drog in.
+10. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det förra blocket med meddelandet du just drog in.
 
   ![image alt text](loop_byta_klädsel.png)
   
-11. Nu ska vi få sprajten att byta klädslar, eller rörelsebilder som det är egentligen. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen, så det ser ut såhär:
+11. Nu ska vi få sprajten att byta klädslar, eller bilder av olika positioner av sprajten som det är egentligen. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen, så det ser ut såhär:
 
   ![image alt text](Block_nästaKlädsel.png)
   
@@ -163,17 +165,17 @@ För att sprajten ska sluta dansa när melodin är slut, måste du koda den att 
 
 Se i videon ovan hur du ska:
 - Skapa ett till meddelande
-- Stoppa skript
+- Stoppa skriptet
 - Lägga in en operator och sammanfoga ett svarsmeddelande
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Fäst blocket i det första större skriptet i sprajten, såhär:
+1. Först ska vi lägga in kod för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Fäst blocket i det första större skriptet i sprajten, såhär:
 
   ![image alt text](Block_meddelande2.png)
 
-2. Klicka på lilla pilen i meddelande-blocket och klicka på **Nytt meddelande**. Döp det till *Dansen slut*.
+2. Sen skapar vi ett nytt meddelande. Klicka på lilla pilen i meddelande-blocket och klicka på **Nytt meddelande**. Döp det till *Dansen slut*.
 
 3. Nu ska vi skapa ett helt nytt skript bredvid de andra. Från tema HÄNDELSER drar du ut **När jag tar emot meddelande1** och lägger det fritt på skriptytan som ett nytt skript. Klicka på lilla pilen i blocket och byt till meddelandet *Dansen slut*. 
 
@@ -187,17 +189,17 @@ Se i videon ovan hur du ska:
 
   ![image alt text](Block_sägheji2sekunder_slutreplik.png)
   
-6. Nu ska vi lägga in en operator. Det är ett block som kan göra beräkningar i koden, exempelvis sätta ihop olika saker. Från tema OPERATORER drar du ut det gröna blocket som heter **sammanfoga äpple och banan**. Lägg det inuti den textbubblan i förra blocket där det står **Hej!**. 
+6. Nu ska vi lägga in en operator. Det är ett block som kan göra beräkningar i koden, exempelvis sätta ihop olika saker. Från tema OPERATORER drar du ut det gröna blocket som heter **sammanfoga äpple och banan**. Lägg det inuti textbubblan i förra blocket där det står **Hej!**. 
 
   ![image alt text](Block_operator_sammanfoga_lägg_in.png)  
 
-> **Tips** **Svårt att lägga in operatorblocket?** Gör såhär: dra operatorblockets ena kant snett in över texten Hej! och när det visas en vit ring runt texten Hej! så kan du släppa. Då fäster operatorblocket inne i textcirkeln.
+> **Tips** Svårt att lägga in operatorblocket? Gör såhär: dra operatorblockets ena kant snett in över texten Hej! och när det visas en vit ring runt texten Hej! så kan du släppa. Då fäster operatorblocket inne i textcirkeln.
 
 8. Klicka på texten **äpple** i det gröna blocket och skriv istället **Glad Påsk**. (lägg till ett mellanslag efter Glad påsk, så blir det mellanrum mellan Glad Påsk och nästa ord som sen ska komma.)
 
   ![image alt text](Block_operator_text_GladPåsk.png)  
   
-7. Nu ska vi lägga in svaret på frågan *Vad heter du?* som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger det inuti den gröna operator-blockets andra textcirkel, där det nu står *banan*. Såhär:
+7. Nu ska vi lägga in svaret på projektets första fråga *Vad heter du?*, som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger det inuti den gröna operator-blockets andra textcirkel, där det nu står *banan*. Såhär:
 
   ![image alt text](Block_svar_in_i_operator_slutreplik.png)  
   
@@ -238,7 +240,7 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 
 ## 6: Pynta påskkortet
 
-Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
+Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? 
 <video src="./Påskkort_6.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -254,7 +256,7 @@ Se i videon ovan hur du ska:
 
 1. Börja med en sprajt som ska vara osynlig i början men dyka upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
 
-  ![image alt text](Scenen_sprajt_hjärta.png)
+  ![image alt text](Ny_sprajt_hjärta.png)
 
 2. Nu ska vi koda när den nya sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
 
