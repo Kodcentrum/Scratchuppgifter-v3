@@ -256,29 +256,35 @@ Se i videon ovan hur du ska:
 
 2. Nu ska vi koda när den nya sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
 
-3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under det blocket med glrna flaggan. 
+  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
+
+3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under blocket med gröna flaggan. 
 
   ![image alt text](Skript_göm.png)
 
-4. Från tema HÄNDELSER drar du in blocket **när jag tar emot Dansa** (alltså ett meddelande). Lägg det fritt på sprajtens skriptyta. 
+4. Från tema HÄNDELSER drar du in blocket **när jag tar emot Dansa** (alltså ett meddelande). Lägg det fritt på sprajtens skriptyta bredvid det första skriptet. 
 
   ![image alt text](Block_när_jag_tar_emot_Dansa.png)
   
 5. Från tema UTSEENDE drar du in lilla blocket **visa** och fäster det under förra blocket. 
 
-5. Från tema KONTROLL drar du ut blocket **för alltid**, som alltså är en loop. Föst det under förra blocket du drog in. 
+  ![image alt text](Skript_dansa_visa.png)
 
-6. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen. När du är färdig ska skriptet se ut såhär:
+5. Från tema KONTROLL drar du ut blocket **för alltid**, som alltså är en loop. Fäst det under det förra blocket du drog in. 
 
-  ![image alt text](Skript_visa.png)
+  ![image alt text](Skript_visa_loop.png)
+
+6. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen.
+
+  ![image alt text](Skript_visa_loop_nästaKlädsel.png)
   
 7. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det längst ned innanför loopen. Klicka på variabeln **1** och ändra till **0.25**. 
 
-  ![image alt text](image_8.png)
+  ![image alt text](Skript_visa_loop_nästaKlädsel_vänta.png)
   
 8. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
 
-  ![image alt text](Skript_meddelande_2.png)
+  ![image alt text](Meddelande_byt_till_Dansen_slut.png)
 
 9. Från tema UTSEENDE drar du sen in blocket **göm** och fäst det direkt under blocket du just drog in. Då ser skriptet ut såhär. 
 
