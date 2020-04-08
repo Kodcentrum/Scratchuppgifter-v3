@@ -1,12 +1,12 @@
 # Påskkort
 
-Här får du göra ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, påskkort, julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
-Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
+Koda ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, julkort, Alla hjärtans dagkort eller annat vykort. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Klicka på bilden nedan för att se ett exempelprojekt på ett påskkort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
 
 ![image alt text](image_0.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. Logga gärna in på Scratch för att kunna spara och dela projektet.
   
   Då börjar vi koda!
 
@@ -21,7 +21,7 @@ Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny bakgrund
 - Välj tre nya sprajtar
-- Minska storleken på sprajtarna
+- Minska eller öka storleken på sprajtarna
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -31,6 +31,8 @@ Se i videon ovan hur du ska:
 2. Klipp först bort katt-sprajten genom att klicka på krysset på den lilla kattbilden under scenen. Då försvinner den.
 
   ![image alt text](Ta_bort_Sprajt.png)
+  
+ ![image alt text](ikon_radera_katt.png)
   
 3. Klicka på ikonen för **Ny bakgrund** som finns längst ned till höger och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Forest"**. Du kan givetvis välja att rita en egen bakgrund med ritverktyget.
 
