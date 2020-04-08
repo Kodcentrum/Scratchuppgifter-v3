@@ -12,7 +12,7 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
 
 ## 1: Välja sprajtar och bakgrund
 
-Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Sprajtarna ska helst kunna röra på sig.
+Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Vi väljer sprajtar som kan röra på sig.
 <video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -32,7 +32,7 @@ Se i videon ovan hur du ska:
 
   ![image alt text](Ta_bort_Sprajt.png)
   
-3. Klicka på **Ny bakgrund** och välj en bakgrund du gillar, till exempel **Forest** som vi har valt i vårt exempelprojekt. Du kan även välja att rita en egen bakgrund med ritverktyget.
+3. Klicka på ikonen för **Ny bakgrund** som finns längst ned till höger och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Forest"**. Du kan givetvis välja att rita en egen bakgrund med ritverktyget.
 
   ![image alt text](Ny_Bakgrund-knapp.png)
 
@@ -153,7 +153,7 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 ## 4: Dansen är slut
 
-För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
+För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att sprajten kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
 
 <video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
 
