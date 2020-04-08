@@ -13,6 +13,18 @@ Här kan du se ett exempelprojekt på ett vykort: <a href="https://scratch.mit.e
 ## 1: Välja sprajtar och bakgrund
 
 Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Sprajtarna ska helst kunna röra på sig.
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Ta bort kattfiguren
+- Välj ny bakgrund
+- Välj tre nya sprajtar
+- Minska storleken på sprajtarna
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt. Se gärna till att du är inloggad på Scratch, så kan du spara ditt projekt även.
 
@@ -40,6 +52,15 @@ Nu har du sprajtar och en bakgrund. Dax att börja koda vykortet!
 ## 2: Fråga efter mottagarens namn
 
 Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kortets mottagare heter. 
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till fråga till en av sprajtarna
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Välj den sprajt du vill koda genom att klicka på den lilla figuren av din sprajt under scenen så den blir markerad. Vi har valt att kycklingen ska ställa frågan i vårt exempel. 
 
@@ -63,6 +84,17 @@ Dax att koda vidare!
 ## 3: Sprajten kan dansa!
 
 Nu vill du ge sprajten några rörelser till musik. 
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till musik till projektet
+- Skapa ett meddelande
+- Skapa en loop och låt en sprajt byta klädslar
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Gå till fliken LJUD i övre vänstra hörnet av Scratch.
 
@@ -121,7 +153,19 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 ## 4: Dansen är slut
 
-För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Ha det så bra!"* och sluta dansa.
+För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att pingvinen kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
+
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Skapa ett till meddelande
+- Stoppa skript
+- Lägga in en operator och sammanfoga ett svarsmeddelande
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Fäst blocket i det första större skriptet i sprajten, såhär:
 
@@ -151,7 +195,7 @@ För att sprajten ska sluta dansa när melodin är slut, måste du koda den att 
 
   ![image alt text](Block_operator_text_GladPåsk.png)  
   
-7. Nu ska vi lägga in svaret på frågan *Vad heter du?* som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger in det inuti gröna operatorns andra textcirkel, där det står *banan*. 
+7. Nu ska vi lägga in svaret på frågan *Vad heter du?* som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger det inuti den gröna operator-blockets andra textcirkel, där det nu står *banan*. Såhär:
 
   ![image alt text](Block_svar_in_i_operator_slutreplik.png)  
   
@@ -167,8 +211,18 @@ Nu vill vi att alla sprajtar ska röra på sig och dansa loss! Vi kodar vidare!
 ## 5: Alla ska dansa!
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript. Då börjar vi koda!
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
 
-1. Nu ska du skapa två skript vardera på de andra sprajtarna i projektet. Klicka på de smp bilderna av sprajtarna under scenen med ditt projekt för att byta till ny figur att koda. Skapa skripten du ser i bilden nedan på vardera sprajt. 
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Skapa skript med byte av klädslar i de andra två sprajterna
+- Skapa mer rörelse av sprajt
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Nu ska du skapa två skript vardera på de andra sprajtarna i projektet. Klicka på de små bilderna av sprajtarna under scenen med ditt projekt för att byta till ny figur att koda. Skapa skripten du ser i bilden nedan på vardera sprajt. 
 
   ![image alt text](image_10.png)
 
@@ -183,6 +237,18 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 ## 6: Pynta påskkortet
 
 Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? Du kan också göra fint med bakgrunden genom att exempelvis byta färg på scenen i takt med musiken eller lägga in stämningsmusik.
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till en ny sprajt
+- Skapa ett skript som gömmer sprajten när projektet startar
+- Låta sprajten ta emot ett meddelande och för alltid byta klädslar
+- Låta sprajten ta emot ett meddelande och gömma sig igen
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Börja med en sprajt som ska vara osynlig i början men dyka upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
 
@@ -223,6 +289,17 @@ Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bli
 ## 7: Blinga bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Koda scenens bakgrundsbild att ta emot ett meddelande
+- Koda att bilden för alltid ska ändra färgeffekt
+- Stoppa skriptet
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Klicka på lilla bilden av din bakgrund nere till höger under ditt projekt där det står **Scen**. Då kommer skriptytan för din bakgrund fram, där du kan lägga in kod.
 
