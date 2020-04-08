@@ -1,6 +1,6 @@
-# Påskjakt Platformer
+# Påskjakt Plattform
 
-Här kan du bygga en klassikt “platformer”-spel om påskharen som är på jakt efter ägg! Vi har valt det som tema till spelet, men tänk på att du kan själv välja att ersätta med en egen karaktär och andra objekt som kan ge eller ta bort poäng. 
+Här kan du bygga en klassikt plattformsspel om påskharen som är på jakt efter ägg! Vi har valt det som tema till spelet, men tänk på att du kan själv välja att ersätta med en egen karaktär och andra objekt som kan ge eller ta bort poäng.
 
 ![image alt exempel](platformer-bild-01.png)
 
@@ -32,7 +32,8 @@ höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken *
 
 ## 2: Välj dina sprajtar
 
-I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst, kanske som en katt, en påskhare, eller annat du har ritat själv. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel. Sprajtar kan se ut hur som helst, kanske som en katt, en påskhare, eller annat du har ritat själv. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du byggt ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+
 När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en hare, så börja med att ta bort katten och välja en ny sprajt istället.
 
 Gör så här:
@@ -40,11 +41,12 @@ Gör så här:
 
 ![image alt exempel](platformer-bild-06.png)
 
-2. Nu vill du lägga till en hare istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
+2. Nu vill du lägga till en hare istället. Tryck på knappen för **NY SPRAJT** som finns under den vita bakgrunden:
  
 ![image alt exempel](platformer-bild-07.png)
 
 En katalog med massa figurer dyker upp. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du haren. Tryck på den så har du lagt till en ny sprajt i ditt projekt.
+
 3. Tryck igen på knappen för **NY SPRAJT** och lägg till ett **ägg** och ett **träd**.
 
 ![image alt exempel](platformer-bild-08.png)
@@ -65,12 +67,11 @@ Gör så här:
 
 3. Välj från KONTROLL: **för alltid** och fäst under startblocket med flaggan. Det här blocket är en loop som upprepar din kod om och om igen. I den bestämmer du vad sprajten ska göra för att få bakgrunden att röra på sig.
 
-4. I loopen sätter du att sprajten ska börja på en speciell plats längst ut till höger. Välj
-från RÖRELSER: sätt **x till 0.** Ändra nollan så att det står **100** istället.
+4. I loopen sätter du att sprajten ska börja på en speciell plats längst ut till höger. Välj från RÖRELSER: sätt **x till 0.** Ändra nollan så att det står **100** istället.
 
 5. Välj en till loop från KONTROLL: **Repetera tills**. I den lägg från KÄNNA AV: **Rör vid** och välj **kant**.
 
-6. Inom den här loopen sätter du in från RÖRELSE: **ändra X med 0**. Här får du testa dig fram vad du vill byta ut nollan mot, beroende på hur snabbt du vill att sprajten ska röra sig. I exemplet har vi skrivit in siffran -2.
+6. I den här loopen sätter du in från RÖRELSE: **ändra X med 0**. Här får du testa dig fram vad du vill byta ut nollan mot, beroende på hur snabbt du vill att sprajten ska röra sig. I exemplet har vi skrivit in siffran -2.
 
 ![image alt exempel](platformer-bild-10.png)
 
@@ -94,7 +95,7 @@ Nu ska vi få haren att röra på sig. Det gör du så här:
 
 5. Nu byter sprajten klädsel jättesnabbt! Sätt en liten paus mellan bytena med KONTROLL: **vänta 0.5 sekunder**. Ändra till 1 sekund eller det du tycker ser bra ut. Prova dig fram.
 
-6. Om du inte vill att hjälten ska förvinna bakom äggen, kan du lägga till en UTSEENDE: **gå till översta lagret** och lägga in den före loopen. Då är hjälten alltid placerad längst fram i bilden och döljs inte av de andra sprajtarna i rekvisitan.
+6. Om du inte vill att hjälten ska förvinna bakom äggen, kan du välja ett block UTSEENDE: **gå till översta lagret** och lägga in den före loopen. Då är hjälten alltid placerad längst fram i bilden och döljs inte av de andra sprajtarna i rekvisitan.
 
 ![image alt exempel](platformer-bild-13.png)
 
@@ -111,11 +112,13 @@ För att haren ska kunna gå upp och ner på scenen, lägg in följande skript:
 
 ## 5: Få äggen att röra på sig
 Nu behöver du få äggen att visa sig längst till höger på scenen och röra sig mot haren. För att skapa flera ägg kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajtar med samma skript.
+
 ![image alt exempel](platformer-bild-15.png)
 
 1. Skapa en ny VARIABEL, som heter **poäng**. Den ska visas på scenen.
 
 2. Du behöver ett skript för sprajten **Egg** som skapar en klon av sig själv varje sekund tills timern har blivit 0, då spelet avslutas. Skapa ett nytt skript som säger:
+
 * Starta när START klickas på
 * **Göm**
 * För alltid:
@@ -142,10 +145,11 @@ Nu behöver du få äggen att visa sig längst till höger på scenen och röra 
 
 ![image alt exempel](platformer-bild-18.png)
 
-> **Testa ditt projekt!** Klicka på START. Rör sig ägget från höger till vänster? Försvinner de när de träffar haren eller kanten? Ändras det poäng-räknaren?
+> **Testa ditt projekt!** Klicka på START. Rör sig ägget från höger till vänster? Försvinner de när de träffar haren eller kanten? Ändras det poängräknaren?
 
 ## 6: Två typer av ägg: som ger poäng och som tar
-Vi kommer behöva två typer av ägg: en som ger poäng och en som tar när haren rör dem. För att göra det, kommer vi duplicera vårt ägg sprajt och sen måla sprajtarna i två olika färger: gula ägg ger poäng och röda tar. Du får välja andra färger såklart!
+
+Vi kommer behöva två typer av ägg: en som ger poäng och en som tar när haren rör dem. För att göra det, kommer vi kopiera vårt ägg sprajt och sen måla sprajtarna i två olika färger: gula ägg ger poäng och röda tar. Du får välja andra färger såklart!
 
 1. Välj ägg-sprajten och tryck höger klick. Välj **kopiera**. Ett till ägg ska nu finnas med bland dina sprajtar.
 
@@ -168,9 +172,10 @@ Vi kommer behöva två typer av ägg: en som ger poäng och en som tar när hare
 4. Välj sen **Egg-sprajten** (det andra ägget) och gå in på **KLÄDSLAR-fliken**. Välj **Fyll-hinken**, välj en **röd färg** och sen färga om **ägget**
 
 
-> **Testa koden!** Klicka på START. Kommer det upp två typer av ägg nu? Ändras poäng- räknaren med 1 när haren träffar gula ägg? Ändras poäng-räknaren med -1 när haren träffar röda ägg?
+> **Testa koden!** Klicka på START. Kommer det upp två typer av ägg nu? Ändras poängräknaren med 1 när haren träffar gula ägg? Ändras poängräknaren med -1 när haren träffar röda ägg?
 
 ## 7: Räkna poäng
+
 Nu ska vi lägga in villkor som bestämmer om man vinner eller förlorar.
 
 1. Välj **Hare-sprajten** och samla alla dessa blocka på **KOD-ytan**.
