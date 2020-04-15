@@ -22,10 +22,8 @@ Se i videon ovan hur du ska:
 - Välj ny sprajt
 - Minska sprajtens storlek
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
 
@@ -62,10 +60,8 @@ Se i videon ovan hur du ska:
 - Välj färg och verktyg för att fylla bakgrund
 - Välj ny färg och verktyg för att måla en bana
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
@@ -109,10 +105,8 @@ Se i videon ovan hur du ska:
 - Lägg in kod för RÖRELSE: Gå 10 steg
 - Lägg in kod för KONTROLL: För alltid (en loop)
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
@@ -167,10 +161,8 @@ Se i videon ovan hur du ska:
 - Dra sprajten till där du vill den ska starta på banan
 - Lägg in kod för RÖRELSE: gå till x:__ y:__
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en raksträcka, inte en kurva. 
 
@@ -193,10 +185,8 @@ Se i videon ovan hur du ska:
 - Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*
 - Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
 
@@ -223,10 +213,8 @@ Om du trycker på START-flaggan igen märker du att skalbaggen behåller den rik
 Se i videon ovan hur du ska:
 - Lägg in kod för RÖRELSE: peka i 90 graders ritning
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
@@ -250,10 +238,8 @@ Se i videon ovan hur du ska:
 - Lägg in kod för KÄNNA AV: rör färgen_. Lägg blocket i det kantiga hålet mellan om...då.
 - Lägg in kod för UTSEENDE: säg Hej! i 2 sekunder. Ändra texten till Game Over!
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
 
@@ -286,10 +272,8 @@ Se i videon ovan hur du ska:
 - Lägg skriptet inuti för alltid-loopen
 - Lägg in kod för KONTROLL: stoppa alla. Lägg blocket längst ned inom *om...då*. Ändra till *stoppa detta skript*.
 
-</br>
-</br>
-</br>
-**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Lägg skriptet som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
