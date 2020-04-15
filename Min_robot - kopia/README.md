@@ -13,6 +13,18 @@ Så, vad ska din robot hjälpa dig med? Dax att börja koda!
 ## 1: Välj bakgrund och din robot
 
 Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot. Gör såhär:
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Välj ny bakgrundsbild
+- Ta bort katt-sprajten
+- Välj ny sprajt som din robot
+- Ändra storleken på sprajten
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Logga in på Scratch och öppna ett nytt projekt genom att trycka på **Skapa** på Scratch startsida.
 
@@ -46,7 +58,17 @@ Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som robote
 
 ## 2: Robotens frågor
 
-Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag. Gör såhär:
+Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag.
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till en första pratbubbla för roboten att presentera sig
+- Lägg till en fråga till roboten
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Se först till att robot-sprajten är vald, genom att klicka på den lilla robot-figuren under scenen så den blir blåmarkerad. Nu kan du börja koda din robot. 
 
@@ -81,7 +103,18 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
 ## 3: Roboten hjälper till
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här. Då börjar vi
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här.
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till ett villkor med Om__Då så att roboten kan förstå vilket svar användaren gav på robotens fråga
+- Lägg in så att användarens svar styr vilket hjälpande svar roboten ska ge
+- Upprepa med ett till villkor med Om__Då som styr robotens andra hjälpande svar
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema **KONTROLL** finns kodblocket **om __ då**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
 
@@ -115,6 +148,17 @@ Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lit
 
 ## 4: Roboten spelar ljud
 Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till två ljudblock, lägg ett i varje villkor för roboten
+- Välj två nya ljud i ljudbiblioteket
+- Ändra i ljudblocket så rätt ljud spelas
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Först ska vi lägga till kodblocken för ljud, så att roboten vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
 
@@ -151,7 +195,19 @@ Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar.
 Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite också. Vi lägger till kod för rörelse!
 
 ## 5: Roboten rör sig
-För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika röresler. Exempelvis kan du göra såhär:
+För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika röresler.
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg in ett kodblock i vardera villkor som gör att roboten glider till slumpmässig position
+- Lägg till en startposition för roboten
+- Lägg till block för att roboten ska visas med en bestämd klädsel när projektet startas
+- Lägg till ett block i vardera villkor som säger att roboten ska byta till nästa klädsel
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Dra in två sådana block och lägg ett inuti vardera villkor med **om...då**. Då ser koden ut såhär:
 
@@ -196,7 +252,24 @@ Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
   ![image alt text](slumpsvar_scenbild.png)
   
 För att din robot ska kännas mer som att den är en smart robot som kan "tänka själv", kan du lägga till att den ska slumpa fram olika svar till dig. Då varierar den svaren varje gång du ber den svara. 
-För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöver en lista för vardera val vi svarat på, exempelvis om vi svarat att vi vill äta vegetariskt eller kött i vår Matrobot, så behöver vi skapa två listor, en med vegetariska rätter att välja mellan och en för kötträtter. Vi börjar med att skapa två listor med olika savrsval. 
+För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöver en lista för vardera val vi svarat på, exempelvis om vi svarat att vi vill äta vegetariskt eller kött i vår Matrobot, så behöver vi skapa två listor, en med vegetariska rätter att välja mellan och en för kötträtter. Vi börjar med att skapa två listor med olika svarsval. 
+<video src="./Labyrint_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Skapa två nya listor och döp dem till dina två olika svarsval
+- Lägg till tre nya svarsalternativ till vardera lista
+- Lägg in två block som rensar vardera svarslista vid start av projektet
+- Byt ut robotens tidigare svar mot operator-blocket "sammanfoga äpple och banan"
+- Lägg in en variabel som hämtar "post 1" i en av dina svarslistor, så den hamnar i andra vita cirkeln i operatorblocket
+- Lägg in ett block som slumpar mellan post 1 till 10 inuti ditt variabelblock och ändra till det antal val du har i listan (e. 1 till 3)
+- Byt ut ordet "äpple" till vad roboten ska säga som passar med vad den sedan ska föreslå frn listan med svar. 
+- Gör ett likadant skript till och anpassa så det kopplas till den andra listan med svarsalternativ.
+- Lägg in block som gömmer båda listorna när projeket startas.
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema **VARIABLER** klickar du på **Skapa en lista**. 
 
@@ -230,7 +303,7 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
   ![image alt text](listor_två_olika_färdiga.png)
   ![image alt text](matrobot_scen_med_listor.png)
   
-10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ut ur de två olika listorna. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder**. Nu ska vi byta ut det som roboten säger där mot slumpade svar ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in det gröna blocket inuti det lila blocket ovanpå den text som står i den vita bubblan efter ordet **säg...**, såhär:
+10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ur de två olika listorna med svarsalternativ. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder**. Nu ska vi byta ut det som roboten säger där mot slumpade svar ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in det gröna operator-blocket ovanpå den text som står i den vita bubblan efter ordet **säg...**, så det ser ut såhär:
 
   ![image alt text](operatorblock_sammanfogaÄppleBanan.png)
   
@@ -238,7 +311,7 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
 
   ![image alt text](post_1_i_kötträtter.png)
 
-12. Just nu visar din kod att roboten alltid ska välja att posta svaret nummer 1 ur listan, men vi vill ju att den ska slumpa svar från hela listan. Nu ska vi lägga till kod för slump, så roboten kan ge olika svar från sina listor. Under tema **OPERATORER** finns kodblocket **slumptal 1 till 10**. Dra in det och lägg det ovanpå där det står siffran **1** i orangea variabelkoden, direkt efter **säg sammanfoga post...**. Så här: 
+12. Just nu visar din kod att roboten alltid ska välja att posta svaret nummer 1 ur listan, men vi vill ju att den ska slumpa svar från hela listan. Nu ska vi lägga till kod för slump, så roboten kan ge olika svar från sina listor. Under tema **OPERATORER** finns kodblocket **slumptal 1 till 10**. Dra in det och lägg det ovanpå där det står siffran **1** i orangea variabelblocket, direkt efter **säg sammanfoga äpple post...**. Så här: 
 
   ![image alt text](slumptal_kodbit.png)
   
@@ -246,12 +319,13 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
 
   ![image alt text](kod_slump_svar_3.png)
 
-13. Byt nu ut texten **äpple** till något som passar vad din robot ska säga. I vprt exempel med vår Matrobot skriver vi istället: *Då lagar jag *. Sedan kommer svaret från listan att stå efter, exempelvis *Då lagar jag lasagne*.
-Nu ska koden i skriptet se ut såhär:
+13. Byt nu ut texten **äpple** till något som passar vad din robot ska säga. I vårt exempel med vår Matrobot skriver vi istället: *Då lagar jag *. Sedan kommer svaret från listan att stå efter, exempelvis *Då lagar jag lasagne*. (Du skriver in något som passar bra med vad din robot sen ska föreslå.)
+Nu ska koden i skriptet se ut såhär: 
 
   ![image alt text](Färdig_slump_kötträtter.png)
   
 > **Testa koden!** Vad händer när roboten svarar dig? Slumpar den fram olika svar varje gång du startar om med gröna flaggan? 
+
 > **Tips!** Sitter orden ihop i svaret? Lägg då till ett mellanslag efter texten *"Då lagar jag "* så får du mellanrumm mellan din svarsmening och ditt slumpade svar. 
 
 14. Skapa nu exakt samma kod igen längre ned i din robots kodskript, så att den kan hämta slumpade svar från din andra lista också. I vårt exempel med vår Matrobot ser då hela koden ut såhär:
