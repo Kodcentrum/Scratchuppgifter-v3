@@ -12,41 +12,56 @@ Så, vad ska din robot hjälpa dig med? Dax att börja koda!
 
 ## 1: Välj bakgrund och din robot
 
-Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot. Gör såhär:
+Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot.
+<video src="./MinRobot_1.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Ta bort kattfiguren
+- Välj ny sprajt
+- Ändra sprajtens storlek (om du vill)
+- Lägg till en bakgrundsbild
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Logga in på Scratch och öppna ett nytt projekt genom att trycka på **Skapa** på Scratch startsida.
 
-2. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikonen för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt. (Du kan givetvis även välja att rita din egen bakgrund med Scratch ritverktyg för bakgrunder.)
-
-  ![image alt text](ny-bakgrund-knapp.png)
-
-3. Ta bort Katt-sprajten i projektet genom att klicka på soptunnan på den lilla kattbilden under scenen. Då försvinner katten ur projektet.
+2. Ta bort Katt-sprajten i projektet genom att klicka på soptunnan på den lilla kattbilden under scenen. Då försvinner katten ur projektet.
 
   ![image alt text](Ta_bort_Sprajt.png)
 
 Dax att välja en figur som ska vara din robot. I vårt exempelprojekt har vi valt sprajten **Retro Robot**, men du väljer vilken figur du vill som din robot. 
 
-4. Klicka på knappen **Välj ny sprajt**. Det är den lilla blå symbolen med en vit katt på, som du finner i nedre högra hörnet i Scratch. Klicka på sprajt du vill ha i sprajtbibioteket som kommer fram, så läggs den till i ditt projekt. 
+3. Klicka på knappen **Välj ny sprajt**. Det är den lilla blå symbolen med en vit katt på, som du finner i nedre högra hörnet i Scratch. Klicka på en sprajt du vill ha i sprajtbibioteket som kommer fram, så läggs den till i ditt projekt. (Tips: sök på robot i sökverktyget så finner du enkelt Scratch robotar.)
 
   ![image alt text](Ny_Sprajt-knapp.png)
-
-Om du istället vill rita din egen robot kan du välja ritverktyget genom klicka på penseln **Måla ny sprajt** som kommer fram om du håller muspekaren över knappen **Välj ny sprajt**: 
-
-  ![image alt text](MalaNySprajt.png)
   
-När du är nöjd med din ritade sprajt så klickar du på fliken **Kod** högst upp i vänstra hörnet, så kommer du tillbaka ut ur ritverktyget.
-  
-  ![image alt text](flik_kod.png)
-
-5. Om din robotfigur är för stor kan du ändra storleken. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre tal. Storleken visas i procent, där 100 är full storlek. Prova dig fram tills du är nöjd.
+4. Om din robotfigur är för stor eller för liten kan du ändra storleken på den. Klicka på siffrorna vid **Storlek** som finns under scenen och skriv in nytt lägre elelr högre tal. Storleken visas i procent, där 100 är full storlek. Prova dig fram tills du är nöjd.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
+5. Nu ska du välja en ny bakgrundsbild. I nedre högra hörnet finns en blå ikonen för **Välj en bakgrund**. Klicka på den så kommer du till Scratch bakgrunds-bibliotek. Klicka på en bakgrundsbild du gillar så läggs den till i ditt projekt.
+
+  ![image alt text](ny-bakgrund-knapp.png)
+  
 Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som roboten ska hjälpa till med. 
 
 ## 2: Robotens frågor
 
-Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag. Gör såhär:
+Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag.
+<video src="./MinRobot_2.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till ett startskript för "När gröna flaggan klickas på"
+- Lägg till ett block för robotens att säga en hälsning
+- Lägg till en fråga med två svarsval och låt roboten vänta på ett svar
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Se först till att robot-sprajten är vald, genom att klicka på den lilla robot-figuren under scenen så den blir blåmarkerad. Nu kan du börja koda din robot. 
 
@@ -81,7 +96,20 @@ Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att 
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
 ## 3: Roboten hjälper till
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här. Då börjar vi
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här.
+<video src="./MinRobot_3.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till ett villkors-block för "Om__Då"
+- Lägg till en operator för "__ = ___ "
+- Lägg till blocket för frågans svar i operatorn
+- Skriv in ett av frågans svarsval i operatorn
+- Lägg till så roboten svarar tillbaka
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema **KONTROLL** finns kodblocket **om __ då**. Dra in blocket och lägg det direkt under din robots frågor i koden. 
 
@@ -115,6 +143,17 @@ Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lit
 
 ## 4: Roboten spelar ljud
 Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
+<video src="./MinRobot_4.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till två ljudblock inom villkoret
+- Lägga till nytt ljud
+- Ändra ljudet i ljudblocket så rätt spelas
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Först ska vi lägga till kodblocken för ljud, så att roboten vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
 
@@ -151,7 +190,19 @@ Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar.
 Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite också. Vi lägger till kod för rörelse!
 
 ## 5: Roboten rör sig
-För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika röresler. Exempelvis kan du göra såhär:
+För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika rörelser.
+<video src="./MinRobot_5.mp4" autoplay loop muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägg till två rörelseblock, ett i vardera villkor, för roboten att glida iväg
+- Lägg till en startposition för roboten
+- Animera robotens olika klädslar med block för att ändra klädsel, ett i vardera villkor
+- Lägg till en bestämd första robotklädsel när projektet startas
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Under tema **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Dra in två sådana block och lägg ett inuti vardera villkor med **om...då**. Då ser koden ut såhär:
 
