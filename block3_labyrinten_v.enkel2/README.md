@@ -9,7 +9,7 @@ En labyrint kan se ut på många olika sätt och du kan rita din som du vill. H�
 
 ![image alt text](image_1.png)
 
-![image alt text](Exempelspel_enkel.png)
+![image alt text](Exempelspel_enkel.png) height=480 width=640
 
 > **HUR KODAR JAG?** 
 </br>
