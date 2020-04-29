@@ -13,7 +13,7 @@ Klicka på bilden nedan för att se ett exempelprojekt på ett påskkort: <a hre
 ## 1: Välja sprajtar och bakgrund
 
 Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Vi väljer sprajtar som kan röra på sig.
-<video src="./Påskkort_1.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
