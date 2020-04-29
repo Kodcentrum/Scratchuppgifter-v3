@@ -52,7 +52,7 @@ Nu har du sprajtar och en bakgrund. Dax att börja koda vykortet!
 ## 2: Fråga efter mottagarens namn
 
 Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kortets mottagare heter. 
-<video src="./Påskkort_2.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -87,7 +87,7 @@ Dax att koda vidare!
 ## 3: Sprajten kan dansa!
 
 Nu vill du ge sprajten några rörelser till musik. 
-<video src="./Påskkort_3.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_3.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -157,7 +157,7 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att sprajten kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
 
-<video src="./Påskkort_4.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_4.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -213,7 +213,7 @@ Nu vill vi att alla sprajtar ska röra på sig och dansa loss! Vi kodar vidare!
 ## 5: Alla ska dansa!
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript. Då börjar vi koda!
-<video src="./Påskkort_5.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_5.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -239,7 +239,7 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 ## 6: Pynta påskkortet
 
 Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? 
-<video src="./Påskkort_6.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_6.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -297,7 +297,7 @@ Se i videon ovan hur du ska:
 ## 7: Blinga bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
-<video src="./Påskkort_7.mp4" autoplay loop muted height=480 width=640 />
+<video src="./Påskkort_7.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
