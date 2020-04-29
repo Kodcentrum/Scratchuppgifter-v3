@@ -13,7 +13,7 @@ Så, vad ska din robot hjälpa dig med? Dax att börja koda!
 ## 1: Välj bakgrund och din robot
 
 Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot.
-<video src="./MinRobot_1.mp4" autoplay loop muted height=480 width=640 />
+<video src="./MinRobot_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -51,7 +51,7 @@ Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som robote
 ## 2: Robotens frågor
 
 Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag.
-<video src="./MinRobot_2.mp4" autoplay loop muted height=480 width=640 />
+<video src="./MinRobot_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -97,7 +97,7 @@ Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi mås
 
 ## 3: Roboten hjälper till
 För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här.
-<video src="./MinRobot_3.mp4" autoplay loop muted height=480 width=640 />
+<video src="./MinRobot_3.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -143,7 +143,7 @@ Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lit
 
 ## 4: Roboten spelar ljud
 Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
-<video src="./MinRobot_4.mp4" autoplay loop muted height=480 width=640 />
+<video src="./MinRobot_4.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -191,7 +191,7 @@ Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite ocks
 
 ## 5: Roboten rör sig
 För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika rörelser.
-<video src="./MinRobot_5.mp4" autoplay loop muted height=480 width=640 />
+<video src="./MinRobot_5.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
