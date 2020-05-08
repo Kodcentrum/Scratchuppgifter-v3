@@ -6,7 +6,7 @@ Många kanske tycker det är tråkigt att sortera sopor för återvinning, så v
 Innan vi börjar koda roboten så måste vi först koda in lite sopor som den kan sortera. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (När du förstår principen kommer du enkelt kunna skapa fler!)
 
 Som exempel har jag skapat en glasflaska och en äppelskrott 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/soptypGlas.PNG)
+![alt text](soptypGlas.PNG)
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/soptypKompost.PNG)
 
 Vi ska nu koda så att soporna ramlar ner ifrån ovan för roboten att fånga! 
