@@ -1,11 +1,13 @@
 # Sopsorterare 
 
-Många kanske tycker det är tråkigt att sortera sopor för återvinning, så varför inte programera en robot att hjälpa till med detta. I den här uppgiften kommer vi koda ett litet spel där du eller en kompis får styra en robot som automatiskt skickar soporna till rätt ställe!
+Tycker du det är jobbigt att sortera sopor för återvinning? Varför inte programmera en robot att hjälpa till! I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra en sorteringsrobot som automatiskt skickar soporna till rätt ställe!
 
 # Soporna
-Innan vi börjar koda roboten så måste vi först koda in lite sopor som den kan sortera. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (När du förstår principen kommer du enkelt kunna skapa fler!)
+Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. Skapa en ny sprajt och döp den till sopor. Vi ska nu skapa två olika klädslar för att ha något att sortera (När du förstår principen kommer du enkelt kunna skapa fler sopsprajtar!)
 
 Som exempel har jag skapat en glasflaska och en äppelskrott 
+
+![image alt text](soptypGlas.PNG)
 ![alt text](soptypGlas.PNG)
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/soptypKompost.PNG)
 
