@@ -20,7 +20,7 @@ Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill k
 Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
-- Ändra sprajtens storlek (om du vill)
+- Ändra sprajtens storlek större eller mindre (om du vill)
 - Lägg till en bakgrundsbild
 
 <br>
@@ -50,15 +50,15 @@ Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som robote
 
 ## 2: Robotens frågor
 
-Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag eller pigga upp dig om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middag.
+Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag, välja kläder om regn eller soligt ute eller peppa dig med glad musik om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middagsmat.
 <video src="./MinRobot_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
 - Lägg till ett startskript för "När gröna flaggan klickas på"
-- Lägg till ett block för robotens att säga en hälsning
-- Lägg till en fråga med två svarsval och låt roboten vänta på ett svar
+- Lägg till ett block för roboten så den säger en hälsning och presenterar sig
+- Lägg till en fråga med två svarsval och låt roboten vänta på ditt svar
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -96,7 +96,7 @@ Se i videon ovan hur du ska:
 Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi måste koda vidare. 
 
 ## 3: Roboten hjälper till
-För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Därför ska vi nu lägga till kod för de två olika svaren du har att välja mellan. Roboten behöver instruktioner som anger vad den ska göra beroende på vilket svar den får in. Då använder vi en if-sats som säger att OM svaret är exempelvis JA så gär du det här, ANNARS gör du det här.
+För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Dessutom behöver roboten instruktioner om vad den ska göra beroende på vilket svar du ger den. Då använder vi kod för att skapa ett villkor som säger att OM svaret är exempelvis JA så gör roboten det här. Exempelvis: Om svaret är "kött" då föreslår du en maträtt med kött. 
 <video src="./MinRobot_3.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
