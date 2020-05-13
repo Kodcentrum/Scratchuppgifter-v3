@@ -281,7 +281,7 @@ För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöv
   ![image alt text](listor_två_olika_färdiga.png)
   ![image alt text](matrobot_scen_med_listor.png)
   
-10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ut ur de två olika listorna. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder**. Nu ska vi byta ut det som roboten säger där mot slumpade svar ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in det gröna blocket inuti det lila blocket ovanpå den text som står i den vita bubblan efter ordet **säg...**, såhär:
+10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ut ur de två olika listorna. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder** (exempelvis **sä "Då lagar jag köttbullar!" i 2 sekunder**). Nu ska vi byta ut det som roboten säger där mot slumpade svar som hämtas ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in detta block ovanpå den text som står efter ordet **säg...**, såhär:
 
   ![image alt text](operatorblock_sammanfogaÄppleBanan.png)
   
