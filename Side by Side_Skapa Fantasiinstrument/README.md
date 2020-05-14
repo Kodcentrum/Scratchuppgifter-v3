@@ -1,44 +1,39 @@
-# Fantasisynth
+# Fantasiinstrument
 
-Hur skulle du vilja spela musik? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa din egen Fantasisynth!
+Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
-Om du skapade ditt eget instrument och kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt instrument kan se ut precis hur du vill!
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du din Fantasisynth utifrån instruktionerna nedan. 
-
-Vi har skapat ett exempelprojekt av Fantasisynth med äpplen som tangenter, som du kan kika på här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
-
+I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, klicka på projektet för att prova att spela på det: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
 ![Exempelprojekt Fantasisynth med äpplen](image_0_exempelprojekt.png)
 
-...och här finns en annan variant med dansande figurer som tangenter som du kan testa: <a href="https://scratch.mit.edu/projects/329325873/" target="_blank">https://scratch.mit.edu/projects/329325873</a> Klicka på den gröna flaggan för att provspela vår synth.
+...och här finns en annan variant med dansande figurer som tangenter som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h för att spela toner.: <a href="https://scratch.mit.edu/projects/329325873/" target="_blank">https://scratch.mit.edu/projects/329325873
 
-![Exempelprojekt Fantasisynth med dansande figurer](image_b_exempelprojekt.png)
+![Exempelprojekt Fantasisynth med dansande figurer](image_b_exempelprojekt.png)</a> 
 
-Nu är det din tur att skapa din egen Fantasisynth. Du bestämmer själv hur den ska se ut. 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer. 
+
+Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur den ska se ut och låta.
 
 Gå till nästa sida och följ instruktionen för att börja skapa ditt instrument. 
-Instruktionen följer exemplet av Fantasisynth med äpplen här ovan.
+Instruktionen följer exemplet av en fantasisynth med äpplen här ovan.
 
 ## 1: Kom på en idé för ditt instrument
-Först behöver du komma på hur din Fantasisynth ska se ut!
+Först behöver du komma på hur ditt instrument ska se ut!
 
-Du ska göra en synth som du spelar med hjälp av datorns tangenter. Bara din fantasi sätter gränserna hur den ska se ut, så länge det finns 6 sprajtar (Scratch-figurer kallas för sprajtar) som kan vara synthens olika "tangenter" att spela på. I vårt exempel och i denna instruktion använder vi sprajtar som ser ut som äpplen för vår Fantasisynts tangenter. 
+Vi kommer att göra en äppelsynth som du spelar på med hjälp av datorns tangenter. Bara din fantasi sätter gränserna hur just ditt eget instrument ska se ut, men instruktionen som följer nedan kommer visa en synth med 6 tangenter som består av 6 äpplen. (I Scratch lägger man till figurer som heter "sprajtar", så vi har äppel-sprajtar.)
 
-1.	Vad ska vara din fantasisynths tangenter? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Klura ut hur du vill att din synth ska se ut.
-
-2.	Har du fått en idé för din synth? Rita eller skriv ned dina idéer, berätta gärna för någon som kan hjälpa dig med din idé och ge förslag. Tänk på att ingen idé är fel, för i framtiden kan allt vara möjligt - du bestämmer!
+1.	Vad ska vara ditt instruments tangenter? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Klura ut hur du vill att ditt instrument ska se ut.
 
 > **Tips** om du behöver inspiration kan du kika in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli tangenter.
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-När du har en grund för din idé, kan du gå vidare med att designa och koda din Fantasisynth.
+När du har en grund för din idé, kan du gå vidare med att designa och koda ditt instrument.
 
 ## 2: Välj bakgrund och sprajt
 
-Först behöver du välja en bakgrund som passar som SCEN till din synth och en SPRAJT som passar som tangent (om du inte redan har lagt till en sådan). Vi kommer senare att kopiera sprajten för att göra flera tangenter för syntens olika toner.   
+Först behöver du välja en bakgrund som passar till ditt instrument och en sprajt-figur som passar som tangent. Vi kommer senare att kopiera sprajten för att göra flera tangenter för instrumentet.   
 
-1.	Tryck på knappen för **Välj en bakgrund**, finns i nedre högra hörnet i Scratch. Välj vilken bakgrund du vill från bibliotek med bakgrunder som kommer fram.
+1.	Tryck på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch. Välj vilken bakgrund du vill från biblioteket med bakgrunder som kommer fram.
 
   ![image alt text](image_2.png)
 
