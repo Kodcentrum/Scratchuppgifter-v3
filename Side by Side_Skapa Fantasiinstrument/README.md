@@ -17,7 +17,7 @@ Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur den 
 Gå till nästa sida och följ instruktionen för att börja skapa. 
 Instruktionen följer exemplet av en fantasisynth med äpplen i projektet här ovan. Men du ändrar och skapar som du själv vill.
 
-## 1: Klura idé och skapa tangent
+## 1: Klura idé och skapa tangent och bakgrund
 Först behöver du komma på hur ditt instrument ska se ut och välja dess tangenter att spela på.
 
 I vårt exempelprojekt i denna instruktion kommer vi att göra en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter att spela. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
@@ -34,25 +34,21 @@ I vårt exempelprojekt i denna instruktion kommer vi att göra en äppelsynth so
 
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-Nu kan du gå vidare för att designa och programmera ditt instrument.
-
-## 2: Välj bakgrund
+> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig från början, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket. Om det är en med rörelse i sig så börjar den nu röra på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egena klädslar för rörelse. (I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.)
+ 
 
 Nu ska du välja en bakgrund som passar till ditt instrument. 
 
-1.	Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch. Välj vilken bakgrund du vill från biblioteket med bakgrunder som kommer fram. Du kan även välja att måla en egen med ritverktyget om du vill.
+4.	Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj vilken bakgrund du vill ha till ditt instrument. 
 
   ![image alt text](image_2.png)
-
-
-  ![image alt text](image_4.png)  
-
-  ![image alt text](image_5.png)
-
-> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig från början, andra inte. Du kan välja vilken du vill, men då här instruktionen är skriven för sprajtar som **inte** kan röra på sig (exempelvis äppel-sprajten). Hur vet man om sprajten är en som kan röra sig? Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket. Om det är en med rörelse i sig så börjar den nu röra på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egenna klädsslar för rörelse. (I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.)
+  
+>**Tänk på!** Du kan även välja att måla en egen med ritverktyget om du vill. Klicka på istället på symbolen med en pensel som heter **Måla**.
+  
+Gå vidare för att lägga till musik!
 
 ## 3: Välj tillägget Musik i Scratch
-När du ska jobba med ljud och musik i Scratch, är det enklast att lägga till Scratch tillägg med temat Musik, så får du bra kodblock med just musik att koda med. Gör såhär:
+När du ska jobba med ljud och musik i Scratch ska du lägga till Scratch tillägg med temat Musik, så får du fram kodblock med just musik att koda med. Gör såhär:
 
 1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att ta in i Scratch.
 
