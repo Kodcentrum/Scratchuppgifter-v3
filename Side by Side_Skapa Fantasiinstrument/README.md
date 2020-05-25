@@ -17,7 +17,7 @@ Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur den 
 Gå till nästa sida och följ instruktionen för att börja skapa. 
 Instruktionen följer exemplet av en fantasisynth med äpplen i projektet här ovan. Men du ändrar och skapar som du själv vill.
 
-## 1: Klura idé för ditt instrument
+## 1: Klura idé och skapa tangent
 Först behöver du komma på hur ditt instrument ska se ut och välja dess tangenter att spela på.
 
 I vårt exempelprojekt i denna instruktion kommer vi att göra en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter att spela. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
@@ -26,28 +26,24 @@ I vårt exempelprojekt i denna instruktion kommer vi att göra en äppelsynth so
 
 2. Radera kattfiguren på scenen genom att klicka på den lilla soptunnan på den lilla bilden av katten under Scenen. Då försvinner katten ur projektet. 
 
+  ![image alt text](image_3.png)
+
 >**Visste du att?** Alla figurer och objekt som du använder i ditt Scratch-projekt kallas för **sprajtar**!
 
-3. Dax att välja en ny sprajt-figur som ska bli en tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli tangenter.
+3. Dax att välja en ny sprajt-figur som ska bli en tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli tangenter. Välj en sprajt som tangent, eller flera olika. 
+
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
 Nu kan du gå vidare för att designa och programmera ditt instrument.
 
-## 2: Välj bakgrund och sprajt
+## 2: Välj bakgrund
 
-Först behöver du välja en bakgrund som passar till ditt instrument och en sprajt-figur som passar som tangent. Vi kommer senare att kopiera sprajten för att göra flera tangenter för instrumentet.   
+Nu ska du välja en bakgrund som passar till ditt instrument. 
 
-1.	Tryck på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch. Välj vilken bakgrund du vill från biblioteket med bakgrunder som kommer fram.
+1.	Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch. Välj vilken bakgrund du vill från biblioteket med bakgrunder som kommer fram. Du kan även välja att måla en egen med ritverktyget om du vill.
 
   ![image alt text](image_2.png)
 
-2.	Ta bort katt-sprajten genom att trycka på lilla soptunnan bredvid den lilla kattfiguren som finns i ditt Sprajt-bibliotek under scenen. Då försvinner katt-sprajten. 
-
-  ![image alt text](image_3.png)
-
-3.	Nu ska du få välja en ny sprajt som ska vara din synthtangent. Tryck på knappen för **Välj en sprajt**, och välj din tangent-sprajt. Klicka på den du vill ha, så läggs den till i ditt projekt.
-
-I vårt exempel är sprajten för tangenter ett äpple, men du kan välja precis vilken sprajt du vill! (Läs gärna faktarutan nedanför bilderna om hur olika sprajtar fungerar.)
 
   ![image alt text](image_4.png)  
 
