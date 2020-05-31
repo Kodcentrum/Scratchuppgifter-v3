@@ -8,11 +8,11 @@ I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, kl
 
 ...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
-![Exempelprojekt Fantasisynth med dansande figurer](Monsterinstrument_exempelprojekt.png)</a> 
+![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
 ... och här kan du testa ett kodat piano, använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
   
-![Exempelprojekt Fantasisynth med dansande figurer](Piano_exempelprojekt.png)</a> 
+![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
 
 > **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
