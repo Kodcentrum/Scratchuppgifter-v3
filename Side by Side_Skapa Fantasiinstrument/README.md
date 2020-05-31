@@ -19,18 +19,18 @@ I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, kl
   Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer nedanför. 
 
 Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur det ska se ut och låta. 
-Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar och skapar som du vill.
+Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar som du vill.
 
-Gå till nästa sida och följ instruktionen för att börja koda ditt instrument! 
+Gå till nästa sida för att börja koda! 
 
-## 1: Klura idé och skapa en tangent och en bakgrund
-Först behöver du komma på hur ditt instrument ska se ut och välja hur tangenterna ska se ut som man spelar på.
+## 1: Klura idé och välj tangent och bakgrund
+Först behöver du komma på hur ditt instrument ska se ut och välja hur tangenterna ska se ut som man spelar på. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna och ladda upp från datorn.
 
 I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
-1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch www.scratch.mit.edu</a> och logga in med ditt Scratch-konto (Du skaffar enkelt ett gratis konto på Scratch-sidan i övre högra hörnet, om du inte redan har ett konto.). När du är inloggad klickar du sen på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
+1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch www.scratch.mit.edu</a> och logga in med ditt Scratch-konto, så du kan sen spara ditt projekt. Du skaffar enkelt ett gratis konto på Scratch-sidan i övre högra hörnet, om du inte redan har ett konto. När du är inloggad klickar du på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
 
-2. Radera först kattfiguren på scenen genom att klicka på den lilla soptunnan på den lilla bilden av katten under scenen. Då försvinner katten ur projektet. 
+2. Radera först kattfiguren på scenen genom att klicka på soptunnan på den lilla bilden av katten under scenen. Då försvinner figuren ur projektet. 
 
   ![image alt text](image_3.png)
 
@@ -40,7 +40,7 @@ I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar p
 
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket och den rör på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egna klädslar för rörelse. I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.
+> **TBra att veta!** Det finns olika sprajtar i Scratch - en del kan röra sig, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket och den rör på sig. En sprajt som rör på sig har olika bilder i olika positioner som kallas för "klädslar", som du kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram denna instruktion lära dig hur du kan skapa egna klädslar för rörelse. I vårt exempel med äpplen har vi skapat två olika klädslar för - en med stängd mun och en med öppen, så de ser ut att kunna sjunga när vi växlar mellan de olika klädslarna.
 
 4.	Nu ska du välja en bakgrund som passar till ditt instrument. Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj vilken bakgrund du vill ha till ditt instrument. 
 
@@ -50,8 +50,8 @@ I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar p
   
 Gå nu vidare för att lägga till musik!
 
-## 3: Välj tillägget Musik i Scratch
-När du ska jobba med ljud och musik i Scratch ska du lägga till ett tillägg för temat Musik, så du kan få fram nya kodblock för musik att koda med. Gör såhär:
+## 3: Välj tillägget Musik
+När du ska jobba med ljud och musik i Scratch lägger man till ett tillägg för Musik. Då får du nya kodblock för musik att koda med. Gör såhär:
 
 1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att lägga till i Scratch.
 
@@ -67,58 +67,84 @@ Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock och nya gröna
 
 Nu är det dax att koda in musik och toner!
 
-## 4: Ge tangent-sprajten en ton
+## 4: Välj ljud och sätt toner
 
 Nu ska du koda den första tangent-sprajten att spela en viss ton när en viss datortangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton? Jo, vi måste koppla datortangenten till sprajten med kod. Gör såhär:
 
-1. 
-4. Under det gula kodtemat HÄNDELSER hittar du skriptet för **när mellanslag tangenten trycks ner**. Dra in blocket och lägg på skriptytan till höger.
+1. Klicka på den lilla bilden av din tangent-sprajt, så att den är vald och du kodar på din första tangent. 
 
-  ![Scratch - Händelser - kodblock när mellanslagstangenten trycks ner](image_6.png)
+2. Under det gula kodtemat HÄNDELSER finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in blocket och lägg det på den tomma skriptytan till höger.
 
-5. Ändra nu **"mellanslag"** i kodblocket till bokstaven **"a"** genom att klicka på lilla triangeln och välja **"a"** i listan. Det gör att när du kodat klart din synth så kommer en av sprajt-tangenterna att spela sin ton när du trycker på datorns a-tangent.
+  ![Scratch - Händelser - kodblock när grön flagga klickas på](Händelseblock_grön_flagga.png)
 
-  ![Scratch - byt tangenten mellanslag till a](image_6_b.png)
+Kodblocket du lade in hör ihop med den gröna flaggan ovanför scenen med ditt påbörjade instrument. Flaggan ovanför fungerar som en Start-knapp för ditt projekt, och den röda är en stoppknapp.
 
-6.	Under HÄNDELSER, välj kodblocket **skicka meddelande1** och dra ut på skriptytan.
-
-  ![Scratch - Händelser - kodblock skicka meddelande1 ](image_7.png)
-
-7. Ändra "meddelande1" genom att klicka på lilla triangeln i kodblocket och välj Nytt meddelande. 
-
-  ![Scratch - skapa nytt meddelande](image_7_b.png)
-
-8. Döp ditt nya meddelande till exempelvis **"spela äpple"** om det är ett äpple som du valt som sprajt för synthens tangenter. Annars kan du döpa den till vad du vill. Klicka OK för att skapa ditt nya meddelande.
-
-  ![Scratch - ge namn till ditt nya meddelande](image_7_c.png)
+  ![Scratch - Start och stoppknapp](START_STOPP-funktion.png)
   
-9. Koppla ihop kodblocken i rätt ordning på skriptytan. Då ser det ut såhär:
+3. Nu ska du välja hur ditt instrument ska låta, exempelvis som ett piano, en marimba eller kör? Under tema MUSIK väljer du kodblocket **sätt instrument till piano** och drar ut det på skriptytan. Fäst blocket direkt under det första, så de sittar ihop som två pusselbitar. 
 
-  ![Scratch - sätt ihop kodblock för tangent och meddelande](image_7_d.png)
+  ![Scratch - skript - sätt instrument till piano](Skript_sätt_musik_till.png)
 
-10.	Nu ska vi göra ett skript för SPRAJTEN som tar emot meddelandet **"spela äpple"** så den spelar sin ton! Klicka på din tangent-sprajt så att den är markerad och vald. Då får den en blå ring runt som sig. I vårt exmpel är tangent-sprajten ett äpple. Nu är det alltså vår sprajt för syntens tangenter vi ska skapa kodskript för. 
+4. Klicka på ordet **piano** i kodblocket så kan du välja andra instrumentljud genom att klicka på det du vill ha. I vårt exempel med äpplen har vi valt piano.
 
-  ![Scratch - klicka på sprajten för din tangent](image_8.png)
+  ![Scratch - MUSIK - sätt instrument till piano](Musik_välj_instrumentljud.png)
 
-11.	Under kodtemat HÄNDELSER, välj kodblocket för **När jag tar emot spela äpple** (alltså tar emot meddelandet vi nyss skapat som skickas från scenen till sprajten). Dra ut blocket på skriptytan för sprajten.
+5. Nu ska vi bygga ett skript med kod som säger att föralltid, om tangent **A** på datorns tangentbord är nedtryckt, då ska instrumentets  tangent spela tonen C. Ända till **A** inte längre är nedtryckt.  Gör såhär: 
 
-  ![Scratch - kodblock för När jag tar emot meddelandet](image_9.png)
+Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under de andra kodblocken på skriptytan. Detta är en **loop**, som gör att all kod du lägger inuti loopen körs om och om igen för alltid. 
 
-12.	Välj nu det nya temat Musik som du lade till tidigare,´. Du finner det långt ned till vänster, med bild med noter. Välj det gröna kodblocket för att **spela not 60 i 0.25 takter** och dra ut till skriptytan. Sätt fast det under det gula kodblocket **när jag tar emot spela äpple** .
-
-  ![Scratch - kodblock - spela not 60 i 0.25 takter](image_10.png)
+  ![Scratch - KONTROLL - För alltid-loop](Loop.png)
   
-13. Klicka på variablen **0.25** för takten i kodblocket, och skriv istället **0.5**. Det gör att tonen spelas upp lite längre stund varje gång du trycker på tangent **A** på datorns tangentbord.
+6. Nu ska du lägga till ett så kallat villkor, med ett block från tema KONTROLL som heter **om...då**. Lägg det inuti loopen **för alltid**, så det ser ut såhär: 
 
-  ![<scratch - ändra variabeln för takt](image_10_b.png)
+  ![Scratch - KONTROLL - Villkor om...då](Villkor.png)
+  
+>**Bra att veta!** Ett villkor är som en regel som man skapar i koden, exempelvis kan regeln vara: OM jag trycker ned tangenten **A** på datorn, DÅ ska tonen C spelas. I ett spel skulle ett villkor kunna vara exempelvis: OM gubben ramlar ner i lavan, DÅ blir spelet Game Over.
 
-> Testa ditt projekt! Klicka på gröna START-flaggan över SCEN för att stta igång projektet. Vad händer när du trycker på tangenten "A" på din dators tangentbord.? Visst spelas det en ton? Om du inte hör en ton - öka volymen på din dators högtalare!
+7. Gå till tema KÄNNA AV och leta fram blocket **tangent mellanslag nedtryckt?**. Dra blocket mot det kantiga hålet mellan **om...då** i kodblocket på skriptytan. Dra det lite snett underifrån och när hålet får en vit kant omkring sig, kan du släppa blocket så hoppar det in i hålet automatiskt. Se bilden nedan.
 
-> **Vad är noternas siffror?** Vad betyder siffran 60 för noten i kodblocket? Jo, förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
+  ![Scratch - KÄNNA AV - tangent nedtryckt](Känna_av_tangent_nedtryckt.png)
+  
+8. Klicka på ordet **mellanslag** i det blå blocket och byt till bokstaven **a** längre ned i listan som kommer upp. Det är alltså datorns tangent **A** på ditt tangentbord. 
 
-  ![Lista med MIDI-siffror för noter i din synth](image_MIDI.png)
+  ![Scratch - KÄNNA AV - a nedtryckt](Känna_av_tangent_a.png)
+  
+9. Nu ska du lägga till vilken not som ska spelas. Under tema MUSIK drar du in blocket **spela not 60 i 0.25 sekunder**. Lägg det inuti villkoret om...då, så det ser ut som i bilden nedan:
 
-## 5: Ge sprajten en mun att sjunga med
+  ![Scratch - MUSIK - Spela not 60](Musik_Spela_not_60.png)
+  
+>**Ändra not och notlängd**. Du kan bestämma vilken not som ska spelas genom att klicka på siffran **60** i musikblocket du just lade in. Då får du fram ett piano med C-skala. (Se bilden nedan.) Här kan du välja vilken not du vill ha genom att klicka på tangenten på det lilla pianot. Du kan även byta till högre eller lägre oktaver med den lilla vita pilen i övre hörnet. Du kan även ändra hur länge note ska spelas, genom att ändra sekunder i blocket, där det nu står 0.25 sekunder. Förslagsvis kan 0.5 fungera bra, alltså en halv sekund.
+
+  ![Scratch - MUSIK - Välj not](Välj_ton.png)
+
+>**Testa koden!** Klicka på den gröna flaggan ovanför ditt instrument för att starta koden. Testa att klicka på datorns A-tangent. Vad hönder? Hör du tonen? Om inte, kontrollera att du har högtalarfunktionen på på datorn och bra volym. Kolla annars att koden blivit rätt.
+
+Nu har du en första tangent och not kopplat på ditt instrument. Dax att skapa fler tangenter!
+
+## 5: Skapa alla tangenter
+För att skapa **olika sprajt-tangenter** med olika sprajtar måste du välja ny sprajt och sedan koda likadant som du gjorde på den första sprajt-tangenten för att få in noterna. Gör om enligt instruktionen i kapitel 4 på föregående sida.
+
+Om du vill ha **likadana sprajtar till alla dina tangenter** kan du göra såhär:
+
+1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Högerklicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren som den kod du lade in på den första tangenten. Kopiera så att du får alla tangenter du vill ha på ditt instrument. 
+
+  ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
+
+2. Välj nu en av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna andra tangent, så att den får nästa ton samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. 
+
+>**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in notens namn i sprajtens nya namn, exempelvis Äpple F. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och ett namn. Klicka på namnet och skriv ett annat istället.
+  ![Scratch - MUSIK - Välj not](Ändra_namn.png)
+  
+>**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att stta igång projektet. Vad händer när du trycker på tdatorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
+
+Nu har du ett instrument som går att spela på. Dax att göra det lite roligare med animation så dina sprajtar rör på sig!
+
+## 6: Skapa rörelse och byt klädslar (valbart)
+
+...och skapa nya egna klädslar (äpplen)
+
+
+## Ge sprajten en mun att sjunga med
 
 I vårt exempel jobbar vi med en äppel-sprajt, den har ingen mun att sjunga med och endast en bild utan röresle eller klädslar. I det här kapitlet guidar vi dig att skapa röresle på din sprajt, genom att skapa egna nya "klädslar" med öppen och stängd mun på don sprajt att sedan växla mellan så den ser ut att sjunga eller inte. 
 
@@ -133,7 +159,7 @@ Först ska du rita två ögon på äpplet (eller den sprajt du har valt). Välj 
   ![Scratch - Klädslar - ritverktyget - välj färg](image_11.png)
   
   ![Scratch - Klädslar - ritverktyget - måla två ögon på sprajt](image_11_b.png)
-
+  
 2.	Nu ska du kopiera klädseln så att det blir två likadana klädslar med ögon på för din sprajt. Högerklicka på sprajtens klädsel och välj **kopiera**. Nu får du två likadana klädslar, men de heter sprajtnamnet och en siffra efter (exempelvis apple och apple2).
 
   ![Scratch - Klädslar - kopiera klädsel med högerklick](image_kopiera_kladsel.png)
@@ -148,7 +174,7 @@ Först ska du rita två ögon på äpplet (eller den sprajt du har valt). Välj 
 
 **Tips:** Har du valt en annan sprajt som redan har ögon och mun? Eller en sprajt som redan har flera olika klädslar? I så fall får du redigera elelr rita och göra om bilderna som du vill, så länge som en klädsel ser ut att ha en stängd mun och en har en öppen mun - så den kan sjunga! Tänk på att du kan alltid "måla över" en sprajts mun och ögon med en ny färg.
 
-## 6: Få äpplet att börja sjunga!
+## : Få äpplet att börja sjunga!
 
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
 Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i den spelas. Vi måste ju veta vilken sprajt det är som låter när tangenten trycks ned! Vi använder ett likadant skript med koder som vi använde för att spela tonen. 
@@ -174,63 +200,18 @@ Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i d
 
 > Testa ditt projekt! Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "a" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Spelas tonen? (Se till att ljudet är på!)
 
-## 7: Kopiera sprajten för fler tangenter och toner
+## 7: Lägg till bakgrundsmusik (valbart)
 
-Men vi har ju bara en ton som spelas nu. Lite tråkig synth! Nu ska du kopiera sprajten som spelar noter fem gånger och ändra i skripten för att få fem toner till i synth-instrumentet. Gör såhär:
+...och pimpa bakgrunden med effekter
 
-1. Högerklicka på den lilla sprajtbilden som finns i ditt lilla sprajt-bibliotek under scenen. Välj **kopiera** så får du en kopia av din sprajt som får siffran 2 i sitt namn. 
 
-  ![Scratch - Kopiera din sprajt](image_17.png)
 
-2. Kopiera nu sprajten flera gånger så att du har totalt sex sprajtar - dina sex tangenter i din synth. Alla kodskript och olika klädslar som du har skapat i det den första sprajten, har också kopierats till alla de nya sprajtarna. Dom är alla likadana.
 
-  ![image alt text](image_18.png)
+> **Vad är noternas siffror?** Vad betyder siffran 60 för noten i kodblocket? Jo, förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
 
-## 8: Ge synten alla toner
+  ![Lista med MIDI-siffror för noter i din synth](image_MIDI.png)
 
-1. Klicka på den andra lilla sprajt-bilden i sprajtbiblioteket under scenen (**Apple2** i vårt exempel). 
 
-  ![image alt text](image_18b.png)
-  
-Nu ska du ändra vilken ton denna andra sprajt ska spela och vilken tangent på datorn du ska trycka på för att den ska börja låta! Gör såhär: 
-
-2. Byt ut värdet **60** i variabeln i kodblocket **spela not 60 i 0.5 takter** så att not G **67** spelas istället. Klicka på lilla pianot som kommer upp, till du hittar G-67, se bilden nedan:
-
-  ![image alt text](image_19.png)
-
-3.	Markera nu SCEN för att skapa en kopia av skriptet för tangent **"a"** som nu ligger där. Högerklicka på skriptet med koden som finns och välj kopiera. Klicka sen en gång på skriptytan, så fastnar den nya kopian där. 
-
-  ![image alt text](image_20.png)
- 
-  ![image alt text](image_20_b_b.png)
-  
-  ![image alt text](image_20_b_c.png)
-
-4. I den nya kopian av skriptet ska du ändra så att ett meddelande till sprajt 2 skickas när tangent **"G"** på datorns tangentbord trycks ned. Alltså, trycker du på tangent G så ska **noten G** spelas och sprajten "Apple2" ska sjunga.
-
-  ![image alt text](image_20_b.png)
-
-5.	Ett nytt meddelande från SCEN behöver skickas så att rätt sprajt spelar rätt ton. Klicka på lilla pilen i kodblocket under **när g tangenten trycks ned**. Välj **"nytt meddelande"** i rullistan som kommer fram och döp det nya meddelandet till **"spela äpple 2"**. Nu har du skapat ett nytt meddelande.
-
-  ![image alt text](image_20_c.png)
-  
-  ![image alt text](image_20_d.png)
-
-Nu ska det finnas två skript bredvid varandra, en för tangent A på din dator och en för tangent G. Såhär ska det se ut:
-
-  ![image alt text](image_20_e.png)
-
-6.	Sprajtarna måste kunna ta emot rätt meddelande också. Klicka på din sprajt nummer 2 (i vårt exempel är detta **Apple2**) i ditt sprajt-bibliotek under SCEN, så den markeras med en blå ram. Ändra i båda de skript som ligger där, så meddelandet är **när jag tar emot "spela apple2"**. Så här:
-
-  ![image alt text](image_21.png)
-  ![image alt text](image_21_b.png)
-  ![image alt text](image_21_c.png)
-
-> Testa ditt projekt! Klicka på den gröna START-flaggan. Prova nu att trycka på a eller g! Vad händer? Spelas två olika toner?
-
-Nu ska vi göra likadant med alla våra fem sprajtar (eller äpplen, som vi har i vårt exempel)!
-
-7. Byt ut skripten för alla sprajtar du har kvar att fixa. Glöm inte att skapa ett nytt meddelande för att skicka från SCEN och ändra om i meddelandet som tas emot till sprajterna (sprajt3, sprajt4, sprajt5 och sprajt6). Döp meddelanden till exempelvis **"spela äpple 3"** och så vidare fram till **spela äpple 6"**.
 
 **Glöm inte ändra alla noter för alla sprajtar!**
 
@@ -259,13 +240,11 @@ Grattis, nu har du gjort klart uppgiften.
 **Glöm inte att spara ditt projekt!** Du måste vara inloggad för att kunna spara. Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**  
-Visa gärna din Fantasisynth för en kompis och låt dem testa. Tryck om du vill på DELA för att andra ska kunna hitta spelet på Scratch. 
+Visa gärna ditt Fantasiinstrument för en kompis och låt dem testa. Tryck om du vill på DELA för att andra ska kunna hitta spelet på Scratch. 
 
 
 ## Frågeställningar
 
-* Vad är ett meddelande?
-* Vad kan du använda ett meddelande till?
 * Varför kan det vara användbart att en sprajt har flera klädslar?
 * Vad betyder animation?
 * Hur kan du använda noter och toner i Scratch?
@@ -273,7 +252,7 @@ Visa gärna din Fantasisynth för en kompis och låt dem testa. Tryck om du vill
 
 
 ## Tips
-Om du har tillgång till **Makey Makey** kan du koppla din Fantasisynth till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande. Makey Makey kan ses som en förlängning av datorns tangentbord, för att skapa egna styrkontroller och knappar till sitt digitala projekt.
+Om du har tillgång till **Makey Makey** kan du koppla ditt Fantasiinstrument till den och spela musik på riktiga äpplen! Eller vad som helst annat som leder ström, så som metallskedar, foliebitar, kompisars händer och liknande. Makey Makey kan ses som en förlängning av datorns tangentbord, för att skapa egna styrkontroller och knappar till sitt digitala projekt.
 Makey Makey är ett litet kretskort för att styra datorn med saker som är elektriskt ledande, som till exempel frukt eller metall.
 
 > Här hittar du en instruktion till att <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth-makey-makey?chpt=0"> koppla in Makey Makey till din Fantasisynth</a> och liknande projekt.
