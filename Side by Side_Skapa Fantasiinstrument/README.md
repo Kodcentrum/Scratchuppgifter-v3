@@ -9,46 +9,46 @@ I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, kl
 
 ![Exempelprojekt Fantasisynth med dansande figurer](image_b_exempelprojekt.png)</a> 
 
+...och här finns ett Monsterinstrument som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584</a> 
+
+
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer. 
 
-Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur den ska se ut och låta.
+Nu är det din tur att skapa ditt eget instrument. 
+Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar och skapar som du själv vill för ditt eget instrument.
 
 Gå till nästa sida och följ instruktionen för att börja skapa. 
-Instruktionen följer exemplet av en fantasisynth med äpplen i projektet här ovan. Men du ändrar och skapar som du själv vill.
 
-## 1: Klura idé och skapa tangent och bakgrund
-Först behöver du komma på hur ditt instrument ska se ut och välja dess tangenter att spela på.
+## 1: Klura idé och skapa en tangent och bakgrund
+Först behöver du komma på hur ditt instrument ska se ut och välja hur tangenterna ska se ut som man spelar på.
 
-I vårt exempelprojekt i denna instruktion kommer vi att göra en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter att spela. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
+I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
-1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch www.scratch.mit.edu</a> och logga in med ditt konto (eller skaffa ett gratis på sidan).
+1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch www.scratch.mit.edu</a> och logga in med ditt Scratch-konto (Du skaffar enkelt ett gratis konto på Scratch-sidan i övre högra hörnet, om du inte redan har ett konto.). När du är inloggad klickar du sen på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
 
-2. Radera kattfiguren på scenen genom att klicka på den lilla soptunnan på den lilla bilden av katten under Scenen. Då försvinner katten ur projektet. 
+2. Radera först kattfiguren på scenen genom att klicka på den lilla soptunnan på den lilla bilden av katten under scenen. Då försvinner katten ur projektet. 
 
   ![image alt text](image_3.png)
 
 >**Visste du att?** Alla figurer och objekt som du använder i ditt Scratch-projekt kallas för **sprajtar**!
 
-3. Dax att välja en ny sprajt-figur som ska bli en tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli tangenter. Välj en sprajt som tangent, eller flera olika. 
+3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent.
 
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig från början, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket. Om det är en med rörelse i sig så börjar den nu röra på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egena klädslar för rörelse. (I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.)
- 
+> **Tänk på!** När du väljer sprajt i Scratch kan du välja vilken du vill, men det kan vara bra att känna till att det finns olika sprajtar - en del kan röra sig, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket och den rör på sig. En sprajt som rör på sig har olika "klädslar" eller bilder i olika positioner, som du senare kan koda att växla mellan för att skapa animation och rörelse i sprajten. Om du väljer en sprajt utan rörelse kommer du längre fram i instruktionen att få skapa egna klädslar för rörelse. I vårt exempelprojekt har vi skapat två olika klädslar för våra äpplen - en med stängd mun och en med öppen mun, så de ser ut att kunna sjunga.
 
-Nu ska du välja en bakgrund som passar till ditt instrument. 
-
-4.	Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj vilken bakgrund du vill ha till ditt instrument. 
+4.	Nu ska du välja en bakgrund som passar till ditt instrument. Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj vilken bakgrund du vill ha till ditt instrument. 
 
   ![image alt text](image_2.png)
   
->**Tänk på!** Du kan även välja att måla en egen med ritverktyget om du vill. Klicka på istället på symbolen med en pensel som heter **Måla**.
+>**Tänk på!** Du kan även välja att måla en egen bakgrund med ritverktyget om du vill. Klicka då på istället på symbolen med en pensel som heter **Måla** under bakgrundsmenyn.
   
-Gå vidare för att lägga till musik!
+Gå nu vidare för att lägga till musik!
 
 ## 3: Välj tillägget Musik i Scratch
-När du ska jobba med ljud och musik i Scratch ska du lägga till Scratch tillägg med temat Musik, så får du fram kodblock med just musik att koda med. Gör såhär:
+När du ska jobba med ljud och musik i Scratch ska du lägga till Scratch tillägg med temat Musik, så du får fram kodblock för musik att koda med. Gör såhär:
 
 1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att ta in i Scratch.
 
@@ -58,17 +58,17 @@ När du ska jobba med ljud och musik i Scratch ska du lägga till Scratch tillä
 
   ![Scratch - välj tillägget Musik](image_tillagg_musik.png)
   
-Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock i Scratch och där finns olika gröna kodblock som du kan använda för att koda musik och ljud.
+Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock och olika gröna kodblock för att koda musik och ljud.
 
   ![Scratch - tillägget Musik med kodblock](image_tillagg_musik_block.png)
 
-Nu är det dax att koda
+Nu är det dax att koda musik!
 
-## 4: Få sprajten att spela en ton
+## 4: Ge tangent-sprajten en ton
 
-Nu ska du få göra så att sprajten spelar en ton när en viss tangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton?
+Nu ska du koda sprajten att spela en viss ton när en tangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton?
 
-Svaret är genom att använda kod med MEDDELANDEN. Om du kodar så att det skickas ett meddelande till din sprajt-tangent varje gång  datortangenten trycks ner, så kan sprajten få veta att den ska spela sin ton. På så vis kan synthen spelas på, som ett instrument. Fiffigt va?! Då börjar vi koda detta:
+Jo, genom att använda kod med MEDDELANDEN. Om du kodar så att det skickas ett meddelande till din sprajt-tangent varje gång  datortangenten trycks ner, så kan sprajten få veta att den ska spela sin ton. På så vis kan synthen spelas på, som ett instrument. Fiffigt va?! Då börjar vi koda detta:
 
 Nu ska du får skapa ett meddelande för din sprajt-tangent i din synth. Gör såhär:
 
