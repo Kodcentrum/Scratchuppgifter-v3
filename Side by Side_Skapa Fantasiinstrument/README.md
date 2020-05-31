@@ -9,7 +9,9 @@ I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, kl
 
 ![Exempelprojekt Fantasisynth med dansande figurer](image_b_exempelprojekt.png)</a> 
 
-...och här finns ett Monsterinstrument som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584</a> 
+...och här finns ett Monsterinstrument som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+  
+![Exempelprojekt Fantasisynth med dansande figurer](Monsterinstrument_exempelprojekt.png)</a> 
 
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
