@@ -2,27 +2,28 @@
 
 Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
-I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, klicka på projektet för att prova att spela på det: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
-![Exempelprojekt Fantasisynth med äpplen](image_0_exempelprojekt.png)
+I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna a, s, d, f, g, h och dpla Blinka lilla stjärna: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+  
+![Exempelprojekt Fantasisynth med äpplen](image_0_exempelprojekt.png)</a>
 
-...och här finns en annan variant med dansande figurer som tangenter som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h för att spela toner.: <a href="https://scratch.mit.edu/projects/329325873/" target="_blank">https://scratch.mit.edu/projects/329325873
-
-![Exempelprojekt Fantasisynth med dansande figurer](image_b_exempelprojekt.png)</a> 
-
-...och här finns ett Monsterinstrument som du kan testa. Klicka på den gröna flaggan för att provspela och använd tangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
 ![Exempelprojekt Fantasisynth med dansande figurer](Monsterinstrument_exempelprojekt.png)</a> 
 
+... och här kan du testa ett kodat piano, använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
+  
+![Exempelprojekt Fantasisynth med dansande figurer](Piano_exempelprojekt.png)</a> 
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch  kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer. 
 
-Nu är det din tur att skapa ditt eget instrument. 
-Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar och skapar som du själv vill för ditt eget instrument.
+> **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer nedanför. 
 
-Gå till nästa sida och följ instruktionen för att börja skapa. 
+Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur det ska se ut och låta. 
+Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar och skapar som du vill.
 
-## 1: Klura idé och skapa en tangent och bakgrund
+Gå till nästa sida och följ instruktionen för att börja koda ditt instrument! 
+
+## 1: Klura idé och skapa en tangent och en bakgrund
 Först behöver du komma på hur ditt instrument ska se ut och välja hur tangenterna ska se ut som man spelar på.
 
 I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
@@ -35,7 +36,7 @@ I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar p
 
 >**Visste du att?** Alla figurer och objekt som du använder i ditt Scratch-projekt kallas för **sprajtar**!
 
-3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent.
+3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent. I vårt exempel har vi valt äpple som tangent.
 
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
@@ -45,39 +46,32 @@ I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar p
 
   ![image alt text](image_2.png)
   
->**Tänk på!** Du kan även välja att måla en egen bakgrund med ritverktyget om du vill. Klicka då på istället på symbolen med en pensel som heter **Måla** under bakgrundsmenyn.
+>**Tänk på!** Du kan även måla en egen bakgrund med ritverktyget om du vill. Klicka då istället på symbolen med en pensel som heter **Måla** som du ser i bakgrundsmenyn i bilden ovan.
   
 Gå nu vidare för att lägga till musik!
 
 ## 3: Välj tillägget Musik i Scratch
-När du ska jobba med ljud och musik i Scratch ska du lägga till Scratch tillägg med temat Musik, så du får fram kodblock för musik att koda med. Gör såhär:
+När du ska jobba med ljud och musik i Scratch ska du lägga till ett tillägg för temat Musik, så du kan få fram nya kodblock för musik att koda med. Gör såhär:
 
-1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att ta in i Scratch.
+1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att lägga till i Scratch.
 
   ![Scratch - knapp tillägg](image_tillagg_knapp.png)
   
-2. Klicka på stora rutan med tillägget Musik, som ser ut såhär:
+2. Klicka på rutan med tillägget Musik, som ser ut såhär:
 
   ![Scratch - välj tillägget Musik](image_tillagg_musik.png)
   
-Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock och olika gröna kodblock för att koda musik och ljud.
+Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock och nya gröna kodblock för musik.
 
   ![Scratch - tillägget Musik med kodblock](image_tillagg_musik_block.png)
 
-Nu är det dax att koda musik!
+Nu är det dax att koda in musik och toner!
 
 ## 4: Ge tangent-sprajten en ton
 
-Nu ska du koda sprajten att spela en viss ton när en tangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton?
+Nu ska du koda den första tangent-sprajten att spela en viss ton när en viss datortangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton? Jo, vi måste koppla datortangenten till sprajten med kod. Gör såhär:
 
-Jo, genom att använda kod med MEDDELANDEN. Om du kodar så att det skickas ett meddelande till din sprajt-tangent varje gång  datortangenten trycks ner, så kan sprajten få veta att den ska spela sin ton. På så vis kan synthen spelas på, som ett instrument. Fiffigt va?! Då börjar vi koda detta:
-
-Nu ska du får skapa ett meddelande för din sprajt-tangent i din synth. Gör såhär:
-
-3. Klicka på SCEN i nedre högra hörnet så att din bakgrund är markerad istället för din sprajt. Då får SCEN en blå kant runt som sig, som visar att den är vald. 
-
-  ![Scratch - välj SCEN](image_välj_scen.png)
-
+1. 
 4. Under det gula kodtemat HÄNDELSER hittar du skriptet för **när mellanslag tangenten trycks ner**. Dra in blocket och lägg på skriptytan till höger.
 
   ![Scratch - Händelser - kodblock när mellanslagstangenten trycks ner](image_6.png)
