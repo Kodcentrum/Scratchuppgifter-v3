@@ -125,79 +125,83 @@ Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under 
   ![Scratch - MUSIK - Välj not](Välj_ton.png)
 
 ## 5: Ge sprajten en mun att sjunga med
-Klädslar är olika bilder av sprajten där den har olika positioner eller ser annorlunda ut. Genom att koda att klädsel-bilderna ska bytas synas vid olika tillfällen, skapas en känsla av rörelse, exempelvis att krabbans mun öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas.
+Klädslar är olika bilder av sprajten där den har olika positioner eller ser annorlunda ut. Genom att koda att klädsel-bilderna ska bytas synas vid olika tillfällen, skapas en känsla av rörelse, exempelvis att krabbans mun öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas. Gör såhär:
 
-I vårt exempel jobbar vi med en krabb-sprajt, den har redan två klädslar (öppen och stängd klo) ingen mun att sjunga med, så det tänkte vi lägga till på dess olika klädslar. Vi har ritat in en mun som är öppen i ena klädseln och stängd i den andra. För att krabban ska se ut att sjunga ska du ANIMERA sprajten så den får rörelse. Gör såhär:
-
-1.	Klicka på fliken KLÄDSLAR för för din tangentsprajt. Fliken finns högst upp i vänstra hörnet av Scratch. 
+1.	Markera din sprajt (lilla bilden under scenen). Klicka på fliken KLÄDSLAR, den finns finns högst upp i vänstra hörnet av Scratch. 
 
   ![Scratch - fliken Klädslar för din sprajt](image_flik_kladslar.png)
  
-Först ska du rita två ögon på äpplet (eller den sprajt du har valt). Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktyget tills du är nöjd. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel**, **cirkel** eller **linje** och rita två ögon. Tips: När du ritat ögonen kan du dra dem dit du vill ha den om de först hamnar lite fel. 
+2. Nu kommer du till ritverktyget för din sprajt. Kontrollera om din sprajt redan har olika klädslar, genom att se om det finns mer än en liten bild av din sprajt längst till vänster. Vår krabba har två klädslar, en med öppen klo och en med stängd klo. 
+
+  ![Scratch - Klädslar krabba](Krabba_olika_klädslar_original.png)
+  
+>**Bra att veta!** Alla klädslar har olika namn. Det är användbart när du sedan ska koda de olika klädslarna att visas, så du vet vilken som ska visas när. Namnet står till höger om klädslarna i ritverktyget.
+
+**Tips!** Om du bara har en klädsel i din sprajt kan du enkelt skapa fler genom att högerklicka på lilla bilden av sprajtens klädsel och välja kopiera. Då får du två klädslar. Sedan kan du ändra i dem. Som den här banan-sprajten till exempel, som bara har en klädsel:
+
+  ![Scratch - Klädslar krabba](Kopiera_klädslar_banan.png)
+
+I vårt exempel har vår krabba redan ögon, men ingen mun. Hur din sprajt ser ut vet vi inte, kanske har den redan ögon och mun, men du kan leka med att ändra färger, göra ett öga som ser ut att blinka, rita dit något på de olika sprajtarnas klädslar eller liknande. 
+
+3. Vi ritar en stängdmun, gör såhär: Se till att den översta klädseln är markerad och vald för att rita på rätt bild. Klicka även på blå knappen **Gör till bitmap** som finns under ritverktyget.
+
+4. Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktygets reglage tills du är nöjd. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel**, **cirkel** eller **linje** och rita din mun. Du kan även ändra tjockleken på ditt verktyg för att måla tunnare eller tjockare linjer.
 
   ![Scratch - Klädslar - ritverktyget - välj färg](image_11.png)
   
-  ![Scratch - Klädslar - ritverktyget - måla två ögon på sprajt](image_11_b.png)
+  ![Scratch - Klädslar - ritverktyget - ändra storlek](Pensel_ändra_storlek.png)
   
-2.	Nu ska du kopiera klädseln så att det blir två likadana klädslar med ögon på för din sprajt. Högerklicka på sprajtens klädsel och välj **kopiera**. Nu får du två likadana klädslar, men de heter sprajtnamnet och en siffra efter (exempelvis apple och apple2).
+Nu ser vår krabbas första klädsel ut såhär:
 
-  ![Scratch - Klädslar - kopiera klädsel med högerklick](image_kopiera_kladsel.png)
+  ![Scratch - Klädslar - krabba med stängd mun](Krabba_stängd_mun.png)
+  
+2.	Klicka sen på den andra klädseln,så den andra blir markerad istället. Den ska få en öppen mun som ser ut att sjunga. Måla en **cirkel** som en öppen mun. Tips: Om cirkeln hamnar snett kan du dra den till mitten på sprajten så att den öppna munnen sitter på rätt ställe.
 
-3.	Klicka nu på den första, översta klädseln, (den heter "apple" i vårt exempel), så den blir markerad med en blå ram runt sig. Rita en stängd mun på denna sprajt. Använd exempelvis **pensel** eller **linje**-verktyget. Vårt exempel ser nu ut såhär:
+  ![Scratch - Klädslar - krabba öppen mun](Krabba_öppen_mun.png)
 
-  !Scratch - Klädslar - ritverktyget - rita stängd mun på första klädseln](image_13.png)
+Nu har du en tangent som går att spela på och som har olika klädslar. Dax att animera så sprajten rör på sig!
 
-4.	Klicka sen på den andra klädseln, (den heter "apple2" i vårt exempel), så den andra blir markerad istället. Måla en **cirkel** som en öppen mun, så sprajten ser ut att sjunga! Dra cirkeln till mitten på äpplet (eller den sprajt du använder) så att den öppna munnen sitter på rätt ställe.
-
-  ![Scratch - Klädslar - ritverktyget - rita öppen mun på andra klädseln](image_14.png)
-
-**Tips:** Har du valt en annan sprajt som redan har ögon och mun? Eller en sprajt som redan har flera olika klädslar? I så fall får du redigera elelr rita och göra om bilderna som du vill, så länge som en klädsel ser ut att ha en stängd mun och en har en öppen mun - så den kan sjunga! Tänk på att du kan alltid "måla över" en sprajts mun och ögon med en ny färg.
-
-Nu har du en tangent som går att spela på. Dax att göra det lite roligare med animation så din sprajt rör på sig!
-
-## 6: Få äpplet att börja sjunga!
+## 6: Få äpplet att sjunga!
 
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
-Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i den spelas. Vi måste ju veta vilken sprajt det är som låter när tangenten trycks ned! Vi använder ett likadant skript med koder som vi använde för att spela tonen. 
+Vi lägger till kod som säger åt sprajten att byta klädsel när noten i den spelas.
 
 1. Klicka på fliken KOD för att komma bort från fliken KLÄDSLAR med ritverktyget och tillbaka där du kan koda skript igen. 
 
   ![image alt text](image_flik_kod.png)
 
-2. Från tema HÄNDELSER drar du ut kodblocket: **när jag tar emot spela äpple** och lägger det på skriptytan för din sprajt. Dra sedan ut ett block från tema UTSEENDE: **byt klädsel till...** och klicka på lilla triangeln och välj **"apple2"**, klädseln med öppen mun. Nu kommer de två olika klädslarna med stängd och öppen mun att bytas mellan varandra när sprajtens ton spelas.
+2. Från tema UTSEENDE drar du ut blocket **ändra klädsel till...**. Lägg in det i sprajtens kodskript så det hamnar precis ovanför det gröna kodblocket **spela not 60 i 0.25 sekunder**. Dra sedan in ett likadant block med **ändra klädsel till...** och lägg det direkt under det gröna blocket, så det ser ut såhär:
 
-  ![image alt text](image_kodblock_animera_kladslar.png)
-  ![image alt text](image_andra_kladsel_till.png)
-  ![image alt text](image_andra_kladsel_till_apple2.png)
+  ![image alt text](Klädslar_Lägg_in_klädselblock.png)
   
-  
-3. Efter att äpplet har spelat sin not så ska munnen stängas igen. Munnen behöver vara öppen en liten stund innan den stängs, så noten hinner spelas klart. Vi lägger till ett VÄNTA-block i koden, innan sprajten byter klädsel till stängd mun. Dra ut ett block från orangea temat KONTROLL: **vänta 1 sekunder** och ändra variablen med värdet **1** till det mindre **0.2** sekunder.
+3. Klädslarna har namn, och namnet står i blocket du lade in. Du behöver ändra så att det är olika klädslar som den byter mellan. Klicka på namnet på klädseln i det andra kodblocket du lade till så får du upp en lista med sprajtens klädslar. Klicka på den du vill ha. Nu kommer de två olika klädslarna med stängd och öppen mun att bytas mellan varandra när sprajtens ton spelas.
 
-  ![image alt text](image_vanta_sekunder.png)
+  ![image alt text](Byt_klädsel_i_blocket.png)
 
-4. Dra ut ett till block för UTSEENDE: **byt klädsel till...**. Välj klädseln **"apple"** så att äpplet får stängd mun igen.  
+4. Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. Vi vill att munnen alltid ska vara stängd när projektet börjar. Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på**. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första gula blocket. Se till att rätt klädsel med stängd mun står i det lila blocket. När du är klar ska all kod se ut såhär:
 
-  ![image alt text](image_16.png)
+  ![image alt text](Klädslar_alla_inlagda.png)
 
-> Testa ditt projekt! Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "a" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Spelas tonen? (Se till att ljudet är på!)
-Nu har du en första tangent och not kopplat på ditt instrument. Dax att skapa fler tangenter!
+>**Testa ditt projekt!** Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "A" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Spelas tonen?
 
-Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenteer. Dax att skapa hela instrumentet!
+Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
 
 ## 7: Skapa alla tangenter
 Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast göra såhär:
 
-1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Höger-klicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren som den kod du lade in på den första tangenten. Kopiera så att du får alla tangenter du vill ha på ditt instrument. 
+1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Högerklicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren med dess klädslar som den kod du lade in på den första sprajt-tangenten. Kopiera så att du får alla tangenter du vill ha till ditt instrument. 
 
   ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
 
 2. Välj nu den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna andra tangent, så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. 
 
+  ![Scratch - Kopiera sprajt](Tangent_två_ändra_not.png)
+
 >**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in datortangentens bokstav i sprajtens nya namn, exempelvis **Krabba S**. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och dess namn. Klicka på namnet och skriv ett du vill ha istället.
 
   ![Scratch - MUSIK - Välj not](Ändra_namn.png)
   
->**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand. 
+>**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand istälet för att kopiera.
   
 >**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
 
