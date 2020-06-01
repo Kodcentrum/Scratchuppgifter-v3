@@ -193,23 +193,53 @@ Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast gör
 
 2. Välj nu den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna andra tangent, så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. 
 
-  ![Scratch - Kopiera sprajt](Tangent_två_ändra_not.png)
+  ![Scratch -kopiera sprajt ](Tangent_två_ändra_not.png)
 
 >**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in datortangentens bokstav i sprajtens nya namn, exempelvis **Krabba S**. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och dess namn. Klicka på namnet och skriv ett du vill ha istället.
 
-  ![Scratch - MUSIK - Välj not](Ändra_namn.png)
+  ![Scratch -](Ändra_namn.png)
   
->**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand istälet för att kopiera.
+>**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand istället för att kopiera sprajtar och koden.
   
 >**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
 
+Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det!
 
-## 8: Skapa rörelse (valbart)
+## 8: Skapa mer rörelse (valbart)
+Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer ett exempel.
 
+Sprajtarna glider: Om du vill att sprajtarna ska glida till olika positioner kan du lägga in block från tema rörelse som heter **glid 1 sekunder till x:... y:...**. Detta representerar ett koordinatsystem där **x** är vågrätt på scenen och **y** är lodrätt (stående) på scenen. Mittpunkten (origo) är 0 och det är mitt på scenen. 
+
+1. Från tema HÄNDELSER drar du ut blocket **När GRÖN FLAGGA klickas på**. Lägg det på första sprajt-tangentens skriptyta. 
+
+2. Från tema KONTROLL drar du ut blocket **för alltid** och fäster det under blocket med flaggan. Det är alltså en loop.
+
+  ![Scratch -](Flagga_och_loop.png)
+
+3. Från tema RÖRELSE drar du nu ut blocket **glid 1 sekunder till x:... y:...** och lägger det inuti **för alltid**-loopen.
+
+  ![Scratch -](Loop_glid.png)
+
+3. Den siffror som nu står i blocket efter x och y är den position sprajten just nu står på scenen. Om du vill att sprajten ska glida fram och tillbaka hela tiden, kan du ändra på siffrorna för x och y. Dra först din sprajt dit du vill att den först ska glida till, någon centimeter åt sidan kan passa bra. Kolla nu under scenen, där står ett x- och y-värde. Skriv nu dessa nya siffror i kodblocket blocket för x och y. 
+
+  ![Scratch - ](x_och_y.png)
+
+4. Lägg nu till ett likadant block med **glid 1 sekunder till x:... y:...**. Lägg blocket under det förra inuti för alltid-llopen. Dra sen sprajten åt andra hållet så den flyttar sig förbi där den startade med några centimetrar. Ändra siffrorna för x och y i blocket precis som du gjorde tidigare. 
+
+  ![Scratch -](Loop_Glidning.png)
+
+**Testa koden!** Glider sprajten fram och tillbaka? Går det lagom fort? Du kan ändra till snabbare eller långsammare med färre eller fler sekunders glidning. Du kan också ändra avståndet den glider med siffrorna för x och y. 
 
 
 ## 9: Lägg till bakgrundsmusik (valbart)
 
+Om du vill kan du lägga till ett coolt ljudspår som går i bakgrunden. Vi kodar in det på bakgrunden på scenen. Vi kan även välja att ge bakgrunden en effekt med färger.
+
+1. Klicka på den lilla bilden av din bakgrund, som finns längst till höger snett under scenen. Då blir scenen med bakgrunden vald och kan kodas.
+
+2. Från tema HÄNDELSER lägger du in blocket **När GRÖN FLAGGA klickas på**. 
+
+3. Från tema 
 ...och pimpa bakgrunden med effekter
 
 
