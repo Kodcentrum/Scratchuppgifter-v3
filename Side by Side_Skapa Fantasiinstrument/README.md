@@ -41,10 +41,6 @@ I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar p
   
 > **Bra att veta!** Det finns olika sprajtar i Scratch - en del kan röra sig, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket och den rör på sig. En sprajt som rör på sig har olika bilder i olika positioner som kallas för "klädslar", som du kan koda att växla mellan för att skapa animation och rörelse i sprajten. 
 
-Om du väljer en sprajt utan rörelse kommer du längre fram i denna instruktion lära dig hur du kan rita och skapa egna klädslar för rörelse. I vårt exempelprojekt på första sidan med krabbor har vi ändrat på två olika klädslar och ritat dit en stängd mun och en öppen mun, så krabban ser ut att kunna sjunga när man växlar mellan de olika klädslarna.
-
-  ![image alt text](Krabba_stängd_mun.png)     ![image alt text](Krabba_öppen_mun.png)
-
 4.	Nu ska du välja en bakgrund som passar till ditt instrument. Klicka på knappen för **Välj en bakgrund**, som finns i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj den bakgrund du vill ha till ditt instrument. 
 
   ![image alt text](image_2.png)
