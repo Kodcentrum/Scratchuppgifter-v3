@@ -47,7 +47,9 @@ I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar p
   
 **Vill du måla en egen bakgrund?** Du kan även måla en egen bakgrund med ritverktyget om du vill. Klicka då istället på symbolen med en pensel som heter **Måla**. Sedan rekommenderar vi att du klickar på den blå knappen som heter **Gör till Bitmap** innan du börjar rita, så blir målandet enklare. Den finns längst ned under ritverktygets tomma yta. Se bilder här:
 
-  ![image alt text](Måla_bakgrund.png)       ![image alt text](Gör_till_Bitmap.png)
+  ![image alt text](Måla_bakgrund.png)     
+  
+  ![image alt text](Gör_till_Bitmap.png)
 
 Gå nu vidare för att lägga till musik!
 
