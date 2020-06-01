@@ -2,15 +2,15 @@
 
 Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
-I vårt exempel nedan har vi kodat en fantasisynth med krabbor som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna a, s, d, f, g, h, j, k som bildar noterna i en C-skala: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
-  
-![Exempelprojekt Fantasisynth med äpplen](image_0_exempelprojekt.png)</a>
+I vårt exempel nedan har vi kodat en fantasisynth med krabbor som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna A, S, D, F, G, H, J, K som bildar noterna i en C-skala: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+  a
+![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
 
-...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
 ![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
-... och här kan du testa ett kodat piano, använd datortangenterna a, s, d, f, g, h, j, k för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
+... och här kan du testa ett kodat piano, använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
   
 ![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
@@ -124,37 +124,10 @@ Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under 
 
   ![Scratch - MUSIK - Välj not](Välj_ton.png)
 
-Nu har du en första tangent och not kopplat på ditt instrument. Dax att skapa fler tangenter!
+## 5: Ge sprajten en mun att sjunga med
+Klädslar är olika bilder av sprajten där den har olika positioner eller ser annorlunda ut. Genom att koda att klädsel-bilderna ska bytas synas vid olika tillfällen, skapas en känsla av rörelse, exempelvis att krabbans mun öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas.
 
-## 5: Skapa alla tangenter
-Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast göra såhär:
-
-1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Höger-klicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren som den kod du lade in på den första tangenten. Kopiera så att du får alla tangenter du vill ha på ditt instrument. 
-
-  ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
-
-2. Välj nu den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna andra tangent, så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. 
-
->**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in datortangentens bokstav i sprajtens nya namn, exempelvis **Krabba S**. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och dess namn. Klicka på namnet och skriv ett du vill ha istället.
-
-  ![Scratch - MUSIK - Välj not](Ändra_namn.png)
-  
->**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand. 
-  
->**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
-
-Nu har du ett instrument som går att spela på. Dax att göra det lite roligare med animation så dina sprajtar rör på sig!
-
-## 6: Skapa rörelse och byt klädslar (valbart)
-
-...och skapa nya egna klädslar (äpplen)
-
-
-## Ge sprajten en mun att sjunga med
-
-I vårt exempel jobbar vi med en krabb-sprajt, den har ingen mun att sjunga med, så det tänkte vi lägga till på dess klädslar. I det här kapitlet guidar vi dig att skapa röresle på din sprajt, genom att skapa egna nya "klädslar" med öppen och stängd mun på din sprajt att sedan växla mellan så den ser ut att sjunga eller inte. 
-
-Hur ska vi se vilken sprajt det är som spelar toner i din synth när du spelar på tangentbordet? Jo, om du ändrar lite på sprajtens  utseende så ser ut som om den sjunger när tonen spelas! I vårt exempel har vi ritat in en mun på våra äpplen som öppnas och stängs när den sjunger. För att göra det ska du ANIMERA sprajten, genom att byta mellan så kallade klädslar på den - med en mun som öppnas och stängs. Gör såhär:
+I vårt exempel jobbar vi med en krabb-sprajt, den har redan två klädslar (öppen och stängd klo) ingen mun att sjunga med, så det tänkte vi lägga till på dess olika klädslar. Vi har ritat in en mun som är öppen i ena klädseln och stängd i den andra. För att krabban ska se ut att sjunga ska du ANIMERA sprajten så den får rörelse. Gör såhär:
 
 1.	Klicka på fliken KLÄDSLAR för för din tangentsprajt. Fliken finns högst upp i vänstra hörnet av Scratch. 
 
@@ -180,7 +153,9 @@ Först ska du rita två ögon på äpplet (eller den sprajt du har valt). Välj 
 
 **Tips:** Har du valt en annan sprajt som redan har ögon och mun? Eller en sprajt som redan har flera olika klädslar? I så fall får du redigera elelr rita och göra om bilderna som du vill, så länge som en klädsel ser ut att ha en stängd mun och en har en öppen mun - så den kan sjunga! Tänk på att du kan alltid "måla över" en sprajts mun och ögon med en ny färg.
 
-## : Få äpplet att börja sjunga!
+Nu har du en tangent som går att spela på. Dax att göra det lite roligare med animation så din sprajt rör på sig!
+
+## 6: Få äpplet att börja sjunga!
 
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
 Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i den spelas. Vi måste ju veta vilken sprajt det är som låter när tangenten trycks ned! Vi använder ett likadant skript med koder som vi använde för att spela tonen. 
@@ -205,8 +180,33 @@ Vi ska göra ett skript som säger åt sprajten att byta klädsel när noten i d
   ![image alt text](image_16.png)
 
 > Testa ditt projekt! Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "a" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Spelas tonen? (Se till att ljudet är på!)
+Nu har du en första tangent och not kopplat på ditt instrument. Dax att skapa fler tangenter!
 
-## 7: Lägg till bakgrundsmusik (valbart)
+Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenteer. Dax att skapa hela instrumentet!
+
+## 7: Skapa alla tangenter
+Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast göra såhär:
+
+1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Höger-klicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren som den kod du lade in på den första tangenten. Kopiera så att du får alla tangenter du vill ha på ditt instrument. 
+
+  ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
+
+2. Välj nu den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna andra tangent, så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. 
+
+>**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in datortangentens bokstav i sprajtens nya namn, exempelvis **Krabba S**. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och dess namn. Klicka på namnet och skriv ett du vill ha istället.
+
+  ![Scratch - MUSIK - Välj not](Ändra_namn.png)
+  
+>**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand. 
+  
+>**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
+
+
+## 8: Skapa rörelse (valbart)
+
+
+
+## 9: Lägg till bakgrundsmusik (valbart)
 
 ...och pimpa bakgrunden med effekter
 
