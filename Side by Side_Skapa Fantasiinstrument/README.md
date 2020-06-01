@@ -2,7 +2,7 @@
 
 Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
-I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna a, s, d, f, g, h och dpla Blinka lilla stjärna: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+I vårt exempel nedan har vi kodat en fantasisynth med krabbor som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna a, s, d, f, g, h, j, k som bildar noterna i en C-skala: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
   
 ![Exempelprojekt Fantasisynth med äpplen](image_0_exempelprojekt.png)</a>
 
@@ -14,19 +14,18 @@ I vårt exempel nedan har vi kodat en fantasisynth med äpplen som tangenter, kl
   
 ![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
-
 > **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt fantasiinstrument utifrån instruktionerna som följer nedanför. 
+  Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt eget fantasiinstrument utifrån instruktionerna som följer nedanför. 
 
 Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur det ska se ut och låta. 
-Instruktionen följer exemplet av en fantasisynth med äpplen som i projektet här ovan. Men du ändrar som du vill.
+Instruktionen följer exemplet av en fantasisynth med krabbor som i exempelprojektet här ovan. Men du ändrar som du vill.
 
 Gå till nästa sida för att börja koda! 
 
 ## 1: Klura idé och välj tangent och bakgrund
 Först behöver du komma på hur ditt instrument ska se ut och välja hur tangenterna ska se ut som man spelar på. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna och ladda upp från datorn.
 
-I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar på med hjälp av datorns tangenter. Det kommer vara 6 "tangenter" som består av 6 äpplen med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
+I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
 1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch www.scratch.mit.edu</a> och logga in med ditt Scratch-konto, så du kan sen spara ditt projekt. Du skaffar enkelt ett gratis konto på Scratch-sidan i övre högra hörnet, om du inte redan har ett konto. När du är inloggad klickar du på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
 
@@ -36,7 +35,7 @@ I vårt exempelprojekt i denna instruktion skapas en äppelsynth som du spelar p
 
 >**Visste du att?** Alla figurer och objekt som du använder i ditt Scratch-projekt kallas för **sprajtar**!
 
-3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent. I vårt exempel har vi valt äpple som tangent.
+3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är den gröna knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent. I vårt exempel har vi valt en krabba som tangent.
 
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
