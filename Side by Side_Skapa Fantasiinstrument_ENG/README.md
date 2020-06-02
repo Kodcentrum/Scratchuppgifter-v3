@@ -1,345 +1,338 @@
-# Fantasiinstrument
+# Fantasy instrument
 
-Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
+How would you like your very own instrument to look and sound? In the past, there were only acoustic instruments such as piano, violin, guitar or sitar to play music on. Today, there are electrical instruments and computers that can play almost any incredible digital sound. Here you will be able to create your own coded Fantasy instrument that works and sounds just the way you want!
 
-I vårt exempel nedan har vi kodat en fantasisynth med krabbor som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna A, S, D, F, G, H, J, K som bildar noterna i en C-skala: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+In our example below we have coded a fantasy synth with crabs as keys, click on the green flag to try and play on it. Use the computer keys A, S, D, F, G, H, J, K that form the notes on a C-scale: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
   a
 ![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
 
-...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+... and here is a Monster-instrument with choral singing that you can test. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
 ![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
-... och här kan du testa ett kodat piano, använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
+... and here you can test a coded piano, use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
   
 ![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
-> **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt eget fantasiinstrument utifrån instruktionerna som följer nedanför. 
+> **HOW TO GET STARTED??** Browse through this guide, step by step. <a href="https://scratch.mit.edu" target="_blank">
+  Also open the Scratch encoder tool by clicking the ** Open Scratch ** link next to the cat figure above or via www.scratch.mit.edu </a>. In Scratch, you code and create your own fantasy instrument based on the instructions below.
 
-Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur det ska se ut och låta. 
-Instruktionen följer exemplet av en fantasisynth med krabbor som i exempelprojektet här ovan. Men du ändrar som du vill.
+Now it's your turn to create your own instrument. You decide for yourself how it should look and sound.
+The instruction follows the example of a fantasy synth with crabs as in the example project above. But you change as you please.
 
-Gå till nästa sida för att börja koda! 
+Go to the next page to start coding!
 
-## 1: Klura idé och välj tangent och bakgrund
-Först behöver du komma på hur ditt instrument ska se ut och även välja hur tangenterna som man spelar på ska se ut. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna till datorn och ladda upp från datorn till Scratch. Hur ska ditt instrument se ut? 
+## 1: Design idea and select key and background
+First you need to figure out what your instrument should look like and also choose what the keys on which you play should look. You can draw your own in Scratch, choose ready-made shapes and backgrounds or even footage or draw and scan to your computer and upload from your computer to Scratch. What should your instrument look like?
 
   ![image alt text](the-nellophone.png)
   ![image alt text](the-cat-piano.png)
   ![image alt text](Hydraulophone.png)
 
-I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. 
-
+In our example project in this tutorial, we create a crab synth that you play using the computer keys. There will be 8 "keys" consisting of 8 crabs with different notes being played.
   ![image alt text](image_0_exempelprojekt.png)
 
-Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
+But what should your instrument look like? And how many keys do you want (and thus sounds / notes to play on)? Should it be fruits you play on? Or maybe animals? Stars? Maybe draw your own keys? Figure out how you want your instrument to look.
 
-1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch på  www.scratch.mit.edu</a> och logga in med ditt Scratch-konto, så du kan spara ditt projekt sen. Om du inte redan har ett konto skaffar du enkelt ett gratis sådant på Scratch sajt. 
-När du är inloggad klickar du på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
+1. Now you have to select your instrument's keys. <a href="https://scratch.mit.edu" target="_blank"> Open Scratch at www.scratch.mit.edu </a> and log in with your Scratch account so you can save your project late. If you don't already have an account, you can easily get a free one on the Scratch site.
+When logged in, click ** Create ** in the upper-left corner of the Scratch page and a new project will be created.
 
->**Tips!** Öppnas Scratch i fel språk, så kan du alltid ändra. Klicka på den lilla vita jordglob-bollen i Scratch övre vänstra del och välj språket du vill ha. Denna instruktion är för Scratch på svenska. 
+> **Tip!** If Scratch opens in the wrong language, you can always change. Click on the little white globe ball in the upper left part of Scratch and select the language you want. This instruction is for Scratch in Swedish.
 
-2. Radera först kattfiguren på scenen genom att klicka på soptunnan på den lilla bilden av katten under scenen. Då försvinner figuren ur projektet. 
-
+2. First erase the cat figure on the scene by clicking the trash can on the small image of the cat below the scene. Then the figure disappears from the project.
   ![image alt text](image_3.png)
 
->**Visste du att?** Alla figurer och objekt som du använder i ditt Scratch-projekt kallas för **sprajtar**!
+> ** Did you know that? ** All figures and objects that you use in your Scratch project are called ** sprays **!
 
-3. Dax att välja en ny sprajt-figur som ska bli en första tangent till ditt instrument. Klicka på **Välj ny sprajt**, som är knappen med en kattsymbol på i nedre högra delen av Scratch. Nu kommer du in i Scratch sprajtbibliotek. Där finns massor av figurer som kan bli instrumentets tangenter. Välj en sprajt du gillar som din första tangent, klicka på den för att lägga till i ditt projekt. I vårt exempel har vi valt en krabba.
-
+3. Dax to choose a new spray figure that will be a first key to your instrument. Click ** Select New Spray **, which is the button with a cat symbol on the lower right of Scratch. Now you enter the Scratch Spray Library. There are lots of figures that can become the instrument's keys. Select a spray you like as your first key, click on it to add to your project. In our example, we have chosen a crab.
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-> **Bra att veta!** Det finns olika sprajtar i Scratch - en del kan röra sig, andra inte. Det ser du om du håller muspekaren över en sprajt i sprajt-biblioteket och den rör på sig. En sprajt som rör på sig har olika bilder i olika positioner som kallas för "klädslar", som du kan koda att växla mellan för att skapa animation och rörelse i sprajten. 
+> ** Good to know! ** There are different sprays in Scratch - some can move, others not. You can see that if you hold the mouse pointer over a spray in the spray library and it moves. A moving spray has different images in different positions called "covers", which you can code to toggle between to create animation and movement in the spray.
 
-4.	Nu ska du välja en bakgrund som passar till ditt instrument. Klicka på knappen för **Välj en bakgrund** i nedre högra hörnet av Scratch, så kommer du till bakgrundsbiblioteket. Välj den bakgrund du vill ha till ditt instrument. 
+4. Now select a background that fits your instrument. Click the ** Choose a Background ** button in the lower right corner of Scratch and you will be taken to the Background Library. Choose the background you want for your instrument.
 
   ![image alt text](image_2.png)
   
->**Tips!** Du kan även måla en egen bakgrund med ritverktyget. Klicka då istället på symbolen med en pensel som heter **Måla**. Sedan klickar du på den blå knappen som heter **Gör till Bitmap** innan du börjar rita, så blir målandet enklare. Knappen finns längst ned under ritverktygets tomma yta. Välj mellan olika verktyg att måla med och byt färg genom att klicka på den lilla färgade rutan överst, så kommer färgväljaren fram. Se bilder nedan:
-
+> **Tips!** You can also paint your own background with the drawing tool. Instead, click on the symbol with a brush called **Paint**. Then click the blue button called **Make to Bitmap** before you start drawing, the painting will be easier. The button is located at the bottom under the blank surface of the drawing tool. Choose from different tools to paint with and change color by clicking on the little colored box at the top, then the color selector will appear. See pictures below:
   ![image alt text](Måla_bakgrund.png)     
   
   ![image alt text](Gör_till_Bitmap.png)
 
   ![image alt text](Bakgrund_färgväljare.png)
  
-Gå nu vidare för att lägga till musik!
+Now go ahead to add music!
 
-## 3: Välj tillägget Musik
-När du ska jobba med ljud och musik i Scratch lägger man till ett tillägg för Musik. Då får du nya kodblock för musik att koda med. Gör såhär:
+## 3: Select the Music extension
+When you work with audio and music in Scratch, you add an extension for Music. Then you get new code blocks for music to code with. Do this:
 
-1. Klicka på blå knappen **Lägg till ett tillägg** längst ned i Scratch vänstra hörn. Då kommer du till de olika tillägg som du kan välja att lägga till i Scratch.
+1. Click the blue ** Add Extension ** button at the bottom of the Scratch left corner. Then you come to the various extensions that you can choose to add to Scratch.
 
   ![Scratch - knapp tillägg](image_tillagg_knapp.png)
   
-2. Klicka på rutan med tillägget Musik, som ser ut såhär:
+2. Click the box with the Music extension, which looks like this:
 
   ![Scratch - välj tillägget Musik](image_tillagg_musik.png)
   
-Nu har du fått ett nytt Musiktema i ditt bibliotek för kodblock och nya gröna kodblock för musik.
+Now you have got a new Music theme in your library for code blocks and new green code blocks for music.
 
   ![Scratch - tillägget Musik med kodblock](image_tillagg_musik_block.png)
 
-Nu är det dax att börja koda in musik och toner!
+Now it's time to start encoding music and tones!
 
-## 4: Välj ljud och sätt toner
+## 4: Select sound and set tones
 
-Nu ska du koda den första tangent-sprajten att spela en viss ton - eller ljud - när en viss datortangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton? Jo, vi måste koppla datortangenten till sprajten med kod. Gör såhär:
+Now, you should encode the first key splash to play a specific tone - or sound - when a particular computer key is pressed down on the computer keyboard. But how should the sprayer know when to play his tone? Well, we have to connect the computer key to the spray with code. Do this:
 
-1. Klicka på den lilla bilden av din tangent-sprajt, så att den är vald och du kodar på din första tangent. 
+1. Click on the small image of your key-spray, so that it is selected and you code on your first key.
 
-2. Under det gula kodtemat HÄNDELSER finns kodblocket **När GRÖN FLAGGA klickas på**. Dra in blocket och lägg det på den tomma skriptytan till höger.
+2. Below the yellow code theme EVENTS is the code block **when GREEN FLAG is clicked**. Drag the block and place it on the blank script area to the right.
 
   ![Scratch - Händelser - kodblock när grön flagga klickas på](Händelseblock_grön_flagga.png)
 
-Kodblocket hör ihop med den gröna flaggan ovanför scenen med ditt påbörjade instrument. Flaggan ovanför scenen fungerar som en Start-knapp för ditt projekt, och den röda är en stoppknapp.
+The code block is associated with the green flag above the stage with your instrument started. The flag above the stage serves as a Start button for your project, and the red one is a stop button.
 
   ![Scratch - Start och stoppknapp](START_STOPP-funktion.png)
   
-3. Nu ska du välja hur ditt instrument ska låta, exempelvis som ett piano, en marimba eller kör? Under tema MUSIK väljer du kodblocket **sätt instrument till piano** och drar in det på skriptytan. Fäst blocket direkt under det första, så de sittar ihop som två pusselbitar. Då ser det ut såhär:
+3. Now choose how your instrument should sound, for example as a piano, a marimba or chorus? Under the MUSIC theme, select the code block ** insert instrument to piano ** and drag it into the script area. Attach the block directly below the first one, so they sit together like two puzzle pieces. Then it looks like this:
 
   ![Scratch - skript - sätt instrument till piano](Skript_sätt_musik_till.png)
 
-4. Klicka på ordet **piano** i kodblocket så kan du välja andra instrumentljud genom att klicka på det du vill ha i listan som kommer fram. I vårt exempel med krabbor har vi valt piano-ljud.
+4. Click on the word ** piano ** in the code block and you can select other instrument sounds by clicking on what you want in the list that appears. In our example of crabs, we have chosen piano sounds.
 
   ![Scratch - MUSIK - sätt instrument till piano](Musik_välj_instrumentljud.png)
 
-5. Nu ska vi bygga ett skript med kod som säger att "för alltid, om tangent **A** på datorns tangentbord är nedtryckt, då ska instrumentets tangent (krabban) spela en vald ton, ända tills datortangenten **A** inte längre är nedtryckt. Gör såhär: 
+5. Now let's build a script with code that says "forever, if key ** A ** on the computer keyboard is pressed, then the instrument key (crab) will play a selected tone, right up to the computer key ** A ** is no longer depressed. Here's how:
 
-Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under de andra två kodblocken på skriptytan. Detta är en **loop**, som gör att all kod du lägger inuti loopen körs om och om igen, för alltid. 
+From the CONTROL theme, drag the code block ** forever ** and attach it under the other two code blocks on the script area. This is a ** loop **, which makes every code you put inside the loop run over and over again, forever.
 
   ![Scratch - KONTROLL - För alltid-loop](Loop.png)
   
-6. Nu ska du lägga till ett så kallat villkor med ett block från tema KONTROLL som heter **om...då**. Lägg det inuti loopen **för alltid**, så det ser ut såhär: 
+6. Now you should add a so-called condition with a block from the CONTROL theme called ** if ... then **. Put it inside the loop ** forever **, so it looks like this:
 
   ![Scratch - KONTROLL - Villkor om...då](Villkor.png)
   
->**Bra att veta!** Ett villkor är som en regel som man lägger in i koden. Exempelvis kan regeln vara: **OM** jag trycker ned tangenten **A** på datorn, **DÅ** ska en viss ton spelas. I ett spel skulle ett villkor kunna vara: **OM** gubben ramlar ner i lavan, **DÅ** blir spelet Game Over.
+> ** Good to know! ** A condition is as a rule that you enter in the code. For example, the rule might be: ** IF ** I press the ** A ** key on the computer, ** THEN ** a certain tone should be played. In one game, one condition could be: ** IF ** the guy falls into the lava, ** THEN ** the game becomes Game Over.
 
-7. Ser du det kantiga hålet i villkorsblocket, mellan **om...då**? Där ska vi lägga in ett kodblock. Gå till tema KÄNNA AV och dra ut blocket **tangent mellanslag nedtryckt?**. Dra in blocket snett underifrån det kantiga hålet i blocket mellan **om...då**. När det syns en vit kant omkring hålet kan du släppa blocket så lägger det sig inuti. Se bilden nedan:
+7. Do you see the angular hole in the condition block, between ** if ... then **? There we will insert a code block. Go to the KNOW theme and drag the block ** key space down? **. Pull the block obliquely from below the angular hole in the block between ** if ... then **. When there is a white border around the hole, you can drop the block and it will lie inside. See image below:
 
   ![Scratch - KÄNNA AV - tangent nedtryckt](Känna_av_tangent_nedtryckt.png)
   
-8. Nu ska vi bestämma rätt datortangent. Klicka på ordet **mellanslag** i det blå blocket och byt till bokstaven **a** längre ned i listan som kommer upp. Det är alltså datorns tangent **A** på ditt tangentbord. 
+8. Now let's decide the right computer key. Click the word ** space ** in the blue block and change to the letter ** a ** further down in the list that comes up. So it is the computer key ** A ** on your keyboard.
 
   ![Scratch - KÄNNA AV - a nedtryckt](Känna_av_tangent_a.png)
   
-9. Nu ska du lägga till vilken not som ska spelas när A trycks ned. Under tema MUSIK drar du in blocket **spela not 60 i 0.25 sekunder**. Lägg det inuti villkoret **om tangent a nedtryckt? då**, så det ser ut som i bilden nedan:
-
+9. Now add which note to play when A is pressed. Under the MUSIC theme, drag the block ** play note 60 for 0.25 seconds **. Put it inside the condition ** if the key a is pressed? then **, so it looks like in the picture below:
   ![Scratch - MUSIK - Spela not 60](Musik_Spela_not_60.png)
 
->**Testa koden** Nu har du ett villkor som spelar en not när tangenten A trycks ned på datorn. Klicka på den GRÖNA FLAGGAN ovanför scenen för att starta koden och tryck på tangenten A på datorn. Vad händer? Hör du tonen? Om inte, kontrollera att du har högtalarfunktionen på på datorn och bra volym. Kolla annars att koden blivit rätt.
+> ** Test the code ** Now you have a condition that plays a note when the A key is pressed on the computer. Click the GREEN FLAG above the scene to start the code and press the A key on the computer. What happens? Do you hear the tone? If not, make sure you have the speaker feature on the computer and good volume. Otherwise, check that the code is correct.
   
-**Ändra not och notlängd**. Du kan bestämma vilken not som ska spelas genom att klicka på siffran **60** i musikblocket du just lade in. Då får du fram ett litet piano med en C-skala. (Se bilden nedan.) Här kan du välja vilken not du vill ha genom att klicka på tangenten på det lilla pianot. Du kan även byta till högre eller lägre oktaver med den lilla vita pilen i övre hörnet. Du kan även ändra hur länge noten ska spelas, genom att ändra antal sekunder i blocket där det nu står 0.25 sekunder. Förslagsvis kan 0.5 fungera bra, alltså en halv sekund.
+** Change note and note length **. You can decide which note to play by clicking the number ** 60 ** in the music block you just entered. Then you get a small piano with a C scale. (See the image below.) Here you can choose which note you want by clicking the key on the small piano. You can also switch to higher or lower octaves with the small white arrow in the upper corner. You can also change how long the note is played by changing the number of seconds in the block where it now stands 0.25 seconds. It is suggested that 0.5 can work well, ie half a second.
 
   ![Scratch - MUSIK - Välj not](Välj_ton.png)
 
-## 5: Ge sprajten en mun att sjunga med
-Klädslar är olika bilder av sprajten där den har olika positioner eller ser olika ut. Genom att koda att klädsel-bilderna byts mellan vid olika tillfällen skapas en känsla av rörelse, exempelvis att krabban får en mun som öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas. Gör såhär:
+## 5: Give the sprayer a mouth to sing with
+Upholstery is different images of the spray where it has different positions or looks different. By coding that the upholstery images are switched between at different times, a sense of movement is created, for example that the crab gets a mouth that opens and closes when it sings. If the sprayer moves, it shows which key is being played. Do this:
 
-1.	Markera din sprajt (lilla bilden under scenen) så den är vald. Klicka sen på fliken KLÄDSLAR, den finns finns högst upp i vänstra hörnet av Scratch. Nu kommer du till sprajtens ritverktyg och kan se dess klädslar - och skapa nya.
+1. Select your spray (small image below the scene) so it is selected. Then click on the CLOTHES tab, it can be found at the top left corner of Scratch. Now you come to the spray drawing tool and can see its upholstery - and create new ones.
 
   ![Scratch - fliken Klädslar för din sprajt](image_flik_kladslar.png)
  
-2. Kontrollera om din sprajt redan har olika klädslar. Den har flera om det finns mer än en liten bild av din sprajt längst till vänster. Vår krabba har två klädslar, en med öppen klo och en med stängd klo. 
+2. Check if your spray already has different upholstery. It has several if there is more than one small image of your spray on the far left. Our crab has two upholstery, one with open claw and one with closed claw.
 
   ![Scratch - Klädslar krabba](Krabba_olika_klädslar_original.png)
   
-**Tips!** Om du bara har en klädsel i din sprajt kan du enkelt skapa fler genom att högerklicka på lilla bilden av sprajtens klädsel och välja kopiera. Då får du två likadana klädslar. Sedan kan du ändra i dem, exempelvis färger eller rita till något. Som den här banan-sprajten till exempel, som bara har en klädsel:
+** Tip! ** If you only have one cover in your spray, you can easily create more by right-clicking on the small image of the spray and choosing copy. Then you get two similar upholstery. Then you can change them, for example colors or draw something. Like this banana spray, for example, which has only one upholstery:
 
   ![Scratch - Klädslar krabba](Kopiera_klädslar_banan.png)
 
-I vårt exempel har vår krabba redan ögon, men ingen mun. Hur din sprajt ser ut vet vi inte, kanske har den redan ögon och mun, men du kan leka med att ändra färger, göra ett öga som ser ut att blinka, rita dit något på de olika sprajtarnas klädslar eller liknande. 
+In our example, our crab already has eyes, but no mouth. We do not know what your spray looks like, it may already have eyes and mouths, but you can play with changing colors, make an eye that looks flashing, draw something on the different sprayers' clothes or similar.
 
-3. Nu ska vi rita en stängd mun på vår krabbas första klädsel. Se till att den översta klädseln är markerad och vald för att rita på rätt bild. Klicka även på blå knappen **Gör till bitmap** som finns under ritverktyget.
+3. Now let's draw a closed mouth on our crab's first upholstery. Make sure the top cover is selected and selected to draw the correct image. Also, click the blue ** Make to Bitmap ** button located under the drawing tool.
 
   ![Scratch - Klädslar rita](Gör_till_Bitmap.png)
 
-4. Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktygets reglage tills du är nöjd. 
+4. Choose which ** color ** you want by clicking on the colored little box and dragging the color tool slider until you are satisfied.
 
   ![Scratch - Klädslar - ritverktyget - välj färg](image_11.png)
   
-5. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel** eller **linje** och rita din mun. Du kan även ändra tjockleken på ditt verktyg för att måla tunnare eller tjockare linjer.
+5. Then choose which drawing tool you want to paint, such as ** brush ** or ** line ** and draw your mouth. You can also change the thickness of your tool to paint thinner or thicker lines.
   
   ![Scratch - Klädslar - ritverktyget - ändra storlek](Pensel_ändra_storlek.png)
   
->**Tips!** Om du ritar fel och ångrar dig kan du alltid backa några steg och göra om. Klicka på den böjda pilen åt vänster som finns  ovanför ritverktyget.
+> ** Tip! ** If you draw mistakes and regret, you can always reverse a few steps and redo. Click the curved arrow to the left above the drawing tool.
 
   ![Scratch - Ångerknapp på ritverktyg](Ångerknapp_rita.png)
   
-Nu ser vår krabbas första klädsel såhär glad ut:
+Now our crab's first dress looks like this:
 
   ![Scratch - Klädslar - krabba med stängd mun](Krabba_stängd_mun.png)
   
-6.	Klicka sen på den andra klädseln, så den andra blir markerad istället. Den ska få en öppen mun som ser ut att sjunga. Måla en **cirkel** eller liknande som en öppen mun.
+6. Then click on the other upholstery, so the other one will be highlighted instead. It should have an open mouth that seems to sing. Paint a ** circle ** or similar as an open mouth.
+
   ![Scratch - Klädslar - krabba öppen mun](Krabba_öppen_mun.png)
 
-Nu har du en tangent som går att spela på och som har olika klädslar. Dax att animera så sprajten rör på sig!
+Now you have a playable key that has different upholstery. Dax to animate as the spray moves!
 
 ## 6: Få sprajten att sjunga!
 
-Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
-Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppen mun när den spelas.
+Now we are going to ANIMATE the splash, so it seems to be singing as we press the computer keys to play the notes.
+We add code that tells the sprayer to change the dress to it with an open mouth when it is played.
 
-1. Klicka på fliken KOD för att komma bort från ritverktyget och tillbaka där du kan koda skript igen. 
+1. Click the CODE tab to get out of the drawing tool and back where you can re-encode scripts.
 
   ![image alt text](image_flik_kod.png)
 
-2. Från tema UTSEENDE drar du ut blocket **ändra klädsel till...**. Lägg in det i sprajtens kodskript så det hamnar precis ovanför det gröna kodblocket **spela not 60 i 0.25 sekunder**. Dra sedan in ett till likadant block med **ändra klädsel till...** och lägg det direkt under det gröna blocket, så det ser ut såhär:
+2. From the APPEARANCE theme, pull out the block ** change clothing to ... **. Put it in the sprite's code script so that it ends up just above the green code block ** play note 60 for 0.25 seconds **. Then pull in one more block with ** change upholstery to ... ** and place it directly under the green block so it looks like this:
 
   ![image alt text](Klädslar_Lägg_in_klädselblock.png)
   
-3. Klädslarna har namn och namnet står i blocket du lade in. Du behöver ändra i blocket så att det är olika klädslar som den byter mellan. Klicka på namnet på klädseln i det första kodblocket du lade till så får du upp en lista med sprajtens klädslar. Klicka på den du vill ha. Nu kommer de två olika klädslarna med öppen och stängd mun att bytas mellan varandra när sprajtens ton spelas.
+3. The covers have a name and the name is in the block you entered. You need to change the block so that it is different upholstery that it changes between. Click on the name of the cover in the first block of code you added and you will see a list of the spray covers. Click on the one you want. Now, the two different upholsteries with open and closed mouths will be exchanged between each other as the spray's tone is played.
 
   ![image alt text](Byt_klädsel_i_blocket.png)
 
-4. Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Vi måste koda in det:
+4. Sometimes you can have many different upholsteries that you want to vary between. Then it can be good to always have a selected start dress that always appears when you press the green start flag. A definite dress to start with. We want your mouth to always be closed when the project starts. We have to encode it:
 
-Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första blocket. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
+From the EVENTS theme, first pull out the block ** When GREEN FLAG is clicked ** and place it freely on the script area. From the APPEARANCE theme, you then pull out the block ** change upholstery to ... ** and attach it under the first block. Make sure that the correct upholstery with the mouth closed is in the purple ** change the upholstery to the ... ** block. Now this first cover will always appear when you turn on the instrument. When you're done, all code should look like this:
 
   ![image alt text](Klädslar_alla_inlagda.png)
 
->**Testa ditt projekt!** Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "A" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Visas rätt klädslar som du vill? Spelas tonen?
+> ** Test your project! ** Click on the green START flag above the SCENE. What happens when you press the "A" key on the computer keyboard? Does the upholstery change to make it look like the apple is singing? Do you get the right clothes you want? Is the tone played?
 
-Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
+Now you have a playable key that moves. But we need more keys. Dax to create the whole instrument!
 
-## 7: Skapa alla tangenter
-Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast göra såhär:
+## 7: Create all the keys
+Now let's create all the instrument's keys. If you want ** the same sprays for all your keys ** you can easily do this:
 
-1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Högerklicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren med dess klädslar som den kod du lade in på den första sprajt-tangenten. Kopiera fler så att du får alla tangenter du vill ha till ditt instrument. 
+1. Go to the small image of your spray key below the stage with your instrument. Right-click on it and select Copy. Now an exact copy of your first key is created, both the spray character with its covers and the code you entered on the first spray key. Copy more to get all the keys you want for your instrument.
 
   ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
   
-2. Placera nu it tangenterna på scenen genom att dra dem dit du vill ha dem. Ändra även sprajtarnas storlek om de ser för stora eller för små ut i rutan under scenen där det står **Storlek**, där 100 står för 100% full storlek.
+2. Now place the IT keys on the stage by dragging them where you want them. Also change the size of the sprayers if they look too big or too small in the box below the stage where it says ** Size **, where 100 stands for 100% full size.
 
   ![Scratch - Kopiera sprajt](Ändra_storlek.png)
 
-2. Nu har du flera tangenter med exakt samma kod och noter för alla. Nu behöver du ändra lite i koden på varje tangent, så de får en annan datortangent att spelas med och en egen not. 
+2. Now you have several keys with exactly the same code and notes for everyone. Now you need to change the code a little on each key, so they get a different computer key to play with and their own note.
 
-Välj den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna tangent så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. Ändra genom att klicka på a i tangentblocket och ändra till s, samt klicka på siffran 60 i musikblocket och välj nästa ton i skalan.
+Select the second of the copied keys from the small images below the scene, click on it to highlight it. Now change the code on this key so that it gets the next note in the scale (or the note you want) and the correct computer key on the keyboard. You can play with the keyboard A, S, D, F, G, H, J, K if you want a simple C scale. To change, click a in the keypad and change to s, and click the number 60 in the music block and select the next note in the scale.
 
   ![Scratch -kopiera sprajt ](Tangent_två_ändra_not.png)
 
->**Tips!** Det kan vara snurrigt att skilja de olika sprajt-tangenterna åt om de alla ser så lika ut. Ett tips är att döpa om dem. Det kan vara smart att lägga in datortangentens bokstav i sprajtens nya namn, exempelvis **Krabba S**. Du ändrar namn under scenen med ditt instrument där det står **Sprajt** och dess namn. Klicka på namnet och skriv ett du vill ha istället.
+> ** Tip! ** It can be tricky to separate the different spray keys if they all look the same. One tip is to rename them. It may be smart to enter the letter of the computer key into the new name of the sprayer, such as ** Crab S **. You change the name during the scene with your instrument that says ** Spray ** and its name. Click on the name and type one you want instead.
 
   ![Scratch -](Ändra_namn.png)
   
->**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand som den första istället för att kopiera sprajtar och koden. Klicka på **Välj ny sprajt** för att lägga till sprajtar, eller måla egna sprajtar.
+> ** Do you want different characters as keys? ** Of course, you can choose different characters. But keep in mind that you may need to code all the sprays by hand as the first instead of copying the sprays and the code. Click ** Choose new spray ** to add spray, or paint your own spray.
   
->**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
+> ** Test your project! ** Click on the green START flag over the SCEN to start the project. What happens when you press the computer keys you have chosen? Surely tones are played? Is it the right toner the way you want it? If you do not hear a tone - check the code to make sure everything is right on the different spray keys. And check the volume of the computer.
 
-Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det!
+Now you have an instrument! If you want, you can go ahead and create more fun with it!
 
-## 8: Skapa mer rörelse (valbart)
-Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer ett exempel.
+## 8: Create more movement (optional)
+It's fun when the sprayers move a little more. There are many different ways to encode movement, here is an example.
 
-Sprajtarna glider: Om du vill att sprajtarna ska glida till olika positioner kan du lägga in block från tema rörelse som heter **glid 1 sekunder till x:... y:...**. Detta representerar ett koordinatsystem där **x** är vågrätt (liggande) på scenen och **y** är lodrätt (stående) på scenen. Mittpunkten, som kallas för origo är 0 och det är mitt på scenen. 
+The Sprayers slide: If you want the Sprayers to slide to different positions, you can insert blocks from theme movement called ** slide 1 second to x: ... y: ... **. This represents a coordinate system where ** x ** is horizontal (landscape) on stage and ** y ** is vertical (portrait) on stage. The midpoint, which is called origo, is 0 and it is in the middle of the stage.
 
   ![Scratch - Rörelseblock](Block_rörelse_glid_x_y.png)
 
-1. Från tema HÄNDELSER drar du ut blocket **när GRÖN FLAGGA klickas på**. Lägg det på första sprajt-tangentens skriptyta. 
+1. From the EVENTS theme, drag out the block ** when the GREEN FLAG is clicked **. Place it on the first Spray Key script area.
 
-2. Från tema KONTROLL drar du ut blocket **för alltid** och fäster det under blocket med flaggan. Det är alltså en loop.
+2. From the CONTROL theme, pull out the block ** forever ** and attach it under the block with the flag. So it's a loop.
 
   ![Scratch -](Flagga_och_loop.png)
 
-3. Från tema RÖRELSE drar du nu ut blocket **glid 1 sekunder till x:... y:...** och lägger det inuti **för alltid**-loopen.
+3. From the MOVEMENT theme, you now pull out the block ** slide 1 second to x: ... y: ... ** and place it inside the ** forever ** loop.
 
   ![Scratch -](Loop_glid.png)
 
-3. Den siffror som nu står i blocket efter x och y är den position sprajten just nu står på scenen, i mittpunkten av sprajtfiguren. Om du vill att sprajten ska glida fram och tillbaka hela tiden, kan du ändra på siffrorna för x och y. Dra först din sprajt dit du vill att den först ska glida till, någon centimeter åt sidan kan passa bra. Kolla nu under scenen, där står ett x- och y-värde. Skriv nu dessa nya siffror i kodblocket blocket för x och y. 
+4. The numbers that are now in the block after x and y are the position the sprayer currently stands on, at the center of the sprayer figure. If you want the sprayer to slide back and forth all the time, you can change the numbers for x and y. First drag your sprayer where you want it to first slide, a few inches to the side can fit well. Now look underneath the stage, where there is an x ​​and y value. Now write these new numbers in the code block for x and y.
 
   ![Scratch - ](x_och_y.png)
 
-4. Lägg nu in ett till likadant block med **glid 1 sekunder till x:... y:...**. Lägg blocket under det förra inuti för alltid-loopen. Dra sen sprajten åt andra hållet dit du vill att den sen ska glida till, så den flyttar sig förbi där den startade med några centimetrar. Ändra siffrorna för x och y i det nya blocket precis som du gjorde tidigare. 
+5. Now insert one more block with ** slide 1 second to x: ... y: ... **. Place the block below the former inside the forever loop. Then pull the spray the other way you want it to slide, so it moves past where it started with a few centimeters. Change the numbers for x and y in the new block just as you did before.
 
   ![Scratch -](Loop_Glidning.png)
 
-**Testa koden!** Glider sprajten fram och tillbaka? Går det lagom fort? Du kan ändra till snabbare eller långsammare med färre eller fler sekunders glidning. Du kan också ändra avståndet den glider med siffrorna för x och y. 
+** Test the code! ** Does the spray slide back and forth? Is it going well? You can change to faster or slower with less or more seconds sliding. You can also change the distance it slides with the numbers for x and y.
 
-5. För att sprajtarna alltid ska ha en bestämd startplats när projektet startas, kan du lägga in en block som ger en startposition. Dra sprajten dit du vill att den alltid ska starta, innan den åker iväg. Från tema RÖRELSE drar du in blocket **gå till x:... y:...**. Lägg in detta block direkt under det gula kodblocket med den gröna flaggan på sig, som heter **när GRÖN FLAGGA klickas på**.
+6. In order for the sprinters to always have a specific starting position when the project is started, you can insert a block that gives a starting position. Drag the spray to where you always want it to start before leaving. From the MOVEMENT theme, drag the block ** go to x: ... y: ... **. Enter this block directly below the yellow code block with the green flag on it, which is called ** when GREEN FLAG is clicked **.
 
   ![Scratch -](Block_startposition.png)
 
-Glöm inte att göra likadant på alla dina sprajt-tangenter, men se till att du ger dem alla olika x och y-positioner, så de inte hamnar på varandra. 
+Don't forget to do the same on all your spray keys, but make sure you give them all different x and y positions so they don't end up on each other.
 
-**Testa koden!** Startar sprajtarna på sin rätta plats när du trycker på den gröna flaggan?
+** Test the code! ** Do the sprayers start in the right place when you press the green flag?
 
-6. **Ändra storlek på sprajten** Om du vill skapa en rörelse så att den spelande sprajen blir större medan den spelas och sedan blir mindre igen när den är tyst, som om den hoppar fram mot dig? Från tema UTSEENDE drar du två block med **sätt storlek till 100**. (Detta är alltså 100%, full storlek). Lägg dem båda inom sprajtens villkor ovan och nedan musikblocket, så det ser ut såhär:
+7. ** Resizing the Spray ** If you want to create a movement so that the playing spray becomes larger while it is playing and then becomes smaller again when it is silent, as if it is leaning forward towards you? From the APPEARANCE theme, you drag two blocks of ** way size to 100 **. (This is 100%, full size). Place them both within the spray conditions above and below the music block, so it looks like this:
 
   ![Scratch -](Ändra_storlek_rörelse.png)
   
-7. Ändra nu siffrorna i storleks-blocken så att det passar vad du vill ha för din sprajt. Under scenen ser du vilken storlek du just nu har på din sprajt när den står stilla. Skriv denna siffran i det understa storleks-blocket, i vårt exempel är krabban 70% stor när den inte används. Och ändra siffran i det översta blocket till det som du vill att den ska bli som störst. Vi har valt 100%, kanske din behöver vara större eller mindre. 
+8. Now change the numbers in the size blocks to fit what you want for your spray. During the scene you will see what size you currently have on your spray when it is stationary. Write this number in the lower size block, in our example the crab is 70% large when not in use. And change the number in the top block to what you want it to be the largest. We have chosen 100%, maybe yours needs to be bigger or smaller.
 
   ![Scratch -](Ändra_storlek.png)
 
-Glöm inte att göra likadant på alla dina sprajt-tangenter!
+Don't forget to do the same on all your spray keys!
 
-**Testa koden!** Blir sprajtarna större när du spelar dem? Går de tillbaka till sin vanliga storlek igen när du slutar spela dem? Blev storleken du valde bra? Du kan alltid gå in i koden och ändra.
+** Test the code! ** Do the sprouts get bigger as you play them? Do they return to their normal size when you stop playing them? Was the size you chose good? You can always enter the code and change.
 
-## 9: Lägg till bakgrundsmusik (valbart)
+## 9: Add background music (optional)
 
-Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi kodar in det på bakgrundsbilden på scenen. 
+If you like, you can add a cool soundtrack looped in the background. We encod it in the background image on the stage.
 
-1. Klicka på den lilla bilden av din bakgrund, som finns längst till höger snett under scenen. Då blir scenen med bakgrunden vald och kan kodas.
+1. Click on the small image of your background, which is at the far right obliquely below the scene. Then the scene with the background is selected and can be coded.
 
-2. Från tema HÄNDELSER lägger du in blocket **När GRÖN FLAGGA klickas på**. 
+2. From the EVENTS theme, enter the block ** When GREEN FLAG is clicked **.
 
-3. Från tema KONTROLL lägger du in blocket **för alltid**, så musiken kan loopas om och om igen.
+3. From the CONTROL theme, enter the block ** forever ** so that the music can be looped over and over again.
 
-3. Från tema LJUD lägger du in blocket **spela ljudet Pop tills färdigt**.
+4. From the SOUND theme, enter the block ** play the sound Pop until done **.
 
   ![Scratch -](Ljud_bakgrundsmusik.png)
   
-4. När du nu kör koden, hörs ett snabbt ploppande ljud, om och om igen. Koden är rätt, men vi bör byta ut ljudet Pop mot musik. Klicka på fliken som heter Ljud, som du hittar i övre vänstra hörnet av Scratch, så kommer du till ljudredigeraren.
+5. As you now execute the code, a fast popping sound is heard over and over again. The code is right, but we should replace the sound Pop with music. Click on the tab called Sounds, which you will find in the upper left corner of Scratch, and you will come to the audio editor.
 
   ![Scratch -](image_flik_ljud.png)
 
-5. Här ser du ljudet Pop. För att ändra ljud kan du klicka på den blå knappen med en högtalare på som finns längst ned till vänster av Scratch. 
+6. Here you see the sound Pop. To change the sound, you can click the blue button with a speaker on the bottom left of Scratch.
 
   ![Scratch -](knapp_lägg_till_ljud.png)
   
-6. Nu kommer du till Scratch ljudbibliotek. Klicka på tema **Loopar** högst upp, så får du fram bra musikslingor som passar att loopas om och om igen. Lyssna på ljuden genom att föra muspekaren över de orangea små play-knapparna på vardera ljud, utan att trycka. När du hittat den du vill ha så klickar du mitt på ljudets ruta så läggs den till i ditt projekt. 
+7. Now you come to the Scratch audio library. Click on the theme ** Loops ** at the top, so you get good music tracks that are suitable for looping over and over again. Listen to the sounds by moving the mouse pointer over the orange little play buttons on each sound, without pressing. When you find the one you want, you click in the middle of the sound box and it is added to your project.
 
   ![Scratch -](Ljud_loopar.png)
   ![Scratch -](Ljud_lyssna_lägga_till.png)
   
-7. Klicka på fliken **KOD** som finns långt uppe till vänster i Scratch, så kommer du tillbaka till koden du skapar på bakgrunden.
+8. Click on the ** CODE ** tab located at the top left of Scratch and you will return to the code you create in the background.
 
   ![Scratch -](image_flik_kod.png)
   
-8. Ändra nu till ditt nya ljud i koden, henom att klicka på ljudet **Pop** i kodblocket och välja ditt nya ljud i listan som kommer fram. 
+9. Now change to your new sound in the code, by clicking on the sound ** Pop ** in the code block and selecting your new sound in the list that appears.
 
   ![Scratch -](Byt_ljud.png)
   
-**Testa koden!** Hörs bakgrundsmusiken? Blev du nöjd med ljudet? 
+** Test the code! ** Hear the background music? Were you satisfied with the sound?
 
->**Tips** Vill du spela in egna ljud och använda till bakgrundsmusiken - eller till sina sprajtars toner eller ljud? Gå till ljudfliken som du gjorde ovan. Håll muspekaren över knappen för att välja ljud i nedre vänstra hörnet, så kommer en meny fram. Välj mikrofonen och spela in egna ljud. Lägg sedan in dem i kodblocket på samma sätt som ovan genom att ändra i blocket.
+> ** Tips ** Do you want to record your own sounds and use them for background music - or for the tones or sounds of their sprayers? Go to the audio tab you did above. Hold the mouse pointer over the button to select audio in the lower left corner, and a menu will appear. Select the microphone and record your own sounds. Then insert them into the code block in the same way as above by changing the block.
   ![Scratch -](Spela_in_eget_ljud.png)
 
 
-> **Vad är noternas siffror?** Vad betyder siffran 60 för noten i kodblocket? Jo, förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
-
+> ** What are the numbers of the notes? ** What does the number 60 mean for the note in the code block? Well, to put it simply, you can say that when you want to create instruments digitally, such as a digital piano instead of a regular classical acoustic piano, you need to be able to write which note you want the instrument to play. And then you use a scale with numbers for the different notes, a so-called MIDI scale. The lowest (darkest) notes start at MIDI digits 1, 2, 3 ... and then the scale goes upwards, to 60 and far past for higher (lighter) notes. (Exact number 60 is note C on C scale 4.) Examples of a C scale with note numbers in MIDI:
   ![Lista med MIDI-siffror för noter i din synth](image_MIDI.png)
 
 
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+## Finished!
+Congratulations, you have now completed the task.
 
-**Glöm inte att spara ditt projekt!** Du måste vara inloggad för att kunna spara. Döp det gärna ditt instrument med ett namn så att du enkelt kan hitta den igen. Tips: Om du inte är inloggat, kan du välja att spara ned projektet som en fil på datorn under menyn Arkiv.
+** Don't forget to save your project! ** You must be logged in to save. Name it your instrument with a name so you can easily find it again. Tip: If you are not logged in, you can choose to save the project as a file on your computer under the File menu.
 
-> **Testa ditt projekt**  
-Visa gärna ditt Fantasiinstrument för en kompis och låt dem testa. Tryck om du vill på **DELA** för att andra ska kunna hitta spelet på Scratch. 
-
-
-## Frågeställningar
-
-* Varför kan det vara användbart att en sprajt har flera klädslar?
-* Vad betyder animation?
-* Hur kan du använda noter och toner i Scratch?
-* Vad händer när du ändrar takt för tonen?
+> ** Test your project **
+Feel free to show your Fantasy instrument to a friend and have them tested. Press ** to share ** to allow others to find the game on Scratch.
 
 
+## Issues
+
+* Why can it be useful for a sprayer to have multiple covers?
+* What does animation mean?
+* How can you use sheet music and notes in Scratch?
+* What happens when you change the tempo of the tone?
 
 
