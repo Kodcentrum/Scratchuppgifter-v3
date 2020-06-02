@@ -23,17 +23,22 @@ Instruktionen följer exemplet av en fantasisynth med krabbor som i exempelproje
 Gå till nästa sida för att börja koda! 
 
 ## 1: Klura idé och välj tangent och bakgrund
-Först behöver du komma på hur ditt instrument ska se ut och även välja hur tangenterna som man spelar på ska se ut. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna till datorn och ladda upp från datorn till Scratch
+Först behöver du komma på hur ditt instrument ska se ut och även välja hur tangenterna som man spelar på ska se ut. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna till datorn och ladda upp från datorn till Scratch. Hur ska ditt instrument se ut? 
 
   ![image alt text](the-nellophone.png)
   ![image alt text](the-cat-piano.png)
+  ![image alt text](Hydraulophone.png)
 
-I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
+I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. 
+
+  ![image alt text](image_0_exempelprojekt.png)
+
+Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
 1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch på  www.scratch.mit.edu</a> och logga in med ditt Scratch-konto, så du kan spara ditt projekt sen. Om du inte redan har ett konto skaffar du enkelt ett gratis sådant på Scratch sajt. 
 När du är inloggad klickar du på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
 
->**Tips!** Öppnas Scratch i fel språk, så kan du alltid ändra. Klicka på den lilla vita glob-bollen i Scratch övre vänstra del och välj språket du vill ha. Denna instruktion är för Scratch på svenska. 
+>**Tips!** Öppnas Scratch i fel språk, så kan du alltid ändra. Klicka på den lilla vita jordglob-bollen i Scratch övre vänstra del och välj språket du vill ha. Denna instruktion är för Scratch på svenska. 
 
 2. Radera först kattfiguren på scenen genom att klicka på soptunnan på den lilla bilden av katten under scenen. Då försvinner figuren ur projektet. 
 
@@ -110,7 +115,7 @@ Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under 
 
   ![Scratch - KONTROLL - Villkor om...då](Villkor.png)
   
->**Bra att veta!** Ett **villkor är som en regel** som man lägger in i koden. Exempelvis kan regeln vara: **OM** jag trycker ned tangenten **A** på datorn, **DÅ** ska en viss ton spelas. I ett spel skulle ett villkor kunna vara: **OM** gubben ramlar ner i lavan, **DÅ** blir spelet Game Over.
+>**Bra att veta!** Ett villkor är som en regel som man lägger in i koden. Exempelvis kan regeln vara: **OM** jag trycker ned tangenten **A** på datorn, **DÅ** ska en viss ton spelas. I ett spel skulle ett villkor kunna vara: **OM** gubben ramlar ner i lavan, **DÅ** blir spelet Game Over.
 
 7. Ser du det kantiga hålet i villkorsblocket, mellan **om...då**? Där ska vi lägga in ett kodblock. Gå till tema KÄNNA AV och dra ut blocket **tangent mellanslag nedtryckt?**. Dra in blocket snett underifrån det kantiga hålet i blocket mellan **om...då**. När det syns en vit kant omkring hålet kan du släppa blocket så lägger det sig inuti. Se bilden nedan:
 
@@ -131,7 +136,7 @@ Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under 
   ![Scratch - MUSIK - Välj not](Välj_ton.png)
 
 ## 5: Ge sprajten en mun att sjunga med
-Klädslar är olika bilder av sprajten där den har olika positioner eller ser annorlunda ut. Genom att koda att klädsel-bilderna ska bytas mellan vid olika tillfällen, skapas en känsla av rörelse, exempelvis att krabban får en mun som öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas. Gör såhär:
+Klädslar är olika bilder av sprajten där den har olika positioner eller ser olika ut. Genom att koda att klädsel-bilderna byts mellan vid olika tillfällen skapas en känsla av rörelse, exempelvis att krabban får en mun som öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas. Gör såhär:
 
 1.	Markera din sprajt (lilla bilden under scenen) så den är vald. Klicka sen på fliken KLÄDSLAR, den finns finns högst upp i vänstra hörnet av Scratch. Nu kommer du till sprajtens ritverktyg och kan se dess klädslar - och skapa nya.
 
@@ -147,38 +152,41 @@ Klädslar är olika bilder av sprajten där den har olika positioner eller ser a
 
 I vårt exempel har vår krabba redan ögon, men ingen mun. Hur din sprajt ser ut vet vi inte, kanske har den redan ögon och mun, men du kan leka med att ändra färger, göra ett öga som ser ut att blinka, rita dit något på de olika sprajtarnas klädslar eller liknande. 
 
-3. Nu ska vi rita en stängd mun på vår krabbas ena klädsel. Se till att den översta klädseln är markerad och vald för att rita på rätt bild. Klicka även på blå knappen **Gör till bitmap** som finns under ritverktyget.
+3. Nu ska vi rita en stängd mun på vår krabbas första klädsel. Se till att den översta klädseln är markerad och vald för att rita på rätt bild. Klicka även på blå knappen **Gör till bitmap** som finns under ritverktyget.
 
-4. Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktygets reglage tills du är nöjd. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel** eller **linje** och rita din mun. Du kan även ändra tjockleken på ditt verktyg för att måla tunnare eller tjockare linjer.
+  ![Scratch - Klädslar rita](Gör_till_Bitmap.png)
+
+4. Välj vilken **färg** du vill ha genom att klicka på den färgade lilla rutan och dra i färgverktygets reglage tills du är nöjd. 
 
   ![Scratch - Klädslar - ritverktyget - välj färg](image_11.png)
   
+5. Välj sen vilket ritverktyg du vill ha för att måla, exempelvis  **pensel** eller **linje** och rita din mun. Du kan även ändra tjockleken på ditt verktyg för att måla tunnare eller tjockare linjer.
+  
   ![Scratch - Klädslar - ritverktyget - ändra storlek](Pensel_ändra_storlek.png)
+  
+>**Tips!** Om du ritar fel och ångrar dig kan du alltid backa några steg och göra om. Klicka på den böjda pilen åt vänster som finns  ovanför ritverktyget.
+
+  ![Scratch - Ångerknapp på ritverktyg](Ångerknapp_rita.png)
   
 Nu ser vår krabbas första klädsel såhär glad ut:
 
   ![Scratch - Klädslar - krabba med stängd mun](Krabba_stängd_mun.png)
   
-5.	Klicka sen på den andra klädseln, så den andra blir markerad istället. Den ska få en öppen mun som ser ut att sjunga. Måla en **cirkel** som en öppen mun. Om cirkeln hamnar snett kan du dra den till mitten på sprajten så att den öppna munnen sitter på rätt ställe.
-
+6.	Klicka sen på den andra klädseln, så den andra blir markerad istället. Den ska få en öppen mun som ser ut att sjunga. Måla en **cirkel** eller liknande som en öppen mun.
   ![Scratch - Klädslar - krabba öppen mun](Krabba_öppen_mun.png)
-  
->**Tips!** Om du ritar fel och ångrar dig kan du alltid backa några steg och göra om. Klicka på den böjda pilen åt vänster som finns  ovanför ritverktyget.
-
-  ![Scratch - Ångerknapp på ritverktyg](Ångerknapp_rita.png)
 
 Nu har du en tangent som går att spela på och som har olika klädslar. Dax att animera så sprajten rör på sig!
 
 ## 6: Få sprajten att sjunga!
 
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
-Vi lägger till kod som säger åt sprajten att byta klädsel när den spelas.
+Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppen mun när den spelas.
 
 1. Klicka på fliken KOD för att komma bort från ritverktyget och tillbaka där du kan koda skript igen. 
 
   ![image alt text](image_flik_kod.png)
 
-2. Från tema UTSEENDE drar du ut blocket **ändra klädsel till...**. Lägg in det i sprajtens kodskript så det hamnar precis ovanför det gröna kodblocket **spela not 60 i 0.25 sekunder**. Dra sedan in ett likadant block med **ändra klädsel till...** och lägg det direkt under det gröna blocket, så det ser ut såhär:
+2. Från tema UTSEENDE drar du ut blocket **ändra klädsel till...**. Lägg in det i sprajtens kodskript så det hamnar precis ovanför det gröna kodblocket **spela not 60 i 0.25 sekunder**. Dra sedan in ett till likadant block med **ändra klädsel till...** och lägg det direkt under det gröna blocket, så det ser ut såhär:
 
   ![image alt text](Klädslar_Lägg_in_klädselblock.png)
   
@@ -186,11 +194,13 @@ Vi lägger till kod som säger åt sprajten att byta klädsel när den spelas.
 
   ![image alt text](Byt_klädsel_i_blocket.png)
 
-4. Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första gula blocket. Se till att rätt klädsel med stängd mun står i det lila blocket. När du är klar ska all kod se ut såhär:
+4. Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Vi måste koda in det:
+
+Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första blocket. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
 
   ![image alt text](Klädslar_alla_inlagda.png)
 
->**Testa ditt projekt!** Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "A" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Spelas tonen?
+>**Testa ditt projekt!** Klicka på gröna START-flaggan ovanför SCEN. Vad händer nu när du trycker på tangenten "A" på datorns tangentbord? Ändras klädseln så att det ser ut som att äpplet sjunger? Visas rätt klädslar som du vill? Spelas tonen?
 
 Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
 
@@ -200,8 +210,14 @@ Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar 
 1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Högerklicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren med dess klädslar som den kod du lade in på den första sprajt-tangenten. Kopiera fler så att du får alla tangenter du vill ha till ditt instrument. 
 
   ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
+  
+2. Placera nu it tangenterna på scenen genom att dra dem dit du vill ha dem. Ändra även sprajtarnas storlek om de ser för stora eller för små ut i rutan under scenen där det står **Storlek**, där 100 står för 100% full storlek.
 
-2. Nu har du flera tangenter med exakt samma kod och noter för alla. Du behöver ändra lite i koden på varje tangent. Välj den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna tangent så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. Ändra genom att klicka på a i tangentblocket och ändra till s, samt klicka på siffran 60 i musikblocket och välj nästa ton i skalan.
+  ![Scratch - Kopiera sprajt](Ändra_storlek.png)
+
+2. Nu har du flera tangenter med exakt samma kod och noter för alla. Nu behöver du ändra lite i koden på varje tangent, så de får en annan datortangent att spelas med och en egen not. 
+
+Välj den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna tangent så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. Ändra genom att klicka på a i tangentblocket och ändra till s, samt klicka på siffran 60 i musikblocket och välj nästa ton i skalan.
 
   ![Scratch -kopiera sprajt ](Tangent_två_ändra_not.png)
 
@@ -209,7 +225,7 @@ Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar 
 
   ![Scratch -](Ändra_namn.png)
   
->**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand istället för att kopiera sprajtar och koden.
+>**Vill du ha olika sprajtfigurer som tangenter?** Det går givetvis bra att välja olika sprajtfigurer. Men tänk då på att du kan behöva koda alla sprajtarna för hand som den första istället för att kopiera sprajtar och koden. Klicka på **Välj ny sprajt** för att lägga till sprajtar, eller måla egna sprajtar.
   
 >**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
 
