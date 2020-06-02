@@ -25,7 +25,7 @@ Gå till nästa sida för att börja koda!
 ## 1: Klura idé och välj tangent och bakgrund
 Först behöver du komma på hur ditt instrument ska se ut och även välja hur tangenterna som man spelar på ska se ut. Du kan rita eget i Scratch, välja färdiga figurer och bakgrunder eller till och med fota eller rita och scanna till datorn och ladda upp från datorn till Scratch
 
-  ![image alt text](the-nellophone.jpg)
+  ![image alt text](the-nellophone.png)
 
 I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
