@@ -147,7 +147,6 @@ Klädslar är olika bilder av sprajten där den har olika positioner eller ser o
   ![Scratch - Klädslar krabba](Krabba_olika_klädslar_original.png)
   
 **Tips!** Om du bara har en klädsel i din sprajt kan du enkelt skapa fler genom att högerklicka på lilla bilden av sprajtens klädsel och välja kopiera. Då får du två likadana klädslar. Sedan kan du ändra i dem, exempelvis färger eller rita till något. Som den här banan-sprajten till exempel, som bara har en klädsel:
-
   ![Scratch - Klädslar krabba](Kopiera_klädslar_banan.png)
 
 I vårt exempel har vår krabba redan ögon, men ingen mun. Hur din sprajt ser ut vet vi inte, kanske har den redan ögon och mun, men du kan leka med att ändra färger, göra ett öga som ser ut att blinka, rita dit något på de olika sprajtarnas klädslar eller liknande. 
@@ -173,6 +172,7 @@ Nu ser vår krabbas första klädsel såhär glad ut:
   ![Scratch - Klädslar - krabba med stängd mun](Krabba_stängd_mun.png)
   
 6.	Klicka sen på den andra klädseln, så den andra blir markerad istället. Den ska få en öppen mun som ser ut att sjunga. Måla en **cirkel** eller liknande som en öppen mun.
+
   ![Scratch - Klädslar - krabba öppen mun](Krabba_öppen_mun.png)
 
 Nu har du en tangent som går att spela på och som har olika klädslar. Dax att animera så sprajten rör på sig!
@@ -194,9 +194,9 @@ Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppe
 
   ![image alt text](Byt_klädsel_i_blocket.png)
 
-4. Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Vi måste koda in det:
+Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Vi måste koda in det!
 
-Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första blocket. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
+4. Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första blocket. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
 
   ![image alt text](Klädslar_alla_inlagda.png)
 
@@ -205,19 +205,19 @@ Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på*
 Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
 
 ## 7: Skapa alla tangenter
-Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar till alla dina tangenter** kan du enklast göra såhär:
+Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar till alla dina tangenter**, precis som i vårt krabb-instrument, kan du enklast göra såhär:
 
 1. Gå till den lilla bilden av din sprajt-tangent under scenen med ditt instrument. Högerklicka på den och välj kopiera. Nu skapas en exakt kopia av din första tangent, såväl sprajtfiguren med dess klädslar som den kod du lade in på den första sprajt-tangenten. Kopiera fler så att du får alla tangenter du vill ha till ditt instrument. 
 
   ![Scratch - Kopiera sprajt](Kopiera_sprajt.png)
   
-2. Placera nu it tangenterna på scenen genom att dra dem dit du vill ha dem. Ändra även sprajtarnas storlek om de ser för stora eller för små ut i rutan under scenen där det står **Storlek**, där 100 står för 100% full storlek.
+2. Placera nu ut tangenterna på scenen genom att dra dem dit du vill ha dem. Ändra även sprajtarnas storlek om de ser för stora eller för små ut. Det gör du genom att ändra storleken på sprajten där det står **Storlek** i rutan under scenen med ditt projekt. 100 står för 100% full storlek. Testa dig fram tills du blir nöjd.
 
   ![Scratch - Kopiera sprajt](Ändra_storlek.png)
 
-2. Nu har du flera tangenter med exakt samma kod och noter för alla. Nu behöver du ändra lite i koden på varje tangent, så de får en annan datortangent att spelas med och en egen not. 
+Nu har du flera tangenter med exakt samma kod och noter för alla. Nu behöver du ändra lite i koden på varje tangent, så de får en annan datortangent att spelas med och en egen not. 
 
-Välj den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna tangent så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. Ändra genom att klicka på a i tangentblocket och ändra till s, samt klicka på siffran 60 i musikblocket och välj nästa ton i skalan.
+2. Välj den andra av de kopierade tangenterna bland de små bilderna under scenen, klicka på den så den blir markerad. Ändra nu i koden på denna tangent så att den får nästa ton i skalan (eller den ton du vill ha) samt rätt datortangent på tangentbordet. Förslagsvis kan du spela med tangetbordets A, S, D, F, G, H, J, K om du vill ha en enkel C-skala. Ändra genom att klicka på a i tangentblocket och ändra till s, samt klicka på siffran 60 i musikblocket och välj nästa ton i skalan.
 
   ![Scratch -kopiera sprajt ](Tangent_två_ändra_not.png)
 
@@ -229,16 +229,16 @@ Välj den andra av de kopierade tangenterna bland de små bilderna under scenen,
   
 >**Testa ditt projekt!** Klicka på gröna START-flaggan över SCEN för att sätta igång projektet. Vad händer när du trycker på datorangenterna du valt? Visst spelas det toner? Är det rätt toner så som du vill ha det? Om du inte hör en ton - kolla koden så allt blivit rätt på de olika sprajt-tangenterna. Och kolla volymen på datorn.
 
-Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det!
+Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det på nästa avsnitt.
 
 ## 8: Skapa mer rörelse (valbart)
-Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer ett exempel.
+Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer några exempel du kan prova.
 
-Sprajtarna glider: Om du vill att sprajtarna ska glida till olika positioner kan du lägga in block från tema rörelse som heter **glid 1 sekunder till x:... y:...**. Detta representerar ett koordinatsystem där **x** är vågrätt (liggande) på scenen och **y** är lodrätt (stående) på scenen. Mittpunkten, som kallas för origo är 0 och det är mitt på scenen. 
+**Sprajtarna glider:** Om du vill att sprajtarna ska glida till olika positioner kan du lägga in block från tema rörelse som heter **glid 1 sekunder till x:... y:...**. Detta representerar ett koordinatsystem där **x** är vågrätt (liggande) på scenen och **y** är lodrätt (stående) på scenen. Mittpunkten, som kallas för origo är 0 och det är mitt på scenen. 
 
   ![Scratch - Rörelseblock](Block_rörelse_glid_x_y.png)
 
-1. Från tema HÄNDELSER drar du ut blocket **när GRÖN FLAGGA klickas på**. Lägg det på första sprajt-tangentens skriptyta. 
+1. Från tema HÄNDELSER drar du ut blocket **när GRÖN FLAGGA klickas på**. Lägg det fritt på första sprajt-tangentens skriptyta. 
 
 2. Från tema KONTROLL drar du ut blocket **för alltid** och fäster det under blocket med flaggan. Det är alltså en loop.
 
@@ -248,25 +248,27 @@ Sprajtarna glider: Om du vill att sprajtarna ska glida till olika positioner kan
 
   ![Scratch -](Loop_glid.png)
 
-3. Den siffror som nu står i blocket efter x och y är den position sprajten just nu står på scenen, i mittpunkten av sprajtfiguren. Om du vill att sprajten ska glida fram och tillbaka hela tiden, kan du ändra på siffrorna för x och y. Dra först din sprajt dit du vill att den först ska glida till, någon centimeter åt sidan kan passa bra. Kolla nu under scenen, där står ett x- och y-värde. Skriv nu dessa nya siffror i kodblocket blocket för x och y. 
+3. De siffror som nu står i blocket efter x och y är den position sprajten just nu står på scenen, i mittpunkten av sprajtfiguren. Om du vill att sprajten ska glida fram och tillbaka hela tiden, kan du ändra på siffrorna för x och y. Dra först din sprajt dit du vill att den först ska glida till, någon centimeter åt sidan kan passa bra. Kolla nu under scenen, där står ett x- och y-värde. Skriv nu dessa nya x och y-siffror i det blå kodblocket för x och y. Då kommer sprajtens nya position in i koden.
 
   ![Scratch - ](x_och_y.png)
 
-4. Lägg nu in ett till likadant block med **glid 1 sekunder till x:... y:...**. Lägg blocket under det förra inuti för alltid-loopen. Dra sen sprajten åt andra hållet dit du vill att den sen ska glida till, så den flyttar sig förbi där den startade med några centimetrar. Ändra siffrorna för x och y i det nya blocket precis som du gjorde tidigare. 
+4. Dra nu in ett till likadant block med **glid 1 sekunder till x:... y:...** och lägg blocket under det första blå blocket inuti för alltid-loopen. Dra sen sprajten åt andra hållet dit du vill att den sen ska glida till, kanske 1 eller 2 centimetrar blir lagom. Ändra siffrorna för x och y i det nya blocket med de nya positionsvärdena du ser under scenen, precis som du gjorde tidigare. 
 
   ![Scratch -](Loop_Glidning.png)
 
-**Testa koden!** Glider sprajten fram och tillbaka? Går det lagom fort? Du kan ändra till snabbare eller långsammare med färre eller fler sekunders glidning. Du kan också ändra avståndet den glider med siffrorna för x och y. 
+>**Testa koden!** Glider sprajten fram och tillbaka? Går det lagom fort? Du kan ändra till snabbare eller långsammare med färre eller fler sekunders glidning. Du kan också ändra avståndet den glider med siffrorna för x och y. 
 
-5. För att sprajtarna alltid ska ha en bestämd startplats när projektet startas, kan du lägga in en block som ger en startposition. Dra sprajten dit du vill att den alltid ska starta, innan den åker iväg. Från tema RÖRELSE drar du in blocket **gå till x:... y:...**. Lägg in detta block direkt under det gula kodblocket med den gröna flaggan på sig, som heter **när GRÖN FLAGGA klickas på**.
+5. För att sprajtarna alltid ska ha en bestämd startplats när projektet startas med den gröna flaggan, kan du lägga in en block som ger sprajten en startposition. Dra sprajten dit du vill att den alltid ska starta innan den glider iväg, förslagsvis i mitten mellan dit den glider. Från tema RÖRELSE drar du in blocket **gå till x:... y:...**. Lägg in detta block direkt under det gula kodblocket med den gröna flaggan på sig, som heter **när GRÖN FLAGGA klickas på**.
 
   ![Scratch -](Block_startposition.png)
 
 Glöm inte att göra likadant på alla dina sprajt-tangenter, men se till att du ger dem alla olika x och y-positioner, så de inte hamnar på varandra. 
 
-**Testa koden!** Startar sprajtarna på sin rätta plats när du trycker på den gröna flaggan?
+>**Testa koden!** Startar sprajtarna på sin rätta plats när du trycker på den gröna flaggan?
 
-6. **Ändra storlek på sprajten** Om du vill skapa en rörelse så att den spelande sprajen blir större medan den spelas och sedan blir mindre igen när den är tyst, som om den hoppar fram mot dig? Från tema UTSEENDE drar du två block med **sätt storlek till 100**. (Detta är alltså 100%, full storlek). Lägg dem båda inom sprajtens villkor ovan och nedan musikblocket, så det ser ut såhär:
+**Ändra storlek på sprajten!** Om du vill skapa en rörelse så att den spelande sprajen blir större medan den spelas och sedan blir mindre igen när den är tyst, som om den hoppar fram mot dig? Gör då som beskrivs nedan:
+
+6. Från tema UTSEENDE drar du två block med **sätt storlek till 100**. (Detta är alltså 100%, full storlek). Lägg dem båda inom sprajtens villkor ovan och nedan musik-blocket, så det ser ut såhär:
 
   ![Scratch -](Ändra_storlek_rörelse.png)
   
@@ -274,9 +276,9 @@ Glöm inte att göra likadant på alla dina sprajt-tangenter, men se till att du
 
   ![Scratch -](Ändra_storlek.png)
 
-Glöm inte att göra likadant på alla dina sprajt-tangenter!
+8. Glöm inte att göra likadant på alla dina sprajt-tangenter!
 
-**Testa koden!** Blir sprajtarna större när du spelar dem? Går de tillbaka till sin vanliga storlek igen när du slutar spela dem? Blev storleken du valde bra? Du kan alltid gå in i koden och ändra.
+>**Testa koden!** Blir sprajtarna större när du spelar dem? Går de tillbaka till sin vanliga storlek igen när du slutar spela dem? Blev storleken du valde bra? Du kan alltid gå in i koden och ändra.
 
 ## 9: Lägg till bakgrundsmusik (valbart)
 
@@ -284,15 +286,19 @@ Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi ko
 
 1. Klicka på den lilla bilden av din bakgrund, som finns längst till höger snett under scenen. Då blir scenen med bakgrunden vald och kan kodas.
 
+  ![Scratch -](Välj_bakgrunden.png)
+
 2. Från tema HÄNDELSER lägger du in blocket **När GRÖN FLAGGA klickas på**. 
 
 3. Från tema KONTROLL lägger du in blocket **för alltid**, så musiken kan loopas om och om igen.
+
+  ![Scratch -](Flagga_och_loop.png)
 
 3. Från tema LJUD lägger du in blocket **spela ljudet Pop tills färdigt**.
 
   ![Scratch -](Ljud_bakgrundsmusik.png)
   
-4. När du nu kör koden, hörs ett snabbt ploppande ljud, om och om igen. Koden är rätt, men vi bör byta ut ljudet Pop mot musik. Klicka på fliken som heter Ljud, som du hittar i övre vänstra hörnet av Scratch, så kommer du till ljudredigeraren.
+4. När du nu kör koden, hörs ett snabbt ploppande ljud, om och om igen. Koden är rätt, men vi bör byta ut ljudet Pop mot musik. Stoppa koden och klicka på fliken som heter Ljud, som du hittar i övre vänstra hörnet av Scratch, så kommer du till ljudredigeraren.
 
   ![Scratch -](image_flik_ljud.png)
 
@@ -300,7 +306,7 @@ Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi ko
 
   ![Scratch -](knapp_lägg_till_ljud.png)
   
-6. Nu kommer du till Scratch ljudbibliotek. Klicka på tema **Loopar** högst upp, så får du fram bra musikslingor som passar att loopas om och om igen. Lyssna på ljuden genom att föra muspekaren över de orangea små play-knapparna på vardera ljud, utan att trycka. När du hittat den du vill ha så klickar du mitt på ljudets ruta så läggs den till i ditt projekt. 
+6. Nu kommer du till Scratch ljudbibliotek. Klicka på tema **Loopar** högst upp, så får du fram bra musikslingor som passar att loopas om och om igen. Lyssna på ljuden genom att föra muspekaren över de lila små play-knapparna på vardera ljud, utan att trycka. När du hittat den du vill ha så klickar du mitt på ljudets ruta så läggs den till i ditt projekt. 
 
   ![Scratch -](Ljud_loopar.png)
   ![Scratch -](Ljud_lyssna_lägga_till.png)
@@ -309,15 +315,15 @@ Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi ko
 
   ![Scratch -](image_flik_kod.png)
   
-8. Ändra nu till ditt nya ljud i koden, henom att klicka på ljudet **Pop** i kodblocket och välja ditt nya ljud i listan som kommer fram. 
+8. Ändra nu till ditt nya ljud i koden, genom att klicka på ljudet **Pop** i kodblocket och välja ditt nya ljud i listan som kommer fram. 
 
   ![Scratch -](Byt_ljud.png)
   
-**Testa koden!** Hörs bakgrundsmusiken? Blev du nöjd med ljudet? 
+>**Testa koden!** Hörs bakgrundsmusiken? Blev du nöjd med ljudet? 
 
->**Tips** Vill du spela in egna ljud och använda till bakgrundsmusiken - eller till sina sprajtars toner eller ljud? Gå till ljudfliken som du gjorde ovan. Håll muspekaren över knappen för att välja ljud i nedre vänstra hörnet, så kommer en meny fram. Välj mikrofonen och spela in egna ljud. Lägg sedan in dem i kodblocket på samma sätt som ovan genom att ändra i blocket.
+>**Tips!** Vill du spela in egna ljud och använda till bakgrundsmusiken - eller till sina sprajtars toner eller ljud? Gå till ljudfliken som du gjorde ovan. Håll muspekaren över knappen för att välja ljud i nedre vänstra hörnet, så kommer en meny fram. Välj mikrofonen och spela in egna ljud. Lägg sedan in dem i kodblocket på samma sätt som ovan genom att ändra i blocket.
+
   ![Scratch -](Spela_in_eget_ljud.png)
-
 
 > **Vad är noternas siffror?** Vad betyder siffran 60 för noten i kodblocket? Jo, förenklat kan man säga att när man vill skapa instrument digitalt, exempelvis ett digitalt piano istället för ett vanligt klassiskt akustisk piano, behöver man kunna skriva vilken not man vill att instrumentet ska spela fram. Och då använder man en skala med siffror för de olika noterna, en så kallad MIDI-skala. De lägsta (mörkaste) noterna börjar på MIDI-siffra 1, 2, 3... och sen går skalan uppåt, till 60 och långt förbi för högre (ljusare) noter. (Just siffra 60 är noten C i C-skala 4.) Exempel på en C-skala med not-siffror i MIDI:
 
@@ -329,7 +335,7 @@ Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Du måste vara inloggad för att kunna spara. Döp det gärna ditt instrument med ett namn så att du enkelt kan hitta den igen. Tips: Om du inte är inloggat, kan du välja att spara ned projektet som en fil på datorn under menyn Arkiv.
 
-> **Testa ditt projekt**  
+**Testa ditt projekt**  
 Visa gärna ditt Fantasiinstrument för en kompis och låt dem testa. Tryck om du vill på **DELA** för att andra ska kunna hitta spelet på Scratch. 
 
 
