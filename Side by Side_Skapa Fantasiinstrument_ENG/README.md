@@ -1,12 +1,12 @@
 # Fantasy instrument
 
-How would you like your very own instrument to look and sound? In the past, there were only acoustic instruments such as piano, violin, guitar or sitar to play music on. Today, there are electrical instruments and computers that can play almost any incredible digital sound. Here you will be able to create your own coded Fantasy instrument that works and sounds just the way you want!
+How would you like your very own instrument to look and sound? In the past, there were only acoustic instruments such as piano, violin, guitar or sitar to play music on. Today, there are electrical instruments and computers that can play almost any incredible digital sound there is. Here you will be able to create your own coded Fantasy instrument that works and sounds just the way you want it to!
 
-In our example below we have coded a fantasy synth with crabs as keys, click on the green flag to try and play on it. Use the computer keys A, S, D, F, G, H, J, K that form the notes on a C-scale: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+In our example below we have coded a Fantasy synth with crabs as keys, click on the green flag to try and play on it. Use the computer keys A, S, D, F, G, H, J, K that form the notes on a C-scale: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
   a
 ![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
 
-... and here is a Monster-instrument with choral singing that you can test. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+... and here is a Monster instrument with choral singing that you can test. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
 ![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
