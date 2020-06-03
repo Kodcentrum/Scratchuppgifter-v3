@@ -331,7 +331,10 @@ Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi ko
 
 
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+Grattis, nu har du gjort klart uppgiften. Längre ned hittar du utmaningar!
+
+  ![Scratch-exempelprojekt](image_0_exempelprojekt)
+
 
 **Glöm inte att spara ditt projekt!** Du måste vara inloggad för att kunna spara. Döp det gärna ditt instrument med ett namn så att du enkelt kan hitta den igen. Tips: Om du inte är inloggat, kan du välja att spara ned projektet som en fil på datorn under menyn Arkiv.
 
