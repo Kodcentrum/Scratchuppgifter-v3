@@ -1,4 +1,4 @@
-# Fantasiinstrument
+# Fantasimusik
 
 Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
@@ -196,7 +196,7 @@ Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppe
 
 Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan det vara bra att alltid ha en utvald start-klädsel som alltid visas när du trycker på den gröna flaggan för start. En bestämd klädsel att starta med. Vi vill att munnen alltid ska vara stängd när projektet börjar. Vi måste koda in det!
 
-4. Från tema HÄNDELSER drar du först ut blocket **När GRÖN FLAGGA klickas på** och lägger det fritt på skriptytan. Från tema UTSEENDE drar du sen ut blocket **byt klädsel till...** och fäster det under det första blocket. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
+4. Från tema UTSEENDE drar du ut blocket **byt klädsel till...** och fäster det direkt under det första blocket **när GRÖN FLAGGA klickas på**. Se till att rätt klädsel med stängd mun står i det lila **byt klädsel till...**-blocket. Nu kommer alltid denna första klädsel visas när du startar instrumentet. När du är klar ska all kod se ut såhär:
 
   ![image alt text](Klädslar_alla_inlagda.png)
 
@@ -258,7 +258,7 @@ Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt a
 
 >**Testa koden!** Glider sprajten fram och tillbaka? Går det lagom fort? Du kan ändra till snabbare eller långsammare med färre eller fler sekunders glidning. Du kan också ändra avståndet den glider med siffrorna för x och y. 
 
-5. För att sprajtarna alltid ska ha en bestämd startplats när projektet startas med den gröna flaggan, kan du lägga in en block som ger sprajten en startposition. Dra sprajten dit du vill att den alltid ska starta innan den glider iväg, förslagsvis i mitten mellan dit den glider. Från tema RÖRELSE drar du in blocket **gå till x:... y:...**. Lägg in detta block direkt under det gula kodblocket med den gröna flaggan på sig, som heter **när GRÖN FLAGGA klickas på**.
+5. För att sprajtarna alltid ska ha en bestämd startplats när projektet startas med den gröna flaggan, kan du lägga in en block som ger sprajten en startposition. Dra sprajten dit du vill att den alltid ska starta innan den glider iväg, förslagsvis i mitten mellan dit den glider. Från tema RÖRELSE drar du in blocket **gå till x:... y:...**. Lägg in detta block i sprajtens stora skript direkt under det gula kodblocket med den gröna flaggan på sig, som heter **när GRÖN FLAGGA klickas på**.
 
   ![Scratch -](Block_startposition.png)
 
