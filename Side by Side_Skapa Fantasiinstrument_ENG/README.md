@@ -224,118 +224,126 @@ Select the second of the copied sprites from the small images below the scene, c
 
   ![Scratch -](Ändra_namn.png)
   
-> ** Do you want different characters as keys? ** Of course, you can choose different characters. But keep in mind that you may need to code all the sprays by hand as the first instead of copying the sprays and the code. Click ** Choose new spray ** to add spray, or paint your own spray.
+> **Do you want different sprites as keys?** Of course you can choose different sprite-characters. But keep in mind that you may need to code all the sprites by hand instead of copying the sprites and the code. Click **Choose a Sprite** to add new ones, or draw your own sprite.
   
-> ** Test your project! ** Click on the green START flag over the SCEN to start the project. What happens when you press the computer keys you have chosen? Surely tones are played? Is it the right toner the way you want it? If you do not hear a tone - check the code to make sure everything is right on the different spray keys. And check the volume of the computer.
+>**Test your code!** Click on the green START flag to start your code. What happens when you press the computer keys you have chosen? Can you hear the tones? Is it the right notes the way you want it? If something wrong, check the code to make sure everything is right on the different sprite keys.
 
-Now you have an instrument! If you want, you can go ahead and create more fun with it!
+Now you have an instrument! If you want to you can go ahead and create more fun with it in the next chapter!
 
 ## 8: Create more movement (optional)
-It's fun when the sprayers move a little more. There are many different ways to encode movement, here is an example.
+It's fun when the sprites moves around a bit more. There are many different ways to code in movement, here is an example:
 
-The Sprayers slide: If you want the Sprayers to slide to different positions, you can insert blocks from theme movement called ** slide 1 second to x: ... y: ... **. This represents a coordinate system where ** x ** is horizontal (landscape) on stage and ** y ** is vertical (portrait) on stage. The midpoint, which is called origo, is 0 and it is in the middle of the stage.
+**The sprites slides:** If you want the sprites to slide back and forth to different positions, you can insert blocks from theme MOTION  called **glide 1 secs to x:... y:...**. This represents a coordinate system where **x** is horizontal (landscape) on the stage and **y** is vertical (portrait) on the stage. The center point of the coordinate system, which is called origo, is 0 and it is in the middle of the stage.
 
   ![Scratch - Rörelseblock](Block_rörelse_glid_x_y.png)
 
-1. From the EVENTS theme, drag out the block ** when the GREEN FLAG is clicked **. Place it on the first Spray Key script area.
+1. From the EVENTS theme, pull out the block **when GREEN FLAG clicked**. Place it somewhere onto the first sprites' script area.
 
-2. From the CONTROL theme, pull out the block ** forever ** and attach it under the block with the flag. So it's a loop.
+  ![Scratch -](startblock_flagga.png)
+
+2. From the theme CONTROL, pull out the block **forever** and attach it under the first block with the flag. This block is a loop.
 
   ![Scratch -](Flagga_och_loop.png)
 
-3. From the MOVEMENT theme, you now pull out the block ** slide 1 second to x: ... y: ... ** and place it inside the ** forever ** loop.
+3. From the theme MOTION, pull out the block **glide 1 secs to x:... y:...** and place it inside the **forever**-loop.
 
   ![Scratch -](Loop_glid.png)
 
-4. The numbers that are now in the block after x and y are the position the sprayer currently stands on, at the center of the sprayer figure. If you want the sprayer to slide back and forth all the time, you can change the numbers for x and y. First drag your sprayer where you want it to first slide, a few inches to the side can fit well. Now look underneath the stage, where there is an x ​​and y value. Now write these new numbers in the code block for x and y.
+4. The numbers in the block after **x** and **y** are the position the sprite currently have on the stage, measured from the center of the sprite figure. You can change the numbers within x and y in order to place the sprite on another position. 
+First drag your sprite on the stage where you want it to slide to. Then look underneath the stage, where you will find an x and y value. Write these new numbers into the coding block for x and y.
 
   ![Scratch - ](x_och_y.png)
 
-5. Now insert one more block with ** slide 1 second to x: ... y: ... **. Place the block below the former inside the forever loop. Then pull the spray the other way you want it to slide, so it moves past where it started with a few centimeters. Change the numbers for x and y in the new block just as you did before.
+5. Now insert one more **glide 1 secs to x:... y:...**-block. Place the block below the first one inside the forever loop. Then pull the sprite the other direction to where you want it to slide. Check the new numbers for the sprites' position and change the numbers for x and y in the new block.
 
   ![Scratch -](Loop_Glidning.png)
 
-** Test the code! ** Does the spray slide back and forth? Is it going well? You can change to faster or slower with less or more seconds sliding. You can also change the distance it slides with the numbers for x and y.
+**Test the code!** Does the spray slide back and forth? You can change to faster or slower with less or more seconds of sliding. You can also change the distance it slides with the numbers for x and y.
 
-6. In order for the sprinters to always have a specific starting position when the project is started, you can insert a block that gives a starting position. Drag the spray to where you always want it to start before leaving. From the MOVEMENT theme, drag the block ** go to x: ... y: ... **. Enter this block directly below the yellow code block with the green flag on it, which is called ** when GREEN FLAG is clicked **.
+6. In order for the sprites to always have a specific starting position when the project is started, you can insert a block that gives a starting position. Drag the sprite to where you always want it to start before gliding. From the MOTION theme, drag out the block **go to x:... y:...**. Place this block directly below the yellow coding block **when GREEN FLAG clicked**.
 
   ![Scratch -](Block_startposition.png)
 
-Don't forget to do the same on all your spray keys, but make sure you give them all different x and y positions so they don't end up on each other.
+Don't forget to do the same on all your sprite keys, but make sure you give them all different x and y positions so they don't end up onto each other.
 
-** Test the code! ** Do the sprayers start in the right place when you press the green flag?
+**Test the code!** Does the sprites start in the right place when you press the green flag?
 
-7. ** Resizing the Spray ** If you want to create a movement so that the playing spray becomes larger while it is playing and then becomes smaller again when it is silent, as if it is leaning forward towards you? From the APPEARANCE theme, you drag two blocks of ** way size to 100 **. (This is 100%, full size). Place them both within the spray conditions above and below the music block, so it looks like this:
+7. **Resizing the sprite:** If you want to create a movement so that the sprite being played becomes larger while it is playing and then becomes smaller again when it is silent, as if it is mowing towards you? From the theme LOOKS, drag two blocks of **set size to 100%**. (full size). Place them both within the sprite condition above and below the music block, so it looks like this:
 
   ![Scratch -](Ändra_storlek_rörelse.png)
   
-8. Now change the numbers in the size blocks to fit what you want for your spray. During the scene you will see what size you currently have on your spray when it is stationary. Write this number in the lower size block, in our example the crab is 70% large when not in use. And change the number in the top block to what you want it to be the largest. We have chosen 100%, maybe yours needs to be bigger or smaller.
+8. Now change the percentage number in the size blocks to make your sprite become bigger and then smaller. Under the scene you will see what size you currently have on your sprite. Write this number in the second size block in the script, in our example the crab is sized 70% when not in use. And change the number in the top block to what you want it to be the largest. We have chosen 100%, maybe your sprite needs to be bigger or smaller.
 
   ![Scratch -](Ändra_storlek.png)
+  ![Scratch -](ny_storlek_sprajt.png)
 
-Don't forget to do the same on all your spray keys!
+Don't forget to change sizes on all your sprite keys!
 
-** Test the code! ** Do the sprouts get bigger as you play them? Do they return to their normal size when you stop playing them? Was the size you chose good? You can always enter the code and change.
+**Try the code!** Do the sprites change size when you play them? Do they change back to normal size when you stop playing them? Was the size you chosed good? You can always change in the code.
 
 ## 9: Add background music (optional)
 
-If you like, you can add a cool soundtrack looped in the background. We encod it in the background image on the stage.
+If you like to, you can add a cool soundtrack to be looped in the background. We code it in onto the backdrop image on the stage.
 
-1. Click on the small image of your background, which is at the far right obliquely below the scene. Then the scene with the background is selected and can be coded.
+1. Click on the small image of your backdrop, which is at the far right below the scene. Then the scene with the backdrop is selected and can be coded, just like sprites can be.
 
-2. From the EVENTS theme, enter the block ** When GREEN FLAG is clicked **.
+2. From the EVENTS theme, pull out the block **when GREEN FLAG clicked** and place it onto the empty script page of the backdrop.
 
-3. From the CONTROL theme, enter the block ** forever ** so that the music can be looped over and over again.
+3. From the CONTROL theme, pull out the block **forever** so that the music can be looped over and over again.
 
-4. From the SOUND theme, enter the block ** play the sound Pop until done **.
+  ![Scratch -](Flagga_och_loop.png)
+
+4. From the SOUND theme, pull out the block **play sound Pop until done**. Place it within the loop.
 
   ![Scratch -](Ljud_bakgrundsmusik.png)
   
-5. As you now execute the code, a fast popping sound is heard over and over again. The code is right, but we should replace the sound Pop with music. Click on the tab called Sounds, which you will find in the upper left corner of Scratch, and you will come to the audio editor.
+5. When you now run the code, a fast popping sound is heard over and over again. The code is right, but we should replace the sound Pop with music. Click on the tab called Sounds, which you will find in the upper left corner of Scratch, and you will get into the audio editor.
 
   ![Scratch -](image_flik_ljud.png)
 
-6. Here you see the sound Pop. To change the sound, you can click the blue button with a speaker on the bottom left of Scratch.
+6. Here you see the sound Pop. To change the sound by adding a new one, you click the blue button with a speaker on the bottom left of Scratch.
 
   ![Scratch -](knapp_lägg_till_ljud.png)
   
-7. Now you come to the Scratch audio library. Click on the theme ** Loops ** at the top, so you get good music tracks that are suitable for looping over and over again. Listen to the sounds by moving the mouse pointer over the orange little play buttons on each sound, without pressing. When you find the one you want, you click in the middle of the sound box and it is added to your project.
+7. Now you come to the Scratch audio library. Click on the theme **Loops** at the top to easier find nice music tracks that are suitable for looping over and over again. Listen to the sounds by moving the mouse pointer over the purple play buttons on each sound, without clicking. When you find the tune you want, click in the middle of the sound box and it is added to your project.
 
   ![Scratch -](Ljud_loopar.png)
   ![Scratch -](Ljud_lyssna_lägga_till.png)
   
-8. Click on the ** CODE ** tab located at the top left of Scratch and you will return to the code you create in the background.
+8. Click on the **CODE** tab located at the top left of Scratch and you will return to the code you create in the background.
 
   ![Scratch -](image_flik_kod.png)
   
-9. Now change to your new sound in the code, by clicking on the sound ** Pop ** in the code block and selecting your new sound in the list that appears.
+9. Now change to your new sound in the code, by clicking on the sound **Pop** in the code block and selecting your new sound in the drop down list that appears.
 
   ![Scratch -](Byt_ljud.png)
   
-** Test the code! ** Hear the background music? Were you satisfied with the sound?
+**Test the code!** Can you hear the background music? Were you satisfied with the sound?
 
-> ** Tips ** Do you want to record your own sounds and use them for background music - or for the tones or sounds of their sprayers? Go to the audio tab you did above. Hold the mouse pointer over the button to select audio in the lower left corner, and a menu will appear. Select the microphone and record your own sounds. Then insert them into the code block in the same way as above by changing the block.
+>**Tip!** Do you want to record your own sounds and use them for background music - or for the tones or sounds of your sprite keys? Go to the Sounds tab above to getinto the sounds editor window. At the bottom left you find the blue button with a speaker on, hold the mouse pointer over the button (no clicking) and a menu will appear. Select the microphone and record your own sounds. Then insert them into the code block in the same way as above by changing sound in the block.Tip is to name your recordings in the top area after recording. You can also edit your sound if you like in the sound editor.
   ![Scratch -](Spela_in_eget_ljud.png)
 
 
-> ** What are the numbers of the notes? ** What does the number 60 mean for the note in the code block? Well, to put it simply, you can say that when you want to create instruments digitally, such as a digital piano instead of a regular classical acoustic piano, you need to be able to write which note you want the instrument to play. And then you use a scale with numbers for the different notes, a so-called MIDI scale. The lowest (darkest) notes start at MIDI digits 1, 2, 3 ... and then the scale goes upwards, to 60 and far past for higher (lighter) notes. (Exact number 60 is note C on C scale 4.) Examples of a C scale with note numbers in MIDI:
+>**What does the numbers of the notes means?** What does the number 60 mean for the note in the Music coding block? Well, to put it simply, you can say that when you want to create notes electronically, such as a digital piano instead of a regular classical acoustic piano, you need to be able to write which note you want the instrument to play. And then you use a scale with numbers for the different notes, a so-called MIDI scale. The lowest (lowest) notes start at MIDI digits 1, 2, 3 ... and then the scale goes upwards, to 60 and far past for higher (highest) notes. (Number 60 is note C on C-scale 4.) Examples of a C-scale with note numbers in MIDI:
   ![Lista med MIDI-siffror för noter i din synth](image_MIDI.png)
 
 
 ## Finished!
 Congratulations, you have now completed the task.
 
-** Don't forget to save your project! ** You must be logged in to save. Name it your instrument with a name so you can easily find it again. Tip: If you are not logged in, you can choose to save the project as a file on your computer under the File menu.
+  ![Scratch -](image_0_exempelprojekt.png)
 
-> ** Test your project **
-Feel free to show your Fantasy instrument to a friend and have them tested. Press ** to share ** to allow others to find the game on Scratch.
+**Don't forget to save your project!** You must be logged in to save. Name your instrument so you can easily find it again. Tip: If you are not logged in, you can choose to save the project as a file on your computer under the File menu and choose Save to your computer.
+
+> **Test your project**
+Feel free to show your Fantasy instrument to a friend and have them test it. If you feel like it, press **Share** to allow others to find the game on Scratch.
 
 
-## Issues
+## Questions
 
-* Why can it be useful for a sprayer to have multiple covers?
+* Why can it be useful for a sprite to have multiple costumes?
 * What does animation mean?
-* How can you use sheet music and notes in Scratch?
+* How can you use music and notes in Scratch?
 * What happens when you change the tempo of the tone?
 
 
