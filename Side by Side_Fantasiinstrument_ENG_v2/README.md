@@ -1,61 +1,61 @@
 # Fantasy instrument
 
-How would you like your very own instrument to look and sound like? In the past, there were only acoustic instruments such as piano, violin, guitar or sitar to play music on. Today, there are electric instruments and computers that can play almost any incredible digital sound there is. Here you will be able to create your own coded Fantasy instrument that works and sounds just the way you want it to!
+What would you like your very own instrument to look and sound like? In the past, there were only acoustic instruments such as piano, violin, guitar or sitar to play music on. Today, there are electric instruments and computers that can play almost any incredible digital sound there is. Here you can create your own imaginary instrument that works and sounds just the way you want it to!
 
-In our example below we have coded a Fantasy synth with crabs as keys, click on the green flag to try and play on it. Use the computer keys A, S, D, F, G, H, J, K that form the notes on a C-scale: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
+In the example below we have coded an imaginary synth using crabs as keys. Click on the green flag to play on it. Use the computer keys A, S, D, F, G, H, J, K. They form a C-scale:
+ <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
   a
 ![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
 
-... and here is a Monster instrument with choral singing that you can try out. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
+... and here is a Monster instrument with choral singing that you can try. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
   
 ![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
-... and here you can try out a coded piano, use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
+... and here you can test a coded piano. Use the computer keys A, S, D, F, G, H, J, K to play a C-scale: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
   
 ![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
-> **HOW TO GET STARTED??** Browse through this guide, step by step. <a href="https://scratch.mit.edu" target="_blank">
-  Also open the Scratch online coding tool by clicking the **Open Scratch** link next to the cat figure above or via www.scratch.mit.edu </a>. In Scratch, you can code and create your own fantasy instrument based on the instructions following below.
+> **HOW TO GET STARTED??** Go through this guide, step by step. <a href="https://scratch.mit.edu" target="_blank">
+  But first you need to open the Scratch online coding tool by clicking the **Open Scratch** link next to the above cat or by typing  www.scratch.mit.edu </a>. In Scratch, you can code and create your own imaginary instrument with the help of our instructions.
 
-Now it's your turn to create your own instrument. You decide for yourself how it should look like and sound.
-The instruction follows the example of a fantasy synth with crabs as the keys of the instrument, as seen in the example project above. But you change and create as you please.
+Let’s get started on your instrument. You decide what it will look and sound like. These instructions show you how to create an imaginary synth using crabs as keys – like the example above. But, feel free to swap and change to create exactly the instrument that you want.
 
 Go to the next chapter to start coding!
 
 ## 1: Design your idea and select key and background
-First you need to figure out how your instrument should look like and also choose what the keys on which you play should look. You can draw your own in Scratch, choose ready-made shapes and backgrounds or even footage or draw on paper and scan to your computer and upload to Scratch.
+You first need to figure out what your instrument should look like and choose what you are going to play on. You can draw your own images, choose ready-made shapes and backgrounds or use photos or paper drawings that you scan to your computer and upload to Scratch.
 
   ![image alt text](the-nellophone.png)
   ![image alt text](the-cat-piano.png)
   ![image alt text](Hydraulophone.png)
 
-In our example project in this tutorial, we create a crab synth that you play using the computer keys. There will be 8 "keys" consisting of 8 crabs with different notes being played.
+In this tutorial, we will create a crab synth that you play using the computer keys. There will be 8 "keys" consisting of 8 crabs, each with a different note.
   ![image alt text](image_0_exempelprojekt.png)
 
-But how will your instrument look like? And how many keys do you want (and thus sounds / notes to play on)? Should it be fruits you play on? Or maybe animals? Stars? Maybe draw your own keys in Scratch? Figure out how you want your instrument to look. 
+But what will your instrument look like? And, how many keys do you want it to have? Each key will have one sound or note. Do you want to play on fruit? Animals? Stars? Or, maybe you want to draw your own keys in Scratch. 
 
 Let's start creating!
 
-1. First you have to select your instrument's keys. <a href="https://scratch.mit.edu" target="_blank"> Open Scratch at www.scratch.mit.edu </a> and log in with your Scratch account so you can save your project later. If you don't already have an account, you can easily get a free one on the Scratch site.
-When logged in, click **Create** in the upper-left corner of the Scratch start-page and a new project will be created.
+1. First you have to select your instrument's keys. <a href="https://scratch.mit.edu" target="_blank"> Open Scratch at www.scratch.mit.edu </a> and log in to your Scratch account so you can save your project later. If you don't have an account, you can easily sign up for one for free on the Scratch site. 
+When you’ve logged in, click **Create** in the upper-left hand corner of the Scratch start page to create a new project.
 
-> **Tip!** If Scratch opens in the wrong language, you can always change. Click on the little white globe in the upper left part of Scratch and select the language you want. This instruction is for Scratch in English.
+> **A tip!** Click on the little white globe in the upper left part of Scratch and select the language you want to work in.
 
-2. First remove the cat figure on the scene by clicking the trashcan on the small image of the cat below the scene. Then the figure disappears from the project.
+2. Remove the cat figure by clicking on the trashcan on the small image of the cat below the stage. The figure will be deleted from the project.
   ![image alt text](image_3.png)
 
-> **Did you know?** All figures and objects that you use in your Scratch are called **Sprites**!
+> **Did you know?** All figures and objects that you use in Scratch are called **Sprites**!
 
-3. Time to choose a new sprite figure that will be a first key within your instrument. Click **choose a Sprite**, which is the button with a cat symbol on the lower right of Scratch. Now you enter the Scratch sprite library. There are lots of figures that can become the instrument's keys. Select the sprite you like as your first key, click on it to add it to your project. In our example, we have chosen a crab.
+3. It is time to choose a new sprite that will be the first key on your instrument. Click **choose a Sprite**, the button with a cat symbol in the lower right corner. You’ve entered the Scratch sprite library. There are lots of figures that can become keys to an instrument. Select a sprite you want as your first key. Click on the sprite to add it to your project. In our example, we have chosen a crab.
   ![image alt text](image_1.png)   ![image alt text](image_1b.png)
   
-> **Did you know?** There are different sprites in Scratch, some have movement in them, others not. You can shee this if you hold the mouse pointer over a sprite in the sprite library and it moves. A sprite that moves has different images in different positions called "costumes", which you can code to toggle between to create animation and movement in the sprite. How to do this you will learn later in the instruction.
+> **Did you know?** There are different sprites in Scratch, some of them move. Test by moving your mouse pointer over the sprites in the library. A sprite that moves has different images in different positions that are called "costumes." You can code the costumes to make the sprite look like it is moving, which is called animation. We’ll explain how to do that later on.
 
-4. Now select a background that suits your instrument. Click the **choose a backdrop**-button in the lower right corner of Scratch and the backdrop library will open. Choose the background you like for your instrument.
+4. Now select a background that suits your instrument. Click the **choose a backdrop**-button in the lower right corner of Scratch and the backdrop library will open. Pick a background for your instrument. Where you now see the background with your sprite, is what we call a **Stage**.
 
   ![image alt text](image_2.png)
   
-> **Tip!** You can also paint your own backdrop with the Scratch built-in drawing tool. Click on the symbol with a paintbrush called **Paint**. Then click the blue button namned **Convert to Bitmap** before you start drawing. That button is located at the bottom under the blank surface of the drawing tool (see image below). Choose from different drawing tools and change color by clicking on the little colored box at the top and adjust to a color of your liking. See pictures below:
+> **A tip!** You can also paint your own backdrop with the Scratch built-in drawing tool. Click on the symbol with a paintbrush called **Paint**. Then click the blue button **Convert to Bitmap** before you start drawing. You find the button at the bottom of your screen under the blank surface of the drawing tool (see image below). Choose between different drawing tools and pick a color by clicking on the little colored box **Fill** at the top. See pictures below:
   ![image alt text](Måla_bakgrund.png)     
   
   ![image alt text](Gör_till_Bitmap.png)
