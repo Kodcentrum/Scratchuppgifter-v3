@@ -259,7 +259,7 @@ To have the sprites move around a bit more is fun and there are many different w
 
   ![Scratch -](Loop_Glidning.png)
 
-**Test your code!** Does the spray move back and forth? By adjusting the seconds, you change the speed of the movement. You can also change the distance it glides with the numbers for x and y.
+> **Test your code!** Does the spray move back and forth? By adjusting the seconds, you change the speed of the movement. You can also change the distance it glides with the numbers for x and y.
 
 6. In order for a sprite to always start in a specific place, you can insert a block that provides a starting position. You place the sprite where you always want it to start. You then locate the block **go to x:... y:...** in the MOTION theme and place it directly below the yellow coding block **when GREEN FLAG clicked**.
 
@@ -267,7 +267,7 @@ To have the sprites move around a bit more is fun and there are many different w
 
 Don't forget to do the same for all your sprites, but make sure you give them different x and y positions so that they don't all end up on top of each other.
 
-**Test your code!** Does the sprite start in the right place when you press the green flag?
+> **Test your code!** Does the sprite start in the right place when you press the green flag?
 
 7. **Resizing the sprite**: You can also create a movement so that a sprite becomes larger while it is playing and then smaller again when it is silent, as if it is moving toward you? You do this by going to the theme LOOKS and finding the block **set size to 100%**. Drag two of those blocks to the script area and place them above and below the music block within the sprite condition **if key … pressed? then**, so that it looks like this:
 
@@ -280,7 +280,7 @@ Don't forget to do the same for all your sprites, but make sure you give them di
 
 Don't forget to change sizes on all your sprite keys!
 
-**Test your code!** Do the sprites change size when you play them? Do they change back to normal size when you stop playing them? Was the size you selected good? You can always change in the code, if you want something to be different.
+> **Test your code!** Do the sprites change size when you play them? Do they change back to normal size when you stop playing them? Was the size you selected good? You can always change in the code, if you want something to be different.
 
 ## 9: Add background music (optional)
 
