@@ -76,30 +76,33 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 
 13. Då börjar vi koda vår munk. Se till att munk-sprajten är vald, så att du kodar munken och inte valen. Dra sen ut blocket för **HÄNDELSER**: **"när START (flaggan) klickas på”** till skriptytan för munk-sprajten. Under start-blocket fäster du sen blocket **”för alltid”** från **KONTROLL** - alltså en loop.
 
-14. Inuti loopen fäster du nu olika block från **RÖRELSE** och även **"Operatorer"** som säger att sprajten ska:
+14. Inuti loopen fäster du nu olika block från **RÖRELSE**, **KONTROLL**, **KÄNNA AV** och även **"Operatorer"** som säger att sprajten ska:
 
   **För alltid**
 
   * Gå 2 steg
 
-  * Slumpmässigt rotera sig mellan -20 till 20 grader
+  * Om den känner av kanten, då ska den...
+  
+  * ...slumpmässigt rotera sig mellan -20 till 20 grader
 
   * Studsa vid kanten
 
 
-  ![Donuts kod](image_10.png)
+  ![Donuts kod](Munk_skript_slump_grader.png)
 
 
-**Tips:** Blocket för **"slumptal”** hittar du under **OPERATORER**. Du lägger in blocket inuti rutan för värdet på **”rotera”**. Skriv in de värden som du vill att skriptet ska slumpa mellan. Prova dig fram vilka värden som blir bra, minusvärde ger vänster och plusvärde är höger!
+**Tips:** Blocket för **"slumptal”** hittar du under **OPERATORER**. Du lägger in blocket inuti vita rutan för värdet på **”rotera”**-blocket. Skriv in de värden som du vill att skriptet ska slumpa mellan. Prova dig fram vilka värden som blir bra, minusvärde ger vänster och plusvärde är höger!
 
 > Testa ditt projekt! Klicka på START. Flyger munken runt på himlen?
+
 > Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
 
 
 ## 4: Valen äter munkar
-Nu ska du få valen att äta munken. När valen når fram till en munk ska munken bli osynlig för att sedan visa sig igen en stund senare, så att munkarna aldrig tar slut! Gör såhär:
+Nu ska du få valen att äta munken. När valen når fram till en munk och rör den med sin mun så ska munken bli osynlig för att sedan visa sig igen en stund senare igen, så att munkarna aldrig tar slut! Gör såhär:
 
-15. Se till att din munk-sprajt är vald för att kunna kodas. Dra ut blocket **"om <> då"** som finns under **KONTROLL** och lägg det inuti munkens **”för alltid”**-loop, efter rörelserna. Nu ska du lägga till block så att munken kan **KÄNNA AV** om den **”rör vid sprajten”** som alltså är valen - så den vet när den ska bli osynlig. Skriptet ska då inehålla instruktioner som säger att:
+15. Se till att din munk-sprajt är vald för att kunna kodas. Dra ut blocket **"om <> då"** som finns under **KONTROLL** och lägg det inuti munkens **”för alltid”**-loop, direkt inunder det första **"om <> då"**-blocket. Nu ska du lägga till block så att munken kan **KÄNNA AV** om den **”rör vid färgen __”** som alltså ska vara munnens färg på valen - och rör munken vid munnens färg så ska den bli osynlig under tre sekunder. Skriptet ska då innehålla instruktioner som säger att:
 
   **Om** rör valen, **då** ska munk-sprajten:
 
@@ -108,26 +111,21 @@ Nu ska du få valen att äta munken. När valen når fram till en munk ska munke
   * Vänta 3 sekunder
 
   * Visa sig igen
-  
 
-16.  Lägg till ett block för **"visa”** även direkt under **”när START klickas på”**. Annars kan det bli fel när du startar spelet! När tror du att det kan hända?
 
-  ![Kod för donuts gömmer nu donuts om den rör vid valen](image_11.png)
-
-> Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
-
-Munken försvinner oavsett var på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
-
-17. Hur kan du se till att munken bara försvinner om den nuddar valens mun? Se först till att din val har en speciell färg på sin mun, en färg som inte finns någon annanstans på sprajten. Du kan byta ut blocket **"rör sprajten”** mot blocket **”rör färgen”** och välja färgen som valen har på sin mun. Då försvinner munken endast om den rör vid munnens färg, och inte om den stöter emot andra delar av valems kropp.
-
-  **Tips:** När du har ritat munnen kan du i skriptet för **"rör färgen”** välja färg genom att klicka på färgrutan och sedan färgväljaren och därefter på valens mun! Då blir det rätt färg i blovket i ditt skript.
+ 16. Se till att färgen i kodblocket **"rör vid färgen"** är den rätta munfärgen på din val. Det gör du genom att klicka på den runda färgcirkeln i blocket **"rör vid färgen"** och sen klicka på den lilla pimpetten som kommer fram längst ned i färgväljarmenyn. Klicka sedan på munnen på valen, så ändras färgen i blocket till den rätta. 
 
  ![Färgväljaren längst ner i menyn, en bild av en pipett och ett fotografi](image_11b.png)
 
-18. Sedan kan du få munken att flytta sig till en slumpvis plats på scenen innan den visar fram sig igen. För det behöver du lägga till ett  block för **"gå till x: y:”** och välja **”slumptal”** som munkens nya koordinater! Dra runt munken på scenen för att se vilka värden som hela scenen har.
+16.  Lägg till ett block för **"visa”** även direkt under **”när START klickas på”**. Annars kan det bli fel när du startar spelet! När tror du att det kan hända?
+
+  ![Kod för donuts gömmer nu donuts om den rör vid valen](Munk_om_rör_munfärgen_skript.png)
+
+> Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
+
+18. Efter att den uppätna munken gömst sig kan du få den att flytta sig till en slumpvis plats på scenen innan den visar sig igen. För det behöver du lägga till ett block för **"gå till x: y:”** från **RÖRELSE** och två stycken block **”slumptal 1 till 10”** från **OPERATORER**. Lägg in slump-blocken i de två variabelcirklarna med siffror i det blå blocket, efter x och y. Skriv in munkens nya koordinater: -240 till 240 i den första och -180 till 180 i den andra. Då täcker du hela scenens koordinatsystem.
 
   ![Kod för donut som nu går slumpmässigt mellan x -240 och 240 och slumpmässigt mellan y -180 och 180](image_12.png)
-
 
 > Testa ditt projekt! Klicka på START. Försvinner munken endast om den nuddar valens mun? Dyker den upp igen på en ny slumpvis vald plats på scenen istället för där den blev uppäten?
 
@@ -138,31 +136,45 @@ Det räcker inte med att bara äta munkar. Du ska kunna samla poäng också! Fö
 
 För att räkna poäng behöver du med kod skapa en VARIABEL. Det kan liknas vid en låda där du lägger i eller tar ur saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. Variablen håller reda på hur många saker som ligger i lådan, exempevis hur många poäng du har i ditt spel, en poängräknare. Låter det konstigt? Snart får du se hur det fungerar. Låt oss koda en poängräknare som håller koll på hur många munkar valen ätit upp - ett poäng för vardera munk.
 
-19. Börja med att skapa ett skript som får munken att skicka ett **meddelande** när den blir uppäten. Fäst blocket **"skicka"** från **HÄNDELSER** under **”rör färgen”** och ändra till ett nytt meddelande i rullistan. Döp meddelandet till ”*jag är uppäten*”.
+19. Börja med att skapa ett skript som får munken att skicka ett **meddelande** när den blir uppäten. Lägg till blocket **"skicka meddelande1"** från **HÄNDELSER** och fäst det under det lila **”göm”**-blocket. Klicka på texten **"meddelande1"** i blocket du just lade till och välj **"Nytt meddelande"**. Döp meddelandet till ”*jag är uppäten*” och tryck OK.
+
+  ![Skapa nytt meddelande att munken är uppäten](NyttMeddelande.png)
 
   ![Koden skickar meddelande "jag är uppäten" när den rör vid valens mun](image_13.png)
 
-20. Markera nu SCEN istället för sprajtarna, så du kan lägga kod på scenen istället. Här gör du ett skript för den som tar emot meddelandet som den uppätna munken skickar ut. Här vill du tala om för scenen att den ska räkna poäng när munken blir uppäten. För det behöver du **skapa en variabel** från **VARIABLER** som du döper till "*poäng*”. Fäst blocket **”ändra _poäng_ med 1”** efter **”när jag tar emot "*meddelande1"* ”**. Klicka på lilla pilen i blocket bredvid texten "*meddelande1*" och ändra till "*poäng*", så scenen tar emot rätt meddelande.
+20. Markera nu SCEN istället för sprajtarna, så du kan lägga kod på scenen istället. Klicka på den lilla bilden av din scens bakgrund nere till höger i Sratch, så väljs scenen. 
+Här gör du ett skript som tar emot meddelandet som den uppätna munken skickar ut. Du vill du tala om för scenen att den ska räkna poäng när munken blir uppäten. För det behöver klicka på **skapa en variabel** från temat **VARIABLER** som du döper till "*poäng*”. 
 
-22. För att nollställa spelets poängräknare vid start gör du ett till skript som säger att **"när START (flaggan) klickas på”** så **”sätt poäng till 0”**.
+  ![Skapa en variabel som ska räkna poäng](skapaEnVariabel.png)
+
+21. Från **"HÄNDELSER** tar du ut blocket **när jag tar emot meddelande1**. Klicka på lilla pilen bredvid "*meddelande1"* och välj meddelandet med namnet *"jag är uppäten"*, så den tar emot meddelandet från munken. 
+
+22. Från **"VARIABLER"** drar du ut blocket **”ändra _min variabel_ med 1”** och fäst det under **”när jag tar emot "*jag är uppäten*"”**. Klicka på lilla pilen i blocket och ändra till vår skapade variabel som heter **poäng**, så det blir rätt.
+
+23. För att nollställa spelets poängräknare vid start gör du ett till skript som säger att **"när START (flaggan) klickas på”** så **”sätt poäng till 0”**.
 
   ![Bakgrundens kodyta har kod för att nollställa vid start av programmet och kod för att om den tar emot meddelandet jag är uppäten att ändra poäng med 1](image_14.png)
 
-
-23. Nu kan du kopiera munk-sprajten så att du får så många munkar som du vill ha på himlen! Lopiera genom att högerklicka på den lilla bilden av din munk-sprajt och välj kopiera. Då får du en till likadan munk, med dess kod-skript och allt. Kopiera fram flera munkar. 
+24. Nu kan du kopiera munk-sprajten så att du får så många munkar som du vill ha på himlen! Kopiera genom att högerklicka på den lilla bilden av din munk-sprajt under scenen och välj kopiera. Då får du en till likadan munk, med dess kod-skript och allt. Kopiera fram flera munkar tills du är nöjd. 
 
 > **Glöm inte!** Du behöver ändra i vardera munk-sprajts **startposition** för var de ska vara när spelet börjar. Annars börjar alla munkar på exakt samma ställe när spelet börjar.
 
 Om du vill att munkarna ska bli unika och därmed lite olika varandra kan du till exempel:
 
-  * Ändra munkarnas färg och storlek
+  * Ändra munkarnas färger med ritverktyget 
 
-  * Ändra munkarnas hastighet och riktning
+  * Ändra munkarnas storlek, hastighet och riktning
 
-**Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"starta ljud"** i det skript du nyss gjort. Välj ljud i Scratch ljud-bibliotek. 
+**Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter upp munken! Från **LJUD** lägger du in ett block för **"starta ljud___"** i det skript du nyss gjort. Testa hur det låter. Vill du ändra till annant ljud kan du välja ett nytt i Scratch ljud-bibliotek. Det finner du genom att klicka på fliken som heter **LJUD** högt uppe till vänster i Scratch. Klicka sedan på den blå knappen **Välj ljud** i nedre vänstra hörnet. Välj ett ljud du gillar i biblioteket genom att klicka på det. Klicka slutligen på lilla pilen i ditt ljudblock i kodskriptet och välj det nya ljud du just lade till. Då spelas det istället. 
+
+  ![Ljudfliken tar dig till ljudredigeraren](Ljudflik.png)
+  
+  ![Klicka på knappen Välj ett ljud för att komma till ljudbiblioteket](Ljudknapp.png)
+  
+För att komma tillbaka till skriptytan där du kan koda igen, så klickar du på fliken **KOD** i övre vänstra hörnet. 
+  ![Kodfliken tar dig till skriptytan med kodblocken](Kodflik.png)
 
 > Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter upp munkar?
-
 
 
 ## Nu har du ett färdigt spel!
@@ -171,7 +183,7 @@ Grattis, nu har du gjort färdigt uppgiften.
 
 * **Döp ditt projekt** i rutan högst upp till vänster.
 
-* Tryck på **DELA** högst upp till höger för att andra ska kunna hitta projektet på Scratch.
+* Tryck på **DELA** i mitten högst upp för att andra ska kunna hitta projektet på Scratch.
 
 * Gå ut till projektsidan och låt någon annan **testa ditt spel**.
 
