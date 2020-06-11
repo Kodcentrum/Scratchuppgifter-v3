@@ -271,8 +271,8 @@ Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar 
 Se i videon ovan hur du ska:
 - Kopiera sprajten
 - Ändra storlek på sprajtar
-- Byta datortangent som ska användas för att spela sprajtens ton
-- Byta not som ska spelas av sprajten
+- Byt datortangent som ska användas för att spela sprajtens ton
+- Byt not som ska spelas av sprajten
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
