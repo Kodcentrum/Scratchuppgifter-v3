@@ -35,6 +35,20 @@ I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar p
 
 Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
+Dax att börja koda. I videon nedan kan du se hur du gör första stegen. In under videon finns full instruktion med text och bilder.
+<video src="./Fantasimusik_1.mp4" controls muted height=480 width=640 />
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Ta bort kattfiguren
+- Välj ny sprajt
+- Välja ny bakgrund
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+
 1. Nu ska du få välja ditt instruments tangenter. <a href="https://scratch.mit.edu" target="_blank"> Öppna Scratch på  www.scratch.mit.edu</a> och logga in med ditt Scratch-konto, så du kan spara ditt projekt sen. Om du inte redan har ett konto skaffar du enkelt ett gratis sådant på Scratch sajt. 
 När du är inloggad klickar du på **Skapa** uppe till vänster på Scratch-sidan och ett nytt projekt skapas.
 
