@@ -43,7 +43,7 @@ Dax att börja koda. I videon nedan kan du se hur du gör första stegen. In und
 Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
-- Välja ny bakgrund
+- Välj ny bakgrund
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
