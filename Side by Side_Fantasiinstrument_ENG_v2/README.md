@@ -27,7 +27,6 @@ You first need to figure out what your instrument should look like and choose wh
 
   ![image alt text](the-nellophone.png)
   ![image alt text](the-cat-piano.png)
-  ![image alt text](Hydraulophone.png)
 
 In this tutorial, we will create a crab synth that you play using the computer keys. There will be 8 "keys" consisting of 8 crabs, each with a different note.
 
