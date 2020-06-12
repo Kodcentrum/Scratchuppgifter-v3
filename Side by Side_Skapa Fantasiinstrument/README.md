@@ -27,7 +27,6 @@ Först behöver du komma på hur ditt instrument ska se ut och även välja hur 
 
   ![image alt text](the-nellophone.png)
   ![image alt text](the-cat-piano.png)
-  ![image alt text](Hydraulophone.png)
 
 I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar på med hjälp av datorns tangenter. Det kommer vara 8 "tangenter" som består av 8 krabbor med olika noter som spelas. 
 
