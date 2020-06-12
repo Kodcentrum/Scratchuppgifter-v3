@@ -84,7 +84,7 @@ To work with audio and music in Scratch, you need to add an Extension. The exten
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Add the extension Music
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
