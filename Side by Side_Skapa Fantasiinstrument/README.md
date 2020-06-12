@@ -34,7 +34,7 @@ I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar p
 
 Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
-Dax att börja koda. I videon nedan kan du se hur du gör första stegen. In under videon finns full instruktion med text och bilder.
+Dax att börja koda. I videon nedan kan du se hur du gör första stegen. Under videon finns full instruktion med text och bilder.
 <video src="./Fantasimusik_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
