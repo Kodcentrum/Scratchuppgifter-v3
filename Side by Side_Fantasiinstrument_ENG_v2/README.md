@@ -36,6 +36,8 @@ But what will your imaginary instrument look like? And, how many keys do you wan
 
 Let's start creating! The video below shows how to make the first steps in Scratch. Under the video you will find full instructions with text and images. 
 
+
+
 1. First you have to select your instrument's keys. <a href="https://scratch.mit.edu" target="_blank"> Open Scratch at www.scratch.mit.edu </a> and log in to your Scratch account so you can save your project later. If you don't have an account, you can easily sign up for one for free on the Scratch site. 
 
 When you’ve logged in, click **Create** in the upper-left hand corner of the Scratch start page to create a new project.
