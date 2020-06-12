@@ -34,7 +34,7 @@ In this tutorial, we will create a crab synth that you play using the computer k
 
 But what will your imaginary instrument look like? And, how many keys do you want it to have? Each key will have one sound or note. Do you want to play on fruit? Animals? Stars? Or, maybe you want to draw your own keys in Scratch. 
 
-Let's start creating!
+Let's start creating! The video below shows how to make the first steps in Scratch. Under the video you will find full instructions with text and images. 
 
 1. First you have to select your instrument's keys. <a href="https://scratch.mit.edu" target="_blank"> Open Scratch at www.scratch.mit.edu </a> and log in to your Scratch account so you can save your project later. If you don't have an account, you can easily sign up for one for free on the Scratch site. 
 
