@@ -111,7 +111,11 @@ Time to code the sprite that will be your first key in your instrument to play a
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Add code that instructs which instrument should be playing
+- Add a loop
+- Add a condition (if...then)
+- Add code to sense the computer key "A"
+- Play a note when computer key "A" is pressed
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
@@ -171,9 +175,9 @@ To animate your sprite means that you can make it look like it is moving, for ex
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- Remove the cat sprite
-- Choose a new sprite
-- Choose a new background
+- Click on the tab Costumes
+- Draw a closed mouth onto the first costume of your sprite
+- Draw an opened mouth onto the second costume of your sprite
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
@@ -219,14 +223,16 @@ Our crab's first costume now looks like this:
 You now have a playable key for your instrument with different costumes. Time to animate the sprite so it sings!
 
 ## 5: Make the sprite sing
-
 We are ready to **animate the sprite** so that it looks like the crab is singing when we play the notes using the computer keys. We need to add code that instructs the sprite to change costume when the note is played, which in our example means that the crab will open and close its mouth.
 <video src="./ImaginaryMusic_5.mp4" controls muted height=480 width=640 />
 
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Click on the tab Code to change back to the script surface for coding
+- Add two coding blocks that changes costume, to be added into the condition in the script
+- Change within the blocks so that two different costumes will be shown
+- Add one more of the same block (change costumes) at the top, so that the sprite will always show your preferred costume when the project starts
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
@@ -260,7 +266,10 @@ Let's create all the instrument's keys. If you want **the same sprite to be used
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Duplicate your sprite to add more "keys" to your instrument
+- Change your sprites size if you prefer them smaller or larger
+- On the duplicated sprites, you will need to change the set computer key to another one, so you can play different keys and tones
+- Change the set note that the duplicated sprite should play
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
@@ -296,7 +305,10 @@ To have the sprites move around a bit more is fun and there are many different w
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Create a new script with the block *when the green flag clicked*
+- Add a loop
+- Make your sprite glide sideways by adding a block of *glide 1 secs to x:... y:...*, to be put inside the loop
+- Add a startposition to your sprite
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
@@ -356,7 +368,13 @@ If you like, you can add a cool soundtrack to loop in the background. To do this
 >**WHAT SHOULD BE DONE?**
 
 The video above explains how to:
-- 
+- Choose the background to activate it
+- Add the block *when green flag clicked*
+- Add a loop
+- Add a sound block inside the loop of *play sound pop until done*
+- Add new sound by clicking on the Sounds tab and then choose a new sound form the sound library
+- Go back to the script area by clicking on the Code tab
+- Change the sound within the sound block to the new sound you have chosen
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
