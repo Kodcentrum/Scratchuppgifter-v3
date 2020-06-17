@@ -106,7 +106,7 @@ Det är ju lite tråkigt att dra varje grej till rätt ställe så istället kan
 
 Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda så att vi kan styra den för att fånga alla sopor. Jag har valt att göra en skalbaggerobot men du kan välja en annan typ av robot om du vill. 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/skalbaggeRobot.PNG)
+![alt text](skalbaggeRobot.PNG)
 
 
 För att styra roboten behöver vi två när [någonting] trycks på block. som vi sätter till höger samt vänsterpil.
