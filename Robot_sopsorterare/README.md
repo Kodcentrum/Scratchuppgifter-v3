@@ -108,21 +108,17 @@ Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda s�
 
 ![alt text](skalbaggeRobot.PNG)
 
-hej
-
 För att styra roboten behöver vi två när [någonting] trycks på block. som vi sätter till höger samt vänsterpil.
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narVansterPilTrycksNed.PNG)
+![alt text](narVansterPilTrycksNed.PNG)
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/narHogerPilTrycksNer.PNG)
+![alt text](narHogerPilTrycksNer.PNG)
 
 Under dessa placerar vi sen blocken gå -10 steg under vänsterpil, och blocket gå 10 steg under högerpil. När du är klar ska de båda blocken se ut såhär:
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/klarNarHogerpilTrycksNed.PNG)
+![alt text](klarNarHogerpilTrycksNed.PNG)
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/klarNarVansterpilTrycksNed.PNG)
-
-
+![alt text](klarNarVansterpilTrycksNed.PNG)
 
 Sådär! Nu kan vi styra roboten! Enkelt va? 
 
@@ -133,15 +129,15 @@ För att göra detta måste roboten känna igen vad för typ av sopor det är so
 
 Vi börjar med att lägga till en [för alltid loop] under [startblocket] med den gröna flaggan. 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/robotNarKlickarStart.PNG)
+![alt text](robotNarKlickarStart.PNG)
 
 Sen kan vi börja med om skräptypen är glas. Vi skapar fört ett jämförelseblock som vi därefter kan sätta in i ett om-block. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi glas. 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidLogik.PNG)
+![alt text](omRorVidLogik.PNG)
 
 Vi upprepar samma steg för andra soptyper vi skapat och när du är klar borde det se ut något sådanthär: 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/omRorVidSoporKlar.PNG)
+![alt text](omRorVidSoporKlar.PNG)
 
 Kom igåg att det är viktigt att det står exakt så som du skrev namnet på din klädsel på andra sidan!
 
@@ -149,7 +145,7 @@ För vår andra soptyp kan vi kopiera blocken vi skapade i föregående steg men
 
 När du är klar ser det nog ut något sådant här:
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/olikaSoporFanga.PNG)
+![alt text](olikaSoporFanga.PNG)
 
 
 ## 5: Sortera!
@@ -157,15 +153,15 @@ Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss
 
 Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamn batteri och skicka den soptypen. 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/SorteradeSopor.PNG)
+![alt text](SorteradeSopor.PNG)
 
 
 Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot meddelande block och sätter dessa till våra olika soptypsmedelanden. 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/glidGlas.PNG)
+![alt text](glidGlas.PNG)
 
 
-![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/glidKompost.PNG)
+![alt text](glidKompost.PNG)
 
 Under de två blocken sätter vi ett glid till block och sätter det till 1 sekund och på den ena skriver positionen för komposten och för den andra positionen för glasåtervinningen. 
 
