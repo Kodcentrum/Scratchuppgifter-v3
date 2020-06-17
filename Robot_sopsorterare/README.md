@@ -108,6 +108,7 @@ Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda s�
 
 ![alt text](skalbaggeRobot.PNG)
 
+hej
 
 För att styra roboten behöver vi två när [någonting] trycks på block. som vi sätter till höger samt vänsterpil.
 
