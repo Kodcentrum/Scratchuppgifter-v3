@@ -2,7 +2,7 @@
 
 Tycker du det är jobbigt att sortera sopor för återvinning? Varför inte programmera en robot att hjälpa till! I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra en sorteringsrobot som automatiskt skickar soporna till rätt ställe!
 
-# Soporna
+## 1: Soporna
 Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
 
 1. Ta bort kattsprajten från projektet och skapa sedan en ny sprajt genom att **Måla** en ny sprajt. Döp denna nya sprajt till **Sopor**.
