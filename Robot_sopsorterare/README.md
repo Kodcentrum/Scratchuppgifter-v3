@@ -19,7 +19,7 @@ Vi ska nu koda så att soporna ramlar ner ifrån ovan för roboten att fånga oc
 
 Nu har vi två sopor som kan sorteras och flyttas på skärmen. Vi går vidare.
 
-## Skapa meddelade
+## 2: Skapa meddelande
 Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och veta när och vad de ska göra. Meddelanden förenklar vårt arbete, då vi kan skapa en samling med kodblock som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Praktiskt va?! 
 
 1. Från tema HÄNDELSER drar du ut blocket **när jag tar emot meddelande1**.
@@ -71,7 +71,7 @@ Alltihop tillsammans borde se ut såhär:
 
 ![image alt text](forAlltidYposOmKlarIhopsatt.PNG)
 
-# Sopkärl 
+## 2: Sopkärl 
 Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa två nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du gillar från Scratch sprajtbibliotek med färdiga sprajter. 
 
 I vårt exempel har vi ritat ett sopkärl som enkla små lådor som ser ut såhär:
@@ -101,7 +101,7 @@ På samma sätt som vi precis gjort kan vi nu koda ett till sopkärl. Antingen k
 I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om en försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
 
 
-# Styr roboten
+## 3: Styr roboten
 Det är ju lite tråkigt att dra varje grej till rätt ställe så istället kan vi programera en robot som gör detta åt oss. 
 
 Vi börjar med att välja en sprajt till vår robot som vi därefter kan koda så att vi kan styra den för att fånga alla sopor. Jag har valt att göra en skalbaggerobot men du kan välja en annan typ av robot om du vill. 
@@ -125,7 +125,7 @@ Under dessa placerar vi sen blocken gå -10 steg under vänsterpil, och blocket 
 
 Sådär! Nu kan vi styra roboten! Enkelt va? 
 
-# Fånga Sopor
+## 4: Fånga sopor
 Vi måste också programera roboten så den tar hand om soporna som faller ner på rätt sätt så att allt tas om hand och kan bli till nya saker. 
 
 För att göra detta måste roboten känna igen vad för typ av sopor det är som den stöter på. Vi kommer att koda detta på ett sätt som påminner mycket om det vi kodade till sopkärlen.
@@ -151,7 +151,7 @@ När du är klar ser det nog ut något sådant här:
 ![alt text](https://github.com/Kodcentrum/Scratchuppgifter-v3/blob/feature_sopsorterare/Robot_sopsorterare/olikaSoporFanga.PNG)
 
 
-# Sortera!
+## 5: Sortera!
 Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av medelanden för att få sakerna att hamna rätt. I blocket för glas ska vi skicka meddelandet glas. 
 
 Gör du fler sopsorter är det bara att upprepa dessa steg. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamn batteri och skicka den soptypen. 
