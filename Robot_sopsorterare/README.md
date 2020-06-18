@@ -121,28 +121,36 @@ Vi ska nu koda sopkärlen så att de bara tar emot just den typ av sopor som vi 
 
 ![image alt text](sopkarlskod1.PNG)
 
-5. I sprajten  **sopor** finns våra två olika klädslar, en glasflaska och en äppelskrutt. För att rätt typ av sopor ska hamna i rätt sopkärl behöver vi koda så att sopkärlet känner av vilken klädsel som visas på sopsprajten. Vi sätter därför in ytterligare ett **om...då**-block från tema KONTROLL. 
+5. I sprajten  **sopor** finns våra två olika klädslar, en glasflaska och en äppelskrutt. För att rätt typ av sopor ska hamna i rätt sopkärl behöver vi koda så att sopkärlet känner av vilken klädsel som visas på sopsprajten. Vi sätter därför in ytterligare ett **om...då**-block från tema KONTROLL. Lägg det inuti ditt första **om...då**-block i skriptet.
 
-6. I det kantiga hålet mellan **om...då** i blocket sätter vi in ett = jämförelseblock från tema OPERATORER. 
+6. I det kantiga hålet mellan **om...då** i blocket sätter vi in ett = jämförelseblock från tema OPERATORER, så det ser ut såhär. 
 
-7. XXXXXXXXXXXXXXXXXXXXXI vilket vi sätter [Om x av y] blocket i vårt jämförelseblock och väljer "Klädselnamn" och vår sopsprajt.  
+![image alt text](sopkärl_jämförelseblock.png)
 
-På andra sidan skriver vi namnet på soptypen som ska slängas här i, exempelvis **glas**. 
+7. Från tema KÄNNA AV drar vi in blocket **bakgrundsnummer av scen**. Lägg in det i den första tomma vita ringen i det gröna operatorblocket, så det ser ut som i bilden nedanför. 
 
->**Tänk på!** Det är viktigt att vi skriver namnet på soptypen på exakt samma sätt som den heter, alltså var noga med om du har stor eller liten bokstav i namnet och inga felstavningar. Sopsorterarroboten du ska skapa är väldigt smart, men den gör bara exakt som du säger åt den att göra. Om vi skriver till exempel "Glas" med stor bokstav, men soporna heter "glas" med liten bokstav kommer roboten jämföra desa två namn och inte hitta glas-soporna. Roboten kommer därför inte veta vad den ska göra. 
+![image alt text](sopkärlKännaAvKlädselnamnBlock.png)
 
-Slutligen sätter vi också ett **skicka omstart**-block inuti vårt **om...då**-block. 
-![image alt text](sopkarlskod2.PNG)
+8. Nu ska vi ändra i det blå blocket du just lade in, så att sopkärls-sprajten kan känna av om det är rätt sopor den tar meot. Klicka på ordet **scen** i det blå blocket och byt till sprajten **sopor**. Ordet **bakgrundsnummer** ändrades nu automatiskt till **x position**. Klicka på ordet **x position** och välj istället **klädselnamn**. I den andra vita ringen där det står siffran **50** skriver du istället namnet på klädseln för den typ av sopor kärlet ska ta emot, exempelvis **glas**. När du är klar ska koden se ut såhär:
 
-När vi sen sätter ihop allting borde det se ut såhär:
+![image alt text](sopkärlKännaAvKlädselnamnGlas.png)
+
+>**Tänk på!** Det är viktigt att vi skriver namnet på soptypen på exakt samma sätt som den heter i sprajtens klädselnamn, alltså kola  noga om du har stor eller liten bokstav i namnet och inga felstavningar. Sopsorterarroboten du ska skapa är väldigt smart, men den gör bara exakt som du säger åt den att göra. Om vi skriver till exempel "Glas" med stor bokstav, men soporna heter "glas" med liten bokstav kommer roboten jämföra dessa två namn och inte hitta glas-soporna. Roboten kommer då inte veta vad den ska göra och välja att göra ingenting.
+
+9. Slutligen sätter vi in ett **skicka omstart**-block inuti vårt sista**om...då**-block. 
+
+Nu är koden färdig och borde det se ut såhär:
+
 ![image alt text](sopkarlskod3.PNG)
 
-Sådär! Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor! Testa att starta och dra sopsprajten till ditt sopkärl. 
+>**Testa koden!** Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor i det! Testa att starta och dra sopsprajten **glas** till det sopkärl du just kodat. Vad händer? Börjar programmet om med nya sopor som faller från toppen? Om du gör det flera gåpnger, växlar utseendet av soporna ibland till den andra typen då (alltså äppelskrutten)? 
+ 
+10. På samma sätt som vi precis kodat det gförsta sopkärlet, ska vi nu koda det andra sopkärlet också. Antingen kan du kopiera din sprajt och byta färg eller kanske rita någonting helt annat. För att göra flera sopkärl följer du helt enkelt stegen vi precis gjort men ändrar så att istället för klädseln **glas** så kollar detta andra sopkärlet efter klädseln **kompost** (som kan ta emot äppelskrutten). Byt bara namnet i Känna-av-blocket. 
 
-På samma sätt som vi precis gjort kan vi nu koda ett till sopkärl. Antingen kan du kopiera din sprajt och byta färg eller kanske rita någonting helt annat. För att göra flera sopkärl följer du helt enkelt stegen vi precis gjort men ändrar så att istället för klädsel 1, så kollar till exempel ett glasåtervinningskärl efter klädsel 2 som är just glas. 
+![image alt text](sopkärl_2_KännaAvKlädselKompost.png)
 
 (Bygga vidare)
-I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om en försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
+I annars biten lägger vi säg-blocket för att få soptunnan att säga någonting om man försöker slänga fel sak i kärlet. Dra in ett säg-block och skriv någonting i stil med "Oj, nu blev det fel!"
 
 
 ## 5: Styr roboten
