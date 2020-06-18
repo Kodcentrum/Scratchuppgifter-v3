@@ -109,14 +109,27 @@ I vårt exempel har vi ritat ett sopkärl som enkla små lådor som ser ut såh�
 
 ![image alt text](KompostSprajt.PNG)
 
-Vi ska nu koda dessa så att de bara tar emot den typ av sopor som vi vill ska hamna just där, exempelvis glasflaskor ska in i glasåtervinningen. Vi börjar med att dra ut ett start block **när GRÖN FLAGGA klickas på**. Under detta placerar vi ett **för alltid** -block. Under detta sätter vi ett **om...då**-block. Inuti detta sätter vi från tema KÄNNA AV ett **rör vid**-block där vi väljer vår skräpsprajt. 
+Vi ska nu koda sopkärlen så att de bara tar emot just den typ av sopor som vi vill ska hamna just där, exempelvis glasflaskor ska in i glasåtervinningen och äppelskruttar ska in i komposten. 
+
+1. Vi börjar med att dra ut ett start block **när GRÖN FLAGGA klickas på** från tema HÄNDELSER och lägger in blocket på en av sopkärlens skriptyta. 
+
+2. Under detta block placerar vi ett **för alltid** -block från tema KONTROLL. 
+
+3. Under detta sätter vi ett **om...då**-block från tema KONTROLL. 
+
+4. Inuti **om...då**-blocket sätter vi in ett **rör vid muspekare**-block från tema KÄNNA AV. Klicka på ordet **muspekare** i blocket och välj istället din skräpsprajt. I vårt exempel står det nu **rör vid sopor**, alltså vår sprajt som heter sopor.
+
 ![image alt text](sopkarlskod1.PNG)
 
-Om vi gör det måste vi kolla så att det är rätt soptyp. Vi sätter in ytterligare ett **om...då...annars**-block och i det blocket sätter vi sedan ett = jämförelesblock i vilket vi sätter vi [Om x av y] blocket i vårt jämförelseblock och väljer "Klädselnamn" och vår sopsprajt.  
+5. I sprajten  **sopor** finns våra två olika klädslar, en glasflaska och en äppelskrutt. För att rätt typ av sopor ska hamna i rätt sopkärl behöver vi koda så att sopkärlet känner av vilken klädsel som visas på sopsprajten. Vi sätter därför in ytterligare ett **om...då**-block från tema KONTROLL. 
 
-På andra sidan skriver namnet på soptypen som ska slängas här i. 
+6. I det kantiga hålet mellan **om...då** i blocket sätter vi in ett = jämförelseblock från tema OPERATORER. 
 
-Det är viktigt att vi skriver det på exakt det sättet, alltså utan stor bokstav eller utan felstavningar. Roboten är väldigt smart, men den gör också bara exakt som du säger åt den att göra, om vi skriver till exempel "Glas" kommer den att jämföra detta med soptypen "glas", och även om de betyder samma sak så är de ju olika. Roboten kommer därför inte veta vad den ska göra. 
+7. XXXXXXXXXXXXXXXXXXXXXI vilket vi sätter [Om x av y] blocket i vårt jämförelseblock och väljer "Klädselnamn" och vår sopsprajt.  
+
+På andra sidan skriver vi namnet på soptypen som ska slängas här i, exempelvis **glas**. 
+
+>**Tänk på!** Det är viktigt att vi skriver namnet på soptypen på exakt samma sätt som den heter, alltså var noga med om du har stor eller liten bokstav i namnet och inga felstavningar. Sopsorterarroboten du ska skapa är väldigt smart, men den gör bara exakt som du säger åt den att göra. Om vi skriver till exempel "Glas" med stor bokstav, men soporna heter "glas" med liten bokstav kommer roboten jämföra desa två namn och inte hitta glas-soporna. Roboten kommer därför inte veta vad den ska göra. 
 
 Slutligen sätter vi också ett **skicka omstart**-block inuti vårt **om...då**-block. 
 ![image alt text](sopkarlskod2.PNG)
