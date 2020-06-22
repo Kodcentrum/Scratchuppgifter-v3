@@ -60,6 +60,8 @@ Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och 
 
 1. Nu ska du koda mer på din sop-sprajt. Dubbelkolla att du kodar på rätt sprajt, genom att klicka på den lilla bilden av din sop-sprajt som finns under scenen. Då blir sprajten aktiverad. 
 
+![image alt text](Robot_aktivera.png)
+
 2. Från tema HÄNDELSER drar du ut blocket **när jag tar emot meddelande1**. Lägg det fritt bredvid de andra kodblocken som finns på skriptytan.
 
 ![image alt text](narJagTarMotMeddelande.PNG)
@@ -81,6 +83,7 @@ Sådär! Nu har vi skapat början på en bit kod som kommer att köras varje gå
 5. Under detta block sätter vi från tema UTSEENDE in blocket **ändra klädsel till "glas"**. (Kanske det står något annat än just "glas", beroende på vilken klädsel du visar just nu och vad du döpt dina sop-klädslar till.) 
 
 6. Inuti detta block lägger vi från tema OPERATORER in ett blocket **slumptal 1 till 10**. Ändra så det står **1 till 2** istället, då vi ännu bara har två olika sop-klädslar att slumpa mellan. (Om du gör fler sop-klädslar sen så ändrar du bara på sista talet till det totala antal klädslar sop-sprajten har!)
+
 ![image alt text](andraKladselHurBygg.PNG)
 ![image alt text](andraKladselSlumptal.PNG)
 
@@ -88,20 +91,28 @@ Nu har du alltså kodat att sprajten ska slumpa mellan klädslarna så att den i
 
 >**Testa koden!** Klicka på gröna startflaggan ovanför ditt projekt för att starta koden. Vilke sop-klädsel visas? Klicka på gröna startflaggan flera gånger efter varandra och se om det slumpas fram olika klädslar ibland? Om inte, dubbelkolla att det står rätt i koden, att det står **omstart** i meddelandet som skickas och det som tas emot.
 
-Dax att skapa rörelse på soporna, så att de faller ned från slumpmässigt valda platser i ovankant. 
+7. Dax att skapa rörelse på soporna. Sopsprajten ska starta högst upp i ovankant på scenen och sedan glida nedåt. Detta gör vi genom att sätta en bestämd startposition för sopsprajten, med hjälp av ett **gå till x och y**-block från tema RÖRELSE. Detta är alltså x och y i ett koordinatsystem, som anger position på scenen. Dra ut blocket och sätt det under **ändra klädsel**-blocket. 
 
-7. XXXXXXXXXXXXXXXX Sopsprajten ska starta högst upp i ovankant på scenen och sedan glida nedåt. Detta gör vi genom att sätta en bestämd startposition för sprajten, med hjälp av ett **gå till x och y**-block från tema RÖRELSE. Detta är alltså x och y i ett koordinatsystem. Dra ut blocket och sätt det under **ändra klädsel**-blocket. 
+![image alt text](SopsprajtStartpositionBlock_x_y.png)
 
 8. För att dina sopor ska falla från lite olika positioner i toppen, kodar vi in att det ska slumpas fram exakt var sopan faller ned från. Från tema OPERATORER drar du in blocket **slumptal 1 till 10** och lägger in det i det blå blocket efter **x:**. (se bilden nedan).
 
-9. Ändra slumptalet **1 till 10** så det står förslagsvis **-73 till 94**. 
+![image alt text](SopsprajtStartpositionBlockSlump.png)
 
-10. **y-postionen** ändrar du till **140**. Du kan anpassa koordinaterna x och y för att passa till just din sopsorterarrobot, testa dig fram.
+9. Ändra slumptalet i blocket **1 till 10** så det står koordinatpositioner istället, förslagsvis **-73 till 94**. Då kommer sprajten alltså att slumpvis välja att starta i en plats någonstans mellan x: -73 till x: 94 i scenens ovankant, då x-positioner sätter positionen horisontellt,  åt höger eller vänster på scenen. 
+
+10. **y-postionen** ändrar du till **140**, alltså positionen för hur högt upp sprajten ska starta från på scenen.
 
 ![image alt text](gaTillPos.PNG)
 ![image alt text](gaTillPosKlar.PNG)
 
-11. Under detta block sätter vi från tema RÖRSELSE in blocket **glid 1 sek till x:... y:...**. Sätt fast det direkt under det förra röresleblocket med **gå till x:... och y:...**. Ändra till **2 sek** och sätt från tema OPERATORER in blocket **slumptal 1 till 10** i vita bubblan efter **X:...** och skriv där **-73 och 94**. Ändra även **y**-positionen **-130**. 
+>**Tänk på!** Siffran för x-positionen styr positionen av sprajten horisontellt, alltså åt höger och vänster på scenen. Och y-positionen styr sprajtens position vertikalt, alltså uppåt och nedåt. Du kan anpassa koordinaterna x och y för dina sopor för att passa till just din sopsorterarrobot, testa dig fram.
+
+11. Under detta block sätter vi från tema RÖRSELSE in blocket **glid 1 sek till x:... y:...**. Sätt fast det direkt under det förra röresleblocket med **gå till x:... och y:...**. 
+
+![image alt text](SopsprajtRörelseBlockGlidposition.png)
+
+Ändra till **2 sek** och sätt från tema OPERATORER in blocket **slumptal 1 till 10** i vita bubblan efter **X:...** och skriv där **-73 och 94**. Ändra även **y**-positionen **-130**. 
 
 ![image alt text](glidTillSlumptal.PNG)
 
