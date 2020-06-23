@@ -10,6 +10,10 @@ Vi ska skapa en robot som sorterar sopor. En robot kan ju se ut precis som du vi
 
 ![alt text](RobotSprajt.PNG)
 
+2. Känns roboten för stor? Ändra storleken på den genom att ändra siffran där det står **Storlek 100** under scenen. 100 är full storlek, alltså 100%, så prova dig fram till något mindre procenttal, exempelvis 70. Klicka på gröna startflaggan om roboten inte ändrar storlek, så ändras den. Ändra storlek tills du är nöjd.
+
+![image alt text](SoporÄndraStorlek.png)
+
 2. Nu ska vi koda så att roboten kan styras för att fånga och sortera alla sopor som kommer falla ned mot den. Vi ska styra roboten åt höger och vänster med hjälp av datorns tangentbord med höger- och vänsterpil. 
 Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när [mellanslag] tangenten trycks ned**. Lägg dem bredvid varandra på robotens skriptyta. 
 
@@ -43,11 +47,15 @@ Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och e
 
 ![image alt text](namn_klädsel_glas.png)
 
-4. Vi ska nu koda så att soporna ramlar ner ovanifrån ner mot roboten, så att den kan fånga och sortera soporna! Klicka på fliken som heter KOD högst upp i vänstra hörnet av Scratch, så kommer du ur ritverktyget och tillbaka till skriptytan för din sprajt. 
+4. Nu ska du sätta en passande storlek på din sopsprajt, så den känns lagom stor i förhållande till din robot. Gör de ganska liten, ungefär som din tumnagel eller något mindre brukar bli lagom. Se till att din sopsprajt är vald och ändra storleken under scenen där det står **Storlek 100**. Kanske 30 blir lagom? Prova dig fram tills du är nöjd.
 
-5.  Dra ut ett startblock **när GRÖN FLAGGA klickas på** från tema HÄNDELSER och lägg på skriptytan för sopsprajten. 
+![image alt text](SoporÄndraStorlek.png)
 
-6. Från tema KÄNNA AV lägger du till blocket **sätt dragläge till "dragbar"**, fäst det under startblocket. 
+5. Vi ska nu koda så att soporna ramlar ner ovanifrån ner mot roboten, så att den kan fånga och sortera soporna! Klicka på fliken som heter KOD högst upp i vänstra hörnet av Scratch, så kommer du ur ritverktyget och tillbaka till skriptytan för din sprajt. 
+
+6.  Dra ut ett startblock **när GRÖN FLAGGA klickas på** från tema HÄNDELSER och lägg på skriptytan för sopsprajten. 
+
+7. Från tema KÄNNA AV lägger du till blocket **sätt dragläge till "dragbar"**, fäst det under startblocket. 
 
 ![image alt text](draglageDragbar.PNG)
 
@@ -58,7 +66,7 @@ Nu har vi en sprajt som är sopor som kan flyttas på skärmen. men hur ska vi k
 ## 3: Slumpa sopklädslar som faller ned
 Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och veta när och vad de ska göra. Meddelanden förenklar vårt arbete, då vi kan skapa en samling med kodblock som körs varje gång som vi skickar meddelandet så att vi inte behöver skriva samma sak flera gånger. Ungefär som att skicka iväg ett och samma sms till flera kompisar samtidigt, istället för att behöva skriva ett i taget till vardera kompis. Praktiskt va?! 
 
-1. Nu ska du koda mer på din sop-sprajt. Dubbelkolla att du kodar på rätt sprajt, genom att klicka på den lilla bilden av din sop-sprajt som finns under scenen. Då blir sprajten aktiverad. 
+1. Nu ska du koda mer på din sop-sprajt. Dubbelkolla att du kodar på rätt sprajt, genom att klicka på den lilla bilden av din sop-sprajt som finns under scenen. Då blir sprajten aktiverad och får en blå ram omkring sprajtbilden. 
 
 ![image alt text](Robot_aktivera.png)
 
@@ -103,48 +111,68 @@ Nu har du alltså kodat att sprajten ska slumpa mellan klädslarna så att den i
 
 10. **y-postionen** ändrar du till **140**, alltså positionen för hur högt upp sprajten ska starta från på scenen.
 
-![image alt text](gaTillPos.PNG)
 ![image alt text](gaTillPosKlar.PNG)
 
 >**Tänk på!** Siffran för x-positionen styr positionen av sprajten horisontellt, alltså åt höger och vänster på scenen. Och y-positionen styr sprajtens position vertikalt, alltså uppåt och nedåt. Du kan anpassa koordinaterna x och y för dina sopor för att passa till just din sopsorterarrobot, testa dig fram.
 
-11. Under detta block sätter vi från tema RÖRSELSE in blocket **glid 1 sek till x:... y:...**. Sätt fast det direkt under det förra röresleblocket med **gå till x:... och y:...**. 
+11. Under **gå till x:... och y:...**-blocket sätter vi in blocket **glid 1 sek till x:... y:...** från tema RÖRELSE.
 
 ![image alt text](SopsprajtRörelseBlockGlidposition.png)
 
-Ändra till **2 sek** och sätt från tema OPERATORER in blocket **slumptal 1 till 10** i vita bubblan efter **X:...** och skriv där **-73 och 94**. Ändra även **y**-positionen **-130**. 
+Ändra i blocket så det står **2 sek** istället. Från tema OPERATORER sätter du sen in blocket **slumptal 1 till 10** i vita bubblan efter **x:...** och skriv in **-73 och 94** i det gröna operatorblocket. Ändra även **y**-positionen **-130**. 
 
 ![image alt text](glidTillSlumptal.PNG)
 
-Tillsammans borde all kod nu se ut såhär:
+När du är färdig borde all kod nu se ut såhär:
 
 ![image alt text](omstartKlar.PNG)
 
-12. Men vi måste såklart lägga till kod för när meddelandet "omstart" ska skickas också! Från tema HÄNDELSER drar du ut blocket **skicka meddelande1 och vänta** och fäster det längst ned i sopsprajtens andra kodskript som börjar med blocket **när GRÖN FLAGGA klickas på**. Ändra även i blocket så att det står **skicka "omstart" och vänta**, om det inte redan står det. Såhär ska det se ut när det är klart:
+Nu har vi ett skript med kod som gör att en slumpvis vald sopsprajt faller ned när vi startar projektet och sen stannar sopsprajten i luften och inget nytt händer. Men vi vill att det ska falla ned mer sopor hela tiden och att det ska slumpa mellan olika sopklädslar. Vi måste ju lägga till kod för **när** meddelandet "omstart" ska skickas iväg också, så att detta kan hända. Dax att koda vidare!
+
+## 4: Skicka meddelandet omstart
+
+1. Från tema HÄNDELSER drar du ut blocket **skicka meddelande1 och vänta**. Fäst blocket längst ned i sopsprajtens andra kodskript som börjar med blocket **när GRÖN FLAGGA klickas på**. Ändra sen i meddelandeblocket du just lade till så att det står **skicka "omstart" och vänta**. Såhär ska det se ut när det är klart:
 
 ![image alt text](skickaBorjaOm.PNG)
 
->**Testa koden!** Klicka på gröna startflaggan ovanför ditt projekt för att starta koden. Vad händer med soporna? Starta om flera gånger och se vad som händer.
+>**Testa koden!** Klicka på gröna startflaggan ovanför ditt projekt för att starta koden. Vad händer med soporna? Starta om projektet flera gånger och se vad som händer.
 
-Nu har vi en robot som kan styras och sopor som kan röra sig och bytas mellan olika sopklädslar. Vi går vidare!
+Vi vill att om roboten missar att sortera sopan, och den faller ned till marken, så ska det en ny sopa börja falla ned. För det behöver vi skapa en loopad kodsnutt. Gör såhär:
 
-## 4: missa sopan???
+2. Från tema KONTROLL drar du in ett **för alltid**-block och fäster det längst ned i skriptet du kodar. 
 
-Vi går nu tillbaka till vårt **när jag tar emot omstart** block. Nu ska vi här placera ut ett **för alltid**-block från tema KONTROLL och inuti blocket ska vi sätta blocket **om...då** från tema KONTROLL. Inuti detta villkorsblock sätter vi block från tema RÖRELSE som kontrollerar om **y positionen är mindre än -129** (Detta eftersom vi tidigare valde att glida till -130). Slutligen sätter vi ett **skicka omstart**-block innuti detta. 
+3. Dra sen ut ett villkorsblock med **om...då** från tema KONTROLL och lägg det inuti **för alltid**-blocket. 
 
-![image alt text](forAlltidYposOm.PNG)
-![image alt text](forAlltidYposOmKlar.PNG)
+![image alt text](SoporLoopVillkorsblockOmDå.png)
 
-Alltihop tillsammans borde se ut såhär:
+4. Från tema OPERATORER drar du in ett jämföresleblock med tecknet **<**, som alltså betyder *mindre än*. Lägg in blocket i hålet mellan **om...då**, så koden ser ut såhär: 
+
+![image alt text](SoporVillkorOperatorblock.png)
+
+5. Nu vill vi att villkoret ska läsa av när soporna har fallit ända ned förbi roboten. Vi börjar med att ändra siffran **50** igröna operatorblocket så det står koordinatorpositionen **-129**. Alltså lite kortare än positionen -130 som vi satte för sopan att falla ned till. 
+
+5. Nu lägger vi till att det är y-positionen villkoret ska kolla efter. Från tema RÖRELSE drar du in blocket som heter **y-position**. Lägg det i den första vita bubblan i det gröna operatorblocket, så att villkoret blir **om y positionen < -129 då**. Då ser koden ut såhär: 
+
+![image alt text](SopsprajtVillkorOperatorY-positionBlock.PNG)
+
+6. Slutligen sätter vi ett **skicka omstart**-block från tema HÄNDELSER innuti villkoret. När du är klar ska koden se ut såhär:
 
 ![image alt text](forAlltidYposOmKlarIhopsatt.PNG)
 
-## 5: Sopkärl 
-Vi måste ju också ha någonting som soporna kan sorteras in i. Nu får du skapa två nya sprajter, rita olika återvinningskärl eller välj någon sprajt som du gillar från Scratch sprajtbibliotek med färdiga sprajter. 
+**Testa koden!** Tryck på startflaggan och se vad som händer. Startar soporna om när de fallit till marken? Slumpas det mellan olika sopor ibland? 
 
-I vårt exempel har vi ritat ett sopkärl som enkla små lådor som ser ut såhär:
+**Tips!** Om du gjort rätt i koden, men soporna ändå inte startar om när de fallit till marken, så kan du testa att ändra koordinatposition till en lite lägre siffra än just -129. Prova exempelvis -120 och se om det fungerar bättre när du startar om koden. Om sopsprajtarna är ganska stora, kan du även prova att göra dem lite mindre genom att minska storleken på den under scenen där det står Storlek 100. 
+
+Nu har vi en robot som kan styras och sopor som kan röra sig och slumpas mellan olika sopklädslar samt startas om. Men vart ska soporna sorteras? Vi går vidare!
+
+## 5: Sopornas återvinningslådor
+Vi måste ju också ha någonting som soporna kan sorteras in i. Nu ska du skapa två nya sprajter som blir robotens återvinningslådor. Du kan välja att rita två egna sprajter för återvinningslådorna eller välja två sprajter som du tycker passar från Scratch sprajtbibliotek. 
+
+I vårt exempel har vi ritat en sprajt som återvinningslåda som ser ut såhär:
 
 ![image alt text](KompostSprajt.PNG)
+
+Sen har vi gjort en kopia av sprajten så det blivit två likadana sprajter och bara bytt ut färgen på den ena. Då ser det ut som två olika lådor. 
 
 Vi ska nu koda sopkärlen så att de bara tar emot just den typ av sopor som vi vill ska hamna just där, exempelvis glasflaskor ska in i glasåtervinningen och äppelskruttar ska in i komposten. 
 
