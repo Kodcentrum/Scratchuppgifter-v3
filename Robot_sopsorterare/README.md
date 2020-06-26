@@ -170,11 +170,11 @@ Vi måste ju också ha någonting som soporna kan sorteras in i. Nu ska du skapa
 
 1. Skapa först en första ny sprajt-låda, som du efter att ha ritat och kodat ska få kopiera så du får fler återvinningslådor. På det sätter behöver du inte koda samma sak flera gånger, bara ändra lite i utseendet och lite i koden. För att måla en ny sprajt, håll muspekaren över **Välj en sprajt** och klicka på pensel-symbolen som heter **Måla**.
 
-[image alt text](knapp_målaNysprajt.png)
+[image alt text](knappMålaNysprajt.png)
 
 2. I vårt exempel har vi ritat en ny sprajt som vår återvinningslåda och skrivit på lådan med textverktyget vad den återvinner (exempelvis "glas"), så den ser ut såhär:
 
-[image alt text](GlasReturSprajt.PNG)
+[image alt text](GlasReturSprajt.png)
 
 >**Glöm inte!** För att kunna rita enkelt en låda och skriva på den behöver du först trycka på den blå knappen **Gör till bitmap** under ritverktygets yta.
 
@@ -212,16 +212,16 @@ Nu är koden färdig och borde se ut såhär:
 
 ![image alt text](sopkarlskod3.PNG)
 
->**Testa koden!** Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor i det! Testa att starta och dra sopsprajten **glas** till det sopkärl du just kodat. Vad händer? Börjar programmet om med nya sopor som faller från toppen? Om du gör det flera gåpnger, växlar utseendet av soporna ibland till den andra typen då (alltså äppelskrutten)? 
+>**Testa koden!** Nu har vi ett sopkärl som är redo att ta emot en typ av sopor och som kommer känna av om vi försöker stoppa i rätt typ av sopor i det! Testa att starta och dra sopsprajten **glas** till det sopkärl du just kodat. Vad händer? Börjar programmet om med nya sopor som faller från toppen? Om du gör det flera gånger, växlar utseendet av soporna ibland till den andra typen då (alltså äppelskrutten)? 
 
 ## 6: Kopiera fler lådor
-Nu ska vi kopiera låd-sprajten så vi får en till likadan, dr koden även följer med. 
+Nu ska vi kopiera låd-sprajten så vi får en till likadan, där koden även följer med. 
 
 1. Kopiera låd-sprajten genom att högerklicka på den lilla bilden av din återvinningslåda under scenen och välj kopiera.
 
 2. Gå nu till nya lådsprajtens klädslar (klicka på fliken KLÄDSLAR högt upp till vänster i Scratch). Klicka på blå knappen **Gör till bitmap** under scenen och ändra lådans färg och text, så det står exempelvis "Kompost". 
 
-[image alt text](Sprajt_kopiera_låda.png)
+[image alt text](SprajtKopieraLåda.png)
 
 >**Tips!** Sudda först bort texten du vill byta ut på den kopierade lådan med hjälp av suddgummi-verktyget, sen kan du färga lådan med ny färg och skriva på en ny text. Glöm inte att klicka på knappen **Gör till bitmap** allra först för at kunna måla. 
 
@@ -229,44 +229,69 @@ Nu ska vi kopiera låd-sprajten så vi får en till likadan, dr koden även föl
 
 ![image alt text](sopkärl_2_KännaAvKlädselKompost.png)
 
-**Utveckla koden om du vill!**
+**Vidareutveckla koden om du vill:**
+
 Vill du att sopsorterarroboten ska säga något om du lägger fel sopor i de olika återvinningslådorna? Då kan du byta ut det sista **om...då**-blocket du lade in i dina olika lådor mot ett **om...då...annars**-block istället. Inom **annars**-biten i detta nya block lägger vi in ett **säg Hej! i 2 sekunder**-block från tema UTSEENDE. Klicka på ordet Hej! och skriv istället exempelvis "Oj, nu blev det fel!". Gör likadant på båda återvinningslådorna, se exempel på hur koden kan se ut i bilden nedan. Testa koden och prova att lägga fel sopor i de olika återvinningslådorna. Vad händer?
 
 ![image alt text](sopkärl_OmDåAnnars_SägFel.png)
 
 ## 7: Fånga sopor
-Vi måste också programera roboten så den tar hand om soporna som faller ner på rätt sätt så att allt tas om hand och kan bli till nya saker. 
+Vi måste också programmera roboten så den sorterar soporna som faller ner i rätt återvinningslåda, så att alla sopor kan återvinnas och kan bli till nya saker. 
 
-För att göra detta måste roboten känna igen vad för typ av sopor det är som den stöter på. Vi kommer att koda detta på ett sätt som påminner mycket om det vi kodade till sopkärlen.
+För att göra detta måste roboten känna igen vad för typ av sopor det är som faller ned, så den kan fånga rätt sopor. I nästa steg ska vi koda så den sorterar dem rätt. Vi kommer att koda detta på ett sätt som påminner mycket om det vi kodade sopkärlen.
 
-Vi börjar med att lägga till en [för alltid loop] under [startblocket] med den gröna flaggan. 
+1. Se till att du har aktivierat roboten, så du kodar rätt sprajt. Från tema HÄNDELSER drar du ut startblocket **när GRÖN FLAGGA klickas på** och lägger det fritt på robotens skriptyta. 
+
+2. Från tema KONTROLL lägger du till en **för alltid**-loop och fäster det under startblocket med flaggan. 
 
 ![alt text](robotNarKlickarStart.PNG)
 
-Sen kan vi börja med om skräptypen är glas. Vi skapar fört ett jämförelseblock som vi därefter kan sätta in i ett om-block. På den ena sidan sätter vi som tidigare klädselnamn av Sopsprajten och på andra sidan skriver vi glas. 
+3. För att roboten ska veta vad den ska hålla utkik efter, börjar vi med att bestämma att det är din sopsprajt den ska känna av. Från tema KONTROLL drar du in ett villkorsblock med **om...då**. Lägg det inuti din **för alltid**-loop. från tema KÄNNA AV drar du in blocket **rör vid muspekare**. Lägg in det i hålet mellan **om...då**, klicka på ordet *muspekare* och ändra till nmanet för din sopsprajt. I vårt exempel heter vår sopsprajt *sopor*
+
+![alt text](Robot_KännaAvSopsprajt.png)
+
+4. Nu ska vi koda in ett villkor till som gör att roboten känner av om den rör vid en viss soptyp och som senare ska kodas för att säga åt roboten vad den då ska göra. Börja med att dra in ett till **om...då**-block från tema KONTROLL och lägg in blocket inuti det första **om...då** blcoket, så det ser ut som i bilden nedan:
+
+![alt text](Robot_RörSoporVillkor.png)
+
+4. Nu ska vi skapa ett jämförelseblock som kan stämma av vilken soptyp som roboten rör vid (exempelvis glas eller kompost?). Från tema OPERATORER drar du in blocket **__ = 50** och lägger in det i hålet mellan **om** och **då**. 
+
+![alt text](Robot_Villkor_Operator_soptyp.png)
+
+5. Från tema KÄNNA AV drar du in blocket **bakgrundsnummer av scen** och lägger in det i den första vita, tomma bubblan i operatorblocket. (När du lagt in det blå Känna av-blocket byts namnet *bakgrundsnummer* till *backdrop #*, men det är samma sak.
+
+6. Vi vill ju att sprajten **Sopor** ska byta klädslar, inte att scenen ska byta bakgrundsnummer som det nu står i koden. Vi ändrar i koden genom att klicka först på ordet **scen** i det blå Känna av-blocket, och välja sopsprajten istället. Klicka sedan på ordet till vänster i Känna av-blocket, där det nu står *x-position* och välj istället så det står **klädselnamn**. Slutligen ändrar du i Operatorblockets vita bubbla där det nu står *50* så att det istället står namnet på en av sopsprajtens klädslar, exempelvis **glas**. 
+
+![alt text](BlockKännaAvScenBytaSopor.png)
+
+![alt text](BlockKännaAvX-positionBytaKlädselnamn.png)
+
+När du fixat koden ska det se ut såhär:
 
 ![alt text](omRorVidLogik.PNG)
 
-Vi upprepar samma steg för andra soptyper vi skapat och när du är klar borde det se ut något sådanthär: 
+7. För att roboten ska kunna känna igen alla våra soptyper (glasflaskan och äppelskrutten) behöver vi göra en likadan kodsnutt som den vi nyss gjorde för soptypen **glas** ovan. Upprepa därför stegen ovanför så roboten kan känna av andra soptyper, exempelvis **kompost**. (Tips: du kan om du vill kopiera koden du nyss gjorde och bara ändra i den så det står rätt sopklädsel.) När du är klar ska koden se ut något såhär: 
 
 ![alt text](omRorVidSoporKlar.PNG)
 
-Kom igåg att det är viktigt att det står exakt så som du skrev namnet på din klädsel på andra sidan!
-
-För vår andra soptyp kan vi kopiera blocken vi skapade i föregående steg men glöm inte att byta namn på din soptyp! 
-
-När du är klar ser det nog ut något sådant här:
+När du är klar ska koden se ut något såhär:
 
 ![alt text](olikaSoporFanga.PNG)
 
+**Kom ihåg!** Det är viktigt att det skrivs in exakt samma klädselnamn i gröna Operator-blocket så som du skrev namnet på sopornas  klädslar i återvinningslådornas kod. Annars kan inte roboten senare sortera soporna till rätt låda.
+
+Nu kan roboten känna igen våra två olika soptyper som faller ned, men den kan inte änu sortera dem rätt. Vi kodar vidare!
 
 ## 8: Sortera!
-Det är ju lite tråkigt att dra soporna till rätt sopkärl så istället ska vi programmera roboten att den gör detta åt oss. Nu ska vi i varje litet om-block vi skapat för de olika soptyperna använda oss av meddelanden för att få sakerna att hamna rätt. I blocket för glas ska vi skicka meddelandet **glas**. 
+Det är ju lite tråkigt att själv dra soporna till rätt återvinningslåda så istället ska vi programmera roboten att den gör detta åt oss. Nu ska vi i varje litet **om...då**-block vi skapat för de olika soptyperna använda oss av meddelanden för att få soporna roboten fångar att sorteras rätt.
+
+1.Från tema HÄNDELSER drar du in meddelandeblocket **skicka omstart och vänta**. L'gg det inuti den första soptypens **om...då**-block så det ser ut som i bilden nedan. Klicka på ordet **omstart** och skapa ett nytt meddelande som du döper till din soptyps namn, exempelvis **glas**. 
+
+![alt text](BlockMeddelandeSoporSorterasGlas.png)
 
 Gör du fler soptyper är det bara att upprepa dessa steg nedan. Skapar du exempelvis ett batteri ska du istället kolla efter klädselnamnet **batteri** och skicka den soptypen i ditt meddelande. 
 
 ![alt text](SorteradeSopor.PNG)
-
 
 Vi går nu tillbaka till vår sopsprajt. Det sista vi behöver göra är att få soporna att glida till rätt sopkärl. Detta gör vi helt enkelt genom att dra ut när jag tar emot meddelande block och sätter dessa till våra olika soptypsmedelanden. 
 
