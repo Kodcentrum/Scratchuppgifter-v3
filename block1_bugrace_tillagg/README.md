@@ -1,6 +1,6 @@
 # Bug Race (tillägg)
 
-Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du i spelet? Och hur kan man lägga till fler spelare och ändra banor? Dax att utveckla spelet vidare. Här finns förslag på hur du bygger olika tillägg. Välj en eller flera - eller hitta på egna! 
+Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner man i spelet? Och hur kan man lägga till fler spelare eller ändra banor och få fler nivåer? Dax att utveckla spelet Bug Race vidare. Här finns förslag på hur du bygger olika tillägg. Välj en eller flera - eller hitta på egna! 
 
 ![Bug race med två spelare](image_2.png)
 
@@ -38,9 +38,7 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 ![Bug race med två spelare](image_2.png)
 
-1.  Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller KOPIERA skalbaggens sprajt om du vill att två skalbaggar tävlar mot varandra. Ändra storlek så att båda får plats på banan.
-
-2. Om du har en ny sprajt som inte är kopia på den första, kan du kopiera koden för skalbaggen. På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom dra hela skriptet till den nya sprajten.  Nu gör båda sprajtar samma sak!
+1.  Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller kopiera den sprajt du redan har i projektet om du vill ha två likadana sprajtar som tävlar mot varandra. Ändra storlekarna på sprajtarna så att båda får plats bredvid varandra på banan.
 
 3. Du behöver ändra skripten för att styra sprajten så att inte båda ska styras med vänster- och högerpil. Välj i rullistan för **"när _ trycks ned"**, till exempel tangenterna A och D.
 
