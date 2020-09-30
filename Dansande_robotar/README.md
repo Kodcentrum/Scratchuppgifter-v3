@@ -18,7 +18,8 @@ Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan
 
 - Ta bort kattfiguren
 - Välj en ny sprajt
-- Välj ny bakgrund
+- Välj en ny bakgrund
+- Välj en till sprajt
 - Minska eller öka storleken på sprajtarna om du vill
 
 <br>
@@ -40,84 +41,67 @@ Nu har du en robot som din sprajt på scenen. Vi går vidare och lägger till en
 
   ![image alt text](Ny_Bakgrund-knapp.png)
   
->>**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du finner om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **KOD** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
+>**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du hittar om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **KOD** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
 
-5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
+5. Klicka nu på **Välj en sprajt** och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). Dra i de två sprajtfigurerna på scenen så att de står bredvid varandra eller där du vill ha dem. Ge dem lite utrymme att att röra på sig.
 
-6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över elelr under 100, där 100 är 100%, alltså full storlek. Prova dig fram vad som blir lagom.
+6. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Under scenen med sprajtarna finner du texten **Storlek** och bredvid står det **100** - alltså 100% full storlek. Klicka på siffrorna och skriv istället in ett lägre eller högre procenttal, klicka sedan någonstans bredvid siffran du just skrev så ändras sprajtens storlek på scenen. Pröva dig fram till en storlek du gillar. För att ändra den andra sprajten markerar du den lilla bilden av den sprajten under scenen och ändrar dess storlek på likadant sätt som den första.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du sprajtar och en bakgrund. Dax att börja koda vykortet!
+Nu har du två sprajtar och en bakgrund. Dax att börja koda dansen!
 
 
-## 2: Fråga efter mottagarens namn
+## 2: Musik att dansa till
 
-Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kortets mottagare heter. 
-<video src="./Påskkort_2.mp4" controls muted height=480 width=640 />
+Nu ska vi koda så den första robotsprajten får några rörelser och lägga till musik. Koden som vi bygger ihop kallas för ett **skript**.
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
-- Lägga till en fråga till en av sprajtarna
+- Lägg in ett startblock på den tomma skriptytan för en av robotarna
+- Lägg till ett musikblock
+- Välj ny musik till projektet och lägg in i skriptet
+
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Välj den sprajt du vill koda att ställa en fråga genom att klicka på den lilla figuren av din sprajt under scenen så den blir markerad. Vi har valt att kycklingen ska ställa frågan i vårt exempel. 
+1. Se till att du klickat på och markerat den robotsprajt du vill koda först. Välj den sprajt som kunde röra på sig när du valde sprajtar i sprajtbiblioteket. Den sprajt du valt syns även som en gråtonad bild i övre högra hörnet av den stora tomma skriptytan i mitten av Scratch, till vänster om scenen. På så sätt kan du se vilken sprajt det är som du just nu kodar. Det är på skriptytan som du ska lägga in koden som sen styr din sprajt.
 
-  ![image alt text](aktivera_sprajt.png)
+2. Först ska vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Dra i detta block och lägg det någonstans på den tomma vita skriptytan i mitten av Scratch. 
 
-2. Från tema HÄNDELSER drar du in blocket **när GRÖNA FLAGGAN klickas på** och lägger det fritt på skriptytan för din sprajt. 
+BILD STARTBLOCK
 
-  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
+3. Nu ska vi lägga in att musik ska spelas när jag startar projektet. Vi vill att musiken ska spelas om och om igen i en evighetsloop. Börja med att skapa loopen. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst den direkt under första startblocket **när GRÖN FLAGGA klickas på**, så de puzzlar ihop sig. 
 
-3. Från tema KÄNNA AV drar du in blocket **Fråga** *"Vad heter du?"* **och vänta** och sätter fast det under det gula blocket med gröna flaggan.
+4. Nu ska vi lägga till musik till projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti den loop du lade in nySS. Då ser det ut som bilden nedan.
 
-  ![image alt text](image_1.png)
-  
-4. Klicka på den gröna flaggan ovanför scenen med ditt projekt och se din sprajt ställa frågan.
-  
-  ![image alt text](image_fråga_2.png)
+BILD
 
-*När du har skrivit in ett namn i svarsrutan längst ned klickar du på den lilla blå ikonen till höger eller tryck på Enter-knappen på datorns tangentbord. Just nu kommer inget att hända, men du kommer att förstå senare vad namnet ska användas till!*
+>Testa koden! Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
 
-> **Testa ditt projekt!** Klicka på START-flaggan ovanför ditt projekt på scenen. Frågar sprajten "Vad heter du?"? Kan du skriva ett svar på frågan i rutan?
+Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Du kan stoppa projektet och ljudet med **den röda stoppknappen ovanför scenen**.
 
-Dax att koda vidare!
+5. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter LJUD i övre vänstra hörnet av Scratch. Nu kommer du in i Scratch ljudstudio. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
 
-## 3: Sprajten kan dansa!
+ ![image alt text](image_41.png)
+ 
+6. Du finner lättast musik som passar att loopas om och om igen om du klickar på kategorin som heter **loopar**. Kategorierna finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. 
 
-Nu vill du ge sprajten några rörelser till musik. 
-<video src="./Påskkort_3.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg till musik till projektet
-- Skapa ett meddelande
-- Skapa en loop och låt en sprajt byta klädslar för att röra på sig
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Först lägger vi till musik. Gå till fliken LJUD i övre vänstra hörnet av Scratch.
+  ![image alt text](Ljud_lyssna.png)
 
   ![image alt text](image_40.png)
 
-2. Klicka sen på VÄLJ NYTT LJUD-ikonen i nedre vänstra hörnet. 
-
-  ![image alt text](image_41.png)
-
-3. Välj nytt ljud från ljudbiblioteket. Lyssna på de olika ljuden genom att föra muspekare över den lila Play-symbolen på ljuden och klicka sedan på mittan på det du vill välja in i projektet!  
-
-![image alt text](Ljud_lyssna.png)
-
-> **Tips!** Kategorin **Loopar** är bra om man letar efter en längre musikslinga istället för enskilda ljud. Klicka på knappen **Loopar** högst upp för att få fram endast musikslingor. 
-
-4. Klicka på fliken KOD i vänstra övre hörnet så kommer du tillbaka till kodsidan igen. Se till att din sprajt som ställer frågan är vald.
+7. När du valt musiken du vill använda klickar du på fliken som heter **KOD** i övre vänstra delen av Scratch. Nu ser du kodblocken och skriptytan igen och kan koda in musiken du just valt för din robot att dansa till.
 
   ![image alt text](Flik_KOD.png)
+  
+8. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. 
+
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa att köra koden. Vad händer? Spelas din nya musik nu istället för det gamla ljudet? Blev det som du ville? Du kan alltid byta till annan musik på samma sätt som du nyss gjorde i stegen ovan.
+
+
+## 3: Få roboten att dansa
 
 5. Nu ska vi lägga till kod för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Sätt in det under de andra blocken på skriptytan.
 
