@@ -1,6 +1,6 @@
-# Påskkort
+# Vykort
 
-Koda ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, julkort, Alla hjärtans dagkort eller annat vykort. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Koda ett digitalt vykort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, julkort, påskkort, Alla hjärtansdagkort eller annat vykort. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
 Klicka på bilden nedan för att se ett exempelprojekt på ett påskkort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
 
 ![image alt text](image_0.png)</a>
@@ -8,11 +8,10 @@ Klicka på bilden nedan för att se ett exempelprojekt på ett påskkort: <a hre
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. Logga gärna in på Scratch för att kunna spara och dela projektet.
   
-  Då börjar vi koda!
+Då börjar vi koda!
 
 ## 1: Välja sprajtar och bakgrund
-
-Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Vi väljer sprajtar som kan röra på sig.
+Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Vi väljer sprajtar som kan röra på sig. Vi har i detta exempel valt att göra ett påskkort.
 <video src="./Påskkort_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -42,15 +41,13 @@ Se i videon ovan hur du ska:
 
 5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
 
-6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över elelr under 100, där 100 är 100%, alltså full storlek. Prova dig fram vad som blir lagom.
+6. Om figurerna är för stora eller för små kan du ändra storlek på dem. Klicka på siffrorna vid **Storlek** som finns under scenen med dina sprajtar och skriv där in en ny siffra över eller under 100, där 100 är 100%, alltså full storlek. Prova dig fram vad som blir lagom.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu har du sprajtar och en bakgrund. Dax att börja koda vykortet!
 
-
 ## 2: Fråga efter mottagarens namn
-
 Vi börjar med första steget! Du ska få en av dina sprajtar att fråga vad kortets mottagare heter. 
 <video src="./Påskkort_2.mp4" controls muted height=480 width=640 />
 
@@ -85,7 +82,6 @@ Se i videon ovan hur du ska:
 Dax att koda vidare!
 
 ## 3: Sprajten kan dansa!
-
 Nu vill du ge sprajten några rörelser till musik. 
 <video src="./Påskkort_3.mp4" controls muted height=480 width=640 />
 
@@ -154,9 +150,7 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 > **Testa ditt projekt!** Spelas ljudet efter att du har skrivit in ett namn som svar? Dansar sprajten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
 
 ## 4: Dansen är slut
-
 För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att sprajten kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
-
 <video src="./Påskkort_4.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -211,7 +205,6 @@ När du är färdig ska koden se ut såhär:
 Nu vill vi att alla sprajtar ska röra på sig och dansa loss! Vi kodar vidare!
 
 ## 5: Alla ska dansa!
-
 Nu vill vi att de två andra sprajtarna ska dansa också! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript. Då börjar vi koda!
 <video src="./Påskkort_5.mp4" controls muted height=480 width=640 />
 
@@ -235,9 +228,7 @@ Såhär kan till exempel ett skript se ut om du vill att något ska glida till o
 
 > **Testa ditt projekt!** Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
-
-## 6: Pynta påskkortet
-
+## 6: Pynta vykortet
 Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? 
 <video src="./Påskkort_6.mp4" controls muted height=480 width=640 />
 
@@ -295,7 +286,6 @@ Se i videon ovan hur du ska:
 > **Testa koden!** Fungerar projektet som du vill? Gömmer sig och visar sig sprajten som den ska? Tips: om något inte fungerar, gå igenom koden och läs den högt så kan man enklare hitta felet. Kontrollera att du valt rätt meddelande i de olika skripten.
 
 ## 7: Blinga bakgrundsbilden
-
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
 <video src="./Påskkort_7.mp4" controls muted height=480 width=640 />
 
@@ -336,7 +326,7 @@ När du är färdig ska skriptet se ut såhär:
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp ditt Påskkortsprojekt högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
+**Glöm inte att spara ditt projekt!** Döp ditt vykortsprojekt högst upp. Klicka gärna på **Dela** så kan andra även se ditt vykort och projekt.
 
   ![image alt text](Namnge_dela.png)
 
