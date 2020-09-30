@@ -1,44 +1,46 @@
-# Påskkort
+# Dansande robotar
 
-Koda ett digitalt påskkort som du kan skicka till någon du vill hälsa till. Det är interaktivt så att mottagaren av kortet kan skriva in sitt namn och bli personligt firad med fest, musik och hälsningar! Kortets tema går att ändra om du vill göra födelsedagskort, julkort, Alla hjärtans dagkort eller annat vykort. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
-Klicka på bilden nedan för att se ett exempelprojekt på ett påskkort: <a href="https://scratch.mit.edu/projects/383151525" target="_blank">
+Koda robotar som dansar och låt musiken flöda! Här får du prova på en enkel och rolig uppgift att koda i Scratch. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Klicka på bilden nedan för att se ett exempelprojekt på hur ett projekt med dansande robotar kan komma att se ut (slå på ljudet): <a href="https://scratch.mit.edu/projects/430585716" target="_blank"> 
 
 ![image alt text](exempelprojekt_0.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. Logga gärna in på Scratch för att kunna spara och dela projektet.
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. Logga gärna in på Scratch för att kunna spara och dela projektet, så kan dina vänner få prova din robotdans. Ett konto på Scratch är gratis.
   
-  Då börjar vi koda!
+Är du redo att koda? Då börjar vi!
 
 ## 1: Välja sprajtar och bakgrund
 
-Först behöver du en **bakgrund** och några fina **sprajtar** som figurer! Vi väljer sprajtar som kan röra på sig.
-<video src="./Påskkort_1.mp4" controls muted height=480 width=640 />
+Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan dansa. Alla figurer man lägger in i Scratch kallas för en **sprajt**
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Ta bort kattfiguren
+- Välj en ny sprajt
 - Välj ny bakgrund
-- Välj tre nya sprajtar
-- Minska eller öka storleken på sprajtarna
+- Minska eller öka storleken på sprajtarna om du vill
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt. Se gärna till att du är inloggad på Scratch, så kan du spara ditt projekt även.
 
-2. Klipp först bort katt-sprajten genom att klicka på krysset på den lilla kattbilden under scenen. Då försvinner den.
+2. Ser du katten på den tomma scenen till höger. Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir helt tom.
 
  ![image alt text](ikon_radera_katt.png)
   
-3. Klicka på ikonen för **Ny bakgrund** som finns längst ned till höger och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Forest"**. Du kan givetvis välja att rita en egen bakgrund med ritverktyget.
-
-  ![image alt text](Ny_Bakgrund-knapp.png)
-
-4. Klicka på **Ny sprajt**-ikonen som ser ut som en liten vit katt på en blå knapp. Välj en ny sprajt som huvudkaraktär i ditt vykort, se till att det är en sprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den). Vi har valt en kyckling,  men du kan välja vilken sprajt du vill såklart.
+3. Klicka på ikonen för **Välj en sprajt** som ser ut som en liten vit katt på en blå knapp. Den finns längst ned under scenen. Välj en ny sprajtfigur som ska vara en robot. Se till att det är en robotsprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den i Scratch sprajtbibliotek). Vi har valt en robot som ser ut att flyga fram, men du kan välja vilken sprajt du vill såklart. (Tips: i sprajtbiblioteket finns ett sökverktyg högst upp till vänster, testa att skriva "robot".)
 
   ![image alt text](Ny_Sprajt-knapp.png)
+  
+Nu har du en robot som din sprajt på scenen. Vi går vidare och lägger till en bakgrundsbild.
+
+4. Klicka på ikonen för **Välj en bakgrund** som finns längst ned till höger under scenen och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Concert"**. 
+
+  ![image alt text](Ny_Bakgrund-knapp.png)
+  
+>>**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du finner om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **KOD** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
 
 5. Lägg in två sprajtar till som också kan röra på sig. Dra i figurerna på scenen så att de står där du vill ha dem, med utrymme för att röra på sig.
 
