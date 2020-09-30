@@ -84,62 +84,75 @@ Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Du kan stoppa pr
 
 5. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter LJUD i övre vänstra hörnet av Scratch. Nu kommer du in i Scratch ljudstudio. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
 
+  ![image alt text](image_40.png)
+
  ![image alt text](image_41.png)
  
-6. Du finner lättast musik som passar att loopas om och om igen om du klickar på kategorin som heter **loopar**. Kategorierna finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. 
+6. Du finner lättast musik som passar att loopas om och om igen om du klickar på kategorin som heter **loopar**. Kategorierna finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Around* i vårt exempel.
 
   ![image alt text](Ljud_lyssna.png)
-
-  ![image alt text](image_40.png)
 
 7. När du valt musiken du vill använda klickar du på fliken som heter **KOD** i övre vänstra delen av Scratch. Nu ser du kodblocken och skriptytan igen och kan koda in musiken du just valt för din robot att dansa till.
 
   ![image alt text](Flik_KOD.png)
   
-8. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. 
-
->**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa att köra koden. Vad händer? Spelas din nya musik nu istället för det gamla ljudet? Blev det som du ville? Du kan alltid byta till annan musik på samma sätt som du nyss gjorde i stegen ovan.
-
-
-## 3: Få roboten att dansa
-
-5. Nu ska vi lägga till kod för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Sätt in det under de andra blocken på skriptytan.
-
-![image alt text](Block_skickaMeddelande.png)
-
-6. Nu ska vi skapa ett nytt meddelande. Klicka på den lilla pilen bredvid texten **meddelande** i blocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
-
-![image alt text](Block_skapa_nytt_meddelande.png)
-
-7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i blocket så det står **skicka Dansa**.
-
-![image alt text](Skapa_nytt_meddelande_Dansa.png)
-
-8. Nu lägger vi in musiken. Från tema **Ljud** drar du in blocket **Spela ljudet ____ tills färdigt**. (i blocket står namnet på det ljud du valde tidigare, i vårt exempel heter ljudet *Dance Around*. 
+8. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Around* i vårt exempel.
 
   ![image alt text](image_7.png)
 
-9. Nu ska vi skapa ett nytt skript till vår sprajt som som vi lägger bredvid det första på skriptytan. Från tema HÄNDELSER drar du in blocket **När jag tar emot meddelande1**. Klicka på den lilla pilen och välj meddelandet **Dansa** som du skapade tidigare.
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa att köra koden. Vad händer? Spelas din nya musik nu istället för det gamla ljudet? Blev det som du ville? Du kan alltid byta till annan musik på samma sätt som du nyss gjorde i stegen ovan.
+
+Nu har vi bra musik för robotarna att dansa till! Dags att koda in röresle för robotarna!
+
+## 3: Få roboten att dansa
+
+I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelanted tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
+
+1. Nu ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet ut såhär:
+
+![image alt text](Block_skickaMeddelande.png)
+
+6. Nu ska vi skapa ett nytt meddelande i kodblocket. Klicka på den lilla pilen bredvid texten **meddelande** i kodblocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
+
+![image alt text](Block_skapa_nytt_meddelande.png)
+
+7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i kodblocket så det står **skicka Dansa**. 
+
+![image alt text](Skapa_nytt_meddelande_Dansa.png)
+
+Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver okså tas emot någonstans. Vi behöver lägga till det i koden.
+
+8. Nu ska vi skapa ett nytt skript till vår sprajt som vi lägger bredvid det första skriptet vi skapat på skriptytan med kod. Detta skript ska få sprajten att börja röra på sig. Från tema HÄNDELSER drar du in startblocket **När jag tar emot meddelande1** och lägger det fritt på skriptytan. Klicka på den lilla pilen i blocket och i menyn som kommer fram väljer du meddelandet **Dansa** som du skapade tidigare. Nu ändras texten i ditt block till **När jat tar emot Dansa**
 
   ![image alt text](Block_NärJagTarEmotDansa.png)
   
-10. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det förra blocket med meddelandet du just drog in.
+9. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det första blocket med meddelandet **Dansa** som du just lade in.
 
   ![image alt text](loop_byta_klädsel.png)
   
-11. Nu ska vi få sprajten att byta klädslar, eller bilder av olika positioner av sprajten som det är egentligen. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen, så det ser ut såhär:
+11. Nu ska vi få sprajten att byta klädslar, eller alltså byta mellan olika bilder av sprajtens olika positioner. Då kommer sprajtens att animeras, alltså se ut att ändra utseende och röra på sig. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger detta block inuti loopen. Nu kommer sprajten att byta klädslar om och om igen, jättesnabbt.
 
   ![image alt text](Block_nästaKlädsel.png)
+ 
+>**Tänk på!** En del sprajtar saknar fler klädslar och kommer därför inte fungera med koden ovan. Du vet om du har en sprajt med klädslar om den rörde på sig när du valde ny sprajt i Scratch sprajtbibliotek. Du kan även kolla sprajtens olika klädslar om du klickar på fliken som heter **Klädslar** i övre vnstra delen av Scratch. Om sprajten har fler än en klädsel så ser du dem nu i vänstra delen av Scratch, med flera bilder av sprajten under varandra. Gå tillbaka till koden igen genom att klicka på fliken **Kod** i övre vnstra delen av Scratch. 
+
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa koden. Vad händer? Byter sprajten mellan klädslar? Går det lite för snabbt?
   
-12. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i loopen under blocket **nästa klädsel**. Klicka på variabeln **1** i blocket och ändra till **0.25** för kortare väntetid.
+12. För att sakta ned bytet mellan klädslarna kan vi lägga in en liten paus mellan varje byte. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i loopen under blocket **nästa klädsel**. Klicka på variabeln **1** i blocket och ändra till **0.25** för kortare väntetid.
 
   ![image alt text](image_8.png)
+  
+>**Tänk på!** I Scratch skrivs siffror med en punkt ( . ) mellan heltal och decimaler, inte med kommatecken ( , ). Exempelvis **O.25**). Annars fungerar inte koden.
 
-Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik!
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och tsta koden. Vad händer? Hörs musiken? Dansar robotsprajten? Går bytet mellan klädslarna lagom fort? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
 
-> **Testa ditt projekt!** Spelas ljudet efter att du har skrivit in ett namn som svar? Dansar sprajten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
+Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik! Det är dags att få den andra robotsprajten att dansa med!
 
-## 4: Dansen är slut
+## 4: Alla dansar tillsammans
+fksfksfkl
+
+
+## : Dansen är slut
 
 För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att sprajten kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
 
