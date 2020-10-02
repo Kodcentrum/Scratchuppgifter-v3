@@ -62,7 +62,6 @@ Nu ska vi koda så den första robotsprajten får några rörelser och lägga ti
 - Lägg till ett musikblock
 - Välj ny musik till projektet och lägg in i skriptet
 
-
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -72,33 +71,39 @@ Nu ska vi koda så den första robotsprajten får några rörelser och lägga ti
 
 BILD STARTBLOCK
 
-3. Nu ska vi lägga in att musik ska spelas när jag startar projektet. Vi vill att musiken ska spelas om och om igen i en evighetsloop. Börja med att skapa loopen. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst den direkt under första startblocket **när GRÖN FLAGGA klickas på**, så de puzzlar ihop sig. 
-
-4. Nu ska vi lägga till musik till projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti den loop du lade in nySS. Då ser det ut som bilden nedan.
+3. Nu ska vi lägga in att musik ska spelas när jag startar projektet. Vi vill att musiken ska spelas om och om igen i en evighetsloop. Börja med att skapa loopen. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst den direkt under första startblocket **när GRÖN FLAGGA klickas på**, så de pusslar ihop sig. 
 
 BILD
 
->Testa koden! Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
+4. Nu ska vi lägga till musik till projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti den loop du lade in nyss. Då ser det ut som på bilden nedan.
 
-Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Du kan stoppa projektet och ljudet med **den röda stoppknappen ovanför scenen**.
+BILD
 
-5. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter LJUD i övre vänstra hörnet av Scratch. Nu kommer du in i Scratch ljudstudio. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Blev det ett bra ljud? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
+
+Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Men det kanske inte blev rätt ljud för den musik vi vill ha? Du kan stoppa projektet och ljudet med **den röda stoppknappen** ovanför scenen.
+
+BILD STOPPKNAPP
+
+5. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter **Ljud** i övre vänstra hörnet av Scratch. Nu kommer du in i Scratch ljudstudio. 
 
   ![image alt text](image_40.png)
+  
+6. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
 
  ![image alt text](image_41.png)
  
-6. Du finner lättast musik som passar att loopas om och om igen om du klickar på kategorin som heter **loopar**. Kategorierna finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Around* i vårt exempel.
+7. Enklaste sättet att hitta musik som passar att loopas om och om igen är om du klickar på kategorin som heter **loopar**. Den finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Around* i vårt exempel.
 
   ![image alt text](Ljud_lyssna.png)
 
-7. När du valt musiken du vill använda klickar du på fliken som heter **KOD** i övre vänstra delen av Scratch. Nu ser du kodblocken och skriptytan igen och kan koda in musiken du just valt för din robot att dansa till.
+8. När du valt musiken du vill använda klickar du på fliken som heter **Kod** i övre vänstra delen av Scratch. Nu ser du kodblocken och skriptytan igen och kan koda in musiken du just valt för din robot att dansa till.
 
   ![image alt text](Flik_KOD.png)
   
-8. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Around* i vårt exempel.
+9. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Around* i vårt exempel.
 
-  ![image alt text](image_7.png)
+BILD
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa att köra koden. Vad händer? Spelas din nya musik nu istället för det gamla ljudet? Blev det som du ville? Du kan alltid byta till annan musik på samma sätt som du nyss gjorde i stegen ovan.
 
@@ -110,11 +115,11 @@ I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra
 
 1. Först ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet på kodytan ut såhär:
 
-![image alt text](Block_skickaMeddelande.png)
+BILD
 
 2. Nu ska vi skapa ett nytt meddelande i kodblocket. Klicka på den lilla pilen bredvid texten **meddelande1** i kodblocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
 
-![image alt text](Block_skapa_nytt_meddelande.png)
+BILD
 
 3. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i kodblocket så det står **skicka Dansa**. 
 
@@ -122,7 +127,7 @@ I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra
 
 Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver också tas emot någonstans för att det ska kunna fungera. Vi behöver lägga till det i koden:
 
-4. Vi skapar ett nytt skript på kodytan, som ska få sprajten att börja dansa när den tar emot meddelandet *Dansa*. Från tema HÄNDELSER drar du in startblocket **När jag tar emot meddelande1** och lägger det fritt på skriptytan. Klicka på den lilla pilen i blocket och välj sen meddelandet **Dansa**. Nu ändras texten i ditt block till **När jag tar emot Dansa**
+4. Vi skapar ett nytt skript på kodytan, som ska få sprajten att börja dansa när den tar emot meddelandet *Dansa*. Från tema HÄNDELSER drar du in startblocket **när jag tar emot meddelande1** och lägger det fritt på skriptytan. Klicka på den lilla pilen i blocket och välj sen meddelandet **Dansa**. Nu ändras texten i ditt block till **när jag tar emot Dansa**
 
   ![image alt text](Block_NärJagTarEmotDansa.png)
   
@@ -138,7 +143,7 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa koden. Vad händer? Byter sprajten mellan klädslar? Går det lite för snabbt?
   
-7. För att göra bytet mellan olika klädslar långsammare kan vi lägga in en liten paus mellan varje byte. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i **för alltid**-loopen direkt under blocket **nästa klädsel**. Klicka sen på variabeln med siffran **1** i blocket och ändra till **0.25** för kortare paustid.
+7. För att göra bytet mellan olika klädslar långsammare kan vi lägga in en liten paus mellan varje byte. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i **för alltid**-loopen. Klicka sen på variabeln med siffran **1** i blocket och ändra till **0.25** för kortare paustid.
 
   ![image alt text](image_8.png)
   
@@ -190,7 +195,7 @@ Nu ska vi se till att själva bakgrunden får en snygg färgeffekt!
 
 1. Klicka på den lilla bilden av din bakgrund nere till höger under ditt projekt där det står **Scen**. Då kommer skriptytan för din bakgrund fram, där du också kan lägga in kod. Bakgrunden kan inte röra på sig, men den kan bytas ut till andra bakgrunder efter ett tag eller ha olika färgeffekter på sig så den blir cool.
 
-  ![image alt text](Bakgrund_välj_scenen.png)
+BILD
 
 2. Från tema HÄNDELSER drar du in meddelandeblocket **när jag tar emot Dansa** Lägg den på bakgrundens tomma skriptyta.
 
@@ -198,9 +203,9 @@ BILD
  
 3. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
 
-4. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti **för alltid**-loopen.
+BILD
 
-När du är färdig ska skriptet se ut såhär:
+4. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti **för alltid**-loopen.
 
 BILD
 
@@ -208,8 +213,10 @@ BILD
 
 > **Testa ditt projekt!** Ändrar bakgrundsbilden på scenen färg? Blev det som du ville?
 
+Nu är ditt projekt färdigt och robotarna dansar loss i ett härligt party! På nästa sida får du förslag på hur du kan pynta vidare och lägga till mer saker i ditt projekt!
+
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+Grattis, nu har du gjort klart uppgiften. Bra kodat!
 
 **Glöm inte att spara ditt projekt!** Om du är inloggad på Scratch kan du spara ditt projekt. Döp det även till något du gillar, kanske till Robotdans? Namnet kan du skriva in högst upp. Klicka gärna på knappen **Dela**, så kan andra se ditt projekt. Om du skickar webadressen (projektets Url) till vänner och familj så kan de testa projektet.
 
@@ -223,7 +230,7 @@ Har du tid över? Här kommer utmaningar för dig som vill fortsätta.
 ### Unika sprajtar
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga?
 
-  ![image alt text](Utmaning_bild_exempel.png)</a>
+BILD
 
 Testa till exempel att:
 
