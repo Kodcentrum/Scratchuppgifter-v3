@@ -106,31 +106,31 @@ Nu har vi bra musik för robotarna att dansa till! Dags att koda in röresle fö
 
 ## 3: Få roboten att dansa
 
-I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelanted tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
+I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
 
-1. Nu ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet ut såhär:
+1. Först ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet på kodytan ut såhär:
 
 ![image alt text](Block_skickaMeddelande.png)
 
-6. Nu ska vi skapa ett nytt meddelande i kodblocket. Klicka på den lilla pilen bredvid texten **meddelande** i kodblocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
+2. Nu ska vi skapa ett nytt meddelande i kodblocket. Klicka på den lilla pilen bredvid texten **meddelande1** i kodblocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. 
 
 ![image alt text](Block_skapa_nytt_meddelande.png)
 
-7. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i kodblocket så det står **skicka Dansa**. 
+3. Skriv in ordet **Dansa** i textrutan och klicka på OK. Nu ändras texten i kodblocket så det står **skicka Dansa**. 
 
 ![image alt text](Skapa_nytt_meddelande_Dansa.png)
 
-Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver okså tas emot någonstans. Vi behöver lägga till det i koden.
+Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver också tas emot någonstans för att det ska kunna fungera. Vi behöver lägga till det i koden:
 
-8. Nu ska vi skapa ett nytt skript till vår sprajt som vi lägger bredvid det första skriptet vi skapat på skriptytan med kod. Detta skript ska få sprajten att börja röra på sig. Från tema HÄNDELSER drar du in startblocket **När jag tar emot meddelande1** och lägger det fritt på skriptytan. Klicka på den lilla pilen i blocket och i menyn som kommer fram väljer du meddelandet **Dansa** som du skapade tidigare. Nu ändras texten i ditt block till **När jat tar emot Dansa**
+4. Vi skapar ett nytt skript på kodytan, som ska få sprajten att börja dansa när den tar emot meddelandet *Dansa*. Från tema HÄNDELSER drar du in startblocket **När jag tar emot meddelande1** och lägger det fritt på skriptytan. Klicka på den lilla pilen i blocket och välj sen meddelandet **Dansa**. Nu ändras texten i ditt block till **När jag tar emot Dansa**
 
   ![image alt text](Block_NärJagTarEmotDansa.png)
   
-9. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in blocket **för alltid**. Sätt fast det under det första blocket med meddelandet **Dansa** som du just lade in.
+5. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in kodblocket **för alltid**. Sätt fast det under det första blocket med meddelandet **Dansa**, så det ser ut såhär:
 
   ![image alt text](loop_byta_klädsel.png)
   
-11. Nu ska vi få sprajten att byta klädslar, eller alltså byta mellan olika bilder av sprajtens olika positioner. Då kommer sprajtens att animeras, alltså se ut att ändra utseende och röra på sig. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger detta block inuti loopen. Nu kommer sprajten att byta klädslar om och om igen, jättesnabbt.
+6. Nu ska vi få sprajten att byta klädslar, alltså att byta mellan olika bilder av sprajtens olika positioner och rörelser. Då kommer sprajten att animeras, alltså se ut att ändra utseende och röra på sig. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen **för alltid**. Om du nu startar koden kommer sprajten att byta klädslar om och om igen, jättesnabbt.
 
   ![image alt text](Block_nästaKlädsel.png)
  
@@ -138,206 +138,82 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa koden. Vad händer? Byter sprajten mellan klädslar? Går det lite för snabbt?
   
-12. För att sakta ned bytet mellan klädslarna kan vi lägga in en liten paus mellan varje byte. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i loopen under blocket **nästa klädsel**. Klicka på variabeln **1** i blocket och ändra till **0.25** för kortare väntetid.
+7. För att göra bytet mellan olika klädslar långsammare kan vi lägga in en liten paus mellan varje byte. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg in det i **för alltid**-loopen direkt under blocket **nästa klädsel**. Klicka sen på variabeln med siffran **1** i blocket och ändra till **0.25** för kortare paustid.
 
   ![image alt text](image_8.png)
   
->**Tänk på!** I Scratch skrivs siffror med en punkt ( . ) mellan heltal och decimaler, inte med kommatecken ( , ). Exempelvis **O.25**). Annars fungerar inte koden.
+>**Tänk på!** I Scratch skrivs siffror med en punkt ( . ) mellan heltal och decimaler, inte med kommatecken ( , ). Exempelvis **O.25**. Annars fungerar inte koden.
 
->**Testa koden!** Klicka på den gröna flaggan ovanför scenen och tsta koden. Vad händer? Hörs musiken? Dansar robotsprajten? Går bytet mellan klädslarna lagom fort? Testa att byta ut hur länge den ska vänta mellan klädselbyten.
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa koden. Vad händer? Hörs musiken? Dansar robotsprajten? Går bytet mellan klädslarna lagom fort? Testa att ändra till olika lång väntetid mellan sprajtens klädselbyten så det blir som du vill ha det.
 
 Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik! Det är dags att få den andra robotsprajten att dansa med!
 
 ## 4: Alla dansar tillsammans
-fksfksfkl
 
-
-## : Dansen är slut
-
-För att sprajten ska sluta dansa när melodin är slut, måste du koda den att göra det. Det kan du fixa med ett nytt **meddelande** som berättar att dansen är slut, så att sprajten kan säga en hälsning, exempelvis *"Glad Påsk"* och sluta dansa.
-
-<video src="./Påskkort_4.mp4" controls muted height=480 width=640 />
+Nu vill vi att den andra robotsprajten ska dansa också! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript. Då börjar vi koda!
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
-- Skapa ett till meddelande
-- Stoppa skriptet
-- Lägga in en operator och sammanfoga ett svarsmeddelande
+- Skapa skript med byte av klädslar i den andra sprajten
+- Skapa mer rörelse för sprajten
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Först ska vi lägga in kod för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Fäst blocket i det första större skriptet i sprajten, såhär:
+1. Nu ska du skapa skript med kod på den andra sprajten i projektet. Klicka på de små bilderna av sprajtarna under scenen med ditt projekt för att byta till andra sprajten som du vill koda. Från tema HÄNDELSER drar du in kodblocket **när jag tar emot Dansa**. Lägg det någonstans på kodytan för den andra robotsprajten.
 
-  ![image alt text](Block_meddelande2.png)
+BILD
 
-2. Sen skapar vi ett nytt meddelande. Klicka på lilla pilen i meddelande-blocket och klicka på **Nytt meddelande**. Döp det till *Dansen slut*.
+2. Från tema KONTROLL drar du in en **för alltid**-loop. sätt den direkt under det första kodblocket.
 
-3. Nu ska vi skapa ett helt nytt skript bredvid de andra. Från tema HÄNDELSER drar du ut **När jag tar emot meddelande1** och lägger det fritt på skriptytan som ett nytt skript. Klicka på lilla pilen i blocket och byt till meddelandet *Dansen slut*. 
+BILD
 
-  ![image alt text](Block_dansen_slut.png)
-
-4. Från tema KONTROLL tar du blocket **stoppa alla**. Lägg det direkt under det förra blocket du lade in. Klicka på lilla pilen i blocket och byt till **andra skript i sprajten**.
-
-  ![image alt text](Block_stoppa_alla_ändra.png)
-
-5. Nu ska vi koda så att sprajten säger något på slutet och lägger in namnet du skrev in i början. Från tema UTSEENDE drar du in blocket **säg Hej! i 2 sekunder**. Fäst det under det förra blocket du lade in, såhär:
-
-  ![image alt text](Block_sägheji2sekunder_slutreplik.png)
-  
-6. Nu ska vi lägga in en operator. Det är ett block som kan göra beräkningar i koden, exempelvis sätta ihop olika saker. Från tema OPERATORER drar du ut det gröna blocket som heter **sammanfoga äpple och banan**. Lägg det inuti textbubblan i förra blocket där det står **Hej!**. 
-
-  ![image alt text](Block_operator_sammanfoga_lägg_in.png)  
-
-> **Tips** Svårt att lägga in operatorblocket? Gör såhär: dra operatorblockets ena kant snett in över texten Hej! och när det visas en vit ring runt texten Hej! så kan du släppa. Då fäster operatorblocket inne i textcirkeln.
-
-8. Klicka på texten **äpple** i det gröna blocket och skriv istället **Glad Påsk**. (lägg till ett mellanslag efter Glad påsk, så blir det mellanrum mellan Glad Påsk och nästa ord som sen ska komma.)
-
-  ![image alt text](Block_operator_text_GladPåsk.png)  
-  
-7. Nu ska vi lägga in svaret på projektets första fråga *Vad heter du?*, som sprajten ställde i början. Från tema KÄNNA AV drar du in lilla blocket **Svar** och lägger det inuti den gröna operator-blockets andra textcirkel, där det nu står *banan*. Såhär:
-
-  ![image alt text](Block_svar_in_i_operator_slutreplik.png)  
-  
-
-När du är färdig ska koden se ut såhär:
-
-  ![image alt text](image_9.png)
-
-> **Testa ditt projekt!** Slutar sprajten att röra sig när melodin är slut? Säger pingvinen _"Glad Påsk"_ och det namn som du skrev in när kortet frågade _"Vad heter du?"_ i början?
-
-Nu vill vi att alla sprajtar ska röra på sig och dansa loss! Vi kodar vidare!
-
-## 5: Alla ska dansa!
-
-Nu vill vi att de två andra sprajtarna ska dansa också! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript. Då börjar vi koda!
-<video src="./Påskkort_5.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Skapa skript med byte av klädslar i de andra två sprajterna
-- Skapa mer rörelse av sprajt
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Nu ska du skapa två skript vardera på de andra sprajtarna i projektet. Klicka på de små bilderna av sprajtarna under scenen med ditt projekt för att byta till ny figur att koda. Skapa skripten du ser i bilden nedan på vardera sprajt. 
-
-  ![image alt text](image_10.png)
-
-2. Du bestämmer själv vad som ska hända när sprajtarna **tar emot** meddelandet *Dansa* och meddelandet *Dansen slut*. Sprajtarna kan röra sig genom att byta klädslar, kanske glida till ny position eller säga något med pratbubbla de med? Testa dig fram.
-Såhär kan till exempel ett skript se ut om du vill att något ska glida till olika slumpvisa ställen. 
+3. Nu ska vi få roboten att glida till olika ställen på scenen. Från tema RÖRELSE drar du in kodblocket **glid 2 sekunder till slumpmässig position**. Lägg detta block inuti **för alltid**-loopen. 
 
   ![image alt text](Skript_glid_slumpposition.png)
 
-> **Testa ditt projekt!** Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
+>**Tips!** Du bestämmer själv vad som ska hända när sprajtarna **tar emot** meddelandet *Dansa*. Sprajtarna kan röra sig genom att byta klädslar, kanske glida till ny position eller säga något med en pratbubbla? Testa dig fram.
 
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa ditt projekt. Vad händer? Rör sig båda robotarna? Dansar de lagom fort? Ser dansen och projektet ut som du vill? Vill du att robotarna ska göra något mer? Du kan alltid ändra i koden och bygga vidare med mer kodbitar.
 
-## 6: Pynta påskkortet
-
-Du har dansande sprajtar och musik, men det finns alltid plats för lite mer bling och pynt på vykortet! Kanske ska en annan sprajt dyka upp när musiken tar slut, en snöflinga, en stjärna eller annan figur? 
-<video src="./Påskkort_6.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg till en ny sprajt
-- Skapa ett skript som gömmer sprajten när projektet startar
-- Låta sprajten ta emot ett meddelande och för alltid byta klädslar
-- Låta sprajten ta emot ett meddelande och gömma sig igen
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Börja med en sprajt som ska vara osynlig i början men dyka upp på slutet, exempelvis ett hjärta. Lägg då till sprajten **Heart** från biblioteket och placera den där du vill ha den på scenen.
-
-  ![image alt text](Ny_sprajt_hjärta.png)
-
-2. Nu ska vi koda när den nya sprajten ska vara gömd och när den ska synas. Från tema HÄNDELSER drar du ut blocket **när GRÖNA FLAGGAN klickas på** och lägger den på den nya sprajtens skriptyta. 
-
-  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
-
-3. Från tema UTSEENDE drar du ut blocket **göm** och sätter fast den under blocket med gröna flaggan. 
-
-  ![image alt text](Skript_göm.png)
-
-4. Från tema HÄNDELSER drar du in blocket **när jag tar emot Dansa** (alltså ett meddelande). Lägg det fritt på sprajtens skriptyta bredvid det första skriptet. 
-
-  ![image alt text](Block_när_jag_tar_emot_Dansa.png)
-  
-5. Från tema UTSEENDE drar du in lilla blocket **visa** och fäster det under förra blocket. 
-
-  ![image alt text](Skript_dansa_visa.png)
-
-5. Från tema KONTROLL drar du ut blocket **för alltid**, som alltså är en loop. Fäst det under det förra blocket du drog in. 
-
-  ![image alt text](Skript_visa_loop.png)
-
-6. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen.
-
-  ![image alt text](Skript_visa_loop_nästaKlädsel.png)
-  
-7. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det längst ned innanför loopen. Klicka på variabeln **1** och ändra till **0.25**. 
-
-  ![image alt text](Skript_visa_loop_nästaKlädsel_vänta.png)
-  
-8. Om du vill att sprajten ska försvinna igen när musiken tar slut drar du från tema HÄNDELSER in blocket **när jag tar emot Dansa**. Lägg det fritt på skriptytan bredvid de andra skripten. Klicka på lilla pilen i blocket och byt medelandet till **Dansen slut**. 
-
-  ![image alt text](Meddelande_byt_till_Dansen_slut.png)
-
-9. Från tema UTSEENDE drar du sen in blocket **göm** och fäst det direkt under blocket du just drog in. Då ser skriptet ut såhär. 
-
-  ![image alt text](skript_Dansen_slut_göm.png)
-
-> **Testa koden!** Fungerar projektet som du vill? Gömmer sig och visar sig sprajten som den ska? Tips: om något inte fungerar, gå igenom koden och läs den högt så kan man enklare hitta felet. Kontrollera att du valt rätt meddelande i de olika skripten.
-
-## 7: Blinga bakgrundsbilden
+## 5: Effekter på bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
-<video src="./Påskkort_7.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Koda scenens bakgrundsbild att ta emot ett meddelande
 - Koda att bilden för alltid ska ändra färgeffekt
-- Stoppa skriptet
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Klicka på lilla bilden av din bakgrund nere till höger under ditt projekt där det står **Scen**. Då kommer skriptytan för din bakgrund fram, där du kan lägga in kod.
+1. Klicka på den lilla bilden av din bakgrund nere till höger under ditt projekt där det står **Scen**. Då kommer skriptytan för din bakgrund fram, där du också kan lägga in kod. Bakgrunden kan inte röra på sig, men den kan bytas ut till andra bakgrunder efter ett tag eller ha olika färgeffekter på sig så den blir cool.
 
   ![image alt text](Bakgrund_välj_scenen.png)
 
-2. Från tema HÄNDELSER drar du in två meddelandeblock med **när jag tar emot Dansa** Lägg dem bredvid varandra på bakgrundens tomma skriptyta. Ändra så att ett block har meddelandet **Dansa** och det andra har meddelandet **Dansen slut**, så det ser ut såhär:
+2. Från tema HÄNDELSER drar du in meddelandeblocket **när jag tar emot Dansa** Lägg den på bakgrundens tomma skriptyta.
 
-  ![image alt text](Bakgrund_skript_meddelanden.png)
-  
+BILD 
+ 
 3. Från tema KONTROLL drar du in blocket **för alltid**, alltså en loop, och fäster det under blocket **när jag tar emot Dansa**.
 
-5. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti loopen.
-
-6. Från tema KONTROLL drar du in blocket **vänta 1 sekunder**. Lägg det nederst inuti loopen. Klicka på variablen **1** i blocket och skriv **2** istället. 
+4. Från tema UTSEENDE drar du in blocket **ändra färgeffekten med 25** och lägger den inuti **för alltid**-loopen.
 
 När du är färdig ska skriptet se ut såhär:
 
-  ![image alt text](Skript_ändra_färgeffekt.png)
+BILD
 
-7. Från tema KONTROLL drar du in skriptet **stoppa alla**. Fäst det under blocket **när jag tar emot Dansen slut**. Klicka på lilla pilen i blocket och ändra till **stoppa andra skript i sprajten**. 
+>**Tips!** Vill du att bakgrunden ska växla färg långsammare? Då kan du lägga till ett vänta-block från tema HÄNDELSER inuti loopen. Kanske 0.25 sekunder är lagom lång väntetid?
 
-  ![image alt text](Skript_stoppa_andra_skript_i_sprajten.png)
-
-> **Testa ditt projekt!** Ändrar bakgrundsbilden på scenen färg? Slutar den ändra färg när musiken är slut?
+> **Testa ditt projekt!** Ändrar bakgrundsbilden på scenen färg? Blev det som du ville?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp ditt Påskkortsprojekt högst upp. Klicka gärna på **Dela** så kan andra se ditt Påskkort och projekt. Om du skickar webadressen (projektets Url) till vänner så kan de testa projektet.
+**Glöm inte att spara ditt projekt!** Om du är inloggad på Scratch kan du spara ditt projekt. Döp det även till något du gillar, kanske till Robotdans? Namnet kan du skriva in högst upp. Klicka gärna på knappen **Dela**, så kan andra se ditt projekt. Om du skickar webadressen (projektets Url) till vänner och familj så kan de testa projektet.
 
-  ![image alt text](Namnge_dela.png)
+BILD
 
 > **Testa ditt projekt** och låt gärna andra få prova!
 
@@ -346,22 +222,18 @@ Har du tid över? Här kommer utmaningar för dig som vill fortsätta.
 
 ### Unika sprajtar
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga?
-<a href="https://scratch.mit.edu/projects/383506646" target="_blank">
+
   ![image alt text](Utmaning_bild_exempel.png)</a>
 
 Testa till exempel att:
 
 * Lägg till pratbubblor på sprajtarna så de säger olika saker
 
-* Ändra färgeffekt under dansen (på samma sätt som du gjorde med bakgrunden)
-
 * Ändra storlek på sprajten så den blir exempelvis större eller mindre medan musiken spelas
 
-* Lägg till rotation så att sprajtarna vrider på sig
+* Lägg till rotation så att sprajtarna vänder sig runt, runt
 
-* Ändra hur fort dom dansar
-
-* låt sprajter glida till slumpvisa positioner
+* Ändra hur fort sprajtarna dansar
 
 * Rita till objekt eller ändra färger på olika klädslar i dina sprajter
 
