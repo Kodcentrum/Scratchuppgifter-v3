@@ -28,7 +28,7 @@ Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan
 
  ![image alt text](Scratch_webb_tryck_pa_skapa.png)
 
-2. Ser du katten på den tomma scenen till höger. Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir helt tom.
+2. Ser du katten på den tomma scenen till höger? Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir helt tom.
 
  ![image alt text](ikon_radera_katt.png)
   
@@ -79,6 +79,7 @@ Nu ska vi koda så den första robotsprajten får några rörelser och lägga ti
   ![image alt text](Sprajtar_små_ikoner_aktivera.png)
 
 >**Tips!** Den sprajt du valt syns även som en gråtonad bild i övre högra hörnet av den stora tomma skriptytan i mitten av Scratch, till vänster om scenen. På så sätt kan du se vilken sprajt det är som du just nu kodar. Det är på skriptytan som du ska lägga in koden som sen styr din sprajt.
+
   ![image alt text](Skriptyta_sprajt_vald.png)
 
 2. Först ska vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Dra i detta block och lägg det någonstans på den tomma vita skriptytan i mitten av Scratch. 
@@ -107,7 +108,7 @@ Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Men det kanske i
 
  ![image alt text](image_41.png)
  
-7. Enklaste sättet att hitta musik som passar att loopas om och om igen är om du klickar på kategorin som heter **loopar**. Den finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Music* i vårt exempel.
+7. Enklaste sättet att hitta musik som passar att loopas om och om igen är om du klickar på kategorin som heter **loopar**. Den finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Magic* i vårt exempel.
 
   ![image alt text](Ljud_lyssna.png)
 
@@ -115,7 +116,7 @@ Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Men det kanske i
 
   ![image alt text](Flik_KOD.png)
   
-9. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Music* i vårt exempel.
+9. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Magic* i vårt exempel.
 
   ![image alt text](Block_ljud_bytmusik.png)
 
