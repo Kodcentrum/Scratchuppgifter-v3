@@ -126,7 +126,7 @@ Nu har vi bra musik för robotarna att dansa till! Dags att koda in röresle fö
 
 ## 3: Få roboten att dansa
 
-I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
+I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan tänkas vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
 
 1. Först ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet på kodytan ut såhär:
 
@@ -175,7 +175,7 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 ## 4: Alla dansar tillsammans
 
-Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ansvända. Det kallas för en FUNKTION och är en del av programmet som kan anropas och återanvändas flera gånger och från flera olika skript. Då börjar vi koda!
+Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Det kallas för en FUNKTION och är en del av programmet som kan anropas och återanvändas flera gånger och från flera olika skript. Då börjar vi koda!
 
 >**VAD SKA JAG GÖRA?**
 
