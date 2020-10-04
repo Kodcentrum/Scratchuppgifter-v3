@@ -22,10 +22,11 @@ Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan
 - Välj en till sprajt
 - Minska eller öka storleken på sprajtarna om du vill
 
-<br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 1. Tryck på **Skapa** på Scratch startsida för ett skapa ett nytt projekt. Se gärna till att du är inloggad på Scratch, så kan du spara ditt projekt även.
+
+ ![image alt text](Scratch_webb_tryck_pa_skapa.png)
 
 2. Ser du katten på den tomma scenen till höger. Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir helt tom.
 
@@ -35,15 +36,23 @@ Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan
 
   ![image alt text](Ny_Sprajt-knapp.png)
   
-Nu har du en robot som din sprajt på scenen. Vi går vidare och lägger till en bakgrundsbild.
+Nu har du en robot som din sprajt på scenen. 
+
+  ![image alt text](robotsprajt_scen_bild.png)
+
+Vi går vidare och lägger till en bakgrundsbild.
 
 4. Klicka på ikonen för **Välj en bakgrund** som finns längst ned till höger under scenen och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Concert"**. 
 
   ![image alt text](Ny_Bakgrund-knapp.png)
   
->**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du hittar om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **KOD** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
+>**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du hittar om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **Kod** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
+  ![image alt text](MalaNySprajt.png)
+  ![image alt text](Mflik_kod_tillbaka.png)
+  
+5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). Dra sen i de två sprajtfigurerna på scenen och ställ dem där du vill ha dem, så att de står bredvid varandra. Ge dem lite utrymme att att röra på sig.
 
-5. Klicka nu på **Välj en sprajt** och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). Dra i de två sprajtfigurerna på scenen så att de står bredvid varandra eller där du vill ha dem. Ge dem lite utrymme att att röra på sig.
+  ![image alt text](exempelprojekt_0.png)
 
 6. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Under scenen med sprajtarna finner du texten **Storlek** och bredvid står det **100** - alltså 100% full storlek. Klicka på siffrorna och skriv istället in ett lägre eller högre procenttal, klicka sedan någonstans bredvid siffran du just skrev så ändras sprajtens storlek på scenen. Pröva dig fram till en storlek du gillar. För att ändra den andra sprajten markerar du den lilla bilden av den sprajten under scenen och ändrar dess storlek på likadant sätt som den första.
 
