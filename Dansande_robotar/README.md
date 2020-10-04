@@ -175,7 +175,7 @@ Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till
 
 ## 4: Alla dansar tillsammans
 
-Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Det kallas för en FUNKTION och är en del av programmet som kan anropas och återanvändas flera gånger och från flera olika skript. Då börjar vi koda!
+Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Då börjar vi koda!
 
 >**VAD SKA JAG GÖRA?**
 
@@ -211,7 +211,7 @@ Nu ska vi se till att själva bakgrunden får en snygg färgeffekt!
 >**VAD SKA JAG GÖRA?**
 
 - Koda scenens bakgrundsbild att ta emot ett meddelande
-- Koda att bilden för alltid ska ändra färgeffekt
+- Koda så att bilden för alltid ska ändra färgeffekt
 
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -256,11 +256,11 @@ Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga
 
 Testa till exempel att:
 
-* Lägg till pratbubblor på sprajtarna så de säger olika saker
+* Lägga till pratbubblor på sprajtarna så de säger olika saker
 
 * Ändra storlek på sprajten så den blir exempelvis större eller mindre medan musiken spelas
 
-* Lägg till rotation så att sprajtarna vänder sig runt, runt
+* Lägga till rotation så att sprajtarna vänder sig runt, runt
 
 * Ändra hur fort sprajtarna dansar
 
