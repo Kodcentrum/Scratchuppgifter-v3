@@ -49,6 +49,7 @@ Vi går vidare och lägger till en bakgrundsbild.
 >**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du hittar om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **Kod** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen. Se de två bilderna:
 
 *Bilder till tipset ovan*
+
   ![image alt text](MalaNySprajt.png)  ![image alt text](flik_kod_tillbaka.png)
   
 5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). 
@@ -82,6 +83,7 @@ Nu ska vi koda så den första robotsprajten får några rörelser och lägga ti
 >**Tips!** Den sprajt du valt syns även som en gråtonad bild i övre högra hörnet av den stora tomma skriptytan i mitten av Scratch, till vänster om scenen. På så sätt kan du se vilken sprajt det är som du just nu kodar. Det är på skriptytan som du ska lägga in koden som sen styr din sprajt. Se bilden:
 
 *Bild till tipset ovan:*
+
   ![image alt text](Skriptyta_sprajt_vald.png)
 
 2. Först ska vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Dra i detta block och lägg det någonstans på den tomma vita skriptytan i mitten av Scratch. 
@@ -163,6 +165,7 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 >**Tänk på!** En del sprajtar saknar fler klädslar och kommer därför inte fungera med koden ovan. Du vet om du har en sprajt med klädslar om den rörde på sig när du valde ny sprajt i Scratch sprajtbibliotek. Du kan även kolla sprajtens olika klädslar om du klickar på fliken som heter **Klädslar** i övre vänstra delen av Scratch. Om sprajten har fler än en klädsel så ser du dem nu i vänstra delen av Scratch, med flera bilder av sprajten under varandra. Gå sen tillbaka till kodytan på fliken bredvid som heter **Kod**. Se bild nedan:
 
 *Bild till tipset ovan*
+
 ![image alt text](Flik_Klädslar_pilar.png)
   
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa koden. Vad händer? Byter sprajten mellan klädslar? Går det lite för snabbt?
