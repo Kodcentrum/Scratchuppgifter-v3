@@ -50,7 +50,9 @@ Vi går vidare och lägger till en bakgrundsbild.
 
   ![image alt text](MalaNySprajt.png)  ![image alt text](flik_kod_tillbaka.png)
   
-5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). Dra sen i de två sprajtfigurerna på scenen och ställ dem där du vill ha dem, så att de står bredvid varandra. Ge dem lite utrymme att att röra på sig.
+5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). 
+
+Dra sen i de två sprajtfigurerna på scenen och ställ dem där du vill ha dem, så att de står bredvid varandra. Ge dem lite utrymme att att röra på sig.
 
   ![image alt text](exempelprojekt_0.png)
 
@@ -59,7 +61,6 @@ Vi går vidare och lägger till en bakgrundsbild.
   ![image alt text](Ändra_Storlek_Sprajt.png)
 
 Nu har du två sprajtar och en bakgrund. Dax att börja koda dansen!
-
 
 ## 2: Musik att dansa till
 
