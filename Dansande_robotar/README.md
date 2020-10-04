@@ -47,8 +47,8 @@ Vi går vidare och lägger till en bakgrundsbild.
   ![image alt text](Ny_Bakgrund-knapp.png)
   
 >**Tips!** Du kan även välja att rita en egen bakgrund med ritverktyget, som du hittar om du håller muspekaren över knappen **Välj en bakgrund** och sen klickar på målarpenseln i menyn som kommer upp. Innan du börjar måla, klicka först på blå knappen under målarytan som heter **Gör till Bitmap**. Sen kan du börja måla. När du är klar, gå tillbaka ut ur ritverktyget genom att klicka på fliken som heter **Kod** högst upp till vänster i Scratch och aktivera din robot-sprajt igen, genom att klicka på den lilla bilden av din sprajt under scenen.
-  ![image alt text](MalaNySprajt.png)
-  ![image alt text](flik_kod_tillbaka.png)
+
+  ![image alt text](MalaNySprajt.png)  ![image alt text](flik_kod_tillbaka.png)
   
 5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). Dra sen i de två sprajtfigurerna på scenen och ställ dem där du vill ha dem, så att de står bredvid varandra. Ge dem lite utrymme att att röra på sig.
 
