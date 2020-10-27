@@ -1,54 +1,119 @@
-# Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over!
+# Börja koda med Scratch - introuppgift
+I denna enkla introuppgift får du prova på några första steg av kodning i verktyget Scratch.  
 
-Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
+**Ordlista för Scratch**
+**SPRAJT:** En sprajt är en figur eller bilder av saker och ting som du väljer att lägga in i ditt Scratchprojekt. Alla sprajtar kan påverkas och styras med kod som du väljer att lägga till. 
+**KOD:** Kod är det du använder när du programmerar. Med hjälp av kod kan du ge instruktioner till dina sprajtar och projektet i sin helhet för vad som ska hända i det, exempelvis att en sprajt ska börja röra på sig. Koden i Scratch ser ut som små pusselbitar som kan pusslas ihop. 
+**SKRIPT:** När du byggt ihop olika kod-bitar bildar de tillsammans ett skript. Du kan skapa flera olika skript inom projektet, som alla tillsammans styr olika delar inom projektet, exempelvis olika sprajtfigurers rörelser, musik som spelas och bakgrundsbilder som ändras. 
+**PROGRAM:** All kod och skript som finns i projektet ingår i projektets program - alltså det som styr hur hela projektet ska fungera i sin helhet.
+**ANIMATION & KLÄDSLAR:** I Scratch kan man skapa **animation**, alltså att figurer och bilder ser ut att röra på sig eller ändra utseende när projektet startats. Detta görs genom att olika bilder av sprajten (så kallade **klädslar**) kodas till att snabbt växlas mellan och därmed ser sprajtarna ut att kunna röra på sig mellan olika positioner eller utseenden, exempelvis att ett öga ser ut att blinka om du växlar flera gånger mellan en bild med ett öppet öga och en bild med ett stängt öga, och tillbaka igen. 
+
+Testa ett exempelprojekt nedan: <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på **Skapa** för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt efteråt. Saknar du konto på Scratch? Klicka på **Gå med Scratch** och skaffa enkelt och gratis ett konto där.
+    ![image alt text](Scratch_sajt.png) 
 </br>
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
 ## 1: Välj ny sprajtfigur
 
-Byt ut katt-sprajten till ny sprajt - en skalbagge!
+Byt ut katt-sprajten till ny sprajt-figur - tillexempelvis en skalbagge!
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Ta bort kattfiguren
-- Välj ny sprajt
+- Ta bort kattfiguren från projektet
+- Välja en ny sprajt-figur (exempelvis en skalbagge)
 - Minska sprajtens storlek
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
-
 Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
 
-1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den.
+1. Tryck på **soptunnan på lilla rutan med kattfiguren** så försvinner den ur projektet.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
+2. Nu vill du lägga till en ny sprajt. Tryck på knappen för **Välj en sprajt** som finns under den **scenen** med den vita bakgrunden:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
+3. Nu kommer du in i Scratch sprajtbibliotek. Här finns marros av sprajt-figurer att välja mellan. Klicka på den sprajt du vill ha så läggs den till i ditt projekt.
 
-3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+>**Tips!** I menyn längst upp finns olika kategorier som du kan välja för att lättare hitta det du vill ha, exempelvis *Djur* och *Mat*. Det finns också en sökfunktion.
+
+4. Sprajten du just lagt till är ganska stor, så om du vill kan du minska storleken på den. Under scenen med sprajten finner du rubriken **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 70. Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
+Nu har du lagt till en sprajt och det är dags att den ska börja röra på sig. Vi behöver ge den kod med instruktioner!
+
 Klicka dig vidare till kapitel 2.
 
+## 2: Sprajten rör på sig
+Sprajten kan inte röra på sig, då den inte har några instruktioner om hur den ska göra. Den skapar du med de små pusselbitarna med kod.Dax att koda rörelse.
+<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
-## 2: Färglägg bakgrunden och rita en bana
-Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägga in kod för start-block: *När GRÖN FLAGGA klickas på*
+- Lägga in kod för RÖRELSE: *Gå 10 steg*
+- Lägga in kod för KONTROLL: *För alltid* (en loop)
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med dig sprajtfigur? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
+
+  ![image alt text](START_STOPP-funktion.png)
+
+Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
+
+"När jag trycker på START-flaggan, ska sprajten röra sig framåt."
+
+Gör såhär:
+
+1. Längst till vänster hittar du olika färgade rubriker. Om man klickar på rubrikerna kommer olka färgade pusselbitar fram bredvid. Klicka på den gula rubriken som heter **HÄNDELSER** och välj pusselbiten som har en grön flagga på sig och som heter **"när START (grön flagga) klickas på"**. Ta tag pusselbiten och dra detta kodblock ut till den stora, tomma skriptytan i mitten av Scratch. Släpp kodblocket där. 
+
+  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
+  
+Nu har du lagt in ett så kallat **start-block** i ditt projekt. Men det behövs mer kod för att prajten ska veta vad den ska göra när den gröna flaggan klickats på. Vi kodar vidare.
+
+2. Välj nu den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till skriptytan och fäst det  direkt under det första kodblocket som ligger där. Koppla ihop dem som pusselbitar.
+
+  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
+
+> Tips: om man för två block nära varandra på skriptytan så dyker en grå skugga upp. Då kan du släppa kodblocket du håller i så kopplar blocken automatiskt ihop sig som pusselbitar.
+
+  ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
+
+>**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger nr du klickat på startknappen? Prova fler gånger, vad händer?
+
+2. Nu ska vi koda så att sprajten rör sig framåt hela tiden efter att du tryckt på startknappen. Under den orangea rubriken som heter **KONTROLL** finns kodblocket som heter **"för alltid"**. Detta kodblock är en **loop**, alltså en **repetition** av något som sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid ända tills du stoppar koden med stoppknappen.
+Dra in **"för alltid"**-loopen och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så blocket **"gå 10 steg"** hamnar inuti blocket med **för alltid**-loopen. Kolla på bilden nedan så ser du hur du ska göra.
+
+  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
+
+  _För att sprajten ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
+
+>**Testa koden!** Tryck på START-knappen för projektet. Nu blir det fart på sprajten som springer iväg åt höger! 
+
+3. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa? Du mpste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
+
+3. Går sprajten för fort framåt? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket dom heter **gå 10 steg**. . Klicka på siffran 10 och ändra till en lägre siffra, exempelvis 5. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
+
+  ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
+
+
+## 3: Rita en bakgrund
+Du ska nu rita en bakgrund som sprajten kan springa på.
 <video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
 
 
@@ -91,63 +156,6 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
-
-## 3: Sprajten rör på sig
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
-
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Välj KOD och din sprajt för att kunna börja koda
-- Lägg in kod för start-block: När GRÖN FLAGGA klickas på
-- Lägg in kod för RÖRELSE: Gå 10 steg
-- Lägg in kod för KONTROLL: För alltid (en loop)
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
-
-Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
-
-Tryck på KOD-fliken högst upp till vänster. Nu kommer du bort från målarverktyget och tillbaka till vita ytan där du kan bygga din kod för spelet.
-
-Har du lagt märke till START- och STOPP-knappen än? **Den gröna flaggan** betyder är en start-knapp och **den röda knappen** är en stopp-knapp.
-
-  ![image alt text](START_STOPP-funktion.png)
-
-Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för skalbaggen vad den ska göra, annars händer ingenting. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
-
-"När jag trycker på START-flaggan, ska skalbaggen röra sig."
-
-Gör såhär:
-
-1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
-
-  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
-
-Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj blocket **"gå 10 steg"**. Lägg detta block direkt under det första blocket med den gröna flaggan på scriptytan och koppla ihop dem som pusselbitar.
-
-  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
-
-> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa så kopplar blocken automatiskt ihop sig som pusselbitar.
-
-  ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
-
-> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
-
-2. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
-Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
-
-  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
-
-  _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
-
-> Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
-
-  ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 
 
 ## 4: Sätt en Startposition
