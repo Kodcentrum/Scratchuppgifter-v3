@@ -63,6 +63,7 @@ Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
+**Nästa steg:**
 Nu har du lagt till en ny sprajt och det är dax att koda så den kan röra på sig. För att det ska fungera behöver vi ge sprajten kod med instruktioner hur den ska göra!
 
 Klicka dig vidare till kapitel 2.
@@ -116,6 +117,11 @@ Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på 
 7. Måla nu en rak väg på ritytan med penseln och den nya färgen. Strecket ska bli ganska tjockt så sprajten får plats på vägen.
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
+
+**Nästa steg:**
+Nu har vi en sprajt och en bakgrund. Dax att börja koda så att sprajten kan röra på sig!
+
+Klicka på kapitel 3 och gå vidare.
 
 
 ## 3: Sprajten rör på sig
@@ -176,9 +182,13 @@ Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"n�
 ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 </br>
 
+**Nästa steg:**
+Nu har vi en sprajt som springer på vägen. Men den fastnar vid kanten. Dags att sätta in en startposition.
+
+Klicka på kapitel 4 för att gå vidare.
 
 ## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen varje gång du vill starta spelet, kan du koda in att sprajten alltid ska starta på en bestämd plats.
+För att slippa dra tillbaka skalbaggen varje gång du startar spelet så kan du koda sprajten att alltid starta på en bestämd plats på scenen. För detta använder vi oss av sprajtens x och y-koordinater.
 <video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
 
 
@@ -191,13 +201,13 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Dra sprajten till den position där du vill att den ska starta på vägen när spelet börjar. 
+1. Dra sprajten till den plats där du vill att den ska starta på vägen. 
 
-2. Klicka på tema **RÖRELSE** och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under gula blocket som heter **"när START klickas på"**. De siffror (värden) som står i blocket vid X och Y är **KOORDINATERNA** för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+2. Klicka på tema **RÖRELSE** till vänster och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under gula blocket som heter **"när START klickas på"**. De siffror (värden) som står i blocket vid X och Y är **KOORDINATERNA** för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
-Nu kommer skalbaggen automatiskt att ställa sig på samma startposition varje gång du trycker på gröna START-flaggan.
+Nu kommer skalbaggen att ställa sig på samma startposition varje gång du trycker på den gröna START-flaggan ovanför scenen.
 
 >**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Går den lagom fort?
 
@@ -205,8 +215,8 @@ Nu kommer skalbaggen automatiskt att ställa sig på samma startposition varje g
 
 
 ## Färdig!
-Grattis, nu har du skapat ditt första projekt i Scratch och kodat ditt första program med ett skript som styr en sprajt! 
-Nu har du lärt dig lite grunder i Scratch och kan ta dig an lite större projekt!
+Grattis!
+Nu har du lärt dig grunderna i Scratch och kan ta dig an lite större projekt!
 
 
 ## Frågeställningar
