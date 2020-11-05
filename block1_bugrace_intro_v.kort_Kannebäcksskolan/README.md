@@ -1,13 +1,6 @@
 # Börja koda med Scratch - introuppgift
 I denna enkla introuppgift får du prova på några första steg av kodning i verktyget Scratch.  
 
-**Ordlista för Scratch**
-**SPRAJT:** En sprajt är en figur eller bilder av saker och ting som du väljer att lägga in i ditt Scratchprojekt. Alla sprajtar kan påverkas och styras med kod som du väljer att lägga till. 
-**KOD:** Kod är det du använder när du programmerar. Med hjälp av kod kan du ge instruktioner till dina sprajtar och projektet i sin helhet för vad som ska hända i det, exempelvis att en sprajt ska börja röra på sig. Koden i Scratch ser ut som små pusselbitar som kan pusslas ihop. 
-**SKRIPT:** När du byggt ihop olika kod-bitar bildar de tillsammans ett skript. Du kan skapa flera olika skript inom projektet, som alla tillsammans styr olika delar inom projektet, exempelvis olika sprajtfigurers rörelser, musik som spelas och bakgrundsbilder som ändras. 
-**PROGRAM:** All kod och skript som finns i projektet ingår i projektets program - alltså det som styr hur hela projektet ska fungera i sin helhet.
-**ANIMATION & KLÄDSLAR:** I Scratch kan man skapa **animation**, alltså att figurer och bilder ser ut att röra på sig eller ändra utseende när projektet startats. Detta görs genom att olika bilder av sprajten (så kallade **klädslar**) kodas till att snabbt växlas mellan och därmed ser sprajtarna ut att kunna röra på sig mellan olika positioner eller utseenden, exempelvis att ett öga ser ut att blinka om du växlar flera gånger mellan en bild med ett öppet öga och en bild med ett stängt öga, och tillbaka igen. 
-
 Testa ett exempelprojekt nedan: <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
 > **HUR KODAR JAG?** 
