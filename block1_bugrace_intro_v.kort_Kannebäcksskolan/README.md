@@ -188,9 +188,9 @@ Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock 
 
 4. Vi vill att sprajten ska röra sig framåt hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till ett kodblock som repeterar rörelsen framåt om och om igen - alltså en loop i koden. Gör såhär: 
 
-Klicka på det orangea temat som heter **KONTROLL**. Här finner du kodblocket som heter **"för alltid"**. Detta kodblock kan repetera kod som läggs inuti den, alltså en **loop** som gör att koden sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid - tills du stoppar koden.
+Klicka på det orangea temat som heter **KONTROLL**. Här finner du kodblocket som heter **"för alltid"**. Detta block kan repetera kod som läggs inuti den, alltså en **loop** som gör att koden sker om och om igen.
 
-Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå rörelseblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
+Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå rörelseblocket **"gå 10 steg"** lägger sig inuti loopen. Då ser det ut som i bilden nedan:
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
