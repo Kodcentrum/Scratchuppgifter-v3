@@ -6,7 +6,7 @@ Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scra
 > **HUR KODAR JAG?** 
 </br>
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> </br>
-I Scratch klickar du på **Skapa** för att börja. Om du har ett konto, logga in på Scratch så kan du även spara ditt projekt. Saknar du konto på Scratch? Klicka på **Gå med Scratch** och skaffa ett gratis konto. Du måste vara minst 13 år. Är du under 13 år behöver din målsman (förälder) göra det åt dig.
+I Scratch klickar du på **Skapa** för att börja. Om du har ett konto, logga in på Scratch så kan du även spara ditt projekt. 
     ![image alt text](Scratch_sajt.png) 
 </br>
 
