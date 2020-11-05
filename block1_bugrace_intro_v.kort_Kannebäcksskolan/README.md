@@ -15,10 +15,10 @@ Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här i
 ## 1: Välj ny sprajtfigur
 
 I Scratch kallas alla figurer för en **sprajt**. Vi börjar med att byta ut katt-sprajten till ny sprajt-figur - till exempelvis en skalbagge! 
-*Bilden visar några exempel på olika **sprajtar** i Scratch.*
 
-    ![image alt text](exempel_sprajtar.png)
-
+Bilden nedan visar några exempel på olika **sprajtar** i Scratch. </br>
+    ![image alt text](exempel_sprajtar.png) 
+</br>
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
