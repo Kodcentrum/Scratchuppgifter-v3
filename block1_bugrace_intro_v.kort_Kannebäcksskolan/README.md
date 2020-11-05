@@ -45,6 +45,8 @@ Se i videon ovan hur du ska:
 Se till att du har klickat **Skapa** i Scratch så att verktyget Scratch har öppnats så du är redo att skapa ditt projekt. 
 Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
 
+**Ta bort katten och välj ny sprajt**
+
 1. Det finns två likadana katt-figurer i projektet - en stor och en liten. Den stora står på den vita **Scenen** och den lilla katt-bilden i en ruta under scenen. På den lilla kattfiguren finns **en soptunna**. Klicka på soptunnan så raderas kattsprajten ur projektet. Scenen blir helt tom.
 
     ![image alt text](Ta_bort_Sprajt.png) 
@@ -58,6 +60,8 @@ Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
     ![image alt text](sprajtbiblioteket.png)
 
 >**Tips!** I Sprajtbibliotekets meny längst upp finns olika kategorier som du kan välja mellan för att lättare hitta en sprajt du vill ha, exempelvis kategorin *Djur* eller *Mat*. Det finns även en sökfunktion.
+
+**Minska sprajtens storlek**
 
 4. Sprajten du just lagt till är ganska stor, så du kan minska storleken på den. Under scenen där sprajten finns hittar du rubriken **Storlek - 100**. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50. Du kan alltid ändra det igen senare om det blev för stort eller litet.
 
@@ -85,6 +89,8 @@ Se i videon ovan hur du ska:
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
 Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på scenen, antingen genom att lägga till en färdig bild från Scratch bakgrundsbibliotek eller genom att rita en egen bakgrund. Nu ska vi rita en bakgrund med en väg på. Gör såhär:
+
+**Aktivera bakgrunden och ritverktyget**
 
 1. Just nu är sprajten aktiverad, då det är den vi jobbat med. För att jobba med bakgrunden måste vi aktivera bakgrunden. Klicka därför på den lilla vita rutan långt ned till höger nära där det står **SCEN**. Då blir den lilla vita rutan markerad med en blå ram och bakgrunen är aktiverad. 
 
@@ -139,15 +145,17 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
+**Start och stoppknapp**
+
 Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med sprajtfiguren? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
 
   ![image alt text](START_STOPP-funktion.png)
 
 Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra och när den ska börja röra sig, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som gör att detta händer:
 
-"När START-flaggan klickas på, ska sprajten röra sig framåt."
+"När START-flaggan klickas på ska sprajten röra sig framåt."
 
-**Gör såhär:**
+**Lägg in kodblock för start och rörelse**
 
 1. Längst till vänster hittar du olika färgade teman med rubriker, ex. Rörelse och Utseende. Om man klickar på dessa olika teman kommer flera kodblock i form av pusselbitar fram. Temat och kodblocken har samma färg. 
 Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket med en grön flagga på, som heter: **"när GRÖN FLAGGA klickas på"**. Ta tag i kodblocket och dra det åt höger ut till den stora, vita ytan i mitten av Scratch - den vita yta kallas för Skript-ytan. Släpp kodblocket där, så ligger det kvar. Nu har du lagt in din första kod i ditt spel.
@@ -166,6 +174,8 @@ Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock 
 
 >**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger när du klickat på startknappen? Prova fler gånger, vad händer?
 
+**Repetera koden med en loop**
+
 3. Vi vill att sprajten ska röra sig framåt länge och hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till kodblock som repeterar röreslen framåt om och om igen - alltås en loop i koden. Gör såhär: 
 Klicka på det orangea temat som heter **KONTROLL**. Här finner du ett kodblock som heter **"för alltid"**. Detta kodblock är en **loop**, alltså en **repetition** av något som sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid, ända tills du stoppar koden med den röda stoppknappen ovanför projektet på scenen.
 Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå röresleblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
@@ -173,6 +183,8 @@ Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"n�
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
 >**Testa koden!** Tryck på START-knappen för projektet. Nu blir det fart på sprajten som springer iväg åt höger och stoppar vid kanten.
+
+**stoppa koden och dra tillbaka sprajten**
 
 4. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa iväg igen? Du måste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
 
@@ -201,6 +213,8 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
+**Lägg till kodblock för startposition**
+
 1. Dra sprajten till den plats där du vill att den ska starta på vägen. 
 
 2. Klicka på tema **RÖRELSE** till vänster och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under gula blocket som heter **"när START klickas på"**. De siffror (värden) som står i blocket vid X och Y är **KOORDINATERNA** för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
@@ -215,8 +229,7 @@ Nu kommer skalbaggen att ställa sig på samma startposition varje gång du tryc
 
 
 ## Färdig!
-Grattis!
-Nu har du lärt dig grunderna i Scratch och kan ta dig an lite större projekt!
+Grattis! Nu har du lärt dig grunderna i Scratch och kan ta dig an lite större projekt!
 
 
 ## Frågeställningar
