@@ -5,11 +5,12 @@ Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scra
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på **Skapa** för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt efteråt. Saknar du konto på Scratch? Klicka på **Gå med Scratch** och skaffa enkelt och gratis ett konto där.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> </br>
+I Scratch klickar du på **Skapa** för att börja. Om du har ett konto, logga in på Scratch så kan du även spara ditt projekt. Saknar du konto på Scratch? Klicka på **Gå med Scratch** och skaffa ett gratis konto. Du måste vara minst 13 år. Är du under 13 år behöver din målsman (förälder) göra det åt dig.
     ![image alt text](Scratch_sajt.png) 
 </br>
 
-Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
+Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här instruktionen i en annan. Klicka på steg 1 nedanför för att gå vidare i instruktionen.
 
 ## 1: Välj ny sprajtfigur
 
@@ -26,52 +27,53 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-Nu ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
+Se till att du har klickat **Skapa** i Scratch så att verktyget Scratch har öppnats så du är redo att skapa ditt projekt. 
+Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
 
-1. Klicka på den lilla **soptunnan på lilla rutan med kattfiguren** så försvinner den ur projektet.
+1. Det finns två likadana katt-figurer i projektet - en stor och en liten. Den stora står på den vita **Scenen** och den lilla katt-bilden i en ruta under scenen. På den lilla kattfiguren finns **en soptunna**. Klicka på soptunnan så raderas kattsprajten ur projektet. Scenen blir helt tom.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en ny sprajt. Tryck på knappen för **Välj en sprajt** som finns under den **scenen** med den vita bakgrunden:
+2. Nu ska vi lägga till en ny sprajt-figur. Under scenen långt ner till höger finns en blå knapp med ett vitt kattansikte på. Knappen heter **Välj en sprajt**. Tryck på den.
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-3. Nu kommer du in i Scratch sprajtbibliotek. Här finns massor av olika sprajt-figurer att välja mellan. Klicka på den sprajt du vill ha så läggs den till i ditt projekt.
+3. Nu kommer du in i Scratch stora sprajtbibliotek. Här finns massor av sprajtar att välja mellan. Klicka på den sprajt du vill ha så läggs den till i ditt projekt och hamnar på scenen.
 
     ![image alt text](sprajtbiblioteket.png)
 
->**Tips!** I menyn längst upp finns olika kategorier som du kan välja för att lättare hitta det du vill ha, exempelvis *Djur* och *Mat*. Det finns även en sökfunktion.
+>**Tips!** I Sprajtbibliotekets meny längst upp finns olika kategorier som du kan välja mellan för att lättare hitta en sprajt du vill ha, exempelvis kategorin *Djur* eller *Mat*. Det finns även en sökfunktion.  ![image alt text](Sprajtbibliotek_kategorier.png)
 
-4. Sprajten du just lagt till är ganska stor, så om du vill kan du minska storleken på den. Under scenen med sprajten finner du rubriken **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 70. Du kan alltid ändra det sen igen om det blev för stort eller litet.
+4. Sprajten du just lagt till är ganska stor, så om du kan minska storleken på den. Under scenen med sprajten finner du rubriken **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50. Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du lagt till en sprajt och det är dags att den ska börja röra på sig. Vi behöver ge den kod med instruktioner!
+Nu har du lagt till en sprajt och det är dax att koda så den kan röra på sig. Vi behöver ge sprajten kod med instruktioner hur den ska göra!
 
 Klicka dig vidare till kapitel 2.
 
 ## 2: Sprajten rör på sig
-Sprajten kan inte röra på sig, då den inte har några instruktioner om hur den ska göra. Den skapar du med de små pusselbitarna med kod. Dax att koda rörelse.
+Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst til vänster i Scratch. Dax att koda sprajtens rörelse!
 <video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägga in kod för start-block: *När GRÖN FLAGGA klickas på*
-- Lägga in kod för RÖRELSE: *Gå 10 steg*
-- Lägga in kod för KONTROLL: *För alltid* (en loop)
+- Lägga in kod för start-block: *när GRÖN FLAGGA klickas på*
+- Lägga in kod för RÖRELSE: *gå 10 steg*
+- Lägga in kod för KONTROLL: *för alltid* (en loop)
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med dig sprajtfigur? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
+Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med sprajtfiguren? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
 
   ![image alt text](START_STOPP-funktion.png)
 
-Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
+Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra och när den ska börja röra sig, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som gör att detta händer:
 
-"När jag trycker på START-flaggan, ska sprajten röra sig några steg."
+"När START-flaggan klickas på, ska sprajten röra sig framåt."
 
 **Gör såhär:**
 
