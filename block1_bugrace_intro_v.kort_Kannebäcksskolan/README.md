@@ -1,18 +1,18 @@
 # Börja koda med Scratch - introuppgift
 I denna introuppgift får du som är ny till kodning och verktyget Scratch prova på några enkla första steg av kodning.  
 
-**Målet med projektet:** Du kommer att lägga till en ny figur, måla en bakgrund med en väg på och koda figuren att springa framåt på vägen när du startar projektet.
+**Målet med projektet:** Lägga till ny figur, måla en bakgrund, koda figuren att röra sig.
 
-**Exempel på färdigt projekt:** Klicka på bilden nedan för att testa ett exempelprojekt på det du kommer att koda i denna uppgift: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+**Exempel på färdigt projekt:** Klicka på bilden nedan för att testa ett exempelprojekt av uppgiften: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik i din webbläsare.</a> Vi rekommenderar webbläsaren Chrome.</br>
-Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget och börja skapa ditt projekt. Om du har ett konto på Scratch kan du logga in. Som inloggad kan du även spara ditt projekt.
+Följ instruktionen steg-för-steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch.</a> Vi rekommenderar webbläsaren Chrome.</br>
+Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget. Om du har ett konto på Scratch kan du logga in, och sen även spara projektet.
     ![image alt text](Scratch_sajt.png) 
 </br>
 
-Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här instruktionen i en annan. 
+Dax att börja koda! Se till att du har Scratch öppnat i en flik i din webbläsare och den här instruktionen i en annan flik. Eller i två fönster bredvid varandra.
 </br>
 Klicka på steg 1 nedanför för att gå vidare.
 
