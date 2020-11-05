@@ -20,15 +20,16 @@ Klicka på steg 1 nedan för att gå vidare.
 
 ## 1: Välj ny sprajtfigur
 
-I Scratch kallas alla figurer du kan lägga in i ditt projekt för en **sprajt**.
+I Scratch kallas figurer och gubbar för en **sprajt**. Det finns massor av sprajtar att lägga in i ditt projekt som du sedan kan koda att röra på sig.
 
-Här ser du några exempel på olika **sprajtar** som finns i Scratch. </br>
+Här ser du några exempel på olika **sprajtar**. </br>
     ![image alt text](exempel_sprajtar.png) 
 </br>
 
-Vi börjar med att byta ut katt-sprajten i projektet till ny sprajt-figur - tillexempel en skalbagge! 
+**Dax att byta ut katt-sprajten:** Vi börjar med att byta ut katt-sprajten till ny sprajt-figur - till exempel en skalbagge! 
 </br>
-Här kan du se en video på hur du kan göra detta. Under videon finns text som beskriver hur du ska göra, om du vill läsa hur du ska gör steg-för-steg.
+
+Här nedan kan du se en video på hur du gör detta. Under videon finns även text som beskriver hur du gör steg-för-steg.
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
