@@ -238,3 +238,16 @@ Nu kommer skalbaggen att ställa sig på samma startposition varje gång du tryc
 >**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Rör den sig lagom snabbt?
 
 **Bra jobbat! Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig.**
+
+
+## Färdig!
+Grattis! Nu har du lärt dig grunderna i Scratch och kan ta dig an lite större projekt!
+
+
+## Frågeställningar
+
+* Vad är en sprajt?
+
+* Vad är en loop?
+
+* Vad är ett skript?
