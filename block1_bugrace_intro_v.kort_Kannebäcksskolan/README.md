@@ -16,7 +16,7 @@ Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget. 
 Dax att börja koda! Se till att du har Scratch öppnat i en flik i din webbläsare och den här instruktionen i en annan flik. Eller i två fönster bredvid varandra.
 </br>
 </br>
-Klicka på steg 1 nedan för att gå vidare.
+Klicka på kapitel 1 nedan för att gå vidare.
 
 ## 1: Välj ny sprajtfigur
 
@@ -57,13 +57,13 @@ Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
 
     ![image alt text](sprajtbiblioteket.png)
 
->**Tips!** I Sprajtbibliotekets meny längst upp finns olika kategorier som du kan välja mellan för att lättare hitta en sprajt du vill ha, exempelvis kategorin *Djur* eller *Mat*. Det finns även en sökfunktion.  ![image alt text](Sprajtbibliotek_kategorier.png)
+>**Tips!** I Sprajtbibliotekets meny längst upp finns olika kategorier som du kan välja mellan för att lättare hitta en sprajt du vill ha, exempelvis kategorin *Djur* eller *Mat*. Det finns även en sökfunktion.
 
-4. Sprajten du just lagt till är ganska stor, så om du kan minska storleken på den. Under scenen med sprajten finner du rubriken **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50. Du kan alltid ändra det sen igen om det blev för stort eller litet.
+4. Sprajten du just lagt till är ganska stor, så du kan minska storleken på den. Under scenen där sprajten finns hittar du rubriken **Storlek - 100**. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50. Du kan alltid ändra det igen senare om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu har du lagt till en sprajt och det är dax att koda så den kan röra på sig. Vi behöver ge sprajten kod med instruktioner hur den ska göra!
+Nu har du lagt till en ny sprajt och det är dax att koda så den kan röra på sig. För att det ska fungera behöver vi ge sprajten kod med instruktioner hur den ska göra!
 
 Klicka dig vidare till kapitel 2.
 
