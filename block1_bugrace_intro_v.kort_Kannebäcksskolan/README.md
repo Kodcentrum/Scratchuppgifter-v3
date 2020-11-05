@@ -3,8 +3,6 @@ I denna enkla introuppgift får du prova på några första steg av kodning i ve
 
 Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
-<iframe src="https://scratch.mit.edu/projects/445589191/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
 > **HUR KODAR JAG?** 
 </br>
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> </br>
