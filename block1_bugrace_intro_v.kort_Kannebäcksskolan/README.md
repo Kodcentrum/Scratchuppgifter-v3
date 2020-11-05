@@ -15,7 +15,8 @@ Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget. 
 
 Dax att börja koda! Se till att du har Scratch öppnat i en flik i din webbläsare och den här instruktionen i en annan flik. Eller i två fönster bredvid varandra.
 </br>
-Klicka på steg 1 nedanför för att gå vidare.
+</br>
+Klicka på steg 1 nedan för att gå vidare.
 
 ## 1: Välj ny sprajtfigur
 
