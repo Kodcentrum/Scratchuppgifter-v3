@@ -67,8 +67,59 @@ Nu har du lagt till en ny sprajt och det är dax att koda så den kan röra på 
 
 Klicka dig vidare till kapitel 2.
 
-## 2: Sprajten rör på sig
-Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst til vänster i Scratch. Dax att koda sprajtens rörelse!
+## 3: Rita en bakgrund
+Nu ska vi rita en bakgrund med en väg som sprajten kan springa på.
+<video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
+
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Aktivera bakgrunden
+- Aktivera Bitmapp-läge i ritverktyget
+- Välj färg och verktyg för att fylla bakgrunden
+- Välj ny färg och verktyg för att måla en väg
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på scenen, antingen genom att lägga till en färdig bild från Scratch bakgrundsbibliotek eller genom att rita en egen bakgrund. Nu ska vi rita en bakgrund med en väg på. Gör såhär:
+
+1. Just nu är sprajten aktiverad, då det är den vi jobbat med. För att jobba med bakgrunden måste vi aktivera bakgrunden. Klicka därför på den lilla vita rutan långt ned till höger nära där det står **SCEN**. Då blir den lilla vita rutan markerad med en blå ram och bakgrunen är aktiverad. 
+
+    ![image alt text](Aktivera_Scen_Bakgrund.png)
+
+2. För att öppna bakgrundens ritverktyg klickar du på fliken som heter **BAKGRUNDER** som finns högt uppe till vänster i Scratch.
+
+	  ![image alt text](Aktivera_Bakgrunder-flik.png)
+
+3. Klicka först på den blå knappen längst ned under ritytan som det står **"Gör till bitmapp** på. Detta gör ditt målande mycket lättare.
+
+    ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
+    
+**Välj färg och verktyg och fyll bakgrunden**
+
+4. Välj **en ny färg** för bakgrunden genom att klicka på den lilla färgade rutan ovanför verktygen. En färgväljare kommer nu fram och du kan dra i de vita cirklarna i färgväljaren tills du får en färg du vill ha.
+
+   ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
+    
+5. Klicka nu på vertyget som ser ut som en **HINK**. Klicka sen på den vita rutan bredvid hinken så fylls hela bakgrunden med din nya färg.
+
+  ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
+  
+**Välj nytt verktyg och färg och måla en väg**
+
+6. Nu ska vi måla en väg på bakgrunden som sprajten kan springa på. Klicka på verktyget som ser ut som en **PENSEL**. Klicka sen på **siffran 10** som står ovanför ritytan och ändra penselns storlek till 100 - det blir en lagom bredd för vägen. Välj sen en **ny färg** med färgväljaren. 
+
+ ![image alt text](Bakgrund_måla_pensel.png)
+ 
+7. Måla nu en rak väg på ritytan med penseln och den nya färgen. Strecket ska bli ganska tjockt så sprajten får plats på vägen.
+
+  ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
+
+
+## 3: Sprajten rör på sig
+Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst till vänster i Scratch. Dax att koda sprajtens rörelse!
 <video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
 
@@ -99,7 +150,7 @@ Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket m
   
 Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock ligger alltid överst i koden du vill bygga ihop.  Men det behövs mer kod för att prajten ska veta vad den ska göra när den gröna start-flaggan  har klickats på. Vi mpste koda vidare.
 
-2. Klicka på den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till den stora skriptytan och fäst det **under** det första kodblocket med gröna flaggan som ligger där. Koppla ihop blocken som pusselbitar, som i bilden nedan.
+2. Klicka på den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till den stora skriptytan och fäst det **under** det första kodblocket med den gröna flaggan på. Koppla ihop blocken som två pusselbitar, som i bilden nedan.
 
   ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
 
@@ -109,7 +160,7 @@ Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock 
 
 >**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger när du klickat på startknappen? Prova fler gånger, vad händer?
 
-2. Vi vill att sprajten ska röra sig framåt länge och hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till kodblock som repeterar röreslen framåt om och om igen - alltås en loop i koden. Gör såhär: 
+3. Vi vill att sprajten ska röra sig framåt länge och hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till kodblock som repeterar röreslen framåt om och om igen - alltås en loop i koden. Gör såhär: 
 Klicka på det orangea temat som heter **KONTROLL**. Här finner du ett kodblock som heter **"för alltid"**. Detta kodblock är en **loop**, alltså en **repetition** av något som sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid, ända tills du stoppar koden med den röda stoppknappen ovanför projektet på scenen.
 Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå röresleblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
 
@@ -117,57 +168,13 @@ Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"n�
 
 >**Testa koden!** Tryck på START-knappen för projektet. Nu blir det fart på sprajten som springer iväg åt höger och stoppar vid kanten.
 
-3. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa iväg igen? Du måste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
+4. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa iväg igen? Du måste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
 
   ![image alt text](START_STOPP-funktion.png)
 
 >**Tips!** Springer sprajten för fort? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket som heter **gå 10 steg**. Klicka på siffran 10 i blocket och skriv exempelvis 3. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
 ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 </br>
-
-
-## 3: Rita en bakgrund
-Nu ska vi rita en bakgrund som sprajten kan springa på.
-<video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
-
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Aktivera bakgrunder
-- Aktivera Bitmapp-läge i ritverktyget
-- Välj färg och verktyg för att fylla bakgrund
-- Välj ny färg och verktyg för att måla en väg
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på scenen, antingen genom att lägga till en färdig bild från Scratch bakgrundsbibliotek, eller genom att rita en egen bakgrund. Nu ska vi rita en bakgrund. Gör såhär:
-
-1. Först ska vi välja scenens bakgrund och öppna ritverktyget. Klicka först den lilla vita rutan långt ned till höger där det står **SCEN**. Då blir den markerad med en blå ram. Klicka sedan på fliken som heter **BAKGRUNDER** som finns högt upp till vänster i Scratch. (se bilderna nedan)
-
-    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
-
-2. Viktigt! Tryck allra först på den blå knappen under ritytan som det står **"Gör till bitmapp** på. 
-
-    ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
-
-3. Välj nu **en färg** för bakgrunden genom att klicka på den lilla färgade rutan ovanför verktygen. Dra i den vita cirkeln i färgväljaren tills du får en färg du vill ha.
-
-   ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
-    
-4. Klicka på vertyget som ser ut som en **hink**. Klicka sen på den vita rutan bredvid hinken så fylls hela bakgrunden med din färg.
-
-  ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
-
-5. Nu ska vi måla en väg på bakgrunden som sprajten sen kan springa på. Klicka på verktyget som ser ut som en **PENSEL**, så blir den vald. Klicka sen på **siffran 10** som står ovanför ritytan och ändra penselns storleken till 100. Välj sen en **ny färg** med färgväljaren. Strecket ska bli tjockt så sprajten får plats på vägen.
-
- ![image alt text](Bakgrund_måla_pensel.png)
- 
-6. Måla nu en rak väg på ritytan med penseln och den nya färgen.
-
-  ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
-
 
 
 ## 4: Sätt en Startposition
@@ -194,7 +201,7 @@ Nu kommer skalbaggen automatiskt att ställa sig på samma startposition varje g
 
 >**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Går den lagom fort?
 
-Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig. Bra jobbat! 
+**Bra jobbat! Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig. **
 
 
 ## Färdig!
