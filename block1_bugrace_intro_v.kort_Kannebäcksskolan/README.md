@@ -92,7 +92,7 @@ Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på 
 
 **Aktivera bakgrunden och ritverktyget**
 
-1. Just nu är sprajten aktiverad, då det är den vi jobbat med. För att jobba med bakgrunden måste vi aktivera bakgrunden. Klicka därför på den lilla vita rutan långt ned till höger nära där det står **SCEN**. Då blir den lilla vita rutan markerad med en blå ram och bakgrunen är aktiverad. 
+1. Just nu är sprajten aktiverad, då det är den vi jobbat med. För att jobba med bakgrunden måste vi aktivera bakgrunden istället. Klicka på den lilla vita rutan långt ned till höger nära där det står **SCEN**. Då blir den lilla vita rutan markerad med en blå ram och bakgrunen är aktiverad. 
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)
 
@@ -131,13 +131,16 @@ Klicka på kapitel 3 och gå vidare.
 
 
 ## 3: Sprajten rör på sig
-Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst till vänster i Scratch. Dax att koda sprajtens rörelse!
+Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst till vänster i Scratch. Koden pusslas ihop till ett så kallat **skript** och läggs på den stora vita skript-ytan i mitten av Scratch. 
+</br>
+Dax att koda sprajtens rörelse!
 <video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
+- Aktivera sprajten och gå tillbaka till kodytan
 - Lägga in kod för start-block: *när GRÖN FLAGGA klickas på*
 - Lägga in kod för RÖRELSE: *gå 10 steg*
 - Lägga in kod för KONTROLL: *för alltid* (en loop)
@@ -151,20 +154,27 @@ Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanf�
 
   ![image alt text](START_STOPP-funktion.png)
 
-Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra och när den ska börja röra sig, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som gör att detta händer:
+Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - alltså **den gröna flaggan** ovanför scenen. 
 
-"När START-flaggan klickas på ska sprajten röra sig framåt."
+**Aktivera sprajten och gå tillbaka till kodverktyget**
 
-**Lägg in kodblock för start och rörelse**
+1. Vi har ritat i ritverktyget för bakgrunden. För att stänga ritverktyget klickar du på fliken som heter **KOD** högt upp till vänster i Scratch. Klicka sedan även på lilla bilden av din sprajt för att aktivera sprajten istället för bakgrunden. 
 
-1. Längst till vänster hittar du olika färgade teman med rubriker, ex. Rörelse och Utseende. Om man klickar på dessa olika teman kommer flera kodblock i form av pusselbitar fram. Temat och kodblocken har samma färg. 
-Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket med en grön flagga på, som heter: **"när GRÖN FLAGGA klickas på"**. Ta tag i kodblocket och dra det åt höger ut till den stora, vita ytan i mitten av Scratch - den vita yta kallas för Skript-ytan. Släpp kodblocket där, så ligger det kvar. Nu har du lagt in din första kod i ditt spel.
+Nu är du redo att börja koda din sprajt.
+
+**Lägg in kodblock för start**
+
+2. Längst till vänster hittar du olika färgade teman med rubriker, ex. *Rörelse* och *Utseende*. Om man klickar på olika teman kommer flera kodblock i form av pusselbitar fram. Valt tema och tillhörande kodblock har samma färg. 
+
+Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket med en grön flagga på som heter: **"när GRÖN FLAGGA klickas på"**. Ta tag i kodblocket, dra det åt höger och släpp blocket på den stora, vita skript-ytan i mitten av Scratch.
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
   
 Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock ligger alltid överst i koden du vill bygga ihop.  Men det behövs mer kod för att prajten ska veta vad den ska göra när den gröna start-flaggan  har klickats på. Vi mpste koda vidare.
 
-2. Klicka på den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till den stora skriptytan och fäst det **under** det första kodblocket med den gröna flaggan på. Koppla ihop blocken som två pusselbitar, som i bilden nedan.
+**Lägg in kodblock för rörelse**
+
+3. Klicka på det blå temat som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till skriptytan och fäst det under det gula kodblocket med gröna flaggan på. Koppla ihop blocken som två pusselbitar.
 
   ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
 
@@ -174,23 +184,25 @@ Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock 
 
 >**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger när du klickat på startknappen? Prova fler gånger, vad händer?
 
-**Repetera koden med en loop**
+**Repetera röreslekoden med en loop**
 
-3. Vi vill att sprajten ska röra sig framåt länge och hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till kodblock som repeterar röreslen framåt om och om igen - alltås en loop i koden. Gör såhär: 
-Klicka på det orangea temat som heter **KONTROLL**. Här finner du ett kodblock som heter **"för alltid"**. Detta kodblock är en **loop**, alltså en **repetition** av något som sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid, ända tills du stoppar koden med den röda stoppknappen ovanför projektet på scenen.
-Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå röresleblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
+4. Vi vill att sprajten ska röra sig framåt hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till ett kodblock som repeterar rörelsen framåt om och om igen - alltså en loop i koden. Gör såhär: 
+
+Klicka på det orangea temat som heter **KONTROLL**. Här finner du kodblocket som heter **"för alltid"**. Detta kodblock kan repetera kod som läggs inuti den, alltså en **loop** som gör att koden sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid - tills du stoppar koden.
+
+Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå rörelseblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
->**Testa koden!** Tryck på START-knappen för projektet. Nu blir det fart på sprajten som springer iväg åt höger och stoppar vid kanten.
+>**Testa koden!** Tryck på START-flaggan för projektet. Nu blir det fart på sprajten som springer iväg.
 
-**stoppa koden och dra tillbaka sprajten**
+**Stoppa koden och dra tillbaka sprajten**
 
-4. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa iväg igen? Du måste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
+5. Sprajten stoppar vid kanten. Ta tag i sprajten och dra tillbaka den ut på scenen igen. Springer sprajten iväg igen? Du måste klicka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och så sprajten slutar springa.
 
   ![image alt text](START_STOPP-funktion.png)
 
->**Tips!** Springer sprajten för fort? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket som heter **gå 10 steg**. Klicka på siffran 10 i blocket och skriv exempelvis 3. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
+>**Tips!** Rör sig sprajten för fort? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket som heter **gå 10 steg**. Klicka på siffran 10 i blocket och skriv exempelvis 3. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
 ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 </br>
 
@@ -215,15 +227,15 @@ Se i videon ovan hur du ska:
 
 **Lägg till kodblock för startposition**
 
-1. Dra sprajten till den plats där du vill att den ska starta på vägen. 
+1. Dra sprajten till den position där du vill att den ska starta på vägen. 
 
-2. Klicka på tema **RÖRELSE** till vänster och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under gula blocket som heter **"när START klickas på"**. De siffror (värden) som står i blocket vid X och Y är **KOORDINATERNA** för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+2. Klicka på tema **RÖRELSE** till vänster och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under det gula blocket som heter **"när GRÖN FLAGGA klickas på"**. De siffror (värden) som står i blocket vid X och Y är **koordinaterna** för den position som du har ställt skalbaggen på - alltså en bestämd plats på scenen. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
 Nu kommer skalbaggen att ställa sig på samma startposition varje gång du trycker på den gröna START-flaggan ovanför scenen.
 
->**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Går den lagom fort?
+>**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Rör den sig lagom snabbt?
 
 **Bra jobbat! Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig. **
 
