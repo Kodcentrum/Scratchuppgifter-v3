@@ -7,7 +7,8 @@
 
 > **HUR KODAR JAG?** 
 </br>
-Följ instruktionen steg-för-steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch.</a> Vi rekommenderar webbläsaren Chrome.</br>
+Följ instruktionen steg-för-steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch.</a> 
+</br>
 Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget. Om du har ett konto på Scratch kan du logga in, och sen även spara projektet.
     ![image alt text](Scratch_sajt.png) 
 </br>
