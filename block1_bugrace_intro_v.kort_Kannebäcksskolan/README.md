@@ -6,7 +6,7 @@ Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scra
 > **HUR KODAR JAG?** 
 </br>
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> </br>
-I Scratch klickar du på **Skapa** för att börja. Om du har ett konto, logga in på Scratch så kan du även spara ditt projekt. 
+Klick< på **Skapa** på Scratch webbsida för att öppna Scratch kodverktyg och börja koda. Om du har ett konto på Scratch kan du logga in. Som inloggad kan du även spara ditt projekt.
     ![image alt text](Scratch_sajt.png) 
 </br>
 
@@ -14,7 +14,11 @@ Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här i
 
 ## 1: Välj ny sprajtfigur
 
-Byt ut katt-sprajten till ny sprajt-figur - tillexempelvis en skalbagge!
+I Scratch kallas alla figurer för en **sprajt**. Vi börjar med att byta ut katt-sprajten till ny sprajt-figur - till exempelvis en skalbagge! 
+*Bilden visar några exempel på olika **sprajtar** i Scratch.*
+
+    ![image alt text](exempel_sprajtar.png)
+
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
