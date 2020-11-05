@@ -1,9 +1,9 @@
 # Börja koda med Scratch - introuppgift
-I denna introuppgift får du som är ny till kodning och verktyget Scratch prova på några enkla första steg av kodning.  
+**Vad är detta?** I denna introuppgift får du som är ny till programmering och verktyget Scratch prova på några enkla första steg av kodning.  
 
-**Målet med projektet:** Lägga till ny figur, måla en bakgrund, koda figuren att röra sig.
+**Mål:** Lägga till en ny figur, måla en bakgrund, koda figuren att röra sig.
 
-**Exempel på färdigt projekt:** Klicka på bilden nedan för att testa ett exempelprojekt av uppgiften: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+**Exempelprojekt:** Klicka på bilden för att testa ett färdigt exempelprojekt: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
