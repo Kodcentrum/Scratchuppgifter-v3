@@ -1,24 +1,32 @@
 # Börja koda med Scratch - introuppgift
-I denna enkla introuppgift får du prova på några första steg av kodning i verktyget Scratch.  
+I denna introuppgift får du som är ny till kodning och verktyget Scratch prova på några enkla första steg av kodning.  
 
-Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+**Målet med projektet:** Du kommer att lägga till en ny figur, måla en bakgrund med en väg på och koda figuren att springa framåt på vägen när du startar projektet.
+
+**Exempel på färdigt projekt:** Klicka på bilden nedan för att testa ett exempelprojekt på det du kommer att koda i denna uppgift: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> </br>
-Klick< på **Skapa** på Scratch webbsida för att öppna Scratch kodverktyg och börja koda. Om du har ett konto på Scratch kan du logga in. Som inloggad kan du även spara ditt projekt.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik i din webbläsare.</a> Vi rekommenderar webbläsaren Chrome.</br>
+Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget och börja skapa ditt projekt. Om du har ett konto på Scratch kan du logga in. Som inloggad kan du även spara ditt projekt.
     ![image alt text](Scratch_sajt.png) 
 </br>
 
-Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här instruktionen i en annan. Klicka på steg 1 nedanför för att gå vidare i instruktionen.
+Dax att börja koda! Se till att du har Scratch öppnat i en flik och den här instruktionen i en annan. 
+</br>
+Klicka på steg 1 nedanför för att gå vidare.
 
 ## 1: Välj ny sprajtfigur
 
-I Scratch kallas alla figurer för en **sprajt**. Vi börjar med att byta ut katt-sprajten till ny sprajt-figur - till exempelvis en skalbagge! 
+I Scratch kallas alla figurer du kan lägga in i ditt projekt för en **sprajt**.
 
-Bilden nedan visar några exempel på olika **sprajtar** i Scratch. </br>
+Här ser du några exempel på olika **sprajtar** som finns i Scratch. </br>
     ![image alt text](exempel_sprajtar.png) 
 </br>
+
+Vi börjar med att byta ut katt-sprajten i projektet till ny sprajt-figur - tillexempel en skalbagge! 
+</br>
+Här kan du se en video på hur du kan göra detta. Under videon finns text som beskriver hur du ska göra, om du vill läsa hur du ska gör steg-för-steg.
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
