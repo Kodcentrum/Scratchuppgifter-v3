@@ -122,7 +122,7 @@ Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på 
  
 7. Måla nu en rak väg på ritytan med penseln och den nya färgen. Strecket ska bli ganska tjockt så sprajten får plats på vägen.
 
-  ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
+  ![image alt text](bakgrund_ritad_väg.png)
 
 **Nästa steg:**
 Nu har vi en sprajt och en bakgrund. Dax att börja koda så att sprajten kan röra på sig!
