@@ -1,54 +1,116 @@
-# Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over!
+# Börja koda med Scratch - introuppgift
+I denna enkla introuppgift får du prova på några första steg av kodning i verktyget Scratch.  
 
-Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
+Testa ett exempelprojekt nedan: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på **Skapa** för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt efteråt. Saknar du konto på Scratch? Klicka på **Gå med Scratch** och skaffa enkelt och gratis ett konto där.
+    ![image alt text](Scratch_sajt.png) 
 </br>
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
 ## 1: Välj ny sprajtfigur
 
-Byt ut katt-sprajten till ny sprajt - en skalbagge!
+Byt ut katt-sprajten till ny sprajt-figur - tillexempelvis en skalbagge!
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Ta bort kattfiguren
-- Välj ny sprajt
+- Ta bort kattfiguren från projektet
+- Välja en ny sprajt-figur (exempelvis en skalbagge)
 - Minska sprajtens storlek
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+Nu ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
 
-Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
-
-1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den.
+1. Klicka på den lilla **soptunnan på lilla rutan med kattfiguren** så försvinner den ur projektet.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
+2. Nu vill du lägga till en ny sprajt. Tryck på knappen för **Välj en sprajt** som finns under den **scenen** med den vita bakgrunden:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
+3. Nu kommer du in i Scratch sprajtbibliotek. Här finns massor av olika sprajt-figurer att välja mellan. Klicka på den sprajt du vill ha så läggs den till i ditt projekt.
 
-3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+    ![image alt text](sprajtbiblioteket.png)
+
+>**Tips!** I menyn längst upp finns olika kategorier som du kan välja för att lättare hitta det du vill ha, exempelvis *Djur* och *Mat*. Det finns även en sökfunktion.
+
+4. Sprajten du just lagt till är ganska stor, så om du vill kan du minska storleken på den. Under scenen med sprajten finner du rubriken **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 70. Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
-Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
+Nu har du lagt till en sprajt och det är dags att den ska börja röra på sig. Vi behöver ge den kod med instruktioner!
+
 Klicka dig vidare till kapitel 2.
 
+## 2: Sprajten rör på sig
+Sprajten kan inte röra på sig, då den inte har några instruktioner om hur den ska göra. Den skapar du med de små pusselbitarna med kod. Dax att koda rörelse.
+<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
-## 2: Färglägg bakgrunden och rita en bana
-Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+
+>**VAD SKA JAG GÖRA?**
+
+Se i videon ovan hur du ska:
+- Lägga in kod för start-block: *När GRÖN FLAGGA klickas på*
+- Lägga in kod för RÖRELSE: *Gå 10 steg*
+- Lägga in kod för KONTROLL: *För alltid* (en loop)
+
+<br>
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med dig sprajtfigur? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
+
+  ![image alt text](START_STOPP-funktion.png)
+
+Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för sprajten precis vad den ska göra, annars händer ingenting. Sprajtar kan inte tänka av sig själva, de väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
+
+"När jag trycker på START-flaggan, ska sprajten röra sig några steg."
+
+**Gör såhär:**
+
+1. Längst till vänster hittar du olika färgade teman med rubriker, ex. Rörelse och Utseende. Om man klickar på dessa olika teman kommer flera kodblock i form av pusselbitar fram. Temat och kodblocken har samma färg. 
+Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket med en grön flagga på, som heter: **"när GRÖN FLAGGA klickas på"**. Ta tag i kodblocket och dra det åt höger ut till den stora, vita ytan i mitten av Scratch - den vita yta kallas för Skript-ytan. Släpp kodblocket där, så ligger det kvar. Nu har du lagt in din första kod i ditt spel.
+
+  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
+  
+Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock ligger alltid överst i koden du vill bygga ihop.  Men det behövs mer kod för att prajten ska veta vad den ska göra när den gröna start-flaggan  har klickats på. Vi mpste koda vidare.
+
+2. Klicka på den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till den stora skriptytan och fäst det **under** det första kodblocket med gröna flaggan som ligger där. Koppla ihop blocken som pusselbitar, som i bilden nedan.
+
+  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
+
+ >**Tips!** Om man för två block nära varandra på skriptytan så syns en grå skugga. Då kan du släppa kodblocket du håller i så kopplar blocken automatiskt ihop sig som pusselbitar.
+![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
+</br>
+
+>**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger när du klickat på startknappen? Prova fler gånger, vad händer?
+
+2. Vi vill att sprajten ska röra sig framåt länge och hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till kodblock som repeterar röreslen framåt om och om igen - alltås en loop i koden. Gör såhär: 
+Klicka på det orangea temat som heter **KONTROLL**. Här finner du ett kodblock som heter **"för alltid"**. Detta kodblock är en **loop**, alltså en **repetition** av något som sker om och om igen. Med detta block kommer sprajten fortsätta att röra sig framåt för alltid, ända tills du stoppar koden med den röda stoppknappen ovanför projektet på scenen.
+Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå röresleblocket **"gå 10 steg"** lägger sig inuti **för alltid**-loopens block. Då ser det ut som i bilden nedan:
+
+  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
+
+>**Testa koden!** Tryck på START-knappen för projektet. Nu blir det fart på sprajten som springer iväg åt höger och stoppar vid kanten.
+
+3. Sprajten stoppar vid kanten. Klicka på den del av sprajten som du kan se vid kanten och dra den tillbaka ut på scenen igen. Fortsätter den att springa iväg igen? Du måste trycka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och få sprajten att sluta springa.
+
+  ![image alt text](START_STOPP-funktion.png)
+
+>**Tips!** Springer sprajten för fort? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket som heter **gå 10 steg**. Klicka på siffran 10 i blocket och skriv exempelvis 3. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
+![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
+</br>
+
+
+## 3: Rita en bakgrund
+Nu ska vi rita en bakgrund som sprajten kan springa på.
 <video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
 
 
@@ -56,262 +118,72 @@ Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan sprin
 
 Se i videon ovan hur du ska:
 - Aktivera bakgrunder
-- Aktivera Bitmapp-läge
+- Aktivera Bitmapp-läge i ritverktyget
 - Välj färg och verktyg för att fylla bakgrund
-- Välj ny färg och verktyg för att måla en bana
+- Välj ny färg och verktyg för att måla en väg
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
+Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på scenen, antingen genom att lägga till en färdig bild från Scratch bakgrundsbibliotek, eller genom att rita en egen bakgrund. Nu ska vi rita en bakgrund. Gör såhär:
+
+1. Först ska vi välja scenens bakgrund och öppna ritverktyget. Klicka först den lilla vita rutan långt ned till höger där det står **SCEN**. Då blir den markerad med en blå ram. Klicka sedan på fliken som heter **BAKGRUNDER** som finns högt upp till vänster i Scratch. (se bilderna nedan)
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-2. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
+2. Viktigt! Tryck allra först på den blå knappen under ritytan som det står **"Gör till bitmapp** på. 
 
     ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Välj sen **en färg** du gillar genom att klicka på den lilla färgade rutan ovanför och ställ in färgen du vill ha, genom att dra eller klicka på de olika reglagen tills du är nöjd.
+3. Välj nu **en färg** för bakgrunden genom att klicka på den lilla färgade rutan ovanför verktygen. Dra i den vita cirkeln i färgväljaren tills du får en färg du vill ha.
 
    ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
     
-Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** som ser ut som en liten hink och sen klicka på stora vita rutan så fylls bakgrunden med den färg du valt.
+4. Klicka på vertyget som ser ut som en **hink**. Klicka sen på den vita rutan bredvid hinken så fylls hela bakgrunden med din färg.
 
   ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
-  
-> Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
 
-3. Tryck sen på verktyget **PENSEL** och välj en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbaggens färger. Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+5. Nu ska vi måla en väg på bakgrunden som sprajten sen kan springa på. Klicka på verktyget som ser ut som en **PENSEL**, så blir den vald. Klicka sen på **siffran 10** som står ovanför ritytan och ändra penselns storleken till 100. Välj sen en **ny färg** med färgväljaren. Strecket ska bli tjockt så sprajten får plats på vägen.
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
-Rita nu en bana som en oval eller en utdragen cirkel - gör den så stor som du kan, utan att den hamnar utanför spelets ruta!
-
-Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
+6. Måla nu en rak väg på ritytan med penseln och den nya färgen.
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
 
-## 3: Sprajten rör på sig
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
-
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Välj KOD och din sprajt för att kunna börja koda
-- Lägg in kod för start-block: När GRÖN FLAGGA klickas på
-- Lägg in kod för RÖRELSE: Gå 10 steg
-- Lägg in kod för KONTROLL: För alltid (en loop)
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
-
-Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
-
-Tryck på KOD-fliken högst upp till vänster. Nu kommer du bort från målarverktyget och tillbaka till vita ytan där du kan bygga din kod för spelet.
-
-Har du lagt märke till START- och STOPP-knappen än? **Den gröna flaggan** betyder är en start-knapp och **den röda knappen** är en stopp-knapp.
-
-  ![image alt text](START_STOPP-funktion.png)
-
-Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för skalbaggen vad den ska göra, annars händer ingenting. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
-
-"När jag trycker på START-flaggan, ska skalbaggen röra sig."
-
-Gör såhär:
-
-1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
-
-  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
-
-Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj blocket **"gå 10 steg"**. Lägg detta block direkt under det första blocket med den gröna flaggan på scriptytan och koppla ihop dem som pusselbitar.
-
-  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
-
-> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa så kopplar blocken automatiskt ihop sig som pusselbitar.
-
-  ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
-
-> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
-
-2. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
-Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
-
-  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
-
-  _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
-
-> Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
-
-  ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
-
 
 ## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen till startplatsen varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start.
+För att slippa dra tillbaka skalbaggen varje gång du vill starta spelet, kan du koda in att sprajten alltid ska starta på en bestämd plats.
 <video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Dra sprajten till där du vill den ska starta på banan
-- Lägg in kod för RÖRELSE: gå till x:__ y:__
+- Dra sprajten till en plats på vägen där du vill den ska starta
+- Lägg in kodblock för position med RÖRELSE: gå till x:__ y:__
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en raksträcka, inte en kurva. 
+1. Dra sprajten till den position där du vill att den ska starta på vägen när spelet börjar. 
 
-2. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+2. Klicka på tema **RÖRELSE** och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under gula blocket som heter **"när START klickas på"**. De siffror (värden) som står i blocket vid X och Y är **KOORDINATERNA** för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
-Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
+Nu kommer skalbaggen automatiskt att ställa sig på samma startposition varje gång du trycker på gröna START-flaggan.
 
+>**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Går den lagom fort?
 
-## 5: Styra skalbaggen
-
-Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent. (Använder du surfplatta med pekskärm finns tips på hur du kan koda sprajten att följa ditt finger längre ned.)
-<video src="./BugRacedel5_nytt.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block
-- Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*
-- Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
->**Tips! Använder du surfplatta med pekskärm?** Koda då som bilden visar nedan istället för knappar att styra med, så följer sprajten ditt finger på skärmen runt banan: 
-  ![image alt text](Bugrace_touchscreen_följ_muspekare.png)
-
-1. **Koda styrknappar såhär:** under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
-
-  ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
-
-Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
-
-  ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
-
-2. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
-
-  ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
-
-> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet genom att ändra variabelsiffran i rörelse-blocket!
-
-
-## 6: Ändra startriktning
-
-Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
-<video src="./BugRacedel6_nytt.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg in kod för RÖRELSE: peka i 90 graders ritning
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-
-1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
-
-  ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
-
-> Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
-  
-  ![image alt text](Koda_exempelbild_RÖRELSE-Ändra_peka_i_riktning_gradantal.png)
-
-
-## 7: Känna av när skalbaggen åker av banan
-
-Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
-<video src="./BugRacedel7_nytt.mp4" controls muted height=480 width=640 />
-
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg in kod för KONTROLL: om...då
-- Lägg in kod för KÄNNA AV: rör färgen_. Lägg blocket i det kantiga hålet mellan om...då.
-- Lägg in kod för UTSEENDE: säg Hej! i 2 sekunder. Ändra texten till Game Over!
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
-
-  ![image alt text](Koda_KONTROLL-Om-Då-block.png)
-  
-2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på skriptytan. 
-
-  ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
-
-Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"** i ditt script är exakt samma färg som spelets bakgrundsfärg. Byt annars genom att klicka med muspekaren på den lilla färgcirkeln och välj den lilla symbolen med en pimpett längst ned. Klicka sedan med den på spelets bakgrundsfärg, så blir det rätt färg i kodblockets cirkel. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
-
-  ![image alt text](Känna_av_byt_färg_pimpett.png)
-
-3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under tema   **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
-
-  ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
-
-> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
-
-
-## 8: Gör klart skriptet
-
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
-<video src="./BugRacedel8_nytt.mp4" controls muted height=480 width=640 />
-
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg skriptet inuti för alltid-loopen
-- Lägg in kod för KONTROLL: stoppa alla. Lägg blocket längst ned inom *om...då*. Ändra till *stoppa detta skript*.
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Lägg skriptet som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
-
-  ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
-
-2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa helt. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till skriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta skript"**.
-
-  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
-
-Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
-
->**Testa koden!** Kan du styra skalbaggen runt banan med piltangenterna? Vad händer om sprajten åker utanför banan? 
-
-> Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
+Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig. Bra jobbat! 
 
 
 ## Färdig!
-Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
+Grattis, nu har du skapat ditt första projekt i Scratch och kodat ditt första program med ett skript som styr en sprajt! 
+Nu har du lärt dig lite grunder i Scratch och kan ta dig an lite större projekt!
 
- ![image alt text](Koda_exempelbild_färdigt_script_BugRaceIntro.png)
-
-**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
-
-> **Testa ditt projekt**  
-Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det.
-
-> **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
-
-
-## Utmaning
-Saknas något? Hur skulle du vilja utveckla spelet?
-
-Tips på hur du kan bygga vidare på Bug Race hittar du i uppgiften som heter <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-tillagg?chpt=0" target="_blank"> Bug Race - Tillägg</a>.
-Där kan du bland annat skapa Bug Race för två spelare samtidigt och göra en mjukare styrning av sprajtarna.
-![Bug race med två spelare](image_2.png)
 
 ## Frågeställningar
 
@@ -319,8 +191,4 @@ Där kan du bland annat skapa Bug Race för två spelare samtidigt och göra en 
 
 * Vad är en loop?
 
-* Varför kan det vara bra att använda en loop?
-
-* Vad är ett INIT-Script eller Start-Script?
-
-* Vad händer i spelet Bug Race om sprajten har samma färg som bakgrunden?
+* Vad är ett skript?
