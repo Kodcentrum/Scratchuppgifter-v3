@@ -1,7 +1,7 @@
 # Börja koda med Scratch - introuppgift
 I denna enkla introuppgift får du prova på några första steg av kodning i verktyget Scratch.  
 
-Testa ett exempelprojekt nedan: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+Klicka på bilden nedan för att testa ett exempelprojekt: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
