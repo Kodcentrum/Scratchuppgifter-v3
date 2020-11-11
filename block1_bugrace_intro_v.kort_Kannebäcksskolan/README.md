@@ -74,12 +74,10 @@ Klicka dig vidare till kapitel 2.
 
 ## 2: Rita en bakgrund
 Nu ska vi rita en bakgrund med en väg som sprajten kan springa på.
-<video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Aktivera bakgrunden
 - Aktivera Bitmapp-läge i ritverktyget
 - Välj färg och verktyg för att fylla bakgrunden
@@ -134,12 +132,10 @@ Klicka på kapitel 3 och gå vidare.
 Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst till vänster i Scratch. Koden pusslas ihop till ett så kallat **skript** och läggs på den stora vita skript-ytan i mitten av Scratch. 
 </br>
 Dax att koda sprajtens rörelse!
-<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Aktivera sprajten och gå tillbaka till kodytan
 - Lägga in kod för start-block: *när GRÖN FLAGGA klickas på*
 - Lägga in kod för RÖRELSE: *gå 10 steg*
@@ -213,12 +209,10 @@ Klicka på kapitel 4 för att gå vidare.
 
 ## 4: Sätt en Startposition
 För att slippa dra tillbaka skalbaggen varje gång du startar spelet så kan du koda sprajten att alltid starta på en bestämd plats på scenen. För detta använder vi oss av sprajtens x och y-koordinater.
-<video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Dra sprajten till en plats på vägen där du vill den ska starta
 - Lägg in kodblock för position med RÖRELSE: gå till x:__ y:__
 
