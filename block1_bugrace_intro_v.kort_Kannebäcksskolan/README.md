@@ -68,11 +68,11 @@ Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
 **Nästa steg:**
-Nu har du lagt till en ny sprajt och det är dax att koda så den kan röra på sig. För att det ska fungera behöver vi ge sprajten kod med instruktioner hur den ska göra!
+Nu har vi en sprajt. Men den behöver en bakgrund att springa på! Dax att rita en bakgrundsbild med en väg.
 
 Klicka dig vidare till kapitel 2.
 
-## 3: Rita en bakgrund
+## 2: Rita en bakgrund
 Nu ska vi rita en bakgrund med en väg som sprajten kan springa på.
 <video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
 
