@@ -130,11 +130,12 @@ The white box behind your Sprite is called a stage. We can change the backdrop o
 Click on Chapter 3 for the next step 
 
 
-## 3: Making the Sprite move 
-A Sprite is just an image, but with code we can control the Sprite and the project. We give the Sprite instructions for how it should move across the stage using code. 
-Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle.
+## 3: Code to make the Sprite move 
+A Sprite is just an image, but with code we can control the Sprite and the project. Coding in Scratch can for example look like this:
 
 ![Alt Text](block_gif.gif)
+
+With the help of code we can give the Sprite instructions for how it should move across the stage. Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle.
 
 Time for you to make the Sprite move! 
 </br>
@@ -148,7 +149,7 @@ Time for you to make the Sprite move!
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
 
-**Activate the Sprite and return to the code workspace**
+**Return to the code workspace and activate the Sprite**
 
 1.  When you worked on the backdrop you were in the workspace called **BACKDROP**. To be able to code you need to click on the tab named **CODE** in the upper left-hand corner. Then click on the **small image for your Sprite to activate it**.
 
@@ -158,7 +159,7 @@ Time for you to make the Sprite move!
 
 Now you are ready to start coding your Sprite – which doesn’t have to be a beetle.
 
-**Start och stoppknapp**
+**Start och stop button**
 Have you noticed the **START** and **STOP** buttons above the stage with the Sprite? The **green flag** is the start button and the **red button** is the stop button.   
 
   ![image alt text](EN_intro_16.png)
