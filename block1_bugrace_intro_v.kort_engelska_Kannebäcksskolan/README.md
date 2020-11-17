@@ -149,7 +149,7 @@ Time for you to make the Sprite move!
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
 
-**Activate the Sprite and return to the code workspace **
+**Activate the Sprite and return to the code workspace**
 
 1.  When you worked on the backdrop you were in the workspace called **BACKDROP**. To be able to code you need to click on the tab named **CODE** in the upper left-hand corner. Then click on the **small image for your Sprite to activate it**.
 
