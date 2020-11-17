@@ -5,9 +5,10 @@
 
 **Sample project:** Click on the image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
->**HOW DO YOU CODE??** 
+>**HOW DO YOU CODE?** 
 Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
-<br> Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
+<br> 
+Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
     ![image alt text](EN_INtro_2.png) 
 <br>
 
@@ -50,7 +51,11 @@ First we will replace the cat with another Sprite. This is how:
 
 **Remove the cat and choose a new Sprite**
 
-1. There are two similar cat characters in the project – one large and one small. The big one is on the white **Stage** and the little one in a box below the stage. On the box with the cat there is **a trash can** in the upper right corner. Click on the trash can and the cat will be deleted from the project. The larger cat on the stage is gone and the stage is empty.  
+There are two similar cat characters in the project – one large and one small. The big one is on the white **Stage** and the little one in a box below the stage. 
+
+   ![image alt text](EN_intro_katter.png)
+
+1. On the box with the small cat below the Stage there is **a trash can**. Delete the cat from the project by clicking on the trash can. The cat is now gone and the stage is empty with no Sprites in the project.  
 
     ![image alt text](EN_INtro_4.png) 
 
@@ -144,7 +149,7 @@ Time for you to make the Sprite move!
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
 
-**Activate the Sprite and return to the code workspace **
+**Activate the Sprite and return to the code workspace**
 
 1.  When you worked on the backdrop you were in the workspace called **BACKDROP**. To be able to code you need to click on the tab named **CODE** in the upper left-hand corner. Then click on the **small image for your Sprite to activate it**.
 
