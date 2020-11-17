@@ -9,12 +9,15 @@
 Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
 <br> 
 Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
+<br>
     ![image alt text](EN_INtro_2.png) 
 <br>
-
->**Note!** To change language in Scratch, click on the arrow next to what looks like **a globe** in the top left corner and a whole list of language will appear. 
-    ![image alt text](EN_Intro_2b.png) 
 <br>
+>**Note!** To change language in Scratch, click on the arrow next to what looks like **a globe** in the top left corner and a whole list of language will appear. 
+<br>
+    ![image alt text](EN_Intro_2b.png) 
+    
+    
 Time to start coding! Make sure you have Scratch open in one tab of your web browser and this instruction in another tab. Or have two windows open next to one another. 
 <br>
 <br>
@@ -43,11 +46,6 @@ Below you can watch a video explaining what to do. And further down you also hav
 
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
-
-Make sure you have clicked **Create** on Scratch webpage so that the program is open, and you can start creating your project. 
-<br>
-First we will replace the cat with another Sprite. This is how: 
-
 
 **Remove the cat and choose a new Sprite**
 
@@ -81,7 +79,7 @@ Click to go to chapter 2.
 
 ## 2: Draw a backdrop
 Now we are going to draw a backdrop with a track for the Sprite to run on.
-
+    ![image alt text](EN_INtro_1.png)
 
 >**TIME FOR YOU TO:**
 - Activate the backdrop 
@@ -136,7 +134,10 @@ Click on Chapter 3 for the next step
 
 
 ## 3: Making the Sprite move 
-A Sprite is just an image, but with code we can control the Sprite and the project. We give the Sprite instructions for how it should move across the stage using code. Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle. 
+A Sprite is just an image, but with code we can control the Sprite and the project. We give the Sprite instructions for how it should move across the stage using code. 
+![Alt Text](Skript_1.gif)
+Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle. 
+
 Time for you to make the Sprite move! 
 </br>
 
