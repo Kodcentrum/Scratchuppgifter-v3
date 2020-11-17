@@ -140,7 +140,7 @@ Code also controls **how** and **when** the Sprite should be moving. You create 
 Time for you to make the Sprite move! 
 </br>
 
->**TIME FOR YOU TO**
+>**TIME FOR YOU TO:**
 
 - Activate the Sprite and go back to the code workspace 
 - Add code for EVENTS with starting code: *when GREEN FLAG clicked* 
