@@ -76,7 +76,7 @@ Click to go to chapter 2.
 
 ## 2: Draw a backdrop
 Now we are going to draw a backdrop with a track for the Sprite to run on.
-    ![image alt text](EN_INtro_1.png)
+    ![image alt text](bakgrund_ritad_väg.png)
 
 >**TIME FOR YOU TO:**
 - Activate the backdrop 
