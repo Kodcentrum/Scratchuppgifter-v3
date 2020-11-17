@@ -1,247 +1,248 @@
-# Börja koda med Scratch - introuppgift
-**Vad är detta?** I denna introuppgift får du som är ny till programmering och verktyget Scratch prova på några enkla första steg av kodning.  
+# Start coding in Scratch - intro task 
 
-**Mål:** Lägga till en ny figur, måla en bakgrund, koda figuren att röra sig.
+**What is this about?** In this introductory project, you who are new to programming and the Scratch tool, can try a few first basic steps of coding. 
+**The goal:** Add a new character, paint a backdrop, and get the character to move by coding. 
 
-**Exempelprojekt:** Klicka på bilden för att testa ett färdigt exempelprojekt: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
-> **HUR KODAR JAG?** 
+**Sample project:** Click on the image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+
+
+> **HOW DO YOU CODE?** 
 </br>
-Följ instruktionen steg-för-steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch.</a> 
+
+Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
 </br>
-Klicka på **Skapa** överst på Scratch webbsida för att öppna kodverktyget. Om du har ett konto på Scratch kan du logga in, och sen även spara projektet.
+Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
     ![image alt text](Scratch_sajt.png) 
 </br>
 
-Dax att börja koda! Se till att du har Scratch öppnat i en flik i din webbläsare och den här instruktionen i en annan flik. Eller i två fönster bredvid varandra.
+> **Note!** To change language in Scratch, click on the arrow next to what looks like **a globe** in the top left corner and a whole list of language will appear. 
+
+Time to start coding! Make sure you have Scratch open in one tab of your web browser and this instruction in another tab. Or have two windows open next to one another. 
 </br>
 </br>
-Klicka på kapitel 1 nedan för att gå vidare.
+Click on Chapter 1 below to proceed. 
 
-## 1: Välj ny sprajtfigur
 
-I Scratch kallas figurer och gubbar för en **sprajt**. Det finns massor av sprajtar att lägga in i ditt projekt som du sedan kan koda att röra på sig.
+## 1: Choose a new "Sprite" character
 
-Här ser du några exempel på olika **sprajtar**. </br>
+In Scratch, characters and figures are called a **"Sprite"**. There are lots of different Sprites to add to your project, which you can then program to move. 
+
+Here are some examples of different Sprites.  </br>
     ![image alt text](exempel_sprajtar.png) 
 </br>
 
-**Dax att byta ut katt-sprajten:** Vi börjar med att byta ut katt-sprajten till ny sprajt-figur - till exempel en skalbagge! 
+**Time to replace the cat Sprite:** We start by replacing the cat Sprite with a new character – for example a beetle! 
 </br>
 
-Här nedan kan du se en video på hur du gör detta. Under videon finns även text som beskriver hur du gör steg-för-steg.
+Below you can watch a video explaining what to do. And further down you also have explanatory text that takes you through it step by step.  
+
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Ta bort kattfiguren från projektet
-- Välja en ny sprajt-figur (exempelvis en skalbagge)
-- Minska sprajtens storlek
+>**TIME FOR YOU TO:**
+- Remove the cat Sprite from the project
+- Choose a new Sprite (for example a beetle) 
+- Reduce the size of the Sprite  
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-Se till att du har klickat **Skapa** i Scratch så att verktyget Scratch har öppnats så du är redo att skapa ditt projekt. 
-Först ska vi byta ut katten mot en annan sprajt-figur. Gör såhär:
+Make sure you have clicked **Create** on Scratch webpage so that the program is open, and you can start creating your project. 
+<br>
+First we will replace the cat with another Sprite. This is how: 
 
-**Ta bort katten och välj ny sprajt**
 
-1. Det finns två likadana katt-figurer i projektet - en stor och en liten. Den stora står på den vita **Scenen** och den lilla katt-bilden i en ruta under scenen. På den lilla kattfiguren finns **en soptunna**. Klicka på soptunnan så raderas kattsprajten ur projektet. Scenen blir helt tom.
+**Remove the cat and choose a new Sprite**
+
+1. There are two similar cat characters in the project – one large and one small. The big one is on the white **Stage** and the little one in a box below the stage. On the box with the cat there is **a trash can** in the upper right corner. Click on the trash can and the cat will be deleted from the project. The larger cat on the stage is gone and the stage is empty.  
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu ska vi lägga till en ny sprajt-figur. Under scenen långt ner till höger finns en blå knapp med ett vitt kattansikte på. Knappen heter **Välj en sprajt**. Tryck på den.
+2. Now we need to add a **new Sprite**. To the right under the stage you can see a blue button with a white cat face on it. This is the **Choose a Sprite** button. Click on it. 
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-3. Nu kommer du in i Scratch stora sprajtbibliotek. Här finns massor av sprajtar att välja mellan. Klicka på den sprajt du vill ha så läggs den till i ditt projekt och hamnar på scenen.
+3. Now you are in the Sprite library for Scratch. There are lots of Sprites to choose from. Click on the Sprite you want in your project and it will show up on your stage. 
 
     ![image alt text](sprajtbiblioteket.png)
 
->**Tips!** I Sprajtbibliotekets meny längst upp finns olika kategorier som du kan välja mellan för att lättare hitta en sprajt du vill ha, exempelvis kategorin *Djur* eller *Mat*. Det finns även en sökfunktion.
+>**Note!** At the top of the Sprite Library there is a menu with different categories to make it easier to find the Sprite you want, for example, Music, People or Food. There is also a search function. 
 
-**Minska sprajtens storlek**
+**Reduce the size of the Sprite**
 
-4. Sprajten du just lagt till är ganska stor, så du kan minska storleken på den. Under scenen där sprajten finns hittar du rubriken **Storlek - 100**. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 50. Du kan alltid ändra det igen senare om det blev för stort eller litet.
+4. The Sprite you just added is a bit large. You can reduce the size of it by locating **Size 100** above the smaller Sprite image and below the stage. This means that the Sprite is **in full size**, i.e., 100%. Change the number to a lower percentage, for example 50. You can always go back and change it again if it becomes too big or small for your project. 
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
-**Nästa steg:**
-Nu har vi en sprajt. Men den behöver en bakgrund att springa på! Dax att rita en bakgrundsbild med en väg.
+**Next step:** You have now added a new Sprite and we want to make it move, but first we’ll create a more fun backdrop for the Sprite to move on.  
 
-Klicka dig vidare till kapitel 2.
+Click to go to chapter 2. 
 
-## 2: Rita en bakgrund
-Nu ska vi rita en bakgrund med en väg som sprajten kan springa på.
+## 2: Draw a backdrop
+Now we are going to draw a backdrop with a track for the Sprite to run on.
 
 
->**VAD SKA JAG GÖRA?**
-
-- Aktivera bakgrunden
-- Aktivera Bitmapp-läge i ritverktyget
-- Välj färg och verktyg för att fylla bakgrunden
-- Välj ny färg och verktyg för att måla en väg
+>**TIME FOR YOU TO:**
+- Activate the backdrop 
+- Enable Bitmap mode in the drawing tool
+- Select color and tools to fill the backdrop
+- Choose a new color and tool to paint a track 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-Den vita rutan bakom din sprajt kallas för en Scen. Vi kan ändra bakgrund på scenen, antingen genom att lägga till en färdig bild från Scratch bakgrundsbibliotek eller genom att rita en egen bakgrund. Nu ska vi rita en bakgrund med en väg på. Gör såhär:
+The white box behind your Sprite is called a stage. We can change the backdrop of the stage, either by selecting an image from the backdrop library or by drawing our own. We want to draw a backdrop with a track on it. This is how:  
 
-**Aktivera bakgrunden och ritverktyget**
+**Activate the backdrop and drawing tool**
 
-1. Just nu är sprajten aktiverad, då det är den vi jobbat med. För att jobba med bakgrunden måste vi aktivera bakgrunden istället. Klicka på den lilla vita rutan långt ned till höger nära där det står **SCEN**. Då blir den lilla vita rutan markerad med en blå ram och bakgrunen är aktiverad. 
+1. The Sprite is activated, since we have been working with it so we need to activate the backdrop to be able to make changes to that instead. Click on the white box in the bottom right hand corner where it says **STAGE**. The backdrop is activated when you see that it is marked with a blue frame. 
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)
 
-2. För att öppna bakgrundens ritverktyg klickar du på fliken som heter **BAKGRUNDER** som finns högt uppe till vänster i Scratch.
+2. To open the backdrop drawing tool, click on the tab called **Backdrops** located in the top left corner of your screen. 
 
 	  ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-3. Klicka först på den blå knappen längst ned under ritytan som det står **"Gör till bitmapp** på. Detta gör ditt målande mycket lättare.
+3. Click on the blue button at the bottom below the drawing area that says **"Convert to bitmap”** on. This makes painting much easier.
 
     ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
     
-**Välj färg och verktyg och fyll bakgrunden**
+**Pick color and tools to change the backdrop**
 
-4. Välj **en ny färg** för bakgrunden genom att klicka på den lilla färgade rutan ovanför verktygen. En färgväljare kommer nu fram och du kan dra i de vita cirklarna i färgväljaren tills du får en färg du vill ha.
+4. Select **a new color** for the backdrop by clicking on the **Fill box**. A color picker will appear. Move the white circles to the left or right to get the color you want. 
 
    ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
     
-5. Klicka nu på vertyget som ser ut som en **HINK**. Klicka sen på den vita rutan bredvid hinken så fylls hela bakgrunden med din nya färg.
+5. When you are happy with your color, close the window of the color picker by clicking anywhere outside it. Then **select the tool** that looks like a **BUCKET**. Click on the larger checkered area to the right and the whole backdrop will be in the color you selected. (You will se the same color appear on the Stage with your Sprite as well)
 
   ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
   
-**Välj nytt verktyg och färg och måla en väg**
+**Choose a new tool and color to paint a track**
 
-6. Nu ska vi måla en väg på bakgrunden som sprajten kan springa på. Klicka på verktyget som ser ut som en **PENSEL**. Klicka sen på **siffran 10** som står ovanför ritytan och ändra penselns storlek till 100 - det blir en lagom bredd för vägen. Välj sen en **ny färg** med färgväljaren. 
+6. Now we need to paint a track for the Sprite to run on. Click on the tool that looks like a **BRUSH**. Then click on the **number 10** above the drawing surface and change the size of the brush to **100** – a good width for the track. Press **Fill** to pick a color for the track. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
-7. Måla nu en rak väg på ritytan med penseln och den nya färgen. Strecket ska bli ganska tjockt så sprajten får plats på vägen.
+7. Paint a straight path on the drawing surface with the brush and the new color. The line should be quite thick so the Sprite can fit on the track. 
 
   ![image alt text](bakgrund_ritad_väg.png)
 
-**Nästa steg:**
-Nu har vi en sprajt och en bakgrund. Dax att börja koda så att sprajten kan röra på sig!
+**Next step:** we have a Sprite and a backdrop. Time to start coding so that the Sprite can run on the track!
+ 
+Click on Chapter 3 for the next step 
 
-Klicka på kapitel 3 och gå vidare.
 
-
-## 3: Sprajten rör på sig
-Med kod kan vi styra sprajten och projektet. Sprajtar är egentligen bara en stillastående bild. Sprajten behöver kodas med instruktioner om den ska kunna röra sig över scenen. Koden styr **hur** sprajten ska röra sig och **när** den ska börja röra sig. Koden skapar du med de små pusselbitarna med kod som du ser längst till vänster i Scratch. Koden pusslas ihop till ett så kallat **skript** och läggs på den stora vita skript-ytan i mitten av Scratch. 
+## 3: Making the Sprite move 
+A Sprite is just an image, but with code we can control the Sprite and the project. We give the Sprite instructions for how it should move across the stage using code. Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle. 
+Time for you to make the Sprite move! 
 </br>
-Dax att koda sprajtens rörelse!
 
+>**TIME FOR YOU TO**
 
->**VAD SKA JAG GÖRA?**
-
-- Aktivera sprajten och gå tillbaka till kodytan
-- Lägga in kod för start-block: *när GRÖN FLAGGA klickas på*
-- Lägga in kod för RÖRELSE: *gå 10 steg*
-- Lägga in kod för KONTROLL: *för alltid* (en loop)
-
+- Activate the Sprite and go back to the code workspace 
+- Add code for EVENTS with starting code: *when GREEN FLAG clicked* 
+- Add code for MOTION: *move 10 steps* 
+- Add code for CONTROL: *forever* (a loop) 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
+
+**Activate the Sprite and return to the code workspace **
+
+1.  When you worked on the backdrop you were in the workspace called **BACKDROP**. To be able to code you need to click on the tab named **CODE** in the upper left-hand corner. Then click on the small image for your Sprite to activate it.
+
+Now you are ready to start coding your Sprite – which doesn’t have to be a beetle.
 
 **Start och stoppknapp**
-
-Har du lagt märke till START- och STOPP-knappen för projektet som finns ovanför scenen med sprajtfiguren? **Den gröna flaggan** är en start-knapp och **den röda knappen** är en stopp-knapp.
+Have you noticed the **START** and **STOP** buttons above the stage with the Sprite? The **green flag** is the start button and the **red button** is the stop button.   
 
   ![image alt text](START_STOPP-funktion.png)
 
-Nu ska du koda så att din sprajtfigur börjar röra sig när du trycker på START-knappen - alltså **den gröna flaggan** ovanför scenen. 
+Time for you to add code so that your Sprite starts to move on the Stage when you press the START button – that is, **the green flag**. 
 
-**Aktivera sprajten och gå tillbaka till kodverktyget**
+**Enter code block for start**
 
-1. Vi har ritat i ritverktyget för bakgrunden. För att stänga ritverktyget klickar du på fliken som heter **KOD** högt upp till vänster i Scratch. Klicka sedan även på lilla bilden av din sprajt för att aktivera sprajten istället för bakgrunden. 
+2. At the far left you can see different colored themes with headings, e.g. *Motion*, *Looks* and *Control*. When you click on the themes, more coding blocks will show up in the shape of puzzle pieces. The theme has the same color as its associated code blocks.  
 
-Nu är du redo att börja koda din sprajt.
-
-**Lägg in kodblock för start**
-
-2. Längst till vänster hittar du olika färgade teman med rubriker, ex. *Rörelse* och *Utseende*. Om man klickar på olika teman kommer flera kodblock i form av pusselbitar fram. Valt tema och tillhörande kodblock har samma färg. 
-
-Klicka först på det gula temat som heter **HÄNDELSER** och välj kodblocket med en grön flagga på som heter: **"när GRÖN FLAGGA klickas på"**. Ta tag i kodblocket, dra det åt höger och släpp blocket på den stora, vita skript-ytan i mitten av Scratch.
+Click on the yellow theme called **EVENTS** and select the block with a green flag on it called: **"when GREEN FLAG clicked”**. Drag the block to the large, white script surface in the middle of the window and drop it there. 
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
   
-Nu har du lagt in ett så kallat **start-block** i ditt projekt. Ett startblock ligger alltid överst i koden du vill bygga ihop.  Men det behövs mer kod för att prajten ska veta vad den ska göra när den gröna start-flaggan  har klickats på. Vi mpste koda vidare.
+You have now added a **Hat block** to your project. A hat block is always at the top of the code you want to build. But you need more code so that the Sprite knows what to do when the green start flag is clicked.
 
-**Lägg in kodblock för rörelse**
+**Enter code blocks for motion**
 
-3. Klicka på det blå temat som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra ut blocket till skriptytan och fäst det under det gula kodblocket med gröna flaggan på. Koppla ihop blocken som två pusselbitar.
+3. Click on the blue theme called **MOTION** and select the **"move 10 steps"** block. Drag the block to the script surface and attach it under the yellow hat block with the green flag. You connect the blocks as two pieces of a puzzle.
 
   ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
 
- >**Tips!** Om man för två block nära varandra på skriptytan så syns en grå skugga. Då kan du släppa kodblocket du håller i så kopplar blocken automatiskt ihop sig som pusselbitar.
+ >**Note!** If you move two blocks close to each other on the script surface, a gray shadow will appear. You can then release the code block you are holding, and the blocks automatically come together as puzzle pieces –like a magnet is pulling them together. 
+
 ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
 </br>
 
->**Testa koden!** Testa vad som händer när du trycker på START-knappen (den gröna flaggan ovanför scenen). Flyttar sig sprajten lite åt höger när du klickat på startknappen? Prova fler gånger, vad händer?
+>**Test your code!** Test what happens when you press the START button (the green flag above the scene). Does the Sprite move a little to the right when you click the start button? Try several times, what happens?
 
-**Repetera röreslekoden med en loop**
+**Add a loop to repeat the motion**
 
-4. Vi vill att sprajten ska röra sig framåt hela tiden efter att vi tryckt på startknappen. Vi behöver lägga till ett kodblock som repeterar rörelsen framåt om och om igen - alltså en loop i koden. Gör såhär: 
+4. You want the Sprite to continue moving forward when you press the start button. For that we need to add a code block that tells the motion to repeat over and over again. This is called a **loop**. This is what you do: 
 
-Klicka på det orangea temat som heter **KONTROLL**. Här finner du kodblocket som heter **"för alltid"**. Detta block kan repetera kod som läggs inuti den, alltså en **loop** som gör att koden sker om och om igen.
+Click on the orange theme called **CONTROL**. Here you will find a block called **"forever"**. This block will repeat the code that is placed inside it over and over, which is a **loop**.  
 
-Dra in **"för alltid"**-loopen till skriptytan och lägg den direkt under **"när *GRÖN FLAGGA* klickas på"** så det blå rörelseblocket **"gå 10 steg"** lägger sig inuti loopen. Då ser det ut som i bilden nedan:
+Place the **"forever"** block to the script surface and place it directly below **"when GREEN FLAG clicked"** so that the blue motion block **"move 10 steps"** is placed inside the loop. It should look like the image below: 
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
->**Testa koden!** Tryck på START-flaggan för projektet. Nu blir det fart på sprajten som springer iväg.
+>**Test your code!** Press the START button. Your Sprite should run away really fast.
 
-**Stoppa koden och dra tillbaka sprajten**
+**Stop the code and drag the Sprite back**
 
-5. Sprajten stoppar vid kanten. Ta tag i sprajten och dra tillbaka den ut på scenen igen. Springer sprajten iväg igen? Du måste klicka på den röda **stopp-knappen** ovanför scenen för att stoppa koden och så sprajten slutar springa.
+5. The Sprite stops by itself at the edge of the stage. You can drag it back onto the stage again. Does it run away again? You have to click on the red stop button above the stage to stop the code for the Sprite to stop running. 
 
   ![image alt text](START_STOPP-funktion.png)
 
->**Tips!** Rör sig sprajten för fort? Du kan ändra hastigheten genom att skriva en lägre siffra i det blå kodblocket som heter **gå 10 steg**. Klicka på siffran 10 i blocket och skriv exempelvis 3. Starta projektet igen - går sprajten lagom fort nu? Testa dig fram tills du är nöjd med hastigheten.
+>**Note!** Does the Sprite move too fast? You can change the speed by typing a lower number in the blue block called **“move 10 steps”**. Click on the number 10 in the block and write, for example, 3. Start the project again – does the Sprite move at a good speed? Test until you find the speed you want it to have. 
 ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 </br>
 
-**Nästa steg:**
-Nu har vi en sprajt som springer på vägen. Men den fastnar vid kanten. Dags att sätta in en startposition.
+**Next step:**
+Now we have a Sprite that runs on the track, but it gets stuck at the edge. Let’s give it a starting position. 
 
-Klicka på kapitel 4 för att gå vidare.
+Click on Chapter 4 for the next step.
 
-## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen varje gång du startar spelet så kan du koda sprajten att alltid starta på en bestämd plats på scenen. För detta använder vi oss av sprajtens x och y-koordinater.
+## 4: Set a Start position
+To avoid having to drag the beetle (or whatever Sprite you are using) back every time you start the game, you can code it to start at the same place each time. For that you need to use x and y coordinates. 
 
+>**TIME FOR YOU TO:**
 
->**VAD SKA JAG GÖRA?**
-
-- Dra sprajten till en plats på vägen där du vill den ska starta
-- Lägg in kodblock för position med RÖRELSE: gå till x:__ y:__
+- Drag the Sprite to a place on the track where you want it to start 
+- Enter code to indicate starting position MOTION: go to x: __ y: __ 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-**Lägg till kodblock för startposition**
+**Add a code to set starting position  **
 
-1. Dra sprajten till den position där du vill att den ska starta på vägen. 
+1. Drag the Sprite to the position on the track where you want it to start. 
 
-2. Klicka på tema **RÖRELSE** till vänster och välj blocket **"gå till x:__ y:__"**. Lägg in kodblocket i skriptet direkt under det gula blocket som heter **"när GRÖN FLAGGA klickas på"**. De siffror (värden) som står i blocket vid X och Y är **koordinaterna** för den position som du har ställt skalbaggen på - alltså en bestämd plats på scenen. 
+2. Click on the **MOTION** theme on the left and select the block **"go to x: __ y: __"**. Insert the code block in the script directly below the block **"when GREEN FLAG clicked".** The numbers (values) that are in the block at X and Y are **the coordinates for the position** of your beetle on the stage. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
-Nu kommer skalbaggen att ställa sig på samma startposition varje gång du trycker på den gröna START-flaggan ovanför scenen.
+Now the beetle will be in the same starting position every time you press the green START flag above the stage. 
 
->**Testa koden!** Testa ditt projekt och starta koden. Startar sprajten från samma plats varje gång du trycker på den gröna start-flaggan? Rör den sig lagom snabbt?
+>**Time to test your code!** Does the Sprite start from the same position every time you press the green start flag? Does it move fast enough? 
 
-**Bra jobbat! Nu har du skapat ditt första projekt i Scratch och kodat ditt första program som styr en sprajt att röra sig.**
-
-
-## Färdig!
-Grattis! Nu har du lärt dig grunderna i Scratch och kan ta dig an lite större projekt!
+**Good work! You have created your first project in Scratch and coded your first project that makes a Sprite move.**
 
 
-## Frågeställningar
+## Finished!
+Congratulations! You now know the basics of Scratch and can move on to bigger projects! 
 
-* Vad är en sprajt?
 
-* Vad är en loop?
+## Questions:
 
-* Vad är ett skript?
+* What is a sprite? 
+
+* What is a loop? 
+
+* What is a script? 
