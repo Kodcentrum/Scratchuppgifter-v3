@@ -1,6 +1,7 @@
 # Start coding in Scratch - intro task 
 
 **What is this about?** In this introductory project, you who are new to programming and the Scratch tool, can try a few first basic steps of coding. 
+
 **The goal:** Add a new character, paint a backdrop, and get the character to move by coding. 
 
 **Sample project:** Click on the moving image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](exempelprojekt_gif.gif)</a>
@@ -34,10 +35,6 @@ Here are some examples of different Sprites.  </br>
 
 **Time to replace the cat Sprite:** We start by replacing the cat Sprite with a new character – for example a beetle! 
 </br>
-
-Below you can watch a video explaining what to do. And further down you also have explanatory text that takes you through it step by step.  
-
-<video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 - Remove the cat Sprite from the project
