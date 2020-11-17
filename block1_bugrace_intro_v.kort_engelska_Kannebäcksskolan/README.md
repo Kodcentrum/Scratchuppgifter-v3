@@ -5,7 +5,7 @@
 
 **Sample project:** Click on the image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
 
->**HOW DO YOU CODE?** 
+>**HOW DO YOU CODE??** 
 Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
 <br> Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
     ![image alt text](EN_INtro_2.png) 
