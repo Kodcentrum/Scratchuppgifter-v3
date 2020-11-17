@@ -132,10 +132,9 @@ Click on Chapter 3 for the next step
 
 ## 3: Making the Sprite move 
 A Sprite is just an image, but with code we can control the Sprite and the project. We give the Sprite instructions for how it should move across the stage using code. 
+Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle.
 
 ![Alt Text](block_gif.gif)
-
-Code also controls **how** and **when** the Sprite should be moving. You create the code with the colorful puzzle pieces that you see on the left side in Scratch. You put the pieces together into, what we call, **a Script** on the large white script surface in the middle. 
 
 Time for you to make the Sprite move! 
 </br>
