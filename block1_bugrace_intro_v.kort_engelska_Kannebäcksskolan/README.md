@@ -11,7 +11,7 @@
 Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
 </br>
 Click on **Create** at the top of the Scratch web page to open the coding tool. If you have a Scratch account, you can log in, and save the project. 
-    ![image alt text](EN_Intro_2.png) 
+    ![image alt text](EN_INtro_2.png) 
 </br>
 
 > **Note!** To change language in Scratch, click on the arrow next to what looks like **a globe** in the top left corner and a whole list of language will appear. 
@@ -110,7 +110,9 @@ The white box behind your Sprite is called a stage. We can change the backdrop o
 
 4. Select **a new color** for the backdrop by clicking on the **Fill box**. A color picker will appear. Move the white circles to the left or right to get the color you want. 
 
-   ![image alt text](EN_Intro_11.png)      ![image alt text](EN_Intro_12.png)
+   ![image alt text](EN_Intro_11.png)
+</br>
+   ![image alt text](EN_Intro_12.png)
     
 5. When you are happy with your color, close the window of the color picker by clicking anywhere outside it. Then **select the tool** that looks like a **BUCKET**. Click on the larger checkered area to the right and the whole backdrop will be in the color you selected. (You will se the same color appear on the Stage with your Sprite as well)
 
@@ -149,7 +151,9 @@ Time for you to make the Sprite move!
 
 1.  When you worked on the backdrop you were in the workspace called **BACKDROP**. To be able to code you need to click on the tab named **CODE** in the upper left-hand corner. Then click on the **small image for your Sprite to activate it**.
 
-  ![image alt text](EN_Intro_17.png)     ![image alt text](EN_intro_18.png)
+  ![image alt text](EN_Intro_17.png)
+</br>
+  ![image alt text](EN_intro_18.png)
 
 Now you are ready to start coding your Sprite – which doesn’t have to be a beetle.
 
@@ -179,6 +183,7 @@ You have now added a **Hat block** to your project. A hat block is always at the
   ![image alt text](EN_Intro_21.png)
 
  >**Note!** If you move two blocks close to each other on the script surface, a gray shadow will appear. You can then release the code block you are holding, and the blocks automatically come together as puzzle pieces –like a magnet is pulling them together. 
+</br>
 ![image alt text](EN_INtro_22.png)
 </br>
 
@@ -186,11 +191,11 @@ You have now added a **Hat block** to your project. A hat block is always at the
 
 **Add a loop to repeat the motion**
 
-4. You want the Sprite to continue moving forward when you press the start button. For that we need to add a code block that tells the motion to repeat over and over again. This is called a **loop**. This is what you do: 
+You want the Sprite to continue moving forward when you press the start button. For that we need to add a code block that tells the motion to repeat over and over again. This is called a **loop**. This is what you do: 
 
-Click on the orange theme called **CONTROL**. Here you will find a block called **"forever"**. This block will repeat the code that is placed inside it over and over, which is a **loop**.  
+4. Click on the orange theme called **CONTROL**. Here you will find a block called **"forever"**. This block will repeat the code that is placed inside it over and over, which is a **loop**.  
 
-Place the **"forever"** block to the script surface and place it directly below **"when GREEN FLAG clicked"** so that the blue motion block **"move 10 steps"** is placed inside the loop. It should look like the image below: 
+5. Pull over the **"forever"** block to the script surface and place it directly below **"when GREEN FLAG clicked"** so that the blue motion block **"move 10 steps"** is placed inside the loop. It should look like the image below: 
 
   ![image alt text](EN_Intro_23.png)
 
@@ -198,12 +203,13 @@ Place the **"forever"** block to the script surface and place it directly below 
 
 **Stop the code and drag the Sprite back**
 
-5. The Sprite stops by itself at the edge of the stage. You can drag it back onto the stage again. Does it run away again? You have to click on the red stop button above the stage to stop the code for the Sprite to stop running. 
+6. The Sprite stops by itself at the edge of the stage. You can drag it back onto the stage again. Does it run away again? You have to click on the red stop button above the stage to stop the code for the Sprite to stop running. 
 
   ![image alt text](EN_intro_24.png)
 
 >**Note!** Does the Sprite move too fast? You can change the speed by typing a lower number in the blue block called **“move 10 steps”**. Click on the number 10 in the block and write, for example, 3. Start the project again – does the Sprite move at a good speed? Test until you find the speed you want it to have. 
-![image alt text](EN_Intro_25.png)
+</br>
+   ![image alt text](EN_Intro_25.png)
 </br>
 
 **Next step:**
@@ -222,13 +228,13 @@ To avoid having to drag the beetle (or whatever Sprite you are using) back every
 <br>
 >**STEP-BY-STEP INSTRUCTIONS:**
 
-**Add a code to set starting position  **
+**Add a code to set starting position**
 
 1. Drag the Sprite to the position on the track where you want it to start. 
 
-2. Click on the **MOTION** theme on the left and select the block **"go to x: __ y: __"**. Insert the code block in the script directly below the block **"when GREEN FLAG clicked".** The numbers (values) that are in the block at X and Y are **the coordinates for the position** of your beetle on the stage. 
+2. Click on the **MOTION** theme on the left and select the block **"go to x: __ y: __"**. Insert the code block in the script directly below the block **"when GREEN FLAG clicked".** The numbers (values) that are in the block at X and Y are the coordinates for the position of your beetle on the stage. 
 
-  ![image alt text](EN_Intro_26.png)
+   ![image alt text](EN_Intro_26.png)
 
 Now the beetle will be in the same starting position every time you press the green START flag above the stage. 
 
