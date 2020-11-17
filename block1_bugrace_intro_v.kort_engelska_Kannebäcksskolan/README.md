@@ -3,7 +3,7 @@
 **What is this about?** In this introductory project, you who are new to programming and the Scratch tool, can try a few first basic steps of coding. 
 **The goal:** Add a new character, paint a backdrop, and get the character to move by coding. 
 
-**Sample project:** Click on the image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](Exempelprojekt_sprajtPåBana.png)</a>
+**Sample project:** Click on the moving image below to test a completed sample project: <a href="https://scratch.mit.edu/projects/445589191/" target="_blank"> ![image alt text](exempelprojekt_gif.gif)</a>
 
 >**HOW DO YOU CODE?** 
 Follow the step-by-step instructions and code your project in Scratch, a programming tool. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch. </a> 
