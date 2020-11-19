@@ -1,43 +1,44 @@
 # Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over!
+In the game Bug Race, the goal is to get a beetle to stay on a track until it crosses the finishing line. To steer you use the left and right arrows on the computer keyboard. If the character leaves the track, it will be Game Over!
 
-Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
+Test our version of Bug Race below. <a href="https://scratch.mit.edu/projects/452115651" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
-> **HUR KODAR JAG?** 
+> **HOW DO YOU CODE THE GAME?** 
 </br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
+Follow the step-by-step instructions to code your project in Scratch. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch in a new tab.</a> When you’ve opened Scratch, click Create to get started. If you have a scratch account, log in so that you can save and share your project. If you don’t have an account yet, it is free. 
 </br>
 
-Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
+Time to start coding! Click on step 1 below to get started.
 
-## 1: Välj ny sprajtfigur
+## 1: Choose a new "sprite" character
 
-Byt ut katt-sprajten till ny sprajt - en skalbagge!
+Replace the cat sprite with a new sprite, we’ve used a beetle! 
 <video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Ta bort kattfiguren
-- Välj ny sprajt
-- Minska sprajtens storlek
+Watch the video to see how to: 
+
+- Remove the cat  
+- Choose a new sprite 
+- Reduce the size of the sprite
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+In Scratch, you create projects using **sprites**. A sprite is a character you choose to add to your project. All sprites can be controlled with **code**. The code in Scratch looks like small pieces of a puzzle. When you put the pieces together, you build a **script**. The script is your code that controls your project and all your sprites. 
 
-Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
+Time to replace the cat with a beetle, or any other sprite you want to have race around the track. This is how: 
 
-1. Tryck på **krysset på lilla rutan med kattfiguren** så försvinner den.
+1. Click on the **trash can on the small box with the cat** and the sprite will disappear. 
 
-    ![image alt text](Ta_bort_Sprajt.png) 
+    ![image alt text](1-1_remove_sprite.png) 
 
-2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
+2. To add a new sprite, click on the **Choose a sprite** button located under the **stage** with the white background: 
 
-    ![image alt text](Ny_Sprajt-knapp.png)
+    ![image alt text](1-2_pick_sprite.png)
 
-En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
+There are a lot of sprites to choose from. You can use the menu for different categories. If you want to use the beetle, go to "Animals.” Click on the beetle and it will be added to your project. 
 
 3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
 
