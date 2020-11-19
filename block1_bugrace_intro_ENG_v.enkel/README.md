@@ -85,13 +85,13 @@ Watch the video to see how to:
 
 5. Now click on the **BRUSH** tool and select a new color for your track. You adjust the size of the brush stroke by clicking on the arrows next to it, or by changing the number in the box. You need the track to be rather thick. 
 
- ![image alt text](Bakgrund_måla_pensel.png)
+ ![image alt text](2-3_brush.png)
  
 Draw a track like an oval or circle – make it as big as you can but keep it inside the box! 
 
 This is roughly what the game's course may now look like. If the course is very narrow, the game will be very difficult, the beetle will easily end up off the course - and you will be Game Over. If the course is wide, the game will be a little easier as you have more space to steer around without going out! 
 
-  ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
+  ![image alt text](2-3_what_it_looks_like.png)
 
 
 ## 3: Sprajten rör på sig
