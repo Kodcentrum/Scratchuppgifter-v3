@@ -8,7 +8,9 @@ Test our version of Bug Race below. <a href="https://scratch.mit.edu/projects/45
 Follow the step-by-step instructions to code your project in Scratch. <a href="https://scratch.mit.edu" target="_blank"> Click here to open Scratch in a new tab.</a> When you’ve opened Scratch, click Create to get started. If you have a scratch account, log in so that you can save and share your project. If you don’t have an account yet, it is free. 
 </br>
 
-Time to start coding! Click on step 1 below to get started.
+Time to start coding! 
+
+Click on step 1 below to get started.
 
 ## 1: Choose a new "sprite" character
 
@@ -65,19 +67,23 @@ Watch the video to see how to:
 <br>
 >**STEP-BY-STEP INSTRUCTIONS**
 
-1. To change the backdrop, click on the white small box at the bottom right where it says **STAGE**. It will be marked with blue. Now click on the **BACKDROPS** tab at the top left. 
+1. To change the backdrop, we first need to click on the white small box at the bottom right where it says **STAGE**. It will be marked with blue. 
 
-    ![image alt text](2-1_backdrop.png)	    ![image alt text](2-1_backdrop_tab.png)
+    ![image alt text](2-1_backdrop.png)
 
-2. Click on the blue button **"Convert to bitmap.”**
+Now click on the **BACKDROPS** tab at the top left.
+
+   ![image alt text](2-1_backdrop_tab.png)
+
+2. Click on the blue button **"Convert to bitmap.”**. It is found at the bottom under the drawing surface.
 
     ![image alt text](2-2_convert_to_bitmap.png)
 
-3. To choose **a color** click on the colored box that says Fill. A color picker will appear. Move the white circles to the color you want. When you are happy with your color, close the color picker by clicking next to it. 
+3. Now we will paint the backdrop. To choose **a color** click on the colored box that says **Fill**. A color picker will appear. Move the white circles to the color you want. When you are happy with your color, close the color picker by clicking next to it. 
 
    ![image alt text](2-2_fillcolor.png)
     
-4. Now select the tool named **FILL**, which is the icon that looks like a small bucket, and click on the white checkered area. You should now have a different colored backdrop. 
+4. Now select a tool to fill your backdrop with the color. Click on the icon that looks like a small bucket, and click on the white checkered area to the right. You should now have a different colored backdrop. 
 
   ![image alt text](2-2_bucket.png)
   
@@ -172,37 +178,37 @@ Watch the video to see how to:
 The beetle will now automatically move to the same starting position each time you click on the green START flag. 
 
 
-## 5: Styra skalbaggen
+## 5: Control the beetle
 
-Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent. (Använder du surfplatta med pekskärm finns tips på hur du kan koda sprajten att följa ditt finger längre ned.)
+The next step is to make it possible to control the beetle, so that it doesn’t run straight off the track! For that you need two short scripts. One that tells the beetle to turn to the right when you click on the right arrow key on the computer keyboard, and another that tells it to turn left when you click on the left arrow key. (If you use a tablet with a touch screen, there are Notes further down for how you can code the sprite to follow your finger.) 
 <video src="./BugRacedel5_nytt.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block
-- Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*
-- Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader
+>**TIME FOR YOU TO:**
+Watch the video to see how to: 
+- Enter code for EVENTS: “when space key pressed” Drag in two of those blocks 
+- Change where it says *“space”* in the blocks to say *"left arrow"* and *"right arrow"* 
+- Enter code for MOTION: turn ‘left’ 15 degrees and a turn ‘right’ 15 degrees 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS**
 
->**Tips! Använder du surfplatta med pekskärm?** Koda då som bilden visar nedan istället för knappar att styra med, så följer sprajten ditt finger på skärmen runt banan: 
-  ![image alt text](Bugrace_touchscreen_följ_muspekare.png)
+1. Under the heading **EVENTS** there is a block that says **"when space key pressed"**. Drag in **two of those blocks** and place them next to each other anywhere on the script surface. 
 
-1. **Koda styrknappar såhär:** under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
+Next to the word *"space"* in these two blocks is a small white triangle. Click on the triangle in each block and select from the drop-down list that appears – **left arrow** in one block and **right arrow** in the other. 
 
   ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
 
-Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
 
   ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
 
-2. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
+2. Now you will be able to turn the sprite. Under **MOTION** you find a block that says **"turn (arrow left) 15 degrees"** and one that says **"turn (arrow right) 15 degrees"**. Connect these two blocks under the blocks **"when left arrow key pressed"** and **"when right arrow key pressed"**.
 
   ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
 
-> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet genom att ändra variabelsiffran i rörelse-blocket!
+>**Test your code!** Click on the green START flag and see if you can control the beetle in both directions with the arrow keys on the keyboard? Is it going too fast? Too slow? Adjust the speed of the beetle by changing the variable number in the motion block! 
+
+>**Note! Are you using a tablet with a touch screen?** Then use the code below instead and the sprite will follow your finger on the screen around the track. 
+  ![image alt text](Bugrace_touchscreen_följ_muspekare.png)
 
 
 ## 6: Ändra startriktning
