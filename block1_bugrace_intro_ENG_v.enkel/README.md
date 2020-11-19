@@ -71,29 +71,29 @@ Watch the video to see how to:
 
     ![image alt text](2-1_backdrop.png)
 
-Now click on the **BACKDROPS** tab at the top left.
+2. Now click on the **BACKDROPS** tab at the top left.
 
    ![image alt text](2-1_backdrop_tab.png)
 
-2. Click on the blue button **"Convert to bitmap.”**. It is found at the bottom under the drawing surface.
+3. Click on the blue button **"Convert to bitmap.”**. It is found at the bottom under the drawing surface.
 
     ![image alt text](2-2_convert_to_bitmap.png)
 
-3. Now we will paint the backdrop. To choose **a color** click on the colored box that says **Fill**. A color picker will appear. Move the white circles to the color you want. When you are happy with your color, close the color picker by clicking next to it. 
+4. Now we will paint the backdrop. To choose **a color** click on the colored box that says **Fill**. A color picker will appear. Move the white circles to the color you want. When you are happy with your color, close the color picker by clicking next to it. 
 
    ![image alt text](2-2_fillcolor.png)
-    
-4. Now select a tool to fill your backdrop with the color. Click on the icon that looks like a small bucket, and click on the white checkered area to the right. You should now have a different colored backdrop. 
+
+5. Now select a tool to fill your backdrop with the color. Click on the icon that looks like a small bucket, and click on the white checkered area to the right. You should now have a different colored backdrop.
 
   ![image alt text](2-2_bucket.png)
   
 >**Note:** Don’t pick the same color for your backdrop or track as your sprite, since that will make it tricky later on.  
 
-5. Now click on the **BRUSH** tool and select a new color for your track. You adjust the size of the brush stroke by clicking on the arrows next to it, or by changing the number in the box. You need the track to be rather thick. 
+6. Now click on the **BRUSH** tool and select a new color for your track. You adjust the size of the brush stroke by clicking on the arrows next to it, or by changing the number in the box. You need the track to be rather thick. 
 
  ![image alt text](2-3_brush.png)
  
-Draw a track like an oval or circle – make it as big as you can but keep it inside the box! 
+7. Draw a track like an oval or circle – make it as big as you can but keep it inside the box! 
 
 This is roughly what the game's course may now look like. If the course is very narrow, the game will be very difficult, the beetle will easily end up off the course - and you will be Game Over. If the course is wide, the game will be a little easier as you have more space to steer around without going out! 
 
@@ -212,7 +212,7 @@ Next to the word *"space"* in these two blocks is a small white triangle. Click 
 
 ## 6: Change starting direction
 
- When you click on START, you will notice that the beetle moves in the direction it had when you last finished the game. This can make it tricky, so let’s add another init script that tells the beetle that it should always be facing to the right when the game is started. 
+When you click on START, you will notice that the beetle moves in the direction it had when you last finished the game. This can make it tricky, so let’s add another init script that tells the beetle that it should always be facing to the right when the game is started. 
 <video src="./BugRacedel6_nytt.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
@@ -232,99 +232,96 @@ Watch the video to see how to:
   ![image alt text](6-2_adjust_direction.png)
 
 
-## 7: Känna av när skalbaggen åker av banan
+## 7: Sense when the beetle leaves the track
 
-Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
+Now you want the beetle to sense when it ends up off the track for it to be Game Over! For that you need to work with the colors. By adding code for a **condition** that says: "**IF** touching a specific color – **THEN** the game is over". 
 <video src="./BugRacedel7_nytt.mp4" controls muted height=480 width=640 />
 
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Lägg in kod för KONTROLL: om...då
-- Lägg in kod för KÄNNA AV: rör färgen_. Lägg blocket i det kantiga hålet mellan om...då.
-- Lägg in kod för UTSEENDE: säg Hej! i 2 sekunder. Ändra texten till Game Over!
+Watch the video to see how to: 
+- Enter code for CHECK: if ... then 
+- Enter code for SENSE: touching color_?. Place the block in the angular hole between if ... then. 
+- Enter code for LOOKS: say Hello! for 2 seconds. Change the text to Game Over! 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
+1. Under **CONTROL** there is the block **"if <> then"**, drag it to the script area, place it next to the other scripts. This block says that **IF** whatever is within **"<>"** happens, **THEN** something else should happen. For example: If the beetle *<touches the color green>**, say *Game Over* for 2 seconds.
 
-  ![image alt text](Koda_KONTROLL-Om-Då-block.png)
+  ![image alt text](7-1_if_then.png)
   
-2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på skriptytan. 
+2. Under **SENSING** there is the block **"Touching color <>?"**. Drag this block to the hole **"<>"** inside the **"if <> then"** block that you placed on the script surface.
 
-  ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
+  ![image alt text](7-2_pick_color.png)
 
-Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"** i ditt script är exakt samma färg som spelets bakgrundsfärg. Byt annars genom att klicka med muspekaren på den lilla färgcirkeln och välj den lilla symbolen med en pimpett längst ned. Klicka sedan med den på spelets bakgrundsfärg, så blir det rätt färg i kodblockets cirkel. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
+3. The color in the small oval circle to the right of the text **"touching color"** in your script needs to be exactly the same color as the game's backdrop color. You change it by clicking the mouse pointer on the small color circle and selecting the small symbol with a pipette at the bottom. Then click on the game's backdrop color and it will be the correct color in the code block circle. You have now told the computer that something is going to happen when the beetle touches this color. 
 
-  ![image alt text](Känna_av_byt_färg_pimpett.png)
+  ![image alt text](7-2_pick_color.png)
 
-3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under tema   **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
+4. Finally, create a script for the game to say it's Game Over if the beetle touches the backdrop color. Under the theme **LOOKS**, select the block **"say Hello! for 2 seconds"** and drag this block inside **"if <touching color green?> then"**. Click on the word" Hello!" and change the text to what you want the beetle to say – we’ve chosen Game Over.
 
-  ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
+  ![image alt text](7-3_game_over.png)
 
-> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
+>**Test your code!** Press start and test your game! Does anything happen when the beetle touches the backdrop color? If not, what do you think may be the reason? 
 
 
-## 8: Gör klart skriptet
+## 8: Complete the script 
 
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
+Something is missing for the code to work! Let’s think a bit: **When** do you want the computer to detect if the beetle is touching the backdrop color? It needs to be done after every step the beetle takes, so as not to miss if it runs off the track. The computer must **check exactly where the beetle is "over and over again"**, all the time. Therefore, you need to connect the script that senses the color outside the track with what makes the beetle move. 
 <video src="./BugRacedel8_nytt.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Lägg skriptet inuti för alltid-loopen
-- Lägg in kod för KONTROLL: stoppa alla. Lägg blocket längst ned inom *om...då*. Ändra till *stoppa detta skript*.
+Watch the video to see how to: 
+- Put the script inside the forever loop 
+- Enter code for CONTROL: stop all. Place the block at the bottom inside *if ... then*. Change to *“stop this script”*. 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS:**
 
-1. Lägg skriptet som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
+1. Place the color-sensing script **inside** your **"forever"** loop. Now the computer will check to see **if** the beetle has left the track before taking the next step forward. It will check it again and again.  
 
-  ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
+  ![image alt text](8-1_touch_color.png)
 
-2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa helt. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till skriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta skript"**.
+2. When it is Game Over, everything should end and the beetle should stop completely. Find the block **“stop all”** under **CONTROL**. Drag this block to the script field. Click on the small arrow in the block and switch to **"stop this script"**. 
 
-  ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
+  ![image alt text](8-2_stop_script.png)
 
-Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
+Insert this block at the bottom inside the script with **"if <> then"** under the purple block. The code now says that if the beetle goes off the track, it will stop and it is Game Over. 
 
->**Testa koden!** Kan du styra skalbaggen runt banan med piltangenterna? Vad händer om sprajten åker utanför banan? 
-
-> Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
+>**Test your code!** Can you take the beetle around the track, steering with the arrow keys? What happens if it ends up off the track? 
 
 
-## Färdig!
-Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet borde se ut ungefär så här - om du följt instruktionerna:
-
- ![image alt text](Koda_exempelbild_färdigt_script_BugRaceIntro.png)
-
-**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
-
-> **Testa ditt projekt**  
-Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det.
-
-> **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
+Is it difficult to know how to put all the blocks in the script? On the next page you can see what the finished script should look like. 
 
 
-## Utmaning
-Saknas något? Hur skulle du vilja utveckla spelet?
+## Finished!
+Congratulations, you have created your first game! If you followed the instructions, the finished script should look something like this: 
 
-Tips på hur du kan bygga vidare på Bug Race hittar du i uppgiften som heter <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-tillagg?chpt=0" target="_blank"> Bug Race - Tillägg</a>.
-Där kan du bland annat skapa Bug Race för två spelare samtidigt och göra en mjukare styrning av sprajtarna.
+ ![image alt text](Final_script.png)
+
+**Don't forget to save your project – and rename it!** It can be Bug Race – or you can come up with your own name, so that you can easily find your game again. Enter the name of your project at the top, where it says "Untitled" and save. You must be logged in to be able to save. 
+
+> **Test your project**  
+Feel free to show someone your game and let them test it. If you want, click on the SHARE button at the top, which allows others to find the game on the Scratch site and test it.
+
+> **Important if you share your project:** Remember that shared projects can be viewed, tested and remixed (remodeled) by anyone who wants to on the Scratch site. If you share a project, it is important that it doesn’t contain information, images or sounds you do not want others to see. 
+
+## Challenge
+Is something missing? Would you like to develop the game more? 
+Perhaps add another player? Notes on how to make your Bug Race more challenging can be found under .  
+<a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-additions-english" target="_blank">**"Bug Race – Additions"**</a>.
+
 ![Bug race med två spelare](image_2.png)
 
-## Frågeställningar
+## Questions: 
 
-* Vad är en sprajt?
+* What is a sprite? 
 
-* Vad är en loop?
+* What is a loop? 
 
-* Varför kan det vara bra att använda en loop?
+* Why might it be good to use a loop? 
 
-* Vad är ett INIT-Script eller Start-Script?
-
-* Vad händer i spelet Bug Race om sprajten har samma färg som bakgrunden?
+* What is an INIT-Script? 
