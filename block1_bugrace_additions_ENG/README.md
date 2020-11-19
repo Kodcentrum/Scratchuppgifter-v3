@@ -88,19 +88,15 @@ You may have noticed that it can be difficult to control the sprite when you pla
 
 For each "letter" that the computer receives, the Event "When [a] is pressed" will be sent, and the small script that rotates the sprite will be executed. That's where the "ketchup effect" comes from. 
 
-But there are other ways for Scratch to read the keyboard. Under "Sensing" there is a condition called "key [space] pressed?". 
-
 ![Hur sprajten styrts hittills](tillägg_4.png)
 
-You can use it in an "If" block (which you find under "Control") to make the sprite turn just a little when a certain button is pressed (you can change [Space] to any key). 
+But there are other ways for Scratch to read the keyboard. Under "Sensing" there is a condition called "key [space] pressed?". 
 
 ![Ett villkor som läser av tangentbordet](tillägg_4_tangent.png)
 
-Det kan man använda i ett "Om"-block (som man kan hämta från fliken "Kontroll")
-för att få sprajten att vrida sig lite grann när en viss knapp är nedtryckt (man kan ändra [Mellanslag] till vilken
-tangent som helst).
+You can use it in an "If" block (which you find under "Control") to make the sprite turn just a little when a certain button is pressed (you can change [Space] to any key). 
 
-![Ett "om"-block med tangentbordsvillkor i](if_turning.png)
+![Ett "om"-block med tangentbordsvillkor i](tillägg_4_om_då.png)
 
 Where do you place the "If" block? Well, if you put it in the same place that moves the sprite forward all the time it will turn a little bit for each step when the button you have selected is pressed. You will have a softer turn. 
 
