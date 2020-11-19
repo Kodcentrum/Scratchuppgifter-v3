@@ -21,7 +21,7 @@ With a finish line on the track you can code a script that says that you win the
 
 1.  Start by drawing a goal line where you want it, preferably just behind the beetle's starting position.
 
-  ![Bild på Bug race](tillägg_1-1.jpg)
+  ![Bild på Bug race](tillägg_1-1.png)
 
 2. Now create a condition for the beetle that says: **If** the beetle touches the color of your finish line, **then** you win the game. (Note: Look at the script you coded for Game Over – you want to look at CONTROL.)
 
