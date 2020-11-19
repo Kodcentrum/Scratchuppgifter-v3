@@ -1,35 +1,38 @@
-# Bug Race (tillägg)
+# Bug Race - Additions (English)
 
-Om du redan har skapat spelet Bug Race - Intro så har du ett spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner man i spelet? Och hur kan man lägga till fler spelare eller ändra banor och få fler nivåer? Dax att utveckla spelet Bug Race vidare. Här finns förslag på hur du bygger olika tillägg. Välj en eller flera - eller hitta på egna! 
+If you have created the game Bug Race - Intro you have a game where you control a beetle that runs around a track. The goal of the game is to stay on the track and if you don’t it is Game Over. But how do you win the game? And how can you add more players or add more levels? Here are suggestions on how to develop your project. You can pick one thing, all of them and add your own! 
 
-![Bug race med två spelare](image_2.png)
+![Bug race med två spelare](tillägg_firsta_sida__2.png)
 
-> **HUR KODAR JAG?** 
-</br>
-Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> Se till öppna ditt projekt Bug Race - Intro och koda vidare på det. Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du kodade vissa skript.
+> **STEP-BY-STEP INSTRUCTIONS** 
 </br>
 
-  Då börjar vi utveckla spelet!
+<a href="https://scratch.mit.edu" target="_blank"> Click here </a> to open Scratch in a new tab. 
+You need to log in so that you can open your already made project **"Bug Race – Intro"**, which you are now going to develop further.  
 
-## 1: Mållinje för att vinna spelet
+>**Note!** Remember that you can look back at the previous instructions of <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-intro-english?chpt=0" target="_blank"> Bug Race - Intro </a> if you can’t remember how to code certain scripts. 
+</br>
 
-För att kunna vinna spelet behöver du en mållinje för banan och ett skript som säger att du vinner spelet när skalbaggen rör vid mållinjen. Det liknar det skript du redan skapat i ditt Bug Race-spel, som styr hur spelet blir Game Over när skalbaggen rör vid det gröna gräset. Gör såhär för att koda mållinjen:
+Let’s start developing the game! 
 
-1.  Börja med att rita en mållinje där du vill ha den, förslagsvis strax bakom skalbaggens startposition.
+## 1: Add a finish line to win the game
 
-  ![Bild på Bug race](image_0.jpg)
+With a finish line on the track you can code a script that says that you win the game when the beetle crosses it. The code is similar to the script you created in Bug Race to show Game Over when the beetle runs off the track. To code the finish line, follow these steps: 
 
-2. Skapa nu ett VILLKOR för skalbaggen som säger: **om** skalbaggen rör vid färgen gul (eller din mållinjes färg), **då** vinner man spelet. (Tips: Om du inte kommer på hur du ska koda detta, kan du kika på skript du har kodat som styr Game Over.)
+1.  Start by drawing a goal line where you want it, preferably just behind the beetle's starting position.
 
-3. Vad ska hända **om** skalbaggen rör vid mållinjen? Den kan till exempel säga "Mål!" eller "Grattis!"
-Lägg till **"stoppa detta skript"** för att avsluta spelet.
+  ![Bild på Bug race](tillägg_1-1.jpg)
 
-4. Lägg det nya i din **för alltid**-loop. Så här kan det se ut:
+2. Now create a condition for the beetle that says: **If** the beetle touches the color of your finish line, **then** you win the game. (Note: Look at the script you coded for Game Over – you want to look at CONTROL.)
 
-  ![För alltid loop](image_1.png)
+3. What do you want should happen **if** the beetle touches the finish line? Should it say "Goal!" or "Congratulations!" Add **"stop this script"** to end the game.
+
+4. Place your new code in your **"forever"** loop. This is what it might look like:
+
+  ![För alltid loop](tillägg_1-4.png)
   
-Nu har du skapat skriptet för mållinjen.
-På nästa sida kan du lägga till fler spelare.
+Now you've created the script for the finish line. 
+On the next page you can add more players. 
 
 
 ## 2: Flera spelare
