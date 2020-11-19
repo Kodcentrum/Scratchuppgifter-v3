@@ -27,7 +27,7 @@ With a finish line on the track you can code a script that says that you win the
 
 3. What do you want should happen **if** the beetle touches the finish line? Should it say "Goal!" or "Congratulations!" Add **"stop this script"** to end the game.
 
-4. Place your new code in your **"forever"** loop. This is what it might look like:
+4. Place your new code inside your **"forever"** loop. This is what it might look like:
 
   ![För alltid loop](tillägg_1-4.png)
   
@@ -51,11 +51,11 @@ You have a game for one player. But it can be fun to play against someone else �
 
 > **Test your game!** Can you control both sprites? But what happens when one of them ends up off the track? 
 
-4. If you want to be able to keep going until the first person crosses the finish line, it can’t be Game Over when a player runs of the track. Instead, you can, for example, get the sprite to say "Oh no!" and go back to its starting position. This is what it might look like then:
+4. If you want to be able to keep going until the first person crosses the finish line, it can’t be Game Over when a player runs off the track. Instead, you can, for example, get the sprite to say "Oh no!" and go back to its starting position and start running again. This is what it might look like then:
 
   ![Skript för att starta om](tillägg_2-5.png)
 
->**Note!** If a sprite says "Congratulation!" too early you’ve detected a bug J. It may be because part of your sprite is the same color as the finishing line. Debug, by changing colors. 
+>**Note!** If a sprite says "Congratulation!" too early you’ve detected a bug. It may be because part of your sprite is the same color as the finishing line. Debug, by changing colors. 
 
 Now you have two players and perhaps you want to create a maze of your track – check out the next page. 
 
