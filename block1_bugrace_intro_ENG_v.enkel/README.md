@@ -1,4 +1,4 @@
-# Bug Race (intro)
+# Bug Race - Intro (English)
 In the game Bug Race, the goal is to get a beetle to stay on a track until it crosses the finishing line. To steer you use the left and right arrows on the computer keyboard. If the character leaves the track, it will be Game Over!
 
 Test our version of Bug Race below. <a href="https://scratch.mit.edu/projects/452115651" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
@@ -94,62 +94,59 @@ This is roughly what the game's course may now look like. If the course is very 
   ![image alt text](2-3_what_it_looks_like.png)
 
 
-## 3: Sprajten rör på sig
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
+## 3: Making the sprite move
+Now that the backdrop is done, you can put code together to create your first script and get your sprite to move. 
 <video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
 
 
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Välj KOD och din sprajt för att kunna börja koda
-- Lägg in kod för start-block: När GRÖN FLAGGA klickas på
-- Lägg in kod för RÖRELSE: Gå 10 steg
-- Lägg in kod för KONTROLL: För alltid (en loop)
+>**TIME FOR YOU TO:**
+Watch the video to see how to: 
+- Return to CODE and your sprite to start coding 
+- Add code for hat block: When GREEN FLAG clicked 
+- Add MOTION code: move 10 steps 
+- Add code for CONTROL: Forever (a loop) 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS**
 
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
+With your colorful backdrop and a track, it is time for you to create your first script. Remember to **save** your game often! You must be logged in to be able to save. 
 
-Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
+Click on the CODE tab at the top left to return to the white surface where you can build your code for the game. Now click on the box with the small sprite below the stage so that it gets a blue frame. You are now ready to add code to your beetle. 
 
-Tryck på KOD-fliken högst upp till vänster. Nu kommer du bort från målarverktyget och tillbaka till vita ytan där du kan bygga din kod för spelet.
+Place the mouse pointer on the beetle and hold down the mouse button (or hold it with your finger if you are using a tablet) to drag the sprite onto the painted track, dropping it where you want the beetle to be when you start your game. 
 
-Har du lagt märke till START- och STOPP-knappen än? **Den gröna flaggan** betyder är en start-knapp och **den röda knappen** är en stopp-knapp.
+Have you found the START and STOP buttons yet? **The green flag** is the start button and the **red button** is the stop button. 
 
-  ![image alt text](START_STOPP-funktion.png)
+  ![image alt text](3_start_stopp.png)
 
-Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för skalbaggen vad den ska göra, annars händer ingenting. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
+You need to add code so that the beetle starts moving when you click on the START button – which is **the green flag**. To do this, you must tell the beetle what to do. The beetle can’t think for itself. It is waiting for your instructions in code that should say: 
 
-"När jag trycker på START-flaggan, ska skalbaggen röra sig."
+"When I click on the START flag, the beetle should move." Code that initiates something is called INIT script.
 
-Gör såhär:
+This is how:
 
-1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
+1. On the left-hand side you see colorful dots with headings and next to that code in the shape of puzzle pieces. Click on the yellow dot **EVENTS** and select the puzzle piece with a green flag on: **"when Green flag clicked"**. Drag this block to the script surface (the large empty, white area in the middle) and drop it there. 
 
-  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
+  ![image alt text](3-1 _when_flag_clicked.png)
 
-Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj blocket **"gå 10 steg"**. Lägg detta block direkt under det första blocket med den gröna flaggan på scriptytan och koppla ihop dem som pusselbitar.
+2. Then select the blue heading **MOTION** at the top and the block **"move 10 steps"**. Place this block directly below the first block with the green flag on the script surface. They will connect like puzzle pieces. 
 
-  ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
+  ![image alt text](3-1_move_10_steps.png)
 
-> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa så kopplar blocken automatiskt ihop sig som pusselbitar.
+>**Note:** if you move two blocks close to each other on the script surface, a gray shadow will appear and you can just release and the blocks will automatically connect as puzzle pieces. 
 
-  ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
+  ![image alt text](3-1_attaching_blocks.png)
 
-> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
+>**Test your code!** Test what happens when you click on the green flag **START** above the stage. Does your beetle move to the right? If it doesn’t, don’t worry, just check your code. If it does, great, but you want the beetle to keep moving forward without you having to press start over and over again. Let’s add some more code. 
 
-2. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
-Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
+3. Under the orange heading **CONTROL** find the block **“forever”**. This block is a **loop**, i.e. a **repetition** of something so that it happens over and over again. With this block, the beetle will continue to move forward for as long as the game is running. 
+Drag the "forever" block to the script surface and place it under "when green flag clicked" so that "move 10 steps" is placed inside the loop. Look at the picture below to see what it should look like.
 
-  ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
+  ![image alt text](3-2_forever.png)
 
-  _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
+>**Test your code!** Time to check you code by clicking on **START** – the green flag. Does your beetle run fast? See what happens if you change the number of steps to a lower number. Click on the number 10 in the block **"move 10 steps"** and enter another number. Test until you find the speed you want. 
 
-> Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
-
-  ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
+  ![image alt text](3-2-3_steps.png)
 
 
 ## 4: Sätt en Startposition
