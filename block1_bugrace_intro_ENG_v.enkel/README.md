@@ -194,43 +194,42 @@ Watch the video to see how to:
 
 1. Under the heading **EVENTS** there is a block that says **"when space key pressed"**. Drag in **two of those blocks** and place them next to each other anywhere on the script surface. 
 
+  ![image alt text](5-1_control.png)
+
 Next to the word *"space"* in these two blocks is a small white triangle. Click on the triangle in each block and select from the drop-down list that appears – **left arrow** in one block and **right arrow** in the other. 
 
-  ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
-
-
-  ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
+  ![image alt text](5-arrows.png)
 
 2. Now you will be able to turn the sprite. Under **MOTION** you find a block that says **"turn (arrow left) 15 degrees"** and one that says **"turn (arrow right) 15 degrees"**. Connect these two blocks under the blocks **"when left arrow key pressed"** and **"when right arrow key pressed"**.
 
-  ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
+  ![image alt text](5-2_pick_control.png)
 
 >**Test your code!** Click on the green START flag and see if you can control the beetle in both directions with the arrow keys on the keyboard? Is it going too fast? Too slow? Adjust the speed of the beetle by changing the variable number in the motion block! 
 
 >**Note! Are you using a tablet with a touch screen?** Then use the code below instead and the sprite will follow your finger on the screen around the track. 
-  ![image alt text](Bugrace_touchscreen_följ_muspekare.png)
+  ![image alt text](5_tip_tablet.png)
 
 
-## 6: Ändra startriktning
+## 6: Change starting direction
 
-Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
+ When you click on START, you will notice that the beetle moves in the direction it had when you last finished the game. This can make it tricky, so let’s add another init script that tells the beetle that it should always be facing to the right when the game is started. 
 <video src="./BugRacedel6_nytt.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Lägg in kod för RÖRELSE: peka i 90 graders ritning
+Watch the video to see how to: 
+- Enter code for MOTION: point in 90 degrees 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+>**STEP-BY-STEP INSTRUCTIONS:**       
 
-1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
+1. Under **MOTION**, select the block that says **"point in 90 direction”**. 
 
-  ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
+  ![image alt text](6-1_point_in_direction.png)
 
-> Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
+>**Test your code!** Test what happens if you change the value from 90 degrees to something else. Just click on the number 90 in the block, and a clock-like image will appear. Move the mouse pointer to another angle and click outside the image to select another angle.
   
-  ![image alt text](Koda_exempelbild_RÖRELSE-Ändra_peka_i_riktning_gradantal.png)
+  ![image alt text](6-2_adjust_direction.png)
 
 
 ## 7: Känna av när skalbaggen åker av banan
