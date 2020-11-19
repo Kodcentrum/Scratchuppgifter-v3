@@ -254,7 +254,7 @@ Watch the video to see how to:
   
 2. Under **SENSING** there is the block **"Touching color <>?"**. Drag this block to the hole **"<>"** inside the **"if <> then"** block that you placed on the script surface.
 
-  ![image alt text](7-2_pick_color.png)
+  ![image alt text](7-2_sense_color.png)
 
 3. The color in the small oval circle to the right of the text **"touching color"** in your script needs to be exactly the same color as the game's backdrop color. You change it by clicking the mouse pointer on the small color circle and selecting the small symbol with a pipette at the bottom. Then click on the game's backdrop color and it will be the correct color in the code block circle. You have now told the computer that something is going to happen when the beetle touches this color. 
 
