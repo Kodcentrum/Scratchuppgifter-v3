@@ -67,7 +67,7 @@ Watch the video to see how to:
 
 1. To change the backdrop, click on the white small box at the bottom right where it says **STAGE**. It will be marked with blue. Now click on the **BACKDROPS** tab at the top left. 
 
-    ![image alt text](2-1_backdrop.png)	    ![image alt text](2-1_backdrop.png)
+    ![image alt text](2-1_backdrop.png)	    ![image alt text](2-1_backdrop_tab.png)
 
 2. Click on the blue button **"Convert to bitmap.”**
 
@@ -127,7 +127,7 @@ This is how:
 
 1. On the left-hand side you see colorful dots with headings and next to that code in the shape of puzzle pieces. Click on the yellow dot **EVENTS** and select the puzzle piece with a green flag on: **"when Green flag clicked"**. Drag this block to the script surface (the large empty, white area in the middle) and drop it there. 
 
-  ![image alt text](3-1 _when_flag_clicked.png)
+  ![image alt text](3-1_when_flag_clicked.png)
 
 2. Then select the blue heading **MOTION** at the top and the block **"move 10 steps"**. Place this block directly below the first block with the green flag on the script surface. They will connect like puzzle pieces. 
 
@@ -149,27 +149,27 @@ Drag the "forever" block to the script surface and place it under "when green fl
   ![image alt text](3-2-3_steps.png)
 
 
-## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen till startplatsen varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start.
+## 4: Set a Starting position
+To avoid having to drag the beetle back to the starting point each time you start the game, you can use code to place it at its starting position every time you click the green flag.  
 <video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
 
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Dra sprajten till där du vill den ska starta på banan
-- Lägg in kod för RÖRELSE: gå till x:__ y:__
+Watch the video to see how to: 
+- Drag the sprite to where you want it to start on the track 
+- Enter code from MOTION theme: go to x: __ y: __ 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS**
 
-1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en raksträcka, inte en kurva. 
+1. Drag the sprite to the position on the track where you want it to be when you start the game. Place the sprite in the middle of the track and preferably not in a curve.
 
-2. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+2. Under **MOTION**, select the block **"go to x: __ y: __"** and place it directly below  **"when green flag clicked"** and above the **"forever"** loop. The numbers (values) for X and Y are the COORDINATES of the starting position where you have placed the beetle – a specific place on your track. 
 
-  ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
+  ![image alt text](4-2_starting_position.png)
 
-Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
+The beetle will now automatically move to the same starting position each time you click on the green START flag. 
 
 
 ## 5: Styra skalbaggen
