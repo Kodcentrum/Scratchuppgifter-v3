@@ -84,22 +84,17 @@ On the next page, you can adjust your steering so that it is smoother to navigat
 
 ## 4: Mjukare styrning
 
-Du har kanske märkt att det kan vara svårt att styra sprajten när du spelar. Varje tryckning vrider den ett visst antal grader,
-men om du håller inne händer ingenting - förrän efter en liten stund. Då börjar den snurra jättefort!
+You may have noticed that it can be difficult to control the sprite when you play. It turns a certain number of degrees every time to press the key, but nothing happens if you hold it down…until after a while when it starts spinning really fast! This is the "ketchup effect." It can happen when writing text as well. Test in a box where you can type text, such as at the top of the internet browser where Scratch is open. If you press "a" on the keyboard, first one a will appear, then nothing – and then a whole row of ‘a’ very fast. 
 
-Den här "ketchupeffekten" kan man se när man skriver text också. Testa i en ruta där du kan skriva text, som till
-exempel längst upp i internet-browsern där Scratch är öppet. Om du trycker ner "a" på tangentbordet kommer först ett a,
-sedan ingenting - och sedan en hel rad, jättesnabbt.
+For each "letter" that the computer receives, the Event "When [a] is pressed" will be sent, and the small script that rotates the sprite will be executed. That's where the "ketchup effect" comes from. 
 
-För varje "bokstav" som datorn får inskickad, kommer Händelsen "När [a] trycks in" att skickas, och det lilla skriptet
-som vrider sprajten blir utfört. Det är därifrån "ketchupeffekten" kommer.
+But there are other ways for Scratch to read the keyboard. Under "Sensing" there is a condition called "key [space] pressed?". 
 
-![Hur sprajten styrts hittills](old_turning.png)
+![Hur sprajten styrts hittills](tillägg_4.png)
 
-Men det finns andra sätt för Scratch att läsa av tangentbordet. Under "Känna av" finns ett villkor som heter
-"tangent [mellanslag] nedtryckt?".
+You can use it in an "If" block (which you find under "Control") to make the sprite turn just a little when a certain button is pressed (you can change [Space] to any key). 
 
-![Ett villkor som läser av tangentbordet](keypress.png)
+![Ett villkor som läser av tangentbordet](tillägg_4_tangent.png)
 
 Det kan man använda i ett "Om"-block (som man kan hämta från fliken "Kontroll")
 för att få sprajten att vrida sig lite grann när en viss knapp är nedtryckt (man kan ändra [Mellanslag] till vilken
@@ -107,28 +102,26 @@ tangent som helst).
 
 ![Ett "om"-block med tangentbordsvillkor i](if_turning.png)
 
-Var ska man placera "Om"-blocket, då? Tja, om man lägger det på samma ställe som flyttar sprajten framåt hela tiden,
-så kommer den vrida sig lite grann för varje steg framåt, om knappen man valt är nedtryckt. Då får man en mjuk sväng.
+Where do you place the "If" block? Well, if you put it in the same place that moves the sprite forward all the time it will turn a little bit for each step when the button you have selected is pressed. You will have a softer turn. 
 
-Prova olika värden för hur många grader den ska vrida sig! Och glöm inte att ta bort de de andra skripten som vrider
-på sprajten!
+Try different values for how many degrees it should turn! And, don’t forget to remove the other scripts that turn the sprite! 
 
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+## Finished!
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+Congratulations, you have enhanced your Bug race. 
+
+**Don't forget to save your project!** Rename it so that it is easy to find again. Test your project and if you press SHARE other people in Scratch will be able to test your game.  
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på **dela** för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
-## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
+## Another challenge
+Here is a challenge is you want to continue: 
 
-### Flera banor
-Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
+### Several courses
+Can you create scripts that **change the backdrops of the stage** when a player reaches the finish line – it will be like leveling up to new courses! 
 
-## Frågeställningar
+## Questions 
 
-* Hur kan du kopiera kod i Scratch?
-
-* Vad kan du behöva tänka på när du kopierar kod mellan olika sprajter?
+- How do you copy code in Scratch? 
+- What might you want to remember when you copy code between sprites? 
