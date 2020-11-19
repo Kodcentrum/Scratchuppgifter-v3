@@ -40,55 +40,56 @@ Time to replace the cat with a beetle, or any other sprite you want to have race
 
 There are a lot of sprites to choose from. You can use the menu for different categories. If you want to use the beetle, go to "Animals.” Click on the beetle and it will be added to your project. 
 
-3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+3. The beetle is quite large and it will be hard for it to fit on a track. To make it smaller you go to where it says **Size** with 100 next to it. This means that the sprite is in full size, i.e 100%. You change the size by entering a lower number, for example 30%. Find a size that you want by testing different numbers. You can always change it again later when you have your track. 
 
-    ![image alt text](Ändra_Storlek_Sprajt.png)
+    ![image alt text](1-3_chage_size.png)
 
-Nu är skalbaggen klar och det är dags att rita banan som den ska springa runt på!
-Klicka dig vidare till kapitel 2.
+The beetle is ready so it's time to draw the track! 
+
+Click on chapter 2.
 
 
-## 2: Färglägg bakgrunden och rita en bana
-Du ska nu färglägga spelets bakgrund och rita en bana som skalbaggen kan springa på.
+## 2: Color the backdrop and draw a track
+We are now going to color the backdrop of the game and draw a track for the beetle to run on.
 <video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
 
 
->**VAD SKA JAG GÖRA?**
+>**TIME FOR YOU TO:**
 
-Se i videon ovan hur du ska:
-- Aktivera bakgrunder
-- Aktivera Bitmapp-läge
-- Välj färg och verktyg för att fylla bakgrund
-- Välj ny färg och verktyg för att måla en bana
+Watch the video to see how to:
+- Work on backdrop 
+- Activate Bitmap mode 
+- Select color and tools to fill backdrop 
+- Choose a new color and tool to draw the track 
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+>**STEP-BY-STEP INSTRUCTIONS**
 
-1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
+1. To change the backdrop, click on the white small box at the bottom right where it says **STAGE**. It will be marked with blue. Now click on the **BACKDROPS** tab at the top left. 
 
-    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
+    ![image alt text](2-1_backdrop.png)	    ![image alt text](2-1_backdrop.png)
 
-2. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
+2. Click on the blue button **"Convert to bitmap.”**
 
-    ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
+    ![image alt text](2-2_convert_to_bitmap.png)
 
-Välj sen **en färg** du gillar genom att klicka på den lilla färgade rutan ovanför och ställ in färgen du vill ha, genom att dra eller klicka på de olika reglagen tills du är nöjd.
+3. To choose **a color** click on the colored box that says Fill. A color picker will appear. Move the white circles to the color you want. When you are happy with your color, close the color picker by clicking next to it. 
 
-   ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
+   ![image alt text](2-2_fillcolor.png)
     
-Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** som ser ut som en liten hink och sen klicka på stora vita rutan så fylls bakgrunden med den färg du valt.
+4. Now select the tool named **FILL**, which is the icon that looks like a small bucket, and click on the white checkered area. You should now have a different colored backdrop. 
 
-  ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
+  ![image alt text](2-2_bucket.png)
   
-> Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
+>**Note:** Don’t pick the same color for your backdrop or track as your sprite, since that will make it tricky later on.  
 
-3. Tryck sen på verktyget **PENSEL** och välj en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbaggens färger. Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+5. Now click on the **BRUSH** tool and select a new color for your track. You adjust the size of the brush stroke by clicking on the arrows next to it, or by changing the number in the box. You need the track to be rather thick. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
-Rita nu en bana som en oval eller en utdragen cirkel - gör den så stor som du kan, utan att den hamnar utanför spelets ruta!
+Draw a track like an oval or circle – make it as big as you can but keep it inside the box! 
 
-Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
+This is roughly what the game's course may now look like. If the course is very narrow, the game will be very difficult, the beetle will easily end up off the course - and you will be Game Over. If the course is wide, the game will be a little easier as you have more space to steer around without going out! 
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
