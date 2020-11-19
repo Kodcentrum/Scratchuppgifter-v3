@@ -35,51 +35,52 @@ Now you've created the script for the finish line.
 On the next page you can add more players. 
 
 
-## 2: Flera spelare
+## 2: Multiple players
 
-Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – eller spela med två händer! Om banan är tillräckligt bred kan du lägga till en skalbagge eller något annat djur och låta dem tävla mot varandra om vem som kommer först i mål.
+You have a game for one player. But it can be fun to play against someone else – or play with two hands! If the track is wide enough, you can add a beetle or other animal and let them compete against each other for who crosses the finish line first. 
 
-![Bug race med två spelare](image_2.png)
+![Bug race med två spelare](tillägg_firsta_sida__2.png)
 
-1.  Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller kopiera den sprajt du redan har i projektet om du vill ha två likadana sprajtar som tävlar mot varandra. Ändra storlekarna på sprajtarna så att båda får plats bredvid varandra på banan.
+1.  Start by adding a new sprite. Choose in the library or copy the sprite you already have in the project. If you copy the sprite, which you do by right-clicking and selecting ‘duplicate’ the code will follow with the new sprite. If you select a new sprite, you’ll need to enter code again or manually copy code to the new sprite. Change the sizes of the sprites so that they fit next to each other on the track.
 
-3. Du behöver ändra skripten för att styra sprajten så att inte båda ska styras med vänster- och högerpil. Välj i rullistan för **"när _ trycks ned"**, till exempel tangenterna A och D.
+2. Change the code so that the sprites are controlled with different keys on the keyboard. Select in the drop-down list for "when _ key pressed." You might want to pick for example the keys A and D so that you are not too close on the keyboard when you play.
 
-4. Du kanske märker att din nya sprajt startar på samma ställe som skalbaggen? Du behöver ändra startposition. Flytta sprajten dit du vill att den ska stå. Du hittar sprajtens koordinater i sprajtens informationsruta, markera sprajten och tryck på "i". Ändra värden för **"gå till x: y:"**.
+3. With the copied code, your new sprite will start in the same position as the beetle. So, you need to change its starting position. Move the new sprite to where you want it to start. Then change values for the **"go to x:_ y:_"** block in the sprites script. You can find the sprites new coordinates in the information box below the stage. Use these coordinates when you change values in the block. 
 
-  ![Sprajtar](image_4.png)
+  ![Sprajtar](tillägg_2-3.png)
 
-> Testa spelet! Nu kan du styra båda sprajtar. Men vad händer när en av dem hamnar utanför banan?
+> **Test your game!** Can you control both sprites? But what happens when one of them ends up off the track? 
 
-5. Om du vill kunna tävla om vem som kommer först i mål, kan det inte bli Game Over när en spelare hamnar utanför banan. Istället kan du t ex välja att sprajtarna säger "Aj!" och hamnar tillbaka på sin startposition. Så här kan det se ut då:
+4. If you want to be able to keep going until the first person crosses the finish line, it can’t be Game Over when a player runs of the track. Instead, you can, for example, get the sprite to say "Oh no!" and go back to its starting position. This is what it might look like then:
 
-  ![Skript för att starta om](image_5.png)
+  ![Skript för att starta om](tillägg_2-5.png)
 
-> Testa spelet! Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
+>**Note!** If a sprite says "Congratulation!" too early you’ve detected a bug J. It may be because part of your sprite is the same color as the finishing line. Debug, by changing colors. 
 
-nu har du kodat in fler spelare.
-På nästa sida kan du ändra banan till en labyrint.
+Now you have two players and perhaps you want to create a maze of your track – check out the next page. 
 
-## 3: Ändra banan till en labyrint
+## 3: Change the track to a maze 
 
-Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg, och inte hur själva banan ser ut, är det enkelt att byta ut banan. Du kan till exempel göra en labyrint som bakgrund istället.
+Since the script for the sprites only detects if they are moving in green, and not what the track itself looks like, it is easy to replace the track. For example, you can make a maze as a backdrop instead. 
 
-![Bugrace som en labyrint](image_6.png)
+![Bugrace som en labyrint](tillägg_3.png)
 
-1. Tryck på din SCEN och gå till fliken för BAKGRUNDER. Välj **Rita ny bakgrund**.
+1. Press the **STAGE**, so it becomes activated. Then go to the **BACKDROPS** tab in the top left corner. 
 
-2. Fyll först med samma gröna färg som i din första bakgrund. Du kan välja färg med färgväljaren som finns till höger om färgrutorna, tryck på den och sedan på den gröna färgen i din första bakgrund.
+2. In the bottom left-hand corner, hover with the mouse pointer over the blue button **Choose a Backdrop** and then press **Paint** (the brush) in the pop-up menu.  
 
-  ![Färgväljaren](image_7.png)
+3. First ‘Fill’ with the same green color as in your first background. You can select a color with the color picker, click on it and then click on the green color in your first background.
 
-3. Gör en labyrint genom att dra upp flera vita rektanglar på den gröna bakgrunden, eller rita själv med penseln. Tänk på att banan behöver vara tillräckligt bred för att kunna spela!
+  ![Färgväljaren](tillägg_3-2.png)
 
-4. Rita en gul mållinje i slutet av labyrinten. Tänk på att använda samma gula färg som till mållinjen du ritade i Tillägg 1. Om du inte vill ha en mållinje kan du istället rita gula bananer eller något annat som spelaren ska nå fram till.
+4. Make a maze by drawing several white rectangles on the green backdrop or use a brush to draw it yourself. Keep in mind that the track needs to be wide enough for the sprites to run on!
 
-> Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
+5. Draw a yellow finish line at the end of the maze. Remember to use the same yellow color as for the finish line you drew in your first game. If you don’t want a finish line, you can draw something else that the player must reach – can be bananas, flowers or anything you want.
 
-Nu har du skapat ny bana.
-På nästa sida kan du skapa mjukare styrning när sprajtarna svänger.
+>**Note!**: Make several different backdrops and see which is the most fun to play!  
+
+You have now created a new track. 
+On the next page, you can adjust your steering so that it is smoother to navigate the sprites. 
 
 ## 4: Mjukare styrning
 
