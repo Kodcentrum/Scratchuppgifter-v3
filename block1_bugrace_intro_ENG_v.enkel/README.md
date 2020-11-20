@@ -15,7 +15,7 @@ Click on step 1 below to get started.
 ## 1: Choose a new "sprite" character
 
 Replace the cat sprite with a new sprite, we’ve used a beetle! 
-<video src="./BugRacedel1_nytt.mp4" controls muted height=480 width=640 />
+<video src="./1-Change_Sprite_EN.mov" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 
