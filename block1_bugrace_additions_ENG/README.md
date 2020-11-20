@@ -21,13 +21,13 @@ With a finish line on the track you can code a script that says that you win the
 
 1.  Start by drawing a goal line where you want it, preferably just behind the beetle's starting position.
 
-  ![Bild på Bug race](tillägg_1-1.jpg)
+  ![Bild på Bug race](tillägg_1-1.png)
 
 2. Now create a condition for the beetle that says: **If** the beetle touches the color of your finish line, **then** you win the game. (Note: Look at the script you coded for Game Over – you want to look at CONTROL.)
 
 3. What do you want should happen **if** the beetle touches the finish line? Should it say "Goal!" or "Congratulations!" Add **"stop this script"** to end the game.
 
-4. Place your new code in your **"forever"** loop. This is what it might look like:
+4. Place your new code inside your **"forever"** loop. This is what it might look like:
 
   ![För alltid loop](tillägg_1-4.png)
   
@@ -51,11 +51,11 @@ You have a game for one player. But it can be fun to play against someone else �
 
 > **Test your game!** Can you control both sprites? But what happens when one of them ends up off the track? 
 
-4. If you want to be able to keep going until the first person crosses the finish line, it can’t be Game Over when a player runs of the track. Instead, you can, for example, get the sprite to say "Oh no!" and go back to its starting position. This is what it might look like then:
+4. If you want to be able to keep going until the first person crosses the finish line, it can’t be Game Over when a player runs off the track. Instead, you can, for example, get the sprite to say "Oh no!" and go back to its starting position and start running again. This is what it might look like then:
 
   ![Skript för att starta om](tillägg_2-5.png)
 
->**Note!** If a sprite says "Congratulation!" too early you’ve detected a bug J. It may be because part of your sprite is the same color as the finishing line. Debug, by changing colors. 
+>**Note!** If a sprite says "Congratulation!" too early you’ve detected a bug. It may be because part of your sprite is the same color as the finishing line. Debug, by changing colors. 
 
 Now you have two players and perhaps you want to create a maze of your track – check out the next page. 
 
@@ -84,51 +84,40 @@ On the next page, you can adjust your steering so that it is smoother to navigat
 
 ## 4: Mjukare styrning
 
-Du har kanske märkt att det kan vara svårt att styra sprajten när du spelar. Varje tryckning vrider den ett visst antal grader,
-men om du håller inne händer ingenting - förrän efter en liten stund. Då börjar den snurra jättefort!
+You may have noticed that it can be difficult to control the sprite when you play. It turns a certain number of degrees every time to press the key, but nothing happens if you hold it down…until after a while when it starts spinning really fast! This is the "ketchup effect." It can happen when writing text as well. Test in a box where you can type text, such as at the top of the internet browser where Scratch is open. If you press "a" on the keyboard, first one a will appear, then nothing – and then a whole row of ‘a’ very fast. 
 
-Den här "ketchupeffekten" kan man se när man skriver text också. Testa i en ruta där du kan skriva text, som till
-exempel längst upp i internet-browsern där Scratch är öppet. Om du trycker ner "a" på tangentbordet kommer först ett a,
-sedan ingenting - och sedan en hel rad, jättesnabbt.
+For each "letter" that the computer receives, the Event "When [a] is pressed" will be sent, and the small script that rotates the sprite will be executed. That's where the "ketchup effect" comes from. 
 
-För varje "bokstav" som datorn får inskickad, kommer Händelsen "När [a] trycks in" att skickas, och det lilla skriptet
-som vrider sprajten blir utfört. Det är därifrån "ketchupeffekten" kommer.
+![Hur sprajten styrts hittills](tillägg_4.png)
 
-![Hur sprajten styrts hittills](old_turning.png)
+But there are other ways for Scratch to read the keyboard. Under "Sensing" there is a condition called "key [space] pressed?". 
 
-Men det finns andra sätt för Scratch att läsa av tangentbordet. Under "Känna av" finns ett villkor som heter
-"tangent [mellanslag] nedtryckt?".
+![Ett villkor som läser av tangentbordet](tillägg_4_tangent.png)
 
-![Ett villkor som läser av tangentbordet](keypress.png)
+You can use it in an "If" block (which you find under "Control") to make the sprite turn just a little when a certain button is pressed (you can change [Space] to any key). 
 
-Det kan man använda i ett "Om"-block (som man kan hämta från fliken "Kontroll")
-för att få sprajten att vrida sig lite grann när en viss knapp är nedtryckt (man kan ändra [Mellanslag] till vilken
-tangent som helst).
+![Ett "om"-block med tangentbordsvillkor i](tillägg_4_om_då.png)
 
-![Ett "om"-block med tangentbordsvillkor i](if_turning.png)
+Where do you place the "If" block? Well, if you put it in the same place that moves the sprite forward all the time it will turn a little bit for each step when the button you have selected is pressed. You will have a softer turn. 
 
-Var ska man placera "Om"-blocket, då? Tja, om man lägger det på samma ställe som flyttar sprajten framåt hela tiden,
-så kommer den vrida sig lite grann för varje steg framåt, om knappen man valt är nedtryckt. Då får man en mjuk sväng.
+Try different values for how many degrees it should turn! And, don’t forget to remove the other scripts that turn the sprite! 
 
-Prova olika värden för hur många grader den ska vrida sig! Och glöm inte att ta bort de de andra skripten som vrider
-på sprajten!
+## Finished!
 
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+Congratulations, you have enhanced your Bug race. 
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+**Don't forget to save your project!** Rename it so that it is easy to find again. Test your project and if you press SHARE other people in Scratch will be able to test your game.  
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på **dela** för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
-## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
+## Another challenge
+Here is a challenge is you want to continue: 
 
-### Flera banor
-Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
+### Several courses
+Can you create scripts that **change the backdrops of the stage** when a player reaches the finish line – it will be like leveling up to new courses! 
 
-## Frågeställningar
+## Questions 
 
-* Hur kan du kopiera kod i Scratch?
-
-* Vad kan du behöva tänka på när du kopierar kod mellan olika sprajter?
+- How do you copy code in Scratch? 
+- What might you want to remember when you copy code between sprites? 
