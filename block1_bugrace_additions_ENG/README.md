@@ -4,13 +4,14 @@ If you have created the game Bug Race - Intro you have a game where you control 
 
 ![Bug race med två spelare](tillägg_firsta_sida__2.png)
 
-> **STEP-BY-STEP INSTRUCTIONS** 
+> **HOW TO CODE?** 
 </br>
 
 <a href="https://scratch.mit.edu" target="_blank"> Click here </a> to open Scratch in a new tab. 
 You need to log in so that you can open your already made project **"Bug Race – Intro"**, which you are now going to develop further.  
+Follow the step-by-step instructions. Each chapter that follows presents an idea for further development of your already made Bug Race game. Choose between the ideas and code them into your project. 
 
->**Note!** Remember that you can look back at the previous instructions of <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-intro-english?chpt=0" target="_blank"> Bug Race - Intro </a> if you can’t remember how to code certain scripts. 
+>**Note!** Remember that you can look back at the previous instructions of <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/bug-race-intro-english?chpt=0" target="_blank"> Bug Race - Intro (English) </a> if you can’t remember how to code certain scripts. 
 </br>
 
 Let’s start developing the game! 
