@@ -15,7 +15,7 @@ Click on step 1 below to get started.
 ## 1: Choose a new "sprite" character
 
 Replace the cat sprite with a new sprite, we’ve used a beetle! 
-<video src="./1-Change_Sprite_EN.mov" controls muted height=480 width=640 />
+<video src="./1-Change_Sprite_EN.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 
@@ -53,7 +53,7 @@ Click on chapter 2.
 
 ## 2: Color the backdrop and draw a track
 We are now going to color the backdrop of the game and draw a track for the beetle to run on.
-<video src="./BugRacedel2_nytt.mp4" controls muted height=480 width=640 />
+<video src="./2-Change_color_EN-2.mp4" controls muted height=480 width=640 />
 
 
 >**TIME FOR YOU TO:**
@@ -102,7 +102,7 @@ This is roughly what the game's course may now look like. If the course is very 
 
 ## 3: Making the sprite move
 Now that the backdrop is done, you can put code together to create your first script and get your sprite to move. 
-<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
+<video src="./3-sprite_move.mp4" controls muted height=480 width=640 />
 
 
 >**TIME FOR YOU TO:**
@@ -157,7 +157,7 @@ Drag the "forever" block to the script surface and place it under "when green fl
 
 ## 4: Set a Starting position
 To avoid having to drag the beetle back to the starting point each time you start the game, you can use code to place it at its starting position every time you click the green flag.  
-<video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
+<video src="./4-Starting_position_EN.mp4" controls muted height=480 width=640 />
 
 
 >**TIME FOR YOU TO:**
@@ -181,7 +181,7 @@ The beetle will now automatically move to the same starting position each time y
 ## 5: Control the beetle
 
 The next step is to make it possible to control the beetle, so that it doesn’t run straight off the track! For that you need two short scripts. One that tells the beetle to turn to the right when you click on the right arrow key on the computer keyboard, and another that tells it to turn left when you click on the left arrow key. (If you use a tablet with a touch screen, there are Notes further down for how you can code the sprite to follow your finger.) 
-<video src="./BugRacedel5_nytt.mp4" controls muted height=480 width=640 />
+<video src="./5-Control_beetle_EN.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 Watch the video to see how to: 
@@ -213,7 +213,7 @@ Next to the word *"space"* in these two blocks is a small white triangle. Click 
 ## 6: Change starting direction
 
 When you click on START, you will notice that the beetle moves in the direction it had when you last finished the game. This can make it tricky, so let’s add another init script that tells the beetle that it should always be facing to the right when the game is started. 
-<video src="./BugRacedel6_nytt.mp4" controls muted height=480 width=640 />
+<video src="./6-Direction_at_start_EN.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 
@@ -270,7 +270,7 @@ Watch the video to see how to:
 ## 8: Complete the script 
 
 Something is missing for the code to work! Let’s think a bit: **When** do you want the computer to detect if the beetle is touching the backdrop color? It needs to be done after every step the beetle takes, so as not to miss if it runs off the track. The computer must **check exactly where the beetle is "over and over again"**, all the time. Therefore, you need to connect the script that senses the color outside the track with what makes the beetle move. 
-<video src="./BugRacedel8_nytt.mp4" controls muted height=480 width=640 />
+<video src="./8-finito_EN.mp4" controls muted height=480 width=640 />
 
 >**TIME FOR YOU TO:**
 
