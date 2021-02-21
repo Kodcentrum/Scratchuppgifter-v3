@@ -11,8 +11,7 @@ The result could look something like this: <a href="https://scratch.mit.edu/proj
 You will now begin your project. This time too, instead of creating a new project, you will **remix** instead. 
 
 1.Open your browser and go to this link. The link will take you to a project that has few things to get you started like the satellite Mats and a rocket. 
-
-https://scratch.mit.edu/projects/304677361/ 
+ 
 <a href="https://scratch.mit.edu/projects/460454296/" target="_blank">https://scratch.mit.edu/projects/460454296//</a> 
 
 2. Click on the **See inside** button, so you can see the code. 
