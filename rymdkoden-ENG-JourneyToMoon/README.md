@@ -143,7 +143,7 @@ Unlike an ordinary die (where the smallest number you can roll is 1 and the high
 
 Mark the "moon" sprite and replace the x-coordinate with the **pick random** block. 
 
-![](./u3_p19.png)
+![](./u3_v19.gif)
 
 If you want your Moon to end up on the right of the scene, **what is the lowest x-coordinate the Moon can have?** 
 
@@ -157,3 +157,37 @@ Try: Does the Moon end up in different places every time you click the green fla
 Does it end up in the upper right corner every time you click?
 
 ![](./u3_v20.gif)
+
+## 8 - Randomise the y-coordinate 
+
+Does your code for the Moon look like this? 
+
+![](./u3_p21.png)
+
+Now you are going to get a random y-coordinate in the same way you got a random x-coordinate. 
+This is so the Moon can move up and down as well. 
+
+If you want your Moon to end up in the upper part of the scene, **what is the lowest y-coordinate the Moon can have?**
+
+**And what is the highest y-coordinate the Moon can have?**
+
+Add a field for “pick random” for the y-coordinate too. Enter the lowest in the left field and the highest in the right field. 
+
+![](./u3_v22.gif)
+
+Test: Click the green flag. Does the Moon end up in different places, up or down, every time you click? 
+
+![](./u3_v23.gif)
+
+## Finished! 
+
+Nice work! You’ve now created a new game. 
+
+![](./u3_v24.gif)
+
+> **Try your project** 
+> Show it to someone and let them try playing your game. Click on SHARE to let others can find your game on Scratch. Go to the project page and let someone else try the game! 
+
+### Save 
+
+Don’t forget to save your project! You can give it the same name as this task, so it is easier for you to find it again some other time. 
