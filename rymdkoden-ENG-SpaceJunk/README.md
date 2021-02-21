@@ -148,3 +148,144 @@ There is a block called “show” under the category “Looks”. You can place
 Run the code and see what happens! Does the square reappear when you click on the green flag? 
 
 ![](./u2_v19.gif)
+
+## 8 - Randomize the square's position
+
+Your code should look like this: 
+
+![](./u2_p20.png)
+
+Now the square should reappear when you click on the green flag. The next step is to give it a random position. That means it will show up in a *random* position every time you click on the green flag. 
+
+There is a block called “go to random position” in the “Motion” category. Place it between the blocks for “when green flag clicked” and “wait until”. 
+
+![](./u2_p21.png)
+
+After placing this block, your spaceship will appear in new places everytime you click the green flag. 
+
+![](./u2_v22.gif)
+
+## Move the space junk
+
+Your code should look like this: 
+
+![](./u2_p23.png)
+
+You have created some space junk. You have a square which appears in a new position every time you click the green flag. But it is standing still which misses the point of the game. According to the game, the square should fly around. 
+
+So, the next step will be to make the square move. 
+
+Just like you did for the spaceship, add a new **When green flag clicked** block and **forever loop** and **move 1 steps** blocks. 
+
+But if you test the code now, the space junk will get stuck at the edge because you can’t steer it anymore. There is a code block that can help you with this. It is called **If on edge, bounce**. 
+
+![](./u2_p24.png)
+
+You want your space junk to bounce at the edge after it has move 1 steps. Where do you think this block should go? 
+
+## 10 - Keep track of the points
+
+Your code should look like this: 
+
+![](./u2_p25.png)
+
+The next step is to count the points. The weight of the geometrical objects will be used as points.  
+
+Therefore, it is important that you to keep track of the weight of the space junk as you collect them. You can use a variable to do this. Variables are extremely useful when we want to store things that you want to use later.  
+
+Click on the **Make a variable** button and call it “weight”. 
+
+![](./u2_p26.png)
+
+Now you can use the block **change weight by 5**. The variable **weight** should change by 5 *after* the spaceship touches the space junks. 
+
+![](./u2_p27.png)
+
+## 11 - Add more space junk
+
+Your code should look like this: 
+
+![Now we will count how many space junks we pick up](./u2_p28.png) 
+
+Now, you have created a square shape as your space junk which appears in a new position every time you click the green flag. You have also started to keep track of how much it weighs. 
+
+The next step is to add more shapes as space junk. 
+
+Make three new shapes in the same way that you drew and coded your square: 
+
+- A rectangle 
+- A circle 
+- A triangle 
+
+> Tips! It doesn’t appear to have a set shape for drawing a triangle. You will have to draw it yourself. 
+
+Don’t forget to add all the code that you used for your first sprite. 
+
+After this step, there should be lots of space junk appearing in random places every time you click on the green flag. 
+
+![](./u2_v29.gif)
+
+## 12 - The space junk has different weights
+
+The pieces of space junk weigh differing amounts depending on their shape. So, you will need to update the variable “weight” every time the spaceship catches different space junk.  
+
+ - The square weighs **5** tons 
+ - The circle weighs **10** tons 
+ - The triangle weighs **15** tons. 
+ - The rectangle weighs **20** tons. 
+
+Enter the new weight in the **change weight by 5** block for every space junk sprite.
+
+## 13 - Reset the variable 
+
+Now the different pieces weigh different amounts, but the variable just keeps on counting. It never resets back to zero. 
+
+To be able to properly count, you need to reset the variable. This means that you will have to set it to 0. You want it to start from zero every time you click on the green flag. 
+
+![](./u2_p30.png)
+
+Select the "spaceship" sprite. Just after the “When green flag clicked” block – add a new block **set weight to 0**. 
+
+Now the value of the variable should be set at 0 every time you click the green flag. Put the code to test by catching some space junk and then clicking the green flag. Does the variable “weight” start at 0? 
+
+![](./u2_v31.gif)
+
+## 14 - You win when we have finished tidying up 
+
+Now the variable is reset to 0 every time you restart the game. 
+
+For the next step, you’ll make the spaceship say, “All finished!” when it has collected all the space junk. If it has, it should also have added up all the weight in the variable. 
+
+Select the spaceship sprite. You are going to add a couple of blocks inside the “forever” loop. The game will be over if the satellite Mats catches all space junk and collects a total of 50 points. Therefore, you will need to check if the “weight” variable is the same amount as the total weight of all the blocks. If it is, then you can make it say, “All finished!” and stop all the code using the “stop all” block. 
+
+> To calculate the total weight, use a pen and paper and write down the weight of the different sprites and add them up. 
+
+![](./u2_p32.png)
+
+## Finished! 
+
+Nice work! You can clean space from space junk and save Mats from a terrible fate. 
+
+Don’t forget to save your project! You can give it the same name as this task, so it is easier for you to find it again some other time. 
+
+> **Try your project**
+> 
+> Show someone what you have created and let them try it. Click on SHARE so that others can find your game on Scratch. Go to the project page and let someone else try the game! 
+
+## Challenges 
+
+### Game over when we touch Mats 
+
+Mark the sprite called Mats. This is where you are going to add your code.  
+
+You can relax now that you have helped Mats clean up all the space junk. But you haven’t coded what will happen if the space junk touches Mats. 
+
+After the green flag is clicked, you must wait until you touch the square **or** touch the rectangle **or** touch the circle **or** touch the triangle. 
+
+After this, you want to say “Ow ow ow!” for two seconds. And use the “stop all” block to end and stop the code from running. 
+
+> Did you know that you can place an “or” block in another “or” block? 
+
+It is very difficult to clean up all the space junk if Mats is very big. You can change the size of Mats if you want to make things a little easier: 
+
+![](./u2_v33.gif)
