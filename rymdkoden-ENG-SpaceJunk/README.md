@@ -6,6 +6,6 @@ You are going to create a project using Scratch, one where you are able to save 
 
 The end result could look something like this: <a href="https://scratch.mit.edu/projects/460478570/" target="_blank">https://scratch.mit.edu/projects/460478570/</a>
 
-<video src="./u2_v29.mov" autoplay loop muted />
+<video src="./u2_v2.mp4" autoplay loop muted />
 
 Time to start with your project. This time, instead of creating a new project, you will remix instead. 
