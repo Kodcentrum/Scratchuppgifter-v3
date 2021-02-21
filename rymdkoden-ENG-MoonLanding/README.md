@@ -166,6 +166,48 @@ After every step forward, in the same way as you counted “successful landings�
 
 And just like when you touch Mars, you also want to **stop this script** after you have updated the variable. 
 
-![](./u4_p16.png)
+![](./u4_v14.gif)
 
 Try: Does your variable count “failed landings” when the rocket touches the asteroids? 
+
+## 10 -  Set variables to 0 at start 
+
+![](./u4_p15.png)
+
+Your variables just keep on adding to the number they had during the previous game. They never start over from the beginning. You need to set them to 0 every time you click the green flag. 
+
+![](./u4_p16.png)
+
+Add the blocks “set successful landings to 0” and “set failed landings to 0” between the code blocks we have for “when green flag clicked block” and “repeat 100”. 
+
+## 11 -  Change the time 
+
+Oh! There’s a variable that has been hidden the entire time. Have you seen it? It’s called “time”. It must have been there since you remixed the code. 
+
+It looks like you can run the simulation at different times, to see whether there is a difference between launching in the morning or in the afternoon. 
+
+To change the time, add the **set “time” to “15”** right at the start of your script and after the green flag has been clicked. Then you will test landing 100 times when the time is 15:00 – three o’clock in the afternoon. 
+
+There are three different times to test: 
+
+- 12 
+- 15 
+- 18 
+
+> If you want to see which time the simulator is set for, check the little box in front of the variable.
+> ![](./u4_v14.gif)
+
+## Finished!
+
+Now your simulator is complete and it’s time to analyse the final result. 
+
+Don’t forget to save your project! You can give it the same name as this task, so it is easier for you to find it again some other time. 
+
+> **Try your project**
+> Show someone else what you have created and let them try it. Click on SHARE so that others can find your game on Scratch. Go to the project page and let someone try the game! 
+
+## Challenges 
+
+### Speed up the simulator 
+
+If you think the simulator is too slow, You can speed it up by taking more steps forward. Try replacing the number in **move 3 steps** block to a higher number. 
