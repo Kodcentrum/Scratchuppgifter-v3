@@ -115,8 +115,7 @@ An algorithm, or a script as it’s called here, has to be precise, complete and
 
 Choose when the rocket will take off. When you click on the start flag? When you click on the rocket? When you press a key on the keyboard? 
 
-![](./u1_p11.png)
-<img src="./u1_p11.png" width="100" height="100">
+<img src="./u1_p11.png" width="100" height="70">
 
 Explore the Events category to find a block that says when something will happen. 
 
