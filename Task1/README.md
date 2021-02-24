@@ -1,17 +1,17 @@
 # CODE YOUR SPACE ROCKET
 We begin our space adventure by building a rocket using the programming tool Scratch. First, we will draw our rocket using geometric shapes and then write some code that will send it into space! 
 
-The end result could look like this: <a href="https://scratch.mit.edu/projects/460478635/" target="_blank">https://scratch.mit.edu/projects/460478635//</a>
+The end result could look like this: <a href="https://scratch.mit.edu/projects/460478635/" target="_blank"> https://scratch.mit.edu/projects/460478635//</a>
 
 ![](./u1_p1.png)
 
 ## 1 - Create a new project in Scratch 
-Click on this link to be directed to the Scratch website: https://scratch.mit.edu/ 
+Click on this link to be directed to the Scratch website: <a href="https://scratch.mit.edu/" target="_blank"> https://scratch.mit.edu/ </a>
 
 There is a menu at the top of the page. Click on Create. 
 
 The cat that you see on screen is created when someone starts a new project. Since we don’t need the cat for our program, we will begin by removing it. To do that, go to the small figure of the cat in a box and click on the trash bin sign.  
-![](./u1_p1.png)
+![](./u1_p14.png)
 
 ## 2 - Paint a new sprite 
 
@@ -31,7 +31,7 @@ You want to the nose of your rocket to be an equilateral triangle. An equilatera
 
 > If you want to delete the last line you drew, click on the “undo” arrow. 
 
-![](./u1_p3.png)
+![](./u1_p3.1.png)
 
 Now that you have drawn the outline of your triangle, it’s time to colour it. Select the “Fill” tool, which looks like a paint bucket. Then choose the colour you want to fill your triangle with and click in your triangle. Does the triangle change to the colour you have chosen? Awesome! 
 
@@ -42,7 +42,7 @@ Now that you have drawn the outline of your triangle, it’s time to colour it. 
 
 The rocket’s body is made from a rectangle shape. We can draw a rectangle by using the Line tool if we want to – or we can use the Rectangle tool. 
 
-![](./u1_p4.png)
+![](./u1_p5.png)
 
 1. Select the Rectangle tool. 
 2. Select a colour to fill. 
@@ -58,7 +58,7 @@ A fin is made from a right-angle triangle. Ask your teacher if you are not sure 
 
 Move the fins to the bottom of the rectangle. Now it's starting to look like a rocket! 
 
-![](./u1_p5.png)
+![](./u1_p6.png)
 
 ## 6 - Use the Text tool 
 
@@ -71,7 +71,7 @@ So that other spaceships can see that your rocket comes from Sweden, we are goin
 > SNSA stands for Swedish National Space Agency. In Swedish it is called Rymdstyrelsen. 
 > If you are not happy with where your text is located, you can move it using the Move tool or clicking it and dragging it. 
 
-![](./u1_p6.png)
+![](./u1_p7.png)
 
 ## 7 - Personalise your rocket 
 
@@ -93,17 +93,17 @@ For example, you could:
 
 - or something completely different. You can choose! 
 
-![](./u1_p7.png)
+![](./u1_p8.png)
 
 ## 8 - Choose a space backdrop from the library 
 
 Click on “Choose a Backdrop” in the lower right corner. 
 
-![](./u1_p8.png)
+![](./u1_p9.png)
 
 Then choose one of the space backdrops in the library. 
 
-![](./u1_p9.png)
+![](./u1_p10.png)
 
 ## 9 - Code the rocket so it moves 
 
@@ -115,7 +115,7 @@ An algorithm, or a script as it’s called here, has to be precise, complete and
 
 Choose when the rocket will take off. When you click on the start flag? When you click on the rocket? When you press a key on the keyboard? 
 
-![](./u1_p10.png)
+![](./u1_p11.png)
 
 Explore the Events category to find a block that says when something will happen. 
 
@@ -125,7 +125,7 @@ The rocket must travel upwards, into space. So it must move – look in the cate
 
 Tip: You can’t use “go” because that is in the wrong direction... what do you want to use? Glide? Change? 
 
-![](./u1_p11.png)
+![](./u1_p12.png)
 
 ### How? 
 
@@ -133,7 +133,7 @@ How do you want to rocket to move? What direction should it move?
 
 We want it to travel upward! We need to use coordinates. The rocket has a coordinate to keep track of its location. A coordinate is composed of a number for X and a number for Y. Maybe you’ve already noticed that your rocket has a coordinate? 
 
-![](./u1_p12.png)
+![](./u1_p3.png)
 
 If you change X, the rocket will move to the left or right. A higher number moves it to the right and a lower one to the left. 
 
@@ -155,7 +155,7 @@ Now you have made a space rocket. Nice work!
 
 You can use this space rocket for the other tasks in Space theme on kodboken.se. 
 
-![](./u1_p13.png)
+![](./u1_p14.png)
 
 ### Save 
 
