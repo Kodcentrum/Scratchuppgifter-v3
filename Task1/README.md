@@ -115,7 +115,7 @@ An algorithm, or a script as it’s called here, has to be precise, complete and
 
 Choose when the rocket will take off. When you click on the start flag? When you click on the rocket? When you press a key on the keyboard? 
 
-<img src="./u1_p11.png" width="600" height="400">
+<img src="./u1_p11.png" width="600" height="500">
 
 Explore the Events category to find a block that says when something will happen. 
 
@@ -125,7 +125,7 @@ The rocket must travel upwards, into space. So it must move – look in the cate
 
 Tip: You can’t use “go” because that is in the wrong direction... what do you want to use? Glide? Change? 
 
-![](./u1_p12.png)
+<img src="./u1_p12.png" width="700" height="100">
 
 ### How? 
 
