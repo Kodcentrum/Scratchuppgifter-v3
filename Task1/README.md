@@ -3,7 +3,7 @@ We begin our space adventure by building a rocket using the programming tool Scr
 
 The end result could look like this: <a href="https://scratch.mit.edu/projects/460478635/" target="_blank"> https://scratch.mit.edu/projects/460478635//</a>
 
-![](./u1_p1.png)
+![](./u1_p14.png)
 
 ## 1 - Create a new project in Scratch 
 Click on this link to be directed to the Scratch website: <a href="https://scratch.mit.edu/" target="_blank"> https://scratch.mit.edu/ </a>
@@ -11,7 +11,7 @@ Click on this link to be directed to the Scratch website: <a href="https://scrat
 There is a menu at the top of the page. Click on Create. 
 
 The cat that you see on screen is created when someone starts a new project. Since we don’t need the cat for our program, we will begin by removing it. To do that, go to the small figure of the cat in a box and click on the trash bin sign.  
-![](./u1_p14.png)
+![](./u1_p1.png)
 
 ## 2 - Paint a new sprite 
 
