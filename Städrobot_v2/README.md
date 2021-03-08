@@ -29,14 +29,18 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
 Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 -->
-## 1: Skaffa en robotdammsugare
-Börja med att skaffa din robotdammsugare. Du bestämmer själv vilken sprajt du väljer.
+## 1: Skapa en robotdammsugare
+Börja med att skapa din robotdammsugare. Du bestämmer själv vilken sprajt du väljer.
 
 1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på lilla *soptunnan* på den katt-bilden under scenen. 
 
 ![image alt text](tabortSprajt.png) 
 
-2. För att skaffa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare.  
+2. För att skaa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. 
+
+![image alt text](tabortSprajt.png) 
+
+3. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare. Till vårt exempel har vi valt en ball som vår dammsugarrobot. 
 
 ![image alt text](tabortSprajt.png) 
 
