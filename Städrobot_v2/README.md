@@ -38,7 +38,7 @@ Börja med att skapa din robotdammsugare. Du bestämmer själv vilken sprajt du 
 
 2. För att skaa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. 
 
-![image alt text](tabortSprajt.png) 
+![image alt text](städrobot_1.2.png) 
 
 3. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare. Till vårt exempel har vi valt en ball som vår dammsugarrobot. 
 
@@ -49,7 +49,7 @@ Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 ## 2: Rita rummet som ska städas
 Dax att rita rummet eller lägenheten som roboten ska städa. Du ska rita väggarna som om du ser rummet *ovanifrån*, exempelvis en enkel fyrkant. Endast väggarna ska ritas och det är viktigt att alla har exakt samma färg och att inget annat i bakgrunden är målat med samma färg som väggarna! Måla gärna golvet i en ny färg också.
 
-![image alt text](Tom_Lägenhet_väggar.png) 
+![image alt text](städrobot_2.1.png) 
 
 Gör såhär:
 
@@ -165,6 +165,23 @@ Lägg nu in hela denna **om...då**-loop med väggfärg och röresle in i  det a
 ![image alt text](rörelseKlar.png)
 
 Nu har vi en dammråtta som rör sig runt i rummet! Men den ju ska smutsa ned också. Vi lägger till en penna som ritar smuts där råttan åker fram.
+
+> Istället för att skriva samma kod, kan du kopiera koden från dammsugaren och klistra den på dammråttan. Så här gör du för att kopiera ett skript: 
+
+1. Klicka på texten **Ryggsäck** som finns nedan för skärmen.
+2. Klicka sedan på koden så att den lyser gul runt om och dra den till ryggsäcken. 
+3. När ni ser en mini-version av koden i ryggsäcken, då är koden kopierad. Annars, försök att dra koden igen. 
+
+![image alt text](städrobot_5.7.gif)
+
+Så här gör du för att klistra koden:
+
+1. Gå till dammråttan och öppna **Ryggsäcken** genom att klicka på den. 
+2. Dra den koden du kopierade från ryggsäcken till skriptytan. 
+3. Nu har du samma kod som du har på dammsugaren utan att behöva skriva en enda kod!
+
+![image alt text](städrobot_5.8.gif)
+
 
 ## 6: Dammråttan smutsar ned
 Vi ska nu lägga till kod som gör att dammråttan smutsar ned i lägenheten där den åker runt. Det löser vi genom att lägga till specialblocket **Penna**, som ritar smuts efter dammråttan. Gör såhär:
