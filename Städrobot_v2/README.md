@@ -12,7 +12,7 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja skapa din städrobot! Klicka på kapitel 1 här under för att bläddra dig vidare.
 
-## 1: Rita din robotdammsugare
+<!--## 1: Rita din robotdammsugare
 Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 
 1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på lilla *soptunnan* på den katt-bilden under scenen. 
@@ -26,6 +26,19 @@ Börja med att rita din robotdammsugare. Du bestämmer själv hur den ska se ut.
 3. Rita din egen robotdammsugare med ritverktygen. Du väljer själv hur din robotdammsugare ska se ut! I vårt exempel ser vår  vår dammsugarrobot ut såhär:
 
 ![image alt text](dammsugare.png) 
+
+Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
+-->
+## 1: Skaffa en robotdammsugare
+Börja med att skaffa din robotdammsugare. Du bestämmer själv vilken sprajt du väljer.
+
+1. Ta först bort katt-sprajten som finns i projektet, genom att klicka på lilla *soptunnan* på den katt-bilden under scenen. 
+
+![image alt text](tabortSprajt.png) 
+
+2. För att skaffa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare.  
+
+![image alt text](tabortSprajt.png) 
 
 Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 
@@ -50,6 +63,8 @@ Gör såhär:
 ![image alt text](rum.png) 
 
 4. Golvet kan också få en ny färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
+
+![image alt text](städrobot_2.3.png) 
 
 Nu har vi en dammsugarrobot och ett rum, men vi måste få roboten att börja röra på sig. Dax att börja koda.
 
