@@ -38,7 +38,9 @@ Börja med att skapa din robotdammsugare. Du bestämmer själv vilken sprajt du 
 
 2. För att skaa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. 
 
-![image alt text](städrobot_1.2.png) 
+<!--[image alt text](städrobot_1.2.png)-->
+ 
+<img src="städrobot_1.2.png" width="500" height="250">
 
 3. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare. Till vårt exempel har vi valt en ball som vår dammsugarrobot. 
 
@@ -172,7 +174,7 @@ Nu har vi en dammråtta som rör sig runt i rummet! Men den ju ska smutsa ned oc
 2. Klicka sedan på koden så att den lyser gul runt om och dra den till ryggsäcken. 
 3. När ni ser en mini-version av koden i ryggsäcken, då är koden kopierad. Annars, försök att dra koden igen. 
 
-![image alt text](städrobot_5.7.gif)
+<img src="städrobot_5.7.gif" width="800" height="500">
 
 Så här gör du för att klistra koden:
 
@@ -180,7 +182,7 @@ Så här gör du för att klistra koden:
 2. Dra den koden du kopierade från ryggsäcken till skriptytan. 
 3. Nu har du samma kod som du har på dammsugaren utan att behöva skriva en enda kod!
 
-![image alt text](städrobot_5.8.gif)
+<img src="städrobot_5.8.gif" width="800" height="500">
 
 
 ## 6: Dammråttan smutsar ned
