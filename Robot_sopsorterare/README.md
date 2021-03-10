@@ -55,6 +55,8 @@ Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och e
 
 5. Vi ska nu koda så att soporna ramlar ner ovanifrån ner mot roboten, så att den kan fånga och sortera soporna! Klicka på fliken som heter KOD högst upp i vänstra hörnet av Scratch, så kommer du ur ritverktyget och tillbaka till skriptytan för din sprajt. 
 
+6. Se till att du kodar i rätt sprajt. Vi fortsätter koda roboten. 
+
 6.  Dra ut ett startblock **när GRÖN FLAGGA klickas på** från tema HÄNDELSER och lägg på skriptytan för sopsprajten. 
 
 7. Från tema KÄNNA AV lägger du till blocket **sätt dragläge till "dragbar"**, fäst det under startblocket. 
@@ -76,7 +78,7 @@ Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och 
 
 ![image alt text](narJagTarMotMeddelande.PNG)
 
-3. Klicka på lilla pilen i blocket bredvid där det står **meddelande1** och välj "skapa nytt meddelande". 
+3. Klicka på lilla pilen i blocket bredvid där det står **meddelande1** och välj **Nytt meddelande**. 
 
 ![image alt text](narJagTarMotNyttMeddelande.PNG)
 
