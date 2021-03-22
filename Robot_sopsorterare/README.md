@@ -2,7 +2,11 @@
 
 Tycker du det är jobbigt att sortera sopor för återvinning? Varför inte programmera en robot att hjälpa till! I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra en sorteringsrobot som automatiskt skickar soporna till rätt ställe!
 
-LÄGG IN EXEMPELPROJEKT HÄR!
+Nedan hittar du ett exempelprojekt. Nar du har kodat allt ska resultat se ungefär så har:
+
+<a href="https://scratch.mit.edu/projects/499266198/" target="_blank"> https://scratch.mit.edu/projects/499266198//</a>
+
+![](soprobot_0.png)
 
 ## 1: Välj en robot och koda styrning
 
