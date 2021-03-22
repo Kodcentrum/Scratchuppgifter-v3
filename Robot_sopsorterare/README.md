@@ -155,11 +155,9 @@ Vi vill att om roboten missar att sortera sopan, och den faller ned till marken,
 
 5. Nu vill vi att villkoret ska läsa av när soporna har fallit ända ned förbi roboten. Vi börjar med att ändra siffran **50** igröna operatorblocket så det står koordinatorpositionen **-129**. Alltså lite kortare än positionen -130 som vi satte för sopan att falla ned till. 
 
-5. Nu lägger vi till att det är y-positionen villkoret ska kolla efter. Från tema RÖRELSE drar du in blocket som heter **y-position**. Lägg det i den första vita bubblan i det gröna operatorblocket, så att villkoret blir **om y positionen < -129 då**. Då ser koden ut såhär: 
+6. Nu lägger vi till att det är y-positionen villkoret ska kolla efter. Från tema RÖRELSE drar du in blocket som heter **y-position**. Lägg det i den första vita bubblan i det gröna operatorblocket, så att villkoret blir **om y positionen < -129 då**. 
 
-![image alt text](SopsprajtVillkorOperatorY-positionBlock.PNG)
-
-6. Slutligen sätter vi ett **skicka omstart**-block från tema HÄNDELSER innuti villkoret. När du är klar ska koden se ut såhär:
+7. Slutligen sätter vi ett **skicka omstart**-block från tema HÄNDELSER innuti villkoret. När du är klar ska koden se ut såhär:
 
 ![image alt text](forAlltidYposOmKlarIhopsatt.PNG)
 
@@ -311,7 +309,7 @@ Under de två blocken sätter vi ett glid till block och sätter det till 1 seku
 Sådär! Om inget har blivit tokigt har du nu en robot som sorterar sopor! 
 
 ## Färdig!
-Bra jobbat! Spara och dela gärna ditt projekt så andra kan testa det1 
+Grymt jobbat! Spara och dela gärna ditt projekt så andra kan testa det! 
 
 
 
