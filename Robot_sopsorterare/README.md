@@ -227,7 +227,7 @@ Nu ska vi kopiera låd-sprajten så vi får en till likadan, där koden även f�
 
 2. Gå nu till nya lådsprajtens klädslar (klicka på fliken KLÄDSLAR högt upp till vänster i Scratch). Klicka på blå knappen **Gör till bitmap** under scenen och ändra lådans färg och text, så det står exempelvis "Kompost". 
 
-[image alt text](soprobot_6.2.png)
+![image alt text](soprobot_6.2.png)
 
 
 >**Tips!** Sudda först bort texten du vill byta ut på den kopierade lådan med hjälp av suddgummi-verktyget, sen kan du färga lådan med ny färg och skriva på en ny text. Glöm inte att klicka på knappen **Gör till bitmap** allra först för at kunna måla. 
