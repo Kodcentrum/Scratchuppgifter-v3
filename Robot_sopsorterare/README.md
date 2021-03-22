@@ -223,7 +223,7 @@ Nu ska vi kopiera låd-sprajten så vi får en till likadan, där koden även f�
 
 2. Gå nu till nya lådsprajtens klädslar (klicka på fliken KLÄDSLAR högt upp till vänster i Scratch). Klicka på blå knappen **Gör till bitmap** under scenen och ändra lådans färg och text, så det står exempelvis "Kompost". 
 
-[image alt text](soprobot_6.6.2.png)
+[image alt text](soprobot_6.2.png)
 
 
 >**Tips!** Sudda först bort texten du vill byta ut på den kopierade lådan med hjälp av suddgummi-verktyget, sen kan du färga lådan med ny färg och skriva på en ny text. Glöm inte att klicka på knappen **Gör till bitmap** allra först för at kunna måla. 
@@ -265,9 +265,9 @@ För att göra detta måste roboten känna igen vad för typ av sopor det är so
 
 6. Vi vill ju att sprajten **Sopor** ska byta klädslar, inte att scenen ska byta bakgrundsnummer som det nu står i koden. Vi ändrar i koden genom att klicka först på ordet **scen** i det blå Känna av-blocket, och välja sopsprajten istället. Klicka sedan på ordet till vänster i Känna av-blocket, där det nu står *x-position* och välj istället så det står **klädselnamn**. Slutligen ändrar du i Operatorblockets vita bubbla där det nu står *50* så att det istället står namnet på en av sopsprajtens klädslar, exempelvis **glas**. 
 
-![alt text](soprobot_6.6.1.png)
+![alt text](soprobot_7.1.png)
 
-![alt text](soprobot_6.6.2.png)
+![alt text](soprobot_7.2.png)
 
 
 7. För att roboten ska kunna känna igen alla våra soptyper (glasflaskan och äppelskrutten) behöver vi göra en likadan kodsnutt som den vi nyss gjorde för soptypen **glas** ovan. Upprepa därför stegen ovanför så roboten kan känna av andra soptyper, exempelvis **kompost**. (Tips: du kan om du vill kopiera koden du nyss gjorde och bara ändra i den så det står rätt sopklädsel.) När du är klar ska koden se ut något såhär: 
