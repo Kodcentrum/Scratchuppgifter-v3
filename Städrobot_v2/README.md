@@ -37,7 +37,7 @@ Börja med att skapa din robotdammsugare. Du bestämmer själv vilken sprajt du 
 
 3. Nu öppnas ett nytt fönster med många sprajtfigurer i. Välj den sprajten du vill ha som din robotdammsugare. Till vårt exempel har vi valt en ball som vår dammsugarrobot. 
 
-![image alt text](tabortSprajt.png) 
+![image alt text](städrobot_1.4.png) 
 
 Nu har vi en dammsugarrobot, men vart ska den städa? Vi går vidare.
 
