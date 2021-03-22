@@ -4,7 +4,7 @@ Visst kan det ibland kännas lite trist att städa. Varför inte skapa din egna 
 
 Klicka på bilden nedan för att se ett exempelprojekt i Scratch på hur ett projekt med en robotdammsugare kan tänkas se ut: <a href="https://scratch.mit.edu/projects/374793805" target="_blank"> 
 
-![image alt text](Exempelprojekt.png) </a>
+![image alt text](städrobot_0.png) </a>
  
 > **HUR KODAR JAG?** 
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. <a href="https://scratch.mit.edu" target="_blank"> Klicka här för att öppna Scratch i en ny flik.</a> I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du spara och om du vill även sen dela ditt projekt. Det är gratis att skaffa ett konto på Scratch.
@@ -218,7 +218,7 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 
 1. Se till att sprajten för dammsugarroboten är aktiverad, så att du kodar rätt sprajt.
 
-![image alt text](dammsugarsprajt_aktiverad.png)
+![image alt text](städrobot_7.1.png)
 
 2. Under tema **PENNA** finns kodblocket **sätt pennans storlek 1**. Lägg in detta block i robotens kod direkt under start-blocket **när GRÖNA FLAGGAN klickas på**. Ändra siffran 1 till en lagom stor storlek, i vårt exempel är det 20. Pennans storlek behöver vara mindre än din robotdammsugare! Prova dig fram.
 
@@ -231,7 +231,8 @@ Vi vill att smutsen ska se ut att försvinna när dammsugaren åkt över den. De
 4. Pennan måste ha golvytans färg att rita över smutsen med, så att den ser ut att städa rent. Klicka på färgcirkeln i blocket och välj pippetten längst ned i rutan som kommer fram. Klicka på golvfärgen i scenen, så ändras färgen i kodblocket till den rätta golvfärgen. I vårt exempel har vi en vit golvfärg.
 
 ![image alt text](PippetVerkyget_välj.png)
-![image alt text](PippetVerktygScen.png)
+
+![image alt text](städrobot_7.5.png)
 
 > **Tänk på!** Det är viktigt att färgen på pennan har exakt samma färg som golvet i rummet du ritat. Då ritar pennan över dammråttans smutsfärg med golvfärgen.
 
