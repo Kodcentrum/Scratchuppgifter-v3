@@ -172,11 +172,11 @@ Vi måste ju också ha någonting som soporna kan sorteras in i. Nu ska du skapa
 
 1. Skapa först en första ny sprajt-låda, som du efter att ha ritat och kodat ska få kopiera så du får fler återvinningslådor. På det sätter behöver du inte koda samma sak flera gånger, bara ändra lite i utseendet och lite i koden. För att måla en ny sprajt, håll muspekaren över **Välj en sprajt** och klicka på pensel-symbolen som heter **Måla**.
 
-[image alt text](soprobot_5.1.png)
+![image alt text](soprobot_51.png)
 
 2. I vårt exempel har vi ritat en ny sprajt som vår återvinningslåda och skrivit på lådan med textverktyget vad den återvinner (exempelvis "glas"), så den ser ut såhär:
 
-[image alt text](soprobot_5.2.png)
+![image alt text](soprobot_52.png)
 
 >**Glöm inte!** För att kunna rita enkelt en låda och skriva på den behöver du först trycka på den blå knappen **Gör till bitmap** under ritverktygets yta.
 
@@ -274,9 +274,9 @@ För att göra detta måste roboten känna igen vad för typ av sopor det är so
 
 ![alt text](omRorVidSoporKlar.PNG)
 
-När du är klar ska koden se ut något såhär:
+När du har färdig kodat den ska det se ut något såhär:
 
-![alt text](soprobot_6.7.PNG)
+![alt text](soprobot_6.7.png)
 
 **Kom ihåg!** Det är viktigt att det skrivs in exakt samma klädselnamn i gröna Operator-blocket så som du skrev namnet på sopornas  klädslar i återvinningslådornas kod. Annars kan inte roboten senare sortera soporna till rätt låda.
 
