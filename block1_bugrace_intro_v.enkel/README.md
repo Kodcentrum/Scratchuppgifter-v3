@@ -94,7 +94,7 @@ Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer s
 
 ## 3: Sprajten rör på sig
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
-<video src="./BugRacedel3_nytt.mp4" controls muted height=480 width=640 />
+<video src="./BugRaceIntroDel3_enkel.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
