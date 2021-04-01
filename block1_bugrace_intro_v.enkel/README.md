@@ -176,7 +176,7 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 ## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent. (Använder du surfplatta med pekskärm finns tips på hur du kan koda sprajten att följa ditt finger längre ned.)
-<video src="./BugRacedel5_nytt.mp4" controls muted height=480 width=640 />
+<video src="./BugRaceIntroDel5_enkel.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
@@ -231,7 +231,7 @@ Se i videon ovan hur du ska:
 ## 7: Känna av när skalbaggen åker av banan
 
 Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
-<video src="./BugRacedel7_nytt.mp4" controls muted height=480 width=640 />
+<video src="./BugRaceIntroDel7_enkel.mp4" controls muted height=480 width=640 />
 
 
 >**VAD SKA JAG GÖRA?**
@@ -267,7 +267,7 @@ Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"**
 ## 8: Gör klart skriptet
 
 Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
-<video src="./BugRacedel8_nytt.mp4" controls muted height=480 width=640 />
+<video src="./BugRaceIntroDel8_enkel.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
