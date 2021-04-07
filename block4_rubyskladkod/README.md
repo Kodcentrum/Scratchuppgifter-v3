@@ -53,11 +53,18 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
 2.	Välj en bakgrund till från biblioteket som passar som ett rum. Förslag är **bedroom1** och **bedroom2**, men du kanske tycker att Ruby ska bo på ett slott!
 
-   ![image alt exempel](image_2.png)
+   Steg 1: 
+   
+   ![image alt exempel](ruby_3.1.png)
+   
+   Steg2: 
+   
+   ![image alt exempel](ruby_3.2.png)
 
 3.	Välj en ny sprajt genom att **ladda upp en bild från din dator**. Välj bilden där **Ruby är i underkläderna**.
 
-    ![image alt exempel](image_3.png)
+    ![image alt exempel](ruby_3.3.png)
+    
     _Bilden med Ruby i underkläder_
 
 4.	Sätt **namnet** på sprajten till **Ruby**. Placera den på ett lämpligt ställe i rummet.
@@ -66,17 +73,19 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
 6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i 2.
 
-    ![image alt exempel](image_4.png)
+    ![image alt exempel](ruby_3.4.png)
+    
+    ![image alt exempel](ruby_3.5.png)
 
 7.	Skapa ett skript för **Ruby** som säger:
 
   *	Startar när START klickas på
 
-  * **Byt klädsel** till **"RUBY_underware"**
+  * Under temat UTSEENDE hittar du blocket **Ändra klädsel till **"..."**. klicka på texten som finns i ovala rutan och välj **RUBY_underwear**
 
   * **Säg** *”Hej mitt namn är Ruby! Jag måste välja kläder. Kan du hjälpa mig?"*
 
-  ![image alt block](image_5.png)
+  ![image alt block](ruby_3.7.png)
 
 ## 4: Acceptera uppdraget
 
