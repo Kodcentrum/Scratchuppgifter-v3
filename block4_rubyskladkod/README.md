@@ -75,7 +75,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
     ![image alt exempel](ruby_3.4.png)
     
-    ![image alt exempel](ruby_3.5.png)
+    ![image alt exempel](ruby_3.6.png)
 
 7.	Skapa ett skript för **Ruby** som säger:
 
