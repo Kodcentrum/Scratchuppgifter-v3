@@ -79,7 +79,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
 7.	Skapa ett skript för **Ruby** som säger:
 
-  *	Startar när START klickas på
+  *	När START klickas på
 
   * Under temat UTSEENDE hittar du blocket **Ändra klädsel till **"..."**. klicka på texten som finns i ovala rutan och välj **RUBY_underwear**
 
@@ -109,7 +109,7 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
  
 5.	Skapa ett andra skript för sprajten som säger
 
-  - Startar när denna sprajt klickas på
+  - När denna sprajt klickas på
 
   - Skicka **meddelandet ”byt klädsel”**
 
@@ -127,7 +127,7 @@ steg 2:
 
   ![image alt block](ruby_4.5.3.png)
 
-## 5: Välja dag
+## 5: Bestäm dagen
 
 Många av de reglerna som du skapade i 2 är beroende på vilken dag det är. Nu ska du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
 
@@ -143,23 +143,33 @@ Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite s
 
 _Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
 
-### Fråga användaren:
+**OBS: Du kan inte koda alla tre alternativ på samma projekt så skapa ett nytt projekt för varje alternativ och följ instruktionerna till Steg 4. **
 
-1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
+## Alternativ 1: Fråga användaren
+
+1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
+
+Steg 1:
+
+![image alt block](ruby_5.1.1.png)
+
+Steg 2:
+
+![image alt block](ruby_5.1.2.png)
 
 2.	Skapa ett skript för **Ruby** som säger:
 
   * När den tar emot meddelandet **”byt klädsel”**
 
-  * **Fråga** _”Vad är det för dag?”_ och vänta
+  * **Fråga** _”Vad är det för dag?”_ och vänta. Du hittar kodblocket under temat **Känna av**
 
-  * **Sätt ”Idag är det: ”** till **”svar”**
+  * Gå till temat **Variabler** och välj kodblocket **Sätt ”Idag är det: till 0”** och **”svar”** från temat **Känna av** bytt den mot 0. 
 
-  ![image alt block](image_8.png)
+  _Så här ser koden:_
+  
+  ![image alt block](ruby_5.1.3.png)
 
-  _Block du behöver för punkt 2._
-
-### Slumpa fram en dag:
+## Alternativ 2: Slumpa fram en dag:
 
 1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen.
 
