@@ -101,19 +101,31 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
 4.	Skapa ett skript för **knappen** som säger
 
-  * Startar när START klickas på
+  * När START klickas på
 
   * **Visa** sprajten
 
+ ![image alt block](ruby_4.4.png)
+ 
 5.	Skapa ett andra skript för sprajten som säger
 
-  * Startar när denna sprajt klickas på
+  - Startar när denna sprajt klickas på
 
-  * Skicka **meddelandet ”byt klädsel”**
+  - Skicka **meddelandet ”byt klädsel”**
 
-  * **Göm** sprajten
+  - Så här skapar du och skickar ett meddelande. Gå till temat **Händelser** och välj kodblocket **Skicka 'meddelande'** Klicka på texten som finns i en ruta brevid texten "Skicka". Nu kan du klicka på **Nytt meddelande** och skapa ett meddelande. 
 
-  ![image alt block](image_7.png)
+steg 1: 
+
+ ![image alt block](ruby_4.5.1.png)
+ 
+steg 2: 
+
+ ![image alt block](ruby_4.5.2.png)
+
+  - **Göm** sprajten
+
+  ![image alt block](ruby_4.5.3.png)
 
 ## 5: Välja dag
 
