@@ -222,13 +222,15 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA inneb
 
 4.	**Repetera** med fler OM-block tills du har lagt in alla regler
 
+  ![image alt block](ruby_6.4.png)
+
   _Flera OM-block behövs för att implementera alla regler._
 
 5.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
 
   ![image alt block](ruby_6.5.png)
 
-## 7: Välja mellan två kläder
+## Alternativ 3: Välja mellan två kläder
 
 Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du följa detta exempel.
 
@@ -372,13 +374,13 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
 
   * **Skicka** meddelandet **”hitta hörlurar”**
 
-  ![image alt block](image_15.png)
-
 2.	Lägg till en sprajt genom att ladda upp bilden för **hörlurarna** från din dator.
 
 3.	Skapa ett skript för **hörlurarna** som ser till att de är **gömda** när START klickas på
 
 4.	Skapa sedan ett skript till för **hörlurarna** som **visar** dem när meddelandet **”hitta hörlurar”** tas emot.
+
+  ![image alt block](ruby_8.4.png)
 
 5.	**Skicka** meddelandet **”hörlurar”** när sprajten klickas på.
 
@@ -390,7 +392,7 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
 
   * **Säg** _”Tack! Nu kan jag börja leka”_
 
-  ![image alt block](image_16.png)
+  ![image alt block](ruby_8.6.png)
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
