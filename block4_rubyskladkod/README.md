@@ -143,7 +143,7 @@ Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite s
 
 _Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
 
-**OBS: Du kan inte koda alla tre alternativ på samma projekt så skapa ett nytt projekt för varje alternativ och följ instruktionerna till Steg 4. **
+**OBS:** **Du kan inte koda alla tre alternativ på samma projekt så skapa ett nytt projekt för varje alternativ och följ instruktionerna till Steg 4 och hoppa över till steg 6.**
 
 ## Alternativ 1: Fråga användaren
 
@@ -210,23 +210,23 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA inneb
 
 2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
 
-  ![image alt block](image_10.png)
+  ![image alt block](ruby_6.2.png)
 
   _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
 
-3. Innuti **OM**-blocket lägger du in ett **byt klädsel til..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
+3. Innuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
 
-  ![image alt block](image_21.png)
+  ![image alt block](ruby_6.3.png)
 
   _Så här kan koden se ut_
 
 4.	**Repetera** med fler OM-block tills du har lagt in alla regler
 
-  ![image alt block](image_26.png)
-
   _Flera OM-block behövs för att implementera alla regler._
 
 5.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
+
+  ![image alt block](ruby_6.5.png)
 
 ## 7: Välja mellan två kläder
 
