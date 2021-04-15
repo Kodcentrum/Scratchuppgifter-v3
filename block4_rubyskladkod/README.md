@@ -171,7 +171,7 @@ Steg 2:
 
 ## Alternativ 2: Slumpa fram en dag:
 
-1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen.
+1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
 
 2.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
 
@@ -179,7 +179,7 @@ Steg 2:
 
   * När den tar emot meddelandet **”byt klädsel”**
 
-  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7**
+  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7** Kan du gissa värför siffrorna är mellan 1 och 7? Ja, för att det finns 7 dagar i veckan.
 
   * **Sätt ”Idag är det: ”** till **”Måndag"** OM **”veckodag”** är 1
 
@@ -191,16 +191,16 @@ Steg 2:
 
   * Sätt **”Idag är det: ”** till **"Fredag"** OM **”veckodag”** är 5
 
-  * Sätt **”Idag är det: ”** till **"Lördag""** OM **”veckodag”** är 6
+  * Sätt **”Idag är det: ”** till **"Lördag"** OM **”veckodag”** är 6
 
   * Sätt **”Idag är det: ”** till **"Söndag"** OM **”veckodag”** är 7
 
-  ![image alt block](image_9.png)
+  ![image alt block](ruby_5.2.2.png)
 
-  _Block du behöver för punkt 3. Tänk på att du behöver använda vissa block mer än en gång!_
 
 > Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
 
+## 6: 
 
 ## 6: Byta kläder på Ruby
 
@@ -264,25 +264,25 @@ Vi börjar med att lägga till två knappar som det står ”1” och ”2” p�
 
   * **Visa** sprajten
 
-  ![image alt block](image_12.png)
+  ![image alt block](image_7.4.png)
 
   _Så är ska koden för **Val1** se ut._
 
 5.	**Kopiera** nu sprajten så du har två knappar. Kalla den nya sprajten **Val2**.
 
+ ![image alt block](image_7.5.png)
+
 6.	Ändra klädseln på sprajten så att den har en annan färg.
 
+ ![image alt block](image_7.6.png)
+
 7.	Använd **textverktyget** och **skriv ”1”** på **Val1** och **”2”** på **Val2**.
-
-   ![image alt block](image_13.png)
-
-   _Så här kan knapparna se ut_
 
 Nu är det dags att skapa kod för **Ruby**. För ska du koda så att två slumpmässiga klädslar väljs och visas.
 
 1.	**Skicka** meddelandet **”välj kläder”** OM [det är helg]. Här får du själv välja när du meddelandet ska skickas och när två kläder ska slumpas fram.
 
-  ![image alt block](image_23.png)
+  ![image alt block](ruby_7.7.png)
 
   _Så här kan koden se ut som skickar meddelandet **"välj kläder"**_
 
@@ -302,13 +302,13 @@ Nu är det dags att skapa kod för **Ruby**. För ska du koda så att två slump
 
   * **Byt** klädsel till **”val1”**
 
-  * **Vänta** 4 sekunder
+  * **Vänta** 4 sekunder(Du hittar kodblocket under temat **Kontroll**).
 
   * **Säg** *”… eller den här?”*
 
   * **Byt** klädsel till **”val2”**
 
-  ![image alt block](image_11.png)
+  ![image alt block](ruby_7.3.3.png)
 
   **"repetera tills"**-loopen behöver du ha så att inte två likadana klädslar väljs. Tyvärr gör det koden lite svårare att läsa.
 
@@ -322,7 +322,7 @@ Det sista som du ska koda är att se till att klädseln ändras när ett meddela
 
   * **Säg** *”Tack! Nu kan jag börja leka”*
 
-  ![image alt block](image_14.png)
+  ![image alt block](ruby_7.4.1.png)
 
 2.	Skapa ett liknande skript för Ruby när sprajten **tar emot** meddelandet **”gjorde val2”**, men byt istället till klädseln **"val2"**.
 
@@ -334,7 +334,7 @@ Det sista som du ska koda är att se till att klädseln ändras när ett meddela
 
   * **Skicka** meddelandet **”gjorde val1”**
 
-  ![image alt block](image_24.png)
+  ![image alt block](ruby_7.4.3.png)
 
 4. Skapa ett liknande skript för **Val2**-knappen men skicka där meddelandet **"gjorde val2"**.
 
