@@ -1,6 +1,6 @@
 # Rubys klädkod
 
-Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du ska få koda ett program som hjälper flickan Ruby att välja kläder.
+Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. Flickan Ruby vill ha en smart garderob som hjälper henne att välja kläder. I den här uppgiften ska du koda smart garderoben! Du ska få bestämma vilka kläder hon ska ha på sig på en viss dag.  
 
 *Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>*
 
@@ -143,8 +143,6 @@ Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite s
 
 _Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
 
-**OBS:** **Du kan inte koda alla tre alternativ på samma projekt så skapa ett nytt projekt för varje alternativ och följ instruktionerna till Steg 4 och hoppa över till steg 6.**
-
 ## Alternativ 1: Fråga användaren
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
@@ -169,38 +167,6 @@ Steg 2:
   
   ![image alt block](ruby_5.1.3.png)
 
-## Alternativ 2: Slumpa fram en dag:
-
-1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
-
-2.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
-
-3.	Skapa ett skript för **Ruby** som säger:
-
-  * När den tar emot meddelandet **”byt klädsel”**
-
-  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7** Kan du gissa värför siffrorna är mellan 1 och 7? Ja, för att det finns 7 dagar i veckan.
-
-  * **Sätt ”Idag är det: ”** till **”Måndag"** OM **”veckodag”** är 1
-
-  * Sätt **”Idag är det: ”** till **"Tisdag"** OM **”veckodag”** är 2
-
-  * Sätt **”Idag är det: ”** till **"Onsdag"** OM **”veckodag”** är 3
-
-  * Sätt **”Idag är det: ”** till **"Torsdag"** OM **”veckodag”** är 4
-
-  * Sätt **”Idag är det: ”** till **"Fredag"** OM **”veckodag”** är 5
-
-  * Sätt **”Idag är det: ”** till **"Lördag"** OM **”veckodag”** är 6
-
-  * Sätt **”Idag är det: ”** till **"Söndag"** OM **”veckodag”** är 7
-
-  ![image alt block](ruby_5.2.2.png)
-
-
-> Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
-
-## 6: 
 
 ## 6: Byta kläder på Ruby
 
@@ -409,6 +375,41 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
 
 **Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
+
+
+## Alternativ 2: Slumpa fram en dag:
+
+På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
+
+1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
+
+2.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
+
+3.	Skapa ett skript för **Ruby** som säger:
+
+  * När den tar emot meddelandet **”byt klädsel”**
+
+  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7** Kan du gissa värför siffrorna är mellan 1 och 7? Ja, för att det finns 7 dagar i veckan.
+
+  * **Sätt ”Idag är det: ”** till **”Måndag"** OM **”veckodag”** är 1
+
+  * Sätt **”Idag är det: ”** till **"Tisdag"** OM **”veckodag”** är 2
+
+  * Sätt **”Idag är det: ”** till **"Onsdag"** OM **”veckodag”** är 3
+
+  * Sätt **”Idag är det: ”** till **"Torsdag"** OM **”veckodag”** är 4
+
+  * Sätt **”Idag är det: ”** till **"Fredag"** OM **”veckodag”** är 5
+
+  * Sätt **”Idag är det: ”** till **"Lördag"** OM **”veckodag”** är 6
+
+  * Sätt **”Idag är det: ”** till **"Söndag"** OM **”veckodag”** är 7
+
+  ![image alt block](ruby_5.2.2.png)
+
+
+> Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
+
 
 ### En enkel kalender
 
