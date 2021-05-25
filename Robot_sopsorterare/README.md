@@ -39,6 +39,33 @@ Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när 
 Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
 --->
 
+## 1: Välj en robot och koda styrning
+
+Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt som ser ut som en robotfigur men den kan ju se ut precis som du vill.
+
+1. Ta först bort kattsprajten från projektet. **Välj ny sprajt** som du vill ha som din robot.  
+
+![alt text](RobotSprajt.PNG)
+
+2. Känns roboten för stor? Ändra storleken på den genom att ändra siffran där det står **Storlek 100** under scenen. Ändra storlek tills du är nöjd.
+
+![image alt text](SoporÄndraStorlek.png)
+
+3. Nu ska vi koda så att roboten kan styras med hjälp av datorns tangentbord med höger- och vänsterpil. 
+Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när [mellanslag] tangenten trycks ned**. Lägg dem bredvid varandra på robotens skriptyta. 
+
+4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**, så det ser ut såhär:
+
+![alt text](narVansterPilTrycksNed.PNG)
+
+![alt text](narHogerPilTrycksNer.PNG)
+
+5. Under dessa block lägger vi in blocket **gå 10 steg**. Ändra i skriptet för **vänsterpil**tangenten så det står **gå -10 steg**. När du är klar ska de båda blocken se ut såhär:
+
+![alt text](RobotNärVänster_Högerpil_trycksNed.png)
+
+Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
+
 ## 2: Soporna
 Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
 
