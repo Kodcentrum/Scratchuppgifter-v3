@@ -1,6 +1,8 @@
 # Sopsorterare 
 
-Tycker du det är jobbigt att sortera sopor för återvinning? Varför inte programmera en robot att hjälpa till! I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra en sorteringsrobot som automatiskt skickar soporna till rätt ställe!
+Tycker du det är jobbigt att sortera sopor för återvinning? Varför inte programmera en robot att hjälpa till? 
+
+I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra en sorteringsrobot som automatiskt skickar soporna till rätt ställe!
 
 Nedan hittar du ett exempelprojekt. Nar du har kodat allt ska resultat se ungefär så har:
 
@@ -8,6 +10,7 @@ Nedan hittar du ett exempelprojekt. Nar du har kodat allt ska resultat se ungef�
 
 ![](soprobot_0.png)
 
+<!---
 ## 1: Välj en robot och koda styrning
 
 Vi ska skapa en robot som sorterar sopor. En robot kan ju se ut precis som du vill, det kan vara en robotskalbagge eller en robotanka. I vår exempel har vi valt en sprajt som ser ut som en robotfigur. 
@@ -34,6 +37,7 @@ Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när 
 ![alt text](RobotNärVänster_Högerpil_trycksNed.png)
 
 Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
+--->
 
 ## 2: Soporna
 Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
