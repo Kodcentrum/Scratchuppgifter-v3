@@ -37,34 +37,6 @@ Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när 
 ![alt text](RobotNärVänster_Högerpil_trycksNed.png)
 
 Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
---->
-
-## 1: Välj en robot och koda styrning
-
-Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt som ser ut som en robotfigur men den kan ju se ut precis som du vill.
-
-1. Ta först bort kattsprajten från projektet. **Välj ny sprajt** som du vill ha som din robot.  
-
-![alt text](RobotSprajt.PNG)
-
-2. Känns roboten för stor? Ändra storleken på den genom att ändra siffran där det står **Storlek 100** under scenen. Ändra storlek tills du är nöjd.
-
-![image alt text](SoporÄndraStorlek.png)
-
-3. Nu ska vi koda så att roboten kan styras med hjälp av datorns tangentbord med höger- och vänsterpil. 
-Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när [mellanslag] tangenten trycks ned**. Lägg dem bredvid varandra på robotens skriptyta. 
-
-4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**, så det ser ut såhär:
-
-![alt text](narVansterPilTrycksNed.PNG)
-
-![alt text](narHogerPilTrycksNer.PNG)
-
-5. Under dessa block lägger vi in blocket **gå 10 steg**. Ändra i skriptet för **vänsterpil**tangenten så det står **gå -10 steg**. När du är klar ska de båda blocken se ut såhär:
-
-![alt text](RobotNärVänster_Högerpil_trycksNed.png)
-
-Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
 
 ## 2: Soporna
 Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
@@ -167,6 +139,136 @@ När du är färdig borde all kod nu se ut såhär:
 ![image alt text](omstartKlar.PNG)
 
 Nu har vi ett skript med kod som gör att en slumpvis vald sopsprajt faller ned när vi startar projektet och sen stannar sopsprajten i luften och inget nytt händer. Men vi vill att det ska falla ned mer sopor hela tiden och att det ska slumpa mellan olika sopklädslar. Vi måste ju lägga till kod för **när** meddelandet "omstart" ska skickas iväg också, så att detta kan hända. Dax att koda vidare!
+--->
+
+## 1: Välj en robot och koda styrning
+
+Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt som ser ut som en robotfigur men den kan ju se ut precis som du vill.
+
+1. Ta först bort kattsprajten från projektet. **Välj ny sprajt** som du vill ha som din robot.  
+
+![alt text](RobotSprajt.PNG)
+
+2. Känns roboten för stor? Ändra storleken på den genom att ändra siffran där det står **Storlek 100** under scenen. Ändra storlek tills du är nöjd.
+
+![image alt text](SoporÄndraStorlek.png)
+
+3. Nu ska vi koda så att roboten kan styras med hjälp av datorns tangentbord med höger- och vänsterpil. 
+Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när [mellanslag] tangenten trycks ned**. Lägg dem bredvid varandra på robotens skriptyta. 
+
+4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**, så det ser ut såhär:
+
+![alt text](narVansterPilTrycksNed.PNG)
+
+![alt text](narHogerPilTrycksNer.PNG)
+
+5. Under dessa block lägger vi in blocket **gå 10 steg**. Ändra i skriptet för **vänsterpil**tangenten så det står **gå -10 steg**. När du är klar ska de båda blocken se ut såhär:
+
+![alt text](RobotNärVänster_Högerpil_trycksNed.png)
+
+Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
+
+## 2: Soporna
+Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
+
+1. Måla en egen ny sprajt och döp den till **Sopor**.
+
+![image alt text](namn_sprajt_sopor.PNG)
+
+2. Vi ska nu skapa två olika klädslar i den nya sprajten, som vi senare kan använda som olika sopor att källsortera. 
+
+Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och en äppelskrutt som ska sorteras som **kompost** 
+
+![image alt text](soptypGlas.PNG)
+![image alt text](soptypKompost.PNG)
+
+3. Döp klädslarna till vad för typ av sopor det är, exempelvis **glas** för glasflaskan och **kompost** för äppelskrutten. 
+
+![image alt text](namn_klädsel_glas.png)
+
+4. Nu ska du sätta en passande storlek på din sopsprajt, så den känns lagom stor i förhållande till din robot.
+
+![image alt text](SoporÄndraStorlek.png)
+
+5. Nu ska vi gå tillbaka till skriptytan och koda sprajten så att soporna ramlar ner ovanifrån ner mot roboten.
+
+6.  Dra ut ett startblock **när GRÖN FLAGGA klickas på** till skriptytan för sopsprajten. 
+
+7. Från tema KÄNNA AV lägger du till blocket **sätt dragläge till "dragbar"**, fäst det under startblocket. 
+
+![image alt text](draglageDragbar.PNG)
+
+Blocket för dragläget du just lade till är en liten extra grej som gör att man kan hjälpa roboten sortera rätt genom att klicka och dra soporna till rätt återvinningsställe!
+
+Nu har vi en sprajt som är sopor som kan flyttas på skärmen. men hur ska vi koda så att de olika typerna av sopor visas? Vi går vidare.
+
+## 3: Slumpa sopklädslar som faller ned
+Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och veta när och vad de ska göra. 
+
+1. Dubbelkolla att du kodar på rätt sprajt. Du kodar fortfarande på din sop-sprajt.
+
+![image alt text](soprobot_3.1.png)
+
+2. Från tema HÄNDELSER drar du ut blocket **när jag tar emot meddelande1**.
+
+![image alt text](narJagTarMotMeddelande.PNG)
+
+3. Klicka på lilla pilen i blocket bredvid där det står **meddelande1** och välj **Nytt meddelande**. 
+
+![image alt text](narJagTarMotNyttMeddelande.PNG)
+
+4. Meddelandet som ska skickas handlar om att sopsprajten ska starta om sin kod när den tar emot meddelandet. Därför döper vi meddelandet till "omstart", så vet vi vad det handlas om. Tryck sen OK, så skapas ett nytt meddelande.
+
+![image alt text](SkapaBorjaOm.PNG)
+
+När du är klar borde det se ut såhär:
+
+![image alt text](narjagTarMotBorjaOm.PNG)
+
+Sådär! Nu har vi skapat början på en bit kod som kommer att köras varje gång sprajten tar emot meddelandet "omstart".
+
+5. Under detta block sätter vi från tema UTSEENDE in blocket **ändra klädsel till "glas"**. Beroende på vad du har döpt din klädsel till kan det stå något annat än "glas". 
+
+6. Inuti detta block lägger vi från tema OPERATORER in ett blocket **slumptal 1 till 10**. Ändra så det står **1 till 2** istället, då vi ännu bara har två olika sop-klädslar att slumpa mellan.
+
+![image alt text](andraKladselHurBygg.PNG)
+![image alt text](andraKladselSlumptal.PNG)
+
+Nu har du alltså kodat att sprajten ska slumpa mellan klädslarna så att den ibland visar glasflaskan och ibland äppelskrutten.
+
+>**Testa koden!** Klicka på gröna startflaggan flera gånger efter varandra och se om det slumpas fram olika klädslar ibland?
+
+7. Dags att skapa rörelse på soporna. Sopsprajten ska starta högst upp i ovankant på scenen och sedan glida nedåt. Från tema RÖRELSE välj **gå till x och y**-block och sätt det under **ändra klädsel**-blocket. 
+
+![image alt text](SopsprajtStartpositionBlock_x_y.png)
+
+8. För att dina sopor ska falla från lite olika positioner i toppen, kodar vi in att de ska slumpas fram. Från tema OPERATORER drar du in blocket **slumptal 1 till 10** och lägger in det i det blå blocket efter **x:**.
+
+![image alt text](SopsprajtStartpositionBlockSlump.png)
+
+9. Ändra slumptalet i blocket **1 till 10** så det står koordinatpositioner istället, förslagsvis **-73 till 94**. 
+
+Då kommer sprajten alltså att slumpvis välja att starta i en plats någonstans mellan x: -73 till x: 94 i scenens ovankant.
+
+10. **y-postionen** ändrar du till **140**.
+
+![image alt text](gaTillPosKlar.PNG)
+
+>**Tänk på!** Siffran för x-positionen styr positionen av sprajten horisontellt, alltså åt höger och vänster på scenen. Och y-positionen styr sprajtens position vertikalt, alltså uppåt och nedåt. 
+
+11. Under **gå till x:... och y:...**-blocket sätter vi in blocket **glid 1 sek till x:... y:...** från tema RÖRELSE och ändra den till 2 sek istället.
+
+![image alt text](SopsprajtRörelseBlockGlidposition.png)
+
+Dra blocket **slumptal 1 till 10**. I vita bubblan efter **x:...** och skriv in **-73 och 94** i det gröna operatorblocket. Ändra även **y**-positionen **-130**. 
+
+![image alt text](glidTillSlumptal.PNG)
+
+När du är färdig borde all kod nu se ut såhär:
+
+![image alt text](omstartKlar.PNG)
+
+Nu har vi ett skript med kod som gör att en slumpvis vald sopsprajt faller ned när vi startar projektet. Vi fortsätter att koda!
 
 ## 4: Skicka meddelandet omstart
 
