@@ -23,15 +23,18 @@ Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt s
 ![image alt text](SoporÄndraStorlek.png)
 
 3. Nu ska vi koda så att roboten kan styras med hjälp av datorns tangentbord med höger- och vänsterpil. 
-Börja med att dra ut två stycken block från tema HÄNDELSER som heter **när [mellanslag] tangenten trycks ned**. Lägg dem bredvid varandra på robotens skriptyta. 
 
-4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**, så det ser ut såhär:
+Dra ut två stycken block från tema HÄNDELSER som heter **När [mellanslag] tangenten trycks ned**.  
+
+4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**.
 
 ![alt text](narVansterPilTrycksNed.PNG)
 
 ![alt text](narHogerPilTrycksNer.PNG)
 
-5. Under dessa block lägger vi in blocket **gå 10 steg**. Ändra i skriptet för **vänsterpil**tangenten så det står **gå -10 steg**. När du är klar ska de båda blocken se ut såhär:
+5. Under dessa block lägger vi in blocket **gå 10 steg**. 
+
+Ändra i skriptet för **vänsterpil**tangenten så det står **gå -10 steg**. 
 
 ![alt text](RobotNärVänster_Högerpil_trycksNed.png)
 
