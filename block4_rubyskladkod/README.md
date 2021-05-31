@@ -1,19 +1,21 @@
-# Rubys klädkod
+# Rubys smarta garderob
 
-Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. Flickan Ruby vill ha en smart garderob som hjälper henne att välja kläder. I den här uppgiften ska du koda smart garderoben! Du ska få bestämma vilka kläder hon ska ha på sig på en viss dag.  
+Tycker du att det är jobbigt att välja kläder på morgonen? Vad sägs om en smart garderob som väljer kläder åt dig? Till exempel att på fredagar väljer garderoben randiga kläder och om det är soligt väljer den shorts.   
+
+I den här uppgiften ska du koda en smart garderob åt flickan Ruby, som vill ha hjälp att välja vilka kläder hon ska ha på sig på en viss dag. Det kan du få garderoben att göra genom att bestämma några enkla regler.  
 
 *Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>*
 
-Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">https://scratch.mit.edu/projects/117618751</a>
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">https://scratch.mit.edu/projects/512360719/</a>
 
-men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
+MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
 
 ![image alt exempel](image_1.png)
 
 ## 1: Ladda ner bilder
 
 
-Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan välja bilder ur.
+Innan du börjar koda i Scratch behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan ladda upp till Scratch.
 
   1. Gå till <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Låna bild och ljud / Hej Ruby</a>
 
@@ -21,31 +23,12 @@ Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** 
 
   <a href="http://www.kodboken.se/media/584133/ruby-clothes-360.zip">![image alt exempel](ruby-helkropp.png)</a> _Bilden du ska högerklicka på._
 
-  3. Öppna upp zip-filen på din dator så att du kan titta på de olika bilderna.
+  3. Öppna upp zip-filen på din dator så att du kan titta på de olika bilderna. För att öppna en zip-fil behöver du göra så här:
+ 
+  - Om du använder en Macbook dator är det bara att dubbelklicka på zip-filen och den kommer att öppnas. 
+  - Om du använder en Windows dator ska du högerklicka på zip-filen och välj "Extrahera alla" alternativet.
 
-## 2: Bestämma regler
-
-Det första du behöver göra är att komma på de regler som avgör vilka kläder Ruby ska ha på sig. Det är främst vilken veckodag som ska avgöra vad Ruby ska ha på sig. Det är din fantasi som styr och det är helt upp till dig vilka regler som ska gälla.
-
-**Obs!** _Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
-
-Ett förslag är följande:
-
-1.	På måndagar klär sig Ruby i röda eller gröna kläder
-
-2.	På tisdagar klär sig Ruby i kläder med röda prickar
-
-3.	På fredagar klär sig Ruby i kläder som INTE är svarta
-
-4.	På helgen klär sig Ruby i valfria kläder
-
-Du kan också tänka på **olika aktiviteter** som Ruby kan ha för sig som t.ex. lyssna på musik. Vad ska Ruby ha för kläder eller saker ska Ruby ha på sig då?
-
-Du kan också tänka på vad det är för **väder** och om Ruby ska vara **inomhus eller utomhus**. Vad ska Ruby ha på sig om hon ska gå ut och det regnar?
-
-**Tips:** Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
-
-## 3: Bakgrund och en sprajt
+## 2: Bakgrund och en sprajt
 
 Vi börjar med en bakgrund och en sprajt för Ruby!
 
@@ -86,6 +69,28 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
   * **Säg** *”Hej mitt namn är Ruby! Jag måste välja kläder. Kan du hjälpa mig?"*
 
   ![image alt block](ruby_3.7.png)
+  
+## 3: Bestämma regler
+
+Det första du behöver göra är att bestämma de regler som ska avgöra vilka kläder Ruby ska ha på sig. Här i exemplet vill vi att veckodagen avgör vad Ruby ska ha på sig. Du kan själv välja andra regler som ska gälla för din smarta garderob, det är din fantasi som styr! 
+
+- **Tips!** _Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
+
+Ett förslag är följande:
+
+1.	På måndagar klär sig Ruby i röda eller gröna kläder
+
+2.	På tisdagar klär sig Ruby i kläder med röda prickar
+
+3.	På fredagar klär sig Ruby i kläder som INTE är svarta
+
+4.	På helgen klär sig Ruby i valfria kläder
+
+Du kan också tänka på **olika aktiviteter** som Ruby kan ha för sig som t.ex. lyssna på musik. Vad ska Ruby ha för kläder eller saker ska Ruby ha på sig då?
+
+Du kan också tänka på vad det är för **väder** och om Ruby ska vara **inomhus eller utomhus**. Vad ska Ruby ha på sig om hon ska gå ut och det regnar?
+
+**Tips:** Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
 
 ## 4: Acceptera uppdraget
 
