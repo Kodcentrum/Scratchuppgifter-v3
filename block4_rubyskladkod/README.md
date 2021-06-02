@@ -30,11 +30,11 @@ Innan du börjar koda i Scratch behöver du ladda ner **”Ruby med klädslar”
 
 ## 2: Bakgrund och en sprajt
 
-Vi börjar med en bakgrund och en sprajt för Ruby!
+Nu ska vi starta vårt projekt i Scratch! Vi börjar med att välja bakgrund och att ladda upp en bild på Ruby som sprajt. Den sprajten ska vi sedan ge flera klädslar som vi kan byta mellan. 
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
-2.	Välj en bakgrund till från biblioteket som passar som ett rum. Förslag är **bedroom1** och **bedroom2**, men du kanske tycker att Ruby ska bo på ett slott!
+2.	Välj en bakgrund från biblioteket som passar som ett rum. Förslag är **bedroom1** och **bedroom2**, men du kanske tycker att Ruby ska bo på ett slott!
 
    Steg 1: 
    
@@ -44,17 +44,17 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
    
    ![image alt exempel](ruby_3.2.png)
 
-3.	Välj en ny sprajt genom att **ladda upp en bild från din dator**. Välj bilden där **Ruby är i underkläderna**.
+3.	Välj en ny sprajt genom att **ladda upp en sprajt** i menyraden för sprajtar och gå till mappen där du har sparat bilderna på Ruby. Välj bilden som heter **Ruby är i underkläderna**.
 
     ![image alt exempel](ruby_3.3.png)
     
     _Bilden med Ruby i underkläder_
 
-4.	Sätt **namnet** på sprajten till **Ruby**. Placera den på ett lämpligt ställe i rummet.
+4.	Ändra **namnet** på sprajten till **Ruby**. Sätt ut den på ett lämpligt ställe i rummet.
 
 5.  Du kan förminska sprajten lite om du tycker den är för stor.
 
-6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i 2.
+6.	Gå in på fliken för sprajtens Klädslar. Lägg till fler klädslar genom att **Lägg till flera klädslar** till sprajten. Välj de bilder på Ruby där hon har kläder som du vill att garderoben ska kunna välja mellan. I nästa steg ska du få bestämma reglerna för när garderoben ska välja vilka kläder!
 
     ![image alt exempel](ruby_3.4.png)
     
@@ -69,12 +69,14 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
   * **Säg** *”Hej mitt namn är Ruby! Jag måste välja kläder. Kan du hjälpa mig?"*
 
   ![image alt block](ruby_3.7.png)
-  
+
+> Testa ditt projekt: Ser du alla klädsel som du laddade upp från din dator?
+
 ## 3: Bestämma regler
 
 Det första du behöver göra är att bestämma de regler som ska avgöra vilka kläder Ruby ska ha på sig. Här i exemplet vill vi att veckodagen avgör vad Ruby ska ha på sig. Du kan själv välja andra regler som ska gälla för din smarta garderob, det är din fantasi som styr! 
 
-- **Tips!** _Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
+> **Tips!** _Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
 
 Ett förslag är följande:
 
@@ -92,11 +94,11 @@ Du kan också tänka på vad det är för **väder** och om Ruby ska vara **inom
 
 **Tips:** Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
 
-## 4: Acceptera uppdraget
+## 4: Fråga användaren
 
-När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren ska sedan acceptera uppdraget genom att klicka på en knapp.
+När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren får sedan välja JA eller NEJ genom att klicka på en knapp.
 
-1.	**Lägg till en sprajt** från biblioteket, till exempel **”Button1”**.
+1.	**Lägg till en sprajt** som ser ut som en knapp, till exempel **”Button1”**.
 
 2.	Placera sprajten någonstans i rummet.
 
@@ -114,11 +116,11 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
  
 5.	Skapa ett andra skript för sprajten som säger
 
-  - När denna sprajt klickas på
+  - **När denna sprajt klickas på**.
 
-  - Skicka **meddelandet ”byt klädsel”**
+  - Nu har användaren klickat på JA och valt att hjälpa ruby att välja kläder. Då kan vi skicka ett meddelande om att Ruby kan börja byta kläder. 
 
-  - Så här skapar du och skickar ett meddelande. Gå till temat **Händelser** och välj kodblocket **Skicka 'meddelande'** Klicka på texten som finns i en ruta brevid texten "Skicka". Nu kan du klicka på **Nytt meddelande** och skapa ett meddelande. 
+  - Så här skapar du och skickar ett meddelande. Gå till temat **Händelser** och välj kodblocket **Skicka 'meddelande'** Klicka på texten som finns i en ruta brevid texten "Skicka". Nu kan du klicka på **Nytt meddelande** och skapa ett meddelande. Döp meddelandet till "Byt klädsel". 
 
 steg 1: 
 
@@ -132,9 +134,9 @@ steg 2:
 
   ![image alt block](ruby_4.5.3.png)
 
-## 5: Bestäm dagen
+## 5: Olika sätt att göra projektet
 
-Många av de reglerna som du skapade i 2 är beroende på vilken dag det är. Nu ska du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
+I vårt exempel använder den smarta garderoben veckodagar för att bestämma vilka kläder Ruby ska ha på sig. För att ta reda på vilken veckodag det är, kan du göra på olika sätt:
 
 1.	Fråga användaren vad det är för dag
 
@@ -142,13 +144,13 @@ Många av de reglerna som du skapade i 2 är beroende på vilken dag det är. Nu
 
 3.	Gör en liten enkel kalender
 
-Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite svårare och du hittar instruktioner under utmaningar i slutet på uppgiften.
+Här i vårt exempel visar vi hur du gör alternativ 1 och 2. Vill du göra alternativ 3, som är svårare, hittar du instruktionen under Utmaningar i slutet av uppgiften.
 
 ![image alt block](image_25.png)
 
 _Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
 
-## Alternativ 1: Fråga användaren
+## Alternativ 1: Användaren bestämmer veckodag
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
 
@@ -175,9 +177,9 @@ Steg 2:
 
 ## 6: Byta kläder på Ruby
 
-Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.
+Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyder att du kodar en regel som du har bestämt innan. I det här fallet handlar det om reglerna för vilka kläder Ruby ska ha på sig.
 
-1.	**Fortsätt på skriptet** du gjorde ovan som startar när sprajten tar emot meddelandet **”byt klädsel”**.
+1.	**Fortsätt på skriptet** i förra steget som startar när sprajten tar emot meddelandet **”byt klädsel”**.
 
 2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
 
@@ -185,7 +187,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA inneb
 
   _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
 
-3. Innuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
+3. Inuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
 
   ![image alt block](ruby_6.3.png)
 
@@ -197,7 +199,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA inneb
 
   _Flera OM-block behövs för att implementera alla regler._
 
-5.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
+5.	När du har kodat alla OM-block kan du avsluta med att Ruby ska säga något. I vårt exempel använder vi säg ”Tack! Nu kan jag börja leka.”
 
   ![image alt block](ruby_6.5.png)
 
@@ -313,9 +315,9 @@ Det sista som du ska koda är att se till att klädseln ändras när ett meddela
 
 > Testa programmet! Vad händer när du är på en veckodag där två kläder ska slumpas fram? Visas de två valen på skärmen med lite mellanrum?
 
-## 8: Egna aktiviteter och val
+## 7: Egna val
 
-Nu har du en stomme till ett program där du har kodat vilka kläder Ruby ska få på olika dagar. Nu är det fritt fram att koda andra aktiviteter och val. Det är väldigt fritt och kanske känner du att det är svårt att komma på hur du ska koda. Här är några tips.
+Nu har du skapat en smart garderob som väljer vilka kläder Ruby ska ha på olika veckodagar. Nu är det fritt fram för dig använda din fantasi och koda andra val! Här är några tips:
 
 1.	Utgå ifrån koden när Ruby tar emot **meddelandet ”byt käder”** och där du har lagt in OM-block för att göra olika saker på olika veckodagar.
 
