@@ -146,11 +146,7 @@ I vårt exempel använder den smarta garderoben veckodagar för att bestämma vi
 
 Här i vårt exempel visar vi hur du gör alternativ 1 och 2. Vill du göra alternativ 3, som är svårare, hittar du instruktionen under Utmaningar i slutet av uppgiften.
 
-![image alt block](image_25.png)
-
-_Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
-
-## Alternativ 1: Användaren bestämmer veckodag
+## 6: Alternativ 1: Användaren bestämmer veckodag
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
 
@@ -173,37 +169,8 @@ Steg 2:
   _Så här ser koden:_
   
   ![image alt block](steg-5.1.png)
-
-
-## 6: Byta kläder på Ruby
-
-Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyder att du kodar en regel som du har bestämt innan. I det här fallet handlar det om reglerna för vilka kläder Ruby ska ha på sig.
-
-1.	**Fortsätt på skriptet** i förra steget som startar när sprajten tar emot meddelandet **”byt klädsel”**.
-
-2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
-
-  ![image alt block](ruby_6.2.png)
-
-  _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
-
-3. Inuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
-
-  ![image alt block](ruby_6.3.png)
-
-  _Så här kan koden se ut_
-
-4.	**Repetera** med fler OM-block tills du har lagt in alla regler
-
-  ![image alt block](ruby_6.4.png)
-
-  _Flera OM-block behövs för att implementera alla regler._
-
-5.	När du har kodat alla OM-block kan du avsluta med att Ruby ska säga något. I vårt exempel använder vi säg ”Tack! Nu kan jag börja leka.”
-
-  ![image alt block](ruby_6.5.png)
   
-## Alternativ 2: Slumpa fram en dag:
+## 7: Alternativ 2: Slumpa fram en dag:
 
 På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
 
@@ -235,7 +202,35 @@ På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intel
 
 > Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?  
 
-## 7: Egna val
+## 8: Byta kläder på Ruby
+
+Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyder att du kodar en regel som du har bestämt innan. I det här fallet handlar det om reglerna för vilka kläder Ruby ska ha på sig.
+
+1.	**Fortsätt på skriptet** i förra steget som startar när sprajten tar emot meddelandet **”byt klädsel”**.
+
+2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
+
+  ![image alt block](ruby_6.2.png)
+
+  _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
+
+3. Inuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
+
+  ![image alt block](ruby_6.3.png)
+
+  _Så här kan koden se ut_
+
+4.	**Repetera** med fler OM-block tills du har lagt in alla regler
+
+  ![image alt block](ruby_6.4.png)
+
+  _Flera OM-block behövs för att implementera alla regler._
+
+5.	När du har kodat alla OM-block kan du avsluta med att Ruby ska säga något. I vårt exempel använder vi säg ”Tack! Nu kan jag börja leka.”
+
+  ![image alt block](ruby_6.5.png)
+
+## 9: Egna val
 
 Nu har du skapat en smart garderob som väljer vilka kläder Ruby ska ha på olika veckodagar. Nu är det fritt fram för dig använda din fantasi och koda andra val! Här är några tips:
 
