@@ -235,23 +235,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 
   ![image alt block](ruby_6.5.png)
 
-## 9: Färdig!
-Grattis, nu har du gjort klart uppgiften.
-
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-## Utmaningar
-
-### Välja igen
-
-Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
-
-**Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
-
-## 10: Egna val
+## 9: Egna val
 
 Nu har du skapat en smart garderob som väljer vilka kläder Ruby ska ha på olika veckodagar. Nu är det fritt fram för dig använda din fantasi och koda andra val! Här är några tips:
 
@@ -302,6 +286,22 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
   * **Säg** _”Tack! Nu kan jag börja leka”_
 
   ![image alt block](ruby_8.6.png)
+  
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+
+### Välja igen
+
+Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
+
+**Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
 
 ## Frågeställningar
 
