@@ -6,7 +6,7 @@ I den här uppgiften ska du koda en smart garderob åt flickan Ruby, som vill ha
 
 *Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>*
 
-Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">https://scratch.mit.edu/projects/512360719/</a>
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/512360719/" target="_blank">https://scratch.mit.edu/projects/512360719/</a>
 
 MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
 
@@ -144,9 +144,9 @@ I vårt exempel använder den smarta garderoben veckodagar för att bestämma vi
 
 3.	Gör en liten enkel kalender
 
-Här i vårt exempel visar vi hur du gör alternativ 1 och 2. Vill du göra alternativ 3, som är svårare, hittar du instruktionen under Utmaningar i slutet av uppgiften.
+Du kan bara göra **ett** av alternativen i ett projekt så om du vill koda alla alternativ, ta det stegvis och koda klart ett innan du går vidare till annat alternativ. 
 
-## 6: Alternativ 1: Användaren bestämmer veckodag
+## 6: Första alternativ: Användaren bestämmer veckodag
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
 
@@ -170,9 +170,15 @@ Steg 2:
   
   ![image alt block](steg-5.1.png)
   
-## 7: Alternativ 2: Slumpa fram en dag:
+ **OBS: För att fortsätta med alternativ 1, hoppa till steg 8. Steg 7 har instruktioner för alternativ 2.**
+  
+## 7: Andra alternativ: Slumpa fram en dag:
 
 På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
+
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/514980754/" target="_blank">https://scratch.mit.edu/projects/514980754/</a>
+
+MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
 
 1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
 
@@ -208,7 +214,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 
 1.	**Fortsätt på skriptet** i förra steget som startar när sprajten tar emot meddelandet **”byt klädsel”**.
 
-2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
+2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte.
 
   ![image alt block](ruby_6.2.png)
 
@@ -229,6 +235,22 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 5.	När du har kodat alla OM-block kan du avsluta med att Ruby ska säga något. I vårt exempel använder vi säg ”Tack! Nu kan jag börja leka.”
 
   ![image alt block](ruby_6.5.png)
+
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+
+### Välja igen
+
+Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
+
+**Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
 
 ## 9: Egna val
 
@@ -282,23 +304,16 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
 
   ![image alt block](ruby_8.6.png)
 
-## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+## Frågeställningar
 
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+* Vad innebär det att du implementerar regler?
 
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+* På vilka olika sätt kan du få information från användaren?
 
-## Utmaningar
-
-### Välja igen
-
-Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
-
-**Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
+* Vilka för- och nackdelar finns det med de olika sätt att få information från användaren?
 
 
+<!---
 ### Alternativ 3: En enkel kalender
 
 Det här är ett tredje förslag på hur veckodag kan kodas istället för att fråga användaren eller slumpa fram dagen. Det kommer finnas två pilar på skärmen så att användaren enkelt kan bläddra mellan de olika veckodagarna.
@@ -377,12 +392,4 @@ Det här är ett tredje förslag på hur veckodag kan kodas istället för att f
   * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
 
 > Testa! Vad händer om du klickar på de olika pilarna? Vad händer om det är söndag och du klickar på höger-pilen?
-
-
-## Frågeställningar
-
-* Vad innebär det att du implementerar regler?
-
-* På vilka olika sätt kan du få information från användaren?
-
-* Vilka för- och nackdelar finns det med de olika sätt att få information från användaren?
+-->
