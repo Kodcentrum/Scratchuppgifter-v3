@@ -14,7 +14,6 @@ MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
 
 ## 1: Ladda ner bilder
 
-
 Innan du börjar koda i Scratch behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan ladda upp till Scratch.
 
   1. Gå till <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Låna bild och ljud / Hej Ruby</a>
@@ -236,7 +235,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 
   ![image alt block](ruby_6.5.png)
 
-## Färdig!
+## 9: Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
@@ -252,7 +251,7 @@ Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kom
 
 **Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
 
-## 9: Egna val
+## 10: Egna val
 
 Nu har du skapat en smart garderob som väljer vilka kläder Ruby ska ha på olika veckodagar. Nu är det fritt fram för dig använda din fantasi och koda andra val! Här är några tips:
 
