@@ -145,7 +145,7 @@ I vårt exempel använder den smarta garderoben veckodagar för att bestämma vi
 
 Du kan bara göra **ett** av alternativen i ett projekt så om du vill koda alla alternativ, ta det stegvis och koda klart ett innan du går vidare till annat alternativ. 
 
-## 6: Första alternativ: Användaren bestämmer veckodag
+## 6: Alternativ 1: Användaren bestämmer veckodag
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
 
@@ -171,7 +171,7 @@ Steg 2:
   
  **OBS: För att fortsätta med alternativ 1, hoppa till steg 8. Steg 7 har instruktioner för alternativ 2.**
   
-## 7: Andra alternativ: Slumpa fram en dag:
+## 7: Alternativ B: Slumpa fram en dag:
 
 På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
 
