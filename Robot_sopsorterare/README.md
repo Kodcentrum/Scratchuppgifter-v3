@@ -22,7 +22,7 @@ Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt s
 
 ![image alt text](SoporÄndraStorlek.png)
 
-3. Nu ska vi koda så att roboten kan styras med hjälp av datorns tangentbord med höger- och vänsterpil. Dra ut två stycken block från tema HÄNDELSER som heter **När [mellanslag] tangenten trycks ned**.  
+3. Nu ska vi koda så att roboten an styras med hjälp av höger- och vänsterpil på datorns tangentbord. Dra ut två block från tema HÄNDELSER som heter **När [mellanslag] tangenten trycks ned**.  
 
 4. Klicka på ordet **mellanslag** i blocken och välj istället **vänsterpil** och **högerpil**.
 
@@ -37,15 +37,15 @@ Vi ska skapa en robot som sorterar sopor. I vår exempel har vi valt en sprajt s
 Sådär! Nu kan vi styra roboten! Enkelt va? Dags att lägga till lite sopor som roboten ska kunna sortera.
 
 ## 2: Soporna
-Innan vi börjar koda roboten så måste vi först göra lite sopor som den kan sortera. 
+Innan vi börjar koda roboten så behöver vi lite sopor som den kan sortera. Vi ska skapa en sprajt för sopor – men den sprajten ska kunna se ut som flera olika sorters skräp!
 
-1. Måla en egen ny sprajt och döp den till **Sopor**.
+1. Välj Måla för att själv rita en ny sprajt och döp den till **Sopor**.
 
 ![image alt text](namn_sprajt_sopor.PNG)
 
-2. Vi ska nu skapa två olika klädslar i den nya sprajten, som vi senare kan använda som olika sopor att källsortera. 
+2. Skapa två olika klädslar i den nya sprajten, som vi senare kan använda som olika sopor att källsortera. 
 
-Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och en äppelskrutt som ska sorteras som **kompost** 
+Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och en äppelskrutt som ska sorteras som **kompost**. Senare kan du göra fler klädslar om du vill ha flera olika typer av sopor att sortera, men vi börjar med två
 
 ![image alt text](soptypGlas.PNG)
 ![image alt text](soptypKompost.PNG)
@@ -54,23 +54,24 @@ Som exempel har vi här skapat en glasflaska som ska sorteras som **glas** och e
 
 ![image alt text](namn_klädsel_glas.png)
 
-4. Nu ska du sätta en passande storlek på din sopsprajt, så den känns lagom stor i förhållande till din robot.
+4. Sätt en passande storlek.
 
 ![image alt text](SoporÄndraStorlek.png)
 
-5. Nu ska vi gå tillbaka till skriptytan och koda sprajten så att soporna ramlar ner ovanifrån ner mot roboten.
+5. Nu ska vi börja koda våra sopor. Klicka på fliken för Kod för att gå tillbaka till skriptytan.
 
 6.  Dra ut ett startblock **när GRÖN FLAGGA klickas på** till skriptytan för sopsprajten. 
 
-7. Från tema KÄNNA AV lägger du till blocket **sätt dragläge till "dragbar"**, fäst det under startblocket. 
+7. Blocket för **dragläge** är en extra detalj som gör att du kommer kunna hjälpa roboten att sortera rätt, genom att själv dra soporna till rätt återvinning!
 
 ![image alt text](draglageDragbar.PNG)
 
 Blocket för dragläget du just lade till är en liten extra grej som gör att man kan hjälpa roboten sortera rätt genom att klicka och dra soporna till rätt återvinningsställe!
 
-Nu har vi en sprajt som är sopor som kan flyttas på skärmen. men hur ska vi koda så att de olika typerna av sopor visas? Vi går vidare.
+Nu har vi sopor som kan flyttas runt på skärmen. Nästa steg är att de ska falla ned mot roboten och visa sig som olika sorters sopor – hur gör vi det?
 
 ## 3: Slumpa sopklädslar som faller ned
+
 Nu ska vi skapa meddelanden så att olika sprajtar kan "prata med varandra" och veta när och vad de ska göra. 
 
 1. Dubbelkolla att du kodar på rätt sprajt. Du kodar fortfarande på din sop-sprajt.

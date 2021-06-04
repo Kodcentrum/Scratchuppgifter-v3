@@ -6,14 +6,13 @@ I den här uppgiften ska du koda en smart garderob åt flickan Ruby, som vill ha
 
 *Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>*
 
-Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">https://scratch.mit.edu/projects/512360719/</a>
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/512360719/" target="_blank">https://scratch.mit.edu/projects/512360719/</a>
 
 MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
 
 ![image alt exempel](image_1.png)
 
 ## 1: Ladda ner bilder
-
 
 Innan du börjar koda i Scratch behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan ladda upp till Scratch.
 
@@ -41,8 +40,8 @@ Nu ska vi starta vårt projekt i Scratch! Vi börjar med att välja bakgrund och
    ![image alt exempel](ruby_3.1.png)
    
    Steg2: 
-   
-   ![image alt exempel](ruby_3.2.png)
+      
+   <img src="ruby_3.2.png" width="450" height="200">
 
 3.	Välj en ny sprajt genom att **ladda upp en sprajt** i menyraden för sprajtar och gå till mappen där du har sparat bilderna på Ruby. Välj bilden som heter **Ruby är i underkläderna**.
 
@@ -58,7 +57,11 @@ Nu ska vi starta vårt projekt i Scratch! Vi börjar med att välja bakgrund och
 
     ![image alt exempel](ruby_3.4.png)
     
+    Fliken för klädslar.
+    
     ![image alt exempel](ruby_3.6.png)
+    
+    Sprajtens olika klädslar.
 
 7.	Skapa ett skript för **Ruby** som säger:
 
@@ -112,27 +115,28 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
   * **Visa** sprajten
 
- ![image alt block](ruby_4.4.png)
+ <img src="ruby_4.4.png" width="150" height="100">
  
 5.	Skapa ett andra skript för sprajten som säger
 
   - **När denna sprajt klickas på**.
 
-  - Nu har användaren klickat på JA och valt att hjälpa ruby att välja kläder. Då kan vi skicka ett meddelande om att Ruby kan börja byta kläder. 
+  - Nu har användaren klickat på JA och valt att hjälpa ruby att välja kläder. Då kan vi skicka ett meddelande om det. 
 
-  - Så här skapar du och skickar ett meddelande. Gå till temat **Händelser** och välj kodblocket **Skicka 'meddelande'** Klicka på texten som finns i en ruta brevid texten "Skicka". Nu kan du klicka på **Nytt meddelande** och skapa ett meddelande. Döp meddelandet till "Byt klädsel". 
+  - Så här skapar du och skickar ett meddelande. Gå till temat **Händelser** och välj kodblocket **Skicka 'meddelande'** Klicka på texten som finns i en ruta brevid texten "Skicka". Nu kan du klicka på **Nytt meddelande** och skapa ett meddelande. Döp meddelandet till "JA". 
 
 steg 1: 
 
- ![image alt block](ruby_4.5.1.png)
+  <img src="ruby_4.5.1.png" width="270" height="200">
  
 steg 2: 
 
- ![image alt block](ruby_4.5.2.png)
+  <img src="ja_meddelande.png" width="280" height="200">
 
   - **Göm** sprajten
 
-  ![image alt block](ruby_4.5.3.png)
+  <img src="ja_knapp_hela.png" width="200" height="160">
+
 
 ## 5: Olika sätt att göra projektet
 
@@ -144,23 +148,20 @@ I vårt exempel använder den smarta garderoben veckodagar för att bestämma vi
 
 3.	Gör en liten enkel kalender
 
-Här i vårt exempel visar vi hur du gör alternativ 1 och 2. Vill du göra alternativ 3, som är svårare, hittar du instruktionen under Utmaningar i slutet av uppgiften.
+Du kan bara göra **ett** av alternativen i ett projekt så om du vill koda alla alternativ, ta det stegvis och koda klart ett innan du går vidare till annat alternativ. 
 
-![image alt block](image_25.png)
-
-_Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
-
-## Alternativ 1: Användaren bestämmer veckodag
+## 6: Alternativ 1: Användaren bestämmer veckodag
 
 1.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.Så har skapar du en variable. 
 
 Steg 1:
 
-![image alt block](ruby_5.1.1.png)
+<img src="ruby_5.1.1.png" width="220" height="150">
 
 Steg 2:
 
-![image alt block](ruby_5.1.2.png)
+<img src="ruby_5.1.2.png" width="290" height="260">
+
 
 2.	Skapa ett skript för **Ruby** som säger:
 
@@ -172,16 +173,53 @@ Steg 2:
 
   _Så här ser koden:_
   
-  ![image alt block](ruby_5.1.3.png)
+  ![image alt block](steg-5.1.png)
+  
+ **OBS: För att fortsätta med alternativ 1, hoppa till steg 8. Steg 7 har instruktioner för alternativ 2.**
+  
+## 7: Alternativ B: Slumpa fram en dag:
 
+På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
 
-## 6: Byta kläder på Ruby
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/514980754/" target="_blank">https://scratch.mit.edu/projects/514980754/</a>
+
+MEN TÄNK PÅ ATT DU KOMMER GÖRA ETT PROGRAM SOM KANSKE SER HELT ANNORLUNDA UT.
+
+1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
+
+2.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
+
+3.	Skapa ett skript för **Ruby** som säger:
+
+  * När den tar emot meddelandet **”byt klädsel”**
+
+  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7** Kan du gissa värför siffrorna är mellan 1 och 7? Ja, för att det finns 7 dagar i veckan.
+
+  * **Sätt ”Idag är det: ”** till **”Måndag"** OM **”veckodag”** är 1
+
+  * Sätt **”Idag är det: ”** till **"Tisdag"** OM **”veckodag”** är 2
+
+  * Sätt **”Idag är det: ”** till **"Onsdag"** OM **”veckodag”** är 3
+
+  * Sätt **”Idag är det: ”** till **"Torsdag"** OM **”veckodag”** är 4
+
+  * Sätt **”Idag är det: ”** till **"Fredag"** OM **”veckodag”** är 5
+
+  * Sätt **”Idag är det: ”** till **"Lördag"** OM **”veckodag”** är 6
+
+  * Sätt **”Idag är det: ”** till **"Söndag"** OM **”veckodag”** är 7
+
+  ![image alt block](ruby_5.2.2.png)
+
+> Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?  
+
+## 8: Byta kläder på Ruby
 
 Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyder att du kodar en regel som du har bestämt innan. I det här fallet handlar det om reglerna för vilka kläder Ruby ska ha på sig.
 
 1.	**Fortsätt på skriptet** i förra steget som startar när sprajten tar emot meddelandet **”byt klädsel”**.
 
-2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
+2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte.
 
   ![image alt block](ruby_6.2.png)
 
@@ -190,6 +228,8 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 3. Inuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
 
   ![image alt block](ruby_6.3.png)
+   <img src="ruby_6.3.png" width="350" height="300">
+
 
   _Så här kan koden se ut_
 
@@ -203,119 +243,7 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 
   ![image alt block](ruby_6.5.png)
 
-## Alternativ 3: Välja mellan två kläder
-
-Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du följa detta exempel.
-
-Det går ut på att:
-
-1. Välj ut två slumpmässiga klädslar
-
-2. Visa dessa två klädslar
-
-3. Låta användaren välja mellan de två klädslarna genom att klicka på en av två knappar.
-
-Det kan se ut så här:
-
-  ![image alt block](image_22.png)
-
-Vi börjar med att lägga till två knappar som det står ”1” och ”2” på. De ska vara gömda när programmet startar och visas först när meddelandet **"välj kläder"** skickas.
-
-1.	**Lägg till** en sprajt från biblioteket. Ett exempel är **”Ball”**.
-
-2.	Sätt **namnet** på sprajten till **Val1**
-
-3.	Skapa ett skript för **Val1** som säger:
-
-  * När START klickas på
-
-  * **Göm** sprajten
-
-4.	Skapa ett till skript för **Val1** som säger:
-
-  * När jag **tar emot** meddelandet **”välj kläder”**
-
-  * **Visa** sprajten
-
-  ![image alt block](image_7.4.png)
-
-  _Så är ska koden för **Val1** se ut._
-
-5.	**Kopiera** nu sprajten så du har två knappar. Kalla den nya sprajten **Val2**.
-
- ![image alt block](image_7.5.png)
-
-6.	Ändra klädseln på sprajten så att den har en annan färg.
-
- ![image alt block](image_7.6.png)
-
-7.	Använd **textverktyget** och **skriv ”1”** på **Val1** och **”2”** på **Val2**.
-
-Nu är det dags att skapa kod för **Ruby**. För ska du koda så att två slumpmässiga klädslar väljs och visas.
-
-1.	**Skicka** meddelandet **”välj kläder”** OM [det är helg]. Här får du själv välja när du meddelandet ska skickas och när två kläder ska slumpas fram.
-
-  ![image alt block](ruby_7.7.png)
-
-  _Så här kan koden se ut som skickar meddelandet **"välj kläder"**_
-
-2.	Skapa två **variabler** som heter **”val1”** och **”val2”** och som inte ska synas. Dessa kommer användas för att hålla reda på de två slumpmässigt valda klädslarna.
-
-3.	Skapa ett skript för **Ruby** som säger
-
-  * När jag tar emot **”välj kläder”**
-
-  * **Sätt ”val1”** till ett **slumptal mellan 2 och 9**. Byt ut **9** mot det antal klädslar du lade till sprajten.
-
-  * Sätt **”val2”** till **”val1”**
-
-  * REPETERA tills **”val1”** INTE ÄR LIKA **”val2”**: Sätt **”val2”** till ett **slumptal mellan 2 och 9**.
-
-  * **Säg** *”Ska jag ha den här…?”*
-
-  * **Byt** klädsel till **”val1”**
-
-  * **Vänta** 4 sekunder(Du hittar kodblocket under temat **Kontroll**).
-
-  * **Säg** *”… eller den här?”*
-
-  * **Byt** klädsel till **”val2”**
-
-  ![image alt block](ruby_7.3.3.png)
-
-  **"repetera tills"**-loopen behöver du ha så att inte två likadana klädslar väljs. Tyvärr gör det koden lite svårare att läsa.
-
-Det sista som du ska koda är att se till att klädseln ändras när ett meddelande från knapparna tas emot.
-
-1.	Skapa ett skript för **Ruby** som säger
-
-  * När jag **tar emot** meddelandet **”gjorde val1”**
-
-  * **Byt** klädsel till **”val1”**
-
-  * **Säg** *”Tack! Nu kan jag börja leka”*
-
-  ![image alt block](ruby_7.4.1.png)
-
-2.	Skapa ett liknande skript för Ruby när sprajten **tar emot** meddelandet **”gjorde val2”**, men byt istället till klädseln **"val2"**.
-
-3.	Skapa ett skript för sprajten **Val1** som säger:
-
-  * När denna sprajt **klickas på**
-
-  * **Göm** sprajten
-
-  * **Skicka** meddelandet **”gjorde val1”**
-
-  ![image alt block](ruby_7.4.3.png)
-
-4. Skapa ett liknande skript för **Val2**-knappen men skicka där meddelandet **"gjorde val2"**.
-
-5.	Skapa också skript så att **Val2** döljs när **Val1** klickas på, och tvärtom. Båda sprajterna ska ju försvinna när användaren har gjort sitt val.
-
-> Testa programmet! Vad händer när du är på en veckodag där två kläder ska slumpas fram? Visas de två valen på skärmen med lite mellanrum?
-
-## 7: Egna val
+## 9: Egna val
 
 Nu har du skapat en smart garderob som väljer vilka kläder Ruby ska ha på olika veckodagar. Nu är det fritt fram för dig använda din fantasi och koda andra val! Här är några tips:
 
@@ -366,7 +294,7 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
   * **Säg** _”Tack! Nu kan jag börja leka”_
 
   ![image alt block](ruby_8.6.png)
-
+  
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
@@ -382,121 +310,6 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
 
 **Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
-
-
-## Alternativ 2: Slumpa fram en dag:
-
-På alternativ 1 hade du bestämt dagen och nu ska du låta AI(Artificiell intelligens) som finns i smart garderoben bestämma datumet och klädern som Ruby ska ha på sig. 
-
-1.	Skapa en **variabel** som heter **”veckodag”**. Den ska inte visas på skärmen. Boka av variablen så syns inte den där.
-
-2.	Skapa en **variabel** som heter **”Idag är det: ”**. Den kan visas på skärmen.
-
-3.	Skapa ett skript för **Ruby** som säger:
-
-  * När den tar emot meddelandet **”byt klädsel”**
-
-  * **Sätt ”veckodag”** till ett **slumptal mellan 1 och 7** Kan du gissa värför siffrorna är mellan 1 och 7? Ja, för att det finns 7 dagar i veckan.
-
-  * **Sätt ”Idag är det: ”** till **”Måndag"** OM **”veckodag”** är 1
-
-  * Sätt **”Idag är det: ”** till **"Tisdag"** OM **”veckodag”** är 2
-
-  * Sätt **”Idag är det: ”** till **"Onsdag"** OM **”veckodag”** är 3
-
-  * Sätt **”Idag är det: ”** till **"Torsdag"** OM **”veckodag”** är 4
-
-  * Sätt **”Idag är det: ”** till **"Fredag"** OM **”veckodag”** är 5
-
-  * Sätt **”Idag är det: ”** till **"Lördag"** OM **”veckodag”** är 6
-
-  * Sätt **”Idag är det: ”** till **"Söndag"** OM **”veckodag”** är 7
-
-  ![image alt block](ruby_5.2.2.png)
-
-
-> Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
-
-
-### En enkel kalender
-
-Det här är ett tredje förslag på hur veckodag kan kodas istället för att fråga användaren eller slumpa fram dagen. Det kommer finnas två pilar på skärmen så att användaren enkelt kan bläddra mellan de olika veckodagarna.
-
-  ![image alt kalender](image_18.png)
-
-  _Ungefär så här kommer kalendern se ut._
-
-**Obs!** Du måste komma ihåg att välja dag innan du klickar på **Ja**-knappen.
-
-1.	Skapa en **variabel** som heter **”idag”** och som inte ska visas på skärmen.
-
-2.	Skapa en **lista** som heter **"veckodagar"**. Den ska inte visas på skärmen. Du hittar knappen för att skapa lista på fliken DATA.
-    ![image alt knapp](image_17.png)
-
-    En lista är som en variabel som kan innehålla flera värden. I din lista ska du lägga in namnet på alla veckodagarna.
-
-3.	Markera scenen och skapa ett skript för den som säger
-
-  * När START klickas på
-
-  * **Ta bort allt** i **”veckodagar”**
-
-  * **Lägg till ”Måndag" i ”veckodagar”**
-
-  * Lägg till **”Tisdag"** i **”veckodagar”**
-
-  * Lägg till **"Onsdag"** i **”veckodagar”**
-
-  * Lägg till **"Torsdag"** i **”veckodagar”**
-
-  * Lägg till **"Fredag"** i **”veckodagar”**
-
-  * Lägg till **”Lördag"** i **”veckodagar”**
-
-  * Lägg till **”Söndag"** i **”veckodagar”**
-
-  * Sätt **”idag”** till ett **slumptal mellan 1 och 7**
-
-  * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
-
-  ![image alt block](image_19.png)
-
-  _Dessa block behöver du för koden ovan. Tänk på att du måste lägga till fler block för att lägga in alla dagar i listan._
-
-4.	**Lägg till en sprajt** från biblioteket som ser ut som en pil, till exempel **Arrow2**.
-
-5.	Förminska pilen så att den blir lagom stor och placera den till höger om variabeln **”Idag är det: ”**
-
-6.	Skapa ett skript för **pilen** som säger:
-
-  * Startar när sprajten klickas på
-
-  * OM **”idag”** är **mindre än 7**: **ändra ”idag”** med **1**
-
-  * ANNARS: **sätt ”idag"** till **1**
-
-  * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
-
-  ![image alt block](image_20.png)
-
-7.	**Kopiera sprajten** så att du har två pilar.
-
-8.	**Ändra klädsen** på den andra sprajten så att den pekar åt vänster.
-
-9.	Placera den till vänster om variabeln **”Idag är det: ”**
-
-10.	Ändra i koden för **vänster-pilen** så den säger:
-
-  * Startar när sprajten klickas på
-
-  * OM **”idag”** är **större än 1**: **ändra ”idag”** med **-1**
-
-  * ANNARS: **sätt ”idag"** till **7**
-
-  * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
-
-> Testa! Vad händer om du klickar på de olika pilarna? Vad händer om det är söndag och du klickar på höger-pilen?
-
 
 ## Frågeställningar
 
