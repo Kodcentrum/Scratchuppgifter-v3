@@ -40,8 +40,8 @@ Nu ska vi starta vårt projekt i Scratch! Vi börjar med att välja bakgrund och
    ![image alt exempel](ruby_3.1.png)
    
    Steg2: 
-   
-   ![image alt exempel](ruby_3.2.png)
+      
+   <img src="ruby_3.2.png" width="450" height="200">
 
 3.	Välj en ny sprajt genom att **ladda upp en sprajt** i menyraden för sprajtar och gå till mappen där du har sparat bilderna på Ruby. Välj bilden som heter **Ruby är i underkläderna**.
 
@@ -57,7 +57,11 @@ Nu ska vi starta vårt projekt i Scratch! Vi börjar med att välja bakgrund och
 
     ![image alt exempel](ruby_3.4.png)
     
+    Fliken för klädslar.
+    
     ![image alt exempel](ruby_3.6.png)
+    
+    Sprajtens olika klädslar.
 
 7.	Skapa ett skript för **Ruby** som säger:
 
@@ -111,7 +115,7 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
   * **Visa** sprajten
 
- ![image alt block](ruby_4.4.png)
+ <img src="ruby_4.4.png" width="150" height="100">
  
 5.	Skapa ett andra skript för sprajten som säger
 
@@ -123,15 +127,16 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
 steg 1: 
 
- ![image alt block](ruby_4.5.1.png)
+  <img src="ruby_4.5.1.png" width="270" height="200">
  
 steg 2: 
 
- ![image alt block](ja_meddelande.png)
+  <img src="ja_meddelande.png" width="280" height="200">
 
   - **Göm** sprajten
 
-  ![image alt block](ja_knapp_hela.png)
+  <img src="ja_knapp_hela.png" width="200" height="160">
+
 
 ## 5: Olika sätt att göra projektet
 
@@ -151,11 +156,12 @@ Du kan bara göra **ett** av alternativen i ett projekt så om du vill koda alla
 
 Steg 1:
 
-![image alt block](ruby_5.1.1.png)
+<img src="ruby_5.1.1.png" width="220" height="150">
 
 Steg 2:
 
-![image alt block](ruby_5.1.2.png)
+<img src="ruby_5.1.2.png" width="290" height="260">
+
 
 2.	Skapa ett skript för **Ruby** som säger:
 
@@ -222,6 +228,8 @@ Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA betyd
 3. Inuti **OM**-blocket lägger du in ett **Ändra klädsel till..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
 
   ![image alt block](ruby_6.3.png)
+   <img src="ruby_6.3.png" width="350" height="300">
+
 
   _Så här kan koden se ut_
 
