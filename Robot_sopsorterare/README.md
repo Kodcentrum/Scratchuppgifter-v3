@@ -6,9 +6,8 @@ I den här uppgiften kommer vi koda ett spel där du eller en kompis får styra 
 
 Nedan hittar du ett exempelprojekt. När du har kodat allt ska resultat se ungefär så har:
 
-<a href="https://scratch.mit.edu/projects/499266198/" target="_blank"> https://scratch.mit.edu/projects/499266198//</a>
+<a href="https://scratch.mit.edu/projects/499266198/" target="_blank"> ![](sorterare_image_1.png) </a>
 
-![](soprobot_0.png)
 
 ## 1: Välj en robot och koda styrning
 
