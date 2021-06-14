@@ -13,11 +13,8 @@ Så, vad ska din robot hjälpa dig med? Dax att börja koda!
 ## 1: Välj bakgrund och din robot
 
 Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot.
-<video src="./MinRobot_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
 - Ta bort kattfiguren
 - Välj ny sprajt
 - Ändra sprajtens storlek större eller mindre (om du vill)
@@ -51,11 +48,9 @@ Nu har du din robot-sprajt och en bakgrund. Nu ska vi börja koda vad som robote
 ## 2: Robotens frågor
 
 Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag, välja kläder om regn eller soligt ute eller peppa dig med glad musik om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middagsmat.
-<video src="./MinRobot_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Lägg till ett startskript för "När gröna flaggan klickas på"
 - Lägg till ett block för roboten så den säger en hälsning och presenterar sig
 - Lägg till en fråga med två svarsval och låt roboten vänta på ditt svar
@@ -97,11 +92,9 @@ Nu har vi en robot som ställer frågor. Men hur ska den veta ditt svar? Vi mås
 
 ## 3: Roboten hjälper till
 För att din robot ska kunna hjälpa dig måste den veta vad du svarar på frågan. Dessutom behöver roboten instruktioner om vad den ska göra beroende på vilket svar du ger den. Då använder vi kod för att skapa ett villkor som säger att OM svaret är exempelvis JA så gör roboten det här. Exempelvis: Om svaret är "kött" då föreslår du en maträtt med kött. 
-<video src="./MinRobot_3.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Lägg till ett villkors-block för "Om__Då"
 - Lägg till en operator för "__ = ___ "
 - Lägg till blocket för frågans svar i operatorn
@@ -143,11 +136,9 @@ Nu har vi en robot som kan hjälpa dig! Men visst vore et kul om den spelade lit
 
 ## 4: Roboten spelar ljud
 Nu ska vi lägga på lite musik eller ljudeffekter till din robots olika svar. 
-<video src="./MinRobot_4.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Lägg till två ljudblock inom villkoret
 - Lägga till nytt ljud
 - Ändra ljudet i ljudblocket så rätt spelas
@@ -191,11 +182,9 @@ Nu har vi en robot som svarar och som spelar ljud. Kul om den rör sig lite ocks
 
 ## 5: Roboten rör sig
 För att göra roboten mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika rörelser.
-<video src="./MinRobot_5.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
-Se i videon ovan hur du ska:
 - Lägg till två rörelseblock, ett i vardera villkor, för roboten att glida iväg
 - Lägg till en startposition för roboten
 - Animera robotens olika klädslar med block för att ändra klädsel, ett i vardera villkor
@@ -208,7 +197,7 @@ Se i videon ovan hur du ska:
 
   ![image alt text](Robot_kod_rörelse_glid.png)
   
-2.. För att roboten alltid ska ha samma startpunkt varje gång du startar om, behöver du lägga in en **startposition** i koden. Se först till att din robot står på det ställe där du vill den alltid ska starta, du kan dra robot-sprajten dit du vill den ska stå. Under tema **RÖRELSE** finns kodblocket **gå till x: __ och y: __**. Dra in detta block och lägg det direkt under blocket **När GRÖN FLAGGA klickas på**.
+2. För att roboten alltid ska ha samma startpunkt varje gång du startar om, behöver du lägga in en **startposition** i koden. Se först till att din robot står på det ställe där du vill den alltid ska starta, du kan dra robot-sprajten dit du vill den ska stå. Under tema **RÖRELSE** finns kodblocket **gå till x: __ och y: __**. Dra in detta block och lägg det direkt under blocket **När GRÖN FLAGGA klickas på**.
 
   ![image alt text](Robot_kod_startposition.png)
   
