@@ -1,19 +1,18 @@
-# Min Robot
-Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda villkor, operatorer och om du vill även slump i Scratch. 
+# Skräprobot Bamse
+Skalman har uppfunnit en skräprobot som ska plocka upp allt skräp. Men den fungerar inte och Nalle-Maja vill ha din hjälp att fixa roboten. Tillsammans kan ni programmera den att fungera som den ska. Följ instruktionerna nedan, steg-för-steg.
 
-Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Matrobot: <a href="https://scratch.mit.edu/projects/364987902" target="_blank">
+Klicka på bilden nedanför för att testa ett exempelprojekt med Skalmans Skräprobot: <a href="https://scratch.mit.edu/projects/542836969 " target="_blank">
 
-![image alt text](image_0.png)</a>
+![image alt text](Exempelprojekt_Bamse.png)</a>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva Min Robot-projektet utifrån Kodbokens instruktioner.
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva Skräprobot-projektet utifrån Kodbokens instruktioner.
 
-Så, vad ska din robot hjälpa dig med? Dax att börja koda!
+Så, hur ska vi få igång Skräproboten?? Dax att börja!
 
 ## 1: Välj bakgrund och din robot
 
 Här ska du välja en ny bakgrund och välja din robotfigur - eller om du vill kan du såklart rita din egen robot.
-<video src="./MinRobot_1.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
