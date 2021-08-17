@@ -1,5 +1,7 @@
-# Bug Race (intro)
-I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Åker figuren utanför banan blir du Game Over!
+# Bug Race (intro) - för surfplatta med touch screen
+Saknar du fysiskt tangentbord? Denna instruktion är framtagen för att programmera spelet Bug Race på en surfplatta med touch screen. 
+
+I spelet Bug Race är målet att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan. Åker figuren utanför banan blir du Game Over! Du styr genom att låta skalbaggen följa ditt finger på surfplattans skärm (eller muspekaren om du vill visa testa projektet på en dator).
 
 Testa ett exempelspel av Bug Race nedan. <a href="https://scratch.mit.edu/projects/452111510" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
 
@@ -25,7 +27,7 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du bygget ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar.
+I Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt projekt. Alla sprajtar kan påverkas och styras med den kod du lägger till. Koden i Scratch ser ut som små pusselbitar. När du byggt ihop olika kod-pusselbitar kallas det för att du byggt ett **skript** - det är ditt kodade program som styr ditt projekt och alla dina sprajtar, så allt får liv och rörelse.
 
 Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
 
@@ -33,13 +35,13 @@ Nu ska vi byta ut katten mot en skalbagge. Gör såhär:
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en ny sprajt, skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
+2. Nu vill du lägga till en ny sprajt - en skalbagge. Tryck på knappen för **NY SPRAJT** som finns under den **scenen** med den vita bakgrunden:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-En massa sprajt-figurer finns här. I menyn till vänster finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder  hittar du **skalbaggen**. Klicka på den så läggs den till i ditt projekt.
+En massa sprajt-figurer finns här. I menyn överst finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du skalbaggen som heter **Beetle**. Klicka på den så läggs den till i ditt projekt.
 
-3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det sen igen om det blev för stort eller litet.
+3. Skalbaggen är ganska stor, så vi minskar storleken på sprajten. Under scenen med sprajten finns texten **Storlek** och bredvid står det 100. Det betyder att sprajten är i full storlek, alltså 100%. Ändra siffran till en lägre procent, exempelvis 30%. Testa dig fram tills den blir lagom stor (som din tummnagel ungefär). Du kan alltid ändra det senare om det blev för stort eller litet.
 
     ![image alt text](Ändra_Storlek_Sprajt.png)
 
@@ -63,37 +65,37 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
+1. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Tryck sedan på fliken **BAKGRUNDER** som finns högst upp till vänster.
 
     ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
-2. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
+2. Tryck på den blå knappen som det står **"Gör till bitmapp** på. Den finns under själva ritytan.
 
     ![image alt text](Bakgrunder_Gör_till_bitmapp.png)
 
-Välj sen **en färg** du gillar genom att klicka på den lilla färgade rutan ovanför och ställ in färgen du vill ha, genom att dra eller klicka på de olika reglagen tills du är nöjd.
+Välj sen **en färg** du gillar genom att klicka på den lilla färgade rutan ovanför verktygen och ställ in den färg du vill ha genom att dra i de olika reglagen tills du är nöjd.
 
    ![image alt text](RITA_Välj_Färg-funktion_bitmapp.png)
     
-Fyll sen bakgrunden med färgen du valt genom att klicka på verktyget **Fyll** som ser ut som en liten hink och sen klicka på stora vita rutan så fylls bakgrunden med den färg du valt.
+Fyll sen bakgrunden med färgen du valt. Det gör du genom att trycka på verktyget **Fyll** som ser ut som en liten hink och sen trycker du på den stora vita ritytan bredvid. Då fylls bakgrunden med den färg du valt. Du ser nu samma färg även på senen med din skalbagge-sprajt.
 
   ![image alt text](Bakgrunder_Fyll_med_färg-verktyg.png)
   
-> Tips: Viktigt att färgen du valt inte är samma som någon färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram.
+> Tips: Viktigt att bakgrundsfärgen du väljer inte är samma färg som din sprajt har på sig. Annars kan det bli problem i ditt projekt längre fram i skapandet.
 
-3. Tryck sen på verktyget **PENSEL** och välj en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbaggens färger. Gör även penseln mycket bredare genom att klicka länge på uppåtpilen som finns snett ovanför, eller bara skriva 100 i rutan bredvid pilarna. Strecket ska bli tjockt. 
+3. Dax att rita en bana - så vi väljer penselverktyg och ny färg. Tryck först på verktyget **PENSEL** och välj sen en ny färg till banan i ditt spel. Viktigt att färgen inte är samma som skalbagge-sprajtens färger. Gör även penseln ordentligt bred genom att ändra penselns storlek med uppåt-pilen som finns snett ovanför ritytan, eller bara skriva 100 direkt i rutan bredvid pilarna (se bilden nedan). Penselstrecket ska bli ordentligt tjockt. 
 
  ![image alt text](Bakgrund_måla_pensel.png)
  
-Rita nu en bana som en oval eller en utdragen cirkel - gör den så stor som du kan, utan att den hamnar utanför spelets ruta!
+Dra ditt finger på ritytan och rita en bana som en oval eller en cirkel - gör banan så stor du kan, utan att den hamnar utanför spelets rityta med bakgrundsfärgen. Lämna lite bakgrundsfärg längs med kanterna som en ram.
 
-Ungefär så här kan nu spelets bana se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan - och du blir Game Over. Är banan bred blir spelet lite lättare då du har mer plats att styra runt på utan att åka ut! 
+Ungefär så här kan nu spelets bana se ut - beroende på hur du valt att rita din bana och färgval. Om banan är smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan med en del av sin "kropp" - och blir Game Over. Är banan bredare blir spelet lite lättare då du har mer plats att styra runt på utan att åka utanför! 
 
   ![image alt text](BugRace_Intro_ritad_bana_bakgrund_exempel.png)
 
 
 ## 3: Sprajten rör på sig
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
+Dax att programmera röresler! Nu när bakgrunden är färdig kan du börja skapa ditt första skript med kod för att få din sprajt att börja röra sig.
 <video src="./BugRaceIntroDel3_enkel.mp4" controls muted height=480 width=640 />
 
 
@@ -110,7 +112,7 @@ Se i videon ovan hur du ska:
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta! Du måste vara inloggad för att kunna spara.
 
-Ställ muspekaren på skalbaggen och ta tag i den genom att hålla ned musknappen (eller håll på den med ditt finger om du använder surfplatta) och dra sprajten på den målade banan, släpp den där du tycker skalbaggen ska stå när ditt spel börjar.
+Sätt fingret på skalbaggen för att ta tag i den och dra sprajten så den står på banan. Ställ sprajten där du tycker den ska starta i spelet.
 
 Tryck på KOD-fliken högst upp till vänster. Nu kommer du bort från målarverktyget och tillbaka till vita ytan där du kan bygga din kod för spelet.
 
@@ -118,40 +120,41 @@ Har du lagt märke till START- och STOPP-knappen än? **Den gröna flaggan** bet
 
   ![image alt text](START_STOPP-funktion.png)
 
-Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - som alltså är **den gröna flaggan**. För att göra det måste du tala om för skalbaggen vad den ska göra, annars händer ingenting. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Du ska alltså koda och lägga till ditt första skript som säger:
+Nu ska du koda så att skalbaggen börjar röra sig när du sen trycker på START-knappen - alltså **den gröna flaggan** ovanför ditt projekt. För att skalbaggen ska veta när den ska börja röra sig måste på något sätt tala om det för skalbaggen, annars vet den inte vad den ska göra och inget händer. Skalbaggen kan inte tänka av sig självt, den väntar på dina instruktioner. Instruktionerna skapar du med hjälp av de kodade pusselbitarna till vänster i Scratch. Du ska bygga ihop pusselbitarna till ett skript som ska ge skalbaggen instruktionen:
 
-"När jag trycker på START-flaggan, ska skalbaggen röra sig."
+"När jag trycker på gröna START-flaggan, så ska skalbaggen röra sig."
 
 Gör såhär:
 
-1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på gula rubriken **HÄNDELSER** och välj pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och släpp den där. 
+1. Överst till vänster hittar du flera färgglada rubriker med en massa kod-pusselbitar bredvid. Klicka på den gula rubriken som heter **HÄNDELSER** och välj den översta gula pusselbiten med en grön flagga på, som heter: **"när gröna flaggan (START) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten) och lägg den där. 
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
 
-Välj sedan den blå rubriken **RÖRELSE** som finns längst upp och välj blocket **"gå 10 steg"**. Lägg detta block direkt under det första blocket med den gröna flaggan på scriptytan och koppla ihop dem som pusselbitar.
+Välj sedan den blå rubriken som heter **RÖRELSE** och välj blocket **"gå 10 steg"**. Dra in detta block på skritpytan och lägg det direkt under blocket med den gröna flaggan. Sätt ihop dem som pusselbitar så att de sitter ihop. (Se bild nedanför.)
 
   ![image alt text](Koda_Exempelscript_RÖRELSE_Gå10Steg.png)
 
-> Tips: om man för två block nära varandra på scriptytan dyker snart en grå skugga upp, då kan man bara släppa så kopplar blocken automatiskt ihop sig som pusselbitar.
+> Tips: om man för två block nära varandra på skriptytan så syns en grå skugga. Då kan man släppa så kopplar blocken automatiskt ihop sig som två passande pusselbitar.
 
   ![image alt text](Koda_exempelbild_snapfunktion_kodblock.png)
 
-> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen åt lite höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig superkort en enda gång. Hur gör du det? Jo, såhär:
+> Testa nu vad som händer när du trycker på START. Flyttar sig skalbaggen lite åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats, inte bara flytta sig lite en enda gång. Hur gör du det? Jo, såhär:
 
-2. Under orangea rubriken **KONTROLL** finns kodblocket **"för alltid"**. Det är en LOOP, alltså en **repetition** av något som sker om och om igen. Med detta block kommer skalbaggen fortsätter röra sig framåt så länge spelet är igång. 
-Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
+2. Under orangea rubriken som heter **KONTROLL** finns kodblocket som heter **"för alltid"**. Detta kodblock är en LOOP, alltså en **repetition** av något som sker, om och om igen. Med detta block kan du göra så att skalbaggen får instruktionen att röra sig framåt för alltod, så länge spelet är igång. 
+
+Dra in **"för alltid"**-blocket till skriotytan och lägg in det direkt under kodblocket som heter **"när START klickas på"**. Då hamnar det blå blocket **"gå 10 steg"** inuti **för alltid**-loopen. Kolla på bilden nedan så ser du hur du ska göra.
 
   ![image alt text](Koda_Exempelscript-KONTROLL-För_Alltid-loop.png)
 
   _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid - om och om igen, så skalbaggen går och går och går._
 
-> Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Klicka på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen. Testa dig fram tills det känns lagom snabbt.
+> Testa att trycka på START - alltså den gröna flaggan ovanför spelet. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Tryck på siffran 10 i blocket **gå 10 steg** och skriv in en annan siffra för en hastighet som du tror är lagom för att kunna styra skalbaggen - kanske siffran 3?. Testa dig fram tills det känns lagom snabbt.
 
   ![image alt text](Koda_RÖRELSE-Ändra_i_variabel-sänk_hastighet.png)
 
 
 ## 4: Sätt en Startposition
-För att slippa dra tillbaka skalbaggen till startplatsen varje gång du vill starta spelet, kan du säga åt datorn att placera den på en bestämd plats vid start.
+För att slippa dra tillbaka skalbaggen till startplatsen varje gång du vill starta spelet, kan du säga åt skalbaggen att den ska ställa sig på en bestämd plats varje gång du startar spelet. Vi kodar in en startposition i skriptet.
 <video src="./BugRacedel4_nytt.mp4" controls muted height=480 width=640 />
 
 
@@ -166,16 +169,18 @@ Se i videon ovan hur du ska:
 
 1. Dra sprajten till den position där du vill att den ska starta på banan när spelet börjar. Se till att sprajten står på mitten av banan och helst på en raksträcka, inte en kurva. 
 
-2. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+2. Under tema **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt inunder det översta blocket i skriptet som heter **"när START klickas på"**. Alltså ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den position som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
   ![image alt text](Koda_RÖRELSE_Gå_till_X_Y_Startposition.png)
 
 Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
 
+>Tips: Du kan alltid ändra koordinaterna i blocket om det inte blev rätt plats direkt. Dra skalbaggen dit du vill att den ska starta på banan, kolla sedan vilka nya koordinater för x och y som den nu har fått - du kan hitta dem direkt under scenen med ditt projekt med skalbaggen. Skriv nu in dessa nya siffror i blocket med **"gå till x:__ y:__"** på skriptytan. 
+
 
 ## 5: Styra skalbaggen
 
-Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent. (Använder du surfplatta med pekskärm finns tips på hur du kan koda sprajten att följa ditt finger längre ned.)
+Nästa steg blir att koda styrning av skalbaggen, så den inte springer av banan och blir Game Over! Du behöver koda in instruktionen för skalbaggen att den ska följa ditt finger när du drar fingret längs med banan.
 <video src="./BugRaceIntroDel5_enkel.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -217,7 +222,7 @@ Se i videon ovan hur du ska:
 - Lägg in kod för RÖRELSE: peka i 90 graders ritning
 
 <br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
 1. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
