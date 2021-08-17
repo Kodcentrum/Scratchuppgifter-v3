@@ -186,40 +186,27 @@ Nästa steg blir att koda styrning av skalbaggen, så den inte springer av banan
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägg in kod för HÄNDELSER: när mellanslag trycks ned. Dra in två stycken sådana block
-- Ändra *mellanslag* i kodblocken till *vänsterpil* och *högerpil*
-- Lägg in kod för RÖRELSE: rotera vänster 15 grader och ett block rotera höger 15 grader
+- Lägga in kod för RÖRELSE: följ muspekare
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
->**Tips! Använder du surfplatta med pekskärm?** Koda då som bilden visar nedan istället för knappar att styra med, så följer sprajten ditt finger på skärmen runt banan: 
+1. Under tema RÖRELSE finns kodblocket som heter **"följ muspekare"**. Den gför så att sprajten följer antingen en muspekare som dras över skärmen på en dator, eller ditt finger som du drar över skärmen på en surfplatta med touch screen. Dra in kodblocket till skriptytan och lägg in det inuti din **"för alltid"**-loop. Då ser det ut som i bilden nedanför. Testa sedan att starta projektet och låt skalbaggen följa ditt finger över banan.  
   ![image alt text](Bugrace_touchscreen_följ_muspekare.png)
 
-1. **Koda styrknappar såhär:** under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg dem bredvid varandra vart som som helst fritt på skriptytan. 
 
-  ![image alt text](Koda_HÄNDELSER-När_Mellanslag_Trycks_Ned_tangentbord-styrfunktion.png)
-
-Bredvid ordet **mellanslag** i dessa två block finns en liten vit triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
-
-  ![image alt text](Exempelbild_Händelser_Byt_tangentbordsknapp-funktion.png)
-
-2. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"rotera (pil vänster) 15 grader"** och ett som säger **"rotera (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil tangent trycks ned"** och **"när högerpil tangent trycks ned"**.
-
-  ![image alt text](Koda_HÄNDELSER_RÖRELSE_Styra_Sprajten_med_piltangent-funktion.png)
-
-> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen åt båda hållen med piltangenterna på tangentbordet? Går det för fort? Sänk skalbaggens hastighet genom att ändra variabelsiffran i rörelse-blocket!
+> Testa vad som händer nu när du trycker på gröna START-flaggan. Kan du styra skalbaggen genom att dra fingret över skärmen? Går sprajten för fort? Sänk då hastigheten på skalbaggens rörelse genom att minska siffran i det blå rörelse-blocket i ditt skript!
 
 
 ## 6: Ändra startriktning
 
-Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
+Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till skript som ger instruktionen att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 <video src="./BugRacedel6_nytt.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägg in kod för RÖRELSE: peka i 90 graders ritning
+- Lägga in kod för RÖRELSE: peka i 90 graders riktning
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
@@ -228,14 +215,14 @@ Se i videon ovan hur du ska:
 
   ![image alt text](Koda_Exempelscript-RÖRELSE-Peka_i_90_graders_riktning.png)
 
-> Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på siffran 90 i blocket, dra runt muspekaren till annan vinkel och klicka utanför bilden för att välja annan vinkel).
+> Testa vad som händer om du ändrar på värdet från 90 grader till något annat (tryck på siffran 90 i blocket, dra runt pilen till en annan vinkel och tryck sen någonstans utanför bilden för att avsluta).
   
   ![image alt text](Koda_exempelbild_RÖRELSE-Ändra_peka_i_riktning_gradantal.png)
 
 
 ## 7: Känna av när skalbaggen åker av banan
 
-Skalbaggen måste känna av när den hamnar utanför banan och bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den åker på. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
+Skalbaggen måste känna av om den åker utanför banan och då bli Game Over! Det löser vi genom att skalbaggen känner av vilken färg den rör vid - banans färg eller bakgrundens färg. Vi kodar ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen utanför banan - **DÅ** ska spelet ta slut".
 <video src="./BugRaceIntroDel7_enkel.mp4" controls muted height=480 width=640 />
 
 
@@ -249,49 +236,52 @@ Se i videon ovan hur du ska:
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
+1. Under det orangea temat **KONTROLL** finns blocket som heter "**om <> då**" (det som har ett kantigt hål mellan orden" om" och "då"). Dra in detta block till skriptytan och lägg det bredvid de andra blocken där. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: OM <rör färgen grön>, DÅ "säg Game Over i 2 sekunder".
 
   ![image alt text](Koda_KONTROLL-Om-Då-block.png)
   
-2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på skriptytan. 
+2. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. (det finns en slumpmässigt vald färg i blocket. Du ändrar senare till ditt projekts bakgrundsfärg.)
+Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du nyss lade på skriptytan. (se nedan bild)
 
   ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
 
-Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"** i ditt script är exakt samma färg som spelets bakgrundsfärg. Byt annars genom att klicka med muspekaren på den lilla färgcirkeln och välj den lilla symbolen med en pimpett längst ned. Klicka sedan med den på spelets bakgrundsfärg, så blir det rätt färg i kodblockets cirkel. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
+3. För att din skalbagge ska kunna känna av spelets bakgrundsfärg (om den åker av banan), så måste vi lägga till exakt samma färg i kodblocket du just lade in i skriptet. Gör såhär:  
+Tryck på den lilla cirkeln med färg i blovket **"rör färgen <>?"** så kommer en färgväljar-meny fram. Tryck på den lilla bilden med en färgväljare längst ned i menyn, och tryck sen på din bakgrundsfärg på scenen med spelet. Då ändras färgen i kodblocket till exakt samma färg som spelets bakgrundsfärg. Nu har du lagt in kod som säger  att något ska hända när skalbaggen rör vid spelets bakgrundsfärg.
 
   ![image alt text](Känna_av_byt_färg_pimpett.png)
 
-3. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under tema   **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
+4. Till sist skapar du kod för att spelet ska kunna säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under temat **UTSEENDE** väljer du blocket som heter **"säg Hej! i 2 sekunder"**. Dra in detta block och lägg det inuti blocket som heter **"om <**"**Rör färgen grön?> då"**". (se bilden nedanför) Tryck sedan på ordet "Hej!" i blocket och ändra texten till det du vill skalbaggen ska säga om den åker av banan - till exempel "Game Over!".
 
   ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
 
-> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
+Nu har vi kodat ett skript som känner av bakgrundens färg. Men det är inte riktigt färdigt än. Om du trycker på start nu, så kommer inte skalbaggen att reagera när den åker av banan. Vi måste koda lite till för att det ska fungera. Vi går vidare!
 
 
 ## 8: Gör klart skriptet
 
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det som får skalbaggen att röra sig. 
+Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla **exakt vart skalbaggen befinner sig** "om och om igen", hela tiden. Inte bara en gång direkt efter vi startat spelet, som det nu står i koden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med det andra skriptet som får skalbaggen att röra på sig. Vi ska sätta samman skripten till ETT skript.
 <video src="./BugRaceIntroDel8_enkel.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
 
 Se i videon ovan hur du ska:
-- Lägg skriptet inuti för alltid-loopen
+- Lägg skriptet med villkoret inuti för alltid-loopen
 - Lägg in kod för KONTROLL: stoppa alla. Lägg blocket längst ned inom *om...då*. Ändra till *stoppa detta skript*.
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Lägg skriptet som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
+1. Lägg skriptet med vilkoret **"om <> då"** som känner av färgen **inuti** din **"för alltid"**-loop. Nu kollar datorn hela tiden om skalbaggen ramlat av banan, alltså den kollar detta **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen om den ramlat av banan. Om inte, då springer den lite till, kolla, spring, kolla spring... (se bilden nedan)
 
   ![image alt text](Koda_exempelbild_BugRaceIntro_lägg_OM-DÅ_in_i_För_Alltid-loop.png)
+  
+  > Testa projektet! Starta spelet och styr utanför banan. Vad händer? Känner skalbaggen av bakgrundsfärgen?
 
-2. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa helt. Under **KONTROLL** finns blocket **"stoppa alla"**. Dra in detta block till skriptfältet. Klicka på lilla pilen i blocket och byt till **"stoppa detta skript"**.
+2. När spelet blir Game Over ska ju allt ta slut och skalbaggen ska stoppa helt. Under **KONTROLL** finns blocket som heter **"stoppa alla"**. Dra in detta block till skriptytan. Tryck sen på den lilla pilen i blocket och byt till **"stoppa detta skript"**.
 
   ![image alt text](Koda_exempelbild_KONTROLL-Stoppa_alla-block_byt_till_Stoppa_detta_script.png)
 
-Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den hamnar utanför banan och blir Game Over.
+Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar om den åker utanför banan och blir Game Over.
 
 >**Testa koden!** Kan du styra skalbaggen runt banan med piltangenterna? Vad händer om sprajten åker utanför banan? 
 
@@ -303,12 +293,12 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 
  ![image alt text](Koda_exempelbild_färdigt_script_BugRaceIntro.png)
 
-**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
+**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
-> **Testa ditt projekt**  
-Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det.
+> **Testa ditt projekt - och dela det med andra!**  
+Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det. (knappen DELA finns bara om du är inloggad samt att ditt användarkonto bekräftats via den mejl som ditt konto är kopplat till. Mejlet skickades ut av Scratch när kontot skapades.)
 
-> **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
+> **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra, till exempel foton och bilder du inte har rättigheter till.
 
 
 ## Utmaning
