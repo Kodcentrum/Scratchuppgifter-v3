@@ -1,7 +1,7 @@
 # Skräprobot Bamse
 Skalman har uppfunnit en skräprobot som ska plocka upp allt skräp. Men den fungerar inte och Nalle-Maja vill ha din hjälp att fixa roboten. Det är något fel i den programmerade koden. Tillsammans kan ni programmera den att fungera som den ska. Följ instruktionerna nedan, steg-för-steg.
 
-Klicka på bilden med Skräproboten nedan för sätta igång och följ de skrivna instruktionerna under för att fixa buggarna i koden. <a href="https://scratch.mit.edu/projects/542836969/editor/ " target="_blank">
+Klicka på bilden med Skräproboten nedan för sätta igång och följ de skrivna instruktionerna under för att fixa buggarna i koden. <a href="https://scratch.mit.edu/projects/542836969/editor/" target="_blank">
 
 ![image alt text](Exempelprojekt_Bamse.png)</a>
 
