@@ -56,6 +56,7 @@ Nu finns det två robotar på scenen. Dags att gå vidare.
 Nu ska vi lägga till en bakgrundsbild som robotarna kan dansa runt på.
 
 1. Klicka på ikonen för **Välj en bakgrund** som finns längst ned till höger under scenen. 
+
   ![image alt text](Ny_Bakgrund-knapp.png)
   
 Välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Concert"**. 
@@ -64,7 +65,7 @@ Välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som 
 
   ![image alt text](exempelprojekt_0.png)
 
-3. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Välj först en robotfigur genom att klicka på den lilla bilden av roboten under scenen.  på. Under scenen ståpr det **Storlek** och bredvid står det **100** - alltså 100% full storlek på din robotfigur. För att ändra storleken, så klicka på siffran 100 och skriv in en lägre siffra för att minska robotens storlek eller högre siffra för att öka robotens storlek. Pröva dig fram till en storlek du gillar.
+3. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Välj först en robotfigur genom att klicka på den lilla bilden av roboten under scenen.  på. Under scenen ståpr det **Storlek** och bredvid står det **100** - alltså 100% full storlek på din robotfigur. För att ändra storleken, så klicka på siffran 100 och skriv in en lägre siffra för att minska robotens storlek eller högre siffra för att öka robotens storlek.
 
   ![image alt text](Ändra_Storlek_Sprajt.png)
   
@@ -78,63 +79,72 @@ Nu har du två robotfigurer och en bakgrund. Välj den robotsprajt som du vill b
 
   ![image alt text](Skriptyta_sprajt_vald.png)
 
-Nu är du redo att börja koda robotdansen!
+Nu är du redo att ge roboten lite musik att dansa till.
 
 ## 2: Musik att dansa till
 
-Nu ska vi koda så att den första robotsprajten får några rörelser och även lägga till musik. Koden som vi bygger ihop kallas för ett **skript**.
+Nu ska vi lägga till musik.
 
 >**VAD SKA JAG GÖRA?**
 
-- Lägg in ett startblock för en av robotarna
-- Lägg till ett musikblock
-- Välj ny musik till projektet och lägg in i koden
+- Välj ny musik till projektet
 
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. För att kunna starta projektet behöver vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Ta tag i detta block och dra in det på den stora vita ytan i mitten av Scratch och lägg det där. Den stora vita ytan kallas även för Skriptyta.
-
-  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
-
-4. När vi startar projektet vill vi att musik spelas upp. Den ska spelas om och om igen för alltid. Då behöver vi koda in en loop. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst det direkt under första blocket **när GRÖN FLAGGA klickas på**, så de pusslar ihop sig. 
-
-  ![image alt text](Block_start_loop.png)
-
-5. Nu ska vi lägga till musiken i projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti loop. Då ser det ut såhär:
-
-  ![image alt text](Block_start_loop_ljud.png)
-
->**Testa koden!** Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Blev det ett bra ljud? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
-
-Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Men det kanske inte blev rätt ljud för den musik vi vill ha? Du kan stoppa projektet och ljudet med **den röda stoppknappen** ovanför scenen.
-
-  ![image alt text](Stoppknapp.png)
-
-6. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter **Ljud** i övre vänstra hörnet av Scratch. Nu kommer du in i en  ljudstudio. 
+1. Först ska vi välja musik som vi gillar. Gå först till fliken som heter **Ljud** i övre vänstra hörnet av Scratch. Nu kommer du in i en ljudstudio. 
 
   ![image alt text](image_40.png)
   
-7. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
+2. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
 
  ![image alt text](image_41.png)
  
-8. Klicka på kategorin överst som heter **loopar**. Du kan lyssna på de olika ljuden genom att hålla muspekaren över ljudens små PLAY-symboler. Om du klickar  på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Magic* i vårt exempel.
+3. Klicka på kategorin överst som heter **loopar**. För att lyssna på de olika ljuden håller du muspekaren över de lila PLAY-symbolerna. För att lägga till ett ljud du vill ha i ditt projekt, så klickar du så mitt på ljudets ruta. Vi har valt ljudet *Dance Magic* i vårt exempel.
 
   ![image alt text](Ljud_lyssna.png)
 
-8. När du valt musiken du vill använda klickar du på fliken som heter **Kod** i övre vänstra delen av Scratch. Nu ser du kodblocken och skriptytan igen och kan koda in musiken du just valt för din robot att dansa till.
+4. Nu ska du gå ut ur ljudstudion. Klicka då på fliken som heter **Kod** i övre vänstra delen av Scratch. Då komemr du tillbaka du kodblocken och skriptytan igen och kan koda in musiken du nyss valde. 
 
   ![image alt text](Flik_KOD.png)
   
-9. I koden du lagt på skriptytan ser du blocket som heter **spela ljudet ____ tills färdigt**. Klicka på namnet på ljudet i blocket, så visar sig en lista med olika ljud som finns i projektet. Välj det nya ljud som du just lade till i Scratch ljudstudio. Klicka på dess namn i listan och vips har du lagt in ditt nya ljud i robotens kod. Vi har valt ljudet *Dance Magic* i vårt exempel.
+
+## 3: Koda in musiken
+
+Nu är det dags att börja koda.
+
+>**VAD SKA JAG GÖRA?**
+
+- Lägg in ett startblock 
+- Lägg till ett ljublock
+- Ändra musik i ljudblocket
+
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+  
+För att musiken ska kunna spelas behöver vi programmera projektet med hjälp av Scratch kodblock. Koden som vi bygger ihop kallas för ett **skript**.
+  
+1. För att kunna starta projektet behöver vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Ta tag i detta block och dra in det på den stora vita ytan i mitten av Scratch och lägg det där. Den stora vita ytan kallas även för skriptyta.
+
+  ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
+
+2. När vi startar projektet vill vi att musik spelas upp. Den ska spelas om och om igen för alltid. Då behöver vi koda in en loop. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst det direkt under första blocket **när GRÖN FLAGGA klickas på**, så de pusslar ihop sig såhär:
+
+  ![image alt text](Block_start_loop.png)
+
+3. Nu ska vi lägga till musiken i skriptet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti loopen. Då ser det ut såhär på skriptytan:
+
+  ![image alt text](Block_start_loop_ljud.png)
+
+>**Testa koden!** Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Blev det samma ljud som du ville ha? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
+
+4. Om du vill byta ut ljudet i blocket till ett annat ljud så gär du såhär: Lägg först till ett nytt ljud och klicka sedan på ljudblocket **spela ljudet ____ tills färdigt**. Välj sedan ljudet du vill ha i listan som kommer fram. Se bilden nedan:
 
   ![image alt text](Block_ljud_bytmusik.png)
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa att köra koden. Vad händer? Spelas din nya musik nu istället för det gamla ljudet? Blev det som du ville? Du kan alltid byta till annan musik på samma sätt som du nyss gjorde i stegen ovan.
 
-Nu har vi bra musik för robotarna att dansa till! Dags att koda in röresle för robotarna!
+Nu har vi bra musik för robotarna att dansa till! Dags att koda in dansen!
 
-## 3: Få roboten att dansa
+## 4: Få roboten att dansa
 
 I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan tänkas vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
 
@@ -186,7 +196,7 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 
 Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik! Det är dags att få den andra robotsprajten att också dansa!
 
-## 4: Alla dansar tillsammans
+## 5: Alla dansar tillsammans
 
 Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Då börjar vi koda!
 
@@ -217,7 +227,7 @@ Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varf�
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa ditt projekt. Vad händer? Rör sig båda robotarna? Dansar de lagom fort? Ser dansen och projektet ut som du vill? Vill du att robotarna ska göra något mer? Du kan alltid ändra i koden och bygga vidare med mer kodbitar.
 
-## 5: Effekter på bakgrundsbilden
+## 6: Effekter på bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
 
