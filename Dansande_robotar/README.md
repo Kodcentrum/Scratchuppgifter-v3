@@ -10,16 +10,14 @@ Klicka på bilden nedan för att se ett exempelprojekt på hur ett projekt med d
   
 Är du redo att koda? Då börjar vi!
 
-## 1: Välja sprajtar och bakgrund
+## 1: Välj två robotfigurer
 
-Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan dansa. Alla figurer man lägger in i Scratch kallas för en **sprajt**
+Först behöver du lägga till två **robotfigurer** som sen ska få dansa. Alla figurer man lägger in i Scratch kallas för **sprajtar**
 
 >**VAD SKA JAG GÖRA?**
 
 - Ta bort kattfiguren
-- Välj en ny sprajt
-- Välj en ny bakgrund
-- Välj en till sprajt
+- Välj två nya robotsprajtar
 - Minska eller öka storleken på sprajtarna om du vill
 
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -28,67 +26,81 @@ Först behöver du en **robotfigur** och en ny **bakgrund** där roboten sen kan
 
  ![image alt text](Scratch_webb_tryck_pa_skapa.png)
 
-2. Ser du katten på den tomma scenen till höger? Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir helt tom.
+2. Ser du katten på den tomma scenen till höger? Vi ska byta ut den till en ny robot-figur. Ta först bort katt-sprajten genom att klicka på den lilla soptunnan på den lilla kattbilden som finns under scenen. Då försvinner katten ur projektet och scenen blir tom.
 
  ![image alt text](ikon_radera_katt.png)
   
-3. Klicka på ikonen för **Välj en sprajt** som ser ut som en liten vit katt på en blå knapp. Den finns längst ned under scenen. Välj en ny sprajtfigur som ska vara en robot. Se till att det är en robotsprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den i Scratch sprajtbibliotek). Vi har valt en robot som ser ut att flyga fram, men du kan välja vilken sprajt du vill såklart. (Tips: i sprajtbiblioteket finns ett sökverktyg högst upp till vänster, testa att skriva "robot".)
-
+3. Klicka på ikonen för **Välj en sprajt** som ser ut som en liten vit katt på en blå knapp, så här:
   ![image alt text](Ny_Sprajt-knapp.png)
+
+Välj en ny sprajtfigur som ska vara en robot. Se till att det är en robotsprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den i Scratch sprajtbibliotek).
   
-Nu har du en robot som din sprajt på scenen. 
+Nu har du en robot på scenen. 
 
   ![image alt text](robotsprajt_scen_bild.png)
-
-Vi går vidare och lägger till en bakgrundsbild.
-
-4. Klicka på ikonen för **Välj en bakgrund** som finns längst ned till höger under scenen och välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Concert"**. 
-
-  ![image alt text](Ny_Bakgrund-knapp.png)
   
-5. Dax att lägga till en till robotsprajt. Klicka igen på **Välj en sprajt**-ikonen längst ned och lägg in **en till robotsprajt** till projektet (eller välj en annan sprajt du gillar, gärna en som kan röra på sig). 
+4. Nu gör du samma sak en gång till och väljer en ny robotsprajt.
 
-Dra sen i de två sprajtfigurerna på scenen och ställ dem där du vill ha dem, så att de står bredvid varandra. Ge dem lite utrymme att att röra på sig.
+Nu finns det två robotar på scenen. Dags att gå vidare.
+  
 
-  ![image alt text](exempelprojekt_0.png)
-
-6. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Under scenen med sprajtarna finner du texten **Storlek** och bredvid står det **100** - alltså 100% full storlek. Klicka på siffrorna och skriv istället in ett lägre eller högre procenttal, klicka sedan någonstans bredvid siffran du just skrev så ändras sprajtens storlek på scenen. Pröva dig fram till en storlek du gillar. För att ändra den andra sprajten markerar du den lilla bilden av den sprajten under scenen och ändrar dess storlek på likadant sätt som den första.
-
-  ![image alt text](Ändra_Storlek_Sprajt.png)
-
-Nu har du två sprajtar och en bakgrund. Dax att börja koda dansen!
-
-## 2: Musik att dansa till
-
-Nu ska vi koda så den första robotsprajten får några rörelser och lägga till musik. Koden som vi bygger ihop kallas för ett **skript**.
+## 2: Välj en bakgrundsbild
 
 >**VAD SKA JAG GÖRA?**
 
-- Lägg in ett startblock på den tomma skriptytan för en av robotarna
-- Lägg till ett musikblock
-- Välj ny musik till projektet och lägg in i skriptet
+- Välj en bakgrundsbild
+- Minska eller öka storleken på sprajtarna om du vill
 
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
-1. Se till att du klickat på och markerat den robotsprajt du vill koda först. Det gör du genom att klicka på den lilla bilden av din sprajt under scenen. Välj den sprajt som kunde röra på sig när du valde sprajtar i sprajtbiblioteket. 
+Nu ska vi lägga till en bakgrundsbild som robotarna kan dansa runt på.
+
+1. Klicka på ikonen för **Välj en bakgrund** som finns längst ned till höger under scenen. 
+  ![image alt text](Ny_Bakgrund-knapp.png)
+  
+Välj sen en bakgrund du gillar. I vårt exempelprojekt valde vi bakgrunden som heter **"Concert"**. 
+
+2. Dra nu i robotfigurerna så de står bra på scenen. Ge dem lite utrymme att att röra på sig.
+
+  ![image alt text](exempelprojekt_0.png)
+
+3. Om sprajtarna är för stora eller för små kan du ändra storlek på dem. Välj först en robotfigur genom att klicka på den lilla bilden av roboten under scenen.  på. Under scenen ståpr det **Storlek** och bredvid står det **100** - alltså 100% full storlek på din robotfigur. För att ändra storleken, så klicka på siffran 100 och skriv in en lägre siffra för att minska robotens storlek eller högre siffra för att öka robotens storlek. Pröva dig fram till en storlek du gillar.
+
+  ![image alt text](Ändra_Storlek_Sprajt.png)
+  
+Nu har du två robotfigurer och en bakgrund. Välj den robotsprajt som du vill börja koda först. Då gör du såhär:
+
+4. Klicka på den lilla sprajtbilden som finns under scenen. 
 
   ![image alt text](Sprajtar_små_ikoner_aktivera.png)
 
->**Tips!** Den sprajt du valt syns även som en gråtonad bild i övre högra hörnet av den stora tomma skriptytan i mitten av Scratch, till vänster om scenen. På så sätt kan du se vilken sprajt det är som du just nu kodar. Det är på skriptytan som du ska lägga in koden som sen styr din sprajt. Se bilden:
-
-*Bild till tipset ovan:*
+5. Dubbelkolla att spsajtfiguren du nyss valde även syns i hörnet av den vita ytan i mitten av Scratch. Då är du säker på vilken sprajt som är aktiverad.
 
   ![image alt text](Skriptyta_sprajt_vald.png)
 
-2. Först ska vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Dra i detta block och lägg det någonstans på den tomma vita skriptytan i mitten av Scratch. 
+Nu är du redo att börja koda robotdansen!
+
+## 2: Musik att dansa till
+
+Nu ska vi koda så att den första robotsprajten får några rörelser och även lägga till musik. Koden som vi bygger ihop kallas för ett **skript**.
+
+>**VAD SKA JAG GÖRA?**
+
+- Lägg in ett startblock för en av robotarna
+- Lägg till ett musikblock
+- Välj ny musik till projektet och lägg in i koden
+
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. För att kunna starta projektet behöver vi lägga till ett startblock. Under tema HÄNDELSER finner du blocket **när GRÖN FLAGGA klickas på**. Ta tag i detta block och dra in det på den stora vita ytan i mitten av Scratch och lägg det där. Den stora vita ytan kallas även för Skriptyta.
 
   ![image alt text](Block_NärGrönFlaggaKlickasPå.png)
 
-3. Nu ska vi lägga in att musik ska spelas när jag startar projektet. Vi vill att musiken ska spelas om och om igen i en evighetsloop. Börja med att skapa loopen. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst den direkt under första startblocket **när GRÖN FLAGGA klickas på**, så de pusslar ihop sig. 
+4. När vi startar projektet vill vi att musik spelas upp. Den ska spelas om och om igen för alltid. Då behöver vi koda in en loop. Under tema KONTROLL lägger du till blocket **för alltid**. Fäst det direkt under första blocket **när GRÖN FLAGGA klickas på**, så de pusslar ihop sig. 
 
   ![image alt text](Block_start_loop.png)
 
-4. Nu ska vi lägga till musik till projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti den loop du lade in nyss. Då ser det ut som på bilden nedan.
+5. Nu ska vi lägga till musiken i projektet. Från tema LJUD drar du in blocket **spela ljudet ___ tills färdigt** och lägg in detta block inuti loop. Då ser det ut såhär:
 
   ![image alt text](Block_start_loop_ljud.png)
 
@@ -98,15 +110,15 @@ Nu hörs det ljud, som spelas om och om igen i en evighetsloop. Men det kanske i
 
   ![image alt text](Stoppknapp.png)
 
-5. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter **Ljud** i övre vänstra hörnet av Scratch. Nu kommer du in i Scratch ljudstudio. 
+6. Nu ska vi byta ut ljudet till en musikslinga för roboten att dansa till. Gå först till fliken som heter **Ljud** i övre vänstra hörnet av Scratch. Nu kommer du in i en  ljudstudio. 
 
   ![image alt text](image_40.png)
   
-6. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
+7. Klicka på den blå knappen längst ned till vänster som heter **Välj ett ljud**. Nu kommer du in i Scratch ljudbibliotek. 
 
  ![image alt text](image_41.png)
  
-7. Enklaste sättet att hitta musik som passar att loopas om och om igen är om du klickar på kategorin som heter **loopar**. Den finner du på de orangea knapparna i överkant. Nu kan du lyssna på de olika ljuden genom att hålla muspekaren över ljudens små, lila PLAY-symboler. När du hittat musiken du vill använda klickar du på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Magic* i vårt exempel.
+8. Klicka på kategorin överst som heter **loopar**. Du kan lyssna på de olika ljuden genom att hålla muspekaren över ljudens små PLAY-symboler. Om du klickar  på mitten av ljudets fyrkant, så läggs ljudet till i ditt projekt. Vi har valt ljudet *Dance Magic* i vårt exempel.
 
   ![image alt text](Ljud_lyssna.png)
 
