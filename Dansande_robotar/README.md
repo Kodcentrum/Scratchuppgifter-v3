@@ -31,6 +31,7 @@ Först behöver du lägga till två **robotfigurer** som sen ska få dansa. Alla
  ![image alt text](ikon_radera_katt.png)
   
 3. Klicka på ikonen för **Välj en sprajt** som ser ut som en liten vit katt på en blå knapp, så här:
+
   ![image alt text](Ny_Sprajt-knapp.png)
 
 Välj en ny sprajtfigur som ska vara en robot. Se till att det är en robotsprajt som kan röra på sig (alltså en figur som rör sig när du för muspekaren över den i Scratch sprajtbibliotek).
@@ -75,13 +76,13 @@ Nu har du två robotfigurer och en bakgrund. Välj den robotsprajt som du vill b
 
   ![image alt text](Sprajtar_små_ikoner_aktivera.png)
 
-5. Dubbelkolla att spsajtfiguren du nyss valde även syns i hörnet av den vita ytan i mitten av Scratch. Då är du säker på vilken sprajt som är aktiverad.
+5. Dubbelkolla att sprajtfiguren du nyss valde även syns i hörnet av den vita ytan i mitten av Scratch. Då är du säker på vilken sprajt som är aktiverad.
 
   ![image alt text](Skriptyta_sprajt_vald.png)
 
 Nu är du redo att ge roboten lite musik att dansa till.
 
-## 2: Musik att dansa till
+## 3: Musik att dansa till
 
 Nu ska vi lägga till musik.
 
@@ -108,7 +109,7 @@ Nu ska vi lägga till musik.
   ![image alt text](Flik_KOD.png)
   
 
-## 3: Koda in musiken
+## 4: Koda in musiken
 
 Nu är det dags att börja koda.
 
@@ -144,7 +145,7 @@ För att musiken ska kunna spelas behöver vi programmera projektet med hjälp a
 
 Nu har vi bra musik för robotarna att dansa till! Dags att koda in dansen!
 
-## 4: Få roboten att dansa
+## 5: Få roboten att dansa
 
 I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan tänkas vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
 
@@ -196,7 +197,7 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 
 Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik! Det är dags att få den andra robotsprajten att också dansa!
 
-## 5: Alla dansar tillsammans
+## 6: Alla dansar tillsammans
 
 Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Då börjar vi koda!
 
@@ -227,7 +228,7 @@ Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varf�
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa ditt projekt. Vad händer? Rör sig båda robotarna? Dansar de lagom fort? Ser dansen och projektet ut som du vill? Vill du att robotarna ska göra något mer? Du kan alltid ändra i koden och bygga vidare med mer kodbitar.
 
-## 6: Effekter på bakgrundsbilden
+## 7: Effekter på bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
 
