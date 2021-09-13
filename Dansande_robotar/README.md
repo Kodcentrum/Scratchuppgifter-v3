@@ -104,7 +104,7 @@ Nu ska vi lägga till musik.
 
   ![image alt text](Ljud_lyssna.png)
 
-4. Nu ska du gå ut ur ljudstudion. Klicka då på fliken som heter **Kod** i övre vänstra delen av Scratch. Då komemr du tillbaka du kodblocken och skriptytan igen och kan koda in musiken du nyss valde. 
+4. Nu ska du gå ut ur ljudstudion. Klicka då på fliken som heter **Kod** i övre vänstra delen av Scratch. Då kommer du tillbaka du kodblocken och skriptytan igen och kan koda in musiken du nyss valde. 
 
   ![image alt text](Flik_KOD.png)
   
@@ -137,7 +137,8 @@ För att musiken ska kunna spelas behöver vi programmera projektet med hjälp a
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen. Vad händer? Hörs det ljud? Blev det samma ljud som du ville ha? Tänk på att du kan behöva sätta på högtalarna och kanske även höja volymen om den är för låg.
 
-4. Om du vill byta ut ljudet i blocket till ett annat ljud så gär du såhär: Lägg först till ett nytt ljud och klicka sedan på ljudblocket **spela ljudet ____ tills färdigt**. Välj sedan ljudet du vill ha i listan som kommer fram. Se bilden nedan:
+4. Om du vill byta ut ljudet i blocket till ett annat ljud så gär du såhär: Lägg först till ett nytt ljud och klicka sedan på ljudblocket **spela ljudet ____ tills färdigt**. Välj sedan ljudet du vill ha i listan som kommer fram. 
+Se bilden nedan:
 
   ![image alt text](Block_ljud_bytmusik.png)
 
@@ -145,15 +146,25 @@ För att musiken ska kunna spelas behöver vi programmera projektet med hjälp a
 
 Nu har vi bra musik för robotarna att dansa till! Dags att koda in dansen!
 
-## 5: Få roboten att dansa
+## 5: Skicka roboten ett meddelande
+Roboten behöver behöver veta om när den ska börja dansa. Vi kodar in ett meddelande till den.
 
-I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra och även mellan olika skript. Meddelanden kan tänkas vara som ett litet brev eller ett sms som meddelar till exempel att någon ska börja dansa eller att något annant ska hända när meddelandet tagits emot. Nu ska vi skapa ett meddelande som ska sätta igång våra sprajtar att dansa. Gör såhär:
+>**VAD SKA JAG GÖRA?**
 
-1. Först ska vi lägga till kodblock för ett meddelande. Från tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på** som du har i ditt skript redan. Då ser skriptet på kodytan ut såhär:
+- Lägg till ett block för skicka meddelande
+- Skapa ett nytt meddelande
+- Lägg till ett nytt skript som tar emot meddelandet
+
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+I Scratch kan man koda att sprajtarna skickar meddelanden till varandra. Nu ska vi skapa ett meddelande får robotarna att dansa. 
+Gör såhär:
+
+1. Under tema HÄNDELSER drar du in blocket **skicka meddelande1**. Lägg blocket direkt under startblocket **när GRÖNA FLAGGAN klickas på**. Då ser skriptet på kodytan ut såhär:
 
   ![image alt text](Block_Meddelande_loop_musik.png)
 
-2. Nu ska vi skapa ett nytt meddelande i kodblocket. Klicka på den lilla pilen bredvid texten **meddelande1** i kodblocket du just lade in. Klicka sen på  **Nytt meddelande** i menyn som kommer fram. Klicka på *Nytt meddelande*.
+2. Nu ska vi skapa ett nytt meddelande. Klicka på den lilla pilen bredvid texten **meddelande1** i kodblocket du just lade in. Klicka sen på **Nytt meddelande** i menyn som kommer fram.
 
   ![image alt text](Block_nytt_meddelande.png)
 
@@ -161,21 +172,34 @@ I Scratch kan man koda in att sprajtarna kan skicka ett meddelande till varandra
 
   ![image alt text](Skapa_nytt_meddelande_Dansa.png)
 
-Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver också tas emot någonstans för att det ska kunna fungera. Vi behöver lägga till det i koden:
+Vårt meddelande **Dansa** är nu färdigt, men det behöver kunna tas emot någonstans för att fungera. Vi behöver koda vidare.
 
-4. Vi skapar ett nytt skript på kodytan, som ska få sprajten att börja dansa när den tar emot meddelandet *Dansa*. Från tema HÄNDELSER drar du in startblocket **när jag tar emot meddelande1** och lägger det fritt på skriptytan. 
+4. Vi skapar ett nytt skript på kodytan, som ska få roboten att börja dansa när den tar emot meddelandet *Dansa*. Från tema HÄNDELSER drar du in startblocket **när jag tar emot meddelande1** och lägger det någonstans på skriptytan. 
 
   ![image alt text](Startblock_tar_emot_meddelande.png)
 
-5. Nu ska vi välja vilket meddelande blocket ska ta emot. Klicka på den lilla pilen i blocket och välj sen meddelandet **Dansa** från menyn. Nu ändras texten i ditt block till **när jag tar emot Dansa**, alltså när blocket tar emot det meddelandet du nyss skapat. Som ett sms från ett skript till ett annat.
+5. Nu ska vi välja vilket meddelande blocket ska ta emot. Klicka på den lilla pilen i blocket och välj sen meddelandet **Dansa** från menyn. Nu ändras texten i ditt block till **när jag tar emot Dansa**.
 
   ![image alt text](Block_NärJagTarEmotDansa.png)
   
-6. Nu ska vi lägga till en loop som gör att kod kan loopas för evigt om och om igen. Från tema KONTROLL drar du in kodblocket **för alltid**. Sätt fast det under det första blocket med meddelandet **Dansa**, så det ser ut såhär:
+6. Nu ska vi lägga till en loop. Från tema KONTROLL drar du in kodblocket **för alltid**. Sätt fast blocket under blocket som heter **när jag tar emot Dansa**, så det ser ut såhär:
 
   ![image alt text](loop_byta_klädsel.png)
   
-7. Nu ska vi få sprajten att byta klädslar, alltså att byta mellan olika bilder av sprajtens olika positioner och rörelser. Då kommer sprajten att animeras, alltså se ut att ändra utseende och röra på sig. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen **för alltid**. Om du nu startar koden kommer sprajten att byta klädslar om och om igen, jättesnabbt. Testa att köra koden!
+Nu har vi kodat ett meddelande som gör att roboten vet när den ska börja röra på sig. Men den vet fortfarande inte hur den gör för att dansa. Vi kodar vidare!
+  
+## 6: Koda in robotens dans
+
+Dags att få roboten att röra på sig.
+
+>**VAD SKA JAG GÖRA?**
+
+- Lägg till ett block för att byta klädslar
+- Lägg till ett vänta-block som pausar tiden
+
+>**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+
+1. Nu ska vi få sprajten att byta klädslar, alltså att byta mellan olika bilder av sprajtens olika positioner och rörelser. Då kommer sprajten att animeras, alltså se ut att ändra utseende och röra på sig. Från tema UTSEENDE drar du in blocket **nästa klädsel** och lägger det inuti loopen **för alltid**. Om du nu startar koden kommer sprajten att byta klädslar om och om igen, jättesnabbt. Testa att köra koden!
 
   ![image alt text](Block_nästaKlädsel.png)
  
@@ -197,7 +221,7 @@ Vårt meddelande **Dansa** är nu färdigt att skickas iväg, men det behöver o
 
 Nu finns det kod för att din sprajt ska kunna röra på sig och dansa runt till musik! Det är dags att få den andra robotsprajten att också dansa!
 
-## 6: Alla dansar tillsammans
+## 7: Alla dansar tillsammans
 
 Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att använda. Då börjar vi koda!
 
@@ -228,7 +252,7 @@ Nu vill vi att båda robotarna ska dansa tillsammans! Du kommer att få se varf�
 
 >**Testa koden!** Klicka på den gröna flaggan ovanför scenen och testa ditt projekt. Vad händer? Rör sig båda robotarna? Dansar de lagom fort? Ser dansen och projektet ut som du vill? Vill du att robotarna ska göra något mer? Du kan alltid ändra i koden och bygga vidare med mer kodbitar.
 
-## 7: Effekter på bakgrundsbilden
+## 8: Effekter på bakgrundsbilden
 
 Nu ska vi se till att själva bakgrunden får en snygg färgeffekt! 
 
