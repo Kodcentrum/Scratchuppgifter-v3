@@ -106,7 +106,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   * **Då** ska den **ändra "Ammo"** med -1
 
-  * Och **radera klonen**
+  * Och lägg till blocket **radera klonen** längst ned, utanför repetera-loopen.
 
   ![image alt text](image_5.png)
 
