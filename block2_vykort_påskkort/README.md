@@ -8,6 +8,7 @@ Klicka på bilden nedan för att se ett exempelprojekt på ett digitalt vykort p
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. Logga gärna in på Scratch för att kunna spara och dela projektet.
   
+Denna instruktion har exempel med bilder från ett påskkort, men du väljer såklart vilket tema du själv vill.
 Då börjar vi koda!
 
 ## 1: Välja sprajtar och bakgrund
