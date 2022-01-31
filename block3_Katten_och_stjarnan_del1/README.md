@@ -26,7 +26,8 @@ När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vi
 
 En katalog med massa sprajt-figurer dyker upp. I menyn högst upp finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du en hund som ser ut som bilden här nedan. Tryck på hunden så läggs den till i ditt projekt.
 
-    ![image alt text](2_ny_sprajt.png)
+  ![image alt text](2_ny_sprajt.png)
+  
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**.
 
