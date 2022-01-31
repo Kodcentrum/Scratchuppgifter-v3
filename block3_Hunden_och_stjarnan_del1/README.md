@@ -1,7 +1,7 @@
-# Hunden i rymden
+# Hunden och stjärnan - del 1
 I spelet Rymdhund skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna! 
 
-Testa ett exempelspel av Hunden i rymden nedan. <a href="https://scratch.mit.edu/projects/27697024/" target="_blank"> ![image alt text](BugRace_Intro_exempelspel.png)</a>
+Testa ett exempelspel av Hunden i rymden nedan. <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> ![image alt text](BILD_Hunden_stjärnan_exempelprojekt)</a>
 
 > **HUR KODAR JAG?** 
 </br>
