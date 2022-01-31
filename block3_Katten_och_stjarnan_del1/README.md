@@ -18,7 +18,7 @@ När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vi
 
 1. Tryck på **soptunnan på lilla rutan med kattfiguren** under scenen, så försvinner katten - du har nu tagit bort den ur projektet.
 
-    ![image alt text](Ta_bort_Sprajt.png) 
+    ![image alt text](Ta_bort_Sprajt.png)
 
 2. Nu vill du lägga till en hund istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
 
