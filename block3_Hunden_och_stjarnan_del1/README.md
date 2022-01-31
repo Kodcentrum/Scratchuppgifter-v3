@@ -3,7 +3,7 @@ I spelet Hunden och Stjärnan skapar du en busig hund som springer loss på jakt
 Instruktionen till ur du skapar spelet är uppdelad i 3 delar, här följer del 1.
 
 Testa ett exempelspel av Hunden i rymden nedan. <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> 
-  ![image alt text](BILD_Hunden_stjarnan_exempelprojekt)</a>
+  ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
