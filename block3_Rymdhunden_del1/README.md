@@ -16,7 +16,7 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst och kan styras runt på scenen med hjälp av kodblocken i Scratch. 
 
-När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
+När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en rymdhund, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
 
 1. Tryck på **soptunnan på lilla rutan med kattfiguren** under scenen, så försvinner katten - du har nu tagit bort den ur projektet.
 
