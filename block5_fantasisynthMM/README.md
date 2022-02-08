@@ -54,7 +54,7 @@ I grundprojektet för Fantasisynth fick du koda för att spela toner med datorns
 När allt fungerar är det dags att koppla in en Makey Makey!
 
 ## 2: Koppla in Makey Makey
-Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda en dators  tangentbord och mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
+Makey Makeyn överför signaler från det ledande objektet (exempelvis en frukt), via kretskortet och in till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil, mellanslag och musklick. Precis som om du skulle använda en dators tangentbord och mus. På baksidan av Makey Makey finns även bokstavstangenter, men de använder vi inte i detta projekt.
 
 ![image alt text](image_0.png)
 
@@ -62,13 +62,11 @@ För att koppla in din Makey Makey och spela din Fantasisynth med den så gör d
 
 1.	 Ta fram den röda kabeln med **USB** och **mini-USB**, det är den tjockaste kabeln i paketet. Koppla den lilla **mini-USB-kabeln** in i Makey Makeyn och den större **USB-kabeln** in i datorn. Om Makey Makeyn nu börjar blinka så är den rätt inkopplad.
 
-![image alt text](image_1.png)
-
 2.	Om det dyker upp meddelanden på skärmen så stänger du bara ner dem.
 
-3.	Koppla in en valfri **alligatorkabel** (en kabel med metallklämmor), längst ner på Makey Makeyn där det står **earth** (det betyder "jord" på svenska"). Kläm fast kabeln ena metallklämma in i två av hålen på metallytan, så sitter den ordentligt. Det spelar ingen roll vilken färg kabeln har, vi använder orange här i vårt exempel på bilderna.
+3.	Koppla in en valfri **alligatorkabel** (en kabel med metallklämmor), längst ner på Makey Makeyn där det står **earth** (det betyder "jord" på svenska"). Kläm fast kabeln ena metallklämma in i två av hålen på metallytan, så sitter den ordentligt. Det spelar ingen roll vilken färg kabeln har, vi använder orange här i vårt exempel se bild nedan)
 
-4.	Koppla sen in en alligatorkabel i Makey Makeyn i hålen där det står **space** ( det betyder "mellanslag" på svenska). Det gör att du kopplar in den till **mellanslag** i datorn. Koppla nu metallklämman i den andra änden av denna sladd till någonting som är ledande – en sked till exempel.
+4.	Koppla sen in en alligatorkabel i Makey Makeyn i hålen där det står **space** ( det betyder "mellanslag" på svenska). Det gör att du kopplar in den till **mellanslag-tangenten** i datorn. Koppla nu metallklämman i den andra änden av denna sladd till någonting som är ledande – en sked till exempel.
 
 ![image alt text](image_3.png)
 
