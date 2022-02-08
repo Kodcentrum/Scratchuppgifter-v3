@@ -1,8 +1,8 @@
-# Hunden och stjärnan - del 1
-I spelet Hunden och Stjärnan skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
-Instruktionen till ur du skapar spelet är uppdelad i 3 delar, här följer del 1.
+# Rymdhunden - del 1
+I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
+Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 1.
 
-Testa ett exempelspel av Hunden och stjärnan - del 1. Klicka på bilden nedan. Starta exempelspelet genom att klicka på gröna flaggan. <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> 
+Testa ett exempelspel av **Rymdhunden - del 1**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)</a>
 
 > **HUR KODAR JAG?** 
@@ -12,21 +12,21 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Välj en hund som sprajt
+## 1: Välj en hund som figur
 
-I verktyget Scratch skapar du projekt med så kallade sprajtar. En **sprajt** är en figur eller andra saker du väljer att lägga in i ditt spel eller projekt. Sprajtar kan se ut hur som helst och kan styras runt på scenen med hjälp av kodblocken i Scratch. 
+I verktyget Scratch skapar du projekt med figurer och bakgrunder. I Scratch kallas figurer för **sprajtar**. Sprajtar kan se ut hur som helst och de kan programmeras att röra på sig och styras runt på scenen med hjälp av kodblocken i Scratch. 
 
-När du öppnar nytt projekt i Scratch visas först en katt som sprajt på en vit bakgrund. Nu ska vi byta ut katten mot en rymdhund, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
+När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katten mot en ny sprajt - en rymdhund. Gör såhär:
 
-1. Tryck på **soptunnan på lilla rutan med kattfiguren** under scenen, så försvinner katten - du har nu tagit bort den ur projektet.
+1. Tryck på **soptunnan på lilla rutan med kattfiguren** under scenen, så försvinner katten-sprajten ur projektet.
 
     ![image alt text](Ta_bort_Sprajt.png) 
 
-2. Nu vill du lägga till en hund istället. Tryck på knappen för **NY SPRAJT** som finns inunder den vita bakgrunden:
+2. Nu vill du lägga till en hund istället. Tryck på knappen för **VÄLJ EN SPRAJT** som finns i nedre högra hörnet under scenen:
 
     ![image alt text](Ny_Sprajt-knapp.png)
 
-En katalog med massa sprajt-figurer dyker upp. I menyn högst upp finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du en hund som ser ut som bilden här nedan. Tryck på hunden så läggs den till i ditt projekt.
+Nu kommer du in i ett bibliotek med många olika sprajt-figurer. Du kan sortera för att enklare hitta. I menyn högst upp finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du en hund som ser ut som bilden här nedan. Tryck på hunden så läggs den till i ditt projekt.
 
     ![image alt text](2_ny_sprajt.png)
     
@@ -34,23 +34,21 @@ En katalog med massa sprajt-figurer dyker upp. I menyn högst upp finns en kateg
 
     ![image alt text](KNAPP_NyBakgrund.png)
 
-Nu har vi en bakgrund och en sprajt. Det är dagx att programmera med kodblocken så att hunden får rörelse!
+Nu har du en bakgrund och en hund-sprajt. Det är dags att programmera med kodblocken så att hunden får rörelse!
 Klicka dig vidare till kapitel 2.
 
 
 ## 2: Få hunden att röra sig
 
-Hunden ska röra på sig. Rörelse skapar du med kodblocken i Scratch. Vi ska koda så att hunden rör sig på scenen och följer efter muspekaren (eller ditt finger om du har touch screen).
+Rörelse skapar du med kodblocken i Scratch. Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm).
 
-1. Hunden ska ha en startposition som den alltid ställer sig på när vi ska starta vårt spel. Bestäm hundens startposition genom att ta tag i hunden på scenens yta och dra den dit du vill att den ska stå när spelet börjar.
+
+
+1. Var ska hunden stå när spelet börjar? Vi ger hunden en startposition som den alltid ställer sig på när spelet börjar. Bestäm hundens startposition genom att dra hunden dit du vill att den ska stå på scenen när spelet börjar.
 
     ![image alt text](3_Scen_Startposition_hund.png)
 
-2. Ovanför scenen med hunden finns en grön flagga och en röd knapp. Det är START- och STOPP-knappar för spelet du bygger.
 
-  ![image alt text](START_STOPP-funktion.png)
-  
-  Om du provar att klicka på den gröna start-flaggan nu, så händer ingenting, hunden rör sig inte. Det är för att vi inte har lagt in kodblock än som talar om för hunden vad den ska göra. Så nu ska vi skapa kod som kopplar gröna startflaggan till hunden.
 
 3. Se först till att din sprajt hunden är aktiverad. Klicka på den lilla bilden av din hundsprajt som finns under scenen, så att den markeras med en blå ram runt (om den inte redan har det). 
 
