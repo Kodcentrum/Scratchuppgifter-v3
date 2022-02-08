@@ -18,31 +18,25 @@ I verktyget Scratch skapar du projekt med figurer och bakgrunder. I Scratch kall
 
 När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katten mot en ny sprajt - en rymdhund. Gör såhär:
 
-1. Tryck på **soptunnan på lilla rutan med kattfiguren** under scenen, så försvinner katten-sprajten ur projektet.
+1. Ta först bort katten ur projektet genom att klicka på **soptunnan på lilla rutan med kattfiguren** under scenen. Lägg sen till en en ny sprajt-figur genom att klicka på den blå knappen **Välj en sprajt**, i nedre högra hörnet. Se bilden nedan.
 
-    ![image alt text](Ta_bort_Sprajt.png) 
+    ![image alt text](Ta_bort_Sprajt_Ny_sprajt.png) 
 
-2. Nu vill du lägga till en hund istället. Tryck på knappen för **VÄLJ EN SPRAJT** som finns i nedre högra hörnet under scenen:
+Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som vår hund i bilden nedan. Tryck på hundbilden så läggs den till i ditt projekt.
 
-    ![image alt text](Ny_Sprajt-knapp.png)
-
-Nu kommer du in i ett bibliotek med många olika sprajt-figurer. Du kan sortera för att enklare hitta. I menyn högst upp finns en kategori som heter **"Djur"**, tryck på den. Bland alla djurbilder hittar du en hund som ser ut som bilden här nedan. Tryck på hunden så läggs den till i ditt projekt.
-
-    ![image alt text](2_ny_sprajt.png)
+    ![image alt text](2_ny_sprajt_.png)
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**.
 
     ![image alt text](KNAPP_NyBakgrund.png)
 
-Nu har du en bakgrund och en hund-sprajt. Det är dags att programmera med kodblocken så att hunden får rörelse!
+Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse!
 Klicka dig vidare till kapitel 2.
 
 
 ## 2: Få hunden att röra sig
 
 Rörelse skapar du med kodblocken i Scratch. Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm).
-
-
 
 1. Var ska hunden stå när spelet börjar? Vi ger hunden en startposition som den alltid ställer sig på när spelet börjar. Bestäm hundens startposition genom att dra hunden dit du vill att den ska stå på scenen när spelet börjar.
 
