@@ -22,81 +22,84 @@ När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katte
 
     ![image alt text](Ta_bort_Sprajt_Ny_sprajt.png) 
 
-Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som vår hund i bilden nedan. Tryck på hundbilden så läggs den till i ditt projekt.
+Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som hunden i bilden nedan. (Du kan även sortera på kategorin Djur.) Tryck på hundbilden så läggs den till i ditt projekt.
 
     ![image alt text](2_ny_sprajt.png) 
     
-3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**.
+3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**. Välj en bakgrund du gillar och tryck på den för att lägga till bakgrunden i projektet.
 
     ![image alt text](KNAPP_NyBakgrund.png)
 
-Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse!
+Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse! Vi är redo att börja programmera.
 Klicka dig vidare till kapitel 2.
 
 
 ## 2: Få hunden att röra sig
 
-Rörelse skapar du med kodblocken i Scratch. Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm).
+Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm). Rörelse skapar du med kodblocken i Scratch. 
 
-1. Var ska hunden stå när spelet börjar? Vi ger hunden en startposition som den alltid ställer sig på när spelet börjar. Bestäm hundens startposition genom att dra hunden dit du vill att den ska stå på scenen när spelet börjar.
+Ser du knapparna ovanför scenen med en grön flagga och en röd knapp? Det är spelets startknapp och stoppknapp. 
+
+    ![image alt text](START_STOPP-funktion.png)
+
+Just nu händer ingenting om du trycker på startflaggan. Det finns nämligen ingen kod som bestämmer vad hunden ska göra om du startar spelet. Vi måste programmera in det. Gör såhär:
+
+1.  Längst till vänster i Scratch hittar du olika färgglada rubriker med en massa kodblock bredvid som ser ut som pusselbitar. Klicka på den gula rubriken som heter **HÄNDELSER** och välj översta pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Dra detta block till skriptytan (den stora tomma, vita ytan i mitten av Scratch) och släpp den där. 
+
+  ![image alt text](5_Skript_HÄNDELSER_NärGrönFlaggaKlickasPå.png)
+  
+2. Nu har du skapat en startknapp. Då ska du lägga in en startposition för hunden, en plats där hunden alltid ska starta på när du börjar spelet. Dra hunden dit du vill att den ska stå på scenen när spelet börjar.
 
     ![image alt text](3_Scen_Startposition_hund.png)
 
-3. Se först till att din sprajt hunden är aktiverad. Klicka på den lilla bilden av din hundsprajt som finns under scenen, så att den markeras med en blå ram runt (om den inte redan har det). 
-
-    ![image alt text](4_sprajtar_markera_hund.png)
-
-4. Längst till vänster i Scratch hittar du olika färgglada rubriker med en massa kodblock bredvid som ser ut som pusselbitar. Klicka på den gula rubriken som heter **HÄNDELSER** och välj översta pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma, vita ytan i mitten av Scratch) och släpp den där. 
-
-  ![image alt text](5_Skript_HÄNDELSER_NärGrönFlaggaKlickasPå.png)
-
-5. Välj sedan den översta mörkblå rubriken som heter **RÖRELSE** och välj blocket som heter **"gå till x:__ , y:__"**. Detta block gör att din hund alltid startar på samma startposition. Lägg detta block direkt under det första blocket med den gröna flaggan på skriptytan och koppla ihop dem som pusselbitar.
+3. Titta på kodblocken. Välj nu den översta mörkblå rubriken som heter **RÖRELSE** och leta fram blocket som heter **"gå till x:__ , y:__"**. Detta block gör att din hund alltid startar på samma startposition. Dra in blocket till skriptytan och lägg det direkt under det första blocket med den gröna flaggan, så att de kopplas ihop som pusselbitar.
 
   ![image alt text](6_Skript_RÖRELSE_Startposition_GåTillXY.png)
   
-6. Nu ska vi lägga till kod som får hunden att röra sig. Under **RÖRELSE** finns blocket **"gå 10 steg"**. Dra in det och fäst det under de andra blocken.
+4. Nu ska vi lägga till kod som får hunden att röra sig framåt. Under rubriken **RÖRELSE** finns blocket **"gå 10 steg"**. Dra in blocket och fäst det under de andra blocken på skriptytan.
 
   ![image alt text](7_Skript_RÖRELSE_Gå10Steg.png)
 
-> **Testa koden!** Tryck på gröna startflaggan ovanför scenen. Flyttar sig hunden lite åt höger? Bra! Nu ska vi koda så att hunden rör sig framåt om och om igen för alltid när spelet startats. Vi kodar vi vidare.
+> **Testa koden!** Tryck på gröna startflaggan ovanför scenen. Flyttar sig hunden lite åt höger? Bra! Vad händer om du trycker flera gånget på startflaggan? Nu ska vi koda så att hunden rör sig framåt om och om igen för alltid när spelet startats. Vi kodar vi vidare.
 
 ## 3: Styra runt hunden 
 Nu vill vi sätta mer fart på hunden - och sedan styra runt den.
 
-1. Klicka på orangea rubriken **KONTROLL** och hitta kodblocket som heter **"för alltid"**. Dra in det på kodytan. Detta block skapar en LOOP, som repeterar andra kodblock så att de utförs om och om igen, för alltid.
+1. Klicka på den orangea rubriken **KONTROLL** och hitta kodblocket som heter **"för alltid"**. Dra in blocket på skriptytan och lägg det löst bredvid de andra blocken. Detta block skapar en LOOP, som repeterar andra kodblock så att de utförs om och om igen, för alltid.
 
   ![image alt text](8_Skript_KONTROLL_FörAlltid.png)
 
-Nu ska vi pussla om i koden så att blocket **"Gå 10 steg"** lägg sin i blocket **"för alltid"** och sen sätta ihop allt igen. Se bilden här under:
+2. Nu ska vi pussla om i koden så att blocket **"Gå 10 steg"** läggs inuti i blocket **"för alltid"**. Sen ska vi sätta ihop alla kodbitar igen. Gör så att det blir som i bilden under:
 
   ![image alt text](9_Skript_Gå10Steg_in_i_Loop.png)
   ![image alt text](10_Skript_LoopInIScript.png)
 
-> **Testa koden!** Tryck på START-flaggan ovanför ditt spel. Nu blir det fart på hunden! Tryck på startflaggan igen, börjar hunden om från sin startposition?. Stoppa hunden (och koden) med den röda knappen.
+> **Testa koden!** Tryck på START-flaggan ovanför ditt spel. Nu blir det fart på hunden! För alltid-loopen repeterar hundens steg, om och om igen, så den springer framåt hela tiden. Tryck på startflaggan igen, börjar hunden om från sin startposition?. Stoppa hunden (och koden) med den röda knappen.
 
-Nu ska vi få hunden att kunna åka runt i spelet.
-
-2. Vi vill att den ska kunna följa muspekaren (eller ditt finger om du har en touch screen) när du drar den över scenen. Vi lägger till ett kodblock till.
-
-Under **RÖRELSE** väljer du blocket som heter **"peka mot muspekare"**. Lägg in det i kodblocket för din **"för alltid"**-loop, så det ser ut som i bilden nedan:
+3. Nu ska vi få hunden att kunna åka runt i spelet. Vi vill att den ska följa efter muspekaren när du drar den över scenen (eller följa efter ditt finger om du har en pekskärm). Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka mot muspekare"**. Lägg in det i kodblocket med din **"för alltid"**-loop, så det ser ut som i bilden nedan:
 
   ![image alt text](11_Skript_RÖRELSE_PekaMotMuspekare.png)
 
-> **Testa koden!** Tryck på START-flaggan och rör din muspekare (eller fingret om du har touch screen) över skärmen. Hunden jagar efter och åker runt. Stoppa koden och hunden med den röda stoppknappen.
+> **Testa koden!** Tryck på START-flaggan och rör din muspekare (eller fingret om du har pekskärm) över skärmen. Hunden jagar efter och åker runt. Stoppa koden och hunden med den röda stoppknappen.
+
+Nu springer hunden runt på scenen, men det går lite fort. Vi kodar vidare.
 
 ## 4: Fixa hastighet och startriktning
 
-1. Springer hunden runt för fort? Du kan sänka hastigheten genom att ändra till en lägre siffra i blocket **"Gå 10 steg"**. Klicka på siffran 10 och skriv istället in förslagsvis siffran 5, så går hunden hälften så fort. 
+1. Springer hunden runt för fort? Du kan sänka hastigheten genom att ändra till en lägre siffra i blå blocket **"Gå 10 steg"**. Klicka på siffran **10** i kodblocket och skriv istället in förslagsvis siffran 5, så går hunden hälften så fort. 
 
   ![image alt text](11b_Kod_ändra_hastighet.png)
 
-2. Vill du att hunden alltid startar  märker du att hunden behåller den riktning som den hade när du avslutade spelet sist. Du kan bestämma vilket håll hunden ska titta åt när spelet startar.
-
-1. Under **RÖRELSE** väljer du blocket som heter **"peka i 90 riktning"**. Lägg in det direkt under startblocket **"När GRÖN FLAGGA klickas på"**.
+2. Du kan koda så att din hund alltid börjar springa i samma riktning när du startar om spelet. Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka i riktning 90"**. Lägg in blocket direkt under startblocket **"När GRÖN FLAGGA klickas på"** på skriptytan.
 
   ![image alt text](12_Skript_RÖRELSE_PekaIRiktning90.png)
+  
+> **Testa koden!** Tryck på START-flaggan och rör din muspekare över scenen. Testa att starta om flera gånger - springer hunden iväg i rätt riktning varje gång? 
 
 
+Tips: Om du vill ändra riktning kan du klicka på siffran 90 i blå kodblocket du just lade in för att ändra. 
+
+  ![image alt text](Kod_andra_riktning.png)
 
 
 ## 7: Känna av när skalbaggen åker av banan
