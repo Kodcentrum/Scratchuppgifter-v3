@@ -24,7 +24,7 @@ När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katte
 
 Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som vår hund i bilden nedan. Tryck på hundbilden så läggs den till i ditt projekt.
 
-    ![image alt text](2_ny_sprajt_.png)
+    ![image alt text](2_ny_sprajt.png)
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**.
 
@@ -41,8 +41,6 @@ Rörelse skapar du med kodblocken i Scratch. Vi ska koda så att hunden rör sig
 1. Var ska hunden stå när spelet börjar? Vi ger hunden en startposition som den alltid ställer sig på när spelet börjar. Bestäm hundens startposition genom att dra hunden dit du vill att den ska stå på scenen när spelet börjar.
 
     ![image alt text](3_Scen_Startposition_hund.png)
-
-
 
 3. Se först till att din sprajt hunden är aktiverad. Klicka på den lilla bilden av din hundsprajt som finns under scenen, så att den markeras med en blå ram runt (om den inte redan har det). 
 
