@@ -112,7 +112,7 @@ Gör såhär:
 
   ![image alt text](Koda_KONTROLL-Om-Då-block.png)
   
-14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
+14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**.  
 Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. 
 
   ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
