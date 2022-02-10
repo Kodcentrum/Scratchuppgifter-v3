@@ -24,7 +24,7 @@ När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katte
 
 Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som vår hund i bilden nedan. Tryck på hundbilden så läggs den till i ditt projekt.
 
-    ![image alt text](2_ny_sprajt.png)
+    ![image alt text](2_ny_sprajt.png) 
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**.
 
