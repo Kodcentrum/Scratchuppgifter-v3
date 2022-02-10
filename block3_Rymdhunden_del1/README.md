@@ -76,30 +76,48 @@ Nu vill vi sätta mer fart på hunden - och sedan styra runt den.
 
 > **Testa koden!** Tryck på START-flaggan ovanför ditt spel. Nu blir det fart på hunden! För alltid-loopen repeterar hundens steg, om och om igen, så den springer framåt hela tiden. Tryck på startflaggan igen, börjar hunden om från sin startposition?. Stoppa hunden (och koden) med den röda knappen.
 
-3. Nu ska vi få hunden att kunna åka runt i spelet. Vi vill att den ska följa efter muspekaren när du drar den över scenen (eller följa efter ditt finger om du har en pekskärm). Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka mot muspekare"**. Lägg in det i kodblocket med din **"för alltid"**-loop, så det ser ut som i bilden nedan:
+3. Springer hunden för fort? Du kan sänka hastigheten genom att ändra till en lägre siffra i blå blocket **"Gå 10 steg"**. Klicka på siffran **10** i kodblocket och skriv istället in förslagsvis siffran 5, så går hunden hälften så fort. 
+
+  ![image alt text](11b_Kod_ändra_hastighet.png)
+
+4. Nu ska vi få hunden att kunna åka runt i spelet. Vi vill att den ska följa efter muspekaren när du drar den över scenen (eller följa efter ditt finger om du har en pekskärm). Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka mot muspekare"**. Lägg in det i kodblocket med din **"för alltid"**-loop, så det ser ut som i bilden nedan:
 
   ![image alt text](11_Skript_RÖRELSE_PekaMotMuspekare.png)
 
 > **Testa koden!** Tryck på START-flaggan och rör din muspekare (eller fingret om du har pekskärm) över skärmen. Hunden jagar efter och åker runt. Stoppa koden och hunden med den röda stoppknappen.
 
-Nu springer hunden runt på scenen, men det går lite fort. Vi kodar vidare.
+Nu springer hunden runt på scenen. Den skulle ju kunna få jaga någonting? Vi kodar vidare.
 
-## 4: Fixa hastighet och startriktning
+## 4: En stjärna att jaga
 
-1. Springer hunden runt för fort? Du kan sänka hastigheten genom att ändra till en lägre siffra i blå blocket **"Gå 10 steg"**. Klicka på siffran **10** i kodblocket och skriv istället in förslagsvis siffran 5, så går hunden hälften så fort. 
+Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan, och när de rör vid varandra, så ska stjärnan försvinna och sen dyka upp på ett nytt ställe. 
 
-  ![image alt text](11b_Kod_ändra_hastighet.png)
+1. Klicka på **Välj ny sprajt** i nedre högra hörnet. Leta fram en gul stjärna. Lägg til lden i projektet genom att klicka på den.
 
-2. Du kan koda så att din hund alltid börjar springa i samma riktning när du startar om spelet. Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka i riktning 90"**. Lägg in blocket direkt under startblocket **"När GRÖN FLAGGA klickas på"** på skriptytan.
-
-  ![image alt text](12_Skript_RÖRELSE_PekaIRiktning90.png)
+  ![image alt text](ny_sprajt_2.png)
   
-> **Testa koden!** Tryck på START-flaggan och rör din muspekare över scenen. Testa att starta om flera gånger - springer hunden iväg i rätt riktning varje gång? 
+**Tips!** Undrar du vart koden du skapat tog vägen? Ingen fara, din nya sprajt stjärnan har ett etet Skriptyta, och du har ju inte lagt in några kodblock på den än, därför är den tom. Men hunden har all sin kod kvar. För att se den kan du växla mellan dina sprajter genom att klicka på de olika små bilderna av dina sprajter under scenen. Testa att klicka på de olika så ser du.
+
+  ![image alt text](Aktivera_olika_sprajtar.png)
+  
+2. Nu ska vi programmera stjärn-sprajten, så den kan gömma sig om den rör vid hunden - och sedan visa sig igen på ett nytt ställe. Vi börjar med att lägga till startknappen. Under gula rubriken **HÄNDELSER** drar du in blocket **När START (göna flaggan) klickas på**. Lägg det på stjärnans skriptyta.
+
+3. Nu ska vi skapa ett såkallat **villkor**. Det är kod som styr att något ska hända **OM** något annat händer. Vi vill skapa villkoret att **OM** hunden rör vid stjärnan, **DÅ** ska stjärnan gömma sig. Koda såhär: Under orangea rubriken **KONTROLL** finns kodblocket **OM <> DÅ**. Dra in blocket och fäst det direkt under startknappens block, så det ser ut såhär:
+
+  ![image alt text](KOD_Villkor.png)
+  
+2. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **Känna av** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det kantiga hålet mellan **OM** och **DÅ**. Se bilden nedan:
+
+  ![image alt text](KOD_VILLKOR_rörvidmuspekare.png)
+  ![image alt text](KOD_VILLKOR_rörvidmuspekare_inlagd.png)
+
+  
 
 
-> **Tips!** Om du vill ändra riktning på hunden då den startar kan du klicka på siffran 90 i det mörkblå kodblocket du just lade in för att ändra. 
 
-  ![image alt text](Kod_andra_riktning.png)
+
+
+
 
 
 ## 7: Känna av när skalbaggen åker av banan
