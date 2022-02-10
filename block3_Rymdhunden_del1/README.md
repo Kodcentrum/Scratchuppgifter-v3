@@ -97,7 +97,7 @@ Nu springer hunden runt på scenen, men det går lite fort. Vi kodar vidare.
 > **Testa koden!** Tryck på START-flaggan och rör din muspekare över scenen. Testa att starta om flera gånger - springer hunden iväg i rätt riktning varje gång? 
 
 
-Tips: Om du vill ändra riktning kan du klicka på siffran 90 i blå kodblocket du just lade in för att ändra. 
+> **Tips!** Om du vill ändra riktning på hunden då den startar kan du klicka på siffran 90 i det mörkblå kodblocket du just lade in för att ändra. 
 
   ![image alt text](Kod_andra_riktning.png)
 
