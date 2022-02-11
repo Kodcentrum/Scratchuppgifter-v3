@@ -107,7 +107,7 @@ Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan, och
 
   ![image alt text](KOD_Villkor.png)
   
-4. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **Känna av** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det hålet mellan **OM** och **DÅ**. Se bilden nedan:
+4. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **KÄNNA AV** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det hålet mellan **OM** och **DÅ**. Se bilden nedan:
 
   ![image alt text](KOD_VILLKOR_rörvidmuspekare.png)
   ![image alt text](KOD_VILLKOR_rörvidmuspekare_inlagd.png)
