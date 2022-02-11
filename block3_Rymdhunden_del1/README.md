@@ -20,16 +20,15 @@ När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katte
 
 1. Ta först bort katten ur projektet genom att klicka på **soptunnan på lilla rutan med kattfiguren** under scenen. Lägg sen till en en ny sprajt-figur genom att klicka på den blå knappen **Välj en sprajt**, i nedre högra hörnet. Se bilden nedan.
 
-    ![image alt text](Ta_bort_Sprajt_Ny_sprajt.png) 
-
+  ![image alt text](Ta_bort_Sprajt_Ny_sprajt.png) 
+    
 Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som hunden i bilden nedan.Tryck på hundbilden så läggs den till.
 
-    ![image alt text](BILD_ny_sprajt_hund.png)
+  ![image alt text](BILD_ny_sprajt_hund.png)
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**. Välj en bakgrund du gillar och tryck på den för att lägga till bakgrunden i projektet.
 
-    ![image alt text](KNAPP_NyBakgrund.png)
-    ![image alt text](BAKGRUND_BlueSky.png)
+  ![image alt text](KNAPP_NyBakgrund.png)![image alt text](BAKGRUND_BlueSky.png)
 
 Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse! Vi är redo att börja programmera.
 Klicka dig vidare till kapitel 2.
@@ -41,7 +40,7 @@ Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspe
 
 Ser du knapparna ovanför scenen med en grön flagga och en röd knapp? Det är spelets startknapp och stoppknapp. 
 
-    ![image alt text](START_STOPP-funktion.png)
+  ![image alt text](START_STOPP-funktion.png)
 
 Just nu händer ingenting om du trycker på startflaggan. Det finns nämligen ingen kod som bestämmer vad hunden ska göra om du startar spelet. Vi måste programmera in det. Gör såhär:
 
