@@ -100,16 +100,58 @@ Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan, och
 
   ![image alt text](Aktivera_olika_sprajtar.png)
   
-2. Nu ska vi programmera stjärn-sprajten, så den kan gömma sig om den rör vid hunden - och sedan visa sig igen på ett nytt ställe. Vi börjar med att lägga till startknappen. Under gula rubriken **HÄNDELSER** drar du in blocket **När START (göna flaggan) klickas på**. Lägg det på stjärnans skriptyta.
+2. Nu ska vi programmera stjärn-sprajten, så den kan gömma sig om den rör vid hunden - och sedan visa sig igen på ett nytt ställe. Vi börjar med att lägga till startknappen. Under gula rubriken **HÄNDELSER** drar du in blocket **När START (gröna flaggan) klickas på**. Lägg det på stjärnans skriptyta.
 
-3. Nu ska vi skapa ett såkallat **villkor**. Det är kod som styr att något ska hända **OM** något annat händer. Vi vill skapa villkoret att **OM** hunden rör vid stjärnan, **DÅ** ska stjärnan gömma sig. Koda såhär: Under orangea rubriken **KONTROLL** finns kodblocket **OM <> DÅ**. Dra in blocket och fäst det direkt under startknappens block, så det ser ut såhär:
+3. Nu ska vi skapa ett så kallat **villkor**. Det är kod som styr att något ska hända **OM** något annat händer. Vi vill skapa villkoret att **OM** hunden rör vid stjärnan, **DÅ** ska stjärnan gömma sig. Koda såhär: Under orangea rubriken **KONTROLL** finns kodblocket **OM <> DÅ**. Dra in blocket och fäst det direkt under startknappens block, så det ser ut såhär:
 
   ![image alt text](KOD_Villkor.png)
   
-2. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **Känna av** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det kantiga hålet mellan **OM** och **DÅ**. Se bilden nedan:
+4. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **Känna av** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det hålet mellan **OM** och **DÅ**. Se bilden nedan:
 
   ![image alt text](KOD_VILLKOR_rörvidmuspekare.png)
   ![image alt text](KOD_VILLKOR_rörvidmuspekare_inlagd.png)
+  
+  
+5. I det ljusblå kodblocket står det **rör vid muspekare**. Men koden ska ju styra om stjärnan rör vid hund-sprajten, inte muspekaren. Vi måste ändra i koden. Kolla först vad din hund-sprajt heter. Du hittar namnet på den lilla bilden av din sprajt under scnene. Hund-sprajten heter **Dot**. 
+
+  ![image alt text](Name_Dog_Dot.png)
+
+Ändra nu i ljusblå kodblocket genom att klicka på ordet **muspekare** och sedan på namnet **Dot** i listan som kommer fram. Nu känner stjärnan av om den rör vid hunden **Dot** istället.
+
+  ![image alt text](KOD_rör_vid_Dot.png)
+  ![image alt text](KOD_rör_vid_Dot_klar.png)
+
+6. Nu ska vi lägga till vad som ska hända när stjärnan och hunden rör vid varandra. Vi vill att stjärnan ska gömma sig, så de försvinner. Under den lila rubriken **UTSEENDE** hittar du kodblocket **Göm**. Dra in det och lägg det inuti ditt villkor, så det ser ut som i bilden nedan.
+
+  ![image alt text](KOD_Star_göm.png)
+  
+>**Testa koden!** Starta spelet och låt hunden springa fram till stjärnan. Vad händer? Försvinner stjärnan. Testa att starta spelet igen. Vad händer med stjärnan?
+
+Nu har vi en stjärna, men den försvinner. Vi måste koda vidare.
+
+
+## 5: Få stjärnan att visa sig
+
+1. Om man startar spelet så försvinner stjärnan när hunden rör vid den, precis som vi kodat. Men ett problem är att stjärnan inte kommer tillbaka när vi startar om spelet igen. Vi måste lägga till kod som får stjärnan att visa sig igen när man startar om spelet. Under rubriken **UTSEENDE** finns kodblocket **Visa**. Lägg in det direkt under startblocket **När START (grön flagga) klickas på**. 
+
+  ![image alt text](KOD_Star_Visa_start.png)
+  
+>**Testa koden!** Starta spelet och se vad som händer. Kommer stjärnan tillbaka?
+
+2. Nu har vi stjärnan synlig igen. Men vi vill att den ska dyka upp på en ny plats så hunden får jaga efter stjärnan hela tiden. Under rubriken **RÖRELSE** finns kodblocket **gå till slumpmässig position**. Dra in blocket och lägg det inuti villkoret under **Visa**-blocket. 
+
+  ![image alt text](KOD_Star_slumpposition.png)
+  
+3. Nu ska vi se till att stjärnan visar sig på sin nya plats. Från rubriken **UTSEENDE** drar du in ett till **Visa**-block och lägger det inuti villkoret direkt under **gå till slumpmässig position**.
+
+  ![image alt text](KOD_Star_Visa_igen.png)
+  
+>**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer? Dyker stjärnan upp på nya platser?
+
+jkk
+jk
+
+
 
   
 
@@ -120,30 +162,7 @@ Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan, och
 
 
 
-## 7: Känna av när skalbaggen åker av banan
 
-Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför banan. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
-
-Gör såhär:
-
-13. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
-
-  ![image alt text](Koda_KONTROLL-Om-Då-block.png)
-  
-14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. 
-Dra in detta block till hålet **<>** inom blocket "**om <> då**" som du lagt på scriptytan. 
-
-  ![image alt text](Koda_Exempelscript_KÄNNA_AV-Rör_vid_färgen-block_i_OM__DÅ-block.png)
-
-Kolla att lilla ovala cirkeln med färg till höger om texten **"rör färgen"** i ditt script är exakt samma färg som spelets bakgrundsfärg. Byt annars genom att klicka med muspekaren på den lilla färgcirkeln och välj den lilla symbolen med en pimpett längst ned. Klicka sedan med den på spelets bakgrundsfärg, så blir det rätt färg i kodblockets cirkel. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
-
-  ![image alt text](Känna_av_byt_färg_pimpett.png)
-
-15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under rubriken  **UTSEENDE** väljer du blocket **"säg Hej! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hej!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
-
-  ![image alt text](Koda_UTSEENDE-Säg__i_2_sekunder.png)
-
-> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
 
 
 ## 8: Göra klart skriptet
