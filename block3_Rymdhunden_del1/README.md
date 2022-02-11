@@ -28,7 +28,7 @@ Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt so
     
 3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**. Välj en bakgrund du gillar och tryck på den för att lägga till bakgrunden i projektet.
 
-    ![image alt text](KNAPP_NyBakgrund.png)
+    ![image alt text](KNAPP_NyBakgrund.png)      ![image alt text](BAKGRUND_BlueSky.png)
 
 Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse! Vi är redo att börja programmera.
 Klicka dig vidare till kapitel 2.
@@ -63,6 +63,7 @@ Just nu händer ingenting om du trycker på startflaggan. Det finns nämligen in
 > **Testa koden!** Tryck på gröna startflaggan ovanför scenen. Flyttar sig hunden lite åt höger? Bra! Vad händer om du trycker flera gånget på startflaggan? Nu ska vi koda så att hunden rör sig framåt om och om igen för alltid när spelet startats. Vi kodar vi vidare.
 
 ## 3: Styra runt hunden 
+
 Nu vill vi sätta mer fart på hunden - och sedan styra runt den.
 
 1. Klicka på den orangea rubriken **KONTROLL** och hitta kodblocket som heter **"för alltid"**. Dra in blocket på skriptytan och lägg det löst bredvid de andra blocken. Detta block skapar en LOOP, som repeterar andra kodblock så att de utförs om och om igen, för alltid.
