@@ -1,6 +1,6 @@
-# Rymdhunden - del 1
+# Rymdhunden - del 2
 I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
-Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 1.
+Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du instruktionen till del 1 här.) <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> Hej på dej</a>
 
 Testa ett exempelspel av **Rymdhunden - del 1**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)</a>
