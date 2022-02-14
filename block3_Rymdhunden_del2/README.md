@@ -1,9 +1,9 @@
 # Rymdhunden - del 2
 I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
-Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till del 1 här</a> .)
+Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a>.)
 
-Testa ett exempelspel av **Rymdhunden - del 1**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/631259076" target="_blank"> 
-  ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)</a>
+Testa ett exempelspel av **Rymdhunden - del 2**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a https://scratch.mit.edu/projects/643992517" target="_blank"> 
+  ![Exempelprojekt i Scratch för spelet Rymdhunden - del 2](Exempelspel_Rymdhunden_del2.png)</a>
 
 > **HUR KODAR JAG?** 
 </br>
@@ -12,27 +12,49 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Välj en hund som figur
+## 1: Skapa en poängräknare
 
-I verktyget Scratch skapar du projekt med figurer och bakgrunder. I Scratch kallas figurer för **sprajtar**. Sprajtar kan se ut hur som helst och de kan programmeras att röra på sig och styras runt på scenen med hjälp av kodblocken i Scratch. 
+I **Rymdhunden del 1** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna. När hunden fångade stjärnan gömde sig stjärnan och dök sen upp på en ny plats igen. 
 
-När du öppnar Scratch finns alltid en katt som sprajt. Nu ska vi byta ut katten mot en ny sprajt - en rymdhund. Gör såhär:
+  ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
-1. Ta först bort katten ur projektet genom att klicka på **soptunnan på lilla rutan med kattfiguren** under scenen. Lägg sen till en en ny sprajt-figur genom att klicka på den blå knappen **Välj en sprajt**, i nedre högra hörnet. Se bilden nedan.
 
-  ![image alt text](Ta_bort_Sprajt_Ny_sprajt.png) 
-    
-Nu öppnas ett bibliotek med många olika sprajt-figurer. Leta fram en sprajt som ser ut som hunden i bilden nedan.Tryck på hundbilden så läggs den till.
+Nu ska vi skapa en poängräknare, så att hunden får ett poäng varje gång den fångar stjärnan.
 
-  ![image alt text](BILD_ny_sprajt_hund.png)
-    
-3. Nu ska vi lägga till en ny bakgrund i projektet. Klicka på knappen längst ned till höger som heter **"Välj en bakgrund"**. Välj en bakgrund du gillar och tryck på den för att lägga till bakgrunden i projektet.
+En Poängräknare skapar vi genom att programmera en så kallad variabel. Du kan föreställa dig att variabeln är som en låda som samlar in alla poängen hunden får och håller räkningen på dem.
 
-  ![image alt text](KNAPP_NyBakgrund.png)![image alt text](BAKGRUND_BlueSky.png)
+1. Först ska vi skapa en ny variabel. Välj den mörk-orangea rubriken till vänster som heter **VARIABLER** och klicka på den vita rutan överst som det står **"Skapa en variabel"** på. 
 
-Nu har du en bakgrund och en hundsprajt. Det är dags att programmera med kodblocken så att hunden får rörelse! Vi är redo att börja programmera.
-Klicka dig vidare till kapitel 2.
+  ![image alt text](Poängräknare_Skapaenvariabel1.png)
+  
+2. Variablen ska heta Poäng, så skriv ordet **Poäng** i rutan som kommer upp. Klicka på OK.
 
+  ![image alt text](Poängräknare_Skapaenvariabel1.png)
+
+Nu kan du se att du skapat en ny variabel som heter **Poäng**.
+
+  ![image alt text](Bild_NyVariabelSkapad.png)
+  
+3. Nu ska vi lägga lägga in koden. Poängräknaren lägger vi på scenens skriptyta, istället för på sprajtarna. Börja med att aktivera scenen, så den blir blåmarkerad. 
+
+  ![image alt text](aktivera_bakgrund_scen.png)
+  
+4. Från rubriken **HÄNDELSER** drar du in ett startblock med **När START (grön flagga) klickas på** och lägger på scenens tomma skriptyta.
+
+  ![image alt text](Poängräknare_KOD_Startblock1.png)
+  
+5. Vi vill att poängräknaren alltid ska starta på siffran 0 när du startar spelet. Därför kodar vi att räknaren "nollas" direkt efter start. Under rubriken **VARIABLER** finner du kodblocket **sätt min variabel till 0**. Dra in blocket på skriptytan och fäst det direkt under startblocket med gröna flaggan.
+
+  ![image alt text](Poängräknare_KOD_Variabel2.png)
+  
+6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja din skapade variabel **Poäng** i menyn. Då står det **sätt Poäng till 1**.
+
+  ![image alt text](Poängräknare_KOD_Variabel3.png)
+  ![image alt text](Poängräknare_KOD_Variabel4.png)  
+  
+7. jfkdsfkndkfnkkf
+8. fndsjfnkdnkdf
+9. bsdjkfksd
 
 ## 2: Få hunden att röra sig
 
