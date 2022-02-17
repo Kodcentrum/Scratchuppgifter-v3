@@ -1,8 +1,8 @@
-# Rymdhunden - del 2
+# Rymdhunden - del 3
 I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
-Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a>.)
+Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 3. (Om du inte redan gjort första och andra delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a> och del 2 här.)
 
-Testa ett exempelspel av **Rymdhunden - del 2**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/643992517" target="_blank"> 
+Testa ett exempelspel av **Rymdhunden - del 3**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/643992517" target="_blank"> 
   ![Exempelprojekt i Scratch för spelet Rymdhunden - del 2](Exempelspel_Rymdhunden_del2.png)</a>
 
 
@@ -13,18 +13,16 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Skapa en poängräknare
+## 1: Lägg till en rymdraket-sprajt
 
-I **Rymdhunden del 1** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna. När hunden fångade stjärnan gömde sig stjärnan och dök sen upp på en ny plats igen. 
+I **Rymdhunden del 1 och del 2** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna och en poängräknare som gick till 5. Sen kommer man till en ny bana. Där börjar del 3 som vi ska programmera vidare på nu. 
 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
 
-Nu i **Rymdhunden - del 2** ska vi skapa en poängräknare, så att vi får ett poäng varje gång hunden fångar stjärnan.
+I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en rymdraket, som släpper bollar du ska fånga för poäng, men akta dig för blixtarna som raketen släpper - de gör dig Game Over!
 
-En Poängräknare skapar vi genom att programmera en så kallad **variabel**. Du kan föreställa dig att en variabel är som en låda som samlar in alla poäng vi får och håller räkningen på antalet under spelets gång.
-
-1. Först ska vi skapa en ny variabel. Välj den mörk-orangea rubriken till vänster som heter **VARIABLER** och klicka på den vita rutan överst som det står **"Skapa en variabel"** på. 
+1. Först lägger vi till den nya sprajten - en rymdraket. Tryck på knappen **Välj en sprajt** längst ned och leka fram sprajten Välj den mörk-orangea rubriken till vänster som heter **VARIABLER** och klicka på den vita rutan överst som det står **"Skapa en variabel"** på. 
 
   ![image alt text](Poängräknare_Skapaenvariabel1.png)
   
