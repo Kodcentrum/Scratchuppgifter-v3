@@ -19,9 +19,9 @@ I **Rymdhunden del 1** skapade vi början till spelet, där vi programmerade en 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
 
-Nu ska vi skapa en poängräknare, så att hunden får ett poäng varje gång den fångar stjärnan.
+Nu i **Rymdhunden - del 2** ska vi skapa en poängräknare, så att vi får ett poäng varje gång hunden fångar stjärnan.
 
-En Poängräknare skapar vi genom att programmera en så kallad variabel. Du kan föreställa dig att variabeln är som en låda som samlar in alla poängen hunden får och håller räkningen på dem.
+En Poängräknare skapar vi genom att programmera en så kallad **variabel**. Du kan föreställa dig att en variabel är som en låda som samlar in alla poäng vi får och håller räkningen på antalet under spelets gång.
 
 1. Först ska vi skapa en ny variabel. Välj den mörk-orangea rubriken till vänster som heter **VARIABLER** och klicka på den vita rutan överst som det står **"Skapa en variabel"** på. 
 
@@ -29,13 +29,13 @@ En Poängräknare skapar vi genom att programmera en så kallad variabel. Du kan
   
 2. Variablen ska heta Poäng, så skriv ordet **Poäng** i rutan som kommer upp. Klicka på OK.
 
-  ![image alt text](Poängräknare_Skapaenvariabel1.png)
+  ![image alt text](Poängräknare_Skapaenvariabel2.png)
 
 Nu kan du se att du skapat en ny variabel som heter **Poäng**.
 
   ![image alt text](Bild_NyVariabelSkapad.png)
   
-3. Nu ska vi lägga lägga in koden. Poängräknaren lägger vi på scenens skriptyta, istället för på sprajtarna. Börja med att aktivera scenen, så den blir blåmarkerad. 
+3. Dags att programmera in den i spelet. Poängräknarens kodblock lägger vi på scenens skriptyta, istället för på sprajtarnas. Börja därför med att aktivera scenen, så den blir blåmarkerad. 
 
   ![image alt text](aktivera_bakgrund_scen.png)
   
@@ -47,16 +47,113 @@ Nu kan du se att du skapat en ny variabel som heter **Poäng**.
 
   ![image alt text](Poängräknare_KOD_Variabel2.png)
   
-6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja din skapade variabel **Poäng** i menyn. Då står det **sätt Poäng till 1**.
+6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja din skapade variabel **Poäng** i menyn. Då står det **sätt Poäng till 0**.
 
   ![image alt text](Poängräknare_KOD_Variabel3.png)
   ![image alt text](Poängräknare_KOD_Variabel4.png)  
   
-7. jfkdsfkndkfnkkf
-8. fndsjfnkdnkdf
-9. bsdjkfksd
+Nu har vi skapat en poängräknare som alltid börjar på 0 poäng vid start. Men hur ska vi få poäng? Vi kodar vidare.
 
-## 2: Få hunden att röra sig
+## 2: Ge poäng i spelet
+Nu ska vi koda in hur poängen ska ges i spelet. Vi vill få ett poäng varje gång hunden fångar stjärnan. 
+
+1. Stjärnans sprajt känner av när hunden rör vid den. Vi kan  då låta stjärnan skicka ett poäng till poängräknaren samtidigt. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
+2. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret, direkt under röresleblocket **gå till slumpnässig position**.
+
+  ![image alt text](Poäng_KOD_Star_gePoäng1.png)  
+  
+3. Ändra i blocket så att det blir rätt variabel. Det ska stå **ändra Poäng till 1**.
+
+  ![image alt text](Poäng_KOD_Star_gePoäng3.png)  
+
+>**Testa koden!** Starta spelet och se om du får poäng när hunden fångar stjärnan? Fungerar poängräknaren? Om inte, dubbelkolla att du ändrat i blocken så att du har rätt variabel - alltså den som heter **Poäng**.
+
+Nu har vi en poängräknare som ger poäng. Men vi vill att någoit ska hända när vi får 5 poäng. Vi kodar vidare!
+
+## 3: Sätt en poänggräns
+
+Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bakgrund och gå till nästa level. Då passar ett villkor bra att använda - Om.. Då. Vi kodar vidare!
+
+1. Vi går tillbaka till scenen med bakgrunden, där vår koden för vår poängräknare ligger. Aktivera **Scenen** för att öppna dess skriptyta. 
+2. Först behöver vi skapa en **loop**. Under rubriken **KONTROLL** finns loop-blocket **för alltid**. Dra in blocket och fäst det direkt under **sätt Poäng till 0**.
+
+  ![image alt text](Poäng_Loop_0.png)  
+  
+3. Nu ska vi lägga in ett villkorsblock inuti loopen. Under rubriken **KONTROLL** finns blocket **Om <> Då**. Dra in det och lägg inuti loopen. 
+
+  ![image alt text](Poäng_Villkor_1.png)  
+  
+4. I det kantiga hålet i villkorsblocket ska vi lägga en operator. Under gröna rubriken **OPERATOR** finns ett kantigt block som innehåller tecknet **>**, alltså tecknet för **större än**. Dra in blocket och lägg i hålet mellan **OM <> DÅ** som i bilden nedan. (Var noga med att tecknet i blocket pekar åt rätt håll, alltså **>**.)
+
+  ![image alt text](Poäng_Villkor_Operator2.png)
+  
+5. Nu ska vi lägga in att villkoret läser av när poängräknaren fått 5 poäng. Under rubriken **VARIABLER** finns din skapade **Poäng**, som ett ovalt block högt upp. Dra inblocket och lägg i den första vida cirkeln i den gröna operatorn.
+
+  ![image alt text](Poäng_Villkor_Operator3.png)
+  
+6. Ändra sedan siffran i operatorn till 5.
+
+  ![image alt text](Poäng_Villkor_Operator4.png)
+  
+Nu har vi satt en gräns för hur många poäng vi kan få i villkoret. Men vad ska hända?
+  
+
+## 4: Skicka meddelande
+
+Vi vill att när vi fått 5 poäng, då ska vi byta till nästa level och stjärnan ska gömma sig.
+
+1. Vi lägger in ett meddelande-block. Under rubriken **HÄNDELSER** finns kodblocket **skicka meddelande 1**. Dra in blocket på scenens skriptyta och lägg det inuti villkoret du just skapat. 
+
+  ![image alt text](Poäng_Villkor_meddelande1.png)
+  
+2. Nu ska vi skapa det nya meddelandet. Klicka på texten **meddelande 1** i blocket du just lade in. Klicka på **Nytt meddelande**. 
+
+  ![image alt text](Poäng_Villkor_meddelande2.png)
+  
+3. Döp ditt meddelande till något som den ska hantera, exempelvis **byt bana**. Tryck sedan på **OK**.
+
+  ![image alt text](Poäng_Villkor_meddelande3.png)
+  
+4. Nu står det **skicka byt bana** i blocket. Nu ska vi ordna så att när meddelandet skickas, då ska stjärn-sprajten ta emot meddelandet och gömma sig. Klicka på lilla bilden av stjärn-sprajten för att programmera stjärnan. Under rubriken **HÄNDELSER** finns blocket **När jag tar emot ___** (I vårt block står det **byt bana**, men kanske det står meddelande 1 eller vad du döpte ditt meddelande till.) Dra in blocket och lägg det fritt på stjärnans skriptyta. 
+
+  ![image alt text](KOD_Meddelande_Star_BytBana1_Närjagtaremot.png)
+  
+5. Nu lägger vi till ett block så att stjärnan gömmer sig. Under rubriken **UTSEENDE** finns blocket **Göm**. Lägg det direkt under meddelandeblocket.
+
+  ![image alt text](KOD_Star_Meddelande_1.png)
+  
+
+>**Testa koden!** Testa spelet, vad händer när du fångat 5 stjärnor? Gömmer sig stjärnan? 
+
+
+## 5: Ny bana med ny bakgrund
+
+Nu vill vi bara att bakgrunden ska ändras när ny bana startas. 
+
+1. Klicka på knappen **Välj en bakgrund** längst ned i högra hörnet.
+2. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
+
+  ![image alt text](Bakgrund_rymd.png)
+  
+3. Nu ska vi koda så att nya bakgrunden visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finner du in kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annant namn). Lägg blocket inuti villkoret på bakgrundens skriptyta. 
+
+  ![image alt text](KOD_Bakgrund_Byt1.png) 
+
+3. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan)** klickas på.
+
+  ![image alt text](KOD_Bakgrund_Startbakgrund1.png) 
+  
+Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
+
+  ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
+
+
+
+
+
+
+
+## 3: Få hunden att röra sig
 
 Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm). Rörelse skapar du med kodblocken i Scratch. 
 
