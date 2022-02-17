@@ -2,8 +2,9 @@
 I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
 Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a>.)
 
-Testa ett exempelspel av **Rymdhunden - del 2**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a https://scratch.mit.edu/projects/643992517" target="_blank"> 
+Testa ett exempelspel av **Rymdhunden - del 2**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/643992517" target="_blank"> 
   ![Exempelprojekt i Scratch för spelet Rymdhunden - del 2](Exempelspel_Rymdhunden_del2.png)</a>
+
 
 > **HUR KODAR JAG?** 
 </br>
@@ -57,7 +58,10 @@ Nu har vi skapat en poängräknare som alltid börjar på 0 poäng vid start. Me
 ## 2: Ge poäng i spelet
 Nu ska vi koda in hur poängen ska ges i spelet. Vi vill få ett poäng varje gång hunden fångar stjärnan. 
 
-1. Stjärnans sprajt känner av när hunden rör vid den. Vi kan  då låta stjärnan skicka ett poäng till poängräknaren samtidigt. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
+1. Stjärnans sprajt känner av när hunden rör vid den. Då kan stjärnan även få skicka ett poäng till poängräknaren. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
+
+  ![image alt text](aktivera_star.png)  
+  
 2. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret, direkt under röresleblocket **gå till slumpnässig position**.
 
   ![image alt text](Poäng_KOD_Star_gePoäng1.png)  
@@ -146,130 +150,11 @@ Nu vill vi bara att bakgrunden ska ändras när ny bana startas.
 Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
 
   ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
-
-
-
-
-
-
-
-## 3: Få hunden att röra sig
-
-Vi ska koda så att hunden rör sig på scenens bakgrund och följer efter muspekaren (eller ditt finger om du har pekskärm). Rörelse skapar du med kodblocken i Scratch. 
-
-Ser du knapparna ovanför scenen med en grön flagga och en röd knapp? Det är spelets startknapp och stoppknapp. 
-
-  ![image alt text](START_STOPP-funktion.png)
-
-Just nu händer ingenting om du trycker på startflaggan. Det finns nämligen ingen kod som bestämmer vad hunden ska göra om du startar spelet. Vi måste programmera in det. Gör såhär:
-
-1.  Längst till vänster i Scratch hittar du olika färgglada rubriker med en massa kodblock bredvid som ser ut som pusselbitar. Klicka på den gula rubriken som heter **HÄNDELSER** och välj översta pusselbiten med en grön flagga på som är blocket för: **"när START (gröna flaggan) klickas på"**. Dra detta block till skriptytan (den stora tomma, vita ytan i mitten av Scratch) och släpp den där. 
-
-  ![image alt text](5_Skript_HÄNDELSER_NärGrönFlaggaKlickasPå.png)
   
-2. Nu har du skapat en startknapp. Då ska du lägga in en startposition för hunden, en plats där hunden alltid ska starta på när du börjar spelet. Dra hunden dit du vill att den ska stå på scenen när spelet börjar.
-
-    ![image alt text](3_Scen_Startposition_hund.png)
-
-3. Titta på kodblocken. Välj nu den översta mörkblå rubriken som heter **RÖRELSE** och leta fram blocket som heter **"gå till x:__ , y:__"**. Detta block gör att din hund alltid startar på samma startposition. Dra in blocket till skriptytan och lägg det direkt under det första blocket med den gröna flaggan, så att de kopplas ihop som pusselbitar.
-
-  ![image alt text](6_Skript_RÖRELSE_Startposition_GåTillXY.png)
-  
-4. Nu ska vi lägga till kod som får hunden att röra sig framåt. Under rubriken **RÖRELSE** finns blocket **"gå 10 steg"**. Dra in blocket och fäst det under de andra blocken på skriptytan.
-
-  ![image alt text](7_Skript_RÖRELSE_Gå10Steg.png)
-
-> **Testa koden!** Tryck på gröna startflaggan ovanför scenen. Flyttar sig hunden lite åt höger? Bra! Vad händer om du trycker flera gånget på startflaggan? Nu ska vi koda så att hunden rör sig framåt om och om igen för alltid när spelet startats. Vi kodar vi vidare.
-
-## 3: Styra runt hunden 
-
-Nu vill vi sätta mer fart på hunden - och sedan styra runt den.
-
-1. Klicka på den orangea rubriken **KONTROLL** och hitta kodblocket som heter **"för alltid"**. Dra in blocket på skriptytan och lägg det löst bredvid de andra blocken. Detta block skapar en LOOP, som repeterar andra kodblock så att de utförs om och om igen, för alltid.
-
-  ![image alt text](8_Skript_KONTROLL_FörAlltid.png)
-
-2. Nu ska vi pussla om i koden så att blocket **"Gå 10 steg"** läggs inuti i blocket **"för alltid"**. Sen ska vi sätta ihop alla kodbitar igen. Gör så att det blir som i bilden under:
-
-  ![image alt text](9_Skript_Gå10Steg_in_i_Loop.png)
-  ![image alt text](10_Skript_LoopInIScript.png)
-
-> **Testa koden!** Tryck på START-flaggan ovanför ditt spel. Nu blir det fart på hunden! För alltid-loopen repeterar hundens steg, om och om igen, så den springer framåt hela tiden. Tryck på startflaggan igen, börjar hunden om från sin startposition?. Stoppa hunden (och koden) med den röda knappen.
-
-3. Springer hunden för fort? Du kan sänka hastigheten genom att ändra till en lägre siffra i blå blocket **"Gå 10 steg"**. Klicka på siffran **10** i kodblocket och skriv istället in förslagsvis siffran 5, så går hunden hälften så fort. 
-
-  ![image alt text](11b_Kod_ändra_hastighet.png)
-
-4. Nu ska vi få hunden att kunna åka runt i spelet. Vi vill att den ska följa efter muspekaren när du drar den över scenen (eller följa efter ditt finger om du har en pekskärm). Under mörkblå rubriken **RÖRELSE** väljer du blocket som heter **"peka mot muspekare"**. Lägg in det i kodblocket med din **"för alltid"**-loop, så det ser ut som i bilden nedan:
-
-  ![image alt text](11_Skript_RÖRELSE_PekaMotMuspekare.png)
-
-> **Testa koden!** Tryck på START-flaggan och rör din muspekare (eller fingret om du har pekskärm) över skärmen. Hunden jagar efter och åker runt. Stoppa koden och hunden med den röda stoppknappen.
-
-Nu springer hunden runt på scenen. Den skulle ju kunna få jaga någonting? Vi kodar vidare.
-
-## 4: En stjärna att jaga
-
-Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan, och när de rör vid varandra, så ska stjärnan försvinna och sen dyka upp på ett nytt ställe. 
-
-1. Klicka på **Välj ny sprajt** i nedre högra hörnet. Leta fram en gul stjärna. Lägg til lden i projektet genom att klicka på den.
-
-  ![image alt text](ny_sprajt_2.png)
-  
-**Tips!** Undrar du vart koden du skapat tog vägen? Ingen fara, din nya sprajt stjärnan har en egen skriptyta och du har inte lagt in några kodblock där än, därför är den tom. Men hunden har all sin kod kvar. För att se hundens skriptyta med din kod kan du växla mellan dina sprajter genom att klicka på de olika små bilderna av dina sprajter under scenen. Testa att klicka på de olika så ser du.
-
-  ![image alt text](Aktivera_olika_sprajtar.png)
-  
-2. Nu ska vi programmera stjärn-sprajten, så den kan gömma sig om den rör vid hunden - och sedan visa sig igen på ett nytt ställe. Vi börjar med att lägga till startknappen. Se till att du har din stjärn-sprajt aktiverad, så att du kodar rätt sprajt. Under gula rubriken **HÄNDELSER** drar du in blocket **När START (gröna flaggan) klickas på**. Lägg det på stjärnans skriptyta.
-
-3. Nu ska vi skapa ett så kallat **villkor**. Det är kod som styr att något ska hända **OM** något annat händer. Vi vill skapa ett villkor som säger att **OM** hunden rör vid stjärnan, **DÅ** ska stjärnan gömma sig. Koda såhär: Under orangea rubriken **KONTROLL** finns kodblocket **OM <> DÅ**. Dra in blocket och fäst det direkt under startknappens block, så det ser ut såhär:
-
-  ![image alt text](KOD_Villkor.png)
-  
-4. Ser du det kantiga hålet i kodblocket mellan **OM** och **DÅ**? Där kan vi lägga in vad stjärnan ska känna av som rör vid den. Vi vill att stjärnan ska känna om hunden rör vid den. Under den ljusblå rubriken **KÄNNA AV** finns kodblocket **rör vid muspekare**. Dra in blocket och lägg in det i det hålet mellan **OM** och **DÅ**. Se bilden nedan:
-
-  ![image alt text](KOD_VILLKOR_rörvidmuspekare.png)
-  ![image alt text](KOD_VILLKOR_rörvidmuspekare_inlagd.png)
-  
-  
-5. I det ljusblå kodblocket står det **rör vid muspekare**. Men koden ska ju styra om stjärnan rör vid hund-sprajten, inte muspekaren. Vi måste ändra i koden. Kolla först vad din hund-sprajt heter. Du hittar namnet på den lilla bilden av din sprajt under scnene. Hund-sprajten heter **Dot**. 
-
-  ![image alt text](Name_Dog_Dot.png)
-
-Ändra nu i ljusblå kodblocket genom att klicka på ordet **muspekare** och sedan på namnet **Dot** i listan som kommer fram. Nu känner stjärnan av om den rör vid hunden **Dot** istället.
-
-  ![image alt text](KOD_rör_vid_Dot.png)
-  ![image alt text](KOD_rör_vid_Dot_klar.png)
-
-6. Nu ska vi lägga till vad som ska hända när stjärnan och hunden rör vid varandra. Vi vill att stjärnan ska gömma sig, så de försvinner. Under den lila rubriken **UTSEENDE** hittar du kodblocket **Göm**. Dra in det och lägg det inuti ditt villkor, så det ser ut som i bilden nedan.
-
-  ![image alt text](KOD_Star_göm.png)
-  
->**Testa koden!** Starta spelet och låt hunden springa fram till stjärnan. Vad händer? Försvinner stjärnan. Testa att starta spelet igen. Vad händer med stjärnan?
-
-Nu har vi en stjärna, men den försvinner. Vi måste koda vidare.
-
-
-## 5: Få stjärnan att visa sig
-
-1. Om man startar spelet så försvinner stjärnan när hunden rör vid den, precis som vi kodat. Men ett problem är att stjärnan inte kommer tillbaka när vi startar om spelet igen. Vi måste lägga till kod som får stjärnan att visa sig igen när man startar om spelet. Under rubriken **UTSEENDE** finns kodblocket **Visa**. Lägg in det direkt under startblocket **När START (grön flagga) klickas på**. 
-
-  ![image alt text](KOD_Star_Visa_start.png)
-  
->**Testa koden!** Starta spelet och se vad som händer. Kommer stjärnan tillbaka?
-
-2. Nu har vi stjärnan synlig igen. Men vi vill att den ska dyka upp på en ny plats så hunden får jaga efter stjärnan hela tiden. Under rubriken **RÖRELSE** finns kodblocket **gå till slumpmässig position**. Dra in blocket och lägg det inuti villkoret under **Visa**-blocket. 
-
-  ![image alt text](KOD_Star_slumpposition.png)
-  
-3. Nu ska vi se till att stjärnan visar sig på sin nya plats. Från rubriken **UTSEENDE** drar du in ett till **Visa**-block och lägger det inuti villkoret direkt under **gå till slumpmässig position**.
-
-  ![image alt text](KOD_Star_Visa_igen.png)
-  
->**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer? Dyker stjärnan upp på nya platser igen?
+>**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
 ## Färdig!
-Grattis, nu har du skapat första delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 2**. 
+Grattis, nu har du skapat den andra delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 3**. 
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
@@ -282,10 +167,9 @@ Visa gärna ditt spel och låt andra testa. Om du vill, tryck på knappen DELA s
 
 ## Frågeställningar
 
-* Vad är en sprajt?
-
-* Vad är en loop?
-
-* Varför kan det vara bra att använda en loop?
-
 * Vad gör ett villkor? 
+
+* Vad är en variabel?
+
+* Vad är ett meddelande?
+
