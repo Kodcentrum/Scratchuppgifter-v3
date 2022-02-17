@@ -55,31 +55,37 @@ Nu kan du se att du skapat en ny variabel som heter **Poäng**.
   
 Nu har vi skapat en poängräknare som alltid börjar på 0 poäng vid start. Men hur ska vi få poäng? Vi kodar vidare.
 
+
 ## 2: Ge poäng i spelet
+
 Nu ska vi koda in hur poängen ska ges i spelet. Vi vill få ett poäng varje gång hunden fångar stjärnan. 
 
 1. Stjärnans sprajt känner av när hunden rör vid den. Då kan stjärnan även få skicka ett poäng till poängräknaren. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
 
   ![image alt text](aktivera_star.png)  
   
-2. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret, direkt under röresleblocket **gå till slumpnässig position**.
+2. Under rubriken **VARIABLER** finns blocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret under det blå blocket, så det ser ut som i bilden nedan.
 
   ![image alt text](Poäng_KOD_Star_gePoäng1.png)  
   
-3. Ändra i blocket så att det blir rätt variabel. Det ska stå **ändra Poäng till 1**.
+3. Ändra i blocket så att det blir rätt variabel. Klick på texten **min variabel** och byt till **Poäng**. Nu står det **ändra Poäng till 1**.
 
   ![image alt text](Poäng_KOD_Star_gePoäng3.png)  
 
 >**Testa koden!** Starta spelet och se om du får poäng när hunden fångar stjärnan? Fungerar poängräknaren? Om inte, dubbelkolla att du ändrat i blocken så att du har rätt variabel - alltså den som heter **Poäng**.
 
-Nu har vi en poängräknare som ger poäng. Men vi vill att någoit ska hända när vi får 5 poäng. Vi kodar vidare!
+Nu har vi en poängräknare som ger poäng. Men vi vill att något ska hända när vi får 5 poäng. Vi kodar vidare!
+
 
 ## 3: Sätt en poänggräns
 
-Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bakgrund och gå till nästa level. Då passar ett villkor bra att använda - Om.. Då. Vi kodar vidare!
+Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bakgrund och gå till nästa bana. Då passar ett villkor bra att använda. Vi kodar vidare!
 
-1. Vi går tillbaka till scenen med bakgrunden, där vår koden för vår poängräknare ligger. Aktivera **Scenen** för att öppna dess skriptyta. 
-2. Först behöver vi skapa en **loop**. Under rubriken **KONTROLL** finns loop-blocket **för alltid**. Dra in blocket och fäst det direkt under **sätt Poäng till 0**.
+1. Först väljer vi scenen med bakgrunden, där koden för vår poängräknare ligger. Klicka på den lilla bilden av scenen för att aktivera den.
+
+  ![image alt text](aktivera_bakgrund_scen.png)  
+  
+2. Först behöver vi skapa en **loop**. Under rubriken **KONTROLL** finns loop-blocket **för alltid**. Dra in blocket och fäst det under **sätt Poäng till 0**.
 
   ![image alt text](Poäng_Loop_0.png)  
   
@@ -87,7 +93,7 @@ Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bak
 
   ![image alt text](Poäng_Villkor_1.png)  
   
-4. I det kantiga hålet i villkorsblocket ska vi lägga en operator. Under gröna rubriken **OPERATOR** finns ett kantigt block som innehåller tecknet **>**, alltså tecknet för **större än**. Dra in blocket och lägg i hålet mellan **OM <> DÅ** som i bilden nedan. (Var noga med att tecknet i blocket pekar åt rätt håll, alltså **>**.)
+4. I det kantiga hålet i villkorsblocket ska vi lägga en operator. Under gröna rubriken **OPERATOR** finns ett kantigt block som innehåller tecknet **=**.  Dra in blocket och lägg i hålet mellan **OM <> DÅ** som i bilden nedan.
 
   ![image alt text](Poäng_Villkor_Operator2.png)
   
@@ -154,7 +160,7 @@ Klicka på blocket och ändra så det står namnet på din första bakgrund, så
 >**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
 ## Färdig!
-Grattis, nu har du skapat den andra delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 3**. 
+Grattis, nu har du skapat färdigt den andra delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 3**. Då ska vi bygga vidare på vår nästa bana, med rymdskepp och fallande blixtar! 
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
@@ -162,7 +168,6 @@ Grattis, nu har du skapat den andra delen av ditt spel! Om du vill kan du koda v
 Visa gärna ditt spel och låt andra testa. Om du vill, tryck på knappen DELA som du finner överst så kan andra också hitta spelet på Scratch sajt och testa det.
 
 > **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
-
 
 
 ## Frågeställningar
