@@ -13,66 +13,94 @@ Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch
 
 Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen.
 
-## 1: Lägg till en rymdraket-sprajt
+## 1: Lägg till en rymdraket
 
 I **Rymdhunden del 1 och del 2** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna och en poängräknare som gick till 5. Sen kommer man till en ny bana. Där börjar del 3 som vi ska programmera vidare på nu. 
 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
+I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker i luften och som släpper bollar som du ska fånga med hunden för poäng, men akta dig för blixtarna som roboten släpper - de gör dig Game Over!
 
-I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en rymdraket, som släpper bollar du ska fånga för poäng, men akta dig för blixtarna som raketen släpper - de gör dig Game Over!
+1. Först lägger vi till den nya sprajten - en robot. Tryck på knappen **Välj en sprajt** längst ned och leta fram sprajten Robot.  
 
-1. Först lägger vi till den nya sprajten - en rymdraket. Tryck på knappen **Välj en sprajt** längst ned och leka fram sprajten Välj den mörk-orangea rubriken till vänster som heter **VARIABLER** och klicka på den vita rutan överst som det står **"Skapa en variabel"** på. 
+  ![image alt text](BILD_NySprajt_Robot.png)
 
-  ![image alt text](Poängräknare_Skapaenvariabel1.png)
+2. Nu ska vi programmera roboten. Vi vill att den ska vara gömd när spelet startar, annars syns den även på första banan. Under rubriken **HÄNDELSER** finns startblocket **när START (grön flagga) klickas på**. Lägg det på robotens skriptyta. 
+
+  ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
   
-2. Variablen ska heta Poäng, så skriv ordet **Poäng** i rutan som kommer upp. Klicka på OK.
+3. Under rubriken **UTSEENDE** finns lilla kodblocket **Göm**. Dra ut det och fäst det direkt under startblocket med den gröna flaggan.
 
-  ![image alt text](Poängräknare_Skapaenvariabel2.png)
-
-Nu kan du se att du skapat en ny variabel som heter **Poäng**.
-
-  ![image alt text](Bild_NyVariabelSkapad.png)
+  ![image alt text](KOD_Rocket_göm.png)
   
-3. Dags att programmera in den i spelet. Poängräknarens kodblock lägger vi på scenens skriptyta, istället för på sprajtarnas. Börja därför med att aktivera scenen, så den blir blåmarkerad. 
+4. Nu ska vi koda så att roboten ska visa sig när den nya bakgrunden syns, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till raketens skriptyta. 
 
-  ![image alt text](aktivera_bakgrund_scen.png)
+  ![image alt text](KOD_Rocket_START_NärBakgrundenVäxlarTill_.png)
   
-4. Från rubriken **HÄNDELSER** drar du in ett startblock med **När START (grön flagga) klickas på** och lägger på scenens tomma skriptyta.
-
-  ![image alt text](Poängräknare_KOD_Startblock1.png)
+5. Ändra i kodblocket du just lade till så att det står namnet på bakgrunden för den nya banan. Bakgrunden i vårt exempel heter **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn på nya bakgrunden i menyn.
   
-5. Vi vill att poängräknaren alltid ska starta på siffran 0 när du startar spelet. Därför kodar vi att räknaren "nollas" direkt efter start. Under rubriken **VARIABLER** finner du kodblocket **sätt min variabel till 0**. Dra in blocket på skriptytan och fäst det direkt under startblocket med gröna flaggan.
-
-  ![image alt text](Poängräknare_KOD_Variabel2.png)
+  ![image alt text](KOD_ROCKET_bakgrund_Space.png)
   
-6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja din skapade variabel **Poäng** i menyn. Då står det **sätt Poäng till 0**.
+6. Nu lägger vi till kod som får roboten att visa sig. Under rubriken **UTSEENDE** finns lilla kodblocket **Visa**. Dra ut till skriptytan och fäst direkt under det gula blocket, så det ser ut som på bilden nedan.
 
-  ![image alt text](Poängräknare_KOD_Variabel3.png)
-  ![image alt text](Poängräknare_KOD_Variabel4.png)  
+  ![image alt text](KOD_ROCKET_Visa.png)
   
-Nu har vi skapat en poängräknare som alltid börjar på 0 poäng vid start. Men hur ska vi få poäng? Vi kodar vidare.
+>**Testa koden!** Klicka på startflaggan och kör spelet. Är roboten gömd på första banan? Kommer roboten fram på nästa bana? 
 
-## 2: Ge poäng i spelet
-Nu ska vi koda in hur poängen ska ges i spelet. Vi vill få ett poäng varje gång hunden fångar stjärnan. 
 
-1. Stjärnans sprajt känner av när hunden rör vid den. Då kan stjärnan även få skicka ett poäng till poängräknaren. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
+## 2: Ge roboten fart
 
-  ![image alt text](aktivera_star.png)  
+Dax att ge roboten lite fart! Vi kodar in rörelse.
+
+1. Vi vill att roboten ska åka fram och tillbaka åt höger och vänster spelet. Vi behöver programmera in en startriktning, så den vet åt vilket håll den ska åka. Under rubriken **RÖRELSE** finns kodblocket **peka i riktning 90**. Dra in blocket och fäst det under **Visa**-blocket i robotens kod.
+
+  ![image alt text](KOD_Rocket_PekaIRiktning90.png)  
   
-2. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret, direkt under röresleblocket **gå till slumpnässig position**.
+2. Vi ska även programmera in att roboten ska åka hela tiden. Vi lägger till en loop. Under rubriken **KONTROLL** finns kodblocket **för alltid**. Dra in blocket och fäst under blocket för **peka i riktning 90** på raketen. 
 
-  ![image alt text](Poäng_KOD_Star_gePoäng1.png)  
+  ![image alt text](KOD_Rocket_loop.png)  
   
-3. Ändra i blocket så att det blir rätt variabel. Det ska stå **ändra Poäng till 1**.
+3. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **gå 10 steg**. Lägg in det inuti loopen **för alltid**.
 
-  ![image alt text](Poäng_KOD_Star_gePoäng3.png)  
+  ![image alt text](KOD_Rocket_Gå10Steg.png)
+  
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg åt sidan?
 
->**Testa koden!** Starta spelet och se om du får poäng när hunden fångar stjärnan? Fungerar poängräknaren? Om inte, dubbelkolla att du ändrat i blocken så att du har rätt variabel - alltså den som heter **Poäng**.
+4. Nu vill vi att roboten ska åka fram och tillbaka från sida till sida, så den studsar åt andra hållet om den rör vid kanten. Under rubriken **RÖRELSE** finns kodblocket **om vid kanten, studsa**. Dra in blocket och lägg det inuti loopen under **gå 10 steg**.
 
-Nu har vi en poängräknare som ger poäng. Men vi vill att någoit ska hända när vi får 5 poäng. Vi kodar vidare!
+  ![image alt text](KOD_Rocket_StudsaVidKanten.png)
+  
+>**Testa koden!** Starta spelet med gröna flaggan. Åker roboten fram och tillbaka på scenen?
 
-## 3: Sätt en poänggräns
+5. Åker roboten för fort eller för långsamt? Du kan ändra hastigheten geno att ändra antal steg roboten ska ta. Ändra till en lägre siffra om du vill ge den långsammare fart. 
+
+  ![image alt text](KOD_Ändra_Hastighet.png)
+
+5. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
+
+  ![image alt text](Storlek.png)
+  
+6. Vi vill att roboten ska åka i övre delen av scenen i spelet. Placera roboten där du vill att den ska starta på scenen. Nu lägger vi till ett kodblock som bestämmer robotens startposition. När du ställt roboten på rätt plats, klicka på rubriken **RÖRELSE** och dra ut kodblocket **gå till x:__, y:__**. Lägg in blocket dirket under startblocket **när bakgrunden växlar till Space**. 
+
+  ![image alt text](KOD_Robot_startposition.png)
+  
+>**Testa koden!** Starta spelet med gröna flaggan. Åker roboten som du vill, på rätt plats och hasitghet? Är den lagom stor? Ändra om du inte är helt nöjd.
+
+Nu har vi en robot som åker fram och tillbaka. Det är dags att lägga till poäng-bollar att fånga.
+
+
+## 3: Lägg till boll-sprajt
+
+Nu ska vi lägga till en sprajt som roboten ska släppa ned och som ger poäng om hunden fångar den. 
+
+1. Klicka på knappen för **Välj en sprajt** och leta fram den gula bollen som heter **Ball**. Klicka på den för att lägga till i projektet.
+
+  ![image alt text](Ny_sprajt_boll.png)
+  
+2. Nu ska vi programmera så att det kan komma massor av bollar ner från roboten. Vi ska koda så att bollen kan skapa kloner av sig själv, som kopior av sig själv.
+
+nfkenfkkfkmkdmfkl
+
 
 Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bakgrund och gå till nästa level. Då passar ett villkor bra att använda - Om.. Då. Vi kodar vidare!
 
