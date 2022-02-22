@@ -152,11 +152,24 @@ Nu ska vi se till att klonerna av bollen kan falla ned. En klon är som en kopia
 
   ![image alt text](KOD_BOLL_KLON_180.png)
 
-5. Vi vill att bollen ska falla neråt och röra sig tills den antingen rör vid scenens nedre kant eller att hunden får tag i den och då får du poäng. Vi behöver koda in en repetition som fungerar ungefär som en loop. Under rubriken **KONTROLL** finns **repetera tills <>**. Dra in blocket och fäst det direkt under **peka i riktning 180**. 
+5. Vi vill att bollen ska falla nedåt och röra sig tills den antingen rör vid scenens nedre kant eller tills att hunden får tag i bollen och då får ett poäng. Vi behöver koda in en repetition som fungerar ungefär som en loop. Under rubriken **KONTROLL** finns **repetera tills <>**. Dra in blocket och fäst det direkt under **peka i riktning 180**. 
 
   ![image alt text](KOD_BOLL_RepeteraTills.png)
 
-jfkflkeala
+6. Nu lägger vi in block som gör att bollen känner av att den rär vid den nedre kanten av spelet. Under rubriken **KÄNNA AV** finns blocket **rör vid muspekare?**. Lägg detta block inuti hålet i det orangea repetitions-blocket, så det ser ut som i bilden nedan. 
+
+  ![image alt text](KOD_BOLL_Rörvidmuspekare.png)
+  
+7. Klicka på texten **muspekare** i blocket och välj istället**kant**. Då står det i koden **repetera tills rör vid kant?**
+
+  ![image alt text](KOD_BOLL_rörvidKant.png)
+  
+8. Vi vill att bollen rör sig nedåt. Under rubriken **RÖRELSE** finns kodblocket **gå 10 steg**. Lägg in det inuti repetitionsblocket. 
+
+  ![image alt text](KOD_BOLL_Gå10Steg.png)
+  
+  
+>**Testa koden!** Starta spelet och testa koden. Vad händer?
 
 
 ## 5: Ny bana med ny bakgrund
