@@ -60,13 +60,13 @@ Dax att ge roboten lite fart! Vi kodar in rörelse.
   
 2. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **glid 2 sekunder till slumpmässig position**. Lägg in det inuti **för alltid**-loopen.
 
-  ![image alt text](KOD_Robot_gåTillSlumpmässigPosition2.png)
+  ![image alt text](KOD_ROBOT_gåtillslumpmässigposition2.png)
   
 3. Klicka på texten **slumpmässig position** i blocket du just lade in. Välj istället namnet på din stjärna **Star**, så ändras texten i blocket till **glid 2 sekunder till Star**. Nu kommer roboten alltid glida till stjärnan.
 
   ![image alt text](KOD_ROBOT_gåtillStar.png)
   
->**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg mot stjärnan? om hunden tar stjärnan, åker roboten iväg till nästa stjärna? 
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg mot stjärnan? Om hunden tar stjärnan, åker roboten iväg till nästa stjärna? 
 
 4. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
 
