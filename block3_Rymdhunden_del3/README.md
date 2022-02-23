@@ -33,32 +33,34 @@ I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker r
 
   ![image alt text](KOD_Rocket_göm.png)
   
-4. Nu ska vi koda så att roboten ska visa sig när den nya bakgrunden syns, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta, lägg det bredvid det andra skriptet med gröna flaggan. 
+4. I del 2 av Rymdhunden lade vi till en ny bakgrund, som kom fram när hunden fångat 5 stjärnor. Denna nya bakgrund heter **Space**. Nu ska vi koda så att roboten ska börja visa sig när bakgrunden **Space** visar sig, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta, lägg det bredvid det andra skriptet med gröna flaggan. 
 
   ![image alt text](KOD_Rocket_START_NärBakgrundenVäxlarTill_.png)
   
-5. Ändra i kodblocket du just lade till så att det står namnet på bakgrunden för den nya banan. Bakgrunden i vårt exempel heter **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn på nya bakgrunden i menyn. Då ser blocket ut som bilden nedan.
+5. Ändra i kodblocket du just lade till så att det står namnet på nya bakgrunden - alltså **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn i menyn. Då ser blocket ut som bilden nedan.
   
   ![image alt text](KOD_ROCKET_bakgrund_Space.png)
   
-6. Nu lägger vi till kod som får roboten att visa sig när nya bakgrunden kommer fram. Under rubriken **UTSEENDE** finns lilla kodblocket **Visa**. Dra ut till skriptytan och fäst direkt under det gula blocket, så det ser ut som på bilden nedan.
+6. Nu lägger vi till kod som får roboten att visa sig när nya bakgrunden kommer fram. Under rubriken **UTSEENDE** finns kodblocket **visa**. Dra ut till skriptytan och fäst direkt under det första gula blocket, så det ser ut som på bilden nedan.
 
   ![image alt text](KOD_ROCKET_Visa.png)
   
->**Testa koden!** Klicka på startflaggan och kör spelet. Är roboten gömd på första banan? Kommer roboten fram på nästa bana? 
+>**Testa koden!** Klicka på startflaggan och kör igång spelet. Är roboten gömd på första banan? Kommer roboten fram på nästa bana? 
+
+Nu har vi en robot, dags att koda vidare!
 
 
 ## 2: Ge roboten fart
 
 Dax att ge roboten lite fart! Vi kodar in rörelse.
 
-1. Vi vill att roboten alltid ska röra mot stjärnan som den ska försöka fånga. Först lägger vi till en loop, så roboten för alltid åker runt. Under rubriken **KONTROLL** finns blocket **för alltid**. Dra in blocket och fäst det under **Visa**-blocket i robotens kod.
+1. Vi vill att roboten alltid ska röra sig mot stjärnan och försöka fånga den innan hunden hinner fram. Först lägger vi till en loop, så roboten för alltid rör på sig. Under rubriken **KONTROLL** finns blocket **för alltid**. Dra in blocket och fäst det under **visa**-blocket.
 
   ![image alt text](KOD_ROBOT_loop2.png)  
   
-2. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **glid 2 sekunder till slumpmässig position**. Lägg in det inuti loopen **för alltid**.
+2. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **glid 2 sekunder till slumpmässig position**. Lägg in det inuti **för alltid**-loopen.
 
-  ![image alt text](KOD_Robot_gåTillSlumpmässigPosition.png)
+  ![image alt text](KOD_Robot_gåTillSlumpmässigPosition2.png)
   
 3. Klicka på texten **slumpmässig position** i blocket du just lade in. Välj istället namnet på din stjärna **Star**, så ändras texten i blocket till **glid 2 sekunder till Star**. Nu kommer roboten alltid glida till stjärnan.
 
