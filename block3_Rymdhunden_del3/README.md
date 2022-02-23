@@ -1,5 +1,5 @@
 # Rymdhunden - del 3
-I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
+I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor i rymden för att få poäng - men akta dig för roboten - den ger dig minuspoäng!
 Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 3. (Om du inte redan gjort första och andra delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a> och del 2 här.)
 
 Testa ett exempelspel av **Rymdhunden - del 3**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/643992517" target="_blank"> 
@@ -15,11 +15,11 @@ Dax att börja koda! Klicka på steg 1 nedan för att gå vidare i instruktionen
 
 ## 1: Lägg till en robot
 
-I **Rymdhunden del 1 och del 2** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna och en poängräknare som gick till 5. Sen kommer man till en ny bana. Där börjar del 3 som vi ska programmera vidare på nu. 
+I **Rymdhunden del 1 och del 2** skapade vi början till spelet, där vi programmerade en hund att kunna jaga runt efter en stjärna och en poängräknare som gick till 5 poäng. Sen kommer man till en ny bana med en ny bakgrund. Där börjar del 3 som vi ska programmera vidare på nu. 
 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
-I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker i luften och som släpper bollar som du ska fånga med hunden för poäng, men akta dig för blixtarna som roboten släpper - de gör dig Game Over!
+I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker runt och jagar samma stjärna som hunden, men om roboten tar stjärnan före hunden, då får du 2 minuspoäng. Till slut blir spelet Game Over!
 
 1. Först lägger vi till den nya sprajten - en robot. Tryck på knappen **Välj en sprajt** längst ned och leta fram sprajten Robot.  
 
@@ -33,11 +33,11 @@ I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker i
 
   ![image alt text](KOD_Rocket_göm.png)
   
-4. Nu ska vi koda så att roboten ska visa sig när den nya bakgrunden syns, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta. 
+4. Nu ska vi koda så att roboten ska visa sig när den nya bakgrunden syns, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta, lägg det bredvid det andra skriptet med gröna flaggan. 
 
   ![image alt text](KOD_Rocket_START_NärBakgrundenVäxlarTill_.png)
   
-5. Ändra i kodblocket du just lade till så att det står namnet på bakgrunden för den nya banan. Bakgrunden i vårt exempel heter **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn på nya bakgrunden i menyn.
+5. Ändra i kodblocket du just lade till så att det står namnet på bakgrunden för den nya banan. Bakgrunden i vårt exempel heter **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn på nya bakgrunden i menyn. Då ser blocket ut som bilden nedan.
   
   ![image alt text](KOD_ROCKET_bakgrund_Space.png)
   
@@ -52,151 +52,80 @@ I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker i
 
 Dax att ge roboten lite fart! Vi kodar in rörelse.
 
-1. Vi vill att roboten ska åka fram och tillbaka åt höger och vänster spelet. Vi behöver programmera in en startriktning, så den vet åt vilket håll den ska åka. Under rubriken **RÖRELSE** finns kodblocket **peka i riktning 90**. Dra in blocket och fäst det under **Visa**-blocket i robotens kod.
+1. Vi vill att roboten alltid ska röra mot stjärnan som den ska försöka fånga. Först lägger vi till en loop, så roboten för alltid åker runt. Under rubriken **KONTROLL** finns blocket **för alltid**. Dra in blocket och fäst det under **Visa**-blocket i robotens kod.
 
-  ![image alt text](KOD_Rocket_PekaIRiktning90.png)  
+  ![image alt text](KOD_ROBOT_loop2.png)  
   
-2. Vi ska även programmera in att roboten ska åka hela tiden. Vi lägger till en loop. Under rubriken **KONTROLL** finns kodblocket **för alltid**. Dra in blocket och fäst under blocket för **peka i riktning 90** på roboten. 
-
-  ![image alt text](KOD_Rocket_loop.png)  
-  
-3. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **gå 10 steg**. Lägg in det inuti loopen **för alltid**.
-
-  ![image alt text](KOD_Rocket_Gå10Steg.png)
-  
->**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg åt sidan?
-
-4. Nu vill vi att roboten ska åka fram och tillbaka från sida till sida, så den studsar åt andra hållet om den rör vid kanten. Under rubriken **RÖRELSE** finns kodblocket **om vid kanten, studsa**. Dra in blocket och lägg det inuti loopen under **gå 10 steg**.
-
-  ![image alt text](KOD_Rocket_StudsaVidKanten.png)
-  
->**Testa koden!** Starta spelet med gröna flaggan. Åker roboten fram och tillbaka på scenen?
-
-5. Åker roboten för fort eller för långsamt? Du kan ändra hastigheten genom att ändra antal steg roboten ska ta. Ändra till en lägre siffra om du vill ge den långsammare fart. 
-
-  ![image alt text](KOD_Ändra_Hastighet.png)
-
-5. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
-
-  ![image alt text](Storlek.png)
-  
-6. Vi vill att roboten ska åka i övre delen av scenen i spelet. Dra roboten till en plats på scenen där du vill att den ska starta. Nu lägger vi till ett kodblock som bestämmer robotens startposition. När du ställt roboten på rätt plats, klicka på rubriken **RÖRELSE** och dra ut kodblocket **gå till x:__, y:__**. Lägg in blocket direkt under gula startblocket **när bakgrunden växlar till Space**. 
-
-  ![image alt text](KOD_Robot_startposition.png)
-  
->**Testa koden!** Starta spelet med gröna flaggan. Åker roboten som du vill, på rätt plats och med bra hastighet? Är den lagom stor? Ändra om du inte är helt nöjd.
-
-Nu har vi en robot som åker fram och tillbaka. Det är dags att lägga till poäng-bollar att fånga.
-
-
-## 3: Lägg till en boll
-
-Nu ska vi lägga till en boll-sprajt som roboten ska släppa ned och som ger poäng om hunden fångar den. 
-
-1. Klicka på knappen för **Välj en sprajt** och leta fram den gula bollen som heter **Ball**. Klicka på den för att lägga till i projektet.
-
-  ![image alt text](Ny_sprajt_boll.png)
-  
-2. Först programmerar vi in att bollen ska vara gömd när spelet startar, så den inte syns på första banan. Från rubriken **HÄNDELSER** drar du ut startblocket **när START (grön flagga) klickas på** och lägger det på bollens tomma skriptyta.
-
-  ![image alt text](KOD_Startblock_grön_flagga.png)
-
-3. Under rubriken **UTSEENDE** finns lilla blocket **Göm**. Lägg den direkt under startblocket på skriptytan.
-
-  ![image alt text](KOD_Rocket_göm.png)
-
-4. Nu ska vi programmera ett nytt skript som gör att roboten kan släppa ner massa bollar. Vi ska koda så att bollen kan klona sig med kopior av sig själv. Under rubriken **HÄNDELSER** finns blocket **när bakgrunden växlar till bakgrund 1**. Dra in blocket och lägg det på skriptytan för bollen. (Kanske det står något annat än **bakgrund 1** i ditt block.)
-
-  ![image alt text](KOD_Rocket_START_NärBakgrundenVäxlarTill_.png)
-  
-5. Se till att det är rätt bakgrund som står på blocket. Klicka på texten **bakgrund 1** och välj nmanet på din bakgrundsbild för bana 2. I vårt exempel heter bakgrunden **Space**.
-
-  ![image alt text](KOD_ROCKET_bakgrund_Space.png)
-  
-6. Vi vill att det ska ramla ned bollar från roboten för alltid. Så från rubriken **KONTROLL** hämtar vi ett **för alltid**-block, som loopar kodblock som läggs inuti. Lägg in blocket direkt under gula **när bakgrunden växlar till Space**.
-
-  ![image alt text](KOD_Robot_loop.png)
-  
-7 Vi vill att alla bollar ska se ut att ramla ned roboten. Då roboten åker fram och tillbaka måste vi koda så att bollarna går till roboten innan de faller ned. Under rubriken **RÖRELSE** finns kodblocket **gå till slumpmässig position**. Lägg in blocket inuti **för alltid**-loopen. 
+2. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **glid 2 sekunder till slumpmässig position**. Lägg in det inuti loopen **för alltid**.
 
   ![image alt text](KOD_Robot_gåTillSlumpmässigPosition.png)
   
-8. Klicka på texten **slumpmässig position** i blocket och byt det till **Robot**. Då går bollen alltid först till roboten.
+3. Klicka på texten **slumpmässig position** i blocket du just lade in. Välj istället namnet på din stjärna **Star**, så ändras texten i blocket till **glid 2 sekunder till Star**. Nu kommer roboten alltid glida till stjärnan.
 
-  ![image alt text](KOD_BOLL_gåTillRobot.png)
+  ![image alt text](KOD_ROBOT_gåtillStar.png)
   
-9. Nu ska vi klona bollen så det kan falla massor av bollar. Under rubriken **KONTROLL** finns kodblocket **skapa klon av mig själv**. Lägg blocket inuti loopen under **gå till robot**. 
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg mot stjärnan? om hunden tar stjärnan, åker roboten iväg till nästa stjärna? 
 
-  ![image alt text](KOD_BOLL_skapaKlonAvMigSjälv.png)
+4. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
+
+  ![image alt text](Storlek.png)
   
-Nu har vi en boll som kan klona sig själv. Dags att programmera den att kunna falla ner.
+5. Vi vill att roboten ska få en startposition. Dra roboten till en plats på scenen där du vill att den ska starta, förslagsvis ett av hörnen på scenen. Under **RÖRELSE** finns kodblocket **gå till x:__, y:__**. Dra ut blocket till robotens skriptyta. Lägg in blocket direkt under gula startblocket **när bakgrunden växlar till Space**. 
+
+  ![image alt text](KOD_ROBOT_Startposition2.png)
+
+Nu har vi en robot som jagar stjärnan. Vi kodar vidare.
 
 
-## 4: Låt bollarna falla
+## 3: Roboten skapar minuspoäng
 
-Nu ska vi se till att klonerna av bollen kan falla ned. En klon är som en kopia av originalbollen.
+1. Om roboten fångar stjärnan före hunden hinner fram så ska spelet få minuspoäng. Vi vill att stjärnan ska ordna med minuspoängen, så koden lägger vi där. Klicka på den lilla bilden av sprajten med stjärnan som finns under scenen. Då är stjärnan aktiv och vi ser koden den har.
 
-1. Vi skapar ett nytt skript på boll-sprajten. Under rubriken **KONTROLL** finns kodblocket **när jag startar som klon**. Dra in blocket till bollens skriptyta och lägg den någonstans på ytan. 
+  ![image alt text](STAR_aktiverad.png)
 
-  ![image alt text](KOD_BOLL_NärJagStartarSomKlon.png)
+2. Nu skapar vi ett villkor i stjärnans skript som gör att om roboten röd vid stjärnan, då ska stjärnan ordna med minuspoäng till poängräknaren. Under rubriken **KONTROLL** finns kodbloket **om <> då**.. Dra in det inuti loopen i stjärnans stora skript, så det hamnar under det första villkoret och ser ut som i bilden nedan.
+
+  ![image alt text](KOD_STAR_om_då.png)
   
-2. Nu vill vi att boll-klonen ska synas på scenen. Under rubriken **UTSEENDE** finns lilla blocket **visa**. Lägg in blocket direkt under **när jag startar som klon**.
+3. Nu ska vi lägga till ett block som gör att stjärnan känner av roboten. Under rubriken **KÄNNA AV** finns kodblocket **rör vid muspekare**. Dra in det och lägg det inuti det kantiga hålet mellan **om <> då**, så det står **om rör vid muspekare då**
 
-  ![image alt text](KOD_BOLL_Visa.png)
+  ![image alt text](KOD_STAR_KännaAvRörVidMuspekare.png)
 
-3.Vi vill att bollen ska falla neråt. Därför lägger vi till ett block som ger riktningen för bollen. Under rubriken **RÖRELSE** väljer du blocket **peka i riktning 90**. Lägg in blocket direkt under det lila blocket **visa**.
+4. Klicka på texten **muspekare** i kodblocket du just lade in och ändra till **Robot**. Då står det **om rör vid Robot då**
 
-  ![image alt text](KOD_BOLL_KLON_PekaIRiktning90.png)
+  ![image alt text](STAR_RörVidRobot.png)
+
+5. Först vill vi att stjärnan ska gömma sig, så det ser ut som om roboten fångat den. Under rubriken **UTSEENDE** finns blocket **Göm**. Lägg det inuti villkoret. 
+
+  ![image alt text](STAR_Göm2.png)
   
-4. Klicka på siffran **90** i blocket och ändra till **180**. Då blir riktningen nedåt.
+6. Nu vill vi att stjärnan ger poängräknaren 2 minuspoäng för att Roboten tog den. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Lägg in blocket inuti villkoret under **Göm**.
 
-  ![image alt text](KOD_BOLL_KLON_180.png)
-
-5. Vi vill att bollen ska falla nedåt och röra sig tills den antingen rör vid scenens nedre kant eller tills att hunden får tag i bollen och då får ett poäng. Vi behöver koda in en repetition som fungerar ungefär som en loop. Under rubriken **KONTROLL** finns **repetera tills <>**. Dra in blocket och fäst det direkt under **peka i riktning 180**. 
-
-  ![image alt text](KOD_BOLL_RepeteraTills.png)
-
-6. Nu lägger vi in block som gör att bollen känner av att den rär vid den nedre kanten av spelet. Under rubriken **KÄNNA AV** finns blocket **rör vid muspekare?**. Lägg detta block inuti hålet i det orangea repetitions-blocket, så det ser ut som i bilden nedan. 
-
-  ![image alt text](KOD_BOLL_Rörvidmuspekare.png)
+  ![image alt text](STAR_Villkor2_ändraminvariabeltill1.png)
   
-7. Klicka på texten **muspekare** i blocket och välj istället**kant**. Då står det i koden **repetera tills rör vid kant?**
+7. Klicka på ordet **min variabel** i blocket och ändra i menyn som kommer fram så det står **Poäng** i blocket.
 
-  ![image alt text](KOD_BOLL_rörvidKant.png)
+  ![image alt text](STAR_Villkor2_ÄndraPoängtill1.png)
+
+8. Ändra siffran **1** i blocket, och skriv istället **-3**.
+
+  ![image alt text](STAR_VILLKOR2_Poäng_-3.png)
   
-8. Vi vill att bollen rör sig nedåt. Under rubriken **RÖRELSE** finns kodblocket **gå 10 steg**. Lägg in det inuti repetitionsblocket. 
+9. Nu ska vi flytta stjärnan till en ny slumpvis vald plats på scenen. Under rubriken **RÖRELSE** finns blocket **gå till slumpmässig position**. Lägg in det i stjärnans villkor under **ändra Poäng med -2**.
 
-  ![image alt text](KOD_BOLL_Gå10Steg.png)
+  ![image alt text](KOD_STAR_VILLKOR2_Gåtillslumpmässigposition.png)
+
+10. Nu ska stjärnan visa sig på sin nya plats. Under **UTSEENDE** finns blocket **Visa**. Lägg in blocket inuti stjärnans villkor under det blå blocket **gå till slumpmässig position**.
+
+  ![image alt text](KOD_STAR_VILLKOR2_Visa.png)
   
-  
->**Testa koden!** Starta spelet och testa koden. Vad händer?
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer? Kan roboten fånga stjärnan? Får spelet minuspoäng när det händer? Kan hunden fånga stjärnan och få pluspoäng? 
 
 
-## 5: Ny bana med ny bakgrund
 
-Nu vill vi bara att bakgrunden ska ändras när ny bana startas. 
-
-1. Klicka på knappen **Välj en bakgrund** längst ned i högra hörnet.
-2. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
-
-  ![image alt text](Bakgrund_rymd.png)
-  
-3. Nu ska vi koda så att nya bakgrunden visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finner du in kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annant namn). Lägg blocket inuti villkoret på bakgrundens skriptyta. 
-
-  ![image alt text](KOD_Bakgrund_Byt1.png) 
-
-3. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan)** klickas på.
-
-  ![image alt text](KOD_Bakgrund_Startbakgrund1.png) 
-  
-Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
-
-  ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
-  
->**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
 ## Färdig!
-Grattis, nu har du skapat den andra delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 3**. 
+Grattis, nu har du skapat den tredje delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 4**. 
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
