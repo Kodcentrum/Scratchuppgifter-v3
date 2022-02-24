@@ -72,7 +72,7 @@ Dax att ge roboten lite fart! Vi kodar in rörelse.
 
   ![image alt text](Storlek.png)
   
-5. Vi vill att roboten ska få en startposition. Dra roboten till en plats på scenen där du vill att den ska starta, förslagsvis ett av hörnen på scenen. Under **RÖRELSE** finns kodblocket **gå till x:__, y:__**. Dra ut blocket till robotens skriptyta. Lägg in blocket direkt under gula startblocket **när bakgrunden växlar till Space**. 
+5. Vi vill att roboten ska få en startposition. Dra roboten till en plats på scenen där du vill att den ska starta, förslagsvis ett av hörnen på scenen. Under **RÖRELSE** finns kodblocket **gå till x:__, y:__**. Lägg in blocket direkt under det gula startblocket **när bakgrunden växlar till Space**. 
 
   ![image alt text](KOD_ROBOT_Startposition2.png)
 
@@ -81,15 +81,15 @@ Nu har vi en robot som jagar stjärnan. Vi kodar vidare.
 
 ## 3: Roboten skapar minuspoäng
 
-1. Om roboten fångar stjärnan före hunden hinner fram så ska spelet få minuspoäng. Vi vill att stjärnan ska ordna med minuspoängen, så koden lägger vi där. Klicka på den lilla bilden av sprajten med stjärnan som finns under scenen. Då är stjärnan aktiv och vi ser koden den har.
+1. Om roboten fångar stjärnan före hunden hinner fram så ska spelet få 3 minuspoäng. Vi vill att stjärnan ska ordna med minuspoängen, så vi lägger in koden på stjärn-sprajten. Klicka på den lilla bilden av sprajten med stjärnan som finns under scenen. Då blir stjärnan aktiv och vi ser koden den har.
 
   ![image alt text](STAR_aktiverad.png)
 
-2. Nu skapar vi ett villkor i stjärnans skript som gör att om roboten röd vid stjärnan, då ska stjärnan ordna med minuspoäng till poängräknaren. Under rubriken **KONTROLL** finns kodbloket **om <> då**.. Dra in det inuti loopen i stjärnans stora skript, så det hamnar under det första villkoret och ser ut som i bilden nedan.
+2. Nu skapar vi ett villkor i stjärnans skript som gör att om roboten rör vid stjärnan, då ska stjärnan skicka 3 minuspoäng till poängräknaren. Under rubriken **KONTROLL** finns kodbloket **om <> då**. Lägg in blocket inuti **för alltid**-loopen i stjärnans stora skript, så att det hamnar under det första **om <>då**-villkoret som ligger i loopen, så att det ser ut som i bilden nedan.
 
   ![image alt text](KOD_STAR_om_då.png)
   
-3. Nu ska vi lägga till ett block som gör att stjärnan känner av roboten. Under rubriken **KÄNNA AV** finns kodblocket **rör vid muspekare**. Dra in det och lägg det inuti det kantiga hålet mellan **om <> då**, så det står **om rör vid muspekare då**
+3. Nu ska vi se till att stjärnan känner av roboten. Under rubriken **KÄNNA AV** finns kodblocket **rör vid muspekare**. Lägg in blocket inuti det kantiga hålet mellan **om <> då**, så det istället står **om rör vid muspekare då**
 
   ![image alt text](KOD_STAR_KännaAvRörVidMuspekare.png)
 
@@ -97,37 +97,113 @@ Nu har vi en robot som jagar stjärnan. Vi kodar vidare.
 
   ![image alt text](STAR_RörVidRobot.png)
 
-5. Först vill vi att stjärnan ska gömma sig, så det ser ut som om roboten fångat den. Under rubriken **UTSEENDE** finns blocket **Göm**. Lägg det inuti villkoret. 
+5. Först vill vi att stjärnan ska gömma sig, så det ser ut som om roboten fångat den. Under rubriken **UTSEENDE** finns blocket **göm**. Lägg det inuti villkoret. 
 
   ![image alt text](STAR_Göm2.png)
   
-6. Nu vill vi att stjärnan ger poängräknaren 2 minuspoäng för att Roboten tog den. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Lägg in blocket inuti villkoret under **Göm**.
+6. Nu vill vi att stjärnan skickar 3 minuspoäng till poängräknaren för att Roboten tog den. Under rubriken **VARIABLER** finns kodblocket **ändra min variabel med 1**. Lägg in blocket inuti villkoret under **göm**.
 
   ![image alt text](STAR_Villkor2_ändraminvariabeltill1.png)
   
-7. Klicka på ordet **min variabel** i blocket och ändra i menyn som kommer fram så det står **Poäng** i blocket.
+7. Klicka på ordet **min variabel** i blocket och välj **Poäng** från menyn som kommer fram. Då står det **Poäng** även i blocket.
 
   ![image alt text](STAR_Villkor2_ÄndraPoängtill1.png)
 
-8. Ändra siffran **1** i blocket, och skriv istället **-3**.
+8. Nu fixar vi antal poäng. Klicka på siffran **1** i blocket och skriv istället **-3**. (om du inte kan skriva minustecken, så använd ett bindestreck, det går också bra.)
 
   ![image alt text](STAR_VILLKOR2_Poäng_-3.png)
   
-9. Nu ska vi flytta stjärnan till en ny slumpvis vald plats på scenen. Under rubriken **RÖRELSE** finns blocket **gå till slumpmässig position**. Lägg in det i stjärnans villkor under **ändra Poäng med -2**.
+9. Nu ska vi flytta stjärnan till en ny slumpvis vald plats på scenen. Under rubriken **RÖRELSE** finns blocket **gå till slumpmässig position**. Lägg in det i villkoret under **ändra Poäng med -2**.
 
   ![image alt text](KOD_STAR_VILLKOR2_Gåtillslumpmässigposition.png)
 
-10. Nu ska stjärnan visa sig på sin nya plats. Under **UTSEENDE** finns blocket **Visa**. Lägg in blocket inuti stjärnans villkor under det blå blocket **gå till slumpmässig position**.
+10. Nu ska stjärnan visa sig på sin nya plats. Under **UTSEENDE** finns blocket **visa**. Lägg in blocket inuti villkoret under det blå blocket **gå till slumpmässig position**.
 
   ![image alt text](KOD_STAR_VILLKOR2_Visa.png)
   
->**Testa koden!** Starta spelet med gröna flaggan. Vad händer? Kan roboten fånga stjärnan? Får spelet minuspoäng när det händer? Kan hunden fånga stjärnan och få pluspoäng? 
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer? Kan roboten fånga stjärnan? Får spelet 3 minuspoäng när det händer? Kan hunden fånga stjärnan och få 1 pluspoäng? 
 
 
+
+## 4: En sista bakgrundsbild
+
+Vi vill att spelet ska kunna bli Game Over. Vi kodar vidare!
+
+1. Om roboten fångar så många stjärnor att poängen blir 0 så förlorar hunden och spelet blir Game Over. Vi lägger till en ny bakgrund som blir en slutbild. Håll muspekaren över knappen **Välj en bakgrund** i nedre högra hörnet och välj den lilla penseln **Måla**. Då kommer du till scenens ritverktyg.
+
+  ![image alt text](Ny_Bakgrund_Måla.png)
+  
+2. Klicka allra först på den blå knappen under ritytan, som det står **Gör till Bitmap** på. Då blir det enklare att måla sen.
+
+  ![image alt text](GörTillBitMap.png)
+  
+3. Välj verktyget som ser ut som en liten hink.
+
+  ![image alt text](Hinkverktyget.png)
+  
+4. Klicka på den lilla rutan med färg på över ritverktygen och välj en färg som du vill ha på slutbilden med färgväljaren. Klicka sedan på ritytan en gång så fylls ytan med färgen du valt. 
+
+  ![image alt text](Måla_bakgrund_färgväljare.png)
+  
+5. Om du vill kan du skriva texten **Game Over** på bakgrundsbilden. Klicka på **Text-verktyget** och välj även en **ny färg** som du gillar för texten. Klicka på ritytan och skriv Game Over på bakgrunden. (Klicka sedan bredvid texten och dra i hörnpunkterna på rutan som syns runt texten, så kan du förstora texten eller flytta på den.)
+
+  ![image alt text](SCEN_TEXT_GameOver.png)
+  
+6. Vi kan döpa om vår nya bakgrundsbild, så den heter Game Over. Ovanför färgväljaren finns namnet på bakgrundsbilden, just nu heter den kanske *bakgrund 2*. Radera det och skriv istället **Game Over**. 
+
+  ![image alt text](Klädsel_namn.png)
+  
+7. Om du är nöjd med färgen kan du gå tillbaka till där vi programmerar genom att klicka på lilla fliken i övre vänstra hörnet som heter **Kod**.
+
+  ![image alt text](KODFLIK.png)
+  
+## 4: Game Over i spelet
+  
+1. Nu är vi tillbaka där vi har alla kodblocken. Just nu är bakgrunden med scenen markerad och vi ser dess kod. Det är bra, för vi vill koda in att om poängen blir 0, då ska spelet bli Game Over och vår sista bakgrundsbild ska visa sig. Se först till att scenen med bakgrunden är markerad med en blå ram runt sig som i bilden nedan.
+
+  ![image alt text](Aktiverad_scen_slutbild.png)
+  
+2. Nu skapar vi ett villkor som kollar om poängen är 0. Under rubriken **KONTROLL** finns villkors-blocket **om <> då**. Lägg in det inuti scenens **för alltid**-loop, under det första fillkoret i loopen. 
+
+  ![image alt text](KOD_SCEN_VILLKOR2.png)
+  
+3. Nu behöver vi kodblock som kollar att poängen är **mindre än 0**. Tecknet för *mindre än* ser ut såhär: **<**. Under rubriken **OPERATOR** finns kodblocket som har tecknet **<** i sig. Dra in det och lägg det inuti det kantiga hålet mellan **om <> då** i villkoret. 
+
+  ![image alt text](KOD_SCEN_VILLKOR2_Operator.png)
+  
+4. Ändra siffran **50** i det gröna operatorblocket till siffran **0**. 
+
+  ![image alt text](KOD_SCEN_VILLKOR2_operator_0.png)
+  
+5. Gå till rubriken **VARIABLER** och leta fram det ovala kodblocket som det står **Poäng** på. Lägg in blocket i det första tomma runda hålet i det gröna operatorblocket. Då står det istället **om Poäng < 0 då**.
+
+  ![image alt text](KOD_SCEN_VILLKOR2_operator_0.png)
+
+6. Nu lägger vi in ett kodblock som ser till att bakgrunden som heter Game Over visas när poängen blir mindre än 0. Under rubriken **UTSEENDE** finns kodblocket **växla bakgrund till Game Over**. Dra in blocket och lägg det inuti villkoret.
+
+  ![image alt text](KOD_SCEN_VILLKOR2_VäxlaBakgrundtillGameOver.png)
+  
+7. Vi vill att poängräknaren ska gömma sig när spelet är Game Over. Under rubriken **VARIABLER** finns kodblocket **göm min variabel**. Lägg in blocket inuti scenens villkor, direkt under meddelandet.
+
+  ![image alt text](KOD_SCEN_VILLKOR2_GömVariabel.png)
+
+8. Klicka på texten **min variabel** i blocket och ändra till **Poäng**.
+
+  ![image alt text](KOD_SCEN_GömPoäng.png)
+  
+9. Vi måste se till att poängräknaren syns när vi startar spelet igen. Under rubriken **VARIABLER** finns blocket **visa min variabel**. Lägg in detta block överst i skriptet direkt under startblocket med gröna flaggan. 
+
+  ![image alt text](KOD_SCEN_Visaminvariabel.png)
+  
+10. Klicka på texten **min variabel** i kodblocket och ändra till **Poäng**.
+
+  ![image alt text](KOD_SCEN_Poängtext.png)
+  
+>**Testa koden!** Starta spelet med gröna flaggan. Vad händer om roboten gör spelet Game Over? Syns rätt bakgrund på slutet? Om inte, ändra i kodblocket som styr vilken bakgrund som ska visas på scenen. 
 
 
 ## Färdig!
-Grattis, nu har du skapat den tredje delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 4**. 
+Grattis, nu har du skapat den tredje delen av ditt spel! Om du vill kan du koda vidare spelet och utveckla mer i koden. Vad vill du mer ska hända i ditt spel? 
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
