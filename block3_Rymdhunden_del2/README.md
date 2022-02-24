@@ -1,10 +1,9 @@
 # Rymdhunden - del 2
-I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor och bollar i rymden för att få poäng - men akta dig för rymdblixtarna!
+I spelet **Rymdhunden** skapar du en busig hund som springer loss på jakt efter stjärnor i rymden för att få poäng - men akta dig för roboten!
 Instruktionen till hur du skapar spelet är uppdelad i 3 delar, här följer del 2. (Om du inte redan gjort första delen av spelet Rymdhunden, så hittar du <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-1?chpt=0" target="_blank"> instruktionen till hur du först skapar del 1 här</a>.)
 
 Testa ett exempelspel av **Rymdhunden - del 2**. Klicka på bilden nedan och starta exempelspelet genom att klicka på gröna flaggan. Hunden föjer efter muspekaren (eller ditt finger om du har pekskärm). <a href="https://scratch.mit.edu/projects/643992517" target="_blank"> 
   ![Exempelprojekt i Scratch för spelet Rymdhunden - del 2](Exempelspel_Rymdhunden_del2.png)</a>
-
 
 > **HUR KODAR JAG?** 
 </br>
@@ -36,11 +35,11 @@ Nu kan du se att du skapat en ny variabel som heter **Poäng**.
 
   ![image alt text](Bild_NyVariabelSkapad.png)
   
-3. Dags att programmera in den i spelet. Poängräknarens kodblock lägger vi på scenens skriptyta, istället för på sprajtarnas. Börja därför med att aktivera scenen, så den blir blåmarkerad. 
+3. Dags att programmera in den i spelet. Poängräknarens kodblock lägger vi på scenens skriptyta, istället för på sprajtarnas. Börja därför med att aktivera scenen, så den blir blåmarkerad. Klicka på den lilla bilden av scenen i nedre högra hörnet av Scratch, då aktiveras den.
 
   ![image alt text](aktivera_bakgrund_scen.png)
   
-4. Från rubriken **HÄNDELSER** drar du in ett startblock med **När START (grön flagga) klickas på** och lägger på scenens tomma skriptyta.
+4. Vi börjar med att skapa en startknapp. Från rubriken **HÄNDELSER** drar du in ett startblock med **när START (grön flagga) klickas på** och lägger på scenens tomma skriptyta.
 
   ![image alt text](Poängräknare_KOD_Startblock1.png)
   
@@ -48,7 +47,7 @@ Nu kan du se att du skapat en ny variabel som heter **Poäng**.
 
   ![image alt text](Poängräknare_KOD_Variabel2.png)
   
-6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja din skapade variabel **Poäng** i menyn. Då står det **sätt Poäng till 0**.
+6. Vi måste ändra i kodblocket så det står rätt variabel. Klicka på ordet **min variabel** i kodblocket, så kan du välja den nya variabeln **Poäng** i menyn. Då står det **sätt Poäng till 0**.
 
   ![image alt text](Poängräknare_KOD_Variabel3.png)
   ![image alt text](Poängräknare_KOD_Variabel4.png)  
@@ -60,11 +59,11 @@ Nu har vi skapat en poängräknare som alltid börjar på 0 poäng vid start. Me
 
 Nu ska vi koda in hur poängen ska ges i spelet. Vi vill få ett poäng varje gång hunden fångar stjärnan. 
 
-1. Stjärnans sprajt känner av när hunden rör vid den. Då kan stjärnan även få skicka ett poäng till poängräknaren. Klicka på lilla bilden av din stjärn-sprajt för att aktivera den och öppna dess skriptyta med kod. 
+1. Stjärnans sprajt känner av när hunden rör vid den. Då kan stjärnan även få skicka ett poäng till poängräknaren. Klicka på lilla bilden av din stjärn-sprajt under scenen för att aktivera den och öppna stjärnans skriptyta med dess kodblock. 
 
   ![image alt text](aktivera_star.png)  
   
-2. Under rubriken **VARIABLER** finns blocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret under det blå blocket, så det ser ut som i bilden nedan.
+2. Under rubriken **VARIABLER** finns blocket **ändra min variabel med 1**. Dra in blocket och lägg det inuti villkoret under det blå blocket **gå till slumpmässig position**, så det ser ut som i bilden nedan.
 
   ![image alt text](Poäng_KOD_Star_gePoäng1.png)  
   
@@ -85,7 +84,7 @@ Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bak
 
   ![image alt text](aktivera_bakgrund_scen.png)  
   
-2. Först behöver vi skapa en **loop**. Under rubriken **KONTROLL** finns loop-blocket **för alltid**. Dra in blocket och fäst det under **sätt Poäng till 0**.
+2. Nu behöver vi skapa en **loop**. Under rubriken **KONTROLL** finns loop-blocket **för alltid**. Dra in blocket och fäst det under kodblocket **sätt Poäng till 0** i kodskriptet som redan ligger på scenens skriptytan.
 
   ![image alt text](Poäng_Loop_0.png)  
   
@@ -93,49 +92,49 @@ Nu ska vi programmera så att OM hunden fångat 5 stjärnor, DÅ ska vi byta bak
 
   ![image alt text](Poäng_Villkor_1.png)  
   
-4. I det kantiga hålet i villkorsblocket ska vi lägga en operator. Under gröna rubriken **OPERATOR** finns ett kantigt block som innehåller tecknet **=**.  Dra in blocket och lägg i hålet mellan **OM <> DÅ** som i bilden nedan.
+4. I det kantiga hålet i villkorsblocket ska vi lägga en operator. Under gröna rubriken **OPERATOR** finns ett kantigt block som innehåller tecknet **=** (alltså "lika med").  Dra in blocket och lägg i hålet mellan **OM <> DÅ** som i bilden nedan.
 
   ![image alt text](Poäng_Villkor_Operator2.png)
   
-5. Nu ska vi lägga in att villkoret läser av när poängräknaren fått 5 poäng. Under rubriken **VARIABLER** finns din skapade **Poäng**, som ett ovalt block högt upp. Dra inblocket och lägg i den första vida cirkeln i den gröna operatorn.
+5. Nu ska vi lägga in att villkoret läser av när poängräknaren fått 5 poäng. Under rubriken **VARIABLER** finns din skapade **Poäng**. Dra in blocket och lägg in det i första cirkeln i den gröna operatorn. Se bilden här under.
 
   ![image alt text](Poäng_Villkor_Operator3.png)
   
-6. Ändra sedan siffran i operatorn till 5.
+6. Ändra sedan siffran **50** i operatorn till **5**. Då räknar den tills poängen är 5 poäng. 
 
   ![image alt text](Poäng_Villkor_Operator4.png)
   
-Nu har vi satt en gräns för hur många poäng vi kan få i villkoret. Men vad ska hända?
+Nu har vi satt en gräns för hur många poäng vi kan få i villkoret. Men vad ska hända då?
 
 
 ## 4: Ny bana med ny bakgrund
 
-Nu vill vi bara att bakgrunden ska ändras så en ny bana startas. 
+När vi fått 5 poäng vill vi att bakgrunden ska ändras så att en ny bana startas. 
 
 1. Klicka på knappen **Välj en bakgrund** längst ned i högra hörnet.
 
   ![image alt text](Knapp_ny_Bakgrund.png)
 
-3. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
+2. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
 
   ![image alt text](Bakgrund_rymd.png)
   
-4. Nu ska vi koda så att nya bakgrunden visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finner du in kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annat namn). Lägg blocket inuti villkoret på bakgrundens skriptyta. 
+3. Nu ska vi koda så att den nya bakgrunden kan visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finns kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annat namn). Lägg blocket inuti villkoret på bakgrundens skriptyta.
 
   ![image alt text](KOD_SCEN_VäxlaBakgrundTillSpace_2.png)
 
-5. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan)** klickas på.
+4. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan) klickas på**.
 
   ![image alt text](KOD_Bakgrund_Startbakgrund1.png) 
   
-6. Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
+5. Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
 
   ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
   
 >**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
 ## Färdig!
-Grattis, nu har du skapat färdigt den andra delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 3**. Då ska vi bygga vidare på vår nästa bana, med rymdskepp och fallande blixtar! 
+Grattis, nu har du skapat färdigt den andra delen av ditt spel! Om du vill kan du koda vidare spelet i <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-3?chpt=0" target="_blank">  **Rymdhunden - del 3**. </a>. Då ska vi bygga vidare på vår nästa bana, med en robot som ger oss minuspoäng så vi blir Game Over!  
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
