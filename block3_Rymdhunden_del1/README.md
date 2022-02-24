@@ -130,12 +130,12 @@ Nu ska vi lägga till en ny sprajt - en stjärna. Hunden ska jaga stjärnan och 
 
   ![image alt text](Name_Dog_Dot.png)
 
-Ändra nu i ljusblå kodblocket genom att klicka på ordet **muspekare** och sedan på namnet **Dot** i listan som kommer fram. Nu känner stjärnan av om den rör vid hunden **Dot** istället.
+7. Ändra nu i ljusblå kodblocket genom att klicka på ordet **muspekare** och sedan på namnet **Dot** i listan som kommer fram. Nu känner stjärnan av om den rör vid hunden **Dot** istället.
 
   ![image alt text](KOD_rör_vid_Dot.png)
   ![image alt text](KOD_rör_vid_Dot_klar.png)
 
-7. Nu ska vi lägga till vad som ska hända när stjärnan och hunden rör vid varandra. Vi vill att stjärnan ska gömma sig, så de försvinner. Under den lila rubriken **UTSEENDE** hittar du kodblocket **Göm**. Dra in det och lägg det inuti ditt villkor, så det ser ut som i bilden nedan.
+8. Nu ska vi lägga till vad som ska hända när stjärnan och hunden rör vid varandra. Vi vill att stjärnan ska gömma sig, så de försvinner. Under den lila rubriken **UTSEENDE** hittar du kodblocket **Göm**. Dra in det och lägg det inuti ditt villkor, så det ser ut som i bilden nedan.
 
   ![image alt text](KOD_Star_göm.png)
   
@@ -146,17 +146,19 @@ Nu har vi en stjärna, men den försvinner. Vi måste koda vidare.
 
 ## 5: Få stjärnan att visa sig
 
-1. Om man startar spelet så försvinner stjärnan när hunden rör vid den, precis som vi kodat. Men ett problem är att stjärnan inte kommer tillbaka när vi startar om spelet igen. Vi måste lägga till kod som får stjärnan att visa sig igen när man startar om spelet. Under rubriken **UTSEENDE** finns kodblocket **Visa**. Lägg in det direkt under startblocket **När START (grön flagga) klickas på**. 
+Om man startar spelet så försvinner stjärnan när hunden rör vid den, precis som vi kodat. Men ett problem är att stjärnan inte kommer tillbaka när vi startar om spelet igen. 
+
+1. Vi måste lägga till kod som får stjärnan att visa sig igen när man startar om spelet. Under rubriken **UTSEENDE** finns kodblocket **visa**. Lägg in det direkt under startblocket **när START (grön flagga) klickas på**. 
 
   ![image alt text](KOD_Star_Visa_start.png)
   
->**Testa koden!** Starta spelet och se vad som händer. Kommer stjärnan tillbaka?
+>**Testa koden!** Starta spelet och se vad som händer. Visar sig stjärnan igen?
 
-2. Nu har vi stjärnan synlig igen. Men vi vill att den ska dyka upp på en ny plats så hunden får jaga efter stjärnan hela tiden. Under rubriken **RÖRELSE** finns kodblocket **gå till slumpmässig position**. Dra in blocket och lägg det inuti villkoret under **Visa**-blocket. 
+2. Nu har vi stjärnan synlig igen. Men vi vill att den ska dyka upp på en ny plats så hunden får jaga efter stjärnan hela tiden. Under rubriken **RÖRELSE** finns kodblocket **gå till slumpmässig position**. Dra in blocket och lägg det inuti villkoret under **visa**-blocket. 
 
   ![image alt text](KOD_Star_slumpposition.png)
   
-3. Nu ska vi se till att stjärnan visar sig på sin nya plats. Från rubriken **UTSEENDE** drar du in ett till **Visa**-block och lägger det inuti villkoret direkt under **gå till slumpmässig position**.
+3. Nu ska vi se till att stjärnan visar sig på sin nya plats. Från rubriken **UTSEENDE** drar du in ett till **visa**-block och lägger det inuti villkoret direkt under **gå till slumpmässig position**.
 
   ![image alt text](KOD_Star_Visa_igen.png)
   
@@ -180,6 +182,6 @@ Visa gärna ditt spel och låt andra testa. Om du vill, tryck på knappen DELA s
 
 * Vad är en loop?
 
-* Varför kan det vara bra att använda en loop?
+* När kan det vara bra att använda en loop?
 
 * Vad gör ett villkor? 
