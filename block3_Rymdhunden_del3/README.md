@@ -19,9 +19,9 @@ I **Rymdhunden del 1 och del 2** skapade vi början till spelet, där vi program
 
   ![image alt text](BILD_Hunden_stjarnan_exempelprojekt.png)
 
-I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker runt och jagar samma stjärna som hunden, men om roboten tar stjärnan före hunden, då får du 2 minuspoäng. Till slut blir spelet Game Over!
+I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker runt och jagar samma stjärna som hunden, men om roboten tar stjärnan före hunden, då får du minuspoäng. Får du 0 poäng blir spelet Game Over!
 
-1. Först lägger vi till den nya sprajten - en robot. Tryck på knappen **Välj en sprajt** längst ned och leta fram sprajten Robot.  
+1. Först lägger vi till den nya sprajten - en robot. Tryck på knappen **välj en sprajt** långt  ned till höger i Scratch och leta fram sprajten **Robot**.  
 
   ![image alt text](BILD_NySprajt_Robot.png)
 
@@ -29,19 +29,20 @@ I **Rymdhunden - del 3** ska vi lägga till en ny sprajt - en robot, som åker r
 
   ![image alt text](Koda_HÄNDELSER-När_START_klickas_på.png)
   
-3. Under rubriken **UTSEENDE** finns lilla kodblocket **Göm**. Dra ut det och fäst det direkt under startblocket med den gröna flaggan.
+3. Under rubriken **UTSEENDE** finns lilla kodblocket **göm**. Dra ut det och fäst det direkt under startblocket med den gröna flaggan.
 
   ![image alt text](KOD_Rocket_göm.png)
   
-4. I del 2 av Rymdhunden lade vi till en ny bakgrund, som kom fram när hunden fångat 5 stjärnor. Denna nya bakgrund heter **Space**. Nu ska vi koda så att roboten ska börja visa sig när bakgrunden **Space** visar sig, alltså den nya banan. Under rubriken **HÄNDELSER** finns blocket **När bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta, lägg det bredvid det andra skriptet med gröna flaggan. 
+4. I del 2 av Rymdhunden lade vi till en ny bakgrund med rymdtema, som visar sig när hunden fångat 5 stjärnor och fått 5 poäng. Denna nya bakgrund heter **Space**. Nu ska vi programmera så att roboten ska visa sig när bakgrunden **Space** kommer fram, alltså den nya banan. 
+Under rubriken **HÄNDELSER** finns blocket **när bakgrunden växlar till "bakgrund1"** Dra ut blocket till robotens skriptyta, lägg det bredvid det andra skriptet med gröna flaggan. 
 
   ![image alt text](KOD_Rocket_START_NärBakgrundenVäxlarTill_.png)
   
-5. Ändra i kodblocket du just lade till så att det står namnet på nya bakgrunden - alltså **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn i menyn. Då ser blocket ut som bilden nedan.
+5. Ändra i kodblocket så att det står namnet på nya bakgrunden - alltså **Space**. Klicka på texten **bakgrund 1** i blocket och välj rätt namn i menyn. Då ser blocket ut som bilden nedan.
   
   ![image alt text](KOD_ROCKET_bakgrund_Space.png)
   
-6. Nu lägger vi till kod som får roboten att visa sig när nya bakgrunden kommer fram. Under rubriken **UTSEENDE** finns kodblocket **visa**. Dra ut till skriptytan och fäst direkt under det första gula blocket, så det ser ut som på bilden nedan.
+6. Nu lägger vi till kod som får roboten att visa sig när nya bakgrunden kommer fram. Under rubriken **UTSEENDE** finns kodblocket **visa**. Dra ut till skriptytan och fäst direkt under det gula blocket, så det ser ut som på bilden nedan.
 
   ![image alt text](KOD_ROCKET_Visa.png)
   
@@ -58,21 +59,25 @@ Dax att ge roboten lite fart! Vi kodar in rörelse.
 
   ![image alt text](KOD_ROBOT_loop2.png)  
   
-2. Nu lägger vi till rörelsen framåt. Under rubriken **RÖRELSE** finns kodblocket **glid 2 sekunder till slumpmässig position**. Lägg in det inuti **för alltid**-loopen.
+2. Nu lägger vi till rörelse. Vi vill att roboten ska glida fram till stjärnan. Under rubriken **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Lägg in det inuti **för alltid**-loopen.
 
   ![image alt text](KOD_ROBOT_gåtillslumpmässigposition2.png)
   
-3. Klicka på texten **slumpmässig position** i blocket du just lade in. Välj istället namnet på din stjärna **Star**, så ändras texten i blocket till **glid 2 sekunder till Star**. Nu kommer roboten alltid glida till stjärnan.
+3. Klicka på texten **slumpmässig position** i blocket du just lade in. Välj istället namnet på din stjärna **Star**, så ändras texten i blocket till **glid 1 sekunder till Star**. Nu kommer roboten alltid glida fram till stjärnan.
 
   ![image alt text](KOD_ROBOT_gåtillStar.png)
   
+4. Ändra även antal sekunder i blocket. Klicka på siffran **1** i blocket och skriv **2**. 
+
+  ![image alt text](KOD_ROBOT_glid2sekunder.png)
+  
 >**Testa koden!** Starta spelet med gröna flaggan. Vad händer med roboten på den nya banan? Åker den iväg mot stjärnan? Om hunden tar stjärnan, åker roboten iväg till nästa stjärna? 
 
-4. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
+5. Är roboten för stor? Du kan göra den mindre genom att ändra storleken i rutan under scenen där det står **Storlek 100**. Nu är roboten alltså 100% stor. Ändra till lägre siffra, kanske 70% blir lagom? Prova dig fram.
 
   ![image alt text](Storlek.png)
   
-5. Vi vill att roboten ska få en startposition. Dra roboten till en plats på scenen där du vill att den ska starta, förslagsvis ett av hörnen på scenen. Under **RÖRELSE** finns kodblocket **gå till x:__, y:__**. Lägg in blocket direkt under det gula startblocket **när bakgrunden växlar till Space**. 
+6. Vi vill att roboten ska få en startposition. Dra roboten till en plats på scenen där du vill att den ska starta, förslagsvis ett av hörnen på scenen. Under **RÖRELSE** finns kodblocket **gå till x_ , y_**. Lägg in blocket direkt under det gula startblocket **när bakgrunden växlar till Space**. 
 
   ![image alt text](KOD_ROBOT_Startposition2.png)
 
