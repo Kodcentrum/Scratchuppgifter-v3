@@ -120,15 +120,15 @@ Nu vill vi bara att bakgrunden ska ändras så en ny bana startas.
 
   ![image alt text](Bakgrund_rymd.png)
   
-3. Nu ska vi koda så att nya bakgrunden visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finner du in kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annant namn). Lägg blocket inuti villkoret på bakgrundens skriptyta. 
+4. Nu ska vi koda så att nya bakgrunden visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finner du in kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annat namn). Lägg blocket inuti villkoret på bakgrundens skriptyta. 
 
-  ![image alt text](KOD_SCEN_VäxlaBakgrundTillSpace_2.png) 
+  ![image alt text](KOD_SCEN_VäxlaBakgrundTillSpace_2.png)
 
-3. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan)** klickas på.
+5. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan)** klickas på.
 
   ![image alt text](KOD_Bakgrund_Startbakgrund1.png) 
   
-Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
+6. Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
 
   ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
   
