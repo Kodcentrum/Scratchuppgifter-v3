@@ -113,7 +113,10 @@ Nu har vi satt en gräns för hur många poäng vi kan få i villkoret. Men vad 
 Nu vill vi bara att bakgrunden ska ändras så en ny bana startas. 
 
 1. Klicka på knappen **Välj en bakgrund** längst ned i högra hörnet.
-2. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
+
+  ![image alt text](Knapp_ny_Bakgrund.png)
+
+3. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
 
   ![image alt text](Bakgrund_rymd.png)
   
