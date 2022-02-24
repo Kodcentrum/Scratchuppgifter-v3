@@ -48,7 +48,7 @@ Vi vill programmera så att hunden rör sig på scenens bakgrund och följer eft
 
 Just nu händer ingenting om du trycker på startflaggan. Det finns nämligen ingen programmerad kod i projektet som bestämmer vad hunden ska göra om du startar spelet. Vi måste programmera in det. Ibland kallar man det för att man **kodar** spelet. Gör såhär:
 
-Längst till vänster i Scratch hittar du olika färgglada rubriker med en massa kodblock bredvid som ser ut som pusselbitar. Klicka på den gula rubriken som heter **HÄNDELSER** och välj det översta kodblocket med en grön flagga på. Texten på kodblocket säger: **när START (gröna flaggan) klickas på**. Ta tag i detta kodblock och dra det ut till den tomma vita ytan till höger i mitten av Scratch och lägg den där. Denna vita yta kallas för kodytan eller skriptytan, det är där du lägger in koden som ska styra sprajtarna och projektet på scenen.
+Längst till vänster i Scratch hittar du olika färgglada rubriker med en massa kodblock bredvid som ser ut som pusselbitar. Klicka på den gula rubriken som heter **HÄNDELSER** och välj det översta kodblocket med en grön flagga på. Texten på kodblocket säger: **när START (gröna flaggan) klickas på**. Ta tag i detta kodblock och dra det ut till den tomma vita ytan till höger i mitten av Scratch och lägg den där. Denna vita yta kallas för **kodytan** eller **skriptytan**, det är där du lägger in koden som ska styra sprajtarna och projektet på scenen.
 
   ![image alt text](5_Skript_HÄNDELSER_NärGrönFlaggaKlickasPå.png)
   
@@ -165,7 +165,7 @@ Om man startar spelet så försvinner stjärnan när hunden rör vid den, precis
 >**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer? Dyker stjärnan upp på nya platser igen?
 
 ## Färdig!
-Grattis, nu har du skapat första delen av ditt spel! Om du vill kan du koda vidare spelet i **Rymdhunden - del 2**. 
+Grattis, nu har du skapat första delen av ditt spel! Om du vill kan du koda vidare spelet i <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-2?chpt=0" target="_blank"> nästa steg: **Rymdhunden - del 2**. </a>
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
