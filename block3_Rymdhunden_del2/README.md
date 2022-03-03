@@ -122,6 +122,10 @@ När vi fått 5 poäng vill vi att bakgrunden ska ändras så att en ny bana sta
 3. Nu ska vi koda så att den nya bakgrunden kan visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finns kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annat namn). Lägg blocket inuti villkoret på bakgrundens skriptyta.
 
   ![image alt text](KOD_SCEN_VäxlaBakgrundTillSpace_2.png)
+  
+  ...så ser det ut som i bilden nedan när det är färdigt...
+  
+  ![image alt text](KOD_SCEN_färdigt_växlar_bakgrund.png)
 
 4. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan) klickas på**.
 
@@ -134,7 +138,7 @@ När vi fått 5 poäng vill vi att bakgrunden ska ändras så att en ny bana sta
 >**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
 ## Färdig!
-Grattis, nu har du skapat färdigt den andra delen av ditt spel! Om du vill kan du koda vidare spelet i <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-3?chpt=0" target="_blank">  **Rymdhunden - del 3**. </a>. Då ska vi bygga vidare på vår nästa bana, med en robot som ger oss minuspoäng så vi blir Game Over!  
+Grattis, nu har du skapat färdigt den andra delen av ditt spel! Om du vill kan du koda vidare spelet i <a href="https://www.kodboken.se/start/skapa-spel/uppgifter-i-scratch/rymdhunden-del-3?chpt=0" target="_blank">  **Rymdhunden - del 3** </a>. Då ska vi bygga vidare på vår nästa bana, med en robot som ger oss minuspoäng så vi blir Game Over!  
 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Rymdhunden - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namnet på spelet högt upp ovanför projektet, där det nu står "Scratchprojekt". Spara sedan, men du måste vara inloggad för att kunna spara.
 
