@@ -118,7 +118,7 @@ Nu har vi en robot som jagar stjärnan. Vi kodar vidare.
 
   ![image alt text](STAR_VILLKOR2_Poäng_-3.png)
   
-9. Nu ska vi flytta stjärnan till en ny slumpvis vald plats på scenen. Under rubriken **RÖRELSE** finns blocket **gå till slumpmässig position**. Lägg in det i villkoret under **ändra Poäng med -2**.
+9. Nu ska vi flytta stjärnan till en ny slumpvis vald plats på scenen. Under rubriken **RÖRELSE** finns blocket **gå till slumpmässig position**. Lägg in det i villkoret under **ändra Poäng med -3**.
 
   ![image alt text](KOD_STAR_VILLKOR2_Gåtillslumpmässigposition.png)
 
@@ -127,7 +127,6 @@ Nu har vi en robot som jagar stjärnan. Vi kodar vidare.
   ![image alt text](KOD_STAR_VILLKOR2_Visa.png)
   
 >**Testa koden!** Starta spelet med gröna flaggan. Vad händer? Kan roboten fånga stjärnan? Får spelet 3 minuspoäng när det händer? Kan hunden fånga stjärnan och få 1 pluspoäng? 
-
 
 
 ## 4: En sista bakgrundsbild
@@ -146,15 +145,15 @@ Vi vill att spelet ska kunna bli Game Over. Vi kodar vidare!
 
   ![image alt text](Hinkverktyget.png)
   
-4. Klicka på den lilla rutan med färg på över ritverktygen och välj en färg som du vill ha på slutbilden med färgväljaren. Klicka sedan på ritytan en gång så fylls ytan med färgen du valt. 
+4. Klicka på den lilla rutan med färg på, som finns över ritverktygen och välj en färg som du vill ha på bilden. Du kan ändra färg genom att dra i de vita,runda färgväljarna.  När du valt färg klickar du på ritytan en gång, så fylls ytan med färgen du valt. Se bilden nedan.
 
   ![image alt text](Måla_bakgrund_färgväljare.png)
   
-5. Om du vill kan du skriva texten **Game Over** på bakgrundsbilden. Klicka på **Text-verktyget** och välj även en **ny färg** som du gillar för texten. Klicka på ritytan och skriv Game Over på bakgrunden. (Klicka sedan bredvid texten och dra i hörnpunkterna på rutan som syns runt texten, så kan du förstora texten eller flytta på den.)
+5. Om du vill kan du skriva texten **Game Over** på bakgrundsbilden. Klicka på **Text-verktyget** och välj även en **ny färg** som du gillar för texten. Klicka på ritytan och skriv Game Over på bakgrunden. (Klicka sedan bredvid texten, då kommer en fyrkant upp med blå prickar runt texten du skrev. Du kan dra i hörnpunkterna på rutan runt texten, så kan du förstora texten. Du kan även flytta på texten.)
 
   ![image alt text](SCEN_TEXT_GameOver.png)
   
-6. Vi kan döpa om vår nya bakgrundsbild, så den heter Game Over. Ovanför färgväljaren finns namnet på bakgrundsbilden, just nu heter den kanske *bakgrund 2*. Radera det och skriv istället **Game Over**. 
+6. Vi kan döpa om vår nya bakgrundsbild, så den heter Game Over. Ovanför färgväljaren finns namnet på bakgrundsbilden, just nu heter den kanske *bakgrund 2*. Radera det och skriv istället till exempel **Game Over**. 
 
   ![image alt text](Klädsel_namn.png)
   
@@ -168,11 +167,11 @@ Vi vill att spelet ska kunna bli Game Over. Vi kodar vidare!
 
   ![image alt text](Aktiverad_scen_slutbild.png)
   
-2. Nu skapar vi ett villkor som kollar om poängen är 0. Under rubriken **KONTROLL** finns villkors-blocket **om <> då**. Lägg in det inuti scenens **för alltid**-loop, under det första fillkoret i loopen. 
+2. Nu skapar vi ett villkor som kollar om poängen är 0. Under rubriken **KONTROLL** finns villkors-blocket **om <> då**. Lägg in det inuti scenens **för alltid**-loop, under det första villkoret i loopen. 
 
   ![image alt text](KOD_SCEN_VILLKOR2.png)
   
-3. Nu behöver vi kodblock som kollar att poängen är **mindre än 0**. Tecknet för *mindre än* ser ut såhär: **<**. Under rubriken **OPERATOR** finns kodblocket som har tecknet **<** i sig. Dra in det och lägg det inuti det kantiga hålet mellan **om <> då** i villkoret. 
+3. Nu behöver vi kodblock som kollar att poängen är **mindre än 0**. Tecknet för *mindre än* ser ut såhär: **<**. Under rubriken **OPERATOR** finns kodblocket som har tecknet **<** i sig. Dra in det och lägg det inuti det kantiga hålet mellan **om** och **då** i villkoret. Se bilden här under.
 
   ![image alt text](KOD_SCEN_VILLKOR2_Operator.png)
   
@@ -182,7 +181,7 @@ Vi vill att spelet ska kunna bli Game Over. Vi kodar vidare!
   
 5. Gå till rubriken **VARIABLER** och leta fram det ovala kodblocket som det står **Poäng** på. Lägg in blocket i det första tomma runda hålet i det gröna operatorblocket. Då står det istället **om Poäng < 0 då**.
 
-  ![image alt text](KOD_SCEN_VILLKOR2_operator_0.png)
+  ![image alt text](KOD_Scen_VILLKOR_OmPOÄNGmindreän0Då.png)
 
 6. Nu lägger vi in ett kodblock som ser till att bakgrunden som heter Game Over visas när poängen blir mindre än 0. Under rubriken **UTSEENDE** finns kodblocket **växla bakgrund till Game Over**. Dra in blocket och lägg det inuti villkoret.
 
