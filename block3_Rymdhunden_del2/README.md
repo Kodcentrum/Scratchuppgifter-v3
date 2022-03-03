@@ -118,14 +118,10 @@ När vi fått 5 poäng vill vi att bakgrunden ska ändras så att en ny bana sta
 2. Välj kategori **Rymden** och välj en rymdbakgrund. Vi valde **Space**.
 
   ![image alt text](Bakgrund_rymd.png)
-  
+
 3. Nu ska vi koda så att den nya bakgrunden kan visas. Se till att du har scenen aktiverad med dess skriptyta. Under rubriken **UTSEENDE** finns kodblocket **växla bakgrund till Space** (I vårt block står det namnet **Space**, då vi valde den bakgrunden. Du kanske valde en annan bakgrund med annat namn). Lägg blocket inuti villkoret på bakgrundens skriptyta.
 
   ![image alt text](KOD_SCEN_VäxlaBakgrundTillSpace_2.png)
-  
-  ...så ser det ut som i bilden nedan när det är färdigt...
-  
-  ![image alt text](KOD_SCEN_färdigt_växlar_bakgrund.png)
 
 4. Dra in ett till likadant block från **UTSEENDE** och lägg det överst precis under **när START (gröna flaggan) klickas på**.
 
@@ -134,6 +130,11 @@ När vi fått 5 poäng vill vi att bakgrunden ska ändras så att en ny bana sta
 5. Klicka på blocket och ändra så det står namnet på din första bakgrund, så spelet alltid börjar med rätt bakgrund. 
 
   ![image alt text](KOD_Bakgrund_Startbakgrund2.png) 
+  
+  ...så ser det ut som i bilden nedan när det är färdigt...
+  
+  ![image alt text](KOD_SCEN_färdigt_växlar_bakgrund.png)
+  
   
 >**Testa koden!** Starta spelet och låt hunden jaga efter stjärnan. Vad händer när du får 5 poäng? Byter det till ny bakgrund? Försvinner stjärnan? Vad händer om du startar om spelet? Visas rätt bakgrund? Är poängräknaren och stjärnan igång igen?
 
