@@ -161,7 +161,7 @@ Vi vill att spelet ska kunna bli Game Over. Vi kodar vidare!
 
   ![image alt text](KODFLIK.png)
   
-## 4: Game Over i spelet
+## 5: Game Over i spelet
   
 1. Nu är vi tillbaka där vi har alla kodblocken. Just nu är bakgrunden med scenen markerad och vi ser dess kod. Det är bra, för vi vill koda in att om poängen blir 0, då ska spelet bli Game Over och vår sista bakgrundsbild ska visa sig. Se först till att scenen med bakgrunden är markerad med en blå ram runt sig som i bilden nedan.
 
