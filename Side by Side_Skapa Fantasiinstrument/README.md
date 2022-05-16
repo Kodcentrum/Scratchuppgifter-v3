@@ -38,6 +38,10 @@ Dax att börja koda!
 
 >**VAD SKA JAG GÖRA?**
 
+- Ta bort kattfiguren
+- Välj ny sprajt
+- Välj ny bakgrund
+
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -78,6 +82,8 @@ När du ska jobba med ljud och musik i Scratch lägger man till ett tillägg fö
 
 >**VAD SKA JAG GÖRA?**
 
+- Lägg till tillägget Musik
+
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -100,6 +106,12 @@ Nu är det dax att börja koda in musik och toner!
 Nu ska du koda den första tangent-sprajten att spela en viss ton - eller ljud - när en viss datortangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton? Jo, vi måste koppla datortangenten till sprajten med kod.
 
 >**VAD SKA JAG GÖRA?**
+
+- Lägg till kod som bestämmer vilket instrument som ska spelas
+- Skapa en loop
+- Skapa ett villkor *om...då*
+- Känna av datortangent "a"
+- Spela en not när tangenten är nedtryckt
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -157,6 +169,10 @@ Klädslar är olika bilder av sprajten där den har olika positioner eller ser o
 
 >**VAD SKA JAG GÖRA?**
 
+- Gå till sprajtens klädslar på fliken som heter Klädslar
+- Rita en stängd mun på en klädsel
+- Rita en öppen mun på nästa klädsel
+
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -205,6 +221,11 @@ Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppe
 
 >**VAD SKA JAG GÖRA?**
 
+- Klicka på KOD-fliken för att komma till skriptytan för sprajten
+- Lägg in två block för att ändra klädsel inom villkoret
+- Ändra så att det är två olika klädslar som visas
+- Lägg till ett likadant block för ändra klädsel i toppen, så rätt klädsel alltid visas när startflaggan klickas på
+
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
 
@@ -231,9 +252,14 @@ Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan de
 Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
 
 ## 6: Skapa alla tangenter
-Nu ska vi skapa instrumentets alla tangenter.
+Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar till alla dina tangenter**, precis som i vårt krabb-instrument, kan du enklast göra såhär:
 
 >**VAD SKA JAG GÖRA?**
+
+- Kopiera sprajten
+- Ändra storlek på sprajtar
+- Byt datortangent som ska användas för att spela sprajtens ton
+- Byt not som ska spelas av sprajten
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -266,6 +292,11 @@ Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det
 Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer några exempel du kan prova.
 
 >**VAD SKA JAG GÖRA?**
+
+- Skapa nytt skript med *när grön flagga klickas på*
+- Skapa en loop
+- Skapa glidande rörelee på sprajten med blocket *glid 1 sek till x:... y:...*
+- Sätt en startposition på sprajten där den ska stå när instrumentet startas
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -320,6 +351,13 @@ Glöm inte att göra likadant på alla dina sprajt-tangenter, men se till att du
 Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi kodar in det på bakgrundsbilden på scenen. 
 
 >**VAD SKA JAG GÖRA?**
+
+- Välj bakgrunden så den aktiveras
+- Lägg in startkod för *när grön flagga klickas på*
+- Lägg in en loop
+- Lägg ett ljudblock inuti loopen med *spela ljudet pop tills färdigt*
+- Lägg till nytt ljud under Ljud-fliken och ljudbiblioteket
+- Ändra till det nya ljudet i ditt ljudblock på skriptytan
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
