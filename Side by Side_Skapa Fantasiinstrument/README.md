@@ -34,15 +34,9 @@ I vårt exempelprojekt i denna instruktion skapas en krabb-synth som du spelar p
 
 Men hur ska ditt instrument se ut? Och hur många tangenter vill du ha (och därmed ljud/noter att spela på)? Ska det vara frukter som du spelar på? Eller kanske djur? Stjärnor? Kanske rita egna tangenter? Klura ut hur du vill att ditt instrument ska se ut.
 
-Dax att börja koda. I videon nedan kan du se hur du gör första stegen. Under videon finns full instruktion med text och bilder.
-<video src="./Fantasimusik_1.mp4" controls muted height=480 width=640 />
+Dax att börja koda!
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Ta bort kattfiguren
-- Välj ny sprajt
-- Välj ny bakgrund
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -81,12 +75,8 @@ Gå nu vidare för att lägga till musik!
 
 ## 2: Välj tillägget Musik
 När du ska jobba med ljud och musik i Scratch lägger man till ett tillägg för Musik. Då får du nya kodblock för musik att koda med.
-<video src="./Fantasimusik_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg till tillägget Musik
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -108,16 +98,8 @@ Nu är det dax att börja koda in musik och toner!
 ## 3: Välj ljud och sätt toner
 
 Nu ska du koda den första tangent-sprajten att spela en viss ton - eller ljud - när en viss datortangent trycks ner på datorns tangentbord. Men hur ska sprajten veta om när den ska spela sin ton? Jo, vi måste koppla datortangenten till sprajten med kod.
-<video src="./Fantasimusik_3.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg till kod som bestämmer vilket instrument som ska spelas
-- Skapa en loop
-- Skapa ett villkor *om...då*
-- Känna av datortangent "a"
-- Spela en not när tangenten är nedtryckt
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -172,14 +154,8 @@ Från tema KONTROLL drar du in kodblocket **för alltid** och fäster det under 
 
 ## 4: Ge sprajten en mun att sjunga med
 Klädslar är olika bilder av sprajten där den har olika positioner eller ser olika ut. Genom att koda att klädsel-bilderna byts mellan vid olika tillfällen skapas en känsla av rörelse, exempelvis att krabban får en mun som öppnas och stängs när den sjunger. Om sprajten rör sig så syns det vilken tangent som spelas.
-<video src="./Fantasimusik_4.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Gå till sprajtens klädslar på fliken som heter Klädslar
-- Rita en stängd mun på en klädsel
-- Rita en öppen mun på nästa klädsel
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -226,15 +202,8 @@ Nu har du en tangent som går att spela på och som har olika klädslar. Dax att
 ## 5: Få sprajten att sjunga!
 Nu ska vi ANIMERA sprajten, så den ser ut att sjunga när vi trycker på datorns tangenter för att spela noterna. 
 Vi lägger till kod som säger åt sprajten att byta klädsel till den med öppen mun när den spelas.
-<video src="./Fantasimusik_5.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Klicka på KOD-fliken för att komma till skriptytan för sprajten
-- Lägg in två block för att ändra klädsel inom villkoret
-- Ändra så att det är två olika klädslar som visas
-- Lägg till ett likadant block för ändra klädsel i toppen, så rätt klädsel alltid visas när startflaggan klickas på
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -262,16 +231,9 @@ Ibland kan man ha många olika klädslar som man vill variera mellan. Då kan de
 Nu har du en tangent som går att spela på och som rör på sig. Men vi behöver fler tangenter. Dax att skapa hela instrumentet!
 
 ## 6: Skapa alla tangenter
-Nu ska vi skapa instrumentets alla tangenter. Om du vill ha **likadana sprajtar till alla dina tangenter**, precis som i vårt krabb-instrument, kan du enklast göra såhär:
-<video src="./Fantasimusik_6.mp4" controls muted height=480 width=640 />
+Nu ska vi skapa instrumentets alla tangenter.
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Kopiera sprajten
-- Ändra storlek på sprajtar
-- Byt datortangent som ska användas för att spela sprajtens ton
-- Byt not som ska spelas av sprajten
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -302,15 +264,8 @@ Nu har du ett instrument! Om du vill kan du gå vidare och skapa mer kul med det
 
 ## 7: Skapa mer rörelse (valbart)
 Det är roligt när sprajtarna rör sig lite mer. Det finns många olika sätt att koda rörelse på, här kommer några exempel du kan prova.
-<video src="./Fantasimusik_7.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Skapa nytt skript med *när grön flagga klickas på*
-- Skapa en loop
-- Skapa glidande rörelee på sprajten med blocket *glid 1 sek till x:... y:...*
-- Sätt en startposition på sprajten där den ska stå när instrumentet startas
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
@@ -363,17 +318,8 @@ Glöm inte att göra likadant på alla dina sprajt-tangenter, men se till att du
 
 ## 8: Lägg till bakgrundsmusik (valbart)
 Om du vill kan du lägga till ett coolt ljudspår som loopas i bakgrunden. Vi kodar in det på bakgrundsbilden på scenen. 
-<video src="./Fantasimusik_8.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Välj bakgrunden så den aktiveras
-- Lägg in startkod för *när grön flagga klickas på*
-- Lägg in en loop
-- Lägg ett ljudblock inuti loopen med *spela ljudet pop tills färdigt*
-- Lägg till nytt ljud under Ljud-fliken och ljudbiblioteket
-- Ändra till det nya ljudet i ditt ljudblock på skriptytan
 
 <br>
 >**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
