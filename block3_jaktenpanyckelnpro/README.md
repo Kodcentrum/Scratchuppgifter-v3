@@ -95,7 +95,7 @@ Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du 
 
 3. Klicka på fältet där det står **Storlek** och skriv in en mindre siffra så **Nyckeln** blir mindre.
     
-    ![image alt text] (andra-storlek-sprajt.png)
+    ![image alt text](andra-storlek-sprajt.png)
 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
