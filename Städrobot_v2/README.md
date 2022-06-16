@@ -63,7 +63,7 @@ Gör såhär:
 
 4. Golvet kan också få en ny färg. Välj det lilla hink-verktyget som heter **Fyll färg**. Välj sen vilken färg du vill ha på golvet och måla det genom att klicka på ytan innanför väggarna. 
 
-<img src="städrobot_2.3.png" width="650" height="450">
+![image alt text](städrobot_2.3.png)
 
 Nu har vi en dammsugarrobot och ett rum, men vi måste få roboten att börja röra på sig. Dax att börja koda.
 
