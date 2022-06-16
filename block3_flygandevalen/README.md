@@ -177,7 +177,7 @@ För att komma tillbaka till skriptytan där du kan koda igen, så klickar du p�
 > Testa ditt projekt! Klicka på START. Står poängräknaren på 0 när du startar spelet? Ändras poängen när valen äter upp munkar?
 
 
-## Nu har du ett färdigt spel!
+## Färdig!
 
 Grattis, nu har du gjort färdigt uppgiften.
 
