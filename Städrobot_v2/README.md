@@ -29,7 +29,7 @@ Börja med att skapa din robotdammsugare. Du bestämmer själv vilken sprajt du 
 
 ![image alt text](tabortSprajt.png) 
 
-2. För att skaa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. 
+2. För att skapa din egen robotdammsugare går du till symbolen för **Välj ny sprajt** och klicka på på den. 
 
 ![image alt text](städrobot_1.2.png)
  
