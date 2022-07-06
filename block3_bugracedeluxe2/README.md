@@ -2,8 +2,7 @@
 
 Detta är fortsättning på uppgifterna **Bug Race** och **Bug Race deluxe – del 1**. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort, du kommer lägga in hinder för den och skapa flera banor.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank"> Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
 Ett exempel på Bug Race delux kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/197016490" target="_blank">https://scratch.mit.edu/projects/197016490</a>
 
