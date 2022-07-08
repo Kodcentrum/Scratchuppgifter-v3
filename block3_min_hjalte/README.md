@@ -168,8 +168,7 @@ Tryck på **DELA-knappen** för att andra ska kunna hitta berättelsen på Scrat
 
 Om du har tid över kan du nu fortsätta bygga vidare på din berättelse och göra om din hjälte och din motståndare som du vill.
 
-<a href="https://scratch.mit.edu/projects/148451864/" target="_blank">Här kan du se ett annat hjälte-projekt där vi använder fler sprajtar och bakgrunder.
-![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
+<a href="https://scratch.mit.edu/projects/148451864/" target="_blank">Här kan du se ett annat hjälte-projekt där vi använder fler sprajtar och bakgrunder.![Scratchprojekt Hjälte och internettroll](Bild_slut.png)</a>
 
 Här kommer några fler idéer om du behöver inspiration:
 
