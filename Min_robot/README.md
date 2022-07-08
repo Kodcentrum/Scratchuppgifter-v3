@@ -1,9 +1,7 @@
 # Min Robot
 Här får du skapa din egen robot som hjälper dig i din vardag! Vad vill du att din robot ska hjälpa dig med? En Musikrobot som spelar glad musik när du är ledsen? Eller en Matrobot som hjälper dig välja vad du ska äta till middag? I den här uppgiften får du prova på att koda villkor, operatorer och om du vill även slump i Scratch. 
 
-Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Matrobot: <a href="https://scratch.mit.edu/projects/364987902" target="_blank">
-
-![image alt text](image_0.png)</a>
+Klicka på bilden nedanför för att testa ett exempelprojekt med en hjälpsam Matrobot: <a href="https://scratch.mit.edu/projects/364987902" target="_blank">![image alt text](image_0.png)>
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva Min Robot-projektet utifrån Kodbokens instruktioner.
