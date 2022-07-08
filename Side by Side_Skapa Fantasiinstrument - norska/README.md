@@ -3,19 +3,13 @@
 Hur skulle du vilja att ditt alldeles egna instrument såg ut och lät? Förr i tiden fanns bara akustiska instrument så som piano, fiol, gitarr eller sitar att spela musik på. Idag finns elektriska instrument och datorer som kan spela upp nästan vilka otroliga digitala ljud som helst. Här ska du få skapa ditt eget kodade Fantasiinstrument som fungerar och låter precis som du vill!
 
 I vårt exempel nedan har vi kodat en fantasisynth med krabbor som tangenter, klicka på gröna flaggan för att prova att spela på det. Använd datortangenterna A, S, D, F, G, H, J, K som bildar noterna i en C-skala: <a href="https://scratch.mit.edu/projects/400771414/" target="_blank">https://scratch.mit.edu/projects/400771414/
-  a
-![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
+  a![Exempelprojekt Fantasisynth med krabbor](image_0_exempelprojekt.png)</a>
 
-...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584
-  
-![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
+...och här finns ett Monsterinstrument med körsång som du kan testa. Använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala.: <a href="https://scratch.mit.edu/projects/400757584/" target="_blank">https://scratch.mit.edu/projects/400757584![Exempelprojekt Fantasisynth med dansande monsterfigurer](Monsterinstrument_exempelprojekt.png)</a> 
 
-... och här kan du testa ett kodat piano, använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/
-  
-![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
+... och här kan du testa ett kodat piano, använd datortangenterna A, S, D, F, G, H, J, K för att spela en C-skala: <a href="https://scratch.mit.edu/projects/398827603/" target="_blank">https://scratch.mit.edu/projects/398827603/![Exempelprojekt Piano](Piano_exempelprojekt.png)</a> 
 
-> **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt eget fantasiinstrument utifrån instruktionerna som följer nedanför. 
+> **HUR GÖR JAG?** Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Öppna även kodarverktyget Scratch genom att klicka på länken **Öppna Scratch** bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. I Scratch kodar och skapar du ditt eget fantasiinstrument utifrån instruktionerna som följer nedanför. 
 
 Nu är det din tur att skapa ditt eget instrument. Du bestämmer själv hur det ska se ut och låta. 
 Instruktionen följer exemplet av en fantasisynth med krabbor som i exempelprojektet här ovan. Men du ändrar som du vill.
