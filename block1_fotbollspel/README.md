@@ -2,7 +2,7 @@
 
 Det här är ett enkelt spel för dig som har börjat lära dig litegrann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 
-Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/277142988/" target="_blank">https://scratch.mit.edu/projects/277142988/<a/>
+Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/277142988/" target="_blank">https://scratch.mit.edu/projects/277142988/</a>
 
 ![Fotbollspel](fotbollspel.png)
 
