@@ -4,8 +4,7 @@ Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, sen
 
 Musikspelarna blir också smartare och kan föreslå musik som de tror att du kommer att tycka om. Vad vill du ha för pryl eller program som spelar din favoritmusik och hur vill du att den ska fungera?
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Öppna även kodarverktyget Scratch genom att klicka på länken bredvid katt-figuren ovan eller via www.scratch.mit.edu</a>. Här kodar och skapar du själva spelet utifrån instruktionerna nedan. 
 
 I den här uppgiften kommer vi att göra ett par glasögon som känner av hur personen som bär dem mår – om den är glad eller arg – och spela musik som passar till humöret! Vi tänker oss att våra musikspelande glasögon har en sensor som kan läsa av humöret, kanske genom personens hjärnvågor. Du kan så klart göra en musikspelare som ser ut som något helt annat och som känner av något annat!
 
