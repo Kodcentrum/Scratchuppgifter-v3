@@ -8,7 +8,7 @@ Så här kan det se ut: <a href="https://scratch.mit.edu/projects/311876283/" ta
 
 ## 1 – Skapa ett nytt projekt i Scratch
 
-Börja med att öppna Scratch genom att trycka på den här länken: https://scratch.mit.edu/
+Börja med att öppna Scratch genom att trycka på den här länken: <a href="https://scratch.mit.edu/" target="_blank">https://scratch.mit.edu/</a>
 
 I toppen av sidan finns en meny med olika alternativ. Tryck på alternativet *Skapa*.
 
