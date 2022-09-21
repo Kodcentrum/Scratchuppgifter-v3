@@ -217,7 +217,7 @@ Nu ska du koda så att sprajten hela tiden **känner av** ifall den rör vid fä
 
 3. Nu ska vi ställa in rätt färg för just din målpunkt. Tryck på färgcirkeln i kodbiten **rör vid färgen**. Välj lilla pimpett-verktyget i menyn längst ned och tryck sen på färgen på labyrintens mål-markering. Färgen ändras då till den rätta målfärgen i blocket **rör vid färgen**.
 
-![image alt text](exempel_byt_färg_pimpettverktyg.png)    
+![image alt text](exempel_byt_färg_pimpettverktyg.png)
 ![image alt text](rör_vid_färgen_pinpettverktyget.png)
 <br>
 <br>
