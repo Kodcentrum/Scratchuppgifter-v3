@@ -92,7 +92,7 @@ Scratch-skripten funkar lite som lego eller pusselbitar, man kan sätta ihop dem
 
 3. Roboten gör allt vi sa åt henne att göra med vårt skript, men det går så snabbt att vi inte hinner se alla steg. Klicka på rubriken **KONTROLL** och lägg till skriptet **"vänta 1 sekunder"** mellan varje Gå-skript och Rotera-skript. Nu utför roboten instruktionerna i lugnare tempo och kan vi följa varje steg hon gör.
 
-![Alt Text](Skript_4.gif)
+![Alt Text](Skript_4_rorelse.png)
 
 ## 5: Start-skriptet
 
