@@ -46,7 +46,8 @@ Nu får du se till att rita lite spindelnät:
 
 1.	Klicka på fliken BAKGRUNDER i övre vänsta hörnet, så kommer du till ritverktyget. Tryck på PENSEL eller LINJE och välj en vit färg. Rita ett tjusigt spindelnät i övre högra hörnet.
 
-   ![image alt text](imse5britalinje.png) .  ![image alt text](imse5rita.png) .   
+![image alt text](imse5britalinje.png)
+![image alt text](imse5rita.png)
 
 2.	Tryck på LINJE och välj en vit färg. Rita en rak tråd i mitten av bakgrunden, från spindelnätet till gräset där spindeln är placerad. Det är den här tråden spindeln ska klättra upp på lite senare.
 
@@ -67,15 +68,15 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
 1.	Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till kodytan. Under den kopplar du fast blocket för **RÖRELSE**: **”ändra y med 10”**
 
-  ![image alt text](imse8handelser.png)
+![image alt text](imse8handelser.png)
 
-  ![image alt text](imse9andray.png)
+![image alt text](imse9andray.png)
 
 > Testa nu vad som händer när du trycker på spindeln. Den flyttar sig uppåt! Det är bra, men du vill ju att spindeln ska fortsätta uppåt på tråden. Hur gör du det?
 
 2.	Det kan du ordna med blocket **”repetera 10”** som finns under rubriken **KONTROLL**. Det här är en LOOP som gör att du kan upprepa en viss kod ett antal gånger.
 
-  ![image alt text](imse10repetera.png)
+![image alt text](imse10repetera.png)
 
 3. Markera **10:an** och skriv in **7** istället, så att loopen körs _7_ gånger. Då kan du sjunga med i ramsan när spindeln åker upp!
 
@@ -185,7 +186,7 @@ Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
-  ![image alt text](imse23nyttmedd.png) .  ![image alt text](imse24skapamedd.png)
+![image alt text](imse23nyttmedd.png)![image alt text](imse24skapamedd.png)
 
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
@@ -335,8 +336,7 @@ För att illustrera denna barnvisa kan du till exempel:
   * När du klickar på den nya elefanten så dansar båda två på tråden
   * När de har dansat klart så dyker det upp en tredje elefant
 
-Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/117364599/
-" target="_blank">här på Scratch</a>
+Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/117364599/" target="_blank">här på Scratch</a>
 
 ## Frågeställningar
 
