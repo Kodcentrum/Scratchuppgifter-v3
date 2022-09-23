@@ -186,7 +186,8 @@ Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
-![image alt text](imse23nyttmedd.png)![image alt text](imse24skapamedd.png)
+![image alt text](imse23nyttmedd.png)
+![image alt text](imse24skapamedd.png)
 
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
@@ -202,7 +203,8 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 5. Precis som molnet Cloud är spindeln **"ladybug1"** en helt vanlig insekt men kan få flera utseende genom att man kopierar och gör fler klädslar, klädseln heter **"ladybug2"**. Kopiera klädseln **"ladybug2"** ändra spindelns mun till en ledsen mun med hjälp av ritverktygen.
 
-![image alt text](imse26kladselspindel.png) . ![image alt text](imse26bkladselspindel.png)
+![image alt text](imse26kladselspindel.png)
+![image alt text](imse26bkladselspindel.png)
 
 6. Spindel sprajten har nu två klädslar, som heter ladybug2 och ladybug3. Klädseln **”ladybug3”** ser lite mer ledsen ut så välj den i **”ändra klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
