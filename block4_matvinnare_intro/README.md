@@ -90,8 +90,7 @@ Nu ska du skapa en variabel som mäter hur många kilo (kg) mat som du slänger 
 
     ![image alt text](image_11.png)
 
-**Testa ditt projekt! Klicka på START.** Står viktmätaren på 0 när du
-startar programmet?
+**Testa ditt projekt! Klicka på START.** Står viktmätaren på 0 när du startar programmet?
 
 ## 5: Väg maten som slängs
 
