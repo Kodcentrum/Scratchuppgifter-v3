@@ -1,4 +1,4 @@
-﻿# Matvinnaren - intro
+# Matvinnaren - intro
 
 Brukar du slänga mat som du inte orkar eller vill äta upp? Det gör rätt
 många av oss, i Sverige slänger vi mat som motsvarar ett utsläpp på
