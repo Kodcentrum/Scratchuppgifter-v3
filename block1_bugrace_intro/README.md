@@ -40,7 +40,8 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
 4. För att ändra på bakgrunden trycker du först på den vita lilla rutan längst ner till höger där det står **SCEN**, så den blir markerad. Klicka sedan på fliken **BAKGRUNDER** som du finner högst upp till vänster.
 
-    ![image alt text](Aktivera_Scen_Bakgrund.png)	    ![image alt text](Aktivera_Bakgrunder-flik.png)
+    ![image alt text](Aktivera_Scen_Bakgrund.png)
+    ![image alt text](Aktivera_Bakgrunder-flik.png)
 
 5. Tryck på blå knappen som det står **"Gör till bitmapp** på. 
 
