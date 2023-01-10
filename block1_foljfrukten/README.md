@@ -1,4 +1,6 @@
-# Följ frukten
+# Nu ska vi koda frukt! 
+
+## Följ frukten
 
 I denna uppgift ska du få leka med koordinater i Scratch. Koordinater behövs för att ange någon eller någots position. Du ska få animera en robot så att den rör sig runt på scenen och äter frukt.
 
