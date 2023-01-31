@@ -1,4 +1,4 @@
-# Påskjakt Plattform
+# Fotbollsjakten
 
 Här kan du bygga en klassikt plattformsspel om påskharen som är på jakt efter ägg! Vi har valt det som tema till spelet, men tänk på att du kan själv välja att ersätta med en egen karaktär och andra objekt som kan ge eller ta bort poäng.
 
