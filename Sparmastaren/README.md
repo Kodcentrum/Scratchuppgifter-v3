@@ -5,6 +5,7 @@ I spelet Sparmästaren är målet att spara pengar och försöka att få räntan
 Testa ett exempelspel av Sparmästaren nedan.
 
 ![](image001.png)
+
 **HUR KODAR JAG?**
 
 Följ denna instruktion steg för steg och koda ditt projekt i verktyget Scratch. [Klicka här för att öppna Scratch i en n](https://scratch.mit.edu/)[y](https://scratch.mit.edu/)[flik.](https://scratch.mit.edu/)I Scratch klickar du på Skapa för att börja. Logga gärna in på Scratch så kan du även spara och dela ditt projekt. Det är gratis att skaffa ett konto.
@@ -67,6 +68,7 @@ Ungefär så här kan nu spelet se ut.
  7. Testa lägg till en ny gul heltäckande färg på knappen genom att använda hink verktyget och fyll myntet med valfri färg, i detta exempel använder jag färgen gul. Därefter väljer ni **text verktyget** och skriver **100KR.** Om myntet är för stort så kan ni förminska den under **Storlek**.
 
 8.Kopiera myntet som ni precis gjorde så ni har nu två mynt.
+
  ![](image011.png)
 
 9. Gå in på andra myntet och skriv **2%** i stället för **100KR.** Då har ni **ett mynt som är 100KR och ett mynt på 2%.**
@@ -105,11 +107,15 @@ Testa nu vad som händer när du trycker på START. Flyttar sig ditt mynt åt de
 
 1. Under blåa rubriken **RÖRELSE** finns kodblocket **"glid 1 sek till X: Y:"**
 
-Dra in **"glid"** -blocket och lägg den direkt under **"gå till X: Y:"** så blocket **"glid 3 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra. ![](image017.png)
+Dra in **"glid"** -blocket och lägg den direkt under **"gå till X: Y:"** så blocket **"glid 3 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra. 
+
+![](image017.png)
 
 För att myntet ska fortsätta att falla nedåt så måste vi lägga till ett "för alltid" **LOOP**. "Glid 3 steg" kommer då att upprepas för alltid - om och om igen, så myntet faller och faller och faller.
 
-Testa att trycka på START - alltså den gröna flaggan ovanför spelet. ![](image018.png)
+Testa att trycka på START - alltså den gröna flaggan ovanför spelet. 
+
+![](image018.png)
 
 ## 4: Sätt en rörelsepunkt
 
@@ -118,6 +124,7 @@ För att slippa starta om spelet varje gång myntet har fallit ned en gång så 
 Innan du gör ditt skript, se till att din spargris är på rätt startposition på banan som du tycker din sprajt alltid ska börja på.
 
 1. Under **KONTROLL** väljer du blocket **"om \_\_ då"** och koppla fast blocket direkt under **"glid 3 sek X: Y:"** , inne **"för alltid"** -loopen. Sedan under **KÄNNA AV** väljer du kodblocket " **rör vid muspekare.**" och ändrar det blåa känna av blocket till den rätta sprajten som du valt som spargris. 
+
 ![](image019.png)
 
 Nu kommer myntet automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
@@ -138,7 +145,8 @@ Gör såhär:
 ![](image021.png)
 
 Nu ska du dra in **"ändra min variabel med 1"** in i ditt sparande mynt. Tryck på lilla vita pilen bredvid "min variabel" och välj din nya variabel **"sparande"** och skriv in **100** istället för **1**.
- ![](image022.png)
+
+![](image022.png)
 
 1. Nu ska vi ta emot ett meddelande från "ränta." Så inne på **händelser** måste vi hämta ett block som heter **"när jag tar emot meddelande"** och lägg till ett nytt meddelande **"ränta."** Sedan lägg till ett **"visa"** block från utseende, **"vänta 2 sekunder"** och **"ändra sparande med 2."** Ditt sparande kommer nu öka med 2kr.
 
@@ -179,9 +187,13 @@ Det sista steget vi ska göra är att gå in på bakgrunder och lägga till **"m
 Gör såhär:
 
 1. Klicka på **SCEN** som är längst bort till höger. Gå till **händelser** och lägg till startblocket **"när grön flagga klickas på"** , en **"för alltid"** loop och **"vänta 1 sekunder."** Gå in på variabler kategorien och välj **"ändra månader med 1"** ändra 1an till **-1** då vi ska räkna ner månaderna.
- ![](image029.png)
+ 
+![](image029.png)
+
 2. Vårt nästa steg är att lägga in ett nytt start kodblock under **SCEN** och lägga till tre **"sätt \_\_\_ till 0"** och sätta **sparande** och **ränta** till 0 och sätta **månader** till 36.
- ![](image030.png)
+
+![](image030.png)
+
 3. Vårt sista steg är att gå tillbaka till vår **sprajt** med **myntet på 2%** lägga till ett **"skicka meddelande"** på 2% där du ska lägga in ett nytt meddelande som heter **"ränta".**
 
 ![](image031.png)
