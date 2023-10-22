@@ -73,7 +73,7 @@ Se i videon ovan hur du ska:
 ![image alt text](utseende_sag_hej.png)
 
 4. Klicka på ordet *Hej* i det lila kodblocket du just lade till och ändra texten till så att din robot presenterar vilken årskurs, vilken skola och vilket Globalt mål ni valt.I vårt exempel har vi gjort en Globalspanare som säger: *Hej! Vi är från åk 5 i XXXskolan. Vi har valt att spana på det Globala målet nr 6!*.
-   !
+   
    ![image alt text](utseende_text_intro.png)
 
 >**Testa koden!** Klicka på den lilla flaggan ovanför scenen och testa koden. Presenterar sig Globalspanaren?
