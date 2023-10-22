@@ -49,7 +49,7 @@ Nu har du din Globalspanare nr 1 och en bakgrund. Nu ska vi börja koda vad din 
 
 ## 2: Globalspanarens frågor
 
-Nu ska du få din robot att fråga vad du behöver hjälp med. Det kan vara att exempelvis hjälpa dig att välja maträtt till middag, välja kläder om regn eller soligt ute eller peppa dig med glad musik om du känner dig ledsen. I vårt exempel har vi valt att skapa en robot som hjälper oss välja middagsmat.
+Nu ska du få din globalspanare att svara på frågor om de globalamålen. Det kan exempelvis vara fårgor som; hur säkerställer vi att alla får en god utbildning, eller hur ska vi människor leva för att svara snäll med naturen och djuren.  I vårt exempel har vi valt att skapa en globalspanare som -- skriv det som händer i den inspelade filmen>
 <video src="./MinRobot_2.mp4" controls muted height=480 width=640 />
 
 >**VAD SKA JAG GÖRA?**
@@ -140,55 +140,8 @@ Se i videon ovan hur du ska:
 
 Nu har vi en Globalspanare som kan hjälpa dig och berätta om klassens spaningar lokalt och globalt kring det Globala målet klassen valt! Men visst vore det kul om den spelade lite musik och rörde på sig! Vi pimpar vår Globalspanare lite!
 
-## 4: Globalspanaren spelar ljud
-Nu ska vi lägga på lite musik eller ljudeffekter till din Globalspanares olika svar.
-<video src="./MinRobot_4.mp4" controls muted height=480 width=640 />
 
->**VAD SKA JAG GÖRA?**
-
-Se i videon ovan hur du ska:
-- Lägg till två ljudblock inom villkoret
-- Lägga till nytt ljud
-- Ändra ljudet i ljudblocket så rätt spelas
-
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
-
-1. Först ska vi lägga till kodblocken för ljud, så att Globalspanaren vet när den ska spela sin musik. Under tema **LJUD** väljer du kodblocket **Starta ljud** *Pop*. Dra in två sådana block och lägg dem inuti vardera villkors-loop för **om...då**, så det ser ut såhär:
-
-![image alt text](Robot_kod_ljud_pop.png)
-
->**Tips!** Ibland kan det stå något annat ljud än just ljudet **Pop** i kodblocket. Det är ok, välj det ändå.
-
->**Testa koden!** Kör igång ditt projekt och testa koden. Hörs det ett ljud efter att Globalspanaren svarat på ditt knappval? Om du hör ljudet så vet du att din Globalspanare kan skapa ljud. Om du inget hör, kolla att högtalarna på din dator är på och volymen bra och prova att starta projektet igen.
-
-2. Nu ska vi välja ett nytt ljud eller musik som du tycker passar din Globalspanares två olika svar. Klicka på **fliken** som heter **Ljud** i övre vänstra hörnet i Scratch. Då kommer du till Scratch ljudredigerare, där du kan välja nya ljud.
-
-![image alt text](Flik_ljud.png)
-
-3. Nu ska vi välja två olika ljud eller musiksslingor som du tycker passar för din Globalspanares två olika svar. Klicka på **Välj nytt ljud** som är den lilla blå knappen med en vit högtalare på i nedre vänstra hörnet av Scratch.
-
-![image alt text](image_41.png)
-
-4. Om du vill ha musik väljer du kategorin **Loopar** högst upp, vill du ha ljudeffekter kan du välja kategorin **Effekter**. Lyssna på de olika ljuden genom att klicka på de lilla små Play-knapparna. När du hittat ett ljud du vill ha klickar du mitt på ljudets svarta hägtalarbild så läggs ljudet till i ditt projekt.
-
-![image alt text](Ljud_Loopar.png)
-
-5. Gör om steg 2 och 3 och välj ditt andra ljud till ditt projekt. I vårt exempelprojekt har vi valt två likadana datorljud som heter  **computer beep**.
-
-6. När du är nöjd klickar du på fliken **KOD** i övre vänstra hörnet av Scratch, så kommer du tillbaka till Globalspanarens skriptyta med all kod igen.
-
-![image alt text](flik_kod.png)
-
-7.  Klicka nu på den lilla pilen i dina kodblock för ljud. Byt ljudet som ska spelas till något av de nya ljud som du valt. I vårt exempelprojekt ser nu koden ut såhär:
-
-![image alt text](Robot_ljudblock_ljud.png)
-
->**Testa koden!** Spelar Globalspanaren dina nya ljud när du testar dina olika svarsknappar?
-
-Nu har vi en Globalspanare som svarar och som spelar ljud. Kul om den rör sig lite också. Vi lägger till kod för rörelse!
-
-## 5: Globalspanaren rör sig
+## 4: Globalspanaren rör sig
 För att göra Globalspanaren mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika rörelser.
 <video src="./MinRobot_5.mp4" controls muted height=480 width=640 />
 
