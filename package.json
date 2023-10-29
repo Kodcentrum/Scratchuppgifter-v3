@@ -15,8 +15,11 @@
     "start": "gulp"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-markdown": "^1.0.0",
     "gulp-wrapper": "^1.0.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }

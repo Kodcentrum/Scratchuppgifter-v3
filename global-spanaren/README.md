@@ -126,11 +126,11 @@ Se i videon ovan hur du ska:
 
 5. Nu ska vi ändra så att svaret blir lika med ett av Globalspanarens givna svarsval i det gröna operatorblocket. Klicka på variabelsiffran 50 och skriv istället ett av Globalspanarens två svarsval, lokalt eller globalt. I vårt exempel med vår Globalspanare skriver vi svarsvalet *lokalt*.
 
-![image alt text](Robot_svarsval_kött.png)
+![image alt text](Robot_svarsval_lokalt.png)
 
 6. Nu vet Globalspanaren vilket svar vi valt och kan hjälpa dig, dax att lägga till Globalspanarens egna svar. Under tema **UTSEENDE** finns blocket **säg Hej! i 2 sekunder**. lägg in det blocket inuti den gula villkors-loopen. Ändra texten till Globalspanarens svar som berättar mer om det val du skrivit till den. I vårt exempel blir koden med svaret såhär:
 
-![image alt text](Robot_hjälpande_svar_köttbullar.png)
+![image alt text](Robot_svar_mål_6_lokalt.png)
 
 7. Gör nu en exakt likadan kod till som den du just gjort för det första svarsvalet ovan, men som istället styr vad som händer om du svarar det andra svarsvalet. Exempelvis om vi svarar Globalroboten att vi vill höra den berätta om *globalt* istället för *lokalt*. Repetera steg 1-6 ovan för att bygga en likadan kodbit till. Sätt in hela kodbiten direkt under det förra, så det ser ut såhär:
 
@@ -140,138 +140,53 @@ Se i videon ovan hur du ska:
 
 Nu har vi en Globalspanare som kan hjälpa dig och berätta om klassens spaningar lokalt och globalt kring det Globala målet klassen valt! Men visst vore det kul om den spelade lite musik och rörde på sig! Vi pimpar vår Globalspanare lite!
 
+## 4: Skapa en robot som presenterar GlobalSpanaren
 
-## 4: Globalspanaren rör sig
-För att göra Globalspanaren mer levande kan den gärna få röra sig. Det kan man lösa på olika sätt för att få fram olika rörelser.
-<video src="./MinRobot_5.mp4" controls muted height=480 width=640 />
+Först ska vi skapa en ny sprajt för vår presenterar robot. Detta kan vi göra på samma sätt som förut, välj en passande sprajt. Jag valde en flygande robot!
 
->**VAD SKA JAG GÖRA?**
+![image alt text](skapa-presenterar-robot-pil.png)
 
-Se i videon ovan hur du ska:
-- Lägg till två rörelseblock, ett i vardera villkor, för Globalspanaren att glida iväg
-- Lägg till en startposition för er Globalspanare
-- Animera Globalspanarens olika klädslar med block för att ändra klädsel, ett i vardera villkor
-- Lägg till en bestämd första Globalspanarklädsel när projektet startas
+När du har valt en passande sprajt så kommer den ha egen kod som vi nu ska programmera.
+Först vill vi att den ska visa sig när vi startar klickar på grön flagga. Vi vill även att den ska presentera vilken skola och vilket mål ni har utforskat.
 
-<br>
->**INSTRUKTION HUR JAG GÖR STEG-FÖR-STEG:**
+![image alt text](visa-presenteraren-start.png)
 
-1. Under tema **RÖRELSE** finns kodblocket **glid 1 sekunder till slumpmässig position**. Dra in två sådana block och lägg ett inuti vardera villkor med **om...då**. Då ser koden ut såhär:
+Nu vill vi att denna spajt ska presentera och visa er globalspanare när vi klickar på mellanslag. Först behöver vi så att denna sparjt ska reagera när en tagenten mellanslag trycks ner. Se bilden nedan
 
-![image alt text](Robot_kod_rörelse_glid.png)
+![image alt text](mellanslag.png)
 
-2.. För att Globalspanaren alltid ska ha samma startpunkt varje gång du startar om, behöver du lägga in en **startposition** i koden. Se först till att din Globalspanare står på det ställe där du vill den alltid ska starta, du kan dra Globalspanar-sprajten dit du vill den ska stå. Under tema **RÖRELSE** finns kodblocket **gå till x: __ och y: __**. Dra in detta block och lägg det direkt under blocket **När GRÖN FLAGGA klickas på**.
+Nu ska vi göra så att presenteraren ska prata med er globalspanare. Detta kan vi göra genom att presenteraren ska skicka ett meddelande till globalspanaren när ni trycker på mellanslag.
+Först dra ut ett "skicka meddelande" kloss och placera den under "när mellanslag trycks ned". Skriv sedan ett meddelande som ni vill att globalspanaren ska få. I vårt fall skrev vi "visa globalspanare".
+Vi vill även att presenteraren ska gömma sig när vi trycker på mellanslag igen. Detta kan vi göra genom att presenteraren ska skicka ett meddelande till globalspanaren när ni trycker på mellanslag.
 
-![image alt text](Robot_kod_startposition.png)
+![image alt text](visa-globalspanaren.png)
 
->**Testa koden!** Vad händer när du kör koden? Rör sig Globalspanaren när den svarat dig? Hoppar den tillbaka till sin startposition varje gång du klickar på den gröna flaggan?
+Nu vill vi gå tillbaka till vår globalspanare och lägga till en kod som gör att den ska reagera när den får ett meddelande från presenteraren. Först behöver vi så att denna sparjt ska reagera när den får ett meddelande. Se bilden nedan.
+Vi behöver ett block "När jag tar emot meddelanden" och ett block "om meddelande = visa globalspanare". Vi vill även att globalspanaren ska visa sig när den får meddelandet. Detta kan vi göra genom att lägga till ett block "visa" under "om meddelande = visa globalspanare".
 
-3. Om du vill kan du även animera din Globalspanare så den ändrar sig i utseendet. Det kan du göra genom att växla mellan olika bilder av Globalspanar-sprajten. I Scratch kallas bilderna det för sprajtens **klädslar**. Alla sprajtar har inte flera klädslar, men många har det. Kontrollera vilka klädslar din sprajt har genom att klicka på fliken **KLÄDSLAR** som finns i övre vänstra hörnet. Då ser du sprajtens klädslar till vänster. I vårt exempel ser vår Globalspanar klädslar ut såhär:
+![image alt text](visa-global-spanaren-kod-meddelanden.png)
 
-![image alt text](Robot_klädslar.png)
+Sedan vill vi även att globalspanaren ska gömma sig när vi startar spelet. Detta kan vi göra genom att lägga till ett block "göm" under "när gröna flaggan klickas på".
 
-4. Varje klädsel har ett namn. Dessa går att lägga in i kod-skriptet så att du kan byta klädslar. Bestäm först vilken klädsel du vill att din Globalspanare ska ha varje gång den startas. Under tema **UTSEENDE** finns blocket **ändra klädsel till...**. Lägg blocket direkt under översta blocket med gröna startflaggan. Klicka sen på lilla **pilen i blocket** och ändra till den klädsel du vill ha som start-klädsel.
+![image alt text](göm-globalspanaren-start.png)
 
-![image alt text](Robot_kod_klädsel_byt.png)
+Nu kan du testa din kod genom att trycka på gröna flaggan. Fungerar allt? Om inte, gå tillbaka och kolla igenom koden. Om allt fungerar kan du gå vidare till nästa steg.
 
-5. Lägg nu in två likadana block till med **ändra klädsel till...**. Lägg ett block inom vardera villkors-loop **om...då**. Ändra dem till den klädsel du vill att din Globalspanare ska få varje gång den gett sitt svar. Såhär kan koden se ut nu:
+## 5: Ändra bakgrund beroende på fråga!
 
-![image alt text](Robot_kod_klädsel_olika.png)
+Först vill vi ha samma bakgrund varje gång vi startar presentationen! Detta kan vi göra med att sätta bakgrund i starten av koden. Se bilden nedan. Välj en bakgrund som passar er presentation.
 
->**Testa koden!** Vad händer när du kör koden? Rör sig Globalspanaren? Byter den klädslar?
+![image alt text](välj-standard-bakgrund.png)
 
-> **Tips!** Om din sprajt saknar fler klädslar, eller om du ritat din egen sprajt, kan du skapa fler klädslar genom att exempelvis kopiera sprajtens enda klädsel (högerklicka på den enda klädsel som finns och välj kopiera, så får du en till likadan) och sedan ändra lite på den nya klädseln som skapades. Kanske du vill ändra färg på sprajten med hink-verktyget, eller måla dit en glad mun eller stora ögon?
+Nu vill vi att bakgrunden ska ändras när globalspanaren dyker fram! Detta kan vi göra genom att lägga till samma block som innan då globalspanaren visar sig. Se bilden nedan.
+Välj en passande bakgrund, eller varför inte slumpa en bakgrund?
+![image alt text](bakgrund-globalspanaren.png )
 
-## Färdig!
-Grattis, nu har du gjort klart uppgiften. Om du har följt vår instruktion ser den färdiga koden ut ungefär såhär:
+Testa gärna koden! Fungerar det?
 
-![image alt text](Robot_färdigt_skript.png)
-
-**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
-
-> **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
-OBS!! Lägg till kod för Globalspanare nr 2 - Klassens ide´för att förbättra det Globala målet.
-
-OBS!!!!! Ta bort ## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
-
-**Slumpa fram fler svar**
-![image alt text](slumpsvar_scenbild.png)
-
-För att din  ska kännas mer som att den är en smart robot som kan "tänka själv", kan du lägga till att den ska slumpa fram olika svar till dig. Då varierar den svaren varje gång du ber den svara.
-För att roboten ska kunna slumpa behöver den olika svar i en lista. Den behöver en lista för vardera val vi svarat på, exempelvis om vi svarat att vi vill äta vegetariskt eller kött i vår Matrobot, så behöver vi skapa två listor, en med vegetariska rätter att välja mellan och en för kötträtter. Vi börjar med att skapa två listor med olika savrsval.
-
-1. Under tema **VARIABLER** klickar du på **Skapa en lista**.
-
-![image alt text](Variabler_Skapa_en_lista.png)
-
-2. Namnge din nya lista till ett av dina svarsval, exempelvis *Vegetariska rätter* som i vårt exempel med Matrobot.
-
-![image alt text](lista_vegetariska_rätter.png)
-
-3. Gör en exakt likadan lista till som du döper för ditt andra svarsval, som i vårt exempel blir *Kötträtter* med vår Matrobot.
-
-4. Nu har du fått fram två listor som heter dina valda namn (exempelvis Vegetariska rätter och Kötträtter). Det syns bland dina block och även som två tomma listor på scenen bredvid din robot.
-
-![image alt text](två_listor_svarsval_skapade.png)
-![image alt text](listor_tomma.png)
-
-5. Nu ska du lägga till tre stycken olika svar i respektive lista, som roboten kan slumpa fram när den ska svara. Under tema **VARIABLER** drar du ut blocket **lägg till** *grej* **i** *Kötträtter*. (istället för vårt exempel med "Kötträtter" står det här ett av dina skapade namn på en av dina svarslistor.) Lägg blocket fritt på din skriptyta med kod.
-
-6. Istället för ordet *grej* skriver du nu in ett svarsalternativ som passar för just denna lista. I vårt exempel med listan *Kötträtter* kan ett svar från Matroboten exempelvis vara *lasagne*.
-
-7. Dra ut två till likadana kodblock till och byt ut ordet *grej* till andra svar som passar för denna lista. I vårt exempel blir det *köttbullar* och *korvgryta*. Sätt alla de tre kodblocken under varandra så de sitter ihop.
-
-![image alt text](lista_kötträtter_svarsval.png)
-
-8. Från tema **HÄNDELSER** drar du in startblocket **när GRÖN FLAGGA klickas på**. Lägg det överst på de andra kodblocken. När du startar om din robot, vill du att din svarslista alltid ska vara tom, så från tema **VARIABLER** drar du även in kodblocket **ta bort alla** *Kötträtter*. Lägg det direkt under **när GRÖN FLAGGA klickas på**, så det ser ut såhär:
-
-![image alt text](lista_färdig_tre_svar.png)
-
-9. Gör nu ett exakt likadant kodskript för din andra lista. Lägg den bredvid din första. Notera att du behöver klicka på lilla pilen och byta till din andra svarslista, i vårt exempel byter vi alltså från *Kötträtter* till *Vegetariska rätter* i kodblocken. När du är färdig kan koden och din robot på scenen se ut exempelvis såhär:
-
-![image alt text](listor_två_olika_färdiga.png)
-![image alt text](matrobot_scen_med_listor.png)
-
-10. Nu ska vi lägga in kod i robotens stora kodskript, så att roboten kan hämta svar att slumpa ut ur de två olika listorna. Leta fram kodblocket i robotens kod där det står **säg ___ i 2 sekunder** (exempelvis **sä "Då lagar jag köttbullar!" i 2 sekunder**). Nu ska vi byta ut det som roboten säger där mot slumpade svar som hämtas ur en av listorna. Under tema **OPERATORER** drar du in blocket **sammanfoga äpple och banan**. Lägg in detta block ovanpå den text som står efter ordet **säg...**, såhär:
-
-![image alt text](operatorblock_sammanfogaÄppleBanan.png)
-
-11. Nu ska vi koda in vilken lista som roboten ska hämta sina svarsval från. Från tema **VARIABLER** drar du in kodblocket **post 1 i** *Kötträtter*. (Det står något av dina listors namn i kodblocket, du kan byta med lilla pilen i kodblocket, så det hämtar svar från rätt lista.) Dra in kodbiten och lägg den inuti den gröna operatorblocket där det står **banan**. Så här:
-
-![image alt text](post_1_i_kötträtter.png)
-
-12. Just nu visar din kod att roboten alltid ska välja att posta svaret nummer 1 ur listan, men vi vill ju att den ska slumpa svar från hela listan. Nu ska vi lägga till kod för slump, så roboten kan ge olika svar från sina listor. Under tema **OPERATORER** finns kodblocket **slumptal 1 till 10**. Dra in det och lägg det ovanpå där det står siffran **1** i orangea variabelkoden, direkt efter **säg sammanfoga post...**. Så här:
-
-![image alt text](slumptal_kodbit.png)
-
-Ändra sedan variablen i operatorn så att det står **slumptal 1 till 3**, då du endast har 3 svarsval i din lista.
-
-![image alt text](kod_slump_svar_3.png)
-
-13. Byt nu ut texten **äpple** till något som passar vad din robot ska säga. I vprt exempel med vår Matrobot skriver vi istället: *Då lagar jag *. Sedan kommer svaret från listan att stå efter, exempelvis *Då lagar jag lasagne*.
-    Nu ska koden i skriptet se ut såhär:
-
-![image alt text](Färdig_slump_kötträtter.png)
-
-> **Testa koden!** Vad händer när roboten svarar dig? Slumpar den fram olika svar varje gång du startar om med gröna flaggan?
-> **Tips!** Sitter orden ihop i svaret? Lägg då till ett mellanslag efter texten *"Då lagar jag "* så får du mellanrumm mellan din svarsmening och ditt slumpade svar.
-
-14. Skapa nu exakt samma kod igen längre ned i din robots kodskript, så att den kan hämta slumpade svar från din andra lista också. I vårt exempel med vår Matrobot ser då hela koden ut såhär:
-
-![image alt text](Robot_färdig_kod_med_slump_listor.png)
-
-15. För att listorna med svarsvalen inte ska synas på scenen med roboten lägger du slutligen till två stycken block **göm listan ____** som finns under tema **VARIABLER**. Lägg en vardera under de två skripten med variabler för de två listorna, direkt inunder **när GRÖN FLAGGA klickas på**, så det ser ut såhär:
-
-![image alt text](slumpsvar_scenbild.png)
-
-Notera att du behöver ändra namnet på listan i kodblocket, så det är ett block med vardera listas namn i sig.
-
-> **Testa koden!** Ger roboten slumpade svar från de två olika listorna? Är listorna synliga på scenen?
-
-Nu har du en robot som kan slumpa fram svar. Utmana dig genom att lägga till fler svar och ändra i antalet som roboten kan slumpa fram. Kanske till och med fler listor?
+Nu kan vi även lägga till så att bakgrunden ändras beroende på om vi svarar lokalt eller globalt. Placera in samma block i om-satsen som innan. Se bilden nedan.
+Välj en passande bakgrund. Fungerar det?
+![image alt text](visa-globalspanaren-kod-allt-med-bakgrund.png)
 
 
 ## Frågeställningar
