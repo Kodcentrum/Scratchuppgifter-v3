@@ -15,7 +15,7 @@
     "start": "gulp"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-markdown": "^1.0.0",
     "gulp-wrapper": "^1.0.0"
   }
