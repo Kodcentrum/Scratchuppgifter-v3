@@ -1,39 +1,47 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
-<h1 id="f-delsedagskort">Födelsedagskort</h1>
-<p>Här får du göra ett digitalt födelsedagskort som du kan skicka till någon som fyller år. Det är interaktivt så att födelsedagsbarnet kan skriva in sitt namn och bli personligt firad med fest, musik och tårta! Kortets tema går att ändra om du vill göra julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.</p>
-<p><img src="image_0.png" alt="image alt text"></p>
+<h1 id="julkort">Julkort</h1>
+<p>Här får du göra ett digitalt julkort som du kan skicka till någon du vill hälsa God Jul till. Det är interaktivt så att mottagaren av kortet  kan skriva in sitt namn och bli personligt julfirad med fest, musik och julklappar! Kortets tema går att ändra om du vill göra födelsedagskort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Här kan du se ett exempelprojekt på ett julkort: <a href="https://scratch.mit.edu/projects/266913274/" target="_blank"></p>
+<p><img src="image_0.png" alt="image alt text"></a></p>
+<blockquote>
+<p>Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.</p>
+</blockquote>
+<p>  Då börjar vi koda!</p>
 <h2 id="1-v-lja-sprajtar-och-bakgrund">1: Välja sprajtar och bakgrund</h2>
-<p>Först behöver du en festlig <strong>bakgrund</strong> och några dansande <strong>sprajtar</strong>!</p>
+<p>Först behöver du en vintrig <strong>bakgrund</strong> och några juliga <strong>sprajtar</strong> som figurer!</p>
 <ol>
 <li><p>Tryck på <strong>Skapa</strong> på Scratch startsida för ett skapa ett nytt projekt.</p>
 </li>
-<li><p>Lägg till en bakgrund, till exempel <strong>Musik och Dans &gt; Party</strong>.</p>
+<li><p>Lägg till en bakgrund, till exempel <strong>Natur &gt; Winter</strong>.</p>
 </li>
-<li><p>Behåll katten som sprajt eller välj någon annan som huvudkaraktär.</p>
+<li><p>Klipp bort sprajten katten genom att klicka en gång på saxen högst upp och sen en gång på katten, så förvinner den.</p>
 </li>
-<li><p>Lägg till två nya sprajtar som ska dansa på var sin sida om katten. Till exempel <strong>Musik och Dans &gt; Ballerina</strong> och <strong>Musik och Dans &gt; Cassy Dance.</strong> Lägg alla tre sprajtar bredvid varandra på <strong>scenen</strong> med utrymme för att dansa.</p>
+<li><p>Välj en ny sprajt som huvudkaraktär i ditt julkort. Vi har valt en pingvin med tomteluva <strong>Djur &gt; Penguin3</strong>, men du kan välja vad du vill såklart.</p>
+</li>
+<li><p>Lägg in två till sprajtar som ska dansa på var sin sida om pingvinen. Till exempel <strong>Saker &gt; Tree-lights</strong> och <strong>Djur &gt; Bear1.</strong> Lägg alla tre sprajtar bredvid varandra på <strong>scenen</strong> med utrymme för att dansa.</p>
 </li>
 </ol>
-<p>Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedagskortet att:</p>
+<p>Nu har du dansare och bakgrund till festen. Nästa steg är att få julkortet att:</p>
 <ul>
-<li><p>Fråga vem som fyller år</p>
+<li><p>Fråga mottagaren : Vad heter du?</p>
 </li>
-<li><p>Spela upp en födelsedagssång</p>
+<li><p>Spela upp musik</p>
 </li>
-<li><p>Få alla att dansa på sitt eget sätt</p>
+<li><p>Få alla sprajtar att dansa på sitt eget sätt</p>
 </li>
-<li><p>Säga grattis till födelsedagsbarnet</p>
+<li><p>Säga God Jul till mottagaren av kortet</p>
 </li>
 </ul>
-<h2 id="2-fr-ga-efter-f-delsedagsbarnets-namn">2: Fråga efter födelsedagsbarnets namn</h2>
-<p>Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.</p>
-<ol>
-<li><p>Gå till kattens sprajt och skapa ett skript som säger:</p>
+<h2 id="2-fr-ga-efter-mottagarens-namn">2: Fråga efter mottagarens namn</h2>
+<p>Vi börjar med första steget! Du ska få pingvinen (eller den sprajt du bytt ut till) att fråga vad kortets mottagare heter.</p>
+<ol start="4">
+<li><p>Välj pingvinens sprajt och skapa ett skript till den som säger:</p>
 <ul>
 <li><p>Startar när START-flaggan klickas på.</p>
 </li>
-<li><p>Välj <strong>KÄNNA AV</strong>: <strong>&quot;Fråga ___ och vänta&quot;</strong> och skriv in &quot;<em>Vem fyller år?&quot;</em>.</p>
+<li><p>Välj <strong>KÄNNA AV</strong>: <strong>&quot;Fråga ___ och vänta&quot;</strong> och skriv in &quot;<em>Vad heter du?&quot;</em>.</p>
 </li>
 </ul>
 <p><img src="image_1.png" alt="image alt text"></p>
@@ -42,23 +50,12 @@
 <p><em>När du har skrivit in ett namn i rutan, tryck på Enter.
 Du kommer att förstå senare vad namnet ska användas till!</em></p>
 <blockquote>
-<p>Testa ditt projekt! Klicka på START. Frågar katten &quot;Vem fyller år?&quot;? Kan du skriva ett svar på frågan i rutan?</p>
+<p>Testa ditt projekt! Klicka på START. Frågar pingvinen &quot;Vad heter du?&quot;? Kan du skriva ett svar på frågan i rutan?</p>
 </blockquote>
-<h2 id="3-katten-kan-dansa-">3: Katten kan dansa!</h2>
-<p>Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist! Katten ska vända sig fram och tillbaka, så du behöver skapa en ny <strong>klädsel</strong> åt katten.</p>
+<h2 id="3-pingvinen-kan-dansa-">3: Pingvinen kan dansa!</h2>
+<p>Nu vill du ge pingvinen några dansrörelser till musik. </p>
 <ol>
-<li><p>Klicka på kattens sprajt och gå till fliken KLÄDSLAR.</p>
-</li>
-<li><p>Ta bort <em>Costume2</em>.</p>
-</li>
-<li><p>Kopiera <em>Costume1</em> med stämpeln, så att du har två likadana klädslar.</p>
-<p><img src="image_2.png" alt="image alt text"></p>
-</li>
-<li><p>Välj kopian som nu heter <em>costume2</em> och klicka på knappen för att &quot;vända vänster-höger&quot; som du hittar i övre, högra hörnet.</p>
-<p><img src="image_3.png" alt="image alt text"></p>
-<p>Nu har du två klädslar som du kan animera för att skapa en dans, men du behöver en melodi som katten kan dansa till.</p>
-</li>
-<li><p>Gå till fliken LJUD och välj t ex ljudet <strong>Musikloopar &gt; Birthday</strong> från biblioteket. Prova att spela genom att trycka på <strong>play</strong> knappen!</p>
+<li><p>Gå till fliken LJUD och välj t ex ljudet <strong>Musikloopar &gt; Eggs</strong> från biblioteket. Prova att spela genom att trycka på <strong>play</strong> knappen!</p>
 <p><img src="image_6.png" alt="image alt text"></p>
 <blockquote>
 <p><strong>Tips:</strong> Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!</p>
@@ -68,18 +65,18 @@ Du kommer att förstå senare vad namnet ska användas till!</em></p>
 <ul>
 <li><p>Starta när START-flaggan klickas på</p>
 </li>
-<li><p><strong>Fråga</strong> <em>&quot;Vem fyller år?&quot;</em> och vänta på svar</p>
+<li><p><strong>Fråga</strong> <em>&quot;Vad heter du?&quot;</em> och vänta på svar</p>
 </li>
 <li><p><strong>Skicka</strong> meddelandet <em>&quot;Festa&quot;</em></p>
 </li>
-<li><p><strong>Spela ljudet</strong> <em>Birthday</em> tills det har spelats färdigt</p>
+<li><p><strong>Spela ljudet</strong> <em>Eggs</em> tills det har spelats färdigt</p>
 </li>
 </ul>
 <p><img src="image_7.png" alt="image alt text"></p>
 <p><em>Meddelandet &quot;Festa&quot; kommer att bli viktigt
 om en stund. Kan du lista ut varför?</em></p>
 </li>
-<li><p>Skapa nu ett nytt skript till katten som ska:</p>
+<li><p>Skapa nu ett nytt skript till pingvinen som ska:</p>
 <ul>
 <li><p>Starta när det <strong>tar emot meddelandet</strong> <em>&quot;Festa&quot;</em></p>
 </li>
@@ -96,58 +93,71 @@ om en stund. Kan du lista ut varför?</em></p>
 </li>
 </ol>
 <blockquote>
-<p>Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar katten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.</p>
+<p>Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar pingvinen lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.</p>
 </blockquote>
-<h2 id="4-festens-slut">4: Festens slut</h2>
-<p>Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det kan du fixa med ett nytt <strong>meddelande</strong> som berättar att festen är slut, så att katten kan säga &quot;<em>Grattis&quot;</em> och sluta dansa.</p>
+<blockquote>
+<p><strong>Tips:</strong>  Saknar din sprajt olika klädslar. Då kan du skapa nya klädslar enklast såhär - och få din sprajt att dansa twist!</p>
+</blockquote>
+<p>  Klicka på din sprajt och gå till fliken KLÄDSLAR.</p>
 <ol>
-<li><p>Gör så att skriptet du gjorde i steg 10 skickar ut <strong>meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em> efter att ljudet <em>Birthday</em> har spelats.</p>
+<li><p>Kopiera <em>Costume1</em> med stämpeln, så att du har två likadana klädslar.</p>
+<p><img src="image_2.png" alt="image alt text"></p>
 </li>
-<li><p>Skapa ett nytt skript för katten som ska:</p>
+<li><p>Välj kopian som nu heter <em>costume2</em> och klicka på knappen för att &quot;vända vänster-höger&quot; som du hittar i övre, högra hörnet.</p>
+<p><img src="image_3.png" alt="image alt text"></p>
+<p>Nu har du två klädslar som du kan animera för att skapa en dans.</p>
+</li>
+</ol>
+<h2 id="4-festens-slut">4: Festens slut</h2>
+<p>Som du kan se så slutar inte pingvinen att dansa fast att melodin är slut. Det kan du fixa med ett nytt <strong>meddelande</strong> som berättar att festen är slut, så att pingvinen kan säga &quot;<em>GOd JUL&quot;</em> och sluta dansa.</p>
+<ol>
+<li><p>Gör så att skriptet du gjorde i steg 1 skickar ut <strong>meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em> efter att ljudet <em>Eggs</em> har spelats.</p>
+</li>
+<li><p>Skapa ett nytt skript för pingvinen som ska:</p>
 <ul>
 <li><p>Starta när det <strong>tar emot meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em></p>
 </li>
 <li><p><strong>Stoppa</strong> alla <em>andra skript i sprajt</em></p>
 </li>
-<li><p><strong>Säga</strong> <em>&quot;Grattis&quot;</em> och <strong>namnet du skrev in i början</strong> i 2 sekunder!</p>
+<li><p><strong>Säga</strong> <em>&quot;GOD JUL&quot;</em> och <strong>namnet du skrev in i början</strong> i 2 sekunder!</p>
 </li>
 </ul>
-<p><strong>Exempel:</strong> <em>&quot;Grattis Jasmine&quot;</em>. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!</p>
+<p><strong>Exempel:</strong> <em>&quot;GOD JUL Jasmine&quot;</em>. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!</p>
 <p><img src="image_9.png" alt="image alt text"></p>
 </li>
 </ol>
 <blockquote>
-<p>Testa ditt projekt! Slutar katten och dansa när melodin är slut? Säger katten <em>&quot;Grattis …&quot;</em> och det namn som du skrev in när kortet frågade <em>&quot;Vem fyller år?&quot;</em> i början?</p>
+<p>Testa ditt projekt! Slutar Pingvinen att dansa när melodin är slut? Säger pingvinen <em>&quot;GOD JUL …&quot;</em> och det namn som du skrev in när kortet frågade <em>&quot;Vad heter du?&quot;</em> i början?</p>
 </blockquote>
-<p><strong>Tips:</strong> Om den säger orden ihop så lägg till ett mellanslag efter <em>&quot;Grattis&quot;</em> i skriptet!</p>
+<p><strong>Tips:</strong> Om den säger orden ihop så lägg till ett mellanslag efter <em>&quot;GOD JUL&quot;</em> i skriptet!</p>
 <h2 id="5-alla-ska-dansa-">5: Alla ska dansa!</h2>
 <p>Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför <strong>skicka</strong> och <strong>ta emot meddelande</strong> är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.</p>
-<ol>
-<li><p>Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med katten.</p>
+<ol start="11">
+<li><p>Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med pingvinen.</p>
 </li>
 <li><p>Nu ska du skapa två skript för vardera sprajt. Gör skriptet för en sprajt och kopiera sedan till den andra. Bestäm själv vad som händer när de <strong>tar emot</strong> meddelanden &quot;FESTA&quot; och &quot;FESTEN SLUT&quot;.</p>
 <p><img src="image_10.png" alt="image alt text"></p>
-<p><strong>Tips:</strong> Titta på hur du gjorde skripten för katten om du inte kommer ihåg!</p>
+<p><strong>Tips:</strong> Titta på hur du gjorde skripten för pingvinen om du inte kommer ihåg!</p>
 </li>
 </ol>
 <blockquote>
 <p>Testa ditt projekt! Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.</p>
 </blockquote>
-<h2 id="6-partyst-mning-och-t-rta">6: Partystämning och tårta</h2>
-<p>Du har dansare och musik, men det är inget riktigt födelsedagsfirande utan en tårta! Tårtan ska få dyka upp i slutet av animationen. Du kan också skapa partystämning genom att byta färg på scenen i takt med musiken.</p>
-<ol>
-<li><p>Börja med tårtan. Lägg till sprajten <strong>Saker &gt; Cake</strong> från biblioteket och ställ på scenen.</p>
+<h2 id="6-julst-mning-och-julklappar">6: Julstämning och julklappar</h2>
+<p>Du har dansare och musik, men det är inget riktigt julfirande utan en julklapp! Julklappen ska få dyka upp i slutet av animationen. Du kan också skapa julstämning genom att exempelvis byta färg på scenen i takt med musiken eller lägga in julmusik.</p>
+<ol start="13">
+<li><p>Börja med julklappen. Lägg till sprajten <strong>Semester &gt; Gift</strong> från biblioteket och ställ på scenen.</p>
 </li>
-<li><p>Skapa ett skript för tårtan som säger att den ska <strong>gömma</strong> sig när START klickas på, och ett skript som säger att den ska visa sig när den tar emot meddelandet &quot;FESTEN SLUT&quot;.</p>
+<li><p>Skapa ett skript för julklappen som säger att den ska <strong>gömma</strong> sig när START klickas på, och ett skript som säger att den ska <strong>visa</strong> sig när den <strong>tar emot meddelandet</strong> &quot;FESTEN SLUT&quot;.</p>
 <p><img src="image_11.jpg" alt="image alt text"></p>
 </li>
-<li><p>Nu när vi har gjort en tårta så ska vi se till att scenen blir mer festlig genom att se till att den byter färg. Klicka på SCEN och gå till skript-fliken för. Skapa ett skript för när scenen tar emot meddelandet &quot;FESTA&quot; och ett för &quot;FESTEN SLUT&quot;.</p>
+<li><p>Nu när vi har gjort en julklapp så ska vi se till att scenen blir mer julpyntad genom att se till att scenen ändrar färg. Klicka på SCEN och gå till skript-fliken. Skapa ett skript för när scenen tar emot meddelandet &quot;FESTA&quot; och ett för &quot;FESTEN SLUT&quot;.</p>
 </li>
 <li><p>Skriptet för &quot;FESTA&quot; ska använda en LOOP som gör att scenen <strong>för alltid</strong> ska:</p>
 <ul>
-<li><p><strong>Ändra</strong> <em>färg</em> <strong>effekten med</strong> <em>25</em></p>
+<li><p><strong>Ändra</strong> <em>färg</em> <strong>effekten med</strong> _25_</p>
 </li>
-<li><p><strong>Vänta</strong> <em>2</em> <strong>sekunder</strong></p>
+<li><p><strong>Vänta</strong> _2_ <strong>sekunder</strong></p>
 </li>
 </ul>
 </li>
@@ -159,7 +169,7 @@ om en stund. Kan du lista ut varför?</em></p>
 </ol>
 <p>  <img src="image_12.png" alt="image alt text"></p>
 <blockquote>
-<p><strong>Testa ditt projekt!</strong> Kommer det upp en tårta när katten säger <em>&quot;Grattis …&quot;</em>? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?</p>
+<p><strong>Testa ditt projekt!</strong> Kommer det upp en julklapp när pingvinen säger <em>&quot;GOD JUL …&quot;</em>? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?</p>
 </blockquote>
 <h2 id="f-rdig-">Färdig!</h2>
 <p>Grattis, nu har du gjort klart uppgiften.</p>
